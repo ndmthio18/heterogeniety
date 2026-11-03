@@ -1,0 +1,66 @@
+[
+  {
+    "member": "raw/runs/RH0_174h/cell_geometry.csv",
+    "sha256": "3667de98e158fff31a71bf2571f8b17564936be8e0fe9a25b68d412977db89ee"
+  },
+  {
+    "member": "raw/runs/RH0_174h/RH0_174h.pvd",
+    "sha256": "8682cb50e2206cb01bed57ee6452c0cc016a1e0688bad29aab876f7fd38be336"
+  },
+  {
+    "member": "raw/runs/RH0_174h/RH0_174h-00000.vtu.gz",
+    "sha256": "bf1ad9b9c46ca43ab19ce8d7920e302a27b7f6ac70ade330704d0eddf34e4cad"
+  },
+  {
+    "member": "raw/runs/RH0_174h/RH0_174h-00012.vtu.gz",
+    "sha256": "8d7b46f1557c93d8c0e7985f9096e0f9a13b345217e743e05f0e64738555be5e"
+  },
+  {
+    "member": "raw/runs/RH0_174h/RH0_174h-00013.vtu.gz",
+    "sha256": "ea81ab68c7fd7d0dd3117cc9a047f2aedefc2551638f168f467b759dbd03763a"
+  },
+  {
+    "member": "raw/runs/RH0_174h/RH0_174h-00156.vtu.gz",
+    "sha256": "dcdd4d10ea9c28f610c9391bf0732ac000ecb409e74f8c5c9a75bfcc485f293c"
+  },
+  {
+    "member": "raw/runs/RH0_174h/RH0_174h-00372.vtu.gz",
+    "sha256": "f6def060ec5f2edfbadd03394874a5a0943f43270c60a7b68cf375a6bc7f29e9"
+  },
+  {
+    "member": "raw/runs/RH0_174h/RH0_174h-00516.vtu.gz",
+    "sha256": "7557e4da8c2f7abe7038a50460dd7075dc3397433fb0109439d8c317c85b0d27"
+  },
+  {
+    "member": "raw/runs/RH0_174h/RH0_174h-00588.vtu.gz",
+    "sha256": "4561758bba1f51f1eebde44b4e507ec4c5ded9bf3e52108bc4335da95892c178"
+  },
+  {
+    "member": "raw/runs/RH0_174h/RH0_174h-00732.vtu.gz",
+    "sha256": "9be942d2298d429177e55c961992556a61b5512e2386d2cc0c2883107fe726d8"
+  },
+  {
+    "member": "raw/runs/RH0_174h/RH0_174h-00876.vtu.gz",
+    "sha256": "44f7e15c1945e498b6fc643f2e679d79edd3c1a5719ed1a5fcba23764caada7a"
+  },
+  {
+    "member": "raw/runs/RH0_174h/RH0_174h-01056.vtu.gz",
+    "sha256": "50d296619f076a7d6f6f5f9ae0638e434553280b9ccad81baa46fa021f1c22c9"
+  },
+  {
+    "member": "raw/runs/RH0_174h/budget.csv",
+    "sha256": "19d1831a39c4b3b85d3d05454a61d57761a3dac38397634c898dee30d92fc8ce"
+  },
+  {
+    "member": "raw/runs/RH0_174h/thermal_budget.csv",
+    "sha256": "d376f1efb6f55a3e84cca4b4cce0557c9942e196398a08a4382be8276dd33939"
+  },
+  {
+    "member": "raw/runs/RH0_174h/film_budget.csv",
+    "sha256": "8e8b34adee2a7bac6000c5b9324c88e579f44309c3ad71093710566fa5ef4063"
+  },
+  {
+    "member": "raw/runs/RH0_174h/mineral_budget.csv",
+    "sha256": "30851bd6342962668fbd4f4100efb7c5bc85751fc4ddf4e28e816d0e2112e215"
+  }
+]

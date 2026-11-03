@@ -1,0 +1,15 @@
+{
+  "state": "passed",
+  "source": "accepted v13 archive; used members SHA verified",
+  "scope": "seven native field checkpoints, whole-half MRI profiles/downflow/anomalies and measured evaporation; native throughput replay tested separately",
+  "final_F36_mean_M": 1.2308354107850308,
+  "summary": {
+    "case": "RH0_174h",
+    "accepted_evaporation_h": 174,
+    "reservoir_solution_loss_1_174_g": 51.947835534915086,
+    "target_g": 51.52,
+    "error_fraction": 0.008304261159066018,
+    "rate_RMSE_g_h": 0.023923102496093838,
+    "limitations": "exploratory boundary assumptions, fixed phi/K equivalent solid inventory; MRI unchanged; no actual nucleation inference"
+  }
+}

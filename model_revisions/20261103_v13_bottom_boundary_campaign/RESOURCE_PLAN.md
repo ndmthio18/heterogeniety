@@ -1,0 +1,11 @@
+# sal resource plan
+
+Initial live inventory: AMD3990X,64 physical/128 SMT CPUs,251GiB RAM (~180GiB available), /tmp tmpfs ~120GiB free. Slurm debug, no oversubscription; several unrelated active/pending jobs and existing7.5/8mm cases remain untouched. Initial unrelated allocation122 logical CPUs leaves6; floor(70%*6)=4 allocated logical CPUs permits two independent single-thread cases (Slurm allocates both SMT siblings per physical core).
+
+B short and production arrays are throttled%2; each task requests1 CPU and sets DUMUX_NUM_THREADS=1, OMP/BLAS=1, nice10. No mpirun. B long cases have48h wall cap and4GiB scratch reserve; each begins from initial conditions. Source, output directories, PIDs, logs and inputs are independent. /usr/bin/time records CPU/RSS. The configured Slurm RealMemory=1MB is erroneous; do not override site allocation policy with unschedulable RAM requests. Physical free memory and per-process RSS remain monitored.
+
+G jobs are submitted held. resource_dispatch.py rechecks unrelated allocations before releasing this campaign's held jobs, reserves B peak4 logical CPUs while B remains queued/running, caps this campaign at8 logical CPUs and70% of capacity not allocated to unrelated work. Geometry development/build on the idle Frodo workstation does not delay B. All new regression/prediction cases run on sal; Frodo is used only for a one-core nice15 build with pinned dependencies. Lack of an admissible sal slot is a resource wait, not a solver failure.
+
+Raw VTUs are reversibly gzip-compressed with raw and compressed SHA256 records. backup_incremental.py downloads closed fields and metadata, verifies transport and per-member hashes, and removes only its verified disposable transport tar. Original raw gzip fields and all failed attempts remain. No old revision or unrelated data cleanup is authorized. /tmp is volatile, so final completion requires all final fields and metadata verified locally.
+
+Monitor every two hours. No parameter/tolerance/time-step changes or restarts merely for slowness. Failed physical/numerical gates block downstream production. A repaired test reference or launcher must retain original evidence and document the precise change.

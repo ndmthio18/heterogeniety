@@ -1,0 +1,46 @@
+{
+  "case": "Gates",
+  "stage": "probe_r04",
+  "state": "passed",
+  "utc": "2026-11-03T14:08:02.702082+00:00",
+  "job": "19191",
+  "affinity": "30,94",
+  "results": {
+    "B0": {
+      "passed": true,
+      "probes": 4,
+      "bottom_area_m2": 0.0019603428065912147,
+      "port_area_m2": 0.0019603428065912147,
+      "max_initial_hydraulic_potential_residual_Pa": 8.284552305464043e-07,
+      "max_donor_relative_error": 2.7243207465924393e-16,
+      "max_heat_relative_error": 2.9997626548570276e-15
+    },
+    "G1": {
+      "passed": true,
+      "probes": 4,
+      "bottom_area_m2": 0.0019603428065912147,
+      "port_area_m2": 3.1415926535897938e-06,
+      "max_initial_hydraulic_potential_residual_Pa": 2.0545759705434638e-07,
+      "max_donor_relative_error": 2.9646479408335025e-16,
+      "max_heat_relative_error": 2.8401594628494536e-15
+    },
+    "G2": {
+      "passed": true,
+      "probes": 4,
+      "bottom_area_m2": 0.0019603428065912147,
+      "port_area_m2": 1.9634954084936197e-05,
+      "max_initial_hydraulic_potential_residual_Pa": 2.0545759705434638e-07,
+      "max_donor_relative_error": 0,
+      "max_heat_relative_error": 2.9363044271152244e-15
+    },
+    "G3": {
+      "passed": true,
+      "probes": 4,
+      "bottom_area_m2": 0.0019603428065912147,
+      "port_area_m2": 7.853981633974484e-05,
+      "max_initial_hydraulic_potential_residual_Pa": 2.0545759705434638e-07,
+      "max_donor_relative_error": 0,
+      "max_heat_relative_error": 2.9363044271152244e-15
+    }
+  }
+}

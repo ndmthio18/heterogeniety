@@ -1,0 +1,7 @@
+# Authorized v13 bottom-boundary campaign
+
+Task source: TASK.md (user's bottom boundary.md). Independent revision20261103_v13_bottom_boundary_campaign; source baseline/audit a34beee remains unchanged. B is resistance-only on the frozen accelerated nonisothermal v13. G is an isolated, explicitly hypothetical full filter plus bottom-port implementation. No film refit: RH0,293.15K ambient/reservoir,delta8.100162249880822mm,2hpre+174hevap,original sand geometry/parameters and300s cap.
+
+Read BASELINE_VERIFICATION.md, BOUNDARY_IMPLEMENTATION.md, CASE_MATRIX.csv and RESOURCE_PLAN.md. Baseline19181→B short array19182→B full array19183 with independent on-disk gate checks. G gates19187 and production19188/19189/19190 are held pending capacity and acceptance; scheduler dependencies and programmatic checks both apply. Case status pending/running/completed/failed must come from actual scheduler/process evidence. Full completion also requires native diagnostics, profile reduction, numerical acceptance, final archive verification and visual comparison.
+
+Python entry points: remote_status.py (local SSH query), resource_dispatch.py (light remote Slurm admission), campaign.py/campaign_g.py (inside allocations), native_replay.py (read-only NI flux reconstruction), collect_case.py (accepted outputs only), backup_incremental.py (local verified transfer). Do not execute production outside Slurm or use benchmark snapshots as unverified restarts.

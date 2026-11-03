@@ -1,0 +1,22 @@
+{
+  "archive_sha256": "0cb9e646d46d05935aff106c04f4c8fa1b901c0cc163a05cc4566a8c49d4b4d3",
+  "all_source_hashes_verified": true,
+  "local_candidate_differences": [
+    {
+      "path": "source/appl/spatialparams.hh",
+      "normalized_text_equal": true
+    },
+    {
+      "path": "source/appl/problem.hh",
+      "normalized_text_equal": true
+    },
+    {
+      "path": "source/appl/equilibrium_localresidual.hh",
+      "normalized_text_equal": true
+    },
+    {
+      "path": "source/dumux/porousmediumflow/2pnc/volumevariables.hh",
+      "normalized_text_equal": true
+    }
+  ]
+}

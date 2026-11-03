@@ -1,0 +1,57 @@
+{
+  "meshes": [
+    {
+      "file": "filter_6layers.msh",
+      "cells": 35328,
+      "sand_cells_unchanged": 30720,
+      "filter_layers": 6,
+      "sha256": "4a47ac0b67c6bca83b7d1241558346a66d7eb830642b923ee9005f554de86395"
+    },
+    {
+      "file": "filter_12layers.msh",
+      "cells": 39936,
+      "sand_cells_unchanged": 30720,
+      "filter_layers": 12,
+      "sha256": "daf5fc5c7012e7f1bb3c43455176d789a99a3dc46b1fdabfc4edb02e29916c8d"
+    }
+  ],
+  "ports": [
+    {
+      "case": "G1",
+      "diameter_m": 0.002,
+      "active_area_m2": 3.1415926535897925e-06,
+      "analytic_area_m2": 3.141592653589793e-06,
+      "cut_faces": 64,
+      "active_faces": 64,
+      "method": "exact circle/polygon overlap; fractional Neumann face integration, unresolved subface pressure remains a discretization limitation"
+    },
+    {
+      "case": "G2",
+      "diameter_m": 0.005,
+      "active_area_m2": 1.9634954084936193e-05,
+      "analytic_area_m2": 1.9634954084936207e-05,
+      "cut_faces": 64,
+      "active_faces": 128,
+      "method": "exact circle/polygon overlap; fractional Neumann face integration, unresolved subface pressure remains a discretization limitation"
+    },
+    {
+      "case": "G3",
+      "diameter_m": 0.01,
+      "active_area_m2": 7.853981633974484e-05,
+      "analytic_area_m2": 7.853981633974483e-05,
+      "cut_faces": 64,
+      "active_faces": 192,
+      "method": "exact circle/polygon overlap; fractional Neumann face integration, unresolved subface pressure remains a discretization limitation"
+    },
+    {
+      "case": "Gdistributed",
+      "diameter_m": 0.1,
+      "active_area_m2": 0.001960342806591214,
+      "analytic_area_m2": 0.001960342806591214,
+      "cut_faces": 0,
+      "active_faces": 768,
+      "method": "exact circle/polygon overlap; fractional Neumann face integration, unresolved subface pressure remains a discretization limitation"
+    }
+  ],
+  "assumptions": "port at filter bottom; no unmeasured plenum; filter phi=.35, K matched initial B2 resistance; inherited coarse retention law and granite inert thermal surrogate (not measured P3 glass properties)"
+}

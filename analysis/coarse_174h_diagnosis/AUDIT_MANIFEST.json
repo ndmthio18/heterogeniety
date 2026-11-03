@@ -49,8 +49,8 @@
     },
     {
       "path": "MRI_CONCENTRATION_AUDIT.md",
-      "bytes": 10034,
-      "sha256": "9f145bc55feb66c1771a1f501c4516e32e48e44f119d396fbf4d43b1e058f430"
+      "bytes": 10329,
+      "sha256": "54e90f551efea46a8b4f9dcffdacfbe002d1f41e7f1183d0690633485d684d23"
     },
     {
       "path": "native_replay/build.log",
@@ -582,5 +582,7 @@
       "bytes": 31873,
       "sha256": "379169a212b058bced9b1ed1a4abe68658357fdccf34cb50786cdae79604258a"
     }
-  ]
+  ],
+  "updated_utc": "2026-11-03T14:17:32.458941+00:00",
+  "amendment": "E39 TE4.0ms and E41 TE4.6ms correction; no MRI data changed"
 }

@@ -1,0 +1,14 @@
+{
+  "scope": "short original-grid non-isothermal segment plus listed functional gates only",
+  "host": "frodo",
+  "binary_family": "build_cached_ni",
+  "threads": 4,
+  "overrides": {
+    "Newton.EnablePartialReassembly": "true",
+    "Benchmark.AmgILU": "true"
+  },
+  "max_time_step_s": 300,
+  "measured_segment_speedup": 3.027917861679637,
+  "production_modified": false,
+  "qualified_174h": false
+}

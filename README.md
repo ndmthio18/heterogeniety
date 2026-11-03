@@ -2,6 +2,16 @@
 
 本仓库归档 RH=0、固定孔隙率和本征渗透率的三维圆柱 **v12 / 174 h** 分析结果。本研究分支另含 L1 粗砂浓度偏差审计，引用独立已验收 v13 非等温结果作为明确分版本的比较；原 v12 交付目录保持不变。
 
+## v13 底部边界敏感性计算（进行中）
+
+依据 `bottom boundary.md` 新增独立非等温 v13 计算：B0–B3 等效滤板阻力，G1–G3 显式4.5mm滤板与2/5/10mm中心入口。几何尺寸与滤板物性是注明的探索假设，不是已测量材料参数。
+
+- [计算说明与复现边界](model_revisions/20261103_v13_bottom_boundary_campaign/README.md)
+- [基准验收](model_revisions/20261103_v13_bottom_boundary_campaign/BASELINE_VERIFICATION.md) / [边界实现](model_revisions/20261103_v13_bottom_boundary_campaign/BOUNDARY_IMPLEMENTATION.md)
+- [作业状态快照](model_revisions/20261103_v13_bottom_boundary_campaign/RUN_STATUS.csv) / [比较状态](model_revisions/20261103_v13_bottom_boundary_campaign/FINAL_COMPARISON.md)
+
+原网格短窗零改动回归与G组供体/热通量测试已通过；B短程验收在sal运行，174h作业等待依赖，G动力学验收等待可用资源。尚无新174h结果，不声称边界修改改善试验符合度。旧审计、v12/v13已接受结果保留；本研究分支不合并main。
+
 ## L1 粗砂浓度偏差审计（独立研究分支）
 
 - [最终诊断](analysis/coarse_174h_diagnosis/FINAL_DIAGNOSIS.md) / [六页图件 PDF](analysis/coarse_174h_diagnosis/results/COARSE_174H_AUDIT_FIGURES.pdf)

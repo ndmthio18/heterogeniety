@@ -1,0 +1,17 @@
+# Accelerated v13 baseline: verification in progress
+
+The physics reference is the independently accepted nonisothermal v13, not an assumed v14 successor. Accepted source: model_revisions/20261102_cylinder_thermal_v13/source; ELF SHA256 a2c6ca3500a227af9fe1a8900359a5f9d186243c42fc4d20e56043ee6d760033. Its full174h archive was previously verified; this campaign reverified the exact members used for zero-change comparisons (baseline_reference/member_hashes.json).
+
+The accelerated implementation is the exact source_cached family previously benchmarked in /temp/zhixin/heterogeneity_performance_v14_20261102 on Frodo, subsequently frozen in v15_r02 and relocated to sal v16. Original compiled ELF SHA256 9b1422e33fb76423322b081e414206e22777548fca0b703d6e285186a4fe63e5. We fetched the actual sal source and verified every source hash. Four local files differed only in line endings; the rejected local candidate and transfer check are retained in provenance. Source_baseline holds exact compiled-source bytes. Neither physical identity nor long-window equivalence is inferred just from a revision name.
+
+Changes relative to accepted v13: cached grid/volume/flux data, cached immutable parameter access, DuMuX thread initialization, optional partial Jacobian reassembly and AMG-ILU, plus timing and benchmark snapshot instrumentation. Governing equations, mineral equilibrium, phase/activity laws, seed, mesh, thermal boundaries,300s step cap and nonlinear/linear tolerances remain unchanged. Benchmark.StateIn is absent; production always starts from original initial conditions. Iteration-aware dt is disabled. Original patches and manifests are in provenance.
+
+Compiler GCC13.3.0; generated pinned configuration reports DuMuX3.7, DUNE common/grid2.9.1 and ISTL2.9.0; build host OpenMPI4.1.6. Exact bundled runtime file hashes are in the parent manifest. Sparse transferred dependency trees lack complete Git metadata; no dependency commit is invented. MPI budget reductions/ownership are unsupported and the application rejects multiple MPI ranks. DuMuX shared-memory threading was benchmarked, but this resource-constrained campaign uses one thread per process and process-level parallelism; OMP/BLAS threads stay1.
+
+Historical7800–9600s segment: one-thread reference455.27s, cached4-thread+partial+ILU150.36s (~3.03x), primary-field normalized differences~1e-12. This is not a174h speed or equivalence claim. Existing sal v16 gate matched the frozen Frodo short endpoint exactly, but its varied film cases are not the v13 zero-change reference.
+
+New Slurm baseline gate19181 repeats six reaction/dt tests, injected rollback, and original-grid7200/7800s field and budget comparisons to accepted v13. Production B0 repeats the exact8.100162mm case to174h, comparing24/60/84/96/120/144/174h against accepted v13. Short field threshold1e-7 normalized, phase states identical, cumulative budget comparisons1e-6; full trajectory checkpoint differences are audited and halt B0 if the registered comparison fails. No production equivalence is claimed before those results exist.
+
+Accepted reference values:1–174h solution loss51.947836g, F36 mean1.230835M, W3 about2.162M, final solid0.226441g. They are reference data, not new campaign results. Current status is in RUN_STATUS.csv and remote_status_latest.json.
+
+Update14:14UTC: gate19181 passed all reaction/recovery checks and7200/7800s zero-change comparisons. This accepts the short window only. B0 full-window checkpoints remain pending.

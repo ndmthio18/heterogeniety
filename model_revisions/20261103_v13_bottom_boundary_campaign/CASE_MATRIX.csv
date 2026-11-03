@@ -1,0 +1,8 @@
+case,group,Rf_Pa_s_m,port_diameter_m,filter_K_m2,filter_phi,state,role
+B0,B,0.0,0.0,0.0,0.0,prepared,"exploratory bracket, not measured filter"
+B1,B,28885.603976529943,0.0,0.0,0.0,prepared,"exploratory bracket, not measured filter"
+B2,B,288856.0397652994,0.0,0.0,0.0,prepared,"exploratory bracket, not measured filter"
+B3,B,2888560.397652994,0.0,0.0,0.0,prepared,"exploratory bracket, not measured filter"
+G1,G,0.0,0.002,1.7333127738454676e-11,0.35,implementation_pending,"hypothetical port at filter bottom, unknown actual plenum"
+G2,G,0.0,0.005,1.7333127738454676e-11,0.35,implementation_pending,"hypothetical port at filter bottom, unknown actual plenum"
+G3,G,0.0,0.01,1.7333127738454676e-11,0.35,implementation_pending,"hypothetical port at filter bottom, unknown actual plenum"

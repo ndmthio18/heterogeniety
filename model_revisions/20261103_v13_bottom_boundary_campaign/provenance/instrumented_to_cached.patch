@@ -1,0 +1,92 @@
+--- a/appl/equilibrium_localresidual.hh
++++ b/appl/equilibrium_localresidual.hh
+@@ -13,7 +13,7 @@
+  using Parent::Parent;
+  auto computeStorage(const Problem& problem,const SCV& scv,const VV& v)const {
+   auto n=Parent::computeStorage(problem,scv,v);
+-  if(getParam<bool>("Revision.EquilibriumPrecipitation",false)){
++  if(problem.equilibriumPrecipitation()){
+    static_assert(getPropValue<TypeTag,Properties::UseMoles>(),"Equilibrium mineral row uses molar storage");
+    n[FS::NaClIdx]+=n[FS::numComponents];
+    n[FS::numComponents]=0;
+--- a/appl/problem.hh
++++ b/appl/problem.hh
+@@ -102,7 +102,7 @@
+   std::cout<<"CONTROLLED_SENSITIVITY coarse_water_factor="<<coarseWaterMultiplier_<<" fine_water_factor="<<fineWaterMultiplier_
+    <<" liquid_salt_binary_D="<<FS::binaryDiffusionCoefficient(reservoir_,liq,water,salt)<<std::endl;
+   if(supply_!="DistributedReservoir")DUNE_THROW(Dune::InvalidStateException,"Cylinder requires registered distributed supply; 2D slit is not a 3D aperture");
+-  std::cout<<"FIXED_HYDRAULICS enabled="<<getParam<bool>("Revision.FixedHydraulics",false)
++  std::cout<<"FIXED_HYDRAULICS enabled="<<this->spatialParams().fixedHydraulics()
+    <<" salt_conserved=true temperature_mode="<<(NONISOTHERMAL?"nonisothermal":"isothermal")
+    <<" solid_inventory_not_geometric_when_fixed=true"<<std::endl;
+   permeability_.resize(gg->numDofs());
+@@ -215,7 +215,7 @@
+   // Diagnostic-only gate: exercise the real invalid-trial guard and Newton retry.
+   const auto rejectAbove=getParam<Scalar>("Revision.TestRejectDtAbove",-1);
+   if(rejectAbove>0 && stepSize()>rejectAbove)FS::waterActivityFromFractions(.1,0.);
+-  if(getParam<bool>("Revision.EquilibriumPrecipitation",false)){
++  if(equilibriumPrecipitation_){
+    const auto ns=v.solidVolumeFraction(0)*v.solidComponentMolarDensity(0);
+    const auto mSat=HeterogeneityRevision::saturationMolality(this->spatialParams().solubilityLimit(),FS::molarMass(salt));
+    const auto gap=v.porosity()*v.saturation(liq)*v.molarDensity(liq)*(mSat*FS::molarMass(water)*v.moleFraction(liq,water)-v.moleFraction(liq,salt));
+@@ -237,7 +237,7 @@
+    auto fc=localView(gv.gridFluxVarsCache());fc.bind(e,fv,ev);
+    for(const auto& scv:scvs(fv)){
+     const auto& v=ev[scv];auto volume=scv.volume()*v.extrusionFactor();
+-    if(getParam<bool>("Revision.FixedHydraulics",false)){
++    if(this->spatialParams().fixedHydraulics()){
+      const auto phi0=this->spatialParams().referencePorosity(e,scv);
+      const auto k0=getParam<Scalar>(scv.center()[0]<=split_?"SpatialParams.CoarsePermeability":"SpatialParams.FinePermeability");
+      if(v.porosity()!=phi0||v.permeability()!=k0)
+@@ -310,7 +310,7 @@
+  void record(const Audit& a,Scalar time,Scalar dt){
+   if(!mineralCsv_.is_open()){mineralCsv_.open("mineral_budget.csv");mineralCsv_<<std::setprecision(17)<<"time_s,evaporation_time_h,dt_s,salt_dissolved_mol,salt_solid_mol,coarse_solid_mol,fine_solid_mol,max_molality,min_solid_vf,max_relative_complementarity_residual\n";}
+   mineralCsv_<<time<<','<<(time-pre_)/3600<<','<<dt<<','<<a.dissolved<<','<<a.solid<<','<<a.coarseSolid<<','<<a.fineSolid<<','<<a.mmax<<','<<a.solidmin<<','<<a.ncpmax<<'\n';mineralCsv_.flush();
+-  if(time>0&&getParam<bool>("Revision.EquilibriumPrecipitation",false)&&a.ncpmax>1e-6)DUNE_THROW(Dune::InvalidStateException,"Accepted step violates mineral complementarity");
++  if(time>0&&equilibriumPrecipitation_&&a.ncpmax>1e-6)DUNE_THROW(Dune::InvalidStateException,"Accepted step violates mineral complementarity");
+   if(activityMode_){
+    if(!activityCsv_.is_open()){
+     activityCsv_.open("local_evaporation.csv");activityCsv_<<std::setprecision(17);
+@@ -415,7 +415,9 @@
+    a.solve(velocity,b);diagnosticVelocity_[this->gridGeometry().elementMapper().index(e)]=velocity;
+   }
+  }
++ bool equilibriumPrecipitation() const { return equilibriumPrecipitation_; }
+ private:
++ const bool equilibriumPrecipitation_=getParam<bool>("Revision.EquilibriumPrecipitation",false);
+  Scalar gasWaterMassFraction_(Scalar y)const{return FS::molarMass(water)*y/(FS::molarMass(water)*y+FS::molarMass(air)*(1-y));}
+  Scalar filmWaterFlux_(const VV& v)const{
+   const auto a=startTime()-pre_,b=a+stepSize();if(stepSize()<=0||b<=0)return 0;
+--- a/appl/spatialparams.hh
++++ b/appl/spatialparams.hh
+@@ -149,7 +149,7 @@
+                                   const SubControlVolume& scv,
+                                   const ElementSolution& elemSol) const
+     {
+-        if (getParam<bool>("Revision.FixedHydraulics", false))
++        if (fixedHydraulics_)
+             return referencePermeabilityAtPos_(scv.center());
+         auto priVars = evalSolution(element, element.geometry(), elemSol, scv.center(), /*ignoreState=*/true);
+ 
+@@ -192,7 +192,10 @@
+ 
+ 
+ 
++    bool fixedHydraulics() const { return fixedHydraulics_; }
++
+ private:
++    const bool fixedHydraulics_ = getParam<bool>("Revision.FixedHydraulics", false);
+ 
+     bool isCoarse_(const GlobalPosition& globalPos) const
+     { return globalPos[splitAxis_] <= splitCoordinate_; }
+--- a/dumux/porousmediumflow/2pnc/volumevariables.hh
++++ b/dumux/porousmediumflow/2pnc/volumevariables.hh
+@@ -133,7 +133,7 @@
+         const auto& spatialParams = problem.spatialParams();
+         // v12 diagnostic: solid salt remains in its conservative inventory,
+         // but does not displace hydraulic pore volume. Never alter solid mass.
+-        fixedHydraulics_ = getParam<bool>("Revision.FixedHydraulics", false);
++        fixedHydraulics_ = spatialParams.fixedHydraulics();
+         referenceHydraulicPorosity_ = spatialParams.referencePorosity(element, scv);
+         const auto fluidMatrixInteraction = spatialParams.fluidMatrixInteraction(element, scv, elemSol);
+ 

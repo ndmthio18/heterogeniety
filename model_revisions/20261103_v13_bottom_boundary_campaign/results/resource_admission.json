@@ -1,0 +1,130 @@
+{
+  "utc": "2026-11-03T14:14:13.566005+00:00",
+  "total_logical_cpus": 128,
+  "unrelated_allocated_cpus": 122,
+  "initial_70percent_admission_budget": 4,
+  "campaign_peak_reserved_cpus": 4,
+  "released_jobs": [],
+  "jobs": [
+    {
+      "id": "19179",
+      "name": "test-run-21",
+      "state": "PENDING",
+      "cpus": 32,
+      "user": "martins"
+    },
+    {
+      "id": "19180",
+      "name": "test-run-22",
+      "state": "PENDING",
+      "cpus": 32,
+      "user": "martins"
+    },
+    {
+      "id": "19178",
+      "name": "test-run-20",
+      "state": "PENDING",
+      "cpus": 16,
+      "user": "martins"
+    },
+    {
+      "id": "19182_[2-3%2]",
+      "name": "bottom_short",
+      "state": "PENDING",
+      "cpus": 1,
+      "user": "zhixin"
+    },
+    {
+      "id": "19183_[0-3%2]",
+      "name": "bottom_174h",
+      "state": "PENDING",
+      "cpus": 1,
+      "user": "zhixin"
+    },
+    {
+      "id": "19190",
+      "name": "bottom_G3",
+      "state": "PENDING",
+      "cpus": 1,
+      "user": "zhixin"
+    },
+    {
+      "id": "19189",
+      "name": "bottom_G2",
+      "state": "PENDING",
+      "cpus": 1,
+      "user": "zhixin"
+    },
+    {
+      "id": "19188",
+      "name": "bottom_G1",
+      "state": "PENDING",
+      "cpus": 1,
+      "user": "zhixin"
+    },
+    {
+      "id": "19187",
+      "name": "bottom_G_gates",
+      "state": "PENDING",
+      "cpus": 1,
+      "user": "zhixin"
+    },
+    {
+      "id": "19182_0",
+      "name": "bottom_short",
+      "state": "RUNNING",
+      "cpus": 2,
+      "user": "zhixin"
+    },
+    {
+      "id": "19182_1",
+      "name": "bottom_short",
+      "state": "RUNNING",
+      "cpus": 2,
+      "user": "zhixin"
+    },
+    {
+      "id": "19177",
+      "name": "hysing-C-256-new",
+      "state": "RUNNING",
+      "cpus": 16,
+      "user": "martins"
+    },
+    {
+      "id": "19176",
+      "name": "hysing-D-256-new",
+      "state": "RUNNING",
+      "cpus": 16,
+      "user": "martins"
+    },
+    {
+      "id": "19170",
+      "name": "test-run-14",
+      "state": "RUNNING",
+      "cpus": 10,
+      "user": "martins"
+    },
+    {
+      "id": "19169",
+      "name": "film080",
+      "state": "RUNNING",
+      "cpus": 8,
+      "user": "zhixin"
+    },
+    {
+      "id": "19168",
+      "name": "film075",
+      "state": "RUNNING",
+      "cpus": 8,
+      "user": "zhixin"
+    },
+    {
+      "id": "19088",
+      "name": "continiue_run_a2mm_pC0.05_T20_nY10_Hw0.65",
+      "state": "RUNNING",
+      "cpus": 64,
+      "user": "kaiw"
+    }
+  ],
+  "note": "Single-thread processes; SMT allocation counts twice. Scheduler controls placement; no unrelated jobs modified."
+}

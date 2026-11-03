@@ -1,0 +1,13 @@
+{
+  "R_ref_Pa_s_m": 288856.0397652994,
+  "mu_ref_Pa_s": 0.0011126174745057953,
+  "d_ref_m": 0.0020300050000000005,
+  "kr_ref": 1.0,
+  "K_F36_m2": 7.819185772155931e-12,
+  "initial_C_M": 1.0,
+  "temperature_K": 293.15,
+  "definition": "area-weighted initial coarse-bottom half-cell resistance; kr=1 at full liquid saturation, mu=1/native mobility",
+  "Rf_temperature_dependence": "constant Pa s/m exploratory Robin resistance; pore half-cell donor viscosity remains dynamic",
+  "filter_K_m2": 1.7333127738454676e-11,
+  "filter_phi": 0.35
+}

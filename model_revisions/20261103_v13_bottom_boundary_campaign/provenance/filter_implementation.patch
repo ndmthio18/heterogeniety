@@ -1,0 +1,258 @@
+--- baseline/appl/campaign_diagnostics.hh
++++ filter/appl/campaign_diagnostics.hh
+@@ -0,0 +1,69 @@
++// Included inside Problem's public scope. Diagnostic storage only; never edits x.
++template<class GV>void campaignAudit(const SV& x,const GV& gv,double time,double dt,bool impulse=false,bool maps=false,bool mapsOnly=false){
++ using LR=GetPropType<TypeTag,Properties::LocalResidual>;LR residual(this);
++ std::array<std::array<double,3>,3> inventory{},outward{};
++ // Rows: material 0 coarse sand, 1 fine sand, 2 filter. Columns water, total salt, energy.
++ std::array<std::array<double,14>,18> gross{};
++ std::ofstream faces;
++ if(maps){std::ostringstream name;name<<"native_faces_"<<std::fixed<<std::setprecision(0)<<time<<".csv";faces.open(name.str());faces<<std::setprecision(17)<<"kind,material,x_m,y_m,z_m,area_m2,q_liq_m3_s,water_adv_mol_s,water_diff_mol_s,salt_adv_mol_s,salt_diff_mol_s,energy_W,p_liq_Pa,T_K,donor_C_M\n";}
++ auto region=[&](const auto& p){return this->spatialParams().isFilter(p)?2:(p[0]<split_?0:1);};
++ for(const auto& e:elements(this->gridGeometry().gridView())){
++  auto fv=localView(this->gridGeometry());fv.bind(e);auto ev=localView(gv.curGridVolVars());ev.bind(e,fv,x);auto fc=localView(gv.gridFluxVarsCache());fc.bind(e,fv,ev);
++  for(const auto& scv:scvs(fv)){
++   const auto& v=ev[scv];const int mat=region(scv.center());const auto vol=scv.volume()*v.extrusionFactor();auto storage=residual.computeStorage(*this,scv,v);
++   inventory[mat][0]+=vol*storage[water];inventory[mat][1]+=vol*storage[salt];inventory[mat][2]+=vol*storage[Ind::energyEqIdx];
++  }
++  for(const auto& f:scvfs(fv)){
++   const auto pos=f.ipGlobal();const auto c=fv.scv(f.insideScvIdx()).center();const auto& v=ev[f.insideScvIdx()];const int mat=region(c);const double area=f.area()*v.extrusionFactor();
++   double qv=0,wa=0,wd=0,sa=0,sd=0,heat=0,donor=0;int kind=-1;bool cut=false;
++   if(f.boundary()){
++    auto q=neumann(e,fv,ev,fc,f);wa=q[water]*area;sa=q[salt]*area;heat=q[Ind::energyEqIdx]*area;cut=true;
++    if(pos[1]<this->gridGeometry().bBoxMin()[1]+1e-9){kind=0;bool incoming=wa<0;auto molar=incoming?molarRes_:v.molarDensity(liq);qv=(q[water]+q[air]+q[salt])*area/molar;donor=molar*(incoming?reservoir_.moleFraction(liq,salt):v.moleFraction(liq,salt))/1000.;}
++   }else{
++    const auto co=fv.scv(f.outsideScvIdx()).center();const int other=region(co);cut=other!=mat;
++    if(mat==0&&other==1)kind=1;
++    if(mat<2&&other==2)kind=3; // outward from sand into filter; inflow has negative sign
++    if(mat==2&&other==2&&c[0]<split_&&co[0]>split_)kind=5;
++    if(f.unitOuterNormal()[1]>.999){
++     if(mat==2&&std::abs(pos[1]+.00225)<1e-9)kind=4;
++     if(mat<2&&(std::abs(pos[1]-.0110026)<1e-8||std::abs(pos[1]-.0190235)<1e-8||std::abs(pos[1]-.0302801)<1e-8))kind=2;
++    }
++    if(!cut&&kind<0)continue;
++    FluxVars flux;flux.init(*this,e,fv,ev,f,fc);qv=flux.advectiveFlux(liq,[](const auto& w){return w.mobility(liq);});
++    for(int ph=0;ph<2;++ph){
++     wa+=flux.advectiveFlux(ph,[ph](const auto& w){return w.mobility(ph)*w.molarDensity(ph)*w.moleFraction(ph,water);});
++     sa+=flux.advectiveFlux(ph,[ph](const auto& w){return w.mobility(ph)*w.molarDensity(ph)*w.moleFraction(ph,salt);});
++     heat+=flux.advectiveFlux(ph,[ph](const auto& w){return w.mobility(ph)*w.density(ph)*w.enthalpy(ph);});
++     auto d=flux.molecularDiffusionFlux(ph);
++     if constexpr(FluxVars::MolecularDiffusionType::referenceSystemFormulation()==ReferenceSystemFormulation::massAveraged){wd+=d[water]/FS::molarMass(water);sd+=d[salt]/FS::molarMass(salt);}else{wd+=d[water];sd+=d[salt];}
++    }
++    heat+=flux.heatConductionFlux();
++   }
++   if(cut){outward[mat][0]+=wa+wd;outward[mat][1]+=sa+sd;outward[mat][2]+=heat;}
++   if(kind>=0){
++    const std::array<double,7> values{qv,wa,wd,sa,sd,heat,area};auto& row=gross[kind*3+mat];
++    for(int k=0;k<7;++k){row[2*k]+=std::max(values[k],0.);row[2*k+1]-=std::min(values[k],0.);}
++    if(maps)faces<<kind<<','<<mat<<','<<pos[0]<<','<<pos[1]<<','<<pos[2]<<','<<area<<','<<qv<<','<<wa<<','<<wd<<','<<sa<<','<<sd<<','<<heat<<','<<v.pressure(liq)<<','<<v.temperature()<<','<<donor<<'\n';
++   }
++  }
++ }
++ if(mapsOnly)return;
++ if(!campaignInitialized_){campaignInitial_=inventory;campaignPrevious_=inventory;campaignInitialized_=true;}
++ if(!campaignParts_.is_open()){
++  campaignParts_.open("material_budgets.csv");campaignParts_<<std::setprecision(17)<<"time_s,evaporation_h,dt_s,impulse,material,water_mol,salt_mol,energy_J,water_out_mol_s,salt_out_mol_s,energy_out_W,water_residual_mol,salt_residual_mol,energy_residual_J\n";
++  campaignFlux_.open("native_fluxes.csv");campaignFlux_<<std::setprecision(17)<<"time_s,dt_s,kind,material,qv_out,qv_in,water_adv_out,water_adv_in,water_diff_out,water_diff_in,salt_adv_out,salt_adv_in,salt_diff_out,salt_diff_in,energy_out,energy_in,area_m2,unused\n";
++ }
++ for(int m=0;m<3;++m){
++  std::array<double,3> res{};
++  for(int k=0;k<3;++k){if(impulse)campaignImpulse_[m][k]+=inventory[m][k]-campaignPrevious_[m][k];else campaignIntegral_[m][k]+=dt*outward[m][k];res[k]=inventory[m][k]-campaignInitial_[m][k]+campaignIntegral_[m][k]-campaignImpulse_[m][k];
++   if(std::abs(res[k])>1e-6*std::max(std::abs(campaignInitial_[m][k]),k==2?1.:1e-12))DUNE_THROW(Dune::InvalidStateException,"Sand/filter material water/salt/energy closure failed");}
++  campaignParts_<<time<<','<<(time-pre_)/3600<<','<<dt<<','<<impulse<<','<<m;for(auto v:inventory[m])campaignParts_<<','<<v;for(auto v:outward[m])campaignParts_<<','<<v;for(auto v:res)campaignParts_<<','<<v;campaignParts_<<'\n';
++ }
++ campaignPrevious_=inventory;campaignParts_.flush();
++ for(int kind=0;kind<6;++kind)for(int mat=0;mat<3;++mat){const auto& row=gross[kind*3+mat];if(row[12]==0)continue;campaignFlux_<<time<<','<<dt<<','<<kind<<','<<mat;for(auto v:row)campaignFlux_<<','<<v;campaignFlux_<<'\n';}campaignFlux_.flush();
++}
++private:
++ bool campaignInitialized_=false;
++ std::array<std::array<double,3>,3> campaignInitial_{},campaignPrevious_{},campaignIntegral_{},campaignImpulse_{};
++ std::ofstream campaignParts_,campaignFlux_;
++public:
+--- baseline/appl/geometry_audit.hh
++++ filter/appl/geometry_audit.hh
+@@ -19,12 +19,12 @@
+    for(int k=0;k<3;++k)maxLinearError=std::max(maxLinearError,std::abs(normal/d.two_norm2()*d[k]-n[k]));
+    if(f.boundary()){
+     if(f.ipGlobal()[1]>.04-1e-9)top+=f.area();
+-    else if(f.ipGlobal()[1]<1e-9)bottom+=f.area();else wall+=f.area();
++    else if(f.ipGlobal()[1]<gg.bBoxMin()[1]+1e-9)bottom+=f.area();else wall+=f.area();
+    }else if(c[0]<.025&&std::abs(f.ipGlobal()[0]-.025)<1e-9)contact+=f.area();
+   }
+  }
+  std::ofstream out("geometry_audit.json");out<<std::setprecision(17)<<"{\"cells\":"<<gg.numDofs()<<",\"volume_m3\":"<<volume<<",\"coarse_volume_m3\":"<<coarse<<",\"top_area_m2\":"<<top<<",\"bottom_area_m2\":"<<bottom<<",\"wall_area_m2\":"<<wall<<",\"interface_area_m2\":"<<contact<<",\"min_cell_volume_m3\":"<<minVolume<<",\"min_normal_distance_m\":"<<minDistance<<",\"max_nonorthogonality_sin\":"<<maxSin<<",\"max_affine_flux_error\":"<<maxLinearError<<"}\n";out.close();
+- if(minVolume<=0||minDistance<=0||maxSin>1e-8||maxLinearError>1e-8||std::abs(contact-.002)>1e-10||std::abs(coarse/volume-.5)>1e-10)
++ if(minVolume<=0||minDistance<=0||maxSin>1e-8||maxLinearError>1e-8||std::abs(contact-.05*(gg.bBoxMax()[1]-gg.bBoxMin()[1]))>1e-10||std::abs(coarse/volume-.5)>1e-10)
+   DUNE_THROW(Dune::InvalidStateException,"Cylinder geometry/orthogonality gate failed; see geometry_audit.json");
+ }
+ #endif
+--- baseline/appl/main.cc
++++ filter/appl/main.cc
+@@ -52,7 +52,7 @@
+  vtk.addField(problem->getDofIds(),"dof_id");
+  problem->updateVtkOutput(x);problem->updateDiagnosticVelocity(x,*gv);vtk.write(start);
+  problem->prepareEvaporation(x,*gv);
+- auto initial=problem->audit(x,*gv);problem->initializeBudget(initial);problem->record(initial,start,0);
++ auto initial=problem->audit(x,*gv);problem->initializeBudget(initial);problem->record(initial,start,0);problem->campaignAudit(x,*gv,start,0,false,true);
+  using Assembler=FVAssembler<Tag,DiffMethod::numeric>;auto assembler=std::make_shared<Assembler>(problem,gg,gv,clock,old);
+  using Linear=AMGBiCGSTABBackend<LinearSolverTraits<GG>>;auto linear=std::make_shared<Linear>(view,gg->dofMapper());NewtonSolver<Assembler,Linear> newton(assembler,linear);
+  {std::ofstream p("effective_parameters.txt");auto* oldBuffer=std::cout.rdbuf(p.rdbuf());Parameters::print();std::cout.rdbuf(oldBuffer);}
+@@ -66,16 +66,16 @@
+   problem->prepareEvaporation(x,*gv);
+   assembler->setPreviousSolution(old);const auto solveBegin=PerformanceBenchmark::now();newton.solve(x,*clock);const auto solveEnd=PerformanceBenchmark::now();
+   const auto acceptedDt=clock->timeStepSize(),acceptedTime=clock->time()+acceptedDt;
+-  auto a=problem->audit(x,*gv);problem->record(a,acceptedTime,acceptedDt);const auto auditEnd=PerformanceBenchmark::now();
++  auto a=problem->audit(x,*gv);problem->record(a,acceptedTime,acceptedDt);problem->campaignAudit(x,*gv,acceptedTime,acceptedDt);const auto auditEnd=PerformanceBenchmark::now();
+   gv->advanceTimeStep();clock->advanceTimeStep();
+   if(!seeded&&clock->time()>=problem->preDuration()-1e-8&&!clock->finished()){
+-   seeded=true;if(problem->seed(x,*gv))gv->advanceTimeStep();
++   seeded=true;if(problem->seed(x,*gv)){gv->advanceTimeStep();problem->campaignAudit(x,*gv,clock->time(),0,true);}
+   }
+   old=x;stop=getParam<bool>("Revision.StopOnPrecipitation",true)&&a.precip>1e-8;
+   if(std::abs(clock->time()-getParam<double>("Benchmark.CaptureTime",-1))<1e-8)PerformanceBenchmark::write("captured_state.txt",x,clock->time(),seeded);
+   const auto outputBegin=PerformanceBenchmark::now();
+   if(clock->isCheckPoint())++outputIndex;
+-  if((clock->isCheckPoint()&&outputIndex%vtkEvery==0)||clock->finished()||stop){problem->updateVtkOutput(x);problem->updateDiagnosticVelocity(x,*gv);vtk.write(clock->time());}
++  if((clock->isCheckPoint()&&outputIndex%vtkEvery==0)||clock->finished()||stop){problem->updateVtkOutput(x);problem->updateDiagnosticVelocity(x,*gv);vtk.write(clock->time());problem->campaignAudit(x,*gv,clock->time(),0,false,true,true);}
+   const auto outputEnd=PerformanceBenchmark::now();
+   perf<<std::setprecision(17)<<acceptedTime<<","<<acceptedDt<<","<<solveEnd-solveBegin<<","<<auditEnd-solveEnd<<","<<outputEnd-outputBegin<<","<<outputEnd-stepBegin<<"\n";perf.flush();
+   clock->reportTimeStep();if(stop)break;clock->setTimeStepSize(std::min(maxDt,getParam<bool>("Benchmark.IterationAwareDt",false)?newton.suggestTimeStepSize(acceptedDt):acceptedDt*1.5));
+--- baseline/appl/problem.hh
++++ filter/appl/problem.hh
+@@ -6,6 +6,7 @@
+ #include <iomanip>
+ #include <memory>
+ #include <random>
++#include <sstream>
+ #include <dumux/common/properties.hh>
+ #include <dumux/common/parameters.hh>
+ #include <dumux/common/boundarytypes.hh>
+@@ -55,7 +56,7 @@
+   name_=getParam<std::string>("Problem.Name","revised");
+   temperature_=getParam<Scalar>("Reservoir.Temperature",293.15);
+   patm_=getParam<Scalar>("Reservoir.AtmosphericPressure",1e5);
+-  level_=getParam<Scalar>("Reservoir.LevelAboveSandBottom",.02)+gg->bBoxMin()[1];
++  level_=getParam<Scalar>("Reservoir.LevelAboveSandBottom",.02)+(explicitFilter_?0.:gg->bBoxMin()[1]);
+   split_=getParam<Scalar>("SpatialParams.SplitCoordinate",.025);
+   coarseWaterMultiplier_=getParam<Scalar>("Revision.CoarseWaterFluxMultiplier",1.);
+   const auto coarseArea=(split_-gg->bBoxMin()[0])/(gg->bBoxMax()[0]-gg->bBoxMin()[0]);
+@@ -66,6 +67,13 @@
+   supply_=getParam<std::string>("Revision.SupplyMode","DistributedReservoir");
+   resistance_=getParam<Scalar>("Revision.FilterHydraulicResistance",0);
+   inlet_=getParam<Scalar>("Problem.InletSize",.002);
++  if(explicitFilter_){
++   if(std::abs(gg->bBoxMin()[1]+.0045)>1e-10 || resistance_!=0)
++    DUNE_THROW(Dune::InvalidStateException,"Explicit filter geometry must be 4.5 mm; additional Robin resistance forbidden");
++   std::ifstream in(getParam<std::string>("Revision.PortAreaFile"));double x,z,a;
++   while(in>>x>>z>>a){if(a<0||a>1)DUNE_THROW(Dune::InvalidStateException,"Invalid circular port face fraction");portFaces_.push_back({x,z,a});}
++   if(portFaces_.size()!=768)DUNE_THROW(Dune::InvalidStateException,"Incomplete port area map");
++  }
+   coarseBL_=getParam<Scalar>("FreeFlow.CoarseBoundaryLayerThickness",.012642);
+   fineBL_=getParam<Scalar>("FreeFlow.FineBoundaryLayerThickness",.003019);
+   relativeHumidity_=getParam<Scalar>("FreeFlow.RelativeHumidity",.4);
+@@ -185,7 +193,10 @@
+   }
+   if(bottom){
+    Scalar active=1;
+-   if(supply_=="CentralAperture"){
++   if(explicitFilter_){
++    bool found=false;for(const auto& p:portFaces_)if(std::hypot(pos[0]-p[0],pos[2]-p[1])<1e-10){active=p[2];found=true;break;}
++    if(!found)DUNE_THROW(Dune::InvalidStateException,"No matching 3D port face");
++   }else if(supply_=="CentralAperture"){
+     auto half=face.area()/2,mid=(min[0]+max[0])/2;
+     active=std::max(Scalar(0),std::min(pos[0]+half,mid+inlet_/2)-std::max(pos[0]-half,mid-inlet_/2))/face.area();
+    }
+@@ -239,7 +250,7 @@
+     const auto& v=ev[scv];auto volume=scv.volume()*v.extrusionFactor();
+     if(this->spatialParams().fixedHydraulics()){
+      const auto phi0=this->spatialParams().referencePorosity(e,scv);
+-     const auto k0=getParam<Scalar>(scv.center()[0]<=split_?"SpatialParams.CoarsePermeability":"SpatialParams.FinePermeability");
++     const auto k0=this->spatialParams().registeredPermeability(scv.center());
+      if(v.porosity()!=phi0||v.permeability()!=k0)
+       DUNE_THROW(Dune::InvalidStateException,"Fixed hydraulic phi/K changed in an accepted state");
+     }
+@@ -376,15 +387,17 @@
+   for(const auto& e:elements(this->gridGeometry().gridView())){
+    auto fv=localView(this->gridGeometry());fv.bindElement(e);
+    for(const auto& scv:scvs(fv)){
+-    const auto p=scv.center();Scalar value=0;
++    const auto p=scv.center();if(this->spatialParams().isFilter(p))continue;Scalar value=0;
+     for(int j=0;j<6;++j)value+=std::sin(2*std::acos(-1.)*((p[0]-.025)/wavelengths[j][0]+p[1]/wavelengths[j][1]+p[2]/wavelengths[j][2])+phases[j]);
+     noise[scv.dofIndex()]=value;sum+=value*scv.volume();square+=value*value*scv.volume();vol+=scv.volume();
+    }
+   }
+   const auto mean=sum/vol,rms=std::sqrt(square/vol-mean*mean);
+-  for(auto& v:noise)v=sigma_*(v-mean)/rms;
++  std::vector<bool> sand(x.size(),true);
++  for(const auto& e:elements(this->gridGeometry().gridView())){auto fv=localView(this->gridGeometry());fv.bindElement(e);for(const auto& scv:scvs(fv))sand[scv.dofIndex()]=!this->spatialParams().isFilter(scv.center());}
++  for(std::size_t i=0;i<noise.size();++i)noise[i]=sand[i]?sigma_*(noise[i]-mean)/rms:0.;
+   auto candidate=x;
+-  auto total=[&](Scalar shift){for(std::size_t i=0;i<x.size();++i){candidate[i]=x[i];candidate[i][salt]+=noise[i]-shift;}gv.update(candidate);return audit(candidate,gv).n[salt];};
++  auto total=[&](Scalar shift){for(std::size_t i=0;i<x.size();++i){candidate[i]=x[i];if(sand[i])candidate[i][salt]+=noise[i]-shift;}gv.update(candidate);return audit(candidate,gv).n[salt];};
+   Scalar left=-10*sigma_,right=10*sigma_;
+   for(int i=0;i<38;++i){auto mid=(left+right)/2;if(total(mid)>before.n[salt])left=mid;else right=mid;}
+   total((left+right)/2);x=candidate;gv.update(x);auto after=audit(x,gv);
+@@ -416,7 +429,10 @@
+   }
+  }
+  bool equilibriumPrecipitation() const { return equilibriumPrecipitation_; }
++#include "campaign_diagnostics.hh"
+ private:
++ const bool explicitFilter_=getParam<bool>("Revision.ExplicitFilter",false);
++ std::vector<std::array<double,3>> portFaces_;
+  const bool equilibriumPrecipitation_=getParam<bool>("Revision.EquilibriumPrecipitation",false);
+  Scalar gasWaterMassFraction_(Scalar y)const{return FS::molarMass(water)*y/(FS::molarMass(water)*y+FS::molarMass(air)*(1-y));}
+  Scalar filmWaterFlux_(const VV& v)const{
+--- baseline/appl/spatialparams.hh
++++ filter/appl/spatialparams.hh
+@@ -72,6 +72,7 @@
+     : ParentType(gridGeometry)
+     , coarsePcKrSwCurve_(getParam<std::string>("SpatialParams.CoarsePcGroup", "SpatialParams"))
+     , finePcKrSwCurve_(getParam<std::string>("SpatialParams.FinePcGroup", "SpatialParams"))
++    , filterPcKrSwCurve_(getParam<std::string>("SpatialParams.FilterPcGroup", "SpatialParams.CoarseMaterial"))
+     {
+         solubilityLimit_       = getParam<Scalar>("SpatialParams.SolubilityLimit", 0.26);
+         const auto basePorosity = getParam<Scalar>("SpatialParams.referencePorosity", 0.11);
+@@ -175,7 +176,7 @@
+      */
+     auto fluidMatrixInteractionAtPos(const GlobalPosition &globalPos) const
+     {
+-        return isCoarse_(globalPos)
++        return isFilter(globalPos) ? makeFluidMatrixInteraction(filterPcKrSwCurve_) : isCoarse_(globalPos)
+             ? makeFluidMatrixInteraction(coarsePcKrSwCurve_)
+             : makeFluidMatrixInteraction(finePcKrSwCurve_);
+     }
+@@ -193,6 +194,8 @@
+ 
+ 
+     bool fixedHydraulics() const { return fixedHydraulics_; }
++    bool isFilter(const GlobalPosition& p) const {return explicitFilter_ && p[1]<-1e-10;}
++    Scalar registeredPermeability(const GlobalPosition& p)const{return referencePermeabilityAtPos_(p);}
+ 
+ private:
+     const bool fixedHydraulics_ = getParam<bool>("Revision.FixedHydraulics", false);
+@@ -201,10 +204,10 @@
+     { return globalPos[splitAxis_] <= splitCoordinate_; }
+ 
+     Scalar referencePorosityAtPos_(const GlobalPosition& globalPos) const
+-    { return isCoarse_(globalPos) ? coarsePorosity_ : finePorosity_; }
++    { return isFilter(globalPos) ? filterPorosity_ : (isCoarse_(globalPos) ? coarsePorosity_ : finePorosity_); }
+ 
+     PermeabilityType referencePermeabilityAtPos_(const GlobalPosition& globalPos) const
+-    { return isCoarse_(globalPos) ? coarsePermeability_ : finePermeability_; }
++    { return isFilter(globalPos) ? filterPermeability_ : (isCoarse_(globalPos) ? coarsePermeability_ : finePermeability_); }
+ 
+     PermeabilityKozenyCarman<PermeabilityType> permLaw_;
+ 
+@@ -217,6 +220,10 @@
+     int splitAxis_ = 0;
+     const PcKrSwCurve coarsePcKrSwCurve_;
+     const PcKrSwCurve finePcKrSwCurve_;
++    const PcKrSwCurve filterPcKrSwCurve_;
++    const bool explicitFilter_=getParam<bool>("Revision.ExplicitFilter",false);
++    const Scalar filterPorosity_=getParam<Scalar>("SpatialParams.FilterPorosity",.35);
++    const Scalar filterPermeability_=getParam<Scalar>("SpatialParams.FilterPermeability",1e-11);
+     Scalar temperature_;
+ };
+ 

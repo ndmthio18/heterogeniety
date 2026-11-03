@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-11-03T14:03:39.258041+00:00",
+  "host": "sal",
+  "remote_root": "/tmp/zhixin_v13_bottom_boundary_20261103",
+  "baseline_job": "19181",
+  "B_short_array": "19182",
+  "B_production_array": "19183",
+  "G_jobs": {
+    "gates": {
+      "job_id": "19187"
+    },
+    "G1": {
+      "job_id": "19188"
+    },
+    "G2": {
+      "job_id": "19189"
+    },
+    "G3": {
+      "job_id": "19190"
+    }
+  },
+  "probe_attempts": [
+    "19184",
+    "19185",
+    "19186",
+    "19191"
+  ],
+  "state": "baseline passed; B0/B1 short running; production dependency queued/held",
+  "threads_per_process": 1,
+  "B_array_concurrency": 2,
+  "G_release_policy": "resource_dispatch.py; at most 70 percent of capacity remaining after unrelated allocations, capped at 8 logical CPUs total; preserve two-case B peak",
+  "latest_probe_state": "passed",
+  "updated_utc": "2026-11-03T14:17:32.458941+00:00",
+  "automation_id": "v13-b-g"
+}
