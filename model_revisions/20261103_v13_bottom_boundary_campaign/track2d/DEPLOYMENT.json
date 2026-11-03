@@ -1,0 +1,30 @@
+{
+  "updated_utc": "2026-11-03T14:39:02.355985+00:00",
+  "active_host": "frodo",
+  "ssh_alias": "iws_zhixin",
+  "remote_root": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d",
+  "supervisor_pid": 2788162,
+  "core_controller_pid": 2788169,
+  "state": "core_gates_running; production pending acceptance",
+  "cpu_pool": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "max_serial_processes": 6,
+  "ELF_sha256": "b327666ace7f6e5ae8702dde7e12f06ca58e4f3cc80b30fed7a99403081c4a4a",
+  "cancelled_unstarted_sal_jobs": [
+    "19195",
+    "19196",
+    "19197",
+    "19198",
+    "19199",
+    "19200"
+  ],
+  "user_authorization": "User explicitly permits Frodo or cxhpc; chose idle compatible Frodo after both resource checks",
+  "cxhpc": "reachable through existing liqin bridge; load~15/32physical cores, not used",
+  "monitor": "v13-b-g"
+}

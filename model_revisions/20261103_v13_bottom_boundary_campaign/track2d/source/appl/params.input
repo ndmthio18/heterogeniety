@@ -1,0 +1,93 @@
+# Parameter file for test case 2pncmin.
+# Everything behind a '#' is a comment.
+# Type "./test_2pncmin --help" for more information.
+
+[TimeLoop]
+TEnd                    = 478800                # duration of the simulation [s]
+DtInitial               = 50                    # initial time step size [s]
+MaxTimeStepSize         = 600                  	# maximum time step size
+CheckpointOutputInterval  = 600
+
+
+[Grid]
+Positions0              = 0 0.031
+Positions1              = 0 0.04
+Cells0                  = 32 
+Cells1                  = 40 
+Grading0                = 1.0
+Grading1                = -0.9
+
+[FluidSystem]
+NTemperature            = 100                   # [-] number of tabularization entries
+NPressure               = 200                   # [-] number of tabularization entries
+PressureLow             = -10.                  # [Pa]low end for tabularization of fluid properties
+PressureHigh            = 20e6                  # [Pa]high end for tabularization of fluid properties
+TemperatureLow          = 273.15                # [K]low end for tabularization of fluid properties
+TemperatureHigh         = 623.15                # [K]high end for tabularization of fluid properties
+
+[Problem]
+Name                    	= test		# [-] name for output files
+WaterReservoirLevel 		= 0.0		# [m] level of the water in the reservoir to adjust saturation
+Temperature             	= 293.15        # [K] initial temperature
+InitialPressure         	= 1.00e5        # [Pa] initial reservoir pressure
+InitialMoleFractionSalt     	= 0.0177        # [-]=[molNaCl/molSolution] initial salt mole fraction
+StdDeviationSalt 	= 1e-5			# [mol/mol] standard deviation for perturbation 
+
+PlexiglassThermalConductivity = 0.184 		# [W/(m*K)] plexiglass thermal conductivity  
+PlexiglassThickness = 0.005 			# [m] wall thickness
+InletSize = 0.002  				# [m] size of the inlet at the bottom boundary
+
+
+[Brine]
+Salinity 			= 0.055		# [kg/kg] mass fraction of the salinity 
+
+[FreeFlow]
+EvaporationType     = Constant 			# Choose a evaporation type: Constant or InputFile
+EvaporationRateDataFile = ../../../appl/2pncmin_BC/datafiles/evaporationrate_W3.txt                  
+							# [m/s] fixed evaporation rate 
+EvaporationRate = 5.79e-8      			# [m/s] averaged evaporation rate  
+RefMoleFracH2O	= 0.4 				# [-] relative humidity in the atmosphere 
+AirTemperature		= 293.15		# [K] air temperature 
+BoundaryLayerThickness = 0.003019 		# [m] boundary layer thickness calculated from the evaporation rate 
+CoarseBoundaryLayerThickness = 0.012642 # [m] boundary layer thickness for coarse sand (F36)
+FineBoundaryLayerThickness   = 0.003019 # [m] boundary layer thickness for fine sand (W3)
+
+[SpatialParams]
+SolubilityLimit         = 0.26 	                # [kg/kg]  solubility limit of NaCl in brine
+Temperature             = 293.15                # [K] initial temperature
+# Default split: along x, 0.0–0.0155 is coarse (F36), 0.0155–0.031 is fine (W3)
+SplitAxis               = 0
+SplitCoordinate         = 0.0155
+referencePorosity        = 0.36                	# fallback only
+referencePermeability   = 3.13e-14              # fallback only
+
+CoarsePorosity          = 0.40                	# F36
+FinePorosity            = 0.36                	# W3
+CoarsePermeability      = 7.64e-12              # F36
+FinePermeability        = 3.13e-14              # W3
+
+# Region-specific Pc/kr parameter groups
+CoarsePcGroup           = SpatialParams.CoarseMaterial
+FinePcGroup             = SpatialParams.FineMaterial
+
+[SpatialParams.CoarseMaterial]   # F36
+Snr = 0.0					# [-] residual gas saturation 	
+Swr = 0.05					# [-] residual water saturation 
+BrooksCoreyPcEntry = 0.469e4 			# [Pa] Brooks-Corey entry pressure 
+BrooksCoreyLambda = 5.04 			# [-] Brooks-Corey lambda 
+
+[SpatialParams.FineMaterial]     # W3
+Snr = 0.0					# [-] residual gas saturation 	
+Swr = 0.22					# [-] residual water saturation 
+BrooksCoreyPcEntry = 1.12e4 			# [Pa] Brooks-Corey entry pressure 
+BrooksCoreyLambda = 0.384 			# [-] Brooks-Corey lambda 
+
+[Component]
+SolidDensity = 2650				# [kg m-3] solid density 
+SolidThermalConductivity = 2.8			# [J kg-1 K-1] solid thermal conductivity 
+SolidHeatCapacity = 790				# [W m-1 K-1] solid heat capacity 
+
+[Vtk]
+AddVelocity             = 1                     
+AddProcessRank          = 0
+AddDiffusionVelocity    = 1

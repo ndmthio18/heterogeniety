@@ -1,0 +1,104 @@
+[TimeLoop]
+TEnd = 7200
+DtInitial = 10
+MaxTimeStepSize = 300
+CheckpointOutputInterval = 600
+
+[Grid]
+File = filter.msh
+
+[Problem]
+Name = G3_hydro
+InletSize = 0.002
+PlexiglassThermalConductivity = 0.184
+PlexiglassThickness = 0.005
+
+[Reservoir]
+Temperature = 293.15
+AtmosphericPressure = 100000
+LevelAboveSandBottom = 0.02
+Molarity = 1.0
+
+[Revision]
+CoarseWaterFluxMultiplier = 1
+SaltDiffusionScale = 1
+PreEquilibrationSeconds = 7200
+PerturbationStd = 0
+RandomSeed = 1
+SupplyMode = DistributedReservoir
+FilterHydraulicResistance = 0
+WaterForcingMode = FilmTransfer
+WaterMassFlux = 0
+WaterForcingFile = water_flux_zero_storage.txt
+StopOnPrecipitation = false
+MaxBudgetRelativeResidual = 1e-6
+MaxEnergyBudgetRelativeResidual = 1e-6
+ActivityWeightedEvaporation = false
+ActivityRelativeVaporPressure = 0
+WaterFluxAreaCorrection = 1
+UnifiedWaterActivity = true
+FilmThickness = 0.0081001622498808219
+FilmRH = 0
+EquilibriumPrecipitation = true
+FixedHydraulics = true
+ExplicitFilter = true
+SlitWidth = 0.0020000000000000005
+
+[SpatialParams]
+Temperature = 293.15
+SplitAxis = 0
+SplitCoordinate = 0.025
+CoarsePorosity = 0.40
+FinePorosity = 0.36
+CoarsePermeability = 7.819185772155931e-12
+FinePermeability = 3.2034098778596945e-14
+SolubilityLimit = 0.26
+CoarsePcGroup = SpatialParams.CoarseMaterial
+FinePcGroup = SpatialParams.FineMaterial
+FilterPorosity = .35
+FilterPermeability = 1.7333127738454676e-11
+FilterPcGroup = SpatialParams.CoarseMaterial
+
+[SpatialParams.CoarseMaterial]
+Snr = 0
+Swr = 0.05
+BrooksCoreyPcEntry = 4690
+BrooksCoreyLambda = 5.04
+
+[SpatialParams.FineMaterial]
+Snr = 0
+Swr = 0.22
+BrooksCoreyPcEntry = 11200
+BrooksCoreyLambda = 0.384
+
+[FreeFlow]
+CoarseBoundaryLayerThickness = 0.012642
+FineBoundaryLayerThickness = 0.003019
+RelativeHumidity = 0
+
+[Newton]
+MaxRelativeShift = 1e-9
+EnableAbsoluteResidualCriterion = true
+MaxAbsoluteResidual = 1e-10
+SatisfyResidualAndShiftCriterion = true
+MaxSteps = 20
+MaxTimeStepDivisions = 12
+EnablePartialReassembly = true
+
+[LinearSolver]
+ResidualReduction = 1e-9
+
+[Vtk]
+Precision = Float64
+CoordPrecision = Float64
+AddVelocity = true
+AddProcessRank = false
+
+[Benchmark]
+AmgILU = true
+IterationAwareDt = false
+VtkEvery = 1
+
+[Geometry]
+ExtrusionWidth = 0.039269908169872414
+

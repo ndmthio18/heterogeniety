@@ -1,0 +1,150 @@
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/kiemle2025a/build-cmake: No such file or directory [[01;35m[K-Wmissing-include-dirs[m[K]
+[01m[Kcc1plus:[m[K [01;35m[Kwarning: [m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/kiemle2025a: No such file or directory [[01;35m[K-Wmissing-include-dirs[m[K]
+In file included from [01m[K/temp/zhixin/v13_bottom_2d_build_20261103/source/appl/problem.hh:431[m[K,
+                 from [01m[K/temp/zhixin/v13_bottom_2d_build_20261103/source/appl/properties.hh:52[m[K,
+                 from [01m[K/temp/zhixin/v13_bottom_2d_build_20261103/test_boundary.cc:6[m[K:
+[01m[K/temp/zhixin/v13_bottom_2d_build_20261103/source/appl/campaign_diagnostics.hh:[m[K In member function ‘[01m[Kvoid Dumux::SaltExperimentsProblem<TypeTag>::[01;32m[KcampaignAudit[m[K(const SV&, const GV&, double, double, bool, bool, bool)[m[K’:
+[01m[K/temp/zhixin/v13_bottom_2d_build_20261103/source/appl/campaign_diagnostics.hh:63:2:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+   63 |  [01;35m[Kfor[m[K(int kind=0;kind<6;++kind)for(int mat=0;mat<3;++mat){const auto& row=gross[kind*3+mat];if(row[12]==0)continue;campaignFlux_<<time<<','<<dt<<','<<kind<<','<<mat;for(auto v:row)campaignFlux_<<','<<v;campaignFlux_<<'\n';}campaignFlux_.flush();
+      |  [01;35m[K^~~[m[K
+[01m[K/temp/zhixin/v13_bottom_2d_build_20261103/source/appl/campaign_diagnostics.hh:63:223:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+   63 |  for(int kind=0;kind<6;++kind)for(int mat=0;mat<3;++mat){const auto& row=gross[kind*3+mat];if(row[12]==0)continue;campaignFlux_<<time<<','<<dt<<','<<kind<<','<<mat;for(auto v:row)campaignFlux_<<','<<v;campaignFlux_<<'\n';}[01;36m[KcampaignFlux_[m[K.flush();
+      |                                                                                                                                                                                                                               [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/temp/zhixin/v13_bottom_2d_build_20261103/test_boundary.cc:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/temp/zhixin/v13_bottom_2d_build_20261103/test_boundary.cc:31:5:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+   31 |     [01;35m[Kif[m[K(de>1e-8||he>1e-8)throw std::runtime_error("Donor salt or heat mismatch");++probes;gv->update(x);
+      |     [01;35m[K^~[m[K
+[01m[K/temp/zhixin/v13_bottom_2d_build_20261103/test_boundary.cc:31:81:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+   31 |     if(de>1e-8||he>1e-8)throw std::runtime_error("Donor salt or heat mismatch");[01;36m[K++[m[Kprobes;gv->update(x);
+      |                                                                                 [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/c++/13/functional:65[m[K,
+                 from [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/parallel/mpicommunication.hh:19[m[K,
+                 from [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/parallel/mpihelper.hh:17[m[K,
+                 from [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dumux/dumux/common/initialize.hh:19[m[K,
+                 from [01m[K/temp/zhixin/v13_bottom_2d_build_20261103/test_boundary.cc:5[m[K:
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = Dune::FieldVector<double, 2>; long unsigned int _Nm = 1][m[K[m[K’,
+    inlined from ‘[01m[KDune::FieldMatrix<K, N, M>::row_reference Dune::FieldMatrix<K, N, M>::[01;32m[Kmat_access[m[K(size_type) [35m[K[with K = double; int ROWS = 1; int COLS = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fmatrix.hh:372:19[m[K,
+    inlined from ‘[01m[KDune::DenseMatrix<M>::row_reference Dune::DenseMatrix<M>::[01;32m[Koperator[][m[K(size_type) [35m[K[with MAT = Dune::FieldMatrix<double, 1, 2>][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/densematrix.hh:191:32[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:51[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744071562067968 is above array bounds of ‘[01m[Kstd::__array_traits<Dune::FieldVector<double, 2>, 1>::_Type[m[K’ {aka ‘[01m[KDune::FieldVector<double, 2> [1][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<Dune::FieldVector<double, 2>, 1>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = double; long unsigned int _Nm = 2][m[K[m[K’,
+    inlined from ‘[01m[KK& Dune::FieldVector<K, n>::[01;32m[Koperator[][m[K(size_type) [35m[K[with K = double; int SIZE = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fvector.hh:190:19[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:66[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744073709551610 is above array bounds of ‘[01m[Kstd::__array_traits<double, 2>::_Type[m[K’ {aka ‘[01m[Kdouble [2][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<double, 2>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = Dune::FieldVector<double, 2>; long unsigned int _Nm = 1][m[K[m[K’,
+    inlined from ‘[01m[KDune::FieldMatrix<K, N, M>::row_reference Dune::FieldMatrix<K, N, M>::[01;32m[Kmat_access[m[K(size_type) [35m[K[with K = double; int ROWS = 1; int COLS = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fmatrix.hh:372:19[m[K,
+    inlined from ‘[01m[KDune::DenseMatrix<M>::row_reference Dune::DenseMatrix<M>::[01;32m[Koperator[][m[K(size_type) [35m[K[with MAT = Dune::FieldMatrix<double, 1, 2>][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/densematrix.hh:191:32[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:51[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744071562067968 is above array bounds of ‘[01m[Kstd::__array_traits<Dune::FieldVector<double, 2>, 1>::_Type[m[K’ {aka ‘[01m[KDune::FieldVector<double, 2> [1][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<Dune::FieldVector<double, 2>, 1>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = double; long unsigned int _Nm = 2][m[K[m[K’,
+    inlined from ‘[01m[KK& Dune::FieldVector<K, n>::[01;32m[Koperator[][m[K(size_type) [35m[K[with K = double; int SIZE = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fvector.hh:190:19[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:66[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744073709551611 is above array bounds of ‘[01m[Kstd::__array_traits<double, 2>::_Type[m[K’ {aka ‘[01m[Kdouble [2][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<double, 2>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = Dune::FieldVector<double, 2>; long unsigned int _Nm = 1][m[K[m[K’,
+    inlined from ‘[01m[KDune::FieldMatrix<K, N, M>::row_reference Dune::FieldMatrix<K, N, M>::[01;32m[Kmat_access[m[K(size_type) [35m[K[with K = double; int ROWS = 1; int COLS = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fmatrix.hh:372:19[m[K,
+    inlined from ‘[01m[KDune::DenseMatrix<M>::row_reference Dune::DenseMatrix<M>::[01;32m[Koperator[][m[K(size_type) [35m[K[with MAT = Dune::FieldMatrix<double, 1, 2>][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/densematrix.hh:191:32[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:51[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744071562067968 is above array bounds of ‘[01m[Kstd::__array_traits<Dune::FieldVector<double, 2>, 1>::_Type[m[K’ {aka ‘[01m[KDune::FieldVector<double, 2> [1][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<Dune::FieldVector<double, 2>, 1>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = double; long unsigned int _Nm = 2][m[K[m[K’,
+    inlined from ‘[01m[KK& Dune::FieldVector<K, n>::[01;32m[Koperator[][m[K(size_type) [35m[K[with K = double; int SIZE = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fvector.hh:190:19[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:66[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744073709551612 is above array bounds of ‘[01m[Kstd::__array_traits<double, 2>::_Type[m[K’ {aka ‘[01m[Kdouble [2][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<double, 2>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = Dune::FieldVector<double, 2>; long unsigned int _Nm = 1][m[K[m[K’,
+    inlined from ‘[01m[KDune::FieldMatrix<K, N, M>::row_reference Dune::FieldMatrix<K, N, M>::[01;32m[Kmat_access[m[K(size_type) [35m[K[with K = double; int ROWS = 1; int COLS = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fmatrix.hh:372:19[m[K,
+    inlined from ‘[01m[KDune::DenseMatrix<M>::row_reference Dune::DenseMatrix<M>::[01;32m[Koperator[][m[K(size_type) [35m[K[with MAT = Dune::FieldMatrix<double, 1, 2>][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/densematrix.hh:191:32[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:51[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744071562067968 is above array bounds of ‘[01m[Kstd::__array_traits<Dune::FieldVector<double, 2>, 1>::_Type[m[K’ {aka ‘[01m[KDune::FieldVector<double, 2> [1][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<Dune::FieldVector<double, 2>, 1>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = double; long unsigned int _Nm = 2][m[K[m[K’,
+    inlined from ‘[01m[KK& Dune::FieldVector<K, n>::[01;32m[Koperator[][m[K(size_type) [35m[K[with K = double; int SIZE = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fvector.hh:190:19[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:66[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744073709551613 is above array bounds of ‘[01m[Kstd::__array_traits<double, 2>::_Type[m[K’ {aka ‘[01m[Kdouble [2][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<double, 2>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = Dune::FieldVector<double, 2>; long unsigned int _Nm = 1][m[K[m[K’,
+    inlined from ‘[01m[KDune::FieldMatrix<K, N, M>::row_reference Dune::FieldMatrix<K, N, M>::[01;32m[Kmat_access[m[K(size_type) [35m[K[with K = double; int ROWS = 1; int COLS = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fmatrix.hh:372:19[m[K,
+    inlined from ‘[01m[KDune::DenseMatrix<M>::row_reference Dune::DenseMatrix<M>::[01;32m[Koperator[][m[K(size_type) [35m[K[with MAT = Dune::FieldMatrix<double, 1, 2>][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/densematrix.hh:191:32[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:51[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744071562067968 is above array bounds of ‘[01m[Kstd::__array_traits<Dune::FieldVector<double, 2>, 1>::_Type[m[K’ {aka ‘[01m[KDune::FieldVector<double, 2> [1][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<Dune::FieldVector<double, 2>, 1>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = double; long unsigned int _Nm = 2][m[K[m[K’,
+    inlined from ‘[01m[KK& Dune::FieldVector<K, n>::[01;32m[Koperator[][m[K(size_type) [35m[K[with K = double; int SIZE = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fvector.hh:190:19[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:66[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744073709551614 is above array bounds of ‘[01m[Kstd::__array_traits<double, 2>::_Type[m[K’ {aka ‘[01m[Kdouble [2][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<double, 2>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = Dune::FieldVector<double, 2>; long unsigned int _Nm = 1][m[K[m[K’,
+    inlined from ‘[01m[KDune::FieldMatrix<K, N, M>::row_reference Dune::FieldMatrix<K, N, M>::[01;32m[Kmat_access[m[K(size_type) [35m[K[with K = double; int ROWS = 1; int COLS = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fmatrix.hh:372:19[m[K,
+    inlined from ‘[01m[KDune::DenseMatrix<M>::row_reference Dune::DenseMatrix<M>::[01;32m[Koperator[][m[K(size_type) [35m[K[with MAT = Dune::FieldMatrix<double, 1, 2>][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/densematrix.hh:191:32[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:51[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744071562067968 is above array bounds of ‘[01m[Kstd::__array_traits<Dune::FieldVector<double, 2>, 1>::_Type[m[K’ {aka ‘[01m[KDune::FieldVector<double, 2> [1][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<Dune::FieldVector<double, 2>, 1>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K
+In member function ‘[01m[Kconstexpr std::array<_Tp, _Nm>::value_type& std::array<_Tp, _Nm>::[01;32m[Koperator[][m[K(size_type) [35m[K[with _Tp = double; long unsigned int _Nm = 2][m[K[m[K’,
+    inlined from ‘[01m[KK& Dune::FieldVector<K, n>::[01;32m[Koperator[][m[K(size_type) [35m[K[with K = double; int SIZE = 2][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-common/dune/common/fvector.hh:190:19[m[K,
+    inlined from ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’ at [01m[K/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dune-geometry/dune/geometry/referenceelementimplementation.hh:255:66[m[K:
+[01m[K/usr/include/c++/13/array:203:24:[m[K [01;35m[Kwarning: [m[Karray subscript 18446744073709551615 is above array bounds of ‘[01m[Kstd::__array_traits<double, 2>::_Type[m[K’ {aka ‘[01m[Kdouble [2][m[K’} [[01;35m[K-Warray-bounds=[m[K]
+  203 |         return [01;35m[K_M_elems[[m[K__n];
+      |                [01;35m[K~~~~~~~~^[m[K
+[01m[K/usr/include/c++/13/array:[m[K In function ‘[01m[Kunsigned int Dune::Geo::Impl::[01;32m[KreferenceEmbeddings[m[K(unsigned int, int, int, Dune::FieldVector<K, n>*, Dune::FieldMatrix<K, COLS, ROWS>*) [35m[K[with ct = double; int cdim = 2; int mydim = 1][m[K[m[K’:
+[01m[K/usr/include/c++/13/array:109:55:[m[K [01;36m[Knote: [m[Kwhile referencing ‘[01m[Kstd::array<double, 2>::_M_elems[m[K’
+  109 |       typename __array_traits<_Tp, _Nm>::_Type        [01;36m[K_M_elems[m[K;
+      |                                                       [01;36m[K^~~~~~~~[m[K

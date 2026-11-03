@@ -1,0 +1,12 @@
+{
+  "jobs": {
+    "core": "19195",
+    "B_array": "19196",
+    "G_gates": "19197",
+    "G1": "19198",
+    "G2": "19199",
+    "G3": "19200"
+  },
+  "state": "submitted_held; resource dispatcher releases only after eligibility",
+  "utc": "2026-11-03T14:26:39.471202+00:00"
+}

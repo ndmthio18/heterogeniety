@@ -1,0 +1,6 @@
+{
+  "baseline": "accepted v13, eight saved checkpoints; field/ledger verified",
+  "MRI": "archived nominal-clock profiles, unchanged",
+  "available_cases": [],
+  "interpretation": "No missing case is extrapolated; MRI is comparison, not a fit target"
+}

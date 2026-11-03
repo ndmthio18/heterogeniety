@@ -481,12 +481,12 @@
       "state": "running",
       "controller_pid": 1442193,
       "solver_pid": 1442195,
-      "evaporation_time_h": -1.9106336805555555,
-      "salt_solid_mol": -3.2461231250863985e-38,
+      "evaporation_time_h": -1.721435546875,
+      "salt_solid_mol": -2.5037004573605474e-37,
       "C_max_mol_L": 1.0000000802186377,
       "S_min": 1.0,
-      "updated_utc": "2026-11-03T14:18:11.342233+00:00",
-      "scratch_free_GiB": 116.69461059570312
+      "updated_utc": "2026-11-03T14:19:56.544519+00:00",
+      "scratch_free_GiB": 116.66717529296875
     },
     "B0_hydro_status.json": {
       "case": "B0_hydro",
@@ -500,12 +500,12 @@
       "state": "running",
       "controller_pid": 1442191,
       "solver_pid": 1442194,
-      "evaporation_time_h": -1.9106336805555555,
-      "salt_solid_mol": 6.551899344975531e-38,
+      "evaporation_time_h": -1.721435546875,
+      "salt_solid_mol": 3.961050127373719e-37,
       "C_max_mol_L": 1.0000000802186377,
       "S_min": 1.0,
-      "updated_utc": "2026-11-03T14:18:11.278656+00:00",
-      "scratch_free_GiB": 116.69461059570312
+      "updated_utc": "2026-11-03T14:19:56.509919+00:00",
+      "scratch_free_GiB": 116.66717529296875
     },
     "Baseline_short_status.json": {
       "case": "Baseline_short",
@@ -820,7 +820,7 @@
       }
     }
   },
-  "scratch_free_GiB": 116.69461059570312,
-  "squeue": "19194_[0-3%2]|P2-WP5-short|PENDING|0:00|1|(Priority)\n19182_[2-3%2]|bottom_short|PENDING|0:00|1|(JobArrayTaskLimit)\n19183_[0-3%2]|bottom_174h|PENDING|0:00|1|(Dependency)\n19190|bottom_G3|PENDING|0:00|1|(JobHeldUser)\n19189|bottom_G2|PENDING|0:00|1|(JobHeldUser)\n19188|bottom_G1|PENDING|0:00|1|(JobHeldUser)\n19187|bottom_G_gates|PENDING|0:00|1|(JobHeldUser)\n19182_0|bottom_short|RUNNING|4:22|2|localhost\n19182_1|bottom_short|RUNNING|4:22|2|localhost\n19169|film080|RUNNING|7:40:51|8|localhost\n19168|film075|RUNNING|7:40:52|8|localhost\n",
-  "queried_utc": "2026-11-03T14:18:17.403723+00:00"
+  "scratch_free_GiB": 116.66717529296875,
+  "squeue": "19194_[0-3%2]|P2-WP5-short|PENDING|0:00|1|(Priority)\n19182_[2-3%2]|bottom_short|PENDING|0:00|1|(JobArrayTaskLimit)\n19183_[0-3%2]|bottom_174h|PENDING|0:00|1|(Dependency)\n19190|bottom_G3|PENDING|0:00|1|(JobHeldUser)\n19189|bottom_G2|PENDING|0:00|1|(JobHeldUser)\n19188|bottom_G1|PENDING|0:00|1|(JobHeldUser)\n19187|bottom_G_gates|PENDING|0:00|1|(JobHeldUser)\n19182_0|bottom_short|RUNNING|6:14|2|localhost\n19182_1|bottom_short|RUNNING|6:14|2|localhost\n19169|film080|RUNNING|7:42:43|8|localhost\n19168|film075|RUNNING|7:42:44|8|localhost\n",
+  "queried_utc": "2026-11-03T14:20:09.803924+00:00"
 }

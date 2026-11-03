@@ -1,0 +1,49 @@
+{
+  "state": "passed",
+  "through_evaporation_h": 174.0,
+  "frames": 8,
+  "max_salt_field_ledger_relative_error": 1.1469333747724287e-14,
+  "source_hashes": [
+    {
+      "file": "RH0_174h-00012.vtu.gz",
+      "sha256": "8d7b46f1557c93d8c0e7985f9096e0f9a13b345217e743e05f0e64738555be5e",
+      "time_h": 0.0
+    },
+    {
+      "file": "RH0_174h-00156.vtu.gz",
+      "sha256": "dcdd4d10ea9c28f610c9391bf0732ac000ecb409e74f8c5c9a75bfcc485f293c",
+      "time_h": 24.0
+    },
+    {
+      "file": "RH0_174h-00372.vtu.gz",
+      "sha256": "f6def060ec5f2edfbadd03394874a5a0943f43270c60a7b68cf375a6bc7f29e9",
+      "time_h": 60.0
+    },
+    {
+      "file": "RH0_174h-00516.vtu.gz",
+      "sha256": "7557e4da8c2f7abe7038a50460dd7075dc3397433fb0109439d8c317c85b0d27",
+      "time_h": 84.0
+    },
+    {
+      "file": "RH0_174h-00588.vtu.gz",
+      "sha256": "4561758bba1f51f1eebde44b4e507ec4c5ded9bf3e52108bc4335da95892c178",
+      "time_h": 96.0
+    },
+    {
+      "file": "RH0_174h-00732.vtu.gz",
+      "sha256": "9be942d2298d429177e55c961992556a61b5512e2386d2cc0c2883107fe726d8",
+      "time_h": 120.0
+    },
+    {
+      "file": "RH0_174h-00876.vtu.gz",
+      "sha256": "44f7e15c1945e498b6fc643f2e679d79edd3c1a5719ed1a5fcba23764caada7a",
+      "time_h": 144.0
+    },
+    {
+      "file": "RH0_174h-01056.vtu.gz",
+      "sha256": "50d296619f076a7d6f6f5f9ae0638e434553280b9ccad81baa46fa021f1c22c9",
+      "time_h": 174.0
+    }
+  ],
+  "interpretation": "native depth-wide diagnostic; geometry must be read from case metadata; no absolute 2D\u20133D or morphology/onset validation"
+}

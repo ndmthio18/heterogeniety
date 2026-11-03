@@ -1,0 +1,12 @@
+{
+  "utc": "2026-11-03T14:43:32.688003+00:00",
+  "status": "passed",
+  "scope": "baseline_depth_wide.png only; accepted v13 and archived MRI; no new 2D results",
+  "checks": [
+    "axes and 174h points visible",
+    "legends and depth bands readable",
+    "checkpoint lines identified",
+    "pending campaign clearly labelled"
+  ],
+  "png_sha256": "8f8faf4fa63c6bda708c8fd3fd02f328e9cf80b3737bdd26d796319014b0faf7"
+}

@@ -1,0 +1,19 @@
+{
+  "dimension": 2,
+  "width_m": 0.05,
+  "height_m": 0.04,
+  "extrusion_m": 0.039269908169872414,
+  "cells": {
+    "sand.msh": 4000,
+    "filter.msh": 4600,
+    "sand_refined.msh": 16000,
+    "filter_refined.msh": 17200
+  },
+  "slit_widths_m": {
+    "G1": 8e-05,
+    "G2": 0.0005000000000000001,
+    "G3": 0.0020000000000000005
+  },
+  "normalization": "Exact nominal cylinder top area; unit-depth planar physics, no front/back wall heat exchange",
+  "reference_resistance_Pa_s_m": 288856.0397652994
+}

@@ -9,3 +9,7 @@ G jobs are submitted held. resource_dispatch.py rechecks unrelated allocations b
 Raw VTUs are reversibly gzip-compressed with raw and compressed SHA256 records. backup_incremental.py downloads closed fields and metadata, verifies transport and per-member hashes, and removes only its verified disposable transport tar. Original raw gzip fields and all failed attempts remain. No old revision or unrelated data cleanup is authorized. /tmp is volatile, so final completion requires all final fields and metadata verified locally.
 
 Monitor every two hours. No parameter/tolerance/time-step changes or restarts merely for slowness. Failed physical/numerical gates block downstream production. A repaired test reference or launcher must retain original evidence and document the precise change.
+
+## Two-host extension after explicit user steering
+
+Frodo verified12physical/24logical cores,~22GiB available RAM,237GiB scratch and nearly idle; no Slurm/PBS.2D now uses bounded local supervisor, max6single-thread processes on physical CPUs4–9 (50% of physical capacity),nice10,48h/case,8GiB free-memory and20GiB scratch admission guard. No heavy login-node job: Frodo is the user's authorized compute workstation with existing simulation/build environment. cxhpc verified through liqin bridge,32physical/64logical cores,load~15,~219GiB available memory and495GiB storage; not used because Frodo already compatible/idle. No host-key bypass. sal2D jobs19195–19200 were all held/pending and cancelled;3D arrays restored concurrency2. Source/metadata and cancellation receipts retained.
