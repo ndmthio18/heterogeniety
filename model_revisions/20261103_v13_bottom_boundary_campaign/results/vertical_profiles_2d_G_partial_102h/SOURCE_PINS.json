@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-11-03T20:33:36.342165+00:00",
+  "snapshot_through_evaporation_h": 102,
+  "source_sha256": {
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\plot_2d_G_partial_preview.py": "0f644719d6428e51f220a03713258d26a5e5048a0a5dea82b688bf2e494612e9",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\baseline_reference\\MRI_profile_pairs_unchanged.csv": "62804ae5ab27b71cce2b2fa57ace68afaa1efe6ebee9a82a4676e141d081b7ed",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\results\\vertical_profiles_2d\\RH0_2D_VERTICAL_PROFILES_COMPARISON.pdf": "e0602b4f18048bbfa2494fc328c079768787b528686233e815d9e7fb697bf8b9",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_partial_preview_20261103_2029\\SNAPSHOT_PROVENANCE.json": "f5931b2aaf5e1854a2a6ad817a46af2beccd5a9d0189725ec46f8b749f87faa6",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B0\\profiles_history.csv": "298d72b536a98a20dda4b5e7b089fe1c022da7c41dbb5cf10dcce8316e41a471",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B0\\depth_enrichment_history.csv": "7063787ff5605e26f699436a2727adf06c47f5007ed6e69b48ee7b1f00e12abc",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B1\\profiles_history.csv": "9e30cecddee2ae4102aad646e483f6c3bacf5bf61fe56c74975ca4fe044af81f",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B1\\depth_enrichment_history.csv": "b8bb133e9f5abeeee0bbc74e32224974094ac0d67fb295a42088e520be6ef39c",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B2\\profiles_history.csv": "0746a9d5616d6278a2e1835cd8340e731cc4db60edf7cc5ce5fa41bc6bfcafd7",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B2\\depth_enrichment_history.csv": "4a9441598115bf2a6c878cc2dd158eda6f8281e6eda5337b76a058f2dd2dc36c",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B3\\profiles_history.csv": "2da7ce1ac9167884fe74e8e36cf9acd16c46e3cd2c34dd9b6ce794f160295aa9",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B3\\depth_enrichment_history.csv": "a3b50efbe6131cb4c0680bd5cf1b10e373fe1a26ec00aa865c924113d84d0a06",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_partial_preview_20261103_2029\\results\\G1\\profiles_history.csv": "9d6843be80648b81b6a1264ecd042ece6e473f278f0d188af24146fa2c45d6c4",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_partial_preview_20261103_2029\\results\\G1\\depth_enrichment_history.csv": "25d6636405f49603aaf6ef856139c552a0a96ed2dfb280df3b9376981661a04f",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_partial_preview_20261103_2029\\results\\G1\\verification.json": "2eba7a889c7988f40117c6736584372fbd45b00df0cb41aa9896ef63a3a5106a",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_partial_preview_20261103_2029\\results\\G2\\profiles_history.csv": "2189a62b53a00789ac8f690fc4d614082c4fd91454cb25d74080c90250bd8273",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_partial_preview_20261103_2029\\results\\G2\\depth_enrichment_history.csv": "f6cf1f038a06c99260ccecc822b0b0f6831606c981f0e8180f8ed6a365ce29b1",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_partial_preview_20261103_2029\\results\\G2\\verification.json": "5320c08a12b3555ed32f102d593c1eede58fe8abdae3f15bcc1533c3bd249d0d",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_partial_preview_20261103_2029\\results\\G3\\profiles_history.csv": "4336fcbefc5a0cd3673ecc3be9bb9d15cd0880581d4eb51bb004597a30c07940",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_partial_preview_20261103_2029\\results\\G3\\depth_enrichment_history.csv": "b4dcc2a395c9585b03212416bc686e51b82487baedd410a4c42cb7a4d45f9600",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_partial_preview_20261103_2029\\results\\G3\\verification.json": "c91759eab4795ee5e72aaf49263ccbe4657bcb6f0c0ab6b1dcb3861a882bb8b9"
+  },
+  "standard_page": "G is shown only at 24 and 60 h; 108 and 174 h are explicit missing gaps",
+  "partial_page": "actual saved 24,60,96,102 h profiles; no interpolation or smoothing",
+  "salt_page": "actual saved 0,24,60,96,102 h points; connecting lines are visual guides",
+  "scientific_status": "conditional sensitivity; original refined-grid gate failed",
+  "pages": [
+    "established_times",
+    "current_G_snapshot",
+    "salt_summary",
+    "G_minus_B0"
+  ]
+}

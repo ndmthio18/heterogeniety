@@ -1,6 +1,6 @@
 {
-  "created_utc": "2026-11-03T20:20:54.3971424+00:00",
-  "scope": "Accepted 2D B174h light results; conditional concurrent 2D G1-G3 running with original refined-grid failure retained; 3D r02 B and G running after passed gates; no raw/binaries/transport/NPZ",
+  "created_utc": "2026-11-03T20:35:25.9210965+00:00",
+  "scope": "Accepted 2D B174h light results; conditional 2D G read-only preview through102h with failed refined-grid gate retained; active2D/3D production unchanged; no raw/binaries/transport/NPZ",
   "files": [
     {
       "path": "2D_3D_COMPARISON.md",
@@ -553,6 +553,11 @@
       "sha256": "7aed3fdba9734c262d81636479c1e93002024b57f67ba005c855d827fed1fa6c"
     },
     {
+      "path": "plot_2d_G_partial_preview.py",
+      "bytes": 13651,
+      "sha256": "0f644719d6428e51f220a03713258d26a5e5048a0a5dea82b688bf2e494612e9"
+    },
+    {
       "path": "plot_2d_profiles_reference_style.py",
       "bytes": 5344,
       "sha256": "1ee2425533a4d31c7135b7bdee7d8435ad6e2babb6494c6639e1542d6a95ef4a"
@@ -866,6 +871,106 @@
       "path": "results/resource_admission.json",
       "bytes": 2610,
       "sha256": "3c2c4748a12c0f9a7c6b1cca541231670f35a04ed588470e686724fbf40a29db"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/artifact_checks.json",
+      "bytes": 929,
+      "sha256": "a034ad39abdbdaea2363cb405a7ca56b84090c0c0f932bfe6fc35d8d113beec7"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/G_spread_102h.csv",
+      "bytes": 218,
+      "sha256": "202fb48f9c879e51736f3e91cc8169605818445077e0f38908084d573d1b236e"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/MRI_RMSE_common_times.csv",
+      "bytes": 1243,
+      "sha256": "917eb9bf6fe46ea93d2b469789380f099a3cfc120b493d4b4e02f3296b1cb2d3"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/page01_established_times.png",
+      "bytes": 295713,
+      "sha256": "f2d6bfcf3299a0b04ba3dfc5d8549e374dcf8079fd882ab007da0366a404b949"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/page01_established_times.svg",
+      "bytes": 148252,
+      "sha256": "b69c07c511c6bbcf00d3e7c0c1613ced02826e7c35c122d62ba4e3e7be84174f"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/page02_current_G_snapshot.png",
+      "bytes": 279997,
+      "sha256": "95f9619ad292cb1e79f08a4b24cab893a22621f40e3295d604e9a2e6c89d528c"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/page02_current_G_snapshot.svg",
+      "bytes": 123278,
+      "sha256": "c8f30d447376d499a408a5cd1ee01318e525921b41a7650868582cd0667be2be"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/page03_salt_summary.png",
+      "bytes": 273831,
+      "sha256": "ce2412bd755b8cd4f6c7d7decd8899e80a8cfaefa657869d8be976c937a630bf"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/page03_salt_summary.svg",
+      "bytes": 54166,
+      "sha256": "354136786b3e25a50d83646b4f1c26e2a96417e7f82fde0081ed1c13fe71dd53"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/page04_G_minus_B0.png",
+      "bytes": 207361,
+      "sha256": "0d46d543c033988e2e1ea83f36aff2579a49130e03ab6bcceb8e72bbdd8056f5"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/page04_G_minus_B0.svg",
+      "bytes": 86919,
+      "sha256": "75ddce896392a52d10d03f116bd7e627aad7567fc6c9eb535f6573bdea94b8b2"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/PARTIAL_ANALYSIS.md",
+      "bytes": 2612,
+      "sha256": "1355666077d3b3ee00f37da2ead3bff000bac0f68d0a095ce7757169a1a79d40"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/partial_summary_102h.csv",
+      "bytes": 1096,
+      "sha256": "6e0f4c2563326fdf97d39dbd260ec6be7517131ac35d8638673f9a61e625e335"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/profile_pairs_common_times.csv",
+      "bytes": 50426,
+      "sha256": "92f89c4ef0be277cb5b94e9b7b534a0ac5e2e2362316c91e8dac45299e489b3c"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/QA_pdf_page_01.png",
+      "bytes": 140267,
+      "sha256": "037c9bd4074a6f33a4fefaca884ec43876a7c256c0cd0d4730ae2e10559144d8"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/QA_pdf_page_02.png",
+      "bytes": 128308,
+      "sha256": "b8a068abb4d2be8f315f241bfe826788c258b3dc1d004d4c7a8aacdb7c63e465"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/QA_pdf_page_03.png",
+      "bytes": 103670,
+      "sha256": "6a7edcc9e54c6c22481bb5557a7625148b981b24797394cdc04204bb1f726089"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/QA_pdf_page_04.png",
+      "bytes": 95102,
+      "sha256": "1b0e59d463abfd1dda52fad2f619e0af1ab6350b5aa2623e3d0834db74f1dd06"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/RH0_2D_G_PARTIAL_102H_COMPARISON.pdf",
+      "bytes": 73163,
+      "sha256": "2b492d38f4efdc60b3b17575c7e39675f0a419e53821a1f1e855a6406eea305b"
+    },
+    {
+      "path": "results/vertical_profiles_2d_G_partial_102h/SOURCE_PINS.json",
+      "bytes": 4657,
+      "sha256": "6a987b4e9fe671fd605494a26d7b7c4f6b98d6ed345515165be699eee686bdc3"
     },
     {
       "path": "results/vertical_profiles_2d/00_all_B_cases.pdf",
@@ -1240,12 +1345,12 @@
     {
       "path": "TRACK_RUN_STATUS.csv",
       "bytes": 1074,
-      "sha256": "d3eaee89cad66537a4a2371949257b88b9399aee616c298f8985cb0b636b96bf"
+      "sha256": "036015ed5f86bc8a1c728911d2da00f025751f902647baddec51eb4913fede5b"
     },
     {
       "path": "TRACK_STATUS.json",
-      "bytes": 290545,
-      "sha256": "f25b6694df3d3fcc0ba4d75d964d14c941748e308cf10778306e4f23455d24be"
+      "bytes": 290451,
+      "sha256": "520a1382dbfa2ba2faeba22febfc52d40be2baafe6fc52dca4959384133f57ee"
     },
     {
       "path": "track2d_g_conditional_r02/conditional_controller.py",
@@ -1300,7 +1405,102 @@
     {
       "path": "track2d_g_conditional_r02/supervisor_status.json",
       "bytes": 333,
-      "sha256": "7c8c3f0dd2b5bf2a7618456ad55ba6a379c060c8e4c3d4ace9b1e89af7e3e059"
+      "sha256": "41148ea3a3871a965db66e75c6ab321d534b8a392afd40aa02acfc91351aa7e4"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G1/depth_enrichment_history.csv",
+      "bytes": 16811,
+      "sha256": "25d6636405f49603aaf6ef856139c552a0a96ed2dfb280df3b9376981661a04f"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G1/enrichment_summary.csv",
+      "bytes": 882,
+      "sha256": "f5bac6c650e37467a77155dbbe5ba1c4c1498229ce9eaf33338151f65d33e286"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G1/MRI_nominal_comparison.csv",
+      "bytes": 572,
+      "sha256": "2687cf2573ad4f219dd10f712b96680931660f9155c6571b1c8d2e8c712563e4"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G1/native_throughputs.csv",
+      "bytes": 2132,
+      "sha256": "68f1cc2d4061a28bc0813f09e163e0eb7ebac2f0e909f4ed360a34703e3a878e"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G1/profiles_history.csv",
+      "bytes": 14016,
+      "sha256": "9d6843be80648b81b6a1264ecd042ece6e473f278f0d188af24146fa2c45d6c4"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G1/verification.json",
+      "bytes": 1067,
+      "sha256": "2eba7a889c7988f40117c6736584372fbd45b00df0cb41aa9896ef63a3a5106a"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G2/depth_enrichment_history.csv",
+      "bytes": 16827,
+      "sha256": "f6cf1f038a06c99260ccecc822b0b0f6831606c981f0e8180f8ed6a365ce29b1"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G2/enrichment_summary.csv",
+      "bytes": 876,
+      "sha256": "41f4fea697a737d316cd10a01a9715253eaa6cbaac0ae82c662193273ea65ad8"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G2/MRI_nominal_comparison.csv",
+      "bytes": 574,
+      "sha256": "775f88577c1e41c274388b1696c389cde81b197c4af48ca8aacf58bc4e5e2e8f"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G2/native_throughputs.csv",
+      "bytes": 2146,
+      "sha256": "2203c517dedbb6647ae27938e0684ad68ba2f18e0e9698db024dfbdff578fedb"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G2/profiles_history.csv",
+      "bytes": 14037,
+      "sha256": "2189a62b53a00789ac8f690fc4d614082c4fd91454cb25d74080c90250bd8273"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G2/verification.json",
+      "bytes": 1067,
+      "sha256": "5320c08a12b3555ed32f102d593c1eede58fe8abdae3f15bcc1533c3bd249d0d"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G3/depth_enrichment_history.csv",
+      "bytes": 16831,
+      "sha256": "b4dcc2a395c9585b03212416bc686e51b82487baedd410a4c42cb7a4d45f9600"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G3/enrichment_summary.csv",
+      "bytes": 874,
+      "sha256": "a3ea2313945578cae84e968550672276177cbec0ee0983c31f8ddbebe5d2130b"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G3/MRI_nominal_comparison.csv",
+      "bytes": 569,
+      "sha256": "b6bbe3205444e823e9b7da55c3044e14f483b390da7fe456ebc3a926d7cf9f17"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G3/native_throughputs.csv",
+      "bytes": 2060,
+      "sha256": "b083a0454138b2ac818602f760d735e1815e4d8d122ab7f698de86548dac0277"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G3/profiles_history.csv",
+      "bytes": 14033,
+      "sha256": "4336fcbefc5a0cd3673ecc3be9bb9d15cd0880581d4eb51bb004597a30c07940"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/results/G3/verification.json",
+      "bytes": 1067,
+      "sha256": "c91759eab4795ee5e72aaf49263ccbe4657bcb6f0c0ab6b1dcb3861a882bb8b9"
+    },
+    {
+      "path": "track2d_g_partial_preview_20261103_2029/SNAPSHOT_PROVENANCE.json",
+      "bytes": 2798,
+      "sha256": "f5931b2aaf5e1854a2a6ad817a46af2beccd5a9d0189725ec46f8b749f87faa6"
     },
     {
       "path": "track2d/analyze.py",

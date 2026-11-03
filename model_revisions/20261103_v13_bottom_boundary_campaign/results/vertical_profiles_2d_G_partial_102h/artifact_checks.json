@@ -1,0 +1,25 @@
+{
+  "state": "passed_partial_preview",
+  "pdf": "RH0_2D_G_PARTIAL_102H_COMPARISON.pdf",
+  "pdf_sha256": "2b492d38f4efdc60b3b17575c7e39675f0a419e53821a1f1e855a6406eea305b",
+  "pdf_pages": 4,
+  "visual_review": {
+    "reviewed_pages": [1, 2, 3, 4],
+    "status": "passed",
+    "checks": [
+      "titles and legends do not overlap",
+      "common concentration axes are retained on directly compared profile panels",
+      "missing 108 h and 174 h G curves are explicit gaps",
+      "102 h has no fabricated MRI point",
+      "G-minus-B0 panels use one common x scale",
+      "color is redundant with line style and markers"
+    ]
+  },
+  "numerical_review": {
+    "snapshot_through_evaporation_h": 102.0,
+    "max_field_ledger_relative_error": 2.9449652399718892e-15,
+    "interpolation_or_extrapolation": false,
+    "smoothing": false
+  },
+  "scientific_status": "conditional sensitivity only; original refined-grid gate failed"
+}

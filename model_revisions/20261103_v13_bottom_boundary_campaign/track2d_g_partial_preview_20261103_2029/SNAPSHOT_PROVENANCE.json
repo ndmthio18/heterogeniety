@@ -1,0 +1,95 @@
+{
+  "created_utc": "2026-11-03T20:30:19.340689+00:00",
+  "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02",
+  "selected_evaporation_h": [
+    0.0,
+    24.0,
+    60.0,
+    96.0,
+    102.0
+  ],
+  "cases": {
+    "G1": [
+      {
+        "time_h": 0.0,
+        "file": "G1-00012.vtu.gz",
+        "sha256": "68a819eb8b01e8963c87817b254d19cae2de63110bb5cdcec4cf20bf60b885bb"
+      },
+      {
+        "time_h": 24.0,
+        "file": "G1-00156.vtu.gz",
+        "sha256": "f170a06548d83f4225ea3c9b7b16a5892bec739bab08e23b710f5f7500d7dfc7"
+      },
+      {
+        "time_h": 60.0,
+        "file": "G1-00372.vtu.gz",
+        "sha256": "7d7b54d9eead7e86b67d355a62ba92e7de4826e42f51a4bd96faef8409e92ac3"
+      },
+      {
+        "time_h": 96.0,
+        "file": "G1-00588.vtu.gz",
+        "sha256": "5ad6c7f765bc0fdeacef8a99bd7082e9cb29f4ac547b4361f3d120b96b23f23b"
+      },
+      {
+        "time_h": 102.0,
+        "file": "G1-00624.vtu.gz",
+        "sha256": "861649a59b0bf6ab91f126e50a79e95d29ecd53ad05703c1798a1f87305028ec"
+      }
+    ],
+    "G2": [
+      {
+        "time_h": 0.0,
+        "file": "G2-00012.vtu.gz",
+        "sha256": "8c4476a9b22370102afa9e6d9144716996acbad0a67312e71f94105c264e81fd"
+      },
+      {
+        "time_h": 24.0,
+        "file": "G2-00156.vtu.gz",
+        "sha256": "234b5875159d81373563cfe7d8326f230193fcff308c60e519f9f0477946cb17"
+      },
+      {
+        "time_h": 60.0,
+        "file": "G2-00372.vtu.gz",
+        "sha256": "c8a3aca176f711b4e3db9f3ff98ed6e9f558e379f81d71ce3e075e7568ca4830"
+      },
+      {
+        "time_h": 96.0,
+        "file": "G2-00588.vtu.gz",
+        "sha256": "cb8af2fedaa607d805729479cc6576624ce3e8b0ec94f62b2dd57d428bb5a6c4"
+      },
+      {
+        "time_h": 102.0,
+        "file": "G2-00624.vtu.gz",
+        "sha256": "5fbd33c197ca62901f8389e8e8efcfb2147df50a17de52e248874de9d798bd55"
+      }
+    ],
+    "G3": [
+      {
+        "time_h": 0.0,
+        "file": "G3-00012.vtu.gz",
+        "sha256": "672e8ea60a6ebaccc7939aac93197b8d5e0e7379639d57c57a644a4b2fc89ded"
+      },
+      {
+        "time_h": 24.0,
+        "file": "G3-00156.vtu.gz",
+        "sha256": "0bb3eb751f15465372e818c3ea7bd0bd6559db78ee48c293f9fa3e6324b6926a"
+      },
+      {
+        "time_h": 60.0,
+        "file": "G3-00372.vtu.gz",
+        "sha256": "18dd9eb772b75c56e5e1cc17dd5960ad6e972effaa814d5ae1a442076c486c5b"
+      },
+      {
+        "time_h": 96.0,
+        "file": "G3-00588.vtu.gz",
+        "sha256": "f26fd009f4e48741b4093878636c9d136a215b8fd1fb5d75f1d6ec727ef8ed91"
+      },
+      {
+        "time_h": 102.0,
+        "file": "G3-00624.vtu.gz",
+        "sha256": "181ac9953d7170a5864c1490aa20e234e737ace261bfba72185a02071b408217"
+      }
+    ]
+  },
+  "scientific_status": "conditional preview; original refined-grid gate failed"
+}

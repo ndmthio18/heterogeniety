@@ -1,0 +1,34 @@
+{
+  "state": "passed",
+  "through_evaporation_h": 102.0,
+  "frames": 5,
+  "max_salt_field_ledger_relative_error": 2.9449652399718892e-15,
+  "source_hashes": [
+    {
+      "file": "G3-00012.vtu.gz",
+      "sha256": "672e8ea60a6ebaccc7939aac93197b8d5e0e7379639d57c57a644a4b2fc89ded",
+      "time_h": 0.0
+    },
+    {
+      "file": "G3-00156.vtu.gz",
+      "sha256": "0bb3eb751f15465372e818c3ea7bd0bd6559db78ee48c293f9fa3e6324b6926a",
+      "time_h": 24.0
+    },
+    {
+      "file": "G3-00372.vtu.gz",
+      "sha256": "18dd9eb772b75c56e5e1cc17dd5960ad6e972effaa814d5ae1a442076c486c5b",
+      "time_h": 60.0
+    },
+    {
+      "file": "G3-00588.vtu.gz",
+      "sha256": "f26fd009f4e48741b4093878636c9d136a215b8fd1fb5d75f1d6ec727ef8ed91",
+      "time_h": 96.0
+    },
+    {
+      "file": "G3-00624.vtu.gz",
+      "sha256": "181ac9953d7170a5864c1490aa20e234e737ace261bfba72185a02071b408217",
+      "time_h": 102.0
+    }
+  ],
+  "interpretation": "native depth-wide diagnostic; geometry must be read from case metadata; no absolute 2D\u20133D or morphology/onset validation"
+}
