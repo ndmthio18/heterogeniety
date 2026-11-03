@@ -1,6 +1,6 @@
 {
-  "created_utc": "2026-11-03T19:32:04.4101893+00:00",
-  "scope": "Accepted 2D B174h light results; conditional concurrent 2D G1-G3 running with original refined-grid failure retained; 3D r02 running; no raw/binaries/transport/NPZ",
+  "created_utc": "2026-11-03T20:20:54.3971424+00:00",
+  "scope": "Accepted 2D B174h light results; conditional concurrent 2D G1-G3 running with original refined-grid failure retained; 3D r02 B and G running after passed gates; no raw/binaries/transport/NPZ",
   "files": [
     {
       "path": "2D_3D_COMPARISON.md",
@@ -1239,13 +1239,13 @@
     },
     {
       "path": "TRACK_RUN_STATUS.csv",
-      "bytes": 1071,
-      "sha256": "5fc627ef898f23be20138f19b100192145541d0f294e5be634fe2d36abe53c1b"
+      "bytes": 1074,
+      "sha256": "d3eaee89cad66537a4a2371949257b88b9399aee616c298f8985cb0b636b96bf"
     },
     {
       "path": "TRACK_STATUS.json",
-      "bytes": 284709,
-      "sha256": "af7bd98c64be5a0b4998de2b2316b15b50a0d0ff63861a83b84d62f1f4307da5"
+      "bytes": 290545,
+      "sha256": "f25b6694df3d3fcc0ba4d75d964d14c941748e308cf10778306e4f23455d24be"
     },
     {
       "path": "track2d_g_conditional_r02/conditional_controller.py",
@@ -1300,7 +1300,7 @@
     {
       "path": "track2d_g_conditional_r02/supervisor_status.json",
       "bytes": 333,
-      "sha256": "d0deae4a71f3d2a022b23cf39eaf933a1cfdc730a6231556be1633fa7ddd6d2d"
+      "sha256": "7c8c3f0dd2b5bf2a7618456ad55ba6a379c060c8e4c3d4ace9b1e89af7e3e059"
     },
     {
       "path": "track2d/analyze.py",

@@ -2,6 +2,16 @@
   "tracks": {
     "3D": {
       "states": {
+        "G2_production.json": {
+          "case": "G2",
+          "stage": "production",
+          "state": "running",
+          "utc": "2026-11-03T19:46:22.927145+00:00",
+          "job": "frodo3d_r02_production_G2",
+          "host": "frodo",
+          "controller_pid": 2959666,
+          "affinity": "9"
+        },
         "B2_production.json": {
           "state": "running",
           "case": "B2",
@@ -44,13 +54,13 @@
         "Gates_gates.json": {
           "case": "Gates",
           "stage": "gates",
-          "state": "running",
-          "utc": "2026-11-03T18:42:26.320836+00:00",
+          "state": "passed",
+          "utc": "2026-11-03T19:46:12.112267+00:00",
           "job": "frodo3d_r02_gatesG",
           "host": "frodo",
           "controller_pid": 2827537,
           "affinity": "8",
-          "gates_so_far": {
+          "results": {
             "zero_probe": {
               "passed": true,
               "probes": 4,
@@ -173,8 +183,45 @@
                 "max_complementarity_after_initial": 8.510310996800229e-30,
                 "completed_evaporation_h": 2.0
               }
+            },
+            "G2_dt150": {
+              "status": "passed",
+              "relative_budget_residuals": {
+                "water_residual_mol": 2.1231888497877686e-13,
+                "salt_residual_mol": 1.581130398618398e-13,
+                "coarse_residual_mol": 6.061873294230332e-13,
+                "fine_residual_mol": 3.4288118889860614e-13
+              },
+              "relative_energy_budget_residual": 1.6375825121603656e-10,
+              "T_min_K": 291.37465082621645,
+              "T_max_K": 293.15,
+              "first_solid_mol": 0.0,
+              "final_solid_mol": -9.972814173296179e-39,
+              "final_dissolved_mol": 0.03352771878615844,
+              "max_molality_after_initial": 1.4621410879586003,
+              "max_complementarity_after_initial": 2.4955180352148777e-30,
+              "completed_evaporation_h": 2.0
+            },
+            "G2_z12": {
+              "status": "passed",
+              "relative_budget_residuals": {
+                "water_residual_mol": 1.7643075739340726e-12,
+                "salt_residual_mol": 1.7473173322807377e-12,
+                "coarse_residual_mol": 1.7980573301686504e-12,
+                "fine_residual_mol": 1.833697354090992e-12
+              },
+              "relative_energy_budget_residual": 1.636808277261682e-10,
+              "T_min_K": 291.3752885313434,
+              "T_max_K": 293.15,
+              "first_solid_mol": 0.0,
+              "final_solid_mol": 5.595262393759402e-37,
+              "final_dissolved_mol": 0.03352765926498146,
+              "max_molality_after_initial": 1.4611768752521679,
+              "max_complementarity_after_initial": 4.630417687624784e-30,
+              "completed_evaporation_h": 2.0
             }
-          }
+          },
+          "resolution": "short dt150 and doubled filter vertical layers; no full-window or radial convergence claim"
         },
         "B3_short.json": {
           "state": "passed",
@@ -692,6 +739,16 @@
             }
           ]
         },
+        "G1_production.json": {
+          "case": "G1",
+          "stage": "production",
+          "state": "running",
+          "utc": "2026-11-03T19:46:22.926989+00:00",
+          "job": "frodo3d_r02_production_G1",
+          "host": "frodo",
+          "controller_pid": 2959665,
+          "affinity": "8"
+        },
         "B2_short.json": {
           "state": "passed",
           "case": "B2",
@@ -723,6 +780,25 @@
         }
       },
       "runs": {
+        "G1_status": {
+          "case": "G1",
+          "start_utc": "2026-11-03T19:46:23.108489+00:00",
+          "binary_sha256": "508d114ab0242f5ff66483a5d81556885072cbadef13dbbbf49c491c47d68454",
+          "input_sha256": "e8f351904aa5035b2f5b35dbab3b7e79a19ed34bb08744c7db360c23a2190eda",
+          "cpu": "8",
+          "requested_threads": 1,
+          "wall_limit_s": 172800,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G1",
+          "state": "running",
+          "controller_pid": 2959665,
+          "solver_pid": 2959667,
+          "evaporation_time_h": 2.0833333333333335,
+          "salt_solid_mol": -9.394798967324846e-38,
+          "C_max_mol_L": 1.4283266705155988,
+          "S_min": 0.9952167918965088,
+          "updated_utc": "2026-11-03T20:13:59.379821+00:00",
+          "scratch_free_GiB": 201.70425033569336
+        },
         "B1_short_status": {
           "case": "B1_short",
           "start_utc": "2026-11-03T17:03:01.787809+00:00",
@@ -920,7 +996,7 @@
         },
         "supervisor_status": {
           "state": "running",
-          "utc": "2026-11-03T19:30:22.099790+00:00",
+          "utc": "2026-11-03T20:14:09.099900+00:00",
           "supervisor_pid": 2824177,
           "host": "frodo",
           "cpu_pool": [
@@ -935,10 +1011,6 @@
           "short_wall_s": 21600,
           "production_wall_s": 172800,
           "running": {
-            "gatesG": {
-              "pid": 2827537,
-              "cpu": 8
-            },
             "production_B0": {
               "pid": 2835148,
               "cpu": 4
@@ -954,6 +1026,14 @@
             "production_B3": {
               "pid": 2835151,
               "cpu": 7
+            },
+            "production_G1": {
+              "pid": 2959665,
+              "cpu": 8
+            },
+            "production_G2": {
+              "pid": 2959666,
+              "cpu": 9
             }
           },
           "finished": {
@@ -992,11 +1072,15 @@
               "returncode": 0,
               "status": "passed",
               "utc": "2026-11-03T17:24:15.111707+00:00"
+            },
+            "gatesG": {
+              "state": "passed",
+              "returncode": 0,
+              "status": "passed",
+              "utc": "2026-11-03T19:46:22.162368+00:00"
             }
           },
           "pending": [
-            "production_G1",
-            "production_G2",
             "production_G3"
           ]
         },
@@ -1285,12 +1369,12 @@
           "state": "running",
           "controller_pid": 2835149,
           "solver_pid": 2835152,
-          "evaporation_time_h": 24.0,
-          "salt_solid_mol": -1.6487163398015775e-37,
-          "C_max_mol_L": 3.0772432264099727,
-          "S_min": 0.9945283519127263,
-          "updated_utc": "2026-11-03T19:30:30.437354+00:00",
-          "scratch_free_GiB": 193.56664276123047
+          "evaporation_time_h": 32.75,
+          "salt_solid_mol": 8.96024662188797e-39,
+          "C_max_mol_L": 3.607017688547002,
+          "S_min": 0.9945330375266155,
+          "updated_utc": "2026-11-03T20:14:02.180515+00:00",
+          "scratch_free_GiB": 201.7203483581543
         },
         "Dissolve_dt30_status": {
           "case": "Dissolve_dt30",
@@ -1460,12 +1544,12 @@
           "state": "running",
           "controller_pid": 2835148,
           "solver_pid": 2835153,
-          "evaporation_time_h": 23.916666666666668,
-          "salt_solid_mol": -1.7178777303475087e-37,
-          "C_max_mol_L": 3.0720375124146018,
-          "S_min": 0.9945282896365408,
-          "updated_utc": "2026-11-03T19:30:28.685500+00:00",
-          "scratch_free_GiB": 193.55880737304688
+          "evaporation_time_h": 32.666666666666664,
+          "salt_solid_mol": -2.1054337155571484e-37,
+          "C_max_mol_L": 3.6021339550188185,
+          "S_min": 0.99453299965358,
+          "updated_utc": "2026-11-03T20:13:59.897755+00:00",
+          "scratch_free_GiB": 201.7053680419922
         },
         "G2_hydro_status": {
           "case": "G2_hydro",
@@ -1557,12 +1641,12 @@
           "state": "running",
           "controller_pid": 2835151,
           "solver_pid": 2835156,
-          "evaporation_time_h": 23.5,
-          "salt_solid_mol": -2.9551909292387237e-37,
-          "C_max_mol_L": 3.0455675002509914,
-          "S_min": 0.9945288322030787,
-          "updated_utc": "2026-11-03T19:30:30.101097+00:00",
-          "scratch_free_GiB": 193.55856323242188
+          "evaporation_time_h": 32.083333333333336,
+          "salt_solid_mol": -3.4678448574823733e-37,
+          "C_max_mol_L": 3.56685811180531,
+          "S_min": 0.9945335562720913,
+          "updated_utc": "2026-11-03T20:14:00.667114+00:00",
+          "scratch_free_GiB": 201.72236251831055
         },
         "B0_hydro_status": {
           "case": "B0_hydro",
@@ -1615,12 +1699,12 @@
           "state": "running",
           "controller_pid": 2835150,
           "solver_pid": 2835157,
-          "evaporation_time_h": 23.5,
-          "salt_solid_mol": -1.7189960893582003e-37,
-          "C_max_mol_L": 3.0458561958546686,
-          "S_min": 0.9945283928691969,
-          "updated_utc": "2026-11-03T19:30:32.363901+00:00",
-          "scratch_free_GiB": 193.56255340576172
+          "evaporation_time_h": 32.166666666666664,
+          "salt_solid_mol": -1.0474360846571744e-36,
+          "C_max_mol_L": 3.572545348808486,
+          "S_min": 0.9945325902704116,
+          "updated_utc": "2026-11-03T20:14:02.663374+00:00",
+          "scratch_free_GiB": 201.7203483581543
         },
         "B3_hydro_status": {
           "case": "B3_hydro",
@@ -1709,15 +1793,54 @@
           "requested_threads": 1,
           "wall_limit_s": 21600,
           "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2_z12",
-          "state": "running",
+          "state": "completed",
           "controller_pid": 2827537,
           "solver_pid": 2942396,
-          "evaporation_time_h": 0.25,
-          "salt_solid_mol": -2.17633281481852e-37,
-          "C_max_mol_L": 1.131475504324563,
-          "S_min": 0.999745832824237,
-          "updated_utc": "2026-11-03T19:30:32.762068+00:00",
-          "scratch_free_GiB": 193.5622901916504
+          "evaporation_time_h": 2.0,
+          "salt_solid_mol": 5.595262393759402e-37,
+          "C_max_mol_L": 1.41834059631499,
+          "S_min": 0.9952388425445802,
+          "updated_utc": "2026-11-03T19:46:03.186235+00:00",
+          "scratch_free_GiB": 192.49711227416992,
+          "returncode": 0,
+          "end_utc": "2026-11-03T19:46:03.186917+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 1.7643075739340726e-12,
+              "salt_residual_mol": 1.7473173322807377e-12,
+              "coarse_residual_mol": 1.7980573301686504e-12,
+              "fine_residual_mol": 1.833697354090992e-12
+            },
+            "relative_energy_budget_residual": 1.636808277261682e-10,
+            "T_min_K": 291.3752885313434,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 5.595262393759402e-37,
+            "final_dissolved_mol": 0.03352765926498146,
+            "max_molality_after_initial": 1.4611768752521679,
+            "max_complementarity_after_initial": 4.630417687624784e-30,
+            "completed_evaporation_h": 2.0
+          }
+        },
+        "G2_status": {
+          "case": "G2",
+          "start_utc": "2026-11-03T19:46:23.108530+00:00",
+          "binary_sha256": "508d114ab0242f5ff66483a5d81556885072cbadef13dbbbf49c491c47d68454",
+          "input_sha256": "610d79f4101107b098caaf6bd5d5f2b709d18ab96c8e78b65c49ab3a500b620f",
+          "cpu": "9",
+          "requested_threads": 1,
+          "wall_limit_s": 172800,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2",
+          "state": "running",
+          "controller_pid": 2959666,
+          "solver_pid": 2959668,
+          "evaporation_time_h": 2.0833333333333335,
+          "salt_solid_mol": -1.4179101017933917e-37,
+          "C_max_mol_L": 1.4283266412326996,
+          "S_min": 0.9952168844846891,
+          "updated_utc": "2026-11-03T20:13:59.427500+00:00",
+          "scratch_free_GiB": 201.70425033569336
         },
         "G2_short_status": {
           "case": "G2_short",
@@ -3618,16 +3741,16 @@
           "state": "running",
           "controller_pid": 2951671,
           "solver_pid": 2951703,
-          "evaporation_time_h": 1.1666666666666667,
-          "salt_solid_mol": -2.051924474652304e-37,
-          "C_max_mol_L": 1.2982129665529416,
-          "S_min": 0.9977738932535661,
-          "updated_utc": "2026-11-03T19:30:27.119389+00:00",
-          "scratch_free_GiB": 193.55195236206055
+          "evaporation_time_h": 73.66666666666667,
+          "salt_solid_mol": -5.216361807931697e-38,
+          "C_max_mol_L": 5.270967435008023,
+          "S_min": 0.9955247616399658,
+          "updated_utc": "2026-11-03T20:13:59.861548+00:00",
+          "scratch_free_GiB": 201.70425033569336
         },
         "supervisor_status": {
           "state": "running",
-          "utc": "2026-11-03T19:30:19.822353+00:00",
+          "utc": "2026-11-03T20:14:00.222588+00:00",
           "supervisor_pid": 2951663,
           "host": "frodo",
           "simultaneous": true,
@@ -3656,12 +3779,12 @@
           "state": "running",
           "controller_pid": 2951674,
           "solver_pid": 2951700,
-          "evaporation_time_h": 1.1666666666666667,
-          "salt_solid_mol": 5.395047570115868e-37,
-          "C_max_mol_L": 1.2982129862647225,
-          "S_min": 0.9977740889903759,
-          "updated_utc": "2026-11-03T19:30:27.076244+00:00",
-          "scratch_free_GiB": 193.54966354370117
+          "evaporation_time_h": 74.75,
+          "salt_solid_mol": 2.5688887514685382e-36,
+          "C_max_mol_L": 5.310126591276646,
+          "S_min": 0.9955233221138582,
+          "updated_utc": "2026-11-03T20:14:00.190885+00:00",
+          "scratch_free_GiB": 201.7201271057129
         },
         "G2_status": {
           "case": "G2",
@@ -3675,12 +3798,12 @@
           "state": "running",
           "controller_pid": 2951673,
           "solver_pid": 2951699,
-          "evaporation_time_h": 1.1666666666666667,
-          "salt_solid_mol": -2.571037110568144e-36,
-          "C_max_mol_L": 1.2982129680034715,
-          "S_min": 0.9977740585290003,
-          "updated_utc": "2026-11-03T19:30:27.080280+00:00",
-          "scratch_free_GiB": 193.54966354370117
+          "evaporation_time_h": 74.5,
+          "salt_solid_mol": -3.2894998498329956e-37,
+          "C_max_mol_L": 5.301142097143631,
+          "S_min": 0.9955237266793767,
+          "updated_utc": "2026-11-03T20:14:00.056136+00:00",
+          "scratch_free_GiB": 201.70297622680664
         }
       }
     },
@@ -4738,8 +4861,8 @@
       }
     }
   },
-  "squeue": "19169|film080|RUNNING|12:53:07|8|localhost\n19168|film075|RUNNING|12:53:08|8|localhost\n",
-  "scratch_free_GiB": 111.9605712890625,
+  "squeue": "19209|WP7-R48-M0-4T|RUNNING|29:48|2|localhost\n19210|WP7-R48-M1-4T|RUNNING|29:48|2|localhost\n19169|film080|RUNNING|13:36:44|8|localhost\n19168|film075|RUNNING|13:36:45|8|localhost\n",
+  "scratch_free_GiB": 97.53082656860352,
   "frodo_supervisor": {
     "state": "completed_with_failures",
     "utc": "2026-11-03T16:09:55.946198+00:00",
@@ -4795,10 +4918,10 @@
     },
     "queued": []
   },
-  "frodo_scratch_GiB": 193.56037521362305,
+  "frodo_scratch_GiB": 201.71224212646484,
   "frodo_2d_g_supervisor": {
     "state": "running",
-    "utc": "2026-11-03T19:30:19.822353+00:00",
+    "utc": "2026-11-03T20:14:00.222588+00:00",
     "supervisor_pid": 2951663,
     "host": "frodo",
     "simultaneous": true,
@@ -4817,7 +4940,7 @@
   },
   "frodo_3d_supervisor": {
     "state": "running",
-    "utc": "2026-11-03T19:30:22.099790+00:00",
+    "utc": "2026-11-03T20:14:09.099900+00:00",
     "supervisor_pid": 2824177,
     "host": "frodo",
     "cpu_pool": [
@@ -4832,10 +4955,6 @@
     "short_wall_s": 21600,
     "production_wall_s": 172800,
     "running": {
-      "gatesG": {
-        "pid": 2827537,
-        "cpu": 8
-      },
       "production_B0": {
         "pid": 2835148,
         "cpu": 4
@@ -4851,6 +4970,14 @@
       "production_B3": {
         "pid": 2835151,
         "cpu": 7
+      },
+      "production_G1": {
+        "pid": 2959665,
+        "cpu": 8
+      },
+      "production_G2": {
+        "pid": 2959666,
+        "cpu": 9
       }
     },
     "finished": {
@@ -4889,14 +5016,18 @@
         "returncode": 0,
         "status": "passed",
         "utc": "2026-11-03T17:24:15.111707+00:00"
+      },
+      "gatesG": {
+        "state": "passed",
+        "returncode": 0,
+        "status": "passed",
+        "utc": "2026-11-03T19:46:22.162368+00:00"
       }
     },
     "pending": [
-      "production_G1",
-      "production_G2",
       "production_G3"
     ]
   },
   "active_3d_attempt": "Frodo track3d_r02",
-  "queried_utc": "2026-11-03T19:30:33.917943+00:00"
+  "queried_utc": "2026-11-03T20:14:11.396932+00:00"
 }
