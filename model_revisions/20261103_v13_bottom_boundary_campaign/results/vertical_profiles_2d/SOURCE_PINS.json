@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-11-03T16:35:47.097767+00:00",
+  "reference_page": 3,
+  "layout": "12x7 inches;2rows F36/W3;24,60,108,174h columns;0\u20135.5M and0\u201340mm axes",
+  "source_sha256": {
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\plot_2d_profiles_reference_style.py": "1ee2425533a4d31c7135b7bdee7d8435ad6e2babb6494c6639e1542d6a95ef4a",
+    "model_revisions\\20261102_cylinder_fixed_hydraulics_v12\\results\\comparison\\RH0_FIXED_174H_COMPARISON.pdf": "ee36bbe50ce77709e48edc18027d7f7fb5bcee8140e4b6ab98efc1f81ed5ee3d",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\baseline_reference\\MRI_profile_pairs_unchanged.csv": "62804ae5ab27b71cce2b2fa57ace68afaa1efe6ebee9a82a4676e141d081b7ed",
+    "analysis\\model_experiment_comparison_20261028\\experimental_profiles.csv": "1af322bd1fa3f47ec37c85fb3b1360a0f09dc7cdaa814eac3022b6df66569d5b",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\provenance\\B2D_174h_acceptance.json": "e9aabf49be90f77dc0bec6e91a17471ebc0b90f50805604689696dce1d6144e9",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\provenance\\B2D_final_backup_verification.json": "2e5487eaf91f6826ab320d0801f27c3c5d41b12cb9880d12cb8cb64afcb342fb",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B0\\profiles_history.csv": "298d72b536a98a20dda4b5e7b089fe1c022da7c41dbb5cf10dcce8316e41a471",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B1\\profiles_history.csv": "9e30cecddee2ae4102aad646e483f6c3bacf5bf61fe56c74975ca4fe044af81f",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B2\\profiles_history.csv": "0746a9d5616d6278a2e1835cd8340e731cc4db60edf7cc5ce5fa41bc6bfcafd7",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B3\\profiles_history.csv": "2da7ce1ac9167884fe74e8e36cf9acd16c46e3cd2c34dd9b6ce794f160295aa9"
+  },
+  "MRI_versus_original_reference_data": "all320 plotted experimental values and depths matched to1e-12",
+  "model_sampling": "actual saved times; no time interpolation, fitting or smoothing",
+  "pages": [
+    "00_all_B_cases",
+    "B0_profiles",
+    "B1_profiles",
+    "B2_profiles",
+    "B3_profiles"
+  ],
+  "limitations": "conventional2D compared to same archived whole-half MRI; no3D geometry equivalence; G unavailable"
+}

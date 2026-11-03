@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-03T16:36:24.629808+00:00",
+  "pages": 5,
+  "visual_review": "passed",
+  "inspected_pdf_pages": [
+    1,
+    5
+  ],
+  "layout": "all pages share identical axes and panel placement",
+  "outside_page_text": [],
+  "MRI_values_verified": 320,
+  "model_experiment_pairs": 1280,
+  "pdf_sha256": "e0602b4f18048bbfa2494fc328c079768787b528686233e815d9e7fb697bf8b9"
+}
