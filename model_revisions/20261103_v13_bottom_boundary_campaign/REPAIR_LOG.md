@@ -9,3 +9,7 @@
 Probe r04 Slurm19191 passed all four boundary configurations. Failed probe attempts19184–19186 are retained. Baseline19181 passed. Inputs are now SHA-checked before every new case; a zero-change mismatch writes BLOCK_PRODUCTION and blocks subsequent launches. No solver physics or tolerances changed.
 
 2D preparation: imported geometric y planes contained ~1e-16m duplicate roundoff values. Before any deployment/run, merged planes at12decimal places and asserted41planes/minspacing>1e-6m; final4000/4600cells. No failed simulation or fitted parameter change.2D binary built and transferred with matching SHA. After explicit user host change, only never-started held sal2D jobs were cancelled; Frodo supervisor started with native frozen ELF. Original sal paths and cancellation records retained.2D scalar reduction independently reproduced accepted3D field/ledger salt to1.15e-14 relative.
+
+2026-11-03: G1_refined failed at evaporation onset after12dt divisions. Observed residual floor1.04–1.09e-10 vs fixed1e-10 criterion, shift~1e-15; cause not yet isolated. No tolerance/physics/retry changes or rerun. All original logs/status/raw preserved. Three-dimensional B0/B1 short runs reached the fixed3600s wall cap; not a Newton failure. No cap change/restart. Independent2D B0–B3 passed174h acceptance.
+
+Backup audit: added .pvd to metadata allowlists (no solver change); supplemental30 files verified. All4228 B fields checked against compressed and original-byte SHA, and each finalPVD reaches633600s=174hevap+2hpre. Original archives preserved.

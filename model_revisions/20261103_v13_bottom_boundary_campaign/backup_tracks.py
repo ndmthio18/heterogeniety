@@ -21,7 +21,7 @@ for base in [r,r/'track2d']:
     if known.get(rel)!=x['gzip_sha256']:
      assert hashlib.sha256(p.read_bytes()).hexdigest()==x['gzip_sha256'];files.append(p)
   for p in d.rglob('*'):
-   if p.is_file() and p.suffix in ['.json','.csv','.input','.txt','.log','.jsonl']:files.append(p)
+   if p.is_file() and p.suffix in ['.json','.csv','.input','.txt','.log','.jsonl','.pvd']:files.append(p)
  for p in (base/'raw/probes').rglob('*'):
   if p.is_file() and p.suffix in ['.json','.log']:files.append(p)
 folder=r/'transport_archives';folder.mkdir(exist_ok=True);a=folder/('snapshot_'+STAMP+'.tar');manifest={}

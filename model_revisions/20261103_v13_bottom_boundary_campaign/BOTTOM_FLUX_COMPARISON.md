@@ -1,7 +1,5 @@
-# Bottom and interface comparison — new results pending
+# Native bottom/interface evidence
 
-Use native FV face fluxes. Gross inflow/outflow must be split per face, then integrated over accepted steps. In2D all areas and volumes include the same extrusion factor. The native record distinguishes external reservoir faces(kind0), sand interface(kind1), sand/filter exchange(kind3), midfilter vertical(kind4) and horizontal filter transport(kind5). For G, external bottom supply is not directly F36 sand supply: report kind3 and filter storage separately.
+B0→B3 gross bottom salt in5.3644→2.9840g, out3.5782→0.5928g, netin1.7862→2.3912g. Net lateral F36→W3 rises1.3918→1.5755g. Thus increased retention is not explained by lower net lateral export. Native totals include pre-equilibration.
 
-Evaluate outgoing liquid concentration, gross salt loss, net bottom supply, F36→W3 advective and reverse diffusive exchange, and net lateral export without imposing their signs. Use actual signs, not mechanism labels as assumptions. Explain F36 retention using the full signed balance and seed impulses, not net supply alone.
-
-The earlier6.889/5.317g gross inflow/outflow and1.573/1.342g net bottom/interface figures belong to the v12 native replay audit. They must not be relabelled as v13 fluxes. New accepted accelerated v13 B0 and modified-case ledgers will provide matched nonisothermal comparisons. No new mechanism result exists at submission.
+See B2D_174H_REPORT.md and results/B2D_174h for accepted2D B0–B3 data, comparisons and limitations. Remaining G/3D results are unavailable; no extrapolation, refit or physical validation claim. Final raw backup verification is recorded separately in track2d/remote_backup.

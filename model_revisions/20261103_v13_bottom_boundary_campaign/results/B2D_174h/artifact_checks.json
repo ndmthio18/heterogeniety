@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-03T16:21:35.093112+00:00",
+  "visual_review": "passed",
+  "files": {
+    "depth_wide_enrichment.png": "4834334673a41ff051a2dedf2a1d0d6b0db6e66e6d53889804429e4f81a2d9bb",
+    "profiles_and_fluxes.png": "6670ff6ce627d90423195e9069987e5b344a36e40455d7abf2c9a73a88099218",
+    "depth_wide_enrichment.pdf": "781c5694d2b9b65501619178cb4d6fd4fb97319b7faf3ba85251ae7d27d9c917",
+    "profiles_and_fluxes.pdf": "1ae758971449ebb8df7bd8cfbe3480be685dcf47f78246345664375f05aba119"
+  },
+  "checks": [
+    "PNG layout/axes/legends inspected after ppm and weighing edits",
+    "F36 all-depth increase and W3 deterioration visible",
+    "direct weighing uses common1h zero; no oldmodel extrapolation",
+    "4228 original and gzip field hashes verified with PVD174h endpoints"
+  ],
+  "scope": "B-only partialcampaign; full174h convergence not claimed"
+}

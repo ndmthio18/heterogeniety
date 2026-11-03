@@ -1,0 +1,153 @@
+{
+  "utc": "2026-11-03T16:19:03.041681+00:00",
+  "cases": [
+    {
+      "dimension": "2D",
+      "case": "B0",
+      "host": "frodo",
+      "state": "completed",
+      "accepted_evaporation_h": 174.0,
+      "job": "frodo_case_B0",
+      "error": ""
+    },
+    {
+      "dimension": "2D",
+      "case": "B1",
+      "host": "frodo",
+      "state": "completed",
+      "accepted_evaporation_h": 174.0,
+      "job": "frodo_case_B1",
+      "error": ""
+    },
+    {
+      "dimension": "2D",
+      "case": "B2",
+      "host": "frodo",
+      "state": "completed",
+      "accepted_evaporation_h": 174.0,
+      "job": "frodo_case_B2",
+      "error": ""
+    },
+    {
+      "dimension": "2D",
+      "case": "B3",
+      "host": "frodo",
+      "state": "completed",
+      "accepted_evaporation_h": 174.0,
+      "job": "frodo_case_B3",
+      "error": ""
+    },
+    {
+      "dimension": "2D",
+      "case": "G1",
+      "host": "frodo",
+      "state": "blocked_failed_G_gate",
+      "accepted_evaporation_h": 0,
+      "job": "frodo_caseG_G1",
+      "error": "G1_refined did not pass; production not launched"
+    },
+    {
+      "dimension": "2D",
+      "case": "G2",
+      "host": "frodo",
+      "state": "blocked_failed_G_gate",
+      "accepted_evaporation_h": 0,
+      "job": "frodo_caseG_G2",
+      "error": "G1_refined did not pass; production not launched"
+    },
+    {
+      "dimension": "2D",
+      "case": "G3",
+      "host": "frodo",
+      "state": "blocked_failed_G_gate",
+      "accepted_evaporation_h": 0,
+      "job": "frodo_caseG_G3",
+      "error": "G1_refined did not pass; production not launched"
+    },
+    {
+      "dimension": "3D",
+      "case": "B0",
+      "host": "sal",
+      "state": "blocked_failed_short_array",
+      "accepted_evaporation_h": 0,
+      "job": "19183_0",
+      "error": "Full B array requires all short jobs to pass"
+    },
+    {
+      "dimension": "3D",
+      "case": "B1",
+      "host": "sal",
+      "state": "blocked_failed_short_array",
+      "accepted_evaporation_h": 0,
+      "job": "19183_1",
+      "error": "Full B array requires all short jobs to pass"
+    },
+    {
+      "dimension": "3D",
+      "case": "B2",
+      "host": "sal",
+      "state": "blocked_failed_short_array",
+      "accepted_evaporation_h": 0,
+      "job": "19183_2",
+      "error": "Full B array requires all short jobs to pass"
+    },
+    {
+      "dimension": "3D",
+      "case": "B3",
+      "host": "sal",
+      "state": "blocked_failed_short_array",
+      "accepted_evaporation_h": 0,
+      "job": "19183_3",
+      "error": "Full B array requires all short jobs to pass"
+    },
+    {
+      "dimension": "3D",
+      "case": "G1",
+      "host": "sal",
+      "state": "pending_gates_resources",
+      "accepted_evaporation_h": 0,
+      "job": "19188",
+      "error": ""
+    },
+    {
+      "dimension": "3D",
+      "case": "G2",
+      "host": "sal",
+      "state": "pending_gates_resources",
+      "accepted_evaporation_h": 0,
+      "job": "19189",
+      "error": ""
+    },
+    {
+      "dimension": "3D",
+      "case": "G3",
+      "host": "sal",
+      "state": "pending_gates_resources",
+      "accepted_evaporation_h": 0,
+      "job": "19190",
+      "error": ""
+    }
+  ],
+  "gate_states": {
+    "3D": {
+      "B3_short.json": "running",
+      "B0_short.json": "failed",
+      "B2_short.json": "running",
+      "B1_short.json": "failed",
+      "baseline_baseline.json": "passed",
+      "Gates_probe_r04.json": "passed",
+      "Gates_probe_r03.json": "failed",
+      "Gates_probe_r02.json": "failed",
+      "Gates_probe.json": "failed"
+    },
+    "2D": {
+      "core_core.json": "passed",
+      "B2_case.json": "completed",
+      "B3_case.json": "completed",
+      "B0_case.json": "completed",
+      "core_gatesG.json": "failed",
+      "B1_case.json": "completed"
+    }
+  },
+  "squeue": "19183_[0-3%2]|bottom_174h|PENDING|0:00|1|(Dependency)\n19190|bottom_G3|PENDING|0:00|1|(JobHeldUser)\n19189|bottom_G2|PENDING|0:00|1|(JobHeldUser)\n19188|bottom_G1|PENDING|0:00|1|(JobHeldUser)\n19187|bottom_G_gates|PENDING|0:00|1|(JobHeldUser)\n19182_3|bottom_short|RUNNING|38:56|2|localhost\n19182_2|bottom_short|RUNNING|42:02|2|localhost\n19169|film080|RUNNING|9:41:36|8|localhost\n19168|film075|RUNNING|9:41:37|8|localhost\n"
+}

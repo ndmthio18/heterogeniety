@@ -2,21 +2,39 @@
   "tracks": {
     "3D": {
       "states": {
-        "B0_short.json": {
+        "B3_short.json": {
           "state": "running",
-          "case": "B0",
+          "case": "B3",
           "stage": "short",
-          "utc": "2026-11-03T14:13:55.498803+00:00",
-          "job": "19192",
+          "utc": "2026-11-03T15:40:06.845127+00:00",
+          "job": "19182",
           "affinity": "29,93"
         },
-        "B1_short.json": {
+        "B0_short.json": {
+          "state": "failed",
+          "case": "B0",
+          "stage": "short",
+          "utc": "2026-11-03T15:40:05.533393+00:00",
+          "job": "19192",
+          "affinity": "29,93",
+          "error": "AssertionError({'case': 'B0_short', 'start_utc': '2026-11-03T14:39:53.010675+00:00', 'binary_sha256': '82454eeffa8e952466b39248406aa59c760aad56e6f98a8915c458cef959c26a', 'input_sha256': '7bcbb4b4ed9bd36bd96cce2e836da70d6ee96f88dc1cfa34567f487ec6c94118', 'cpu': '29,93', 'requested_threads': 1, 'wall_limit_s': 3600, 'raw_path': '/tmp/zhixin_v13_bottom_boundary_20261103/raw/runs/B0_short', 'state': 'failed', 'controller_pid': 1442191, 'solver_pid': 1448352, 'evaporation_time_h': 1.5833333333333333, 'salt_solid_mol': -2.4408463202119215e-37, 'C_max_mol_L': 1.3657088218876374, 'S_min': 0.9954140761665826, 'updated_utc': '2026-11-03T15:39:46.309237+00:00', 'scratch_free_GiB': 116.18757629394531, 'failure_reason': 'Wall-time limit reached', 'returncode': -15, 'end_utc': '2026-11-03T15:40:01.311914+00:00', 'log_tail': 'dual = 1.8792e-08, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  2 done, maximum relative shift = 2.6697e-04, residual = 1.5408e-11, reassembled 30720 (100%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  3 done, maximum relative shift = 2.7528e-05, residual = 1.2327e-11, reassembled   104 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  4 done, maximum relative shift = 3.0267e-07, residual = 1.2396e-11, reassembled    70 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  5 done, maximum relative shift = 4.5295e-11, residual = 1.2401e-11, reassembled 29364 ( 95%) elements\\nAssemble/solve/update time: 12(16.77%)/56(76.57%)/4.9(6.67%)\\n[ 85%] Time step 61 done in 78 seconds. Wall clock time: 3391.2, time: 12300, time step size: 300\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[KSwitched primary variables at 6 dof locations on processor 0.\\n\\nNewton iteration  1 done, maximum relative shift = 6.3647e-04, residual = 1.5759e-08, reassembled  1318 (  4%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  2 done, maximum relative shift = 9.3492e-05, residual = 1.5302e-11, reassembled 30720 (100%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  3 done, maximum relative shift = 5.0805e-06, residual = 1.2514e-11, reassembled   102 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  4 done, maximum relative shift = 1.0692e-08, residual = 1.2497e-11, reassembled  1566 (  5%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  5 done, maximum relative shift = 8.3831e-14, residual = 1.2468e-11, reassembled 29164 ( 94%) elements\\nAssemble/solve/update time: 13(18.22%)/52(74.73%)/4.9(7.05%)\\nWriting output for problem \"B0_short\". Took 0.65 seconds.\\n[ 88%] Time step 62 done in 72 seconds. Wall clock time: 3464.7, time: 12600, time step size: 300\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[KSwitched primary variables at 4 dof locations on processor 0.\\n\\nNewton iteration  1 done, maximum relative shift = 6.0873e-04, residual = 1.4910e-08, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  2 done, maximum relative shift = 1.1569e-04, residual = 1.4290e-11, reassembled 30720 (100%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  3 done, maximum relative shift = 8.8336e-06, residual = 1.2336e-11, reassembled   104 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  4 done, maximum relative shift = 5.2948e-08, residual = 1.2517e-11, reassembled   714 (  2%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  5 done, maximum relative shift = 3.0017e-12, residual = 1.2509e-11, reassembled 30041 ( 97%) elements\\nAssemble/solve/update time: 12(16.85%)/56(76.70%)/4.7(6.45%)\\n[ 90%] Time step 63 done in 78 seconds. Wall clock time: 3541.2, time: 12900, time step size: 300\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[KSwitched primary variables at 4 dof locations on processor 0.\\n\\nNewton iteration  1 done, maximum relative shift = 5.3811e-04, residual = 1.4481e-08, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  2 done, maximum relative shift = 1.1407e-04, residual = 1.4402e-11, reassembled 30720 (100%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  3 done, maximum relative shift = 6.1767e-06, residual = 1.2064e-11, reassembled   106 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  4 done, maximum relative shift = 2.5379e-08, residual = 1.2392e-11, reassembled  1212 (  3%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r'})"
+        },
+        "B2_short.json": {
           "state": "running",
+          "case": "B2",
+          "stage": "short",
+          "utc": "2026-11-03T15:37:00.961484+00:00",
+          "job": "19201",
+          "affinity": "30,94"
+        },
+        "B1_short.json": {
+          "state": "failed",
           "case": "B1",
           "stage": "short",
-          "utc": "2026-11-03T14:13:55.498803+00:00",
+          "utc": "2026-11-03T15:36:59.305450+00:00",
           "job": "19193",
-          "affinity": "30,94"
+          "affinity": "30,94",
+          "error": "AssertionError({'case': 'B1_short', 'start_utc': '2026-11-03T14:36:46.746113+00:00', 'binary_sha256': '82454eeffa8e952466b39248406aa59c760aad56e6f98a8915c458cef959c26a', 'input_sha256': '019799c3d9323ec93baedd9057b961e222579fbf7f746fd8eb96584e97ba29b1', 'cpu': '30,94', 'requested_threads': 1, 'wall_limit_s': 3600, 'raw_path': '/tmp/zhixin_v13_bottom_boundary_20261103/raw/runs/B1_short', 'state': 'failed', 'controller_pid': 1442193, 'solver_pid': 1447993, 'evaporation_time_h': 1.5833333333333333, 'salt_solid_mol': 2.4589659101116842e-37, 'C_max_mol_L': 1.3657088129154584, 'S_min': 0.9954140742157475, 'updated_utc': '2026-11-03T15:36:39.964019+00:00', 'scratch_free_GiB': 115.99419403076172, 'failure_reason': 'Wall-time limit reached', 'returncode': -15, 'end_utc': '2026-11-03T15:36:54.968998+00:00', 'log_tail': 'time: 14(13.33%)/83(81.38%)/5.4(5.29%)\\nWriting output for problem \"B1_short\". Took 0.72 seconds.\\n[ 83%] Time step 60 done in 1.1e+02 seconds. Wall clock time: 3320.7, time: 12000, time step size: 300\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[KSwitched primary variables at 4 dof locations on processor 0.\\n\\nNewton iteration  1 done, maximum relative shift = 5.6963e-04, residual = 1.8421e-08, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  2 done, maximum relative shift = 2.6697e-04, residual = 1.5156e-11, reassembled 30720 (100%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  3 done, maximum relative shift = 2.7529e-05, residual = 1.2099e-11, reassembled   104 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  4 done, maximum relative shift = 3.0261e-07, residual = 1.2201e-11, reassembled    70 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  5 done, maximum relative shift = 4.4602e-11, residual = 1.2204e-11, reassembled 29363 ( 95%) elements\\nAssemble/solve/update time: 13(15.39%)/64(78.48%)/5(6.13%)\\n[ 85%] Time step 61 done in 86 seconds. Wall clock time: 3405.2, time: 12300, time step size: 300\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[KSwitched primary variables at 6 dof locations on processor 0.\\n\\nNewton iteration  1 done, maximum relative shift = 6.3646e-04, residual = 1.5685e-08, reassembled  1319 (  4%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  2 done, maximum relative shift = 9.3493e-05, residual = 1.5428e-11, reassembled 30720 (100%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  3 done, maximum relative shift = 5.0810e-06, residual = 1.2480e-11, reassembled   102 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  4 done, maximum relative shift = 1.0668e-08, residual = 1.2685e-11, reassembled  1569 (  5%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  5 done, maximum relative shift = 9.0331e-14, residual = 1.2673e-11, reassembled 29160 ( 94%) elements\\nAssemble/solve/update time: 13(16.98%)/57(76.62%)/4.7(6.39%)\\nWriting output for problem \"B1_short\". Took 0.68 seconds.\\n[ 88%] Time step 62 done in 77 seconds. Wall clock time: 3483.1, time: 12600, time step size: 300\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[KSwitched primary variables at 4 dof locations on processor 0.\\n\\nNewton iteration  1 done, maximum relative shift = 6.0873e-04, residual = 1.4873e-08, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  2 done, maximum relative shift = 1.1570e-04, residual = 1.4758e-11, reassembled 30720 (100%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  3 done, maximum relative shift = 8.8357e-06, residual = 1.2117e-11, reassembled   104 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  4 done, maximum relative shift = 5.2683e-08, residual = 1.2247e-11, reassembled   714 (  2%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  5 done, maximum relative shift = 2.9888e-12, residual = 1.2247e-11, reassembled 30042 ( 97%) elements\\nAssemble/solve/update time: 12(16.21%)/60(77.79%)/4.6(6.00%)\\n[ 90%] Time step 63 done in 81 seconds. Wall clock time: 3562.7, time: 12900, time step size: 300\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[KSwitched primary variables at 4 dof locations on processor 0.\\n\\nNewton iteration  1 done, maximum relative shift = 5.3810e-04, residual = 1.4492e-08, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  2 done, maximum relative shift = 1.1408e-04, residual = 1.4467e-11, reassembled 30720 (100%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K'})"
         },
         "baseline_baseline.json": {
           "state": "passed",
@@ -471,24 +489,121 @@
         }
       },
       "runs": {
-        "B1_short_status": {
-          "case": "B1_short",
-          "start_utc": "2026-11-03T14:36:46.746113+00:00",
+        "B3_short_status": {
+          "case": "B3_short",
+          "start_utc": "2026-11-03T15:59:41.893995+00:00",
           "binary_sha256": "82454eeffa8e952466b39248406aa59c760aad56e6f98a8915c458cef959c26a",
-          "input_sha256": "019799c3d9323ec93baedd9057b961e222579fbf7f746fd8eb96584e97ba29b1",
+          "input_sha256": "124fe2197821d6ab63c2543a1c03592ff882ce756d22a814fa5be16c07750692",
+          "cpu": "29,93",
+          "requested_threads": 1,
+          "wall_limit_s": 3600,
+          "raw_path": "/tmp/zhixin_v13_bottom_boundary_20261103/raw/runs/B3_short",
+          "state": "running",
+          "controller_pid": 1459212,
+          "solver_pid": 1463365,
+          "evaporation_time_h": -0.08333333333333333,
+          "salt_solid_mol": -1.373722989939779e-36,
+          "C_max_mol_L": 1.0000000802186377,
+          "S_min": 1.0,
+          "updated_utc": "2026-11-03T16:18:59.371053+00:00",
+          "scratch_free_GiB": 114.0472183227539
+        },
+        "B2_short_status": {
+          "case": "B2_short",
+          "start_utc": "2026-11-03T15:55:05.437393+00:00",
+          "binary_sha256": "82454eeffa8e952466b39248406aa59c760aad56e6f98a8915c458cef959c26a",
+          "input_sha256": "9fcbe1a205d00209a7ec67d83bb64be72a54cbf939d632816a0f8910c55712b5",
           "cpu": "30,94",
           "requested_threads": 1,
           "wall_limit_s": 3600,
-          "raw_path": "/tmp/zhixin_v13_bottom_boundary_20261103/raw/runs/B1_short",
+          "raw_path": "/tmp/zhixin_v13_bottom_boundary_20261103/raw/runs/B2_short",
           "state": "running",
-          "controller_pid": 1442193,
-          "solver_pid": 1447993,
-          "evaporation_time_h": -1.78857421875,
-          "salt_solid_mol": -3.2591561932620654e-37,
+          "controller_pid": 1458492,
+          "solver_pid": 1462114,
+          "evaporation_time_h": 0.08333333333333333,
+          "salt_solid_mol": 1.7266053214617617e-37,
+          "C_max_mol_L": 1.0688705220737846,
+          "S_min": 1.0,
+          "updated_utc": "2026-11-03T16:18:53.558771+00:00",
+          "scratch_free_GiB": 114.0472183227539
+        },
+        "B3_hydro_status": {
+          "case": "B3_hydro",
+          "start_utc": "2026-11-03T15:40:06.903661+00:00",
+          "binary_sha256": "82454eeffa8e952466b39248406aa59c760aad56e6f98a8915c458cef959c26a",
+          "input_sha256": "1fa883641284781c8c901fb8f06e0b69a5f0d3a5067a57e5f9bac5df757860cf",
+          "cpu": "29,93",
+          "requested_threads": 1,
+          "wall_limit_s": 3600,
+          "raw_path": "/tmp/zhixin_v13_bottom_boundary_20261103/raw/runs/B3_hydro",
+          "state": "completed",
+          "controller_pid": 1459212,
+          "solver_pid": 1459213,
+          "evaporation_time_h": 0.0,
+          "salt_solid_mol": -1.3790183909797234e-36,
           "C_max_mol_L": 1.0000000802186377,
           "S_min": 1.0,
-          "updated_utc": "2026-11-03T14:42:32.514761+00:00",
-          "scratch_free_GiB": 116.57820510864258
+          "updated_utc": "2026-11-03T15:59:39.707948+00:00",
+          "scratch_free_GiB": 114.24488067626953,
+          "returncode": 0,
+          "end_utc": "2026-11-03T15:59:39.708831+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 1.1629249175038158e-14,
+              "salt_residual_mol": 1.1637183803093946e-14,
+              "coarse_residual_mol": 1.8217147532990197e-14,
+              "fine_residual_mol": 2.4825541872457e-15
+            },
+            "relative_energy_budget_residual": 7.0991987433600024e-15,
+            "T_min_K": 293.14999999999986,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": -1.3790183909797234e-36,
+            "final_dissolved_mol": 0.02979721066018621,
+            "max_molality_after_initial": 1.0217289445690156,
+            "max_complementarity_after_initial": 1.3412018081629198e-30,
+            "completed_evaporation_h": 0.0
+          }
+        },
+        "B2_hydro_status": {
+          "case": "B2_hydro",
+          "start_utc": "2026-11-03T15:37:01.002774+00:00",
+          "binary_sha256": "82454eeffa8e952466b39248406aa59c760aad56e6f98a8915c458cef959c26a",
+          "input_sha256": "e449e37b5de126055b71e20bac102c6be6a37fc4d72e14b815daa7519e26323f",
+          "cpu": "30,94",
+          "requested_threads": 1,
+          "wall_limit_s": 3600,
+          "raw_path": "/tmp/zhixin_v13_bottom_boundary_20261103/raw/runs/B2_hydro",
+          "state": "completed",
+          "controller_pid": 1458492,
+          "solver_pid": 1458493,
+          "evaporation_time_h": 0.0,
+          "salt_solid_mol": -7.633648890630397e-39,
+          "C_max_mol_L": 1.0000000802186377,
+          "S_min": 1.0,
+          "updated_utc": "2026-11-03T15:55:02.647802+00:00",
+          "scratch_free_GiB": 116.12017059326172,
+          "returncode": 0,
+          "end_utc": "2026-11-03T15:55:02.649051+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 5.6182605703930314e-14,
+              "salt_residual_mol": 5.619054033198618e-14,
+              "coarse_residual_mol": 1.0241371449397223e-13,
+              "fine_residual_mol": 2.9878991249225836e-15
+            },
+            "relative_energy_budget_residual": 3.648804893164379e-15,
+            "T_min_K": 293.14999999999986,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": -7.633648890630397e-39,
+            "final_dissolved_mol": 0.02979721066018621,
+            "max_molality_after_initial": 1.0217289445690156,
+            "max_complementarity_after_initial": 7.464111302810867e-31,
+            "completed_evaporation_h": 0.0
+          }
         },
         "B0_short_status": {
           "case": "B0_short",
@@ -499,15 +614,42 @@
           "requested_threads": 1,
           "wall_limit_s": 3600,
           "raw_path": "/tmp/zhixin_v13_bottom_boundary_20261103/raw/runs/B0_short",
-          "state": "running",
+          "state": "failed",
           "controller_pid": 1442191,
           "solver_pid": 1448352,
-          "evaporation_time_h": -1.9774305555555556,
-          "salt_solid_mol": 3.118845928671106e-38,
-          "C_max_mol_L": 1.0000000802186377,
-          "S_min": 1.0,
-          "updated_utc": "2026-11-03T14:42:23.420810+00:00",
-          "scratch_free_GiB": 116.57820510864258
+          "evaporation_time_h": 1.5833333333333333,
+          "salt_solid_mol": -2.4408463202119215e-37,
+          "C_max_mol_L": 1.3657088218876374,
+          "S_min": 0.9954140761665826,
+          "updated_utc": "2026-11-03T15:39:46.309237+00:00",
+          "scratch_free_GiB": 116.18757629394531,
+          "failure_reason": "Wall-time limit reached",
+          "returncode": -15,
+          "end_utc": "2026-11-03T15:40:01.311914+00:00",
+          "log_tail": "dual = 1.8792e-08, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  2 done, maximum relative shift = 2.6697e-04, residual = 1.5408e-11, reassembled 30720 (100%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  3 done, maximum relative shift = 2.7528e-05, residual = 1.2327e-11, reassembled   104 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  4 done, maximum relative shift = 3.0267e-07, residual = 1.2396e-11, reassembled    70 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  5 done, maximum relative shift = 4.5295e-11, residual = 1.2401e-11, reassembled 29364 ( 95%) elements\nAssemble/solve/update time: 12(16.77%)/56(76.57%)/4.9(6.67%)\n[ 85%] Time step 61 done in 78 seconds. Wall clock time: 3391.2, time: 12300, time step size: 300\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[KSwitched primary variables at 6 dof locations on processor 0.\n\nNewton iteration  1 done, maximum relative shift = 6.3647e-04, residual = 1.5759e-08, reassembled  1318 (  4%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  2 done, maximum relative shift = 9.3492e-05, residual = 1.5302e-11, reassembled 30720 (100%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  3 done, maximum relative shift = 5.0805e-06, residual = 1.2514e-11, reassembled   102 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  4 done, maximum relative shift = 1.0692e-08, residual = 1.2497e-11, reassembled  1566 (  5%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  5 done, maximum relative shift = 8.3831e-14, residual = 1.2468e-11, reassembled 29164 ( 94%) elements\nAssemble/solve/update time: 13(18.22%)/52(74.73%)/4.9(7.05%)\nWriting output for problem \"B0_short\". Took 0.65 seconds.\n[ 88%] Time step 62 done in 72 seconds. Wall clock time: 3464.7, time: 12600, time step size: 300\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[KSwitched primary variables at 4 dof locations on processor 0.\n\nNewton iteration  1 done, maximum relative shift = 6.0873e-04, residual = 1.4910e-08, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  2 done, maximum relative shift = 1.1569e-04, residual = 1.4290e-11, reassembled 30720 (100%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  3 done, maximum relative shift = 8.8336e-06, residual = 1.2336e-11, reassembled   104 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  4 done, maximum relative shift = 5.2948e-08, residual = 1.2517e-11, reassembled   714 (  2%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  5 done, maximum relative shift = 3.0017e-12, residual = 1.2509e-11, reassembled 30041 ( 97%) elements\nAssemble/solve/update time: 12(16.85%)/56(76.70%)/4.7(6.45%)\n[ 90%] Time step 63 done in 78 seconds. Wall clock time: 3541.2, time: 12900, time step size: 300\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[KSwitched primary variables at 4 dof locations on processor 0.\n\nNewton iteration  1 done, maximum relative shift = 5.3811e-04, residual = 1.4481e-08, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  2 done, maximum relative shift = 1.1407e-04, residual = 1.4402e-11, reassembled 30720 (100%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  3 done, maximum relative shift = 6.1767e-06, residual = 1.2064e-11, reassembled   106 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  4 done, maximum relative shift = 2.5379e-08, residual = 1.2392e-11, reassembled  1212 (  3%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r"
+        },
+        "B1_short_status": {
+          "case": "B1_short",
+          "start_utc": "2026-11-03T14:36:46.746113+00:00",
+          "binary_sha256": "82454eeffa8e952466b39248406aa59c760aad56e6f98a8915c458cef959c26a",
+          "input_sha256": "019799c3d9323ec93baedd9057b961e222579fbf7f746fd8eb96584e97ba29b1",
+          "cpu": "30,94",
+          "requested_threads": 1,
+          "wall_limit_s": 3600,
+          "raw_path": "/tmp/zhixin_v13_bottom_boundary_20261103/raw/runs/B1_short",
+          "state": "failed",
+          "controller_pid": 1442193,
+          "solver_pid": 1447993,
+          "evaporation_time_h": 1.5833333333333333,
+          "salt_solid_mol": 2.4589659101116842e-37,
+          "C_max_mol_L": 1.3657088129154584,
+          "S_min": 0.9954140742157475,
+          "updated_utc": "2026-11-03T15:36:39.964019+00:00",
+          "scratch_free_GiB": 115.99419403076172,
+          "failure_reason": "Wall-time limit reached",
+          "returncode": -15,
+          "end_utc": "2026-11-03T15:36:54.968998+00:00",
+          "log_tail": "time: 14(13.33%)/83(81.38%)/5.4(5.29%)\nWriting output for problem \"B1_short\". Took 0.72 seconds.\n[ 83%] Time step 60 done in 1.1e+02 seconds. Wall clock time: 3320.7, time: 12000, time step size: 300\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[KSwitched primary variables at 4 dof locations on processor 0.\n\nNewton iteration  1 done, maximum relative shift = 5.6963e-04, residual = 1.8421e-08, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  2 done, maximum relative shift = 2.6697e-04, residual = 1.5156e-11, reassembled 30720 (100%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  3 done, maximum relative shift = 2.7529e-05, residual = 1.2099e-11, reassembled   104 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  4 done, maximum relative shift = 3.0261e-07, residual = 1.2201e-11, reassembled    70 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  5 done, maximum relative shift = 4.4602e-11, residual = 1.2204e-11, reassembled 29363 ( 95%) elements\nAssemble/solve/update time: 13(15.39%)/64(78.48%)/5(6.13%)\n[ 85%] Time step 61 done in 86 seconds. Wall clock time: 3405.2, time: 12300, time step size: 300\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[KSwitched primary variables at 6 dof locations on processor 0.\n\nNewton iteration  1 done, maximum relative shift = 6.3646e-04, residual = 1.5685e-08, reassembled  1319 (  4%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  2 done, maximum relative shift = 9.3493e-05, residual = 1.5428e-11, reassembled 30720 (100%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  3 done, maximum relative shift = 5.0810e-06, residual = 1.2480e-11, reassembled   102 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  4 done, maximum relative shift = 1.0668e-08, residual = 1.2685e-11, reassembled  1569 (  5%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  5 done, maximum relative shift = 9.0331e-14, residual = 1.2673e-11, reassembled 29160 ( 94%) elements\nAssemble/solve/update time: 13(16.98%)/57(76.62%)/4.7(6.39%)\nWriting output for problem \"B1_short\". Took 0.68 seconds.\n[ 88%] Time step 62 done in 77 seconds. Wall clock time: 3483.1, time: 12600, time step size: 300\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[KSwitched primary variables at 4 dof locations on processor 0.\n\nNewton iteration  1 done, maximum relative shift = 6.0873e-04, residual = 1.4873e-08, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  2 done, maximum relative shift = 1.1570e-04, residual = 1.4758e-11, reassembled 30720 (100%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  3 done, maximum relative shift = 8.8357e-06, residual = 1.2117e-11, reassembled   104 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  4 done, maximum relative shift = 5.2683e-08, residual = 1.2247e-11, reassembled   714 (  2%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  5 done, maximum relative shift = 2.9888e-12, residual = 1.2247e-11, reassembled 30042 ( 97%) elements\nAssemble/solve/update time: 12(16.21%)/60(77.79%)/4.6(6.00%)\n[ 90%] Time step 63 done in 81 seconds. Wall clock time: 3562.7, time: 12900, time step size: 300\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[KSwitched primary variables at 4 dof locations on processor 0.\n\nNewton iteration  1 done, maximum relative shift = 5.3810e-04, residual = 1.4492e-08, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  2 done, maximum relative shift = 1.1408e-04, residual = 1.4467e-11, reassembled 30720 (100%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K"
         },
         "B0_hydro_status": {
           "case": "B0_hydro",
@@ -904,14 +1046,487 @@
     "2D": {
       "states": {
         "core_core.json": {
-          "state": "running",
+          "state": "passed",
           "case": "core",
           "mode": "core",
           "job": "frodo_core_core",
           "host": "frodo",
           "pid": 2788169,
           "cpu": "4",
-          "utc": "2026-11-03T14:35:55.881096+00:00"
+          "utc": "2026-11-03T14:52:40.598400+00:00",
+          "results": [
+            {
+              "case": "Selftest_fixed",
+              "state": "completed",
+              "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+              "input_sha256": "d948d81f5e6188363ba68053a18bc5b147f6a9ecfb4c616247ccdcd2faf74663",
+              "acceptance": {
+                "status": "passed",
+                "fixed": true,
+                "probes": 8,
+                "max_salt_storage_relative_error": 0,
+                "max_water_storage_relative_error": 0,
+                "max_fixed_diffusion_change": 0
+              },
+              "end_utc": "2026-11-03T14:35:56.305366+00:00"
+            },
+            {
+              "case": "Selftest_coupled",
+              "state": "completed",
+              "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+              "input_sha256": "c51f55da0ff8b14b1daff8ef7bc5c01f84718e837be5adfb6b0f04ffe0df85e7",
+              "acceptance": {
+                "status": "passed",
+                "fixed": false,
+                "probes": 6,
+                "max_salt_storage_relative_error": 0,
+                "max_water_storage_relative_error": 0,
+                "max_fixed_diffusion_change": 0
+              },
+              "end_utc": "2026-11-03T14:35:56.682310+00:00"
+            },
+            {
+              "case": "Precipitate_dt30",
+              "start_utc": "2026-11-03T14:35:56.688414+00:00",
+              "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+              "input_sha256": "36d95f51be9dcaeef0820d641a3f22234785444eff0302398581931171863df2",
+              "cpu": "4",
+              "requested_threads": 1,
+              "wall_limit_s": 21600,
+              "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/Precipitate_dt30",
+              "state": "completed",
+              "controller_pid": 2788169,
+              "solver_pid": 2788189,
+              "evaporation_time_h": 0.16666666666666666,
+              "salt_solid_mol": 0.003966618223565099,
+              "C_max_mol_L": 5.328958803049022,
+              "S_min": 0.5235466401393292,
+              "updated_utc": "2026-11-03T14:36:11.698843+00:00",
+              "scratch_free_GiB": 235.12169647216797,
+              "returncode": 0,
+              "end_utc": "2026-11-03T14:36:11.734251+00:00",
+              "acceptance": {
+                "status": "passed",
+                "relative_budget_residuals": {
+                  "water_residual_mol": 1.5177788011737128e-15,
+                  "salt_residual_mol": 6.369714986014521e-16,
+                  "coarse_residual_mol": 8.697143576748658e-16,
+                  "fine_residual_mol": 7.158275705423626e-16
+                },
+                "relative_energy_budget_residual": 7.856268940894868e-16,
+                "T_min_K": 293.15,
+                "T_max_K": 293.22255989448473,
+                "first_solid_mol": 0.0,
+                "final_solid_mol": 0.003966618223565099,
+                "final_dissolved_mol": 0.12675622735070144,
+                "max_molality_after_initial": 6.011884292870148,
+                "max_complementarity_after_initial": 3.5357983754416063e-16,
+                "completed_evaporation_h": 0.16666666666666666
+              }
+            },
+            {
+              "case": "Precipitate_dt15",
+              "start_utc": "2026-11-03T14:36:12.138623+00:00",
+              "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+              "input_sha256": "b19580e4600a77d113bb51faa8357805de9593e0f44787796f202a5076f5e781",
+              "cpu": "4",
+              "requested_threads": 1,
+              "wall_limit_s": 21600,
+              "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/Precipitate_dt15",
+              "state": "completed",
+              "controller_pid": 2788169,
+              "solver_pid": 2788441,
+              "evaporation_time_h": 0.16666666666666666,
+              "salt_solid_mol": 0.003966618223358604,
+              "C_max_mol_L": 5.328958830515272,
+              "S_min": 0.5226961803379964,
+              "updated_utc": "2026-11-03T14:36:27.148330+00:00",
+              "scratch_free_GiB": 235.12117767333984,
+              "returncode": 0,
+              "end_utc": "2026-11-03T14:36:27.148812+00:00",
+              "acceptance": {
+                "status": "passed",
+                "relative_budget_residuals": {
+                  "water_residual_mol": 2.6561129020539973e-15,
+                  "salt_residual_mol": 1.0616191643357533e-15,
+                  "coarse_residual_mol": 6.119825861095733e-16,
+                  "fine_residual_mol": 1.7558642535219686e-15
+                },
+                "relative_energy_budget_residual": 7.856268940894868e-16,
+                "T_min_K": 293.15,
+                "T_max_K": 293.22260679450113,
+                "first_solid_mol": 0.0,
+                "final_solid_mol": 0.003966618223358604,
+                "final_dissolved_mol": 0.12675622735090805,
+                "max_molality_after_initial": 6.011884292870148,
+                "max_complementarity_after_initial": 3.6219374314137867e-16,
+                "completed_evaporation_h": 0.16666666666666666
+              }
+            },
+            {
+              "case": "Dissolve_dt30",
+              "start_utc": "2026-11-03T14:36:27.191728+00:00",
+              "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+              "input_sha256": "d7593cbdbf44d95db518c44d0c3f8644d796745f4cea1da959e60ff0fe6469ab",
+              "cpu": "4",
+              "requested_threads": 1,
+              "wall_limit_s": 21600,
+              "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/Dissolve_dt30",
+              "state": "completed",
+              "controller_pid": 2788169,
+              "solver_pid": 2788515,
+              "evaporation_time_h": 0.16666666666666666,
+              "salt_solid_mol": 0.0,
+              "C_max_mol_L": 1.981524770238133,
+              "S_min": 0.5367304842851852,
+              "updated_utc": "2026-11-03T14:36:42.197917+00:00",
+              "scratch_free_GiB": 235.1207618713379,
+              "returncode": 0,
+              "end_utc": "2026-11-03T14:36:42.198214+00:00",
+              "acceptance": {
+                "status": "passed",
+                "relative_budget_residuals": {
+                  "water_residual_mol": 1.0468457950620703e-15,
+                  "salt_residual_mol": 5.866911200596599e-16,
+                  "coarse_residual_mol": 5.6671586380976225e-16,
+                  "fine_residual_mol": 8.218918581845625e-16
+                },
+                "relative_energy_budget_residual": 1.0076752546121777e-15,
+                "T_min_K": 293.1256085734635,
+                "T_max_K": 293.15,
+                "first_solid_mol": 0.0014547446595264747,
+                "final_solid_mol": 0.0,
+                "final_dissolved_mol": 0.047308668337789885,
+                "max_molality_after_initial": 2.066790334321417,
+                "max_complementarity_after_initial": 8.173979309347744e-93,
+                "completed_evaporation_h": 0.16666666666666666
+              }
+            },
+            {
+              "case": "Dissolve_dt15",
+              "start_utc": "2026-11-03T14:36:42.220990+00:00",
+              "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+              "input_sha256": "07e29c78ff6d2df4f7a8a0dad50c68b2bc26af31b32c1e40fb3311177362b79a",
+              "cpu": "4",
+              "requested_threads": 1,
+              "wall_limit_s": 21600,
+              "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/Dissolve_dt15",
+              "state": "completed",
+              "controller_pid": 2788169,
+              "solver_pid": 2788614,
+              "evaporation_time_h": 0.16666666666666666,
+              "salt_solid_mol": 0.0,
+              "C_max_mol_L": 1.98151713805202,
+              "S_min": 0.5360251425605203,
+              "updated_utc": "2026-11-03T14:36:57.226506+00:00",
+              "scratch_free_GiB": 235.12024307250977,
+              "returncode": 0,
+              "end_utc": "2026-11-03T14:36:57.226797+00:00",
+              "acceptance": {
+                "status": "passed",
+                "relative_budget_residuals": {
+                  "water_residual_mol": 2.0936915901241407e-15,
+                  "salt_residual_mol": 1.3200550201342348e-15,
+                  "coarse_residual_mol": 1.0510348645766629e-15,
+                  "fine_residual_mol": 1.0073823231105032e-15
+                },
+                "relative_energy_budget_residual": 8.957113374330469e-16,
+                "T_min_K": 293.1255929693949,
+                "T_max_K": 293.15,
+                "first_solid_mol": 0.0014547446595264747,
+                "final_solid_mol": 0.0,
+                "final_dissolved_mol": 0.047308668337789926,
+                "max_molality_after_initial": 2.066864237401443,
+                "max_complementarity_after_initial": 1.5076744217770075e-95,
+                "completed_evaporation_h": 0.16666666666666666
+              }
+            },
+            {
+              "case": "RemainSolid_dt30",
+              "start_utc": "2026-11-03T14:36:57.250097+00:00",
+              "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+              "input_sha256": "da69e1471cc27363ee65c5e30c545c49063e1731bc74a2c262912ffd0de04894",
+              "cpu": "4",
+              "requested_threads": 1,
+              "wall_limit_s": 21600,
+              "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/RemainSolid_dt30",
+              "state": "completed",
+              "controller_pid": 2788169,
+              "solver_pid": 2788686,
+              "evaporation_time_h": 0.16666666666666666,
+              "salt_solid_mol": 0.012174450959118238,
+              "C_max_mol_L": 5.329130511123593,
+              "S_min": 0.529668778014337,
+              "updated_utc": "2026-11-03T14:37:12.257168+00:00",
+              "scratch_free_GiB": 235.11974334716797,
+              "returncode": 0,
+              "end_utc": "2026-11-03T14:37:12.257582+00:00",
+              "acceptance": {
+                "status": "passed",
+                "relative_budget_residuals": {
+                  "water_residual_mol": 1.3200591702452026e-15,
+                  "salt_residual_mol": 9.934090882883218e-16,
+                  "coarse_residual_mol": 8.731760876076765e-16,
+                  "fine_residual_mol": 1.1455663090700104e-15
+                },
+                "relative_energy_budget_residual": 6.738729345269356e-16,
+                "T_min_K": 293.11888215900046,
+                "T_max_K": 293.15,
+                "first_solid_mol": 0.014547446595264739,
+                "final_solid_mol": 0.012174450959118238,
+                "final_dissolved_mol": 0.12752416838536934,
+                "max_molality_after_initial": 6.01188429287015,
+                "max_complementarity_after_initial": 4.517959165920115e-16,
+                "completed_evaporation_h": 0.16666666666666666
+              }
+            },
+            {
+              "case": "RemainSolid_dt15",
+              "start_utc": "2026-11-03T14:37:12.294450+00:00",
+              "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+              "input_sha256": "140ed465f7293f7ae6b458634a479db1a02251becb16a4ebe136cc2eedea7c71",
+              "cpu": "4",
+              "requested_threads": 1,
+              "wall_limit_s": 21600,
+              "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/RemainSolid_dt15",
+              "state": "completed",
+              "controller_pid": 2788169,
+              "solver_pid": 2788999,
+              "evaporation_time_h": 0.16666666666666666,
+              "salt_solid_mol": 0.012174450959240983,
+              "C_max_mol_L": 5.329130503141022,
+              "S_min": 0.5288560402423677,
+              "updated_utc": "2026-11-03T14:37:27.300237+00:00",
+              "scratch_free_GiB": 235.11922454833984,
+              "returncode": 0,
+              "end_utc": "2026-11-03T14:37:27.300526+00:00",
+              "acceptance": {
+                "status": "passed",
+                "relative_budget_residuals": {
+                  "water_residual_mol": 1.3200591702452026e-15,
+                  "salt_residual_mol": 1.192090905945986e-15,
+                  "coarse_residual_mol": 1.0130411537676419e-15,
+                  "fine_residual_mol": 9.745505666004033e-16
+                },
+                "relative_energy_budget_residual": 8.984972460359142e-16,
+                "T_min_K": 293.11885035520515,
+                "T_max_K": 293.15,
+                "first_solid_mol": 0.014547446595264739,
+                "final_solid_mol": 0.012174450959240983,
+                "final_dissolved_mol": 0.1275241683852465,
+                "max_molality_after_initial": 6.011884292870151,
+                "max_complementarity_after_initial": 8.110844032333084e-16,
+                "completed_evaporation_h": 0.16666666666666666
+              }
+            },
+            {
+              "case": "Recovery_injected",
+              "start_utc": "2026-11-03T14:37:27.324419+00:00",
+              "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+              "input_sha256": "339debbbeed1bcf7c4c3eff888aad23d068e5ee52d8a4d26c8722aa4eabedcf5",
+              "cpu": "4",
+              "requested_threads": 1,
+              "wall_limit_s": 21600,
+              "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/Recovery_injected",
+              "state": "completed",
+              "controller_pid": 2788169,
+              "solver_pid": 2789258,
+              "evaporation_time_h": 0.16666666666666666,
+              "salt_solid_mol": 0.003966618223297939,
+              "C_max_mol_L": 5.3289588383975985,
+              "S_min": 0.5224649255656107,
+              "updated_utc": "2026-11-03T14:37:42.332880+00:00",
+              "scratch_free_GiB": 235.11860275268555,
+              "returncode": 0,
+              "end_utc": "2026-11-03T14:37:42.333266+00:00",
+              "acceptance": {
+                "status": "passed",
+                "relative_budget_residuals": {
+                  "water_residual_mol": 2.276668201760569e-15,
+                  "salt_residual_mol": 1.4862668300700548e-15,
+                  "coarse_residual_mol": 1.0854089955451599e-15,
+                  "fine_residual_mol": 1.8983319720563575e-15
+                },
+                "relative_energy_budget_residual": 1.1223241344135524e-15,
+                "T_min_K": 293.15,
+                "T_max_K": 293.22260679450113,
+                "first_solid_mol": 0.0,
+                "final_solid_mol": 0.003966618223297939,
+                "final_dissolved_mol": 0.1267562273509687,
+                "max_molality_after_initial": 6.011884292870151,
+                "max_complementarity_after_initial": 6.284416626586965e-16,
+                "completed_evaporation_h": 0.16666666666666666
+              }
+            }
+          ],
+          "donor_tests": {
+            "B0": {
+              "passed": true,
+              "probes": 4,
+              "bottom_area_m2": 0.001963495408493619,
+              "port_area_m2": 0.001963495408493619,
+              "max_initial_hydraulic_potential_residual_Pa": 8.284552305464043e-07,
+              "max_donor_relative_error": 2.7243207465924393e-16,
+              "max_heat_relative_error": 2.9997626548570276e-15
+            },
+            "G1": {
+              "passed": true,
+              "probes": 4,
+              "bottom_area_m2": 0.001963495408493619,
+              "port_area_m2": 3.141592653589665e-06,
+              "max_initial_hydraulic_potential_residual_Pa": 2.0545758822900322e-07,
+              "max_donor_relative_error": 0,
+              "max_heat_relative_error": 2.9494129290221046e-15
+            },
+            "G2": {
+              "passed": true,
+              "probes": 4,
+              "bottom_area_m2": 0.001963495408493619,
+              "port_area_m2": 1.9634954084936224e-05,
+              "max_initial_hydraulic_potential_residual_Pa": 2.0545758822900322e-07,
+              "max_donor_relative_error": 1.3683067339575274e-16,
+              "max_heat_relative_error": 2.7265683966069885e-15
+            },
+            "G3": {
+              "passed": true,
+              "probes": 4,
+              "bottom_area_m2": 0.001963495408493619,
+              "port_area_m2": 7.85398163397449e-05,
+              "max_initial_hydraulic_potential_residual_Pa": 2.0545758822900322e-07,
+              "max_donor_relative_error": 1.3683067339575274e-16,
+              "max_heat_relative_error": 2.7265683966069885e-15
+            }
+          },
+          "extrusion_scaling_errors": {
+            "p_liq": 0.0,
+            "T": 0.0,
+            "x^NaCl_liq": 0.0,
+            "S_liq": 0.0
+          },
+          "numerical_screens": "B0 dt150 and refined4000\u219216000 cells; compare before physical claims"
+        },
+        "B2_case.json": {
+          "state": "completed",
+          "case": "B2",
+          "mode": "case",
+          "job": "frodo_case_B2",
+          "host": "frodo",
+          "pid": 2793755,
+          "cpu": "6",
+          "utc": "2026-11-03T16:09:13.998693+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 4.457849450730852e-13,
+              "salt_residual_mol": 5.43461006426972e-13,
+              "coarse_residual_mol": 1.5074503959019675e-12,
+              "fine_residual_mol": 5.77211775524871e-13
+            },
+            "relative_energy_budget_residual": 1.829265915525413e-10,
+            "T_min_K": 290.8037473244571,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.006387680914639176,
+            "final_dissolved_mol": 0.05955160085526093,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.701273167358882e-16,
+            "completed_evaporation_h": 174.0
+          }
+        },
+        "B3_case.json": {
+          "state": "completed",
+          "case": "B3",
+          "mode": "case",
+          "job": "frodo_case_B3",
+          "host": "frodo",
+          "pid": 2793756,
+          "cpu": "7",
+          "utc": "2026-11-03T16:09:43.841689+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 1.5848200859084906e-13,
+              "salt_residual_mol": 2.2075560453579033e-13,
+              "coarse_residual_mol": 5.505230933019273e-13,
+              "fine_residual_mol": 2.1694524216155862e-13
+            },
+            "relative_energy_budget_residual": 1.8291035714250268e-10,
+            "T_min_K": 290.80374667036256,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.008277411887070374,
+            "final_dissolved_mol": 0.0663548541325924,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.8246617936567008e-16,
+            "completed_evaporation_h": 174.0
+          }
+        },
+        "B0_case.json": {
+          "state": "completed",
+          "case": "B0",
+          "mode": "case",
+          "job": "frodo_case_B0",
+          "host": "frodo",
+          "pid": 2793753,
+          "cpu": "4",
+          "utc": "2026-11-03T16:05:30.476250+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 9.902055009529154e-13,
+              "salt_residual_mol": 7.930462001807065e-13,
+              "coarse_residual_mol": 1.7550477429797852e-12,
+              "fine_residual_mol": 3.9830557469254485e-13
+            },
+            "relative_energy_budget_residual": 1.8298431983297467e-10,
+            "T_min_K": 290.8037476360768,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.005885294189444149,
+            "final_dissolved_mol": 0.0567424834937329,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.8422954075615051e-16,
+            "completed_evaporation_h": 174.0
+          }
+        },
+        "core_gatesG.json": {
+          "state": "failed",
+          "case": "core",
+          "mode": "gatesG",
+          "job": "frodo_gatesG_core",
+          "host": "frodo",
+          "pid": 2793757,
+          "cpu": "8",
+          "utc": "2026-11-03T15:18:53.810754+00:00",
+          "error": "AssertionError({'case': 'G1_refined', 'start_utc': '2026-11-03T15:07:23.044212+00:00', 'binary_sha256': 'd0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be', 'input_sha256': '5873ecf84835d9a3c3337282d857bac2cc6f2320028fb18b15d6fcdfda50d1a3', 'cpu': '8', 'requested_threads': 1, 'wall_limit_s': 21600, 'raw_path': '/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/G1_refined', 'state': 'failed', 'controller_pid': 2793757, 'solver_pid': 2797200, 'evaporation_time_h': 0.0, 'salt_solid_mol': 2.147833278663601e-36, 'C_max_mol_L': 1.0000001076947722, 'S_min': 1.0, 'updated_utc': '2026-11-03T15:18:53.310711+00:00', 'scratch_free_GiB': 233.8521842956543, 'returncode': 1, 'end_utc': '2026-11-03T15:18:53.311358+00:00', 'failure_reason': 'AssertionError()', 'log_tail': \") elements\\nNewton solver did not converge with dt = 0.146484375 seconds. Retrying with time step of dt = 0.0732421875 seconds.\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  1 done, maximum relative shift = 3.4800e-04, residual = 1.4562e-05, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  2 done, maximum relative shift = 5.0828e-07, residual = 4.6089e-10, reassembled 17200 (100%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  3 done, maximum relative shift = 2.6285e-12, residual = 1.0400e-10, reassembled 15345 ( 89%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  4 done, maximum relative shift = 4.6613e-15, residual = 1.0635e-10, reassembled  1825 ( 10%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  5 done, maximum relative shift = 1.6029e-15, residual = 1.0828e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  6 done, maximum relative shift = 3.2044e-15, residual = 1.0539e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  7 done, maximum relative shift = 1.1653e-15, residual = 1.0564e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  8 done, maximum relative shift = 2.6214e-15, residual = 1.0801e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration  9 done, maximum relative shift = 3.0564e-15, residual = 1.0818e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration 10 done, maximum relative shift = 3.2049e-15, residual = 1.0537e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration 11 done, maximum relative shift = 4.0757e-15, residual = 1.0823e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration 12 done, maximum relative shift = 8.7317e-16, residual = 1.0391e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration 13 done, maximum relative shift = 7.2734e-16, residual = 1.0812e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration 14 done, maximum relative shift = 8.7520e-16, residual = 1.0730e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration 15 done, maximum relative shift = 8.7257e-16, residual = 1.0764e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration 16 done, maximum relative shift = 2.0385e-15, residual = 1.0579e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration 17 done, maximum relative shift = 1.3107e-15, residual = 1.0796e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration 18 done, maximum relative shift = 1.7469e-15, residual = 1.0613e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration 19 done, maximum relative shift = 2.1836e-15, residual = 1.0813e-10, reassembled     0 (  0%) elements\\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\\nSolve: M deltax^k = r\\x1b[K\\nUpdate: x^(k+1) = x^k - deltax^k\\x1b[K\\nNewton iteration 20 done, maximum relative shift = 8.7519e-16, residual = 1.0862e-10, reassembled     0 (  0%) elements\\nREVISED_FAILURE NumericalProblem [solve:/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dumux/dumux/nonlinear/newtonsolver.hh:368]: Newton solver didn't converge after 12 time-step divisions; dt = 0.0732421875.\\n\\n\"})"
+        },
+        "B1_case.json": {
+          "state": "completed",
+          "case": "B1",
+          "mode": "case",
+          "job": "frodo_case_B1",
+          "host": "frodo",
+          "pid": 2793754,
+          "cpu": "5",
+          "utc": "2026-11-03T16:07:43.332666+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 6.627289394430931e-13,
+              "salt_residual_mol": 7.357357667756804e-13,
+              "coarse_residual_mol": 1.4024810478210282e-12,
+              "fine_residual_mol": 1.5669630895945157e-13
+            },
+            "relative_energy_budget_residual": 1.8293905160005927e-10,
+            "T_min_K": 290.8037475981583,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.005940722373209144,
+            "final_dissolved_mol": 0.05702513399247089,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.8374366228472786e-16,
+            "completed_evaporation_h": 174.0
+          }
         }
       },
       "runs": {
@@ -951,6 +1566,84 @@
             "final_dissolved_mol": 0.06094674357825449,
             "max_molality_after_initial": 1.4431762466465572,
             "max_complementarity_after_initial": 1.2839159180715214e-31,
+            "completed_evaporation_h": 2.0
+          }
+        },
+        "B1_short_status": {
+          "case": "B1_short",
+          "start_utc": "2026-11-03T14:54:01.186541+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "3de3d922dc4eada4787e7093e210aab15fdc3761236c966c23b4c630432604a8",
+          "cpu": "5",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1_short",
+          "state": "completed",
+          "controller_pid": 2793754,
+          "solver_pid": 2794060,
+          "evaporation_time_h": 2.0,
+          "salt_solid_mol": -1.2186091537348631e-36,
+          "C_max_mol_L": 1.4014693139079095,
+          "S_min": 0.9970608602774299,
+          "updated_utc": "2026-11-03T14:56:01.238517+00:00",
+          "scratch_free_GiB": 234.80800247192383,
+          "returncode": 0,
+          "end_utc": "2026-11-03T14:56:01.239072+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 1.2745393471020957e-13,
+              "salt_residual_mol": 1.30056467186444e-13,
+              "coarse_residual_mol": 2.314431978024168e-13,
+              "fine_residual_mol": 1.5829419075319102e-14
+            },
+            "relative_energy_budget_residual": 1.829039057560856e-10,
+            "T_min_K": 290.8074974247023,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": -1.2186091537348631e-36,
+            "final_dissolved_mol": 0.03047337178851557,
+            "max_molality_after_initial": 1.4431761621767614,
+            "max_complementarity_after_initial": 1.552031308923277e-31,
+            "completed_evaporation_h": 2.0
+          }
+        },
+        "B2_short_status": {
+          "case": "B2_short",
+          "start_utc": "2026-11-03T14:54:01.201658+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "7eb57146eebb2b06661d3b5f88c8b3d14a9360a08c6a1377b8e348101f49a410",
+          "cpu": "6",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2_short",
+          "state": "completed",
+          "controller_pid": 2793755,
+          "solver_pid": 2794064,
+          "evaporation_time_h": 2.0,
+          "salt_solid_mol": -4.193457234786988e-36,
+          "C_max_mol_L": 1.4014685995765663,
+          "S_min": 0.9970608312463096,
+          "updated_utc": "2026-11-03T14:56:01.249227+00:00",
+          "scratch_free_GiB": 234.80800247192383,
+          "returncode": 0,
+          "end_utc": "2026-11-03T14:56:01.249639+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 1.416401123143042e-13,
+              "salt_residual_mol": 1.410419356586042e-13,
+              "coarse_residual_mol": 2.702867532771251e-13,
+              "fine_residual_mol": 2.904308486366906e-14
+            },
+            "relative_energy_budget_residual": 1.8290158274017549e-10,
+            "T_min_K": 290.8074971480314,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": -4.193457234786988e-36,
+            "final_dissolved_mol": 0.03047337178415008,
+            "max_molality_after_initial": 1.4431754052782981,
+            "max_complementarity_after_initial": 1.4951076680839825e-31,
             "completed_evaporation_h": 2.0
           }
         },
@@ -1008,6 +1701,45 @@
           },
           "end_utc": "2026-11-03T14:35:56.305366+00:00"
         },
+        "B2_hydro_status": {
+          "case": "B2_hydro",
+          "start_utc": "2026-11-03T14:53:15.964501+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "550cc539cfe8cc6a4db5e4c88ae03b5ad3bb681cfbb7c9b3a8ef8bb686b6adb9",
+          "cpu": "6",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2_hydro",
+          "state": "completed",
+          "controller_pid": 2793755,
+          "solver_pid": 2793762,
+          "evaporation_time_h": 0.0,
+          "salt_solid_mol": 4.156416791717359e-37,
+          "C_max_mol_L": 1.0000000802186377,
+          "S_min": 1.0,
+          "updated_utc": "2026-11-03T14:54:01.001369+00:00",
+          "scratch_free_GiB": 234.92055892944336,
+          "returncode": 0,
+          "end_utc": "2026-11-03T14:54:01.001617+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 5.6636336697228485e-14,
+              "salt_residual_mol": 5.332721984811906e-14,
+              "coarse_residual_mol": 1.0505317725422436e-13,
+              "fine_residual_mol": 6.888469438668816e-16
+            },
+            "relative_energy_budget_residual": 1.9536178434547543e-16,
+            "T_min_K": 293.1499999999998,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 4.156416791717359e-37,
+            "final_dissolved_mol": 0.0298451302091029,
+            "max_molality_after_initial": 1.0217289445690159,
+            "max_complementarity_after_initial": 1.4951076680839825e-31,
+            "completed_evaporation_h": 0.0
+          }
+        },
         "B0_dt150_status": {
           "case": "B0_dt150",
           "start_utc": "2026-11-03T14:42:05.210798+00:00",
@@ -1017,19 +1749,39 @@
           "requested_threads": 1,
           "wall_limit_s": 21600,
           "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0_dt150",
-          "state": "running",
+          "state": "completed",
           "controller_pid": 2788169,
           "solver_pid": 2790677,
-          "evaporation_time_h": -0.75,
-          "salt_solid_mol": -1.5128035996384718e-37,
-          "C_max_mol_L": 1.0000000802186377,
-          "S_min": 1.0,
-          "updated_utc": "2026-11-03T14:42:35.222638+00:00",
-          "scratch_free_GiB": 235.07003021240234
+          "evaporation_time_h": 2.0,
+          "salt_solid_mol": 9.67290496073506e-37,
+          "C_max_mol_L": 1.4023004274789965,
+          "S_min": 0.9970428296316175,
+          "updated_utc": "2026-11-03T14:44:35.274384+00:00",
+          "scratch_free_GiB": 235.04021072387695,
+          "returncode": 0,
+          "end_utc": "2026-11-03T14:44:35.274818+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 1.6377127956308543e-13,
+              "salt_residual_mol": 1.644623441374457e-13,
+              "coarse_residual_mol": 3.058768757281786e-13,
+              "fine_residual_mol": 2.1778142043271346e-14
+            },
+            "relative_energy_budget_residual": 1.8290052243888315e-10,
+            "T_min_K": 290.8051140952528,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 9.67290496073506e-37,
+            "final_dissolved_mol": 0.03047345678078485,
+            "max_molality_after_initial": 1.4440562636121013,
+            "max_complementarity_after_initial": 5.7881529294073794e-31,
+            "completed_evaporation_h": 2.0
+          }
         },
         "supervisor_status": {
-          "state": "running",
-          "utc": "2026-11-03T14:42:35.708654+00:00",
+          "state": "completed_with_failures",
+          "utc": "2026-11-03T16:09:55.946198+00:00",
           "supervisor_pid": 2788162,
           "host": "frodo",
           "max_parallel": 6,
@@ -1041,16 +1793,163 @@
             8,
             9
           ],
-          "running": {
+          "running": {},
+          "finished": {
             "core_core": {
-              "pid": 2788169,
-              "cpu": 4,
-              "mode": "core",
-              "case": "core"
+              "returncode": 0,
+              "state": "passed",
+              "utc": "2026-11-03T14:52:55.737685+00:00",
+              "cpu": 4
+            },
+            "gatesG_core": {
+              "returncode": 1,
+              "state": "failed",
+              "utc": "2026-11-03T15:18:55.809787+00:00",
+              "cpu": 8
+            },
+            "case_B0": {
+              "returncode": 0,
+              "state": "completed",
+              "utc": "2026-11-03T16:05:35.935804+00:00",
+              "cpu": 4
+            },
+            "case_B1": {
+              "returncode": 0,
+              "state": "completed",
+              "utc": "2026-11-03T16:07:55.941641+00:00",
+              "cpu": 5
+            },
+            "case_B2": {
+              "returncode": 0,
+              "state": "completed",
+              "utc": "2026-11-03T16:09:15.944753+00:00",
+              "cpu": 6
+            },
+            "case_B3": {
+              "returncode": 0,
+              "state": "completed",
+              "utc": "2026-11-03T16:09:55.946178+00:00",
+              "cpu": 7
             }
           },
-          "finished": {},
           "queued": []
+        },
+        "G3_short_status": {
+          "case": "G3_short",
+          "start_utc": "2026-11-03T15:01:19.869945+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "57fd857c21e46bf4e4741b42e7577eacb7125af95317a2e5c3c6447f64f40265",
+          "cpu": "8",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/G3_short",
+          "state": "completed",
+          "controller_pid": 2793757,
+          "solver_pid": 2795732,
+          "evaporation_time_h": 2.0,
+          "salt_solid_mol": 4.734197781993486e-37,
+          "C_max_mol_L": 1.4016210896691004,
+          "S_min": 0.9970629697952171,
+          "updated_utc": "2026-11-03T15:03:49.933688+00:00",
+          "scratch_free_GiB": 234.5296859741211,
+          "returncode": 0,
+          "end_utc": "2026-11-03T15:03:49.934297+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 6.464589394309847e-13,
+              "salt_residual_mol": 6.482655840082513e-13,
+              "coarse_residual_mol": 1.927388462719878e-12,
+              "fine_residual_mol": 1.867548108410637e-12
+            },
+            "relative_energy_budget_residual": 1.6380032936306712e-10,
+            "T_min_K": 290.8102442374822,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 4.734197781993486e-37,
+            "final_dissolved_mol": 0.03356657539600548,
+            "max_molality_after_initial": 1.443337617352746,
+            "max_complementarity_after_initial": 5.995640326210545e-32,
+            "completed_evaporation_h": 2.0
+          }
+        },
+        "G3_hydro_status": {
+          "case": "G3_hydro",
+          "start_utc": "2026-11-03T15:00:19.623543+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "675e47cd5a5cc8dad039b4c4aed676a80ed5035bcfd7fdd1230d6cd320f00d36",
+          "cpu": "8",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/G3_hydro",
+          "state": "completed",
+          "controller_pid": 2793757,
+          "solver_pid": 2795544,
+          "evaporation_time_h": 0.0,
+          "salt_solid_mol": -5.3018622071063396e-37,
+          "C_max_mol_L": 1.0000001076947722,
+          "S_min": 1.0,
+          "updated_utc": "2026-11-03T15:01:19.648937+00:00",
+          "scratch_free_GiB": 234.66641998291016,
+          "returncode": 0,
+          "end_utc": "2026-11-03T15:01:19.649354+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 6.464589394309847e-13,
+              "salt_residual_mol": 6.482655840082513e-13,
+              "coarse_residual_mol": 6.197295931773409e-13,
+              "fine_residual_mol": 6.803232921296658e-13
+            },
+            "relative_energy_budget_residual": 5.2541481674928e-14,
+            "T_min_K": 293.14999999999975,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": -5.3018622071063396e-37,
+            "final_dissolved_mol": 0.032937635784641324,
+            "max_molality_after_initial": 1.0217289445690159,
+            "max_complementarity_after_initial": 5.995640326210545e-32,
+            "completed_evaporation_h": 0.0
+          }
+        },
+        "G1_hydro_status": {
+          "case": "G1_hydro",
+          "start_utc": "2026-11-03T14:53:15.964533+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "e8cd3af09bea31a394722fbc93879d3bed04c2e05ae997ccd9bf81bd0c331f8b",
+          "cpu": "8",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/G1_hydro",
+          "state": "completed",
+          "controller_pid": 2793757,
+          "solver_pid": 2793764,
+          "evaporation_time_h": 0.0,
+          "salt_solid_mol": 5.510530469360627e-37,
+          "C_max_mol_L": 1.0000001076947722,
+          "S_min": 1.0,
+          "updated_utc": "2026-11-03T14:54:16.010647+00:00",
+          "scratch_free_GiB": 234.9483299255371,
+          "returncode": 0,
+          "end_utc": "2026-11-03T14:54:16.011015+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 2.3728192084221e-14,
+              "salt_residual_mol": 2.5534836661459875e-14,
+              "coarse_residual_mol": 2.551119804021507e-14,
+              "fine_residual_mol": 2.622449535331351e-14
+            },
+            "relative_energy_budget_residual": 4.945983288096066e-15,
+            "T_min_K": 293.1499999999998,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 5.510530469360627e-37,
+            "final_dissolved_mol": 0.032937635784641324,
+            "max_molality_after_initial": 1.0217289445690159,
+            "max_complementarity_after_initial": 3.759651265330188e-32,
+            "completed_evaporation_h": 0.0
+          }
         },
         "RemainSolid_dt30_status": {
           "case": "RemainSolid_dt30",
@@ -1091,6 +1990,45 @@
             "completed_evaporation_h": 0.16666666666666666
           }
         },
+        "B1_hydro_status": {
+          "case": "B1_hydro",
+          "start_utc": "2026-11-03T14:53:15.957742+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "c2683fc44185c6a6da4e859b2fd282d2d6b3b0bcf34801b2ed5cc41b1c577f93",
+          "cpu": "5",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1_hydro",
+          "state": "completed",
+          "controller_pid": 2793754,
+          "solver_pid": 2793758,
+          "evaporation_time_h": 0.0,
+          "salt_solid_mol": 1.4975235450912746e-36,
+          "C_max_mol_L": 1.0000000802186377,
+          "S_min": 1.0,
+          "updated_utc": "2026-11-03T14:54:00.987551+00:00",
+          "scratch_free_GiB": 234.92056274414062,
+          "returncode": 0,
+          "end_utc": "2026-11-03T14:54:00.988006+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 1.026902056662801e-13,
+              "salt_residual_mol": 9.93810888171711e-14,
+              "coarse_residual_mol": 1.9293898052167775e-13,
+              "fine_residual_mol": 1.1184898814947877e-15
+            },
+            "relative_energy_budget_residual": 3.3894777315605085e-15,
+            "T_min_K": 293.1499999999998,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 1.4975235450912746e-36,
+            "final_dissolved_mol": 0.0298451302091029,
+            "max_molality_after_initial": 1.0217289445690159,
+            "max_complementarity_after_initial": 1.552031308923277e-31,
+            "completed_evaporation_h": 0.0
+          }
+        },
         "Recovery_injected_status": {
           "case": "Recovery_injected",
           "start_utc": "2026-11-03T14:37:27.324419+00:00",
@@ -1128,6 +2066,45 @@
             "max_molality_after_initial": 6.011884292870151,
             "max_complementarity_after_initial": 6.284416626586965e-16,
             "completed_evaporation_h": 0.16666666666666666
+          }
+        },
+        "B1_status": {
+          "case": "B1",
+          "start_utc": "2026-11-03T14:56:02.622181+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "55d81ad72b20bfae1e524ebd64389512a66f01b92780684872aeccdeae4a4825",
+          "cpu": "5",
+          "requested_threads": 1,
+          "wall_limit_s": 172800,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1",
+          "state": "completed",
+          "controller_pid": 2793754,
+          "solver_pid": 2794488,
+          "evaporation_time_h": 174.0,
+          "salt_solid_mol": 0.005940722373209144,
+          "C_max_mol_L": 5.332243507186129,
+          "S_min": 0.9957705658909333,
+          "updated_utc": "2026-11-03T16:06:50.863280+00:00",
+          "scratch_free_GiB": 231.77295684814453,
+          "returncode": 0,
+          "end_utc": "2026-11-03T16:06:50.949817+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 6.627289394430931e-13,
+              "salt_residual_mol": 7.357357667756804e-13,
+              "coarse_residual_mol": 1.4024810478210282e-12,
+              "fine_residual_mol": 1.5669630895945157e-13
+            },
+            "relative_energy_budget_residual": 1.8293905160005927e-10,
+            "T_min_K": 290.8037475981583,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.005940722373209144,
+            "final_dissolved_mol": 0.05702513399247089,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.8374366228472786e-16,
+            "completed_evaporation_h": 174.0
           }
         },
         "Dissolve_dt30_status": {
@@ -1262,6 +2239,84 @@
             "completed_evaporation_h": 0.16666666666666666
           }
         },
+        "B0_status": {
+          "case": "B0",
+          "start_utc": "2026-11-03T14:53:15.957736+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "bfb405b512b4438c36418639d8a250a2ac382d4c43d5d6b9f2250dee5f86a005",
+          "cpu": "4",
+          "requested_threads": 1,
+          "wall_limit_s": 172800,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0",
+          "state": "completed",
+          "controller_pid": 2793753,
+          "solver_pid": 2793759,
+          "evaporation_time_h": 174.0,
+          "salt_solid_mol": 0.005885294189444149,
+          "C_max_mol_L": 5.3322449008964465,
+          "S_min": 0.9957736676380581,
+          "updated_utc": "2026-11-03T16:04:35.983436+00:00",
+          "scratch_free_GiB": 231.8686180114746,
+          "returncode": 0,
+          "end_utc": "2026-11-03T16:04:36.050681+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 9.902055009529154e-13,
+              "salt_residual_mol": 7.930462001807065e-13,
+              "coarse_residual_mol": 1.7550477429797852e-12,
+              "fine_residual_mol": 3.9830557469254485e-13
+            },
+            "relative_energy_budget_residual": 1.8298431983297467e-10,
+            "T_min_K": 290.8037476360768,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.005885294189444149,
+            "final_dissolved_mol": 0.0567424834937329,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.8422954075615051e-16,
+            "completed_evaporation_h": 174.0
+          }
+        },
+        "G2_hydro_status": {
+          "case": "G2_hydro",
+          "start_utc": "2026-11-03T14:56:47.806600+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "26d55f33ead761f1fe0b5a298277caf461f723fefd6660923bd3be85bc180e24",
+          "cpu": "8",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/G2_hydro",
+          "state": "completed",
+          "controller_pid": 2793757,
+          "solver_pid": 2794696,
+          "evaporation_time_h": 0.0,
+          "salt_solid_mol": -4.0869647702837014e-37,
+          "C_max_mol_L": 1.0000001076947722,
+          "S_min": 1.0,
+          "updated_utc": "2026-11-03T14:57:47.834127+00:00",
+          "scratch_free_GiB": 234.82029342651367,
+          "returncode": 0,
+          "end_utc": "2026-11-03T14:57:47.834712+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 1.595006326448656e-13,
+              "salt_residual_mol": 1.613072772221105e-13,
+              "coarse_residual_mol": 1.5473257535738258e-13,
+              "fine_residual_mol": 1.6920413068087342e-13
+            },
+            "relative_energy_budget_residual": 1.5324933520171492e-14,
+            "T_min_K": 293.14999999999975,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": -4.0869647702837014e-37,
+            "final_dissolved_mol": 0.032937635784641324,
+            "max_molality_after_initial": 1.0217289445690159,
+            "max_complementarity_after_initial": 2.346521896622537e-32,
+            "completed_evaporation_h": 0.0
+          }
+        },
         "B0_short_status": {
           "case": "B0_short",
           "start_utc": "2026-11-03T14:38:32.250148+00:00",
@@ -1299,6 +2354,45 @@
             "max_molality_after_initial": 1.4431762466465572,
             "max_complementarity_after_initial": 1.2839159180715214e-31,
             "completed_evaporation_h": 2.0
+          }
+        },
+        "B3_status": {
+          "case": "B3",
+          "start_utc": "2026-11-03T14:56:02.650436+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "c4c9ee107f3e22501dfe612a32d283f81ae9862496f0bb3d8821256e4dbc1592",
+          "cpu": "7",
+          "requested_threads": 1,
+          "wall_limit_s": 172800,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3",
+          "state": "completed",
+          "controller_pid": 2793756,
+          "solver_pid": 2794493,
+          "evaporation_time_h": 174.0,
+          "salt_solid_mol": 0.008277411887070374,
+          "C_max_mol_L": 5.332295944588925,
+          "S_min": 0.9956089730883362,
+          "updated_utc": "2026-11-03T16:08:51.682883+00:00",
+          "scratch_free_GiB": 231.33102798461914,
+          "returncode": 0,
+          "end_utc": "2026-11-03T16:08:51.727256+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 1.5848200859084906e-13,
+              "salt_residual_mol": 2.2075560453579033e-13,
+              "coarse_residual_mol": 5.505230933019273e-13,
+              "fine_residual_mol": 2.1694524216155862e-13
+            },
+            "relative_energy_budget_residual": 1.8291035714250268e-10,
+            "T_min_K": 290.80374667036256,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.008277411887070374,
+            "final_dissolved_mol": 0.0663548541325924,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.8246617936567008e-16,
+            "completed_evaporation_h": 174.0
           }
         },
         "B0_hydro_status": {
@@ -1340,6 +2434,185 @@
             "completed_evaporation_h": 0.0
           }
         },
+        "B2_status": {
+          "case": "B2",
+          "start_utc": "2026-11-03T14:56:02.644754+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "2aa16bf26d710072a091efa0901adff1c01c4dba61fa6e8efc2438c667ae62d7",
+          "cpu": "6",
+          "requested_threads": 1,
+          "wall_limit_s": 172800,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2",
+          "state": "completed",
+          "controller_pid": 2793755,
+          "solver_pid": 2794491,
+          "evaporation_time_h": 174.0,
+          "salt_solid_mol": 0.006387680914639176,
+          "C_max_mol_L": 5.332265266084732,
+          "S_min": 0.9957388867707333,
+          "updated_utc": "2026-11-03T16:08:21.373717+00:00",
+          "scratch_free_GiB": 231.64458084106445,
+          "returncode": 0,
+          "end_utc": "2026-11-03T16:08:21.421930+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 4.457849450730852e-13,
+              "salt_residual_mol": 5.43461006426972e-13,
+              "coarse_residual_mol": 1.5074503959019675e-12,
+              "fine_residual_mol": 5.77211775524871e-13
+            },
+            "relative_energy_budget_residual": 1.829265915525413e-10,
+            "T_min_K": 290.8037473244571,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.006387680914639176,
+            "final_dissolved_mol": 0.05955160085526093,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.701273167358882e-16,
+            "completed_evaporation_h": 174.0
+          }
+        },
+        "B3_hydro_status": {
+          "case": "B3_hydro",
+          "start_utc": "2026-11-03T14:53:15.964523+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "378aa3070e246aa45730026f653751d5fe869331e343e64d0cea9a0e15c9bac0",
+          "cpu": "7",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3_hydro",
+          "state": "completed",
+          "controller_pid": 2793756,
+          "solver_pid": 2793763,
+          "evaporation_time_h": 0.0,
+          "salt_solid_mol": 3.1981825931057364e-38,
+          "C_max_mol_L": 1.0000000802186377,
+          "S_min": 1.0,
+          "updated_utc": "2026-11-03T14:54:01.000616+00:00",
+          "scratch_free_GiB": 234.92055892944336,
+          "returncode": 0,
+          "end_utc": "2026-11-03T14:54:01.000994+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 1.2093476791269598e-14,
+              "salt_residual_mol": 8.784359942159485e-15,
+              "coarse_residual_mol": 2.0418181462836692e-14,
+              "fine_residual_mol": 6.481088946496901e-16
+            },
+            "relative_energy_budget_residual": 3.6269975822773456e-15,
+            "T_min_K": 293.1499999999998,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 3.1981825931057364e-38,
+            "final_dissolved_mol": 0.0298451302091029,
+            "max_molality_after_initial": 1.0217289445690159,
+            "max_complementarity_after_initial": 1.7893643329652503e-31,
+            "completed_evaporation_h": 0.0
+          }
+        },
+        "G1_short_status": {
+          "case": "G1_short",
+          "start_utc": "2026-11-03T14:54:16.250493+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "e1c66f43d08b07cc4c5a0e96625e1dfe7e92cc1910eec19a272be6fe711b9398",
+          "cpu": "8",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/G1_short",
+          "state": "completed",
+          "controller_pid": 2793757,
+          "solver_pid": 2794111,
+          "evaporation_time_h": 2.0,
+          "salt_solid_mol": 1.1907696400670215e-36,
+          "C_max_mol_L": 1.4016210414722008,
+          "S_min": 0.9970628402214171,
+          "updated_utc": "2026-11-03T14:56:46.315647+00:00",
+          "scratch_free_GiB": 234.8326416015625,
+          "returncode": 0,
+          "end_utc": "2026-11-03T14:56:46.316159+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 4.9446383486356977e-14,
+              "salt_residual_mol": 4.4370225232841335e-14,
+              "coarse_residual_mol": 1.3105977808067928e-12,
+              "fine_residual_mol": 1.388435175462543e-12
+            },
+            "relative_energy_budget_residual": 1.6376845634118376e-10,
+            "T_min_K": 290.81024435051404,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 1.1907696400670215e-36,
+            "final_dissolved_mol": 0.03356657538812113,
+            "max_molality_after_initial": 1.4433375667263402,
+            "max_complementarity_after_initial": 6.814132611297867e-32,
+            "completed_evaporation_h": 2.0
+          }
+        },
+        "G1_refined_status": {
+          "case": "G1_refined",
+          "start_utc": "2026-11-03T15:07:23.044212+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "5873ecf84835d9a3c3337282d857bac2cc6f2320028fb18b15d6fcdfda50d1a3",
+          "cpu": "8",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/G1_refined",
+          "state": "failed",
+          "controller_pid": 2793757,
+          "solver_pid": 2797200,
+          "evaporation_time_h": 0.0,
+          "salt_solid_mol": 2.147833278663601e-36,
+          "C_max_mol_L": 1.0000001076947722,
+          "S_min": 1.0,
+          "updated_utc": "2026-11-03T15:18:53.310711+00:00",
+          "scratch_free_GiB": 233.8521842956543,
+          "returncode": 1,
+          "end_utc": "2026-11-03T15:18:53.311358+00:00",
+          "failure_reason": "AssertionError()",
+          "log_tail": ") elements\nNewton solver did not converge with dt = 0.146484375 seconds. Retrying with time step of dt = 0.0732421875 seconds.\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  1 done, maximum relative shift = 3.4800e-04, residual = 1.4562e-05, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  2 done, maximum relative shift = 5.0828e-07, residual = 4.6089e-10, reassembled 17200 (100%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  3 done, maximum relative shift = 2.6285e-12, residual = 1.0400e-10, reassembled 15345 ( 89%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  4 done, maximum relative shift = 4.6613e-15, residual = 1.0635e-10, reassembled  1825 ( 10%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  5 done, maximum relative shift = 1.6029e-15, residual = 1.0828e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  6 done, maximum relative shift = 3.2044e-15, residual = 1.0539e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  7 done, maximum relative shift = 1.1653e-15, residual = 1.0564e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  8 done, maximum relative shift = 2.6214e-15, residual = 1.0801e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration  9 done, maximum relative shift = 3.0564e-15, residual = 1.0818e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration 10 done, maximum relative shift = 3.2049e-15, residual = 1.0537e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration 11 done, maximum relative shift = 4.0757e-15, residual = 1.0823e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration 12 done, maximum relative shift = 8.7317e-16, residual = 1.0391e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration 13 done, maximum relative shift = 7.2734e-16, residual = 1.0812e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration 14 done, maximum relative shift = 8.7520e-16, residual = 1.0730e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration 15 done, maximum relative shift = 8.7257e-16, residual = 1.0764e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration 16 done, maximum relative shift = 2.0385e-15, residual = 1.0579e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration 17 done, maximum relative shift = 1.3107e-15, residual = 1.0796e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration 18 done, maximum relative shift = 1.7469e-15, residual = 1.0613e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration 19 done, maximum relative shift = 2.1836e-15, residual = 1.0813e-10, reassembled     0 (  0%) elements\nAssemble: r(x^k) = dS/dt + div F - q;   M = grad r\nSolve: M deltax^k = r\u001b[K\nUpdate: x^(k+1) = x^k - deltax^k\u001b[K\nNewton iteration 20 done, maximum relative shift = 8.7519e-16, residual = 1.0862e-10, reassembled     0 (  0%) elements\nREVISED_FAILURE NumericalProblem [solve:/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dumux/dumux/nonlinear/newtonsolver.hh:368]: Newton solver didn't converge after 12 time-step divisions; dt = 0.0732421875.\n\n"
+        },
+        "G2_short_status": {
+          "case": "G2_short",
+          "start_utc": "2026-11-03T14:57:48.064929+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "6721b753ba73e83b3f5814353b1a6da4b5be5f234f757980d8b4775c8524289a",
+          "cpu": "8",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/G2_short",
+          "state": "completed",
+          "controller_pid": 2793757,
+          "solver_pid": 2794959,
+          "evaporation_time_h": 2.0,
+          "salt_solid_mol": -1.720073752739703e-36,
+          "C_max_mol_L": 1.4016210451013,
+          "S_min": 0.9970629498786447,
+          "updated_utc": "2026-11-03T15:00:18.128581+00:00",
+          "scratch_free_GiB": 234.68730926513672,
+          "returncode": 0,
+          "end_utc": "2026-11-03T15:00:18.129108+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 2.0192598130585928e-13,
+              "salt_residual_mol": 1.989360831018954e-13,
+              "coarse_residual_mol": 2.710970847835033e-12,
+              "fine_residual_mol": 3.3967478804640264e-12
+            },
+            "relative_energy_budget_residual": 1.6377975788222285e-10,
+            "T_min_K": 290.81024435132974,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": -1.720073752739703e-36,
+            "final_dissolved_mol": 0.03356657539713358,
+            "max_molality_after_initial": 1.4433375703376181,
+            "max_complementarity_after_initial": 1.2456824790811325e-31,
+            "completed_evaporation_h": 2.0
+          }
+        },
         "Dissolve_dt15_status": {
           "case": "Dissolve_dt15",
           "start_utc": "2026-11-03T14:36:42.220990+00:00",
@@ -1378,15 +2651,132 @@
             "max_complementarity_after_initial": 1.5076744217770075e-95,
             "completed_evaporation_h": 0.16666666666666666
           }
+        },
+        "B3_short_status": {
+          "case": "B3_short",
+          "start_utc": "2026-11-03T14:54:01.201124+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "7a19261efadfeb01af38049015904d57c036b853418b6b7b10ec798858cce28d",
+          "cpu": "7",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3_short",
+          "state": "completed",
+          "controller_pid": 2793756,
+          "solver_pid": 2794063,
+          "evaporation_time_h": 2.0,
+          "salt_solid_mol": 2.544048685258043e-36,
+          "C_max_mol_L": 1.4014616089942102,
+          "S_min": 0.9970605807868602,
+          "updated_utc": "2026-11-03T14:56:01.251064+00:00",
+          "scratch_free_GiB": 234.80800247192383,
+          "returncode": 0,
+          "end_utc": "2026-11-03T14:56:01.251444+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 1.2093476791269598e-14,
+              "salt_residual_mol": 1.1474642410306451e-14,
+              "coarse_residual_mol": 2.598360392475213e-14,
+              "fine_residual_mol": 2.867942880055827e-14
+            },
+            "relative_energy_budget_residual": 1.8290887392656006e-10,
+            "T_min_K": 290.8074964671559,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 2.544048685258043e-36,
+            "final_dissolved_mol": 0.030473371773635127,
+            "max_molality_after_initial": 1.4431679989985717,
+            "max_complementarity_after_initial": 1.7893643329652503e-31,
+            "completed_evaporation_h": 2.0
+          }
+        },
+        "B0_refined_status": {
+          "case": "B0_refined",
+          "start_utc": "2026-11-03T14:44:36.511758+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "94a09301e095da55788f40282ab431859d8480995a65b3edab06526af60d5183",
+          "cpu": "4",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0_refined",
+          "state": "completed",
+          "controller_pid": 2788169,
+          "solver_pid": 2791528,
+          "evaporation_time_h": 2.0,
+          "salt_solid_mol": 1.6913825779364375e-36,
+          "C_max_mol_L": 1.4046124753800402,
+          "S_min": 0.9960372830842351,
+          "updated_utc": "2026-11-03T14:52:36.687609+00:00",
+          "scratch_free_GiB": 234.90515518188477,
+          "returncode": 0,
+          "end_utc": "2026-11-03T14:52:36.688077+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 3.9402141310899636e-12,
+              "salt_residual_mol": 3.94420821451219e-12,
+              "coarse_residual_mol": 7.457619614939623e-12,
+              "fine_residual_mol": 7.376168131239573e-14
+            },
+            "relative_energy_budget_residual": 1.8317514822560296e-10,
+            "T_min_K": 290.80056284796206,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 1.6913825779364375e-36,
+            "final_dissolved_mol": 0.03047320004717953,
+            "max_molality_after_initial": 1.446506295066276,
+            "max_complementarity_after_initial": 1.9289948614323985e-30,
+            "completed_evaporation_h": 2.0
+          }
+        },
+        "G1_dt150_status": {
+          "case": "G1_dt150",
+          "start_utc": "2026-11-03T15:03:51.427203+00:00",
+          "binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+          "input_sha256": "f961f519132a0dc9effed911611451e25aef41222f59f65c0ee63d536732515c",
+          "cpu": "8",
+          "requested_threads": 1,
+          "wall_limit_s": 21600,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/G1_dt150",
+          "state": "completed",
+          "controller_pid": 2793757,
+          "solver_pid": 2796378,
+          "evaporation_time_h": 2.0,
+          "salt_solid_mol": -7.784432511629128e-38,
+          "C_max_mol_L": 1.4024512230579977,
+          "S_min": 0.9970452692499822,
+          "updated_utc": "2026-11-03T15:07:21.519306+00:00",
+          "scratch_free_GiB": 234.3935089111328,
+          "returncode": 0,
+          "end_utc": "2026-11-03T15:07:21.519775+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 3.0697748338094727e-14,
+              "salt_residual_mol": 3.2720963235065046e-14,
+              "coarse_residual_mol": 7.779839510915517e-13,
+              "fine_residual_mol": 8.017075356755846e-13
+            },
+            "relative_energy_budget_residual": 1.637696687079446e-10,
+            "T_min_K": 290.8075386632996,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": -7.784432511629128e-38,
+            "final_dissolved_mol": 0.0335666664654188,
+            "max_molality_after_initial": 1.444216619593153,
+            "max_complementarity_after_initial": 1.3112178874393151e-30,
+            "completed_evaporation_h": 2.0
+          }
         }
       }
     }
   },
-  "squeue": "19182_[2-3%2]|bottom_short|PENDING|0:00|1|(JobArrayTaskLimit)\n19183_[0-3%2]|bottom_174h|PENDING|0:00|1|(Dependency)\n19190|bottom_G3|PENDING|0:00|1|(JobHeldUser)\n19189|bottom_G2|PENDING|0:00|1|(JobHeldUser)\n19188|bottom_G1|PENDING|0:00|1|(JobHeldUser)\n19187|bottom_G_gates|PENDING|0:00|1|(JobHeldUser)\n19182_0|bottom_short|RUNNING|28:41|2|localhost\n19182_1|bottom_short|RUNNING|28:41|2|localhost\n19169|film080|RUNNING|8:05:10|8|localhost\n19168|film075|RUNNING|8:05:11|8|localhost\n",
-  "scratch_free_GiB": 116.57820510864258,
+  "squeue": "19183_[0-3%2]|bottom_174h|PENDING|0:00|1|(Dependency)\n19190|bottom_G3|PENDING|0:00|1|(JobHeldUser)\n19189|bottom_G2|PENDING|0:00|1|(JobHeldUser)\n19188|bottom_G1|PENDING|0:00|1|(JobHeldUser)\n19187|bottom_G_gates|PENDING|0:00|1|(JobHeldUser)\n19182_3|bottom_short|RUNNING|38:56|2|localhost\n19182_2|bottom_short|RUNNING|42:02|2|localhost\n19169|film080|RUNNING|9:41:36|8|localhost\n19168|film075|RUNNING|9:41:37|8|localhost\n",
+  "scratch_free_GiB": 114.0472183227539,
   "frodo_supervisor": {
-    "state": "running",
-    "utc": "2026-11-03T14:42:35.708654+00:00",
+    "state": "completed_with_failures",
+    "utc": "2026-11-03T16:09:55.946198+00:00",
     "supervisor_pid": 2788162,
     "host": "frodo",
     "max_parallel": 6,
@@ -1398,17 +2788,47 @@
       8,
       9
     ],
-    "running": {
+    "running": {},
+    "finished": {
       "core_core": {
-        "pid": 2788169,
-        "cpu": 4,
-        "mode": "core",
-        "case": "core"
+        "returncode": 0,
+        "state": "passed",
+        "utc": "2026-11-03T14:52:55.737685+00:00",
+        "cpu": 4
+      },
+      "gatesG_core": {
+        "returncode": 1,
+        "state": "failed",
+        "utc": "2026-11-03T15:18:55.809787+00:00",
+        "cpu": 8
+      },
+      "case_B0": {
+        "returncode": 0,
+        "state": "completed",
+        "utc": "2026-11-03T16:05:35.935804+00:00",
+        "cpu": 4
+      },
+      "case_B1": {
+        "returncode": 0,
+        "state": "completed",
+        "utc": "2026-11-03T16:07:55.941641+00:00",
+        "cpu": 5
+      },
+      "case_B2": {
+        "returncode": 0,
+        "state": "completed",
+        "utc": "2026-11-03T16:09:15.944753+00:00",
+        "cpu": 6
+      },
+      "case_B3": {
+        "returncode": 0,
+        "state": "completed",
+        "utc": "2026-11-03T16:09:55.946178+00:00",
+        "cpu": 7
       }
     },
-    "finished": {},
     "queued": []
   },
-  "frodo_scratch_GiB": 235.06999969482422,
-  "queried_utc": "2026-11-03T14:42:37.111541+00:00"
+  "frodo_scratch_GiB": 228.03656387329102,
+  "queried_utc": "2026-11-03T16:19:03.041681+00:00"
 }

@@ -19,6 +19,10 @@ for dim in ['2D','3D']:
  for case in ['B0','B1','B2','B3','G1','G2','G3']:
   t=d['tracks'][dim];key=case+('_production.json' if dim=='3D' else ('_case.json' if case.startswith('B') else '_caseG.json'));terminal=t['states'].get(key,{});run=t['runs'].get(case+'_status',{})
   job=('frodo_case_'+case if case.startswith('B') else 'frodo_caseG_'+case) if dim=='2D' else (j3['B_production_array']+'_'+case[1] if case.startswith('B') else j3['G_jobs'][case]['job_id'])
-  rows.append(dict(dimension=dim,case=case,host='frodo' if dim=='2D' else 'sal',state=terminal.get('state',run.get('state','pending_gates_resources')),accepted_evaporation_h=run.get('evaporation_time_h',0),job=job,error=terminal.get('error','')))
+  state=terminal.get('state',run.get('state','pending_gates_resources'));error=terminal.get('error','')
+  if not terminal and not run:
+   if dim=='2D' and case.startswith('G') and t['states'].get('core_gatesG.json',{}).get('state')=='failed':state='blocked_failed_G_gate';error='G1_refined did not pass; production not launched'
+   if dim=='3D' and case.startswith('B') and any(t['states'].get(k+'_short.json',{}).get('state')=='failed' for k in ['B0','B1','B2','B3']):state='blocked_failed_short_array';error='Full B array requires all short jobs to pass'
+  rows.append(dict(dimension=dim,case=case,host='frodo' if dim=='2D' else 'sal',state=state,accepted_evaporation_h=run.get('evaporation_time_h',0),job=job,error=error))
 with (R/'TRACK_RUN_STATUS.csv').open('w',newline='') as f:w=csv.DictWriter(f,fieldnames=rows[0]);w.writeheader();w.writerows(rows)
 print(json.dumps(dict(utc=d['queried_utc'],cases=rows,gate_states={dim:{k:v['state'] for k,v in z['states'].items()} for dim,z in d['tracks'].items()},squeue=d['squeue']),indent=2))

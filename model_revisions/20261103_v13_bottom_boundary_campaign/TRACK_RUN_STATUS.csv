@@ -1,15 +1,15 @@
 dimension,case,host,state,accepted_evaporation_h,job,error
-2D,B0,frodo,pending_gates_resources,0,frodo_case_B0,
-2D,B1,frodo,pending_gates_resources,0,frodo_case_B1,
-2D,B2,frodo,pending_gates_resources,0,frodo_case_B2,
-2D,B3,frodo,pending_gates_resources,0,frodo_case_B3,
-2D,G1,frodo,pending_gates_resources,0,frodo_caseG_G1,
-2D,G2,frodo,pending_gates_resources,0,frodo_caseG_G2,
-2D,G3,frodo,pending_gates_resources,0,frodo_caseG_G3,
-3D,B0,sal,pending_gates_resources,0,19183_0,
-3D,B1,sal,pending_gates_resources,0,19183_1,
-3D,B2,sal,pending_gates_resources,0,19183_2,
-3D,B3,sal,pending_gates_resources,0,19183_3,
+2D,B0,frodo,completed,174.0,frodo_case_B0,
+2D,B1,frodo,completed,174.0,frodo_case_B1,
+2D,B2,frodo,completed,174.0,frodo_case_B2,
+2D,B3,frodo,completed,174.0,frodo_case_B3,
+2D,G1,frodo,blocked_failed_G_gate,0,frodo_caseG_G1,G1_refined did not pass; production not launched
+2D,G2,frodo,blocked_failed_G_gate,0,frodo_caseG_G2,G1_refined did not pass; production not launched
+2D,G3,frodo,blocked_failed_G_gate,0,frodo_caseG_G3,G1_refined did not pass; production not launched
+3D,B0,sal,blocked_failed_short_array,0,19183_0,Full B array requires all short jobs to pass
+3D,B1,sal,blocked_failed_short_array,0,19183_1,Full B array requires all short jobs to pass
+3D,B2,sal,blocked_failed_short_array,0,19183_2,Full B array requires all short jobs to pass
+3D,B3,sal,blocked_failed_short_array,0,19183_3,Full B array requires all short jobs to pass
 3D,G1,sal,pending_gates_resources,0,19188,
 3D,G2,sal,pending_gates_resources,0,19189,
 3D,G3,sal,pending_gates_resources,0,19190,

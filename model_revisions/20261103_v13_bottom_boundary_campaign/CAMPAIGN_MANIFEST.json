@@ -1,16 +1,21 @@
 {
-  "created_utc": "2026-11-03T14:43:32.688003+00:00",
-  "scope": "2D Frodo and 3D sal source, inputs, hashes, gate snapshots and reduced reference evidence; no raw VTU/runtime binaries/transport archives/NPZ",
+  "created_utc": "2026-11-03T16:21:35.093112+00:00",
+  "scope": "2D B174h accepted light results and incomplete G/3D campaign; no raw fields or transport archives",
   "files": [
     {
       "path": "2D_3D_COMPARISON.md",
-      "bytes": 1266,
-      "sha256": "649d3a8a9d9beecdeac9297ab347f7e84414ccb0bcf3c41e78fc7bac6008e082"
+      "bytes": 557,
+      "sha256": "7a1b94257f19226ab48627a22c4fe5c743f726fe6e1c42174601c0b768e1590e"
     },
     {
       "path": "2D_F36_CONCENTRATION_ANALYSIS.md",
-      "bytes": 2247,
-      "sha256": "b3c2c8a287b677ddb47cdd6a2785ce3485c1810db627a292ab65fbd64fda547d"
+      "bytes": 524,
+      "sha256": "36ee9e074dc9591eb7888df46c0191937badc271c417808734203b4ef12ef5e3"
+    },
+    {
+      "path": "B2D_174H_REPORT.md",
+      "bytes": 4121,
+      "sha256": "320783e8698016165bcbf7531bca5b2a121db5e50348d1868409d7a4c0023cc5"
     },
     {
       "path": "BASELINE_VERIFICATION.md",
@@ -19,8 +24,8 @@
     },
     {
       "path": "BOTTOM_FLUX_COMPARISON.md",
-      "bytes": 1174,
-      "sha256": "635046f2633d4f9805b767f6d44bd7cd236fcbcbd24c14af615c104c45b6ce89"
+      "bytes": 563,
+      "sha256": "73417fafb43d47083b9dd8fde4829557bfa1ac9c379e55860b3502c84eb42148"
     },
     {
       "path": "BOUNDARY_IMPLEMENTATION.md",
@@ -29,8 +34,8 @@
     },
     {
       "path": "CASE_MATRIX.csv",
-      "bytes": 2011,
-      "sha256": "e9e8beb039ec3680d2f35a8f4720555fea76ae190c0347dcbb4b44233a2decc5"
+      "bytes": 1779,
+      "sha256": "d93f3526eb933ffcf0cb986a8453b749313b503c6bc06743c2a95ef0a2a4900b"
     },
     {
       "path": "CPU_MEMORY_BENCHMARK.md",
@@ -39,8 +44,8 @@
     },
     {
       "path": "FINAL_CAMPAIGN_ASSESSMENT.md",
-      "bytes": 1146,
-      "sha256": "e5e32303e749d64fb86b032fdf0019d259e122cabc8557196a784f241586a247"
+      "bytes": 547,
+      "sha256": "31e62c767e6e4ae58bfbccd7567de413024ac8470e7f956295bd10d1678aa7d9"
     },
     {
       "path": "FINAL_COMPARISON.md",
@@ -54,18 +59,18 @@
     },
     {
       "path": "MODEL_2D_IMPLEMENTATION.md",
-      "bytes": 5141,
-      "sha256": "39576071da1aba2c379f8fea9128adba8c0027d0b7a37092e14d1fa6fa674843"
+      "bytes": 5257,
+      "sha256": "5155d57c33c0b1cbf5f4a57e0ecb0300dbc3815f14b7ab54398d161fb17266d6"
     },
     {
       "path": "MONITOR_INSTRUCTIONS.md",
-      "bytes": 3048,
-      "sha256": "318bd13274bc08f3162c2372deb95ef201f16afc2a2e5fe10699e341abe150c2"
+      "bytes": 3445,
+      "sha256": "f9c85357ff0d2a55c6978bde73ae12741cd96fb7cf14c85fd7ab06e9ed6d4a74"
     },
     {
       "path": "README.md",
-      "bytes": 2179,
-      "sha256": "1b5cd98ac2e3266c4f55f2b1fad1e2555ebd6477c4c93596bd1cf9f1b540b420"
+      "bytes": 2593,
+      "sha256": "d5fa3d7a6b3ab2cbcec89d181c0b36bee8380871088911c9a3d6188d3134a2ba"
     },
     {
       "path": "REFERENCE_RESISTANCE.json",
@@ -74,8 +79,8 @@
     },
     {
       "path": "REPAIR_LOG.md",
-      "bytes": 2864,
-      "sha256": "7ec45df8a5740c37df6136661f1176a53df4a396d82950cec993ffcfa12dc769"
+      "bytes": 3530,
+      "sha256": "ba453ec4108129052f9f4afb2de48eb4e34d1e143565f6b4c43504515e7b859b"
     },
     {
       "path": "RESOURCE_PLAN.md",
@@ -99,18 +104,18 @@
     },
     {
       "path": "TRACK_RUN_STATUS.csv",
-      "bytes": 757,
-      "sha256": "02b9e3092468a57eeed2a4ca8a5ff174bd406a063d153facdc7c3ef7303909ae"
+      "bytes": 1043,
+      "sha256": "ecdfc374a3d2d063c987d99a8ddce5d8c4a8a2476c256b8c068787ab1d0b1eeb"
     },
     {
       "path": "TRACK_STATUS.json",
-      "bytes": 69203,
-      "sha256": "8ceb5baec782ec3c00deb6220448e3b80a80872357ac04723267f8b9c20c0ba4"
+      "bytes": 169118,
+      "sha256": "ea51d3628c96da91646f994e6e6dfe6019c4b412e49bf95aecb490cce3335a89"
     },
     {
       "path": "backup_frodo.py",
-      "bytes": 3775,
-      "sha256": "48ff078d62f6dce07af479be7b9db92e03f9afed0bb93c66c2744c2caf673376"
+      "bytes": 3836,
+      "sha256": "1573672e020e3a09302cb15407907c0ff6016f954f3f2283c3ab10d216b5724a"
     },
     {
       "path": "backup_incremental.py",
@@ -119,8 +124,8 @@
     },
     {
       "path": "backup_tracks.py",
-      "bytes": 3660,
-      "sha256": "18837bfa1f496fc4d431569ba23b54c2a44271901db23762c096cf46416bc35e"
+      "bytes": 3721,
+      "sha256": "0693bf1a7c448b1462f653a938ba93b3b0f96ed719ecb17a126609cb4f0c2e8b"
     },
     {
       "path": "baseline_reference/MRI_profile_pairs_unchanged.csv",
@@ -251,6 +256,11 @@
       "path": "collect_case.py",
       "bytes": 5100,
       "sha256": "2c299a3d98bfd55e99160305a22d631a35d1af8b471de98554a6df059533725f"
+    },
+    {
+      "path": "compare_2d_B.py",
+      "bytes": 7366,
+      "sha256": "2cf81d4464caeb9e497a28a5124b677a2081895bc54f86b15893fc7bf32a40bf"
     },
     {
       "path": "deployment.json",
@@ -598,6 +608,36 @@
       "sha256": "720e9389140534adcbf18864f237c1f85b4cceba44ff538f64c4664477746bff"
     },
     {
+      "path": "provenance/2D_3D_COMPARISON_pre_B_results.md",
+      "bytes": 1266,
+      "sha256": "649d3a8a9d9beecdeac9297ab347f7e84414ccb0bcf3c41e78fc7bac6008e082"
+    },
+    {
+      "path": "provenance/2D_F36_CONCENTRATION_ANALYSIS_pre_B_results.md",
+      "bytes": 2247,
+      "sha256": "b3c2c8a287b677ddb47cdd6a2785ce3485c1810db627a292ab65fbd64fda547d"
+    },
+    {
+      "path": "provenance/B2D_174h_acceptance.json",
+      "bytes": 17504,
+      "sha256": "e9aabf49be90f77dc0bec6e91a17471ebc0b90f50805604689696dce1d6144e9"
+    },
+    {
+      "path": "provenance/B2D_final_backup_verification.json",
+      "bytes": 1013,
+      "sha256": "2e5487eaf91f6826ab320d0801f27c3c5d41b12cb9880d12cb8cb64afcb342fb"
+    },
+    {
+      "path": "provenance/B2D_light_verified.json",
+      "bytes": 5199,
+      "sha256": "f8090355a5f6a7ed7e0dbaf27d33a4cffeca1221d1ae0a821f54a2541298cf5c"
+    },
+    {
+      "path": "provenance/BOTTOM_FLUX_COMPARISON_pre_B_results.md",
+      "bytes": 1174,
+      "sha256": "635046f2633d4f9805b767f6d44bd7cd236fcbcbd24c14af615c104c45b6ce89"
+    },
+    {
       "path": "provenance/B_controller_at_submission.py",
       "bytes": 5543,
       "sha256": "cd2adc61680c33fe15492b37ccba66c5868095e193a2e067f6d0c8b4b1c9628b"
@@ -606,6 +646,11 @@
       "path": "provenance/CASE_MATRIX_3d_initial.csv",
       "bytes": 791,
       "sha256": "7198463f391a39273f0f2ea21435512c20e9c493fe3944d0648011a4cb1fe8bb"
+    },
+    {
+      "path": "provenance/FINAL_CAMPAIGN_ASSESSMENT_pre_B_results.md",
+      "bytes": 1146,
+      "sha256": "e5e32303e749d64fb86b032fdf0019d259e122cabc8557196a784f241586a247"
     },
     {
       "path": "provenance/MONITOR_INSTRUCTIONS_3d_only.md",
@@ -668,6 +713,16 @@
       "sha256": "3eea3a88cc1cfd3be3251e69cfff0345c377e62ea0715c7bc72cf1b6041a0573"
     },
     {
+      "path": "provenance/status_20261103_1604UTC.json",
+      "bytes": 5851,
+      "sha256": "136ba9ac22a5348b2953f20d59580d6cb292d99c3dfc99990c3656083eed5c96"
+    },
+    {
+      "path": "provenance/status_20261103_post_B.json",
+      "bytes": 4372,
+      "sha256": "b4e16903354c815dd58446f64a6a3d64e8dfbcd8308e108e507159793d920740"
+    },
+    {
       "path": "provenance/test_boundary_reference_attempt02.cc",
       "bytes": 3581,
       "sha256": "4ac22c0611005969f8d0fb5033c86759af44905a1f0644ddb2e7e99aacbd0b0d"
@@ -701,6 +756,51 @@
       "path": "resource_dispatch.py",
       "bytes": 126,
       "sha256": "14aba66bbd3012b4a0774bc96cec91a967b95d501f64dbc7d4b9936ed4afd472"
+    },
+    {
+      "path": "results/B2D_174h/artifact_checks.json",
+      "bytes": 871,
+      "sha256": "869d41c2fb10b87bbefa40906310e50723f3566847e3cc05698cc943b83ea001"
+    },
+    {
+      "path": "results/B2D_174h/definitions.json",
+      "bytes": 636,
+      "sha256": "26d2b8ca186a22e1b29801389425c5e0f9082ac308ac5387fbf6d3451a60b3c1"
+    },
+    {
+      "path": "results/B2D_174h/depth_wide_enrichment.pdf",
+      "bytes": 36640,
+      "sha256": "781c5694d2b9b65501619178cb4d6fd4fb97319b7faf3ba85251ae7d27d9c917"
+    },
+    {
+      "path": "results/B2D_174h/depth_wide_enrichment.png",
+      "bytes": 284301,
+      "sha256": "4834334673a41ff051a2dedf2a1d0d6b0db6e66e6d53889804429e4f81a2d9bb"
+    },
+    {
+      "path": "results/B2D_174h/late_interval_changes.csv",
+      "bytes": 1076,
+      "sha256": "fe1e87e0a569d1a517fcfd29e83605e8f702be5949854983e8f90293467fef38"
+    },
+    {
+      "path": "results/B2D_174h/native_salt_pathways.csv",
+      "bytes": 715,
+      "sha256": "963cf0c37776fef5670f98055241924a3509a263dfa002bf16df6f8376fea5b1"
+    },
+    {
+      "path": "results/B2D_174h/profiles_and_fluxes.pdf",
+      "bytes": 25985,
+      "sha256": "1ae758971449ebb8df7bd8cfbe3480be685dcf47f78246345664375f05aba119"
+    },
+    {
+      "path": "results/B2D_174h/profiles_and_fluxes.png",
+      "bytes": 231989,
+      "sha256": "6670ff6ce627d90423195e9069987e5b344a36e40455d7abf2c9a73a88099218"
+    },
+    {
+      "path": "results/B2D_174h/summary.csv",
+      "bytes": 1685,
+      "sha256": "81192726f7bca7e15abc5703b032c364731745dbba4cfde3ec9ed2a81e2bcb2d"
     },
     {
       "path": "results/Gates_probe_r04.json",
@@ -1004,8 +1104,8 @@
     },
     {
       "path": "status_tracks.py",
-      "bytes": 2660,
-      "sha256": "946fa7b94be466701413aeb2e1ab8dce6cb85d7f187a62b7a5f166a3cbe8c974"
+      "bytes": 3139,
+      "sha256": "147ad3519d859bea8712b866ced26be08c495e15f4d0f2a4b1b165ec8cb2ff55"
     },
     {
       "path": "test_boundary.cc",
@@ -1014,8 +1114,8 @@
     },
     {
       "path": "track2d/DEPLOYMENT.json",
-      "bytes": 874,
-      "sha256": "b7a637110006f3e9c89407cd00e315a64cd379d08004d0b989968aa630bc2d9d"
+      "bytes": 901,
+      "sha256": "8e8c1c553b66d5c8ccc5ab8a388431a44ce24c7f7abf808b695341f64bb755ca"
     },
     {
       "path": "track2d/README.md",
@@ -1298,6 +1398,21 @@
       "sha256": "0a464404941fe45067f25e2dfa3511aa4150779f983cb5706b68905a1da8bfa8"
     },
     {
+      "path": "track2d/provenance/20261103_143705_verified.json",
+      "bytes": 481,
+      "sha256": "2daddd703388e6090bda03fdb40c5dc251ad60da1418de5d1a9b91d974165cbb"
+    },
+    {
+      "path": "track2d/provenance/20261103_161348_verified.json",
+      "bytes": 484,
+      "sha256": "0f6c9fb4007d299aad65e710b4eb782d83d1df1c50bc9808d34560a041306214"
+    },
+    {
+      "path": "track2d/provenance/20261103_161915_verified.json",
+      "bytes": 482,
+      "sha256": "41e496e9bb58666c1358ed0717662b3c6c261d54f466a1786cd2a66d019e5555"
+    },
+    {
       "path": "track2d/provenance/build_manifest.json",
       "bytes": 35831,
       "sha256": "7fcc8e794acaf783682522073a797862a6223903dc564d5fddb6b1d38699e918"
@@ -1316,6 +1431,131 @@
       "path": "track2d/provenance/sal_unstarted_cancellation.json",
       "bytes": 8361,
       "sha256": "177c5644ddbce904ca1553b95a84b23fb2e037e59db285b465cfe3560cabcd19"
+    },
+    {
+      "path": "track2d/results/B0/MRI_nominal_comparison.csv",
+      "bytes": 1514,
+      "sha256": "f08a5068bcbfa32aa5024e50328949083555c3ddc9dfd1320dd24e25b854b70c"
+    },
+    {
+      "path": "track2d/results/B0/depth_enrichment_history.csv",
+      "bytes": 3224766,
+      "sha256": "7063787ff5605e26f699436a2727adf06c47f5007ed6e69b48ee7b1f00e12abc"
+    },
+    {
+      "path": "track2d/results/B0/enrichment_summary.csv",
+      "bytes": 1062,
+      "sha256": "81f765ea5f693c50bb0c0c5e8b7b26e19e7c616e6d2b9c08ae4f3141db5d36b4"
+    },
+    {
+      "path": "track2d/results/B0/native_throughputs.csv",
+      "bytes": 1291,
+      "sha256": "82a420be06558d06e071f681b0164b6652ad7dcbd135b76dddf72ef76345309c"
+    },
+    {
+      "path": "track2d/results/B0/profiles_history.csv",
+      "bytes": 3697564,
+      "sha256": "298d72b536a98a20dda4b5e7b089fe1c022da7c41dbb5cf10dcce8316e41a471"
+    },
+    {
+      "path": "track2d/results/B0/verification.json",
+      "bytes": 167800,
+      "sha256": "58d4a42503967129237e383d80672118e465ae0bcb6ec95405bbd52222e7be67"
+    },
+    {
+      "path": "track2d/results/B0_short_numerical_screen.csv",
+      "bytes": 234,
+      "sha256": "9484ea2af7301f786743de35131be61df360f211c2168e09931f5cf6f335f9d7"
+    },
+    {
+      "path": "track2d/results/B1/MRI_nominal_comparison.csv",
+      "bytes": 1515,
+      "sha256": "2329ae69a9c0c553f3c61e788c367729fcdd121475f11bff399d99e7a55ec267"
+    },
+    {
+      "path": "track2d/results/B1/depth_enrichment_history.csv",
+      "bytes": 3225079,
+      "sha256": "b8bb133e9f5abeeee0bbc74e32224974094ac0d67fb295a42088e520be6ef39c"
+    },
+    {
+      "path": "track2d/results/B1/enrichment_summary.csv",
+      "bytes": 1067,
+      "sha256": "cabce99ad161afa1fb1a6bf02faa958b84acbfb87e029cb37408e8a5ffc0f6b6"
+    },
+    {
+      "path": "track2d/results/B1/native_throughputs.csv",
+      "bytes": 1285,
+      "sha256": "146b668bcaf1ed4c0403e53971e6d592611e5b42aacd91e5d8ee4027531358fe"
+    },
+    {
+      "path": "track2d/results/B1/profiles_history.csv",
+      "bytes": 3697372,
+      "sha256": "9e30cecddee2ae4102aad646e483f6c3bacf5bf61fe56c74975ca4fe044af81f"
+    },
+    {
+      "path": "track2d/results/B1/verification.json",
+      "bytes": 167799,
+      "sha256": "2fa922a34dca0c5d6633310b9f6d9a399aba87a834ca5ca56bcbc32910715f64"
+    },
+    {
+      "path": "track2d/results/B2/MRI_nominal_comparison.csv",
+      "bytes": 1506,
+      "sha256": "36284aa7c0f5086a1c39b066eedc048c9e860aadfec2fef511f2f4ec0f7da9aa"
+    },
+    {
+      "path": "track2d/results/B2/depth_enrichment_history.csv",
+      "bytes": 3222788,
+      "sha256": "4a9441598115bf2a6c878cc2dd158eda6f8281e6eda5337b76a058f2dd2dc36c"
+    },
+    {
+      "path": "track2d/results/B2/enrichment_summary.csv",
+      "bytes": 1056,
+      "sha256": "a77cd4b2857cf6df8504dc05850107a405ec48ab5d470436189290e76ca9292c"
+    },
+    {
+      "path": "track2d/results/B2/native_throughputs.csv",
+      "bytes": 1288,
+      "sha256": "47676130d1fc6c1a1bb3461c14602e4767854afcde4867c21de258498a3b8677"
+    },
+    {
+      "path": "track2d/results/B2/profiles_history.csv",
+      "bytes": 3697486,
+      "sha256": "0746a9d5616d6278a2e1835cd8340e731cc4db60edf7cc5ce5fa41bc6bfcafd7"
+    },
+    {
+      "path": "track2d/results/B2/verification.json",
+      "bytes": 167798,
+      "sha256": "65e268955f1ef583aacce42b38e0f55b2943332334253a8c38606895d547d513"
+    },
+    {
+      "path": "track2d/results/B3/MRI_nominal_comparison.csv",
+      "bytes": 1511,
+      "sha256": "710e73f85ef44b27303668d1f351c67bbbe44f8e761581b08353e27f2973ab9c"
+    },
+    {
+      "path": "track2d/results/B3/depth_enrichment_history.csv",
+      "bytes": 3256662,
+      "sha256": "a3b50efbe6131cb4c0680bd5cf1b10e373fe1a26ec00aa865c924113d84d0a06"
+    },
+    {
+      "path": "track2d/results/B3/enrichment_summary.csv",
+      "bytes": 1081,
+      "sha256": "50fd9f0626f6f566e87a5199aed684b4d3ec42fcadebfe996092c43edf46f4fe"
+    },
+    {
+      "path": "track2d/results/B3/native_throughputs.csv",
+      "bytes": 1291,
+      "sha256": "c827f99f79c7995efa48ce68e7651c100633d834a1f31b5981e58b8e110be659"
+    },
+    {
+      "path": "track2d/results/B3/profiles_history.csv",
+      "bytes": 3696353,
+      "sha256": "2da7ce1ac9167884fe74e8e36cf9acd16c46e3cd2c34dd9b6ce794f160295aa9"
+    },
+    {
+      "path": "track2d/results/B3/verification.json",
+      "bytes": 167799,
+      "sha256": "0d77a1ec1dd220756da50bd08ce62e899c259c70abf7a67ab7c8b3c4ad7ee197"
     },
     {
       "path": "track2d/results/geometry_preparation.json",
@@ -1453,6 +1693,16 @@
       "sha256": "4939216d9641bd31fd481d164e3862b85b69a2b9433b4b04a61e860b9fdc8971"
     },
     {
+      "path": "track2d/status/core_core.json",
+      "bytes": 14607,
+      "sha256": "010dbfb0986bbbd12d461ea56a048b627d42b9d9d173cebd18fc30ec398d3597"
+    },
+    {
+      "path": "track2d/status/core_gatesG.json",
+      "bytes": 6335,
+      "sha256": "7575f9a7f56414dd40cc8235adbd38e7cc74b7920549164e436bc4c94e452466"
+    },
+    {
       "path": "track2d/submit.py",
       "bytes": 1028,
       "sha256": "3d3bc30eaba181ae7c2dde094c8665de53a25eb89c0e378c93716f06e96bd4f6"
@@ -1471,6 +1721,11 @@
       "path": "track3d/README.md",
       "bytes": 510,
       "sha256": "58ac7e3a4d75d1c105de970e96cabca3f8f0426d8ff3066ac4f2c91f8e2314b9"
+    },
+    {
+      "path": "verify_B2D_backup.py",
+      "bytes": 2036,
+      "sha256": "945f50491e99119750ea9b4b9e03237fe47678f9593bc7d8d2a60bb5e5a51b7d"
     }
   ]
 }

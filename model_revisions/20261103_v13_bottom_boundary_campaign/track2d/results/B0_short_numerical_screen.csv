@@ -1,0 +1,5 @@
+reference,comparison,material,normalized_profile_RMSE
+B0_short,B0_dt150,F36,0.00016903557796655441
+B0_short,B0_dt150,W3,0.0001856348780846696
+B0_short,B0_refined,F36,0.0001634891404822837
+B0_short,B0_refined,W3,0.00016390770024158827

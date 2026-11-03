@@ -1,0 +1,35 @@
+{
+  "utc": "2026-11-03T16:20:45.093113+00:00",
+  "state": "passed",
+  "fields_with_both_gzip_and_raw_SHA_verified": 4228,
+  "cases": [
+    {
+      "case": "B0",
+      "fields": 1057,
+      "last_simulation_s": 633600,
+      "last_evaporation_h": 174,
+      "pvd_sha256": "0f053985ed60db50ce07230dc536bd3e468a7925ea2bae57754f232c14964721"
+    },
+    {
+      "case": "B1",
+      "fields": 1057,
+      "last_simulation_s": 633600,
+      "last_evaporation_h": 174,
+      "pvd_sha256": "77a0644f421eadeaf21ee6093616fd0cc02db605d0b1854832f10bf2a4d39930"
+    },
+    {
+      "case": "B2",
+      "fields": 1057,
+      "last_simulation_s": 633600,
+      "last_evaporation_h": 174,
+      "pvd_sha256": "521198efe24182bf5c982f0709c2b71f029d7d678cce8be05cbd2d7799988e9b"
+    },
+    {
+      "case": "B3",
+      "fields": 1057,
+      "last_simulation_s": 633600,
+      "last_evaporation_h": 174,
+      "pvd_sha256": "10d22d96c143e23064d7da619f95abfb9a63a6c0992361ec4e02f0f51d1fada3"
+    }
+  ]
+}

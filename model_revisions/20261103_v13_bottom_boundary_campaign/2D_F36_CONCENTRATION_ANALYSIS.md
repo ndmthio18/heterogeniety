@@ -1,11 +1,5 @@
-# F36 depth-wide enrichment: evaluation contract and current evidence
+# F36 depth-wide enrichment
 
-2D core acceptance is running on Frodo; the174h predictions have not started at this snapshot. There is no2D enrichment result yet. The objective is sustained enrichment of upper3–12mm, middle12–28mm and lower28–37mm F36, alongside the3–37mm mean. A thin enriched bottom layer alone fails this objective.
+B3 raises all three bands and every saved120–174h interval is positive. B0 upper/middle decrease; B2 positive regression slopes do not imply monotonicity. Liquid storage stays almost unchanged. W3 errors worsen.
 
-`track2d/analyze.py` computes every saved600s field's partial-cell-overlap band means, complete1mm depth profile, standard deviation and gradient, dissolved/solid/total salt, liquid pore volume and saturation, up/down velocities and horizontal concentration/density anomalies. A volume-weighted concentration and a pore-liquid-weighted concentration are both retained. At3D checkpoints the same script was independently tested against the accepted v13 archive; maximum field/ledger relative salt difference1.15e-14. Experimental profiles remain unchanged and retain their nominal-clock/whole-half-section meaning.
-
-Accepted3D v13 provides the current comparator, not a new2D result: at174h F36 upper/middle/lower means are1.230657/1.230712/1.231234mol/L. The3–37mm mean is1.230835mol/L. Between120/144/174h saved checkpoints all three bands have a negative fitted slope; these three-point slopes are not dense-time estimates. F36 total inventory declines after its intermediate maximum while its liquid pore volume remains almost constant. Thus the late plateau/decline is a salt-retention/redistribution issue in that baseline, rather than dilution caused by a large increase in water storage.
-
-MRI shows a different progressive depth-wide enrichment pattern. This remains an observational comparison, not proof that a particular boundary mechanism is correct or that MRI errors are absent. See results/enrichment_figures/baseline_depth_wide.png and PDF. No crystallization time is inferred from MRI.
-
-For each new case report the late slopes and every interval's changes, not only final RMSE. Link each concentration change to total salt and liquid volume. Then check W3, evaporation, budgets and numerical sensitivity before interpreting an improvement. B0-versus-modified2D comparisons are primary; absolute2D–3D equality is not an acceptance condition.
+See B2D_174H_REPORT.md and results/B2D_174h for accepted2D B0–B3 data, comparisons and limitations. Remaining G/3D results are unavailable; no extrapolation, refit or physical validation claim. Final raw backup verification is recorded separately in track2d/remote_backup.

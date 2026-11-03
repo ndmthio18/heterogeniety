@@ -1,0 +1,155 @@
+{
+  "now": "2026-11-03T16:03:19.439316+00:00",
+  "cases": {
+    "B0": {
+      "state": "running",
+      "start_utc": "2026-11-03T14:53:15.957736+00:00",
+      "end_utc": null,
+      "evaporation_time_h": 169.83333333333334,
+      "updated_utc": "2026-11-03T16:03:04.999644+00:00",
+      "failure_reason": null,
+      "acceptance": null
+    },
+    "B1": {
+      "state": "running",
+      "start_utc": "2026-11-03T14:56:02.622181+00:00",
+      "end_utc": null,
+      "evaporation_time_h": 163.66666666666666,
+      "updated_utc": "2026-11-03T16:03:18.630333+00:00",
+      "failure_reason": null,
+      "acceptance": null
+    },
+    "B2": {
+      "state": "running",
+      "start_utc": "2026-11-03T14:56:02.644754+00:00",
+      "end_utc": null,
+      "evaporation_time_h": 159.58333333333334,
+      "updated_utc": "2026-11-03T16:03:18.173694+00:00",
+      "failure_reason": null,
+      "acceptance": null
+    },
+    "B3": {
+      "state": "running",
+      "start_utc": "2026-11-03T14:56:02.650436+00:00",
+      "end_utc": null,
+      "evaporation_time_h": 160.16666666666666,
+      "updated_utc": "2026-11-03T16:03:18.494034+00:00",
+      "failure_reason": null,
+      "acceptance": null
+    },
+    "G1_short": {
+      "state": "completed",
+      "start_utc": "2026-11-03T14:54:16.250493+00:00",
+      "end_utc": "2026-11-03T14:56:46.316159+00:00",
+      "evaporation_time_h": 2.0,
+      "updated_utc": "2026-11-03T14:56:46.315647+00:00",
+      "failure_reason": null,
+      "acceptance": {
+        "status": "passed",
+        "relative_budget_residuals": {
+          "water_residual_mol": 4.9446383486356977e-14,
+          "salt_residual_mol": 4.4370225232841335e-14,
+          "coarse_residual_mol": 1.3105977808067928e-12,
+          "fine_residual_mol": 1.388435175462543e-12
+        },
+        "relative_energy_budget_residual": 1.6376845634118376e-10,
+        "T_min_K": 290.81024435051404,
+        "T_max_K": 293.15,
+        "first_solid_mol": 0.0,
+        "final_solid_mol": 1.1907696400670215e-36,
+        "final_dissolved_mol": 0.03356657538812113,
+        "max_molality_after_initial": 1.4433375667263402,
+        "max_complementarity_after_initial": 6.814132611297867e-32,
+        "completed_evaporation_h": 2.0
+      }
+    },
+    "G2_short": {
+      "state": "completed",
+      "start_utc": "2026-11-03T14:57:48.064929+00:00",
+      "end_utc": "2026-11-03T15:00:18.129108+00:00",
+      "evaporation_time_h": 2.0,
+      "updated_utc": "2026-11-03T15:00:18.128581+00:00",
+      "failure_reason": null,
+      "acceptance": {
+        "status": "passed",
+        "relative_budget_residuals": {
+          "water_residual_mol": 2.0192598130585928e-13,
+          "salt_residual_mol": 1.989360831018954e-13,
+          "coarse_residual_mol": 2.710970847835033e-12,
+          "fine_residual_mol": 3.3967478804640264e-12
+        },
+        "relative_energy_budget_residual": 1.6377975788222285e-10,
+        "T_min_K": 290.81024435132974,
+        "T_max_K": 293.15,
+        "first_solid_mol": 0.0,
+        "final_solid_mol": -1.720073752739703e-36,
+        "final_dissolved_mol": 0.03356657539713358,
+        "max_molality_after_initial": 1.4433375703376181,
+        "max_complementarity_after_initial": 1.2456824790811325e-31,
+        "completed_evaporation_h": 2.0
+      }
+    },
+    "G3_short": {
+      "state": "completed",
+      "start_utc": "2026-11-03T15:01:19.869945+00:00",
+      "end_utc": "2026-11-03T15:03:49.934297+00:00",
+      "evaporation_time_h": 2.0,
+      "updated_utc": "2026-11-03T15:03:49.933688+00:00",
+      "failure_reason": null,
+      "acceptance": {
+        "status": "passed",
+        "relative_budget_residuals": {
+          "water_residual_mol": 6.464589394309847e-13,
+          "salt_residual_mol": 6.482655840082513e-13,
+          "coarse_residual_mol": 1.927388462719878e-12,
+          "fine_residual_mol": 1.867548108410637e-12
+        },
+        "relative_energy_budget_residual": 1.6380032936306712e-10,
+        "T_min_K": 290.8102442374822,
+        "T_max_K": 293.15,
+        "first_solid_mol": 0.0,
+        "final_solid_mol": 4.734197781993486e-37,
+        "final_dissolved_mol": 0.03356657539600548,
+        "max_molality_after_initial": 1.443337617352746,
+        "max_complementarity_after_initial": 5.995640326210545e-32,
+        "completed_evaporation_h": 2.0
+      }
+    },
+    "G1_dt150": {
+      "state": "completed",
+      "start_utc": "2026-11-03T15:03:51.427203+00:00",
+      "end_utc": "2026-11-03T15:07:21.519775+00:00",
+      "evaporation_time_h": 2.0,
+      "updated_utc": "2026-11-03T15:07:21.519306+00:00",
+      "failure_reason": null,
+      "acceptance": {
+        "status": "passed",
+        "relative_budget_residuals": {
+          "water_residual_mol": 3.0697748338094727e-14,
+          "salt_residual_mol": 3.2720963235065046e-14,
+          "coarse_residual_mol": 7.779839510915517e-13,
+          "fine_residual_mol": 8.017075356755846e-13
+        },
+        "relative_energy_budget_residual": 1.637696687079446e-10,
+        "T_min_K": 290.8075386632996,
+        "T_max_K": 293.15,
+        "first_solid_mol": 0.0,
+        "final_solid_mol": -7.784432511629128e-38,
+        "final_dissolved_mol": 0.0335666664654188,
+        "max_molality_after_initial": 1.444216619593153,
+        "max_complementarity_after_initial": 1.3112178874393151e-30,
+        "completed_evaporation_h": 2.0
+      }
+    },
+    "G1_refined": {
+      "state": "failed",
+      "start_utc": "2026-11-03T15:07:23.044212+00:00",
+      "end_utc": "2026-11-03T15:18:53.311358+00:00",
+      "evaporation_time_h": 0.0,
+      "updated_utc": "2026-11-03T15:18:53.310711+00:00",
+      "failure_reason": "AssertionError()",
+      "acceptance": null
+    }
+  },
+  "gate": "passed"
+}

@@ -1,11 +1,11 @@
 {
-  "updated_utc": "2026-11-03T14:39:02.355985+00:00",
+  "updated_utc": "2026-11-03T16:21:35.093112+00:00",
   "active_host": "frodo",
   "ssh_alias": "iws_zhixin",
   "remote_root": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d",
   "supervisor_pid": 2788162,
   "core_controller_pid": 2788169,
-  "state": "core_gates_running; production pending acceptance",
+  "state": "B0-B3 completed174h acceptance; G1_refined failed gate; G production blocked",
   "cpu_pool": [
     4,
     5,

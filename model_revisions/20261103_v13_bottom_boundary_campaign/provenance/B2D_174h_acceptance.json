@@ -1,0 +1,514 @@
+{
+  "B0": {
+    "status": {
+      "state": "completed",
+      "case": "B0",
+      "mode": "case",
+      "job": "frodo_case_B0",
+      "host": "frodo",
+      "pid": 2793753,
+      "cpu": "4",
+      "utc": "2026-11-03T16:05:30.476250+00:00",
+      "acceptance": {
+        "status": "passed",
+        "relative_budget_residuals": {
+          "water_residual_mol": 9.902055009529154e-13,
+          "salt_residual_mol": 7.930462001807065e-13,
+          "coarse_residual_mol": 1.7550477429797852e-12,
+          "fine_residual_mol": 3.9830557469254485e-13
+        },
+        "relative_energy_budget_residual": 1.8298431983297467e-10,
+        "T_min_K": 290.8037476360768,
+        "T_max_K": 293.15,
+        "first_solid_mol": 0.0,
+        "final_solid_mol": 0.005885294189444149,
+        "final_dissolved_mol": 0.0567424834937329,
+        "max_molality_after_initial": 6.011884292870148,
+        "max_complementarity_after_initial": 1.8422954075615051e-16,
+        "completed_evaporation_h": 174.0
+      }
+    },
+    "verification": {
+      "state": "passed",
+      "through_evaporation_h": 174.0,
+      "frames": 1045,
+      "max_salt_field_ledger_relative_error": 5.7599691153040275e-15
+    },
+    "summary": [
+      {
+        "material": "F36",
+        "band": "3_37",
+        "final_C_M": "1.4182416947204177",
+        "change_C_M": "0.4182325614754765",
+        "change_total_salt_mol": "0.005584144456149447",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "-0.00010976074395459025"
+      },
+      {
+        "material": "F36",
+        "band": "all",
+        "final_C_M": "1.4296665187694284",
+        "change_C_M": "0.4296643179211419",
+        "change_total_salt_mol": "0.006749005500661747",
+        "liquid_volume_ratio": "0.9999957856626261",
+        "late_slope_M_h": "-9.96193062530954e-05"
+      },
+      {
+        "material": "F36",
+        "band": "lower",
+        "final_C_M": "1.303873097990227",
+        "change_C_M": "0.3038469889515174",
+        "change_total_salt_mol": "0.0010738839018436495",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "2.1292401565469298e-05"
+      },
+      {
+        "material": "F36",
+        "band": "middle",
+        "final_C_M": "1.423417607345828",
+        "change_C_M": "0.42341864325439516",
+        "change_total_salt_mol": "0.0026604177980819313",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "-0.0001367680496933542"
+      },
+      {
+        "material": "F36",
+        "band": "upper",
+        "final_C_M": "1.5234086690054354",
+        "change_C_M": "0.5233984330591364",
+        "change_total_salt_mol": "0.0018498427562238656",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "-0.00019280090149462995"
+      },
+      {
+        "material": "W3",
+        "band": "3_37",
+        "final_C_M": "2.3249073023437816",
+        "change_C_M": "1.324916210786977",
+        "change_total_salt_mol": "0.01592097740669625",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.003098647071329536"
+      },
+      {
+        "material": "W3",
+        "band": "all",
+        "final_C_M": "2.425205067793523",
+        "change_C_M": "1.4252075131804935",
+        "change_total_salt_mol": "0.02603364197341216",
+        "liquid_volume_ratio": "0.9999992760519467",
+        "late_slope_M_h": "0.003013501641005095"
+      },
+      {
+        "material": "W3",
+        "band": "lower",
+        "final_C_M": "1.8132350950279454",
+        "change_C_M": "0.8132593939932447",
+        "change_total_salt_mol": "0.0025868663593524646",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.004294018611826805"
+      },
+      {
+        "material": "W3",
+        "band": "middle",
+        "final_C_M": "2.172009175078553",
+        "change_C_M": "1.1720175705288534",
+        "change_total_salt_mol": "0.006627603221012884",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.0032648377099291897"
+      },
+      {
+        "material": "W3",
+        "band": "upper",
+        "final_C_M": "3.1083984025755793",
+        "change_C_M": "2.1083928324840397",
+        "change_total_salt_mol": "0.0067065078263309",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.0016078255066551063"
+      }
+    ]
+  },
+  "B1": {
+    "status": {
+      "state": "completed",
+      "case": "B1",
+      "mode": "case",
+      "job": "frodo_case_B1",
+      "host": "frodo",
+      "pid": 2793754,
+      "cpu": "5",
+      "utc": "2026-11-03T16:07:43.332666+00:00",
+      "acceptance": {
+        "status": "passed",
+        "relative_budget_residuals": {
+          "water_residual_mol": 6.627289394430931e-13,
+          "salt_residual_mol": 7.357357667756804e-13,
+          "coarse_residual_mol": 1.4024810478210282e-12,
+          "fine_residual_mol": 1.5669630895945157e-13
+        },
+        "relative_energy_budget_residual": 1.8293905160005927e-10,
+        "T_min_K": 290.8037475981583,
+        "T_max_K": 293.15,
+        "first_solid_mol": 0.0,
+        "final_solid_mol": 0.005940722373209144,
+        "final_dissolved_mol": 0.05702513399247089,
+        "max_molality_after_initial": 6.011884292870148,
+        "max_complementarity_after_initial": 1.8374366228472786e-16,
+        "completed_evaporation_h": 174.0
+      }
+    },
+    "verification": {
+      "state": "passed",
+      "through_evaporation_h": 174.0,
+      "frames": 1045,
+      "max_salt_field_ledger_relative_error": 6.112989236537864e-15
+    },
+    "summary": [
+      {
+        "material": "F36",
+        "band": "3_37",
+        "final_C_M": "1.4293146125818974",
+        "change_C_M": "0.4293054793369562",
+        "change_total_salt_mol": "0.005731987495131017",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "-0.00010054827641601905"
+      },
+      {
+        "material": "F36",
+        "band": "all",
+        "final_C_M": "1.4409595559174972",
+        "change_C_M": "0.44095735506921074",
+        "change_total_salt_mol": "0.006926392695178644",
+        "liquid_volume_ratio": "0.9999957107385709",
+        "late_slope_M_h": "-8.930650794048437e-05"
+      },
+      {
+        "material": "F36",
+        "band": "lower",
+        "final_C_M": "1.316106174864165",
+        "change_C_M": "0.3160800658254552",
+        "change_total_salt_mol": "0.0011171191643363576",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "4.0312807885072164e-05"
+      },
+      {
+        "material": "F36",
+        "band": "middle",
+        "final_C_M": "1.4341228166219464",
+        "change_C_M": "0.43412385253051355",
+        "change_total_salt_mol": "0.0027276806117159215",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "-0.00012989829649442182"
+      },
+      {
+        "material": "F36",
+        "band": "upper",
+        "final_C_M": "1.5339751320062096",
+        "change_C_M": "0.5339648960599106",
+        "change_total_salt_mol": "0.0018871877190787343",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "-0.0001892315472443997"
+      },
+      {
+        "material": "W3",
+        "band": "3_37",
+        "final_C_M": "2.332379883673801",
+        "change_C_M": "1.3323887921169961",
+        "change_total_salt_mol": "0.016010772366978513",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.003174960651741598"
+      },
+      {
+        "material": "W3",
+        "band": "all",
+        "final_C_M": "2.4326509286597946",
+        "change_C_M": "1.4326533740467653",
+        "change_total_salt_mol": "0.02619433346139806",
+        "liquid_volume_ratio": "0.9999992760730811",
+        "late_slope_M_h": "0.0030876853389473747"
+      },
+      {
+        "material": "W3",
+        "band": "lower",
+        "final_C_M": "1.820286072425969",
+        "change_C_M": "0.8203103713912683",
+        "change_total_salt_mol": "0.002609294549381653",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.004392077536028637"
+      },
+      {
+        "material": "W3",
+        "band": "middle",
+        "final_C_M": "2.179471221038069",
+        "change_C_M": "1.1794796164883694",
+        "change_total_salt_mol": "0.006669800096793781",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.0033446941119447357"
+      },
+      {
+        "material": "W3",
+        "band": "upper",
+        "final_C_M": "3.1163113173851564",
+        "change_C_M": "2.116305747293617",
+        "change_total_salt_mol": "0.006731677720803079",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.0016560953937600816"
+      }
+    ]
+  },
+  "B2": {
+    "status": {
+      "state": "completed",
+      "case": "B2",
+      "mode": "case",
+      "job": "frodo_case_B2",
+      "host": "frodo",
+      "pid": 2793755,
+      "cpu": "6",
+      "utc": "2026-11-03T16:09:13.998693+00:00",
+      "acceptance": {
+        "status": "passed",
+        "relative_budget_residuals": {
+          "water_residual_mol": 4.457849450730852e-13,
+          "salt_residual_mol": 5.43461006426972e-13,
+          "coarse_residual_mol": 1.5074503959019675e-12,
+          "fine_residual_mol": 5.77211775524871e-13
+        },
+        "relative_energy_budget_residual": 1.829265915525413e-10,
+        "T_min_K": 290.8037473244571,
+        "T_max_K": 293.15,
+        "first_solid_mol": 0.0,
+        "final_solid_mol": 0.006387680914639176,
+        "final_dissolved_mol": 0.05955160085526093,
+        "max_molality_after_initial": 6.011884292870148,
+        "max_complementarity_after_initial": 1.701273167358882e-16,
+        "completed_evaporation_h": 174.0
+      }
+    },
+    "verification": {
+      "state": "passed",
+      "through_evaporation_h": 174.0,
+      "frames": 1045,
+      "max_salt_field_ledger_relative_error": 6.55155126790296e-15
+    },
+    "summary": [
+      {
+        "material": "F36",
+        "band": "3_37",
+        "final_C_M": "1.5322085711182443",
+        "change_C_M": "0.532199437873303",
+        "change_total_salt_mol": "0.007105803838136401",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.0003185171545707161"
+      },
+      {
+        "material": "F36",
+        "band": "all",
+        "final_C_M": "1.545294873102564",
+        "change_C_M": "0.5452926722542775",
+        "change_total_salt_mol": "0.008565269457687662",
+        "liquid_volume_ratio": "0.9999954330922562",
+        "late_slope_M_h": "0.00034466509103372247"
+      },
+      {
+        "material": "F36",
+        "band": "lower",
+        "final_C_M": "1.425188809731655",
+        "change_C_M": "0.42516270069294526",
+        "change_total_salt_mol": "0.0015026490192120235",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.0005814592369351142"
+      },
+      {
+        "material": "F36",
+        "band": "middle",
+        "final_C_M": "1.534943792451102",
+        "change_C_M": "0.5349448283596692",
+        "change_total_salt_mol": "0.0033611574857011772",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.00025922985805821073"
+      },
+      {
+        "material": "F36",
+        "band": "upper",
+        "final_C_M": "1.634365716801977",
+        "change_C_M": "0.634355480855678",
+        "change_total_salt_mol": "0.0022419973332231963",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.00016097471045077558"
+      },
+      {
+        "material": "W3",
+        "band": "3_37",
+        "final_C_M": "2.395513740688071",
+        "change_C_M": "1.3955226491312664",
+        "change_total_salt_mol": "0.016769426161790744",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.003984122532831663"
+      },
+      {
+        "material": "W3",
+        "band": "all",
+        "final_C_M": "2.4954351316141086",
+        "change_C_M": "1.4954375770010793",
+        "change_total_salt_mol": "0.027528882103109373",
+        "liquid_volume_ratio": "0.9999992763232942",
+        "late_slope_M_h": "0.003879620037742849"
+      },
+      {
+        "material": "W3",
+        "band": "lower",
+        "final_C_M": "1.876032952482027",
+        "change_C_M": "0.8760572514473262",
+        "change_total_salt_mol": "0.002786617713086875",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.005327447265215793"
+      },
+      {
+        "material": "W3",
+        "band": "middle",
+        "final_C_M": "2.2427906825354444",
+        "change_C_M": "1.2427990779857447",
+        "change_total_salt_mol": "0.00702786321591873",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.004179610849079229"
+      },
+      {
+        "material": "W3",
+        "band": "upper",
+        "final_C_M": "3.1865021878321187",
+        "change_C_M": "2.186496617740579",
+        "change_total_salt_mol": "0.006954945232785142",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.0022932630160074205"
+      }
+    ]
+  },
+  "B3": {
+    "status": {
+      "state": "completed",
+      "case": "B3",
+      "mode": "case",
+      "job": "frodo_case_B3",
+      "host": "frodo",
+      "pid": 2793756,
+      "cpu": "7",
+      "utc": "2026-11-03T16:09:43.841689+00:00",
+      "acceptance": {
+        "status": "passed",
+        "relative_budget_residuals": {
+          "water_residual_mol": 1.5848200859084906e-13,
+          "salt_residual_mol": 2.2075560453579033e-13,
+          "coarse_residual_mol": 5.505230933019273e-13,
+          "fine_residual_mol": 2.1694524216155862e-13
+        },
+        "relative_energy_budget_residual": 1.8291035714250268e-10,
+        "T_min_K": 290.80374667036256,
+        "T_max_K": 293.15,
+        "first_solid_mol": 0.0,
+        "final_solid_mol": 0.008277411887070374,
+        "final_dissolved_mol": 0.0663548541325924,
+        "max_molality_after_initial": 6.011884292870148,
+        "max_complementarity_after_initial": 1.8246617936567008e-16,
+        "completed_evaporation_h": 174.0
+      }
+    },
+    "verification": {
+      "state": "passed",
+      "through_evaporation_h": 174.0,
+      "frames": 1045,
+      "max_salt_field_ledger_relative_error": 6.724697993438132e-15
+    },
+    "summary": [
+      {
+        "material": "F36",
+        "band": "3_37",
+        "final_C_M": "1.878178352328016",
+        "change_C_M": "0.8781692190830748",
+        "change_total_salt_mol": "0.011725111702686409",
+        "liquid_volume_ratio": "0.9999999814719212",
+        "late_slope_M_h": "0.002945168977651967"
+      },
+      {
+        "material": "F36",
+        "band": "all",
+        "final_C_M": "1.8885665535273468",
+        "change_C_M": "0.8885643526790603",
+        "change_total_salt_mol": "0.013957270831332896",
+        "liquid_volume_ratio": "0.9999939756572024",
+        "late_slope_M_h": "0.002869545846217428"
+      },
+      {
+        "material": "F36",
+        "band": "lower",
+        "final_C_M": "1.717197870158142",
+        "change_C_M": "0.7171717611194324",
+        "change_total_salt_mol": "0.0025346942281067224",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.0036009566759057873"
+      },
+      {
+        "material": "F36",
+        "band": "middle",
+        "final_C_M": "1.896657157013071",
+        "change_C_M": "0.8966581929216382",
+        "change_total_salt_mol": "0.005633869583327436",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.0029276422372844155"
+      },
+      {
+        "material": "F36",
+        "band": "upper",
+        "final_C_M": "2.006307626168905",
+        "change_C_M": "1.0062973902226058",
+        "change_total_salt_mol": "0.0035565478912522467",
+        "liquid_volume_ratio": "0.9999999300050352",
+        "late_slope_M_h": "0.0023205399289404757"
+      },
+      {
+        "material": "W3",
+        "band": "3_37",
+        "final_C_M": "2.5040300211138478",
+        "change_C_M": "1.504038929557043",
+        "change_total_salt_mol": "0.018073422018171196",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.005362142752974473"
+      },
+      {
+        "material": "W3",
+        "band": "all",
+        "final_C_M": "2.5952609197205696",
+        "change_C_M": "1.5952633651075403",
+        "change_total_salt_mol": "0.03082986497922665",
+        "liquid_volume_ratio": "0.9999992780667958",
+        "late_slope_M_h": "0.005152971122358677"
+      },
+      {
+        "material": "W3",
+        "band": "lower",
+        "final_C_M": "1.8425391788689283",
+        "change_C_M": "0.8425634778342275",
+        "change_total_salt_mol": "0.002680078622548915",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.0066300902707982666"
+      },
+      {
+        "material": "W3",
+        "band": "middle",
+        "final_C_M": "2.3724120255259558",
+        "change_C_M": "1.372420420976256",
+        "change_total_salt_mol": "0.007760854641916112",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.005673740529621235"
+      },
+      {
+        "material": "W3",
+        "band": "upper",
+        "final_C_M": "3.399508411070574",
+        "change_C_M": "2.3995028409790344",
+        "change_total_salt_mol": "0.007632488753706168",
+        "liquid_volume_ratio": "1.0",
+        "late_slope_M_h": "0.003540243632223103"
+      }
+    ]
+  }
+}

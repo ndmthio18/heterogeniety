@@ -1,0 +1,8 @@
+{
+  "scope": "2D B0-B3 only, accepted 174h; final raw backup is independently verified",
+  "MRI": "unchanged nominal-clock, whole-half profiles; no crystallization inference",
+  "flux_window": "2h equilibration plus174h evaporation, native per-face gross signs before aggregation; outward interface positive F36 to W3",
+  "loss": "reservoir solution loss is distinct from top pure-water evaporation; shown relative to1h",
+  "velocity": "interior LS Darcy velocity, all F36; down fraction vy<-1e-8m/s; no core-only metric",
+  "limitation": "short2h numerical screens are not full174h convergence; no2D-3D morphology equivalence"
+}
