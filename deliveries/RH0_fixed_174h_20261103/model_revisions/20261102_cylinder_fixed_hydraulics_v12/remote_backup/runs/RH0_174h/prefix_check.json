@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "through_evaporation_h": 24,
+  "max_relative_to_peak_errors": {
+    "water_mol": 5.486544524144819e-16,
+    "salt_total_mol": 2.744981875923413e-15,
+    "coarse_salt_mol": 5.2855580610253766e-15,
+    "fine_salt_mol": 5.3285459633797705e-15,
+    "cumulative_interface_adv_mol": 2.0115645733425483e-14,
+    "cumulative_interface_diff_mol": 1.6589957473879158e-13,
+    "cumulative_coarse_top_water_mol": 4.831250985390554e-16,
+    "cumulative_fine_top_water_mol": 0.0,
+    "C_max_mol_L": 1.0502755669639114e-15
+  },
+  "parent_binary_sha256": "c9145e427a63e9d4b9c3a6e2dca459d8df0e4c54133f7ec698e076941a2eb1f3",
+  "reference": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_cylinder_film_v08/runs/Dry_trial02_r02/budget.csv"
+}

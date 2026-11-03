@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "through_evaporation_h": 57.5,
+  "max_relative_to_peak_errors": {
+    "water_mol": 5.486544524144819e-16,
+    "salt_total_mol": 2.2664086206544965e-15,
+    "coarse_salt_mol": 4.809743882399362e-15,
+    "fine_salt_mol": 4.023656900195897e-15,
+    "cumulative_interface_adv_mol": 7.794842052598053e-15,
+    "cumulative_interface_diff_mol": 3.4690827672004306e-14,
+    "cumulative_coarse_top_water_mol": 2.0205715957234945e-16,
+    "cumulative_fine_top_water_mol": 2.1652341567902166e-16,
+    "C_max_mol_L": 1.1673390579022308e-15
+  },
+  "parent_binary_sha256": "1ab6cfb632f7bf0a603ba83e8e00f810c0096af80ec534e3f776e0618e1efb10",
+  "reference": "/tmp/zhixin_cylinder_precip_v09_r02_20261030/runs/RH0_174h/budget.csv"
+}

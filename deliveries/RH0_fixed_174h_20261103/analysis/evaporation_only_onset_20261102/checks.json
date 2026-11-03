@@ -1,0 +1,7 @@
+{
+  "used_only_weighing": true,
+  "MRI_or_model_inputs": false,
+  "visual_review": "passed: PDF rendered; labels and annotations adjusted and inspected",
+  "fit_error_assumption": "iid equal-variance weighing errors; conditional only",
+  "no_claim_of_identified_crystallization_onset": true
+}

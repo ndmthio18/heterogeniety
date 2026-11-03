@@ -1,0 +1,992 @@
+{
+  "frames": 197,
+  "max_field_budget_salt_relative_error": 1.4376537805157664e-14,
+  "sampling": "all saved frames 0-4h; hourly thereafter plus exact comparison snapshots; no persistent-onset estimation",
+  "sources": [
+    {
+      "file": "RH0_174h-00012.vtu.gz",
+      "time_h": 0.0,
+      "sha256": "1e9aa2043e74b800bf0972b8451ad3dbf448a51c1d8487e627de10d7f5b99d26"
+    },
+    {
+      "file": "RH0_174h-00013.vtu.gz",
+      "time_h": 0.16666666666666652,
+      "sha256": "39b9cf5aac4a9aba93f7925b71f43747ac9f31373770e7d17eaa75f886db0a22"
+    },
+    {
+      "file": "RH0_174h-00014.vtu.gz",
+      "time_h": 0.3333333333333335,
+      "sha256": "58ff8a74530d0b20d97c29ae3bb244d7da2153f80ecac5c1663c222612f50b3f"
+    },
+    {
+      "file": "RH0_174h-00015.vtu.gz",
+      "time_h": 0.5,
+      "sha256": "e191492405ab7f3d59d279096b2991bfbfc2723a666555d2a001d6aa028765bb"
+    },
+    {
+      "file": "RH0_174h-00016.vtu.gz",
+      "time_h": 0.6666666666666665,
+      "sha256": "0a0bad040ba6ad60eaaa0c05b5eaa0ce8d9c0112058cdd9f482bd6e0ef96d3c4"
+    },
+    {
+      "file": "RH0_174h-00017.vtu.gz",
+      "time_h": 0.8333333333333335,
+      "sha256": "b7b40ebe5f0aee4c62deaa53116223bac2a7dc3fce6048e1776be1f1df431094"
+    },
+    {
+      "file": "RH0_174h-00018.vtu.gz",
+      "time_h": 1.0,
+      "sha256": "9dd88c030f8e5c6c1a051c603ab9b93103b1cac4b66659527e78b59ecab4fd0b"
+    },
+    {
+      "file": "RH0_174h-00019.vtu.gz",
+      "time_h": 1.1666666666666665,
+      "sha256": "ea89be12a96d1917a0d16b577771f52e3cf82ea8a3702ffb80ed1a979c6456e5"
+    },
+    {
+      "file": "RH0_174h-00020.vtu.gz",
+      "time_h": 1.3333333333333335,
+      "sha256": "bce6f125e8c3af30f737949fd946c96a71dbc8fae2c53dbb40e9d5b7a12fe896"
+    },
+    {
+      "file": "RH0_174h-00021.vtu.gz",
+      "time_h": 1.5,
+      "sha256": "23ff9af3c3c34a4430c23368a05488b4f4e5c48f341d7b4c59e97c9d87ab8d39"
+    },
+    {
+      "file": "RH0_174h-00022.vtu.gz",
+      "time_h": 1.6666666666666665,
+      "sha256": "b170099313d9bc1c32422f1b9114f2e92b198ae6999df1445663d5c18b5cd9b2"
+    },
+    {
+      "file": "RH0_174h-00023.vtu.gz",
+      "time_h": 1.8333333333333335,
+      "sha256": "7fe409dcaf2332a960fbafb15c2afe4c94feabe16192a5946ced7666d0adc43a"
+    },
+    {
+      "file": "RH0_174h-00024.vtu.gz",
+      "time_h": 2.0,
+      "sha256": "1c6867ead6ae7a7f7bb16326b7c77474e1844087cb801c629ea8e4dee17f4d5b"
+    },
+    {
+      "file": "RH0_174h-00025.vtu.gz",
+      "time_h": 2.166666666666667,
+      "sha256": "f44e66cb058f4ead1738862819b5753e08d6a0b8ceac6c578d481c79feff5293"
+    },
+    {
+      "file": "RH0_174h-00026.vtu.gz",
+      "time_h": 2.333333333333333,
+      "sha256": "9ca8af4e2805b27c176c29e71a617305d9dbfc2136039f29240a1917b453e97d"
+    },
+    {
+      "file": "RH0_174h-00027.vtu.gz",
+      "time_h": 2.5,
+      "sha256": "d22c28e3b6a424eead2c988101ff5aee2db642170cdf4ae5b4cc85663973b83b"
+    },
+    {
+      "file": "RH0_174h-00028.vtu.gz",
+      "time_h": 2.666666666666667,
+      "sha256": "ca82f2afec10360055a72f17aeea26d47a8da59221b6e2b6c785de9c9c2b49bf"
+    },
+    {
+      "file": "RH0_174h-00029.vtu.gz",
+      "time_h": 2.833333333333333,
+      "sha256": "fb191b27377a941270e617a9b3b2380c68217b63c4f8751b78e10c17fb83d337"
+    },
+    {
+      "file": "RH0_174h-00030.vtu.gz",
+      "time_h": 3.0,
+      "sha256": "20148c1550917730ae27980e676bd3201fdda38ad08d6b7ff14f5f5956c857b8"
+    },
+    {
+      "file": "RH0_174h-00031.vtu.gz",
+      "time_h": 3.166666666666667,
+      "sha256": "2b80d1cb70f35bfba92cb94ba67cc8ee4f12fc4f70cd2fb098237cd2731b94a1"
+    },
+    {
+      "file": "RH0_174h-00032.vtu.gz",
+      "time_h": 3.333333333333333,
+      "sha256": "ddb381be16522d6fcbbf1739bc02f48ad3ab3171ea2f77e173f87fcb5cb69d18"
+    },
+    {
+      "file": "RH0_174h-00033.vtu.gz",
+      "time_h": 3.5,
+      "sha256": "b23d635a33b4265327746c121ec36be57a70634221a03b306cb82e9ab873f043"
+    },
+    {
+      "file": "RH0_174h-00034.vtu.gz",
+      "time_h": 3.666666666666667,
+      "sha256": "02609d08cddf59d3a9266034eaf379dedcbce1a7c322a077759d2b39f829e172"
+    },
+    {
+      "file": "RH0_174h-00035.vtu.gz",
+      "time_h": 3.833333333333333,
+      "sha256": "ff833e506089435bb9b4610fc3f9aa39f1e4658abb7ffeb37f8f094746fcf8f8"
+    },
+    {
+      "file": "RH0_174h-00036.vtu.gz",
+      "time_h": 4.0,
+      "sha256": "d202ec545f7b3e96d1cfbd7463b9d034f374faa88765f538663e1c96b5b9e51e"
+    },
+    {
+      "file": "RH0_174h-00042.vtu.gz",
+      "time_h": 5.0,
+      "sha256": "f7a6888587788041c846f726acdaeeb5e40279d3989864e80cf82ce2141b8421"
+    },
+    {
+      "file": "RH0_174h-00048.vtu.gz",
+      "time_h": 6.0,
+      "sha256": "2a304bc637140b7f9681bcf584bc458889cac647c81be271db81694903bce3e6"
+    },
+    {
+      "file": "RH0_174h-00054.vtu.gz",
+      "time_h": 7.0,
+      "sha256": "b0a1c48834e34e2f9e0dea50caf745383cbba0454fdb91d393678e3879df9e24"
+    },
+    {
+      "file": "RH0_174h-00060.vtu.gz",
+      "time_h": 8.0,
+      "sha256": "9541ab85db82dcc95ce5718f4a28e9ea91848f6900ae98b364031dd91fceaf15"
+    },
+    {
+      "file": "RH0_174h-00066.vtu.gz",
+      "time_h": 9.0,
+      "sha256": "0361d2e9229ea3b60e3ca4a6b25f856dec2ab9b4bd37c11494eda372dda80826"
+    },
+    {
+      "file": "RH0_174h-00072.vtu.gz",
+      "time_h": 10.0,
+      "sha256": "2e2913f02c66b8554e62a03d5078adbfc085727db900601f0f99707b200a7a21"
+    },
+    {
+      "file": "RH0_174h-00078.vtu.gz",
+      "time_h": 11.0,
+      "sha256": "15c6e2b407221d0fe784f0aa05ca859c59377de029489e390ad608a2913fb398"
+    },
+    {
+      "file": "RH0_174h-00084.vtu.gz",
+      "time_h": 12.0,
+      "sha256": "9d7ff0d17503fa41a498c8f64103a179b46bb20f4b8ba9bf518c3dcb7a7c3f43"
+    },
+    {
+      "file": "RH0_174h-00090.vtu.gz",
+      "time_h": 13.0,
+      "sha256": "90cb6cbed2ae0bb397ff8415a05b9e084ba72414b6b0eba033966c399f191a13"
+    },
+    {
+      "file": "RH0_174h-00096.vtu.gz",
+      "time_h": 14.0,
+      "sha256": "2bb4bdf43c7f01443fd3b093eb194646f306e01f5df92a956e9beae84048c440"
+    },
+    {
+      "file": "RH0_174h-00102.vtu.gz",
+      "time_h": 15.0,
+      "sha256": "d34423afb9cdb445f5931c0a8b62b9e12940c8dd9e57c362cf2bf5f1b3cc4ebc"
+    },
+    {
+      "file": "RH0_174h-00108.vtu.gz",
+      "time_h": 16.0,
+      "sha256": "7a5327520296b9757fa42e8bb15ebda17e30f1d6ef1336d02d5a1a2ff7cc43d6"
+    },
+    {
+      "file": "RH0_174h-00114.vtu.gz",
+      "time_h": 17.0,
+      "sha256": "82e8dae1147542db910e9301e15dd4bc6a4ecd4859cf351b84a77f9817c581a7"
+    },
+    {
+      "file": "RH0_174h-00120.vtu.gz",
+      "time_h": 18.0,
+      "sha256": "2ba5ef4af1bf30fdf75c118a973295c2a833a719335e774a3b3c7950b3f43db1"
+    },
+    {
+      "file": "RH0_174h-00126.vtu.gz",
+      "time_h": 19.0,
+      "sha256": "c820b97bef9468dd8a03d366380bcfce9bff73e41fedeee0da225b8a49d32fb8"
+    },
+    {
+      "file": "RH0_174h-00132.vtu.gz",
+      "time_h": 20.0,
+      "sha256": "f22ce67d034fbca5a56c692fe87013fff5c8c5f60480d7d9d389bac7888a7e60"
+    },
+    {
+      "file": "RH0_174h-00138.vtu.gz",
+      "time_h": 21.0,
+      "sha256": "c09041ebcd2c2e6b47f0722edc724e5bdd9d2736acf9eca3b23cbebc7e86f76b"
+    },
+    {
+      "file": "RH0_174h-00144.vtu.gz",
+      "time_h": 22.0,
+      "sha256": "a23f6691f98afc2b45408bfa2ba59e89fc1e429657dadca75444a79001d75fac"
+    },
+    {
+      "file": "RH0_174h-00150.vtu.gz",
+      "time_h": 23.0,
+      "sha256": "e3e7c2edf6e3d883fda42f06bc10d9b04a576984a1cbd110432d9d9de3367e00"
+    },
+    {
+      "file": "RH0_174h-00156.vtu.gz",
+      "time_h": 24.0,
+      "sha256": "1257ef912e7023ef96383a7f2d3fc1f56dd987f72513c57021b42e5bc0228570"
+    },
+    {
+      "file": "RH0_174h-00162.vtu.gz",
+      "time_h": 25.0,
+      "sha256": "a4fadbcdee309d7d783d4d297163dc88338d8c0ce19c9da326e0f62d781b4d50"
+    },
+    {
+      "file": "RH0_174h-00168.vtu.gz",
+      "time_h": 26.0,
+      "sha256": "5a21f161f464b1e35fc7cf19500691571f9233dd75610cd140e6d5c0eedec6df"
+    },
+    {
+      "file": "RH0_174h-00174.vtu.gz",
+      "time_h": 27.0,
+      "sha256": "693b17a0bc7125f036bdd52eb0bf5729882b9c43cea195f1d648d3db0e8a4fdf"
+    },
+    {
+      "file": "RH0_174h-00180.vtu.gz",
+      "time_h": 28.0,
+      "sha256": "313767289e39456b4c42dd01cb534ac65b43cff85e951f07e6aed01645cd4e7c"
+    },
+    {
+      "file": "RH0_174h-00186.vtu.gz",
+      "time_h": 29.0,
+      "sha256": "c0ccc15d7316436960c525e43382819fc63f369a68ea90c2656ee81a5b8eab9c"
+    },
+    {
+      "file": "RH0_174h-00192.vtu.gz",
+      "time_h": 30.0,
+      "sha256": "ec64592664d502b44368140b43676fbd0f416feb697fd3f7cecfb6a160ea2855"
+    },
+    {
+      "file": "RH0_174h-00198.vtu.gz",
+      "time_h": 31.0,
+      "sha256": "c4dc0cb80b59c0418122aaffc685968ef1c2c7d9003602438cfdf3b61beb737e"
+    },
+    {
+      "file": "RH0_174h-00204.vtu.gz",
+      "time_h": 32.0,
+      "sha256": "2c67b49d204591cbb3eb7d9cc76456f157cdfb13c43a2149b407879345660cb2"
+    },
+    {
+      "file": "RH0_174h-00210.vtu.gz",
+      "time_h": 33.0,
+      "sha256": "a4166625cba26f3ca3f6369cb7a944ca422bb63906eafe12c5c905151081a442"
+    },
+    {
+      "file": "RH0_174h-00216.vtu.gz",
+      "time_h": 34.0,
+      "sha256": "145d23f6cdba5e4f9cb5897f0571cd2efe9a3972d13d6a3aef41657224a70b2e"
+    },
+    {
+      "file": "RH0_174h-00222.vtu.gz",
+      "time_h": 35.0,
+      "sha256": "192ba4ae3e3880e329628a0fddffaaf4acd48cc6799e4c3618ca5f5897c39177"
+    },
+    {
+      "file": "RH0_174h-00228.vtu.gz",
+      "time_h": 36.0,
+      "sha256": "1402e7f405d7302bc2cd8193262673976a846a5c51937278c0c300c06635412b"
+    },
+    {
+      "file": "RH0_174h-00234.vtu.gz",
+      "time_h": 37.0,
+      "sha256": "d151c4839d9b42749b0d5aa048b274cbd1b570d3d5fd8dc8b1f49b0f9f5cb9d3"
+    },
+    {
+      "file": "RH0_174h-00240.vtu.gz",
+      "time_h": 38.0,
+      "sha256": "d1dc6c34223931d415cf286ddbc487e9c2f45e18d56616d5785f418c3595acf2"
+    },
+    {
+      "file": "RH0_174h-00246.vtu.gz",
+      "time_h": 39.0,
+      "sha256": "ad37dec9a55e582b1fcf713c5c9cd0c416f59bb7646812d045eac0aff416bde6"
+    },
+    {
+      "file": "RH0_174h-00252.vtu.gz",
+      "time_h": 40.0,
+      "sha256": "e7d3cd136d8e91828fe5770be2e65cdf145980a2dfc72716ad161c498ff6f5aa"
+    },
+    {
+      "file": "RH0_174h-00258.vtu.gz",
+      "time_h": 41.0,
+      "sha256": "dd5b4722326bb552129bc6af24571cdb38b69b02a4dc2915396c226a7abeaac0"
+    },
+    {
+      "file": "RH0_174h-00264.vtu.gz",
+      "time_h": 42.0,
+      "sha256": "66917fd84724ef77f7d5eacd49ba129972bce3b4ffbd6d8c48d8d4547ce9d4a4"
+    },
+    {
+      "file": "RH0_174h-00270.vtu.gz",
+      "time_h": 43.0,
+      "sha256": "dd849089b5766e46c2fd0b37d27173d48eda9e1c590e4bcb8b8a29b0965c5ca5"
+    },
+    {
+      "file": "RH0_174h-00276.vtu.gz",
+      "time_h": 44.0,
+      "sha256": "4fa9bc2ee66c1d48dd9eff8528307ced0d54c22af441d721e288b47727eeb7ff"
+    },
+    {
+      "file": "RH0_174h-00282.vtu.gz",
+      "time_h": 45.0,
+      "sha256": "e2d96510ce253e05dc686500be6ab3451f92dcaa12e6188e2d5a53b0f3c3d1ec"
+    },
+    {
+      "file": "RH0_174h-00288.vtu.gz",
+      "time_h": 46.0,
+      "sha256": "1f9d587b74c8bc1f61c560a296d6cda724a21fe2f7485a1da74ac9de93192b16"
+    },
+    {
+      "file": "RH0_174h-00294.vtu.gz",
+      "time_h": 47.0,
+      "sha256": "955d2ad8f10ec3f24f7345ecb282c0b04b464be787dbbb5f1692024e3a87b9f1"
+    },
+    {
+      "file": "RH0_174h-00300.vtu.gz",
+      "time_h": 48.0,
+      "sha256": "ba5a287566f1753d05b5e8179d18ccb6c8e4036163f6927757c2283ea0e888c8"
+    },
+    {
+      "file": "RH0_174h-00306.vtu.gz",
+      "time_h": 49.0,
+      "sha256": "c096a22b5230e1ed7b772149f518650f133d9445fd343ba6ad42ac09d420c776"
+    },
+    {
+      "file": "RH0_174h-00312.vtu.gz",
+      "time_h": 50.0,
+      "sha256": "8eba8a8038e286212dea07d70c7ad326d1d9451727f5e56b901e863796f7e3d9"
+    },
+    {
+      "file": "RH0_174h-00318.vtu.gz",
+      "time_h": 51.0,
+      "sha256": "e180d5be48ff585cf9d3da62a682487db05842817acc2a1fb3506e19d5290daa"
+    },
+    {
+      "file": "RH0_174h-00324.vtu.gz",
+      "time_h": 52.0,
+      "sha256": "58aa587379d3eb13641bb5ce7f73d4028496937b9f38a4538a6e3e28793d3495"
+    },
+    {
+      "file": "RH0_174h-00330.vtu.gz",
+      "time_h": 53.0,
+      "sha256": "874a90dce9e7aa9dddf1b88bc9fcf2a58f076870d929673f5795b4ceed3f75bb"
+    },
+    {
+      "file": "RH0_174h-00336.vtu.gz",
+      "time_h": 54.0,
+      "sha256": "cf8fdb8efceabb4c9186917cd9ac97c78ec2721ca6195f09e3b05281e4513a9c"
+    },
+    {
+      "file": "RH0_174h-00342.vtu.gz",
+      "time_h": 55.0,
+      "sha256": "4c021602c30caccd21ec7fbed884a774a5b1d5be13e99e9f7178c80c200c7d5c"
+    },
+    {
+      "file": "RH0_174h-00348.vtu.gz",
+      "time_h": 56.0,
+      "sha256": "123fc3ea7a450de851d0a65b8fa2713bf342fae3ebf2b2e9c589c7aa4738f780"
+    },
+    {
+      "file": "RH0_174h-00354.vtu.gz",
+      "time_h": 57.0,
+      "sha256": "8f80de680d45d6391ccbdb134d597c89ad3658511062a2028844c6c2e7ae9e74"
+    },
+    {
+      "file": "RH0_174h-00357.vtu.gz",
+      "time_h": 57.5,
+      "sha256": "1994f5fa0d3aef5c3095a3a9c4f69ecc8cd0da350776f933fe46e5a19d7794e6"
+    },
+    {
+      "file": "RH0_174h-00360.vtu.gz",
+      "time_h": 58.0,
+      "sha256": "8c18fb7db8d7df036d31cf2d18c4727ad92b4f1e360103c54c41c6a09e750c07"
+    },
+    {
+      "file": "RH0_174h-00366.vtu.gz",
+      "time_h": 59.0,
+      "sha256": "75e10bdae0357ad04d066f32f8c49db28ed1e024ea976bf5a484282908ae4570"
+    },
+    {
+      "file": "RH0_174h-00372.vtu.gz",
+      "time_h": 60.0,
+      "sha256": "2d83adff0b7d469cdfc38ce231d7bdf82663fdea87f23477570dbe084d264e9d"
+    },
+    {
+      "file": "RH0_174h-00378.vtu.gz",
+      "time_h": 61.0,
+      "sha256": "0ed98fff50eb5f6997237ed92e48dc6fce0c2856ca4d163720c568a33d69ee08"
+    },
+    {
+      "file": "RH0_174h-00384.vtu.gz",
+      "time_h": 62.0,
+      "sha256": "136d088223dfe1729d58290255a1a21b75b13ef4bbcadc0fb246285215f0fd98"
+    },
+    {
+      "file": "RH0_174h-00390.vtu.gz",
+      "time_h": 63.0,
+      "sha256": "5898c5ade179b1de853fa0cac21505b406a031e05a2abed5b761223556965c34"
+    },
+    {
+      "file": "RH0_174h-00396.vtu.gz",
+      "time_h": 64.0,
+      "sha256": "564d59654226180bcf4ef971f71ac0b69cf8e550bcb77bb162dae71719991ac5"
+    },
+    {
+      "file": "RH0_174h-00402.vtu.gz",
+      "time_h": 65.0,
+      "sha256": "dd5885a1088631c16117a8ef1aaff734a764cdceb33e49b7dd48759df1461416"
+    },
+    {
+      "file": "RH0_174h-00403.vtu.gz",
+      "time_h": 65.16666666666667,
+      "sha256": "bd7ffcc957bcb464781b568052982c5afb82b678a00946fd18448e23cda03ae0"
+    },
+    {
+      "file": "RH0_174h-00408.vtu.gz",
+      "time_h": 66.0,
+      "sha256": "e9a4814cf54b820a7813d0497c2f0eeec2914a832ee61ce4804e521f47fcfa0e"
+    },
+    {
+      "file": "RH0_174h-00414.vtu.gz",
+      "time_h": 67.0,
+      "sha256": "fb7abd507e617feef78d56f825a7d941057fe3325b19fb5f844eb7c4ad0b3602"
+    },
+    {
+      "file": "RH0_174h-00420.vtu.gz",
+      "time_h": 68.0,
+      "sha256": "50298f9a9b5b66134b8ef9155c52372b9e26b3bcaa3f323e1a40f2af823ea59a"
+    },
+    {
+      "file": "RH0_174h-00426.vtu.gz",
+      "time_h": 69.0,
+      "sha256": "6aeba2a46f7d132ba6e6193ead3ca562d6f0713f7e4494b7ad01688c25cf1688"
+    },
+    {
+      "file": "RH0_174h-00432.vtu.gz",
+      "time_h": 70.0,
+      "sha256": "acd68a68dd9c4a15e306561111ecb55f4d28362cce33b486e3f38e42ba849fae"
+    },
+    {
+      "file": "RH0_174h-00438.vtu.gz",
+      "time_h": 71.0,
+      "sha256": "dd0072696080ceb98e8567ee7b7ca218395e39c16fb3f1294da4d6767688a331"
+    },
+    {
+      "file": "RH0_174h-00444.vtu.gz",
+      "time_h": 72.0,
+      "sha256": "b0e919069d2fb72ac70bc4810b6644ae963d3f7f0a1caddd3eb7c6075a6bb3ee"
+    },
+    {
+      "file": "RH0_174h-00450.vtu.gz",
+      "time_h": 73.0,
+      "sha256": "630753c955d11ffafdd8f023e63dd5bb33a5f4ae6f595abd94af07bdabd00107"
+    },
+    {
+      "file": "RH0_174h-00456.vtu.gz",
+      "time_h": 74.0,
+      "sha256": "1652843c53371a0e1347f183cef1280651ba51d5e8521f69a72c91d20cc6b84b"
+    },
+    {
+      "file": "RH0_174h-00462.vtu.gz",
+      "time_h": 75.0,
+      "sha256": "dcae855fde943116061ab37d6db4bee3bb3a2665e94cbea8d6cb2b14aecbd5b9"
+    },
+    {
+      "file": "RH0_174h-00468.vtu.gz",
+      "time_h": 76.0,
+      "sha256": "b312bcba407fbe50df80b1e263cefac34cbb3ce1d80b01ae702a864bb3999be0"
+    },
+    {
+      "file": "RH0_174h-00474.vtu.gz",
+      "time_h": 77.0,
+      "sha256": "dfc8cea172852f600a5ea112dabdb3d5e9346daf93335cb16a3c3c9226be0b41"
+    },
+    {
+      "file": "RH0_174h-00480.vtu.gz",
+      "time_h": 78.0,
+      "sha256": "810c0efb77ea209a5a03a7b2785bc3e45f5f2c9a29b38b66e69fe46bec830c95"
+    },
+    {
+      "file": "RH0_174h-00486.vtu.gz",
+      "time_h": 79.0,
+      "sha256": "729a1259cf6a3a750b021441562389104ae524cc541637ccdba277dc1cb5cf53"
+    },
+    {
+      "file": "RH0_174h-00492.vtu.gz",
+      "time_h": 80.0,
+      "sha256": "004bd70ad3d46034bae5b0a9c3e28d23ad8d818961d1c39d7f60b4dabd33acf1"
+    },
+    {
+      "file": "RH0_174h-00498.vtu.gz",
+      "time_h": 81.0,
+      "sha256": "a3adcbbff20b5b6b27471be50187ebed023b60bcc8e19da6cc162036f2e5bfcb"
+    },
+    {
+      "file": "RH0_174h-00504.vtu.gz",
+      "time_h": 82.0,
+      "sha256": "2dc5c773ff783207d9e99cf4ab0850994b12133938e33a663613c92b534c8903"
+    },
+    {
+      "file": "RH0_174h-00510.vtu.gz",
+      "time_h": 83.0,
+      "sha256": "4430ee68f2658907f0812e1348d0845b449ebf853460fd88b69376e9256e034f"
+    },
+    {
+      "file": "RH0_174h-00516.vtu.gz",
+      "time_h": 84.0,
+      "sha256": "a9ad2eef7d12dcc07b4b7ed782e79cb646a4f1e5597e9e3a0b386b2acbbdcdcc"
+    },
+    {
+      "file": "RH0_174h-00522.vtu.gz",
+      "time_h": 85.0,
+      "sha256": "2edb02344ca3e9977a026eb61fd6e35880ae8d8f86f2e50ff45a17c755ce3d93"
+    },
+    {
+      "file": "RH0_174h-00528.vtu.gz",
+      "time_h": 86.0,
+      "sha256": "55ea23e359eeddf13eea2a8b396ff4e68ced778b050effa1a7b0380eabe19b49"
+    },
+    {
+      "file": "RH0_174h-00534.vtu.gz",
+      "time_h": 87.0,
+      "sha256": "7b0ef93f7993a7ced76db6a1a6e3b9c403c19495dc856ee696921ba07931725a"
+    },
+    {
+      "file": "RH0_174h-00540.vtu.gz",
+      "time_h": 88.0,
+      "sha256": "77908cd75996ba9ee44fdc072ef17b2eee93d0e8e4e85ecc8e22e07a73fc41c5"
+    },
+    {
+      "file": "RH0_174h-00546.vtu.gz",
+      "time_h": 89.0,
+      "sha256": "f3f766b602902eac9a75dc98a203c05e5ba35bbfa0527168ef439ad0a9ba706c"
+    },
+    {
+      "file": "RH0_174h-00552.vtu.gz",
+      "time_h": 90.0,
+      "sha256": "eecab9bbb8b0e262ca101a20b9d04cb9d2580ae099aba0fa339402d8bf3ea828"
+    },
+    {
+      "file": "RH0_174h-00558.vtu.gz",
+      "time_h": 91.0,
+      "sha256": "cd28fc5117ba6f7b3ce7b35225703da87529f6b1329f45d1ba65b63bfce5a849"
+    },
+    {
+      "file": "RH0_174h-00564.vtu.gz",
+      "time_h": 92.0,
+      "sha256": "ef7da8ea465f02b9e61e4648c154bcdf467f1e9466759efb72fa433d551f141e"
+    },
+    {
+      "file": "RH0_174h-00570.vtu.gz",
+      "time_h": 93.0,
+      "sha256": "7ddbb83ab7e9ccb3e162e7962dbb9f3d96ca61664520ccded7263b915d10be0c"
+    },
+    {
+      "file": "RH0_174h-00576.vtu.gz",
+      "time_h": 94.0,
+      "sha256": "b1493fd7485be5a7cf6925519af67bb9a733cdc701be7450d53443055ac2faa5"
+    },
+    {
+      "file": "RH0_174h-00582.vtu.gz",
+      "time_h": 95.0,
+      "sha256": "eac3f0c44052f84e7515bb14872097656dc5b32cb99f406c4d1c9180b98d7e24"
+    },
+    {
+      "file": "RH0_174h-00588.vtu.gz",
+      "time_h": 96.0,
+      "sha256": "f925477203ec06bd86bed74b8fbc9d3e36e5d1beea0e930a706fc63f3f4eb7a6"
+    },
+    {
+      "file": "RH0_174h-00594.vtu.gz",
+      "time_h": 97.0,
+      "sha256": "96159f8a24eeb59961ee6a5e686f87a3f99d8c23c795b48f7a98e7b5073a05b7"
+    },
+    {
+      "file": "RH0_174h-00600.vtu.gz",
+      "time_h": 98.0,
+      "sha256": "e2fca9c24c3575c24917f12120b3d0badd8024e11f1399197e777ceaea131993"
+    },
+    {
+      "file": "RH0_174h-00606.vtu.gz",
+      "time_h": 99.0,
+      "sha256": "d14ff36243ab7becfdc0e2ce7b20fa38ab186b3b7d0c40deeaeb2215d0e88c97"
+    },
+    {
+      "file": "RH0_174h-00612.vtu.gz",
+      "time_h": 100.0,
+      "sha256": "de3b5470042ad94bd558aefd35d3995facd14355c1ac04514bda4428024e06d7"
+    },
+    {
+      "file": "RH0_174h-00618.vtu.gz",
+      "time_h": 101.0,
+      "sha256": "a028ac8fa07a2748f6ab5ab04f7eed5a6370b632bdc388e8122b757acd03c474"
+    },
+    {
+      "file": "RH0_174h-00624.vtu.gz",
+      "time_h": 102.0,
+      "sha256": "f3965c11386f9d3bb3e53216ff04a5936eeb4f59eec7341a12b7f0ca98a432df"
+    },
+    {
+      "file": "RH0_174h-00630.vtu.gz",
+      "time_h": 103.0,
+      "sha256": "c8613a3264212dc7c1dcbc13f776715e1cf4f57aa8607d4870e1a1db770f7c69"
+    },
+    {
+      "file": "RH0_174h-00636.vtu.gz",
+      "time_h": 104.0,
+      "sha256": "48417e62bcdef87720cc166ffc6ccb3cee5b526d0d4c27d2906b6c40cfce6365"
+    },
+    {
+      "file": "RH0_174h-00642.vtu.gz",
+      "time_h": 105.0,
+      "sha256": "450b6e0a36c05e5e8125a285c7f30cb6dbdc31c58a15ca557013c4fda9d68a04"
+    },
+    {
+      "file": "RH0_174h-00648.vtu.gz",
+      "time_h": 106.0,
+      "sha256": "8ddda8fbe2df21908438eed58136f2215f3bca6cce1b45932a96c66ad604d3d5"
+    },
+    {
+      "file": "RH0_174h-00654.vtu.gz",
+      "time_h": 107.0,
+      "sha256": "ef918c43a5c90add88e8c32b341df4705e0a2bce63fa62669ac8ded667272fdb"
+    },
+    {
+      "file": "RH0_174h-00660.vtu.gz",
+      "time_h": 108.0,
+      "sha256": "b9e74c8beca17ffffbd35f5b249f8f0f247bdd584cae597aa389f14cf5582b0d"
+    },
+    {
+      "file": "RH0_174h-00666.vtu.gz",
+      "time_h": 109.0,
+      "sha256": "7fb9d2bc5cc569579866b428d91dc6403447bd7a492b7156d0a67b6562880f03"
+    },
+    {
+      "file": "RH0_174h-00672.vtu.gz",
+      "time_h": 110.0,
+      "sha256": "9df9c4827f38f849bdc65f98c0c8d4ab574b37d8a76558ea1d2d80bb4000f27c"
+    },
+    {
+      "file": "RH0_174h-00678.vtu.gz",
+      "time_h": 111.0,
+      "sha256": "836fe003be01e4254bada1b96da911c869906feae1cd9c044715fe49cf0c2cc0"
+    },
+    {
+      "file": "RH0_174h-00684.vtu.gz",
+      "time_h": 112.0,
+      "sha256": "fdb93d05481a8099d67835fb49c1085a48713b49f23e79a5361f65eb8c4f3a9a"
+    },
+    {
+      "file": "RH0_174h-00690.vtu.gz",
+      "time_h": 113.0,
+      "sha256": "b9ecb09730f111c74de581c4954d94217487863e3df22192f0d44aa5a58a09cf"
+    },
+    {
+      "file": "RH0_174h-00696.vtu.gz",
+      "time_h": 114.0,
+      "sha256": "96f36b449f95b3239ca0f7844b3621d25f79e6e23e0b6fc4cd4c3e900bbc5cd1"
+    },
+    {
+      "file": "RH0_174h-00702.vtu.gz",
+      "time_h": 115.0,
+      "sha256": "8ffce4a115c797074f8639e29dc288f0a02e63440669c2b090d3d7a127827c28"
+    },
+    {
+      "file": "RH0_174h-00708.vtu.gz",
+      "time_h": 116.0,
+      "sha256": "9dd98f65ae8d080c97d061627f30a7624ab1016ec3b553ebe822ba920d6b28c8"
+    },
+    {
+      "file": "RH0_174h-00714.vtu.gz",
+      "time_h": 117.0,
+      "sha256": "3e1736aa3695cd7a61672fc1f4e1139da0733a31436933ac652db359d375bf21"
+    },
+    {
+      "file": "RH0_174h-00720.vtu.gz",
+      "time_h": 118.0,
+      "sha256": "0eb535c246c6c23c7fc48bb3383be44790cb182a8e746adea05c831f1435072a"
+    },
+    {
+      "file": "RH0_174h-00726.vtu.gz",
+      "time_h": 119.0,
+      "sha256": "d0c0e916ef9bad8aa19ce5dfb319afb1a4c925432c23418659d87faae5bea634"
+    },
+    {
+      "file": "RH0_174h-00732.vtu.gz",
+      "time_h": 120.0,
+      "sha256": "b02b9bbef4b318309a9d899eb206e952b899cac813a19adb9e5823c7fdb8d469"
+    },
+    {
+      "file": "RH0_174h-00738.vtu.gz",
+      "time_h": 121.0,
+      "sha256": "6d9da98747d1ee83b6f85ff74659f326b9adf061a86e90c5b6430cdcd200e551"
+    },
+    {
+      "file": "RH0_174h-00744.vtu.gz",
+      "time_h": 122.0,
+      "sha256": "5f470068c874cacf20b6e248567189b25946a7067149b3a0a603ef414acfc5f4"
+    },
+    {
+      "file": "RH0_174h-00750.vtu.gz",
+      "time_h": 123.0,
+      "sha256": "f3cc0707c1ba0f15226cf2a880e27b635eab0c989eff652f1213c03204a52ba7"
+    },
+    {
+      "file": "RH0_174h-00756.vtu.gz",
+      "time_h": 124.0,
+      "sha256": "179ce03549591989e6c8c8e94af00f833a2d5af241fb2470981e4724dd312986"
+    },
+    {
+      "file": "RH0_174h-00762.vtu.gz",
+      "time_h": 125.0,
+      "sha256": "424cf83a1bfc741db7b9c421a47f49c06904c134456ca92d72dd4b0563700813"
+    },
+    {
+      "file": "RH0_174h-00768.vtu.gz",
+      "time_h": 126.0,
+      "sha256": "095df02e230e164db137caf6305e9489f26757208b620b2af1361cacc415d719"
+    },
+    {
+      "file": "RH0_174h-00774.vtu.gz",
+      "time_h": 127.0,
+      "sha256": "ad5ba421194c7e923d6bf0778dfca1298e27ae49c234252376348557a6fd9dd9"
+    },
+    {
+      "file": "RH0_174h-00780.vtu.gz",
+      "time_h": 128.0,
+      "sha256": "2ac6ea8dd0fa5d34f966b392b80c04d236623bb31485ee64f4ad84bc46384ddf"
+    },
+    {
+      "file": "RH0_174h-00786.vtu.gz",
+      "time_h": 129.0,
+      "sha256": "2889b6074a7d2da31d15d1b78e7714b7d814a0750b774f0483de8c8aa572dc40"
+    },
+    {
+      "file": "RH0_174h-00792.vtu.gz",
+      "time_h": 130.0,
+      "sha256": "4383536b38e2315be07ec269c5014d71a2d1b7d9f42c17d774d39be2b7f007d5"
+    },
+    {
+      "file": "RH0_174h-00798.vtu.gz",
+      "time_h": 131.0,
+      "sha256": "f8d32e6637b7c0ae56c8680eeb06c49671158762fc1b89bdec0195caf153bf3f"
+    },
+    {
+      "file": "RH0_174h-00804.vtu.gz",
+      "time_h": 132.0,
+      "sha256": "7552d4f78d51b1eeb83eab593a02396875ec4d56526873119539a90445beaeb1"
+    },
+    {
+      "file": "RH0_174h-00810.vtu.gz",
+      "time_h": 133.0,
+      "sha256": "23aa63c7f0af08afe90aa4d2c8328d14bb888f73d25ec55255c1f5e5ac343950"
+    },
+    {
+      "file": "RH0_174h-00816.vtu.gz",
+      "time_h": 134.0,
+      "sha256": "cc59e6b4c86f5e57643a743dc6b1540a1b5a47ed3d7476d81250c3b7a1b6d76b"
+    },
+    {
+      "file": "RH0_174h-00822.vtu.gz",
+      "time_h": 135.0,
+      "sha256": "6c5796568d1fee72dc22b0ae5f49b8914f4a8e387d8f2c969e1a5ed6700c91e1"
+    },
+    {
+      "file": "RH0_174h-00828.vtu.gz",
+      "time_h": 136.0,
+      "sha256": "49eab4b5d3fa938b5c447d4617e59deaba3332dc0b3266e55d121c28b774039f"
+    },
+    {
+      "file": "RH0_174h-00834.vtu.gz",
+      "time_h": 137.0,
+      "sha256": "fa89080d72e9d1d8035d76a4a422192ca70d2f1b2cbc95fcff7f7bbf93a993ea"
+    },
+    {
+      "file": "RH0_174h-00840.vtu.gz",
+      "time_h": 138.0,
+      "sha256": "2c8b2a5f8ea8fd1ab7cb64c742512742a44dd5463d31cdb2280525ec5d39dea6"
+    },
+    {
+      "file": "RH0_174h-00846.vtu.gz",
+      "time_h": 139.0,
+      "sha256": "3aed3a0ce20ee53b467a1a8a27f9756d994f9adbbb50ae977cbad28653875101"
+    },
+    {
+      "file": "RH0_174h-00852.vtu.gz",
+      "time_h": 140.0,
+      "sha256": "00878d17707ad23ea026bfd0a209f81f4c8fd2b322af5a17b40d9e266e7d4621"
+    },
+    {
+      "file": "RH0_174h-00858.vtu.gz",
+      "time_h": 141.0,
+      "sha256": "4ba3fd3169a9bf456b693aa6ff02dd7c877db3266e150a414b1c7b4c5d6de51b"
+    },
+    {
+      "file": "RH0_174h-00864.vtu.gz",
+      "time_h": 142.0,
+      "sha256": "839675dcb961dd3a689ca7a747598bb221f63e2999d35e6079a8151ad9138ee9"
+    },
+    {
+      "file": "RH0_174h-00870.vtu.gz",
+      "time_h": 143.0,
+      "sha256": "937586ff2fdb964a24e0715c084c2d981fdfdd92492340f823e4af45eb5d84ba"
+    },
+    {
+      "file": "RH0_174h-00876.vtu.gz",
+      "time_h": 144.0,
+      "sha256": "5e2c47b59e57bf1a749c7e38cac3a9236533c5744d4be1891f13eb2c1dbb746e"
+    },
+    {
+      "file": "RH0_174h-00882.vtu.gz",
+      "time_h": 145.0,
+      "sha256": "99ca03728ccd040cd9efb9e0c961bd474460ad25abbd4b5fd9c84b2e6b0f81ab"
+    },
+    {
+      "file": "RH0_174h-00888.vtu.gz",
+      "time_h": 146.0,
+      "sha256": "439df1b8d6564b81f6137aa5ca41385eedf3be40d4704953faf14440529dac82"
+    },
+    {
+      "file": "RH0_174h-00894.vtu.gz",
+      "time_h": 147.0,
+      "sha256": "2d8d18bf6bbcf703add2668760bbcf05ac7caec2323dc96e5ea7036542f69063"
+    },
+    {
+      "file": "RH0_174h-00900.vtu.gz",
+      "time_h": 148.0,
+      "sha256": "670321c5cd26c32a7ba3f1ec4c331cc5c6638012413556b3e42f30b0b249e077"
+    },
+    {
+      "file": "RH0_174h-00906.vtu.gz",
+      "time_h": 149.0,
+      "sha256": "1a7ffa6e0787993ef32343b58a29d0c24eb5e5eca644e4aff3b1f7d7468e16a6"
+    },
+    {
+      "file": "RH0_174h-00912.vtu.gz",
+      "time_h": 150.0,
+      "sha256": "4c0e169de2c1e60003d7faebcc880c9db08c1766e1f976f2d774d478dd873c5e"
+    },
+    {
+      "file": "RH0_174h-00918.vtu.gz",
+      "time_h": 151.0,
+      "sha256": "98f85ce25b0e8d6f8cb21f21ebbb369ca522623fba42a41b75eee1b61b64dec8"
+    },
+    {
+      "file": "RH0_174h-00924.vtu.gz",
+      "time_h": 152.0,
+      "sha256": "d40793043350b75a0d1a4bec9f32c61ae32855ddb02f9bc3ff1b93434d21cf14"
+    },
+    {
+      "file": "RH0_174h-00930.vtu.gz",
+      "time_h": 153.0,
+      "sha256": "11fca52b5873f3d7c83911425a06a951f58f24018b3f5d6147bd6d2e42aed350"
+    },
+    {
+      "file": "RH0_174h-00936.vtu.gz",
+      "time_h": 154.0,
+      "sha256": "78f8be01f0c62f0c1eaff0a8a0e9ff6cd9d7571b89ca63d6894063d173af9ac3"
+    },
+    {
+      "file": "RH0_174h-00942.vtu.gz",
+      "time_h": 155.0,
+      "sha256": "aab52ba8e886b01eb035806a74f0ea5cd8cb1451df1690542104bee9835a7cfe"
+    },
+    {
+      "file": "RH0_174h-00948.vtu.gz",
+      "time_h": 156.0,
+      "sha256": "48ccf7d90d9390580552ca35c8b0db9ad899a8dc08fe79912874074095768ea7"
+    },
+    {
+      "file": "RH0_174h-00954.vtu.gz",
+      "time_h": 157.0,
+      "sha256": "0e8c489e1e0933b9895fbf6e710e580b5ee9d11971ddee01de741d68b1ee225f"
+    },
+    {
+      "file": "RH0_174h-00960.vtu.gz",
+      "time_h": 158.0,
+      "sha256": "4cbd2e77ed87713cd10b2ec22e333090bf13257a51023be7b16c1f02a9480410"
+    },
+    {
+      "file": "RH0_174h-00966.vtu.gz",
+      "time_h": 159.0,
+      "sha256": "e6aec80978650d5caa711b5dfe64e6c8c2e0788565f917a196b9b4399bd3a365"
+    },
+    {
+      "file": "RH0_174h-00972.vtu.gz",
+      "time_h": 160.0,
+      "sha256": "284b77ec9086842d6c2a8ee7aea7e3c3b70d46a1cf50593fff865b0e8e461318"
+    },
+    {
+      "file": "RH0_174h-00978.vtu.gz",
+      "time_h": 161.0,
+      "sha256": "23c183ab0133acc67c2f38b62623e058046aa8216796b27a0253b2f3d1df528f"
+    },
+    {
+      "file": "RH0_174h-00984.vtu.gz",
+      "time_h": 162.0,
+      "sha256": "e52b7cc1d796823e3fb964cc537724845e1bd87f796ca7de6f89eba80b2741da"
+    },
+    {
+      "file": "RH0_174h-00990.vtu.gz",
+      "time_h": 163.0,
+      "sha256": "48daa93f2f1ace9891890d581822c189b526d3aa7f53b8ab7717b3f95f795aad"
+    },
+    {
+      "file": "RH0_174h-00996.vtu.gz",
+      "time_h": 164.0,
+      "sha256": "90937dd5d2127d3aac44282fd5e199d657a41c0605621c507fc3443119d70a0c"
+    },
+    {
+      "file": "RH0_174h-01002.vtu.gz",
+      "time_h": 165.0,
+      "sha256": "e3abb2fd15d37702378973a97359f7f74785aac370a164c0449efb4549494c28"
+    },
+    {
+      "file": "RH0_174h-01008.vtu.gz",
+      "time_h": 166.0,
+      "sha256": "d063b64cee99a9fa674b317206a73b47f678692b7943467c1b989e71d48e3e3c"
+    },
+    {
+      "file": "RH0_174h-01014.vtu.gz",
+      "time_h": 167.0,
+      "sha256": "53055ee1bde1fb367960947ae2bb407d9d8a8a7be9c3b92fc24923a46dc9c36d"
+    },
+    {
+      "file": "RH0_174h-01020.vtu.gz",
+      "time_h": 168.0,
+      "sha256": "0abf2922aa1f1909e92c8081359a9618f00abcb9f2989ddd1550923c0405b438"
+    },
+    {
+      "file": "RH0_174h-01026.vtu.gz",
+      "time_h": 169.0,
+      "sha256": "3a54a6967e6e3dc37446086b66d842d9c84009387b9bc974a538b41de672fba8"
+    },
+    {
+      "file": "RH0_174h-01032.vtu.gz",
+      "time_h": 170.0,
+      "sha256": "054f7377610388f1e944cb166b037f52075fc108519f1ff59b311e25839615b6"
+    },
+    {
+      "file": "RH0_174h-01038.vtu.gz",
+      "time_h": 171.0,
+      "sha256": "7c570f724479dd6fb36bbcd8db78d435094830b964e66cb7cb65a64416ab2b3e"
+    },
+    {
+      "file": "RH0_174h-01044.vtu.gz",
+      "time_h": 172.0,
+      "sha256": "c275cf0bc9a478e11431a6105dfe62c6695e41717e9738557facfbe6b7b1f719"
+    },
+    {
+      "file": "RH0_174h-01050.vtu.gz",
+      "time_h": 173.0,
+      "sha256": "d007d61a022662529fb125ffcf8661a5fb38bbb65c1f6985f3b86ddb5c85dfed"
+    },
+    {
+      "file": "RH0_174h-01056.vtu.gz",
+      "time_h": 174.0,
+      "sha256": "2fd6fe45441a72af67532f09a92015c56936765bbfb17c0492658987ddfe3acb"
+    }
+  ]
+}

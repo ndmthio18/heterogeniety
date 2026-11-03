@@ -1,0 +1,42 @@
+{
+  "state": "completed",
+  "updated_utc": "2026-11-02T23:48:02.996845+00:00",
+  "scratch_root": "/tmp/zhixin_cylinder_fixed_hydraulics_v12_20261102",
+  "gates_passed": true,
+  "production": {
+    "case": "RH0_174h",
+    "start_utc": "2026-11-02T11:20:37.808624+00:00",
+    "binary_sha256": "6595025e48333062cfa05022d9f6d65670421d33f5fb6c92213c0a402a10b58e",
+    "input_sha256": "e1ae660d198f696713d4b1825b47811a3f8646142d7f029cc6c5f22c347783ef",
+    "cpu": 6,
+    "requested_threads": 1,
+    "wall_limit_s": 172800,
+    "raw_path": "/tmp/zhixin_cylinder_fixed_hydraulics_v12_20261102/runs/RH0_174h",
+    "state": "completed",
+    "controller_pid": 2580724,
+    "solver_pid": 2583239,
+    "evaporation_time_h": 174.0,
+    "salt_solid_mol": 0.0063960309733813,
+    "C_max_mol_L": 5.329066295127247,
+    "S_min": 0.9945362308965668,
+    "updated_utc": "2026-11-02T23:48:02.175381+00:00",
+    "scratch_free_GiB": 5.996543884277344,
+    "returncode": 0,
+    "end_utc": "2026-11-02T23:48:02.419736+00:00",
+    "acceptance": {
+      "status": "passed",
+      "relative_budget_residuals": {
+        "water_residual_mol": 1.2246631764142205e-12,
+        "salt_residual_mol": 1.4149216797823877e-12,
+        "coarse_residual_mol": 2.8100260727066006e-12,
+        "fine_residual_mol": 2.0352889205559285e-13
+      },
+      "first_solid_mol": 0.0,
+      "final_solid_mol": 0.0063960309733813,
+      "final_dissolved_mol": 0.0513364641487513,
+      "max_molality_after_initial": 6.011884292870148,
+      "max_complementarity_after_initial": 1.8584542181794806e-16,
+      "completed_evaporation_h": 174.0
+    }
+  }
+}

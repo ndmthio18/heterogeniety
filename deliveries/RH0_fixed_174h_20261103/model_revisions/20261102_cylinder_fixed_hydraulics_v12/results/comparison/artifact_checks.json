@@ -1,0 +1,25 @@
+{
+  "numerical_checks": "passed",
+  "visual_review": "passed",
+  "pages": 8,
+  "full_window_convergence": false,
+  "review_utc": "2026-11-03T01:41:13.846508+00:00",
+  "reviewed": [
+    "contact_sheet.png",
+    "QA_page_01.png",
+    "QA_page_03.png",
+    "QA_page_05.png",
+    "QA_page_07.png",
+    "08_sections.png"
+  ],
+  "layout_repair": "Increased row spacing in early/common field pages; regenerated PDF and inspected rendered page.",
+  "spatial_interpretation": "FIXED_HYDRAULICS_174H_REPORT.md section6",
+  "first_saved_solid_vtu_check": {
+    "previous_h": 57.5,
+    "previous_max_equivalent_volume": 0,
+    "first_h": 57.666666666666664,
+    "first_max_equivalent_volume": 0.000449639937360277,
+    "final_h": 174,
+    "final_max_equivalent_volume": 10.9767355340368
+  }
+}

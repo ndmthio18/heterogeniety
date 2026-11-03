@@ -1,0 +1,12 @@
+{
+  "state": "verified_ready_for_delivery",
+  "actual_evaporation_h": 174,
+  "acceptance": "passed",
+  "backup_verified_files": 1369,
+  "raw_fields_decompressed_verified": 1057,
+  "pdf_pages": 8,
+  "visual_review": "passed",
+  "report": "FIXED_HYDRAULICS_174H_REPORT.md",
+  "independent_sonnet_review": false,
+  "other_campaigns_untouched": true
+}

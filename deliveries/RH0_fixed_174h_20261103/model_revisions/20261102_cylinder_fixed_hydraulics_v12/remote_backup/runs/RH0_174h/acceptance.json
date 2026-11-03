@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "relative_budget_residuals": {
+    "water_residual_mol": 1.2246631764142205e-12,
+    "salt_residual_mol": 1.4149216797823877e-12,
+    "coarse_residual_mol": 2.8100260727066006e-12,
+    "fine_residual_mol": 2.0352889205559285e-13
+  },
+  "first_solid_mol": 0.0,
+  "final_solid_mol": 0.0063960309733813,
+  "final_dissolved_mol": 0.0513364641487513,
+  "max_molality_after_initial": 6.011884292870148,
+  "max_complementarity_after_initial": 1.8584542181794806e-16,
+  "completed_evaporation_h": 174.0
+}

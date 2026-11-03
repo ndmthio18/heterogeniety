@@ -1,0 +1,57 @@
+{
+  "completion_h": 174,
+  "first_accepted_solid_h": 57.583333333333336,
+  "first_saved_solid_h": 57.666666666666664,
+  "solid_g": 0.3738019589711286,
+  "max_solid_equivalent_volume": 10.976735534036848,
+  "dissolved_g": 3.0002467069526424,
+  "coarse_cumulative_water_share": 0.531088032288918,
+  "coarse_final_mm_day": 4.2298348264658685,
+  "fine_final_mm_day": 3.6120884774018918,
+  "old_new_loss_difference_at_old_end_g": 0.0015996121067804459,
+  "downflow_final": {
+    "time_h": 174.0,
+    "F36_all_max_down_m_s": 1.00814282418672e-06,
+    "F36_all_descending_volume_fraction": 0.3359827124023437,
+    "F36_all_rms_anomaly_mol_L": 0.1875989962690558,
+    "F36_core_max_down_m_s": 4.50801561861558e-07,
+    "F36_core_descending_volume_fraction": 0.2572205875163132,
+    "F36_core_rms_anomaly_mol_L": 0.1342121413505449,
+    "F36_dissolved_mol": 0.0196424415036165,
+    "W3_all_max_down_m_s": 3.6771732269657904e-09,
+    "W3_all_descending_volume_fraction": 0.0,
+    "W3_all_rms_anomaly_mol_L": 0.3837157080973979,
+    "W3_core_max_down_m_s": 2.31522859737139e-09,
+    "W3_core_descending_volume_fraction": 0.0,
+    "W3_core_rms_anomaly_mol_L": 0.2253449479133141,
+    "W3_dissolved_mol": 0.031694022645135
+  },
+  "figures": [
+    "01_evaporation",
+    "02_salt",
+    "03_profiles",
+    "04_downflow",
+    "05_early",
+    "06_common",
+    "07_late_fields",
+    "08_sections"
+  ],
+  "salt_partition": [
+    {
+      "side": "F36",
+      "inventory_increase_mol": 0.003959699050886299,
+      "bottom_supply_mol": 0.02691824717574714,
+      "interface_in_mol": -0.022958557216948627,
+      "seed_mol": 9.092129701904206e-09,
+      "max_residual_mol": 4.744815651491763e-14
+    },
+    {
+      "side": "W3",
+      "inventory_increase_mol": 0.0239755854110594,
+      "bottom_supply_mol": 0.0010170372862399577,
+      "interface_in_mol": 0.022958557216948627,
+      "seed_mol": -9.092130819066124e-09,
+      "max_residual_mol": 2.851885394505871e-15
+    }
+  ]
+}

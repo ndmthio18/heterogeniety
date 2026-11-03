@@ -1,0 +1,27 @@
+{
+  "file": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\analysis\\rh0_fixed_80h_comparison_20261102\\matched_mass.csv",
+  "sha256": "1a7b72862522e56d8162b184327dbe54d5a3ed0494c40f0fe02025b1ee3115f1",
+  "used_columns": [
+    "time_h",
+    "mass_g"
+  ],
+  "MRI_or_simulation_inputs": false,
+  "primary_window": [
+    24,
+    174
+  ],
+  "sensitivity_starts": [
+    12,
+    18,
+    24,
+    30,
+    36
+  ],
+  "sensitivity_ends": [
+    174,
+    186
+  ],
+  "fit_basis": "integrated rate laws fitted to original weighing levels with free intercept, avoiding independent-error assumption on differenced intervals",
+  "AICc_assumption": "iid equal-variance Gaussian weighing errors; unknown repeatability/drift; rankings are conditional, not proof of physical onset",
+  "profile_interval": "delta AICc <=2 within selected break model; not a confidence interval for crystallization time"
+}

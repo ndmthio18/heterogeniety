@@ -1,0 +1,719 @@
+{
+  "created_utc": "2026-11-03T10:40:04.579134+00:00",
+  "scope": "v12 RH0 fixed hydraulics 174h accepted analysis and weighing-only rate inference",
+  "original_analysis_manifest_verified": true,
+  "external_submission": false,
+  "file_count": 142,
+  "files": [
+    {
+      "path": "analysis/evaporation_only_onset_20261102/analyze.py",
+      "bytes": 3973,
+      "sha256": "bfbc7d1daa0e3db42ae3058b4020e82867683c84404e310998542cd00bb0e650"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/break_profiles.csv",
+      "bytes": 51384,
+      "sha256": "f2da9a0955d6d7ce9664c21d3532309f05cee43688fb6982c272df0409666bb6"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/checks.json",
+      "bytes": 298,
+      "sha256": "152c28c8e4e288d69edd92a7144679de9279f5b907f6e07f0a151ebbfb77fe5e"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/EVAPORATION_ONLY_CHANGEPOINT.pdf",
+      "bytes": 81502,
+      "sha256": "fd738846e2e3966d6060fca39df8dd187782ff1999e1017fb682208f560ed3cb"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/EVAPORATION_ONLY_CHANGEPOINT.png",
+      "bytes": 528885,
+      "sha256": "a065ed8a67ebaeab4d1f126dac186578e7eb8086045209e94152cd80f0ebaf4e"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/EVAPORATION_ONLY_CHANGEPOINT.svg",
+      "bytes": 69963,
+      "sha256": "1dbc433223882ab9e50ca6144cec1657ad26841e63142bf6b8d75310887586c5"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/EVAPORATION_ONLY_INFERENCE.md",
+      "bytes": 3304,
+      "sha256": "6985e378003ba5a8945597f9059f9bb20020ad471571b43408e3155e53457c69"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/experimental_rates_only.csv",
+      "bytes": 2363,
+      "sha256": "8967303b99db940a1b3bdf5a86d80d7c9d19a0037b47fcbe73532e620a0bf81a"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/fits.json",
+      "bytes": 29864,
+      "sha256": "d96710225bc9c04cb94a9f8275bf4cfc459a09fe4858834e103575569095f500"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/MANIFEST.json",
+      "bytes": 1233,
+      "sha256": "9127165d6c60fbfc4ee32b828c538fa3323b2393ec023e78d24b4fa6e6e2c2eb"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/model_comparison.csv",
+      "bytes": 14926,
+      "sha256": "e8b687e8b32e25a4983a311e171cbf7cb409ef91551247253737d688d0dbdd02"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/plot_report.py",
+      "bytes": 7783,
+      "sha256": "5d8a3f79b8a68a37217ab0ed5f4b76edbb4b8b315c1b0d231c49be5c6ad1e28c"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/render.png",
+      "bytes": 119672,
+      "sha256": "79e7195c3adcc0350a667efc07876e35d73184dff1d8beaea2946a80311f1a76"
+    },
+    {
+      "path": "analysis/evaporation_only_onset_20261102/source.json",
+      "bytes": 916,
+      "sha256": "b84a2964f379ddce6538d358461fe9dfc8e1c26db2d5471c9718dd91322d9554"
+    },
+    {
+      "path": "analysis/model_experiment_comparison_20261028/experimental_profiles.csv",
+      "bytes": 154731,
+      "sha256": "1af322bd1fa3f47ec37c85fb3b1360a0f09dc7cdaa814eac3022b6df66569d5b"
+    },
+    {
+      "path": "analysis/redraw_molarity_comparison.py",
+      "bytes": 31580,
+      "sha256": "f832725646ddb4e8bf01a8202f263c41a27e40a6023e02d6dab1924a528a4789"
+    },
+    {
+      "path": "analysis/rh0_evaporation_65h_20261102/full_experiment/full_experimental_mass.csv",
+      "bytes": 2711,
+      "sha256": "ca60e426baa7c0b53542aa3c3c90e6e1e8fac0b78ba64257d5ef4a669e032e86"
+    },
+    {
+      "path": "analysis/rh0_evaporation_65h_20261102/report_rate_formula_audit.csv",
+      "bytes": 3340,
+      "sha256": "9c4cdb1fd49bdfa79f70055dae86b7518f21d041538da3c63066933d5dfa4191"
+    },
+    {
+      "path": "analysis/rh0_fixed_80h_comparison_20261102/matched_mass.csv",
+      "bytes": 2172,
+      "sha256": "1a7b72862522e56d8162b184327dbe54d5a3ed0494c40f0fe02025b1ee3115f1"
+    },
+    {
+      "path": "model_revisions/20261028/analyze_revision.py",
+      "bytes": 25938,
+      "sha256": "d41a7dd6604cb80be3dbf39054e081d12e2400f13dccbfa990ec261e1cc6bae2"
+    },
+    {
+      "path": "model_revisions/20261029_cylinder_v06/plot_comparison.py",
+      "bytes": 11723,
+      "sha256": "e6279c6fb0aac1ccd6b1a1a48c09bc0ab8604777a36cf96d0ba2002daa2a1961"
+    },
+    {
+      "path": "model_revisions/20261029_cylinder_v06/results/production24/profiles.npz",
+      "bytes": 203323,
+      "sha256": "dbacbd3afd4ee0e12184e7024b432db70788dbddb19bf670ab1bbf5c7658c8ea"
+    },
+    {
+      "path": "model_revisions/20261030_cylinder_precip_v09_r02/remote_backup/runs/RH0_174h/budget.csv",
+      "bytes": 522314,
+      "sha256": "1510d993129e28c53a3c8f55ec1489104fbe6d2255c6fa8aa6252e2f6b468686"
+    },
+    {
+      "path": "model_revisions/20261030_cylinder_precip_v09_r02/remote_backup/runs/RH0_174h/film_budget.csv",
+      "bytes": 260761,
+      "sha256": "aff0104e0e88df71c47e5288d0215fab7125e09bfcf8afd6f42d105da076808f"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/backup_manifest.json",
+      "bytes": 364071,
+      "sha256": "3a3c11798ed105a1316ac04186dbbdefccf0fb8363392578176059243b721fcb"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/build_manifest.json",
+      "bytes": 8146,
+      "sha256": "c82188d9769b5354abbc90e26d96b5efe3c02850f954bc79564c06cf969950e0"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/DELIVERY_STATUS.json",
+      "bytes": 358,
+      "sha256": "627855a743c9d05cd565615b8f1e63a3eb3bbc0db2337dd0ce6a9e82f05388e8"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/finalize_compare.py",
+      "bytes": 17464,
+      "sha256": "3aac4746e7a12c458125db9c7a86c381b6042b731c5e220e3252da4acb70e291"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/finalize_extract.py",
+      "bytes": 6552,
+      "sha256": "452edea4b39fc0b39d5d3049170613355ca1b92ae79b0c1f84a4ea120c78e48c"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/FIXED_HYDRAULICS_174H_REPORT.md",
+      "bytes": 10454,
+      "sha256": "0fd6684e4fda027877bb36ca0e9eaa120e21e2ad7eb0a234c64729622434d158"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/input_diff.json",
+      "bytes": 183,
+      "sha256": "a3a5b3e5c93359ffe316af6eb4c9d0cec6a0b9f72bbfad06f0ffb6afb4b0d63e"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/cylinder.msh",
+      "bytes": 3869987,
+      "sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/Dissolve_dt15.input",
+      "bytes": 2124,
+      "sha256": "ffc919e658431796646ba90a4a21c6db82a02ae3ed94089945492eccefe6d404"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/Dissolve_dt30.input",
+      "bytes": 2124,
+      "sha256": "6e993f24e854b50b7939674b1cbd28b936de2afaa7c40a99970dff65a1b52cd7"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/forcing_provenance.json",
+      "bytes": 639,
+      "sha256": "755fd31b00f7512490e8a208ca0383642108aaae4fa13f029ff118e69aeb92fd"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/Legacy_precipitate.input",
+      "bytes": 2125,
+      "sha256": "621b38f14072ca12b754789982b03b7da36147c97b34620245e23c73143c4c81"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/Precipitate_dt15.input",
+      "bytes": 2122,
+      "sha256": "8e3f930331cadbeade3cc53e6586b3512cc8a7ae5fe124f18444f8e87ff48229"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/Precipitate_dt30.input",
+      "bytes": 2122,
+      "sha256": "3e4b96f81ebb8f481edb09967fe63b8583cb8afeb47475532d39e975a0209d9d"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/reaction.msh",
+      "bytes": 13536,
+      "sha256": "929c33ef23aeaa8a092383758cd106f7b38a056cede434d90d0d01c544c78ec5"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/Recovery_injected.input",
+      "bytes": 2147,
+      "sha256": "9877af528839473149265d74f08187931ab48c167acf279a20b24b8f73f6e433"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/Regression_disabled.input",
+      "bytes": 1985,
+      "sha256": "03408a152535b4d910095afe2eec9622e8ad0d95373e12972ce733be3574d1fe"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/Regression_equilibrium.input",
+      "bytes": 1987,
+      "sha256": "4bbf004150de4d4dc8a74051c27808f0402b79de534ae644fcd64c95ff74d5e0"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/RemainSolid_dt15.input",
+      "bytes": 2126,
+      "sha256": "31beafc184f2d3a8b10abf73322d475c4e13a26e02bce166cfe160c8b6f6f685"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/RemainSolid_dt30.input",
+      "bytes": 2126,
+      "sha256": "d113f2dc9ec07bfb886ed7e0ce9ea0b3488da367a529092d466a8c107b71c3fc"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/RH0_174h.input",
+      "bytes": 1975,
+      "sha256": "e1ae660d198f696713d4b1825b47811a3f8646142d7f029cc6c5f22c347783ef"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/Selftest_coupled.input",
+      "bytes": 2008,
+      "sha256": "e4c245733f6004c8f1e4225d39375c887d3017d20f76a876507e46a8fce49c7a"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/Selftest_fixed.input",
+      "bytes": 2005,
+      "sha256": "31ed6b5267f04fdc00dc94665cebd0eac5dcda300782e1e8ab5413d010ef6817"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/inputs/water_flux_zero_storage.txt",
+      "bytes": 567,
+      "sha256": "4758eb4bf0356f16d1d10376709fecebb9570c6e211b901a124430af9f2bddbe"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/METHOD.md",
+      "bytes": 4933,
+      "sha256": "b13d308601f135d0cd1ead98aca1aed1fa93aa500c5c1b9843be44ca940675dd"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/parent_build_manifest.json",
+      "bytes": 8151,
+      "sha256": "4f1e0a84d630bd3e97e7936a96556a38c359d8181e1beb466d05aabaaa5f809d"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/parent_to_v12.patch",
+      "bytes": 9275,
+      "sha256": "6bd94eaa9d78173f52f41526862dcf6411383cef8ffa19317a0b6f5218340d6d"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/POSTPROCESS_PLAN.md",
+      "bytes": 3178,
+      "sha256": "4f6293021313f5a458439caf206eba9384ce47152e87ce4512b46a727ae3a517"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/remote_metadata/campaign_status.json",
+      "bytes": 1603,
+      "sha256": "a4c622faa215c8f532b4b5eceef8668423bbce467af9ffdc591c045cf8e2f267"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/remote_metadata/gate_summary.json",
+      "bytes": 16900,
+      "sha256": "1eefeffe20ea3afe71b2f2fcad6653bfff677523b5dd1599eb22b6cda53e73ce"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/remote_metadata/RH0_174h_status.json",
+      "bytes": 1340,
+      "sha256": "d86cc7686124a224ee1da97c0623022fdc81b83467db85c22449890e760a2684"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/acceptance.json",
+      "bytes": 522,
+      "sha256": "6487585a3f8657499eb4d512ec2976009c300b2fa9f72147db7202fe6d1fa42b"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/budget.csv",
+      "bytes": 1374036,
+      "sha256": "bc59d4abe476208508d0fd92526ba46670cb5f44230dca6f5f9d84a3dbad1370"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/build_manifest.json",
+      "bytes": 8146,
+      "sha256": "c82188d9769b5354abbc90e26d96b5efe3c02850f954bc79564c06cf969950e0"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/cell_geometry.csv",
+      "bytes": 4040978,
+      "sha256": "3667de98e158fff31a71bf2571f8b17564936be8e0fe9a25b68d412977db89ee"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/compressed_fields.jsonl",
+      "bytes": 258965,
+      "sha256": "552b163810c7a2dc043f02f17f67c7ad7bd1d4fdabc8f26d8c1281abb236b0f9"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/effective_parameters.txt",
+      "bytes": 2233,
+      "sha256": "aae77e4ec89da12a39166b830e41c12a482b853300a0c8796318f69fcb605c30"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/film_budget.csv",
+      "bytes": 666586,
+      "sha256": "101f31a07fa9862903b3840c615e80c55a8ff1e70fec6ef6dbf1adedbf0cb98c"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/forcing_provenance.json",
+      "bytes": 639,
+      "sha256": "755fd31b00f7512490e8a208ca0383642108aaae4fa13f029ff118e69aeb92fd"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/geometry_audit.json",
+      "bytes": 434,
+      "sha256": "d4905f4c43ee3e4e14b35948f5a15c980f62b8b3a0459ac556159d0ac94732f9"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/mineral_budget.csv",
+      "bytes": 276137,
+      "sha256": "94e5b4152044b329070f589eae0d06ee13e569634d6d45a61eea811b3d6943ff"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/prefix_check.json",
+      "bytes": 765,
+      "sha256": "1a6fb2cf59ec3ed42f3993fd4566b85adb8e53aeb4e7f2507a798c497dcb94ec"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/prefix_check_preprecip_v09r02.json",
+      "bytes": 741,
+      "sha256": "466a7953432ba34c168cc3d2063cd4258924b05121c5fe9d9660c9295f96fad1"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/RH0_174h.input",
+      "bytes": 1975,
+      "sha256": "e1ae660d198f696713d4b1825b47811a3f8646142d7f029cc6c5f22c347783ef"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/RH0_174h.pvd",
+      "bytes": 86619,
+      "sha256": "8682cb50e2206cb01bed57ee6452c0cc016a1e0688bad29aab876f7fd38be336"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/run_manifest.json",
+      "bytes": 1340,
+      "sha256": "d86cc7686124a224ee1da97c0623022fdc81b83467db85c22449890e760a2684"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/remote_backup/runs/RH0_174h/seed_event.json",
+      "bytes": 268,
+      "sha256": "ce1cad8ef9453647841e9d6a6154e066342c2dd5a4fe78c484998c3e254fea8e"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/REPAIR_LOG.md",
+      "bytes": 2277,
+      "sha256": "fa8b2b192265dba5bfa56789b81a7cdcd54a50b9f04e8167b995b47eb1b741e0"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/01_evaporation.pdf",
+      "bytes": 23735,
+      "sha256": "c3df3442f394ebe0679e66c0680f64b9b69d0ca9322a8dab43dee81762b39f55"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/01_evaporation.png",
+      "bytes": 287041,
+      "sha256": "d28effbc1ed8f5d98710df4a789f7c21d7bec8b466fb8cdd67c6ee91590fb745"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/02_salt.pdf",
+      "bytes": 19955,
+      "sha256": "75396ee7f527c1fb90b6187189da1a24c800662c25ec31756c386015b3ebdd01"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/02_salt.png",
+      "bytes": 265289,
+      "sha256": "c007149b2706dcc885fa3969fa8d72f39b2be1ba20d93a4441b34b66836abf23"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/03_profiles.pdf",
+      "bytes": 26929,
+      "sha256": "347dea794e3305696d4661e3f69fb5f65d9a8f644861c61b9895048d9c667dbb"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/03_profiles.png",
+      "bytes": 189884,
+      "sha256": "24437d7e17fad741ff4e99ee306197f4e1128fe08ce3595e48e6537e9a53e9c9"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/04_downflow.pdf",
+      "bytes": 24054,
+      "sha256": "77f8f035dbeb34b29514277bb908527fbd6b507d166070af2644cfa082f9cebe"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/04_downflow.png",
+      "bytes": 230608,
+      "sha256": "703838b0850eea6c5abd55f322c61b9bf28f00f87c45609a85adba541f0aa2d7"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/05_early.pdf",
+      "bytes": 26977,
+      "sha256": "06be5e68f530270136fa344c8a4df4acea8388b88d4e9ac6b94748e2db690ade"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/05_early.png",
+      "bytes": 101999,
+      "sha256": "5689b1cf2f03468c09d4aee3e50fe70187e94af1014ee8486bada6bf59cf0038"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/06_common.pdf",
+      "bytes": 31563,
+      "sha256": "4167d0cc3376ddd941595147f9102ce6d4f9f75ffb2802286d3ad3915a7d69d4"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/06_common.png",
+      "bytes": 112180,
+      "sha256": "3f010312ed17509224192e2a4cf1ffe672e64e7ac610645967e33aee5a5c3827"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/07_late_fields.pdf",
+      "bytes": 40239,
+      "sha256": "067b6c8d20b2af8463d770e454b54b3b32590e99b5c0c83c5ea098797718462e"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/07_late_fields.png",
+      "bytes": 133416,
+      "sha256": "2639d28d27dca22dc835e6bd0a3dd301d591d298b61e00e0d6b91866d16589ff"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/08_sections.pdf",
+      "bytes": 127411,
+      "sha256": "ee8bd5bd6fbd6ae9677ee2d626cd79e810d6a8e1b906a73039a1da4311b0e7b6"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/08_sections.png",
+      "bytes": 350001,
+      "sha256": "9039522ae5471a4f7d8dc2528720214ba0fe9dcebd45cde3faf46a83caa978d5"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/artifact_checks.json",
+      "bytes": 804,
+      "sha256": "8a197817fba10afd7cf32265e83814dacb104719d10e220af464b414fe0acf69"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/contact_sheet.png",
+      "bytes": 792278,
+      "sha256": "66f90274e227ca4469f17236028931f1475167c34c112ef09e76d9c895a448a8"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/coupled/extraction.json",
+      "bytes": 14703,
+      "sha256": "b6591a53dd2a0079fcc01500bf1b56b3cd5824d6a083f9eee01ab02523ffd10e"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/coupled/profiles.npz",
+      "bytes": 42017,
+      "sha256": "d5d3d2f79e25f1bea42745b9667f52735b029aae8884be4df2cad579dea7d067"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/coupled/snapshots.npz",
+      "bytes": 5724406,
+      "sha256": "80b1c78cadbf6640ceaa1f71a92a2e05164f30352fc1563a1a44551d486f60ea"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/coupled/spatial_history.csv",
+      "bytes": 22796,
+      "sha256": "bc3bc827b2800da788aac1fc10d0237a549534c72907eb1229481ca0da843332"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/evaporation_metrics.csv",
+      "bytes": 848,
+      "sha256": "ff6790f838edc3e694f386ad483eec9c11b540651f6dbbcfdc93d567a31d3c0d"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/fixed/extraction.json",
+      "bytes": 32437,
+      "sha256": "907b912ed5b998815e3e314890bcf28f8508d6d91fdf72089ab4ceb4554b6d34"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/fixed/profiles.npz",
+      "bytes": 94799,
+      "sha256": "4291c03295dfcb201f014a055795cb0565687c6cf555256b45427deb3b242171"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/fixed/snapshots.npz",
+      "bytes": 7919815,
+      "sha256": "719bd05dec5dab8e6d14fa6c1f6c46e2960bf958830c3066aff53e6a2b2dd45c"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/fixed/spatial_history.csv",
+      "bytes": 50784,
+      "sha256": "3403012a1b089a8d39ab61d4d667e89c8f5684732d4da842934bdefe6d82bd3c"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/generation.log",
+      "bytes": 2804,
+      "sha256": "74deb98c48b5825e2015e786f4e1e63d59f31c90a1c0e547d0b14647944605fa"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/interval_rates.csv",
+      "bytes": 4669,
+      "sha256": "0698234452930352c0b0f32afd9c8229d290b11a9aedf5b774759f8362664d44"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/MANIFEST.json",
+      "bytes": 5343,
+      "sha256": "f0d96d34185750d4e5be50528c41aaed0fc0f097303b66464aa42215f553ad3a"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/model_budget_derived.csv",
+      "bytes": 1545256,
+      "sha256": "6af90bfeff8b6bd9a846098c98eb4589ffcc87ed22bf9776918262f502b10439"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/native_field_differences.csv",
+      "bytes": 482,
+      "sha256": "226cb72e0fe70f0788e7e4fc3fe88a80264acd5e743f1ea60a17f80290448c89"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/profile_metrics.csv",
+      "bytes": 7476,
+      "sha256": "cd06a2c3981b95c0c6fd437c24c8054031f099f6929a11ab5d192b7e8b82bf2e"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/profile_pairs.csv",
+      "bytes": 120758,
+      "sha256": "cb3b11bf0cf2ea1d5bf2f5ac7905a6bba475b828d49d5bda3cbf42e626945d38"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/QA_page_01.png",
+      "bytes": 132879,
+      "sha256": "22ee10d391ffbb625af9a89172e6fd5614c7ae78a9173df27b39e9e5a44f7a7c"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/QA_page_03.png",
+      "bytes": 131663,
+      "sha256": "d0cf9d1013722f899e6a28c5d194469988bb60e74a99f4a6feed07e65bab9e21"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/QA_page_05.png",
+      "bytes": 76727,
+      "sha256": "33e38277cc5d6d39b2f5b9dc665921e2908f3cb571f7a094f5b5058e9cc5682f"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/QA_page_07.png",
+      "bytes": 119335,
+      "sha256": "a4ef8643727318ea42f824da07db76237f9f08a0cb2cc48e7e0116e3d7dc655a"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/RH0_FIXED_174H_COMPARISON.pdf",
+      "bytes": 234162,
+      "sha256": "ee36bbe50ce77709e48edc18027d7f7fb5bcee8140e4b6ab98efc1f81ed5ee3d"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/salt_partition_closure.csv",
+      "bytes": 313,
+      "sha256": "d18279d37f6ca55da04b996196e6a7b1615a5f0a04461c265652c05240db6280"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/SOURCE_PINS.json",
+      "bytes": 1778,
+      "sha256": "fca3c03878574c22b938f9259c1e5224dda4ff8db67d7089fb6c1b5b57728712"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/summary.json",
+      "bytes": 2012,
+      "sha256": "abc26419e57e86f7d9dddc9c541aa071071b68895337a6fee24b08c69ac22308"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/terminal_verification.json",
+      "bytes": 1808,
+      "sha256": "0b25667b5ac0e16c13bc1840ae527aa69bc9cc828061528016251a667e503467"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/CMakeLists.txt",
+      "bytes": 239,
+      "sha256": "1aa7dc9493cd64263e4c27d8310f0efe3ac6e80d426a02d710883231cf8baa93"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/cylinder_geometry.hh",
+      "bytes": 2444,
+      "sha256": "a72cf329684708fa887f3e405728e95e2377cd009ba5da59364ac1d4fa0c511c"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/equilibrium_localresidual.hh",
+      "bytes": 1045,
+      "sha256": "0c5da3ec163005cf042b8a91673e76c2e148e02fccb29b5f4b028221bdd0c7cf"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/geometry_audit.hh",
+      "bytes": 2323,
+      "sha256": "13f17059ddea094895e8eafc04e1b0eb85bfc58a09d950d5815601a11171c241"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/hydraulic_selftest.hh",
+      "bytes": 4180,
+      "sha256": "e8f53af66cc43cc9c4b2fda06fb31da305cf8d955a504bfa7713100635e8ca96"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/iofields.hh",
+      "bytes": 5143,
+      "sha256": "144227a2f608f3e574ad2d5d70a50de78931532adfd54e569f1596c64e6acb41"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/main.cc",
+      "bytes": 4989,
+      "sha256": "9e329d4cecde77c285a9cf18c0b98b4ba2a3a39f9614b68c50b9e84263b938d1"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/params.input",
+      "bytes": 4319,
+      "sha256": "59b4efad9495e9e17fde23455a2c4e07abef517641c2db309ff7cc1973cf67b2"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/phase_equilibrium.hh",
+      "bytes": 3079,
+      "sha256": "187f078ac33c1b4d4a15571532911d2d97b81a24de537941237129341c062223"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/precipitation_equilibrium.hh",
+      "bytes": 775,
+      "sha256": "6d0b8d4c1c9b6f31f971301166c37bf41de134d6c1b5689f7b96b73124073131"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/problem.hh",
+      "bytes": 31085,
+      "sha256": "1186a75fa0125bceb9a498dec6e5a010754b74d2dafef93ff0fdd7fccf6f5dbb"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/properties.hh",
+      "bytes": 5539,
+      "sha256": "d4a04565fe45f86c0b6f9dd9e97fbc3e7c20f0f365fd454f2877a4df70f83b92"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/revision_support.hh",
+      "bytes": 2384,
+      "sha256": "fed909ca2c4ee597b657c4c332645b0c1b06c9a5846cc25783b1b21cc9ae511b"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/run_testcases.sh",
+      "bytes": 5804,
+      "sha256": "439f6ae1c744b786296950380fc165835fa3b88063bec5660ba32ae3b87c6331"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/spatialparams.hh",
+      "bytes": 9691,
+      "sha256": "f1365bb57385a5a6013e99ee10e88efdfd7e8737b133aa4124813e56f27500e0"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/transport_fluidsystem.hh",
+      "bytes": 3097,
+      "sha256": "7e6a628a3d11cd98135dd14d23399d5c0dd279943d7afc19fb057b2d6548a78f"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/appl/water_activity.hh",
+      "bytes": 2171,
+      "sha256": "3d0e763c55f8a96d1881dec2407fb5f0ad909ac2a8ccb074ccace6c630fda4b4"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/config.h",
+      "bytes": 11285,
+      "sha256": "8954964a23b81ad511751cbcc3b45e2c0a42a462f4f5377d65ef3b1cb7849b09"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/source/dumux/porousmediumflow/2pnc/volumevariables.hh",
+      "bytes": 19925,
+      "sha256": "5591e3b5fcb3309ae57acfe506ada1306a038aeb2c45dcd1ba267a5c9713e02d"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/staging_manifest.json",
+      "bytes": 5024,
+      "sha256": "6e8662b1550e3580a7d97f3ebeab19fca6dbb1e710e9a6bc711b87f8a56e46f5"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/tests/test_revision_support.cc",
+      "bytes": 2332,
+      "sha256": "e2f682b7365adb7990d7c5b70d2320d442f50c06d08864188d957a1d9a3f8f7a"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/tests/test_unified_equilibrium.cc",
+      "bytes": 5378,
+      "sha256": "9819131323f5e89d2fe10bcfe9563aeb21c615fe249f102a60c7bef1ca5af917"
+    },
+    {
+      "path": "model_revisions/20261102_cylinder_fixed_hydraulics_v12/write_final_report.py",
+      "bytes": 11166,
+      "sha256": "43f89b65461188362c702c2e44b649d5571e2da47a5122ee42d9040565ca48c0"
+    },
+    {
+      "path": "PYTHON_ENVIRONMENT.json",
+      "bytes": 143,
+      "sha256": "9073bcff785a40b407a65e9cb996f6008f1ebe0ab9531ea259fcb9ba45c05104"
+    },
+    {
+      "path": "README_先读.md",
+      "bytes": 4157,
+      "sha256": "6479ffea1c631f9024b3c36f6c1c52b50145992e1a13a13a54542ff663c681f6"
+    },
+    {
+      "path": "REPRODUCTION_CHECK.json",
+      "bytes": 425,
+      "sha256": "c81ebce8f29258dd381359f35f15142b3bdeb53955f04f49ddf4b746a97b9175"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 395,
+      "sha256": "7e81a6ede3a42cb26c59213902907c81e2c1ec518820949adf33a5cc7b8293e7"
+    }
+  ]
+}

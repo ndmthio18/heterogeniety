@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "execution": "isolated package copy, no original output changes",
+  "metric_byte_equality": {
+    "evaporation_metrics.csv": true,
+    "profile_metrics.csv": true,
+    "salt_partition_closure.csv": true,
+    "native_field_differences.csv": true,
+    "summary.json": true
+  },
+  "directory": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\analysis\\package_qa_rh0_174h_20261103"
+}

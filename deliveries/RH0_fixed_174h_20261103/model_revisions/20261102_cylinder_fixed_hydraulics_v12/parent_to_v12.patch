@@ -1,0 +1,161 @@
+--- parent/source/appl/hydraulic_selftest.hh
++++ v12/source/appl/hydraulic_selftest.hh
+@@ -0,0 +1,74 @@
++#ifndef CYLINDER_HYDRAULIC_SELFTEST_HH
++#define CYLINDER_HYDRAULIC_SELFTEST_HH
++#include <array>
++#include <cmath>
++#include <fstream>
++#include <iomanip>
++namespace HeterogeneityFixed {
++// Probe actual volume variables and assembled storage, not a surrogate formula.
++// No state is inserted into the time-dependent solution.
++template<class Tag,class Problem,class GG,class SV>
++int selfTest(const Problem& problem,const GG& gg,const SV& x) {
++ using namespace Dumux;
++ using VV=GetPropType<Tag,Properties::VolumeVariables>;
++ using FS=GetPropType<Tag,Properties::FluidSystem>;
++ using LR=GetPropType<Tag,Properties::LocalResidual>;
++ const bool fixed=getParam<bool>("Revision.FixedHydraulics",false);
++ if(!getParam<bool>("Revision.EquilibriumPrecipitation",false))
++  DUNE_THROW(Dune::InvalidStateException,"Hydraulic selftest requires total-salt equilibrium storage");
++ LR residual(&problem);std::array<bool,2> done{false,false};int probes=0;
++ double maxSaltError=0,maxWaterError=0,maxDiffError=0;
++ for(const auto& e:elements(gg.gridView())){
++  auto fv=localView(gg);fv.bindElement(e);
++  for(const auto& scv:scvs(fv)){
++   const int side=scv.center()[0]<=.025?0:1;if(done[side])continue;
++   auto es=elementSolution(e,x,gg);es[scv.localDofIndex()][3]=0;
++   VV base;base.update(es,problem,e,scv);
++   const auto phi0=problem.spatialParams().referencePorosity(e,scv);
++   const auto k0=getParam<double>(side==0?"SpatialParams.CoarsePermeability":"SpatialParams.FinePermeability");
++   const auto n0=residual.computeStorage(problem,scv,base);
++   for(double equivalentSolid:{.001,.01,.1,.45}){
++    if(!fixed&&equivalentSolid==.45)continue; // coupled state would have negative geometric pore volume
++    es[scv.localDofIndex()][3]=equivalentSolid;VV v;v.update(es,problem,e,scv);
++    const auto n=residual.computeStorage(problem,scv,v);
++    const auto solid=equivalentSolid*v.solidComponentMolarDensity(0);
++    const double expectedPhi=fixed?phi0:1.0-(1.0-phi0+equivalentSolid);
++    if(std::abs(v.porosity()-expectedPhi)>1e-14||std::abs(v.solidVolumeFraction(0)-equivalentSolid)>1e-15)
++     DUNE_THROW(Dune::InvalidStateException,"Hydraulic selftest changed pore law or lost solid inventory");
++    if(fixed&&v.permeability()!=k0)DUNE_THROW(Dune::InvalidStateException,"Fixed K depends on solid");
++    if(!fixed&&!(v.permeability()<base.permeability()))DUNE_THROW(Dune::InvalidStateException,"Coupled K did not decrease");
++    double fluidSalt=0,fluidWater=0;
++    for(int ph=0;ph<2;++ph){
++     fluidSalt+=v.porosity()*v.saturation(ph)*v.molarDensity(ph)*v.moleFraction(ph,FS::NaClIdx);
++     fluidWater+=v.porosity()*v.saturation(ph)*v.molarDensity(ph)*v.moleFraction(ph,FS::H2OIdx);
++    }
++    const auto saltErr=std::abs(n[FS::NaClIdx]-(fluidSalt+solid))/std::max(1.,std::abs(fluidSalt+solid));
++    const auto waterErr=std::abs(n[FS::H2OIdx]-fluidWater)/std::max(1.,std::abs(fluidWater));
++    maxSaltError=std::max(maxSaltError,saltErr);maxWaterError=std::max(maxWaterError,waterErr);
++    if(saltErr>1e-12||waterErr>1e-12||n[3]!=0)
++     DUNE_THROW(Dune::InvalidStateException,"Hydraulic selftest total storage inconsistent");
++    if(fixed){
++     if(n[FS::H2OIdx]!=n0[FS::H2OIdx]||n[FS::AirIdx]!=n0[FS::AirIdx])
++      DUNE_THROW(Dune::InvalidStateException,"Fixed pore fluid storage depends on solid");
++     for(int ph=0;ph<2;++ph){
++      const auto db=base.effectiveDiffusionCoefficient(ph,FS::H2OIdx,FS::NaClIdx);
++      const auto dn=v.effectiveDiffusionCoefficient(ph,FS::H2OIdx,FS::NaClIdx);
++      maxDiffError=std::max(maxDiffError,std::abs(db-dn));
++      if(dn!=db)DUNE_THROW(Dune::InvalidStateException,"Fixed pore diffusion depends on solid");
++     }
++    }
++    ++probes;
++   }
++   done[side]=true;
++  }
++  if(done[0]&&done[1])break;
++ }
++ if(!done[0]||!done[1])DUNE_THROW(Dune::InvalidStateException,"Selftest did not cover both materials");
++ std::ofstream out("hydraulic_selftest.json");out<<std::setprecision(17)
++  <<"{\"status\":\"passed\",\"fixed\":"<<(fixed?"true":"false")
++  <<",\"probes\":"<<probes<<",\"max_salt_storage_relative_error\":"<<maxSaltError
++  <<",\"max_water_storage_relative_error\":"<<maxWaterError<<",\"max_fixed_diffusion_change\":"<<maxDiffError<<"}\n";
++ return 0;
++}
++}
++#endif
+--- parent/source/appl/main.cc
++++ v12/source/appl/main.cc
+@@ -14,6 +14,7 @@
+ #include <dumux/io/vtkoutputmodule.hh>
+ #include <dumux/io/grid/gridmanager.hh>
+ #include "geometry_audit.hh"
++#include "hydraulic_selftest.hh"
+ int main(int argc,char** argv)try{
+  using namespace Dumux;using Tag=Properties::TTag::TYPETAG;
+  const auto& mpi=Dune::MPIHelper::instance(argc,argv);
+@@ -34,6 +35,7 @@
+  events.erase(std::unique(events.begin(),events.end(),[](auto a,auto b){return std::abs(a-b)<1e-7;}),events.end());
+  for(auto t:events)if(t>0&&t<=end)clock->setCheckPoint(t);
+  SV x(gg->numDofs());problem->applyInitialSolution(x);auto old=x;auto gv=std::make_shared<GV>(problem,gg);gv->init(x);
++ if(getParam<bool>("Revision.HydraulicSelfTest",false))return HeterogeneityFixed::selfTest<Tag>(*problem,*gg,x);
+  using Fields=GetPropType<Tag,Properties::IOFields>;VtkOutputModule<GV,SV> vtk(*gv,x,problem->name());
+  Fields::initOutputModule(vtk);
+  vtk.addField(problem->getPermeability(),"Permeability");
+--- parent/source/appl/problem.hh
++++ v12/source/appl/problem.hh
+@@ -99,6 +99,8 @@
+    <<" liquid_salt_binary_D="<<FS::binaryDiffusionCoefficient(reservoir_,liq,water,salt)<<std::endl;
+   if(supply_!="DistributedReservoir")DUNE_THROW(Dune::InvalidStateException,"Cylinder requires registered distributed supply; 2D slit is not a 3D aperture");
+   if(NONISOTHERMAL)DUNE_THROW(Dune::InvalidStateException,"Cylinder pilot is isothermal");
++  std::cout<<"FIXED_HYDRAULICS enabled="<<getParam<bool>("Revision.FixedHydraulics",false)
++   <<" salt_conserved=true temperature_mode=isothermal solid_inventory_not_geometric_when_fixed=true"<<std::endl;
+   permeability_.resize(gg->numDofs());
+   diagnosticVelocity_.resize(gg->numDofs());dofIds_.resize(gg->numDofs());
+   for(std::size_t i=0;i<dofIds_.size();++i)dofIds_[i]=i;
+@@ -230,6 +232,12 @@
+    auto fc=localView(gv.gridFluxVarsCache());fc.bind(e,fv,ev);
+    for(const auto& scv:scvs(fv)){
+     const auto& v=ev[scv];auto volume=scv.volume()*v.extrusionFactor();
++    if(getParam<bool>("Revision.FixedHydraulics",false)){
++     const auto phi0=this->spatialParams().referencePorosity(e,scv);
++     const auto k0=getParam<Scalar>(scv.center()[0]<=split_?"SpatialParams.CoarsePermeability":"SpatialParams.FinePermeability");
++     if(v.porosity()!=phi0||v.permeability()!=k0)
++      DUNE_THROW(Dune::InvalidStateException,"Fixed hydraulic phi/K changed in an accepted state");
++    }
+     for(int ph=0;ph<2;++ph){
+      Scalar sum=0;
+      if(v.saturation(ph)>1e-12&&(!std::isfinite(v.density(ph))||v.density(ph)<=0||!std::isfinite(v.molarDensity(ph))))DUNE_THROW(Dune::InvalidStateException,"Invalid phase density");
+--- parent/source/appl/spatialparams.hh
++++ v12/source/appl/spatialparams.hh
+@@ -149,6 +149,8 @@
+                                   const SubControlVolume& scv,
+                                   const ElementSolution& elemSol) const
+     {
++        if (getParam<bool>("Revision.FixedHydraulics", false))
++            return referencePermeabilityAtPos_(scv.center());
+         auto priVars = evalSolution(element, element.geometry(), elemSol, scv.center(), /*ignoreState=*/true);
+ 
+         Scalar sumPrecipitates = priVars[/*numComp*/3];
+--- parent/source/dumux/porousmediumflow/2pnc/volumevariables.hh
++++ v12/source/dumux/porousmediumflow/2pnc/volumevariables.hh
+@@ -131,6 +131,10 @@
+         /////////////
+ 
+         const auto& spatialParams = problem.spatialParams();
++        // v12 diagnostic: solid salt remains in its conservative inventory,
++        // but does not displace hydraulic pore volume. Never alter solid mass.
++        fixedHydraulics_ = getParam<bool>("Revision.FixedHydraulics", false);
++        referenceHydraulicPorosity_ = spatialParams.referencePorosity(element, scv);
+         const auto fluidMatrixInteraction = spatialParams.fluidMatrixInteraction(element, scv, elemSol);
+ 
+         const int wPhaseIdx = fluidState_.wettingPhase();
+@@ -414,7 +418,7 @@
+      * \brief Returns the average porosity within the control volume.
+      */
+     Scalar porosity() const
+-    { return solidState_.porosity();  }
++    { return fixedHydraulics_ ? referenceHydraulicPorosity_ : solidState_.porosity(); }
+ 
+     /*!
+      * \brief Returns the permeability within the control volume.
+@@ -470,6 +474,8 @@
+ 
+     Scalar pc_;                     // The capillary pressure
+     Scalar porosity_;               // Effective porosity within the control volume
++    bool fixedHydraulics_ = false;
++    Scalar referenceHydraulicPorosity_ = 0.;
+     PermeabilityType permeability_; // Effective permeability within the control volume
+     Scalar mobility_[ModelTraits::numFluidPhases()]; // Effective mobility within the control volume
+     DiffusionCoefficients effectiveDiffCoeff_;
