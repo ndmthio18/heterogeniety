@@ -50,7 +50,10 @@ for case in G:
     status_path = R / "track2d_g_conditional_r02/status" / f"{case}_production.json"
     status = json.loads(status_path.read_text())
     assert status["state"] == "completed_conditional", (case, status)
-    assert float(status.get("completed_evaporation_h", status.get("evaporation_time_h", 0))) >= 174
+    completed_h = status.get("acceptance", {}).get(
+        "completed_evaporation_h", status.get("completed_evaporation_h", status.get("evaporation_time_h", 0))
+    )
+    assert float(completed_h) >= 174
     path = R / "track2d_g_conditional_r02/results" / case / "profiles_history.csv"
     profiles[case] = pd.read_csv(path); source_paths.extend([status_path, path])
 
@@ -105,13 +108,13 @@ with PdfPages(pdf_path) as pdf:
                     ax.set_ylabel("Depth below surface (mm)")
         fig.suptitle("2D whole-half concentration profiles: " + name.replace("_", " "), fontsize=13, y=.984)
         handles, legend_labels = axes[0, 0].get_legend_handles_labels()
-        fig.legend(handles, legend_labels, loc="upper center", bbox_to_anchor=(.5, .951),
+        fig.legend(handles, legend_labels, loc="upper center", bbox_to_anchor=(.5, .94),
                    ncol=min(4, len(legend_labels)), fontsize=7.5, frameon=False)
         fig.text(.5, .012,
                  "G1–G3 are conditional sensitivity runs: the original refined-grid gate remains failed. "
                  "Archived MRI uses nominal clock; no crystallization-time inference.",
                  ha="center", fontsize=7.2)
-        fig.tight_layout(rect=(0, .045, 1, .89))
+        fig.tight_layout(rect=(0, .045, 1, .84))
         for ext in ["png", "pdf", "svg"]:
             fig.savefig(O / f"{name}.{ext}", dpi=180)
         pdf.savefig(fig)

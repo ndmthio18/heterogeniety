@@ -1,0 +1,5234 @@
+{
+  "state": "passed",
+  "through_evaporation_h": 174.0,
+  "frames": 1045,
+  "max_salt_field_ledger_relative_error": 6.8523942649890365e-15,
+  "source_hashes": [
+    {
+      "file": "G3-00012.vtu.gz",
+      "sha256": "672e8ea60a6ebaccc7939aac93197b8d5e0e7379639d57c57a644a4b2fc89ded",
+      "time_h": 0.0
+    },
+    {
+      "file": "G3-00013.vtu.gz",
+      "sha256": "f05402d5c9b0d2e2a608f294be931fda7ae88ced7931ff02bc92581532767496",
+      "time_h": 0.16666666666666652
+    },
+    {
+      "file": "G3-00014.vtu.gz",
+      "sha256": "f120e9c13c5d7550f1ef6aaf6240b2f628884b7993196bbbdc7237216ae7db39",
+      "time_h": 0.3333333333333335
+    },
+    {
+      "file": "G3-00015.vtu.gz",
+      "sha256": "b2c0f705ea8ca682beb5beca38e058c9c6511db17e676dd7f64a0373ba69590a",
+      "time_h": 0.5
+    },
+    {
+      "file": "G3-00016.vtu.gz",
+      "sha256": "179d3b5620b15834f87a39decd7f43c78c71faae570acbe2b0627c0a83cb2a94",
+      "time_h": 0.6666666666666665
+    },
+    {
+      "file": "G3-00017.vtu.gz",
+      "sha256": "82ff56ef207fb47526c10911271a8376a6674909446bc2b38ec0af63b29287bb",
+      "time_h": 0.8333333333333335
+    },
+    {
+      "file": "G3-00018.vtu.gz",
+      "sha256": "8058b67fc8f5d9329a43487aa1d50691162d4a7d76a381955661e37edb469d2b",
+      "time_h": 1.0
+    },
+    {
+      "file": "G3-00019.vtu.gz",
+      "sha256": "1fb0c2e75ad6934773ee3f3cf479e7c70fe27884a7bcc9380812b971e93bf360",
+      "time_h": 1.1666666666666665
+    },
+    {
+      "file": "G3-00020.vtu.gz",
+      "sha256": "0336aacb3f8694087c445f6f3e3039795c08a358dddc3223e9083b080da1991d",
+      "time_h": 1.3333333333333335
+    },
+    {
+      "file": "G3-00021.vtu.gz",
+      "sha256": "d44c284ecda01b3759b6392fbadad0f18ef07257741dc25c048bb01f9bded777",
+      "time_h": 1.5
+    },
+    {
+      "file": "G3-00022.vtu.gz",
+      "sha256": "7cc68fc9762e7c24aa6fedcf0342b220a8f555566b4c34e67cfd69690d9e8a3a",
+      "time_h": 1.6666666666666665
+    },
+    {
+      "file": "G3-00023.vtu.gz",
+      "sha256": "6daff653b0209aa4e6ab92b29ec4ef57ce20cdcf5ce6be1bd11f8ba655f95091",
+      "time_h": 1.8333333333333335
+    },
+    {
+      "file": "G3-00024.vtu.gz",
+      "sha256": "caf74704e8ea46a711430b5766f0d07fa48f51c78946ea0ab9f304670c2f4315",
+      "time_h": 2.0
+    },
+    {
+      "file": "G3-00025.vtu.gz",
+      "sha256": "69f1cb9134ad3ec2cb888fec7cfd2cc83f45318694a68b3236b566da26d6192c",
+      "time_h": 2.166666666666667
+    },
+    {
+      "file": "G3-00026.vtu.gz",
+      "sha256": "2a77b48974e47ed42d2d86538de17ea8ea28d301681cad43a729366739c63250",
+      "time_h": 2.333333333333333
+    },
+    {
+      "file": "G3-00027.vtu.gz",
+      "sha256": "47bf345b5d559e714f3022e32402fec12b28956c39b4b8fa223db278dfaf1d26",
+      "time_h": 2.5
+    },
+    {
+      "file": "G3-00028.vtu.gz",
+      "sha256": "7c501b377a95b2377674c88bbc5bc226fd5c86d42137abae1830f771778e420a",
+      "time_h": 2.666666666666667
+    },
+    {
+      "file": "G3-00029.vtu.gz",
+      "sha256": "ad4d49622c434cc1ea8f2cc44a5d2f7c58249f46123c0345613dd945ba84fe47",
+      "time_h": 2.833333333333333
+    },
+    {
+      "file": "G3-00030.vtu.gz",
+      "sha256": "6dd6e3cc44dda2634fc3ee53c17870cf936fc7b58f678b957e18a7ad2a0f4a45",
+      "time_h": 3.0
+    },
+    {
+      "file": "G3-00031.vtu.gz",
+      "sha256": "1e8158014a1cb9e7d718a6febdd489e3a7eb7126a4e74b8b00e79a0f08cb893a",
+      "time_h": 3.166666666666667
+    },
+    {
+      "file": "G3-00032.vtu.gz",
+      "sha256": "f43849dcfb8396f320c3fd5624d852daf184bb50bb3e1c0f710d7401c081c887",
+      "time_h": 3.333333333333333
+    },
+    {
+      "file": "G3-00033.vtu.gz",
+      "sha256": "c61007b04c0ecccbc4c6677a26a936630c581649899c09bda67887d067bfca6f",
+      "time_h": 3.5
+    },
+    {
+      "file": "G3-00034.vtu.gz",
+      "sha256": "d348bcdcef5f56aa73b0f7dfa0b0f8e35dcf5d921b57db791364fc10756c1ac3",
+      "time_h": 3.666666666666667
+    },
+    {
+      "file": "G3-00035.vtu.gz",
+      "sha256": "e74b4aa1fbfd7a2f8cfa2ec49694f550558aceb6febce047e0103a7f27b5bc48",
+      "time_h": 3.833333333333333
+    },
+    {
+      "file": "G3-00036.vtu.gz",
+      "sha256": "fcbf5cc04dc5aea80153ef5f4473df3188898392e41f2383a9569bef29ca6caa",
+      "time_h": 4.0
+    },
+    {
+      "file": "G3-00037.vtu.gz",
+      "sha256": "ce16b931dcdfe5be2226d1d7572dec4b5188ca79b04018ab1228541fb11b53e8",
+      "time_h": 4.166666666666667
+    },
+    {
+      "file": "G3-00038.vtu.gz",
+      "sha256": "fd03c78fae2724835d8395b695872489b4412816d1a8770fccb8703513d8af78",
+      "time_h": 4.333333333333333
+    },
+    {
+      "file": "G3-00039.vtu.gz",
+      "sha256": "ec1e6c859618e6d468ae8d91e76f9d9260d668cc1645b997a623397b4dce322a",
+      "time_h": 4.5
+    },
+    {
+      "file": "G3-00040.vtu.gz",
+      "sha256": "604696a9b70c3197d0f6482b664ffb4e09847639bc7f1cc24c8b44e84aa9652b",
+      "time_h": 4.666666666666667
+    },
+    {
+      "file": "G3-00041.vtu.gz",
+      "sha256": "c7651693890469aebd52aee21347385b43773e8e1276961493e0b852540c8289",
+      "time_h": 4.833333333333333
+    },
+    {
+      "file": "G3-00042.vtu.gz",
+      "sha256": "743f6c74b65807914ec5c4387d94640507788acca09af5540ea33b993334bcc1",
+      "time_h": 5.0
+    },
+    {
+      "file": "G3-00043.vtu.gz",
+      "sha256": "2f7872f9373949726e1e88e041c59f353ca2e0567457fe30a50b134dc2258d0c",
+      "time_h": 5.166666666666667
+    },
+    {
+      "file": "G3-00044.vtu.gz",
+      "sha256": "9e385b923c7f9caf8f9eacc774346caca16d9d3edf7a9d2ef561a32bc96989d8",
+      "time_h": 5.333333333333333
+    },
+    {
+      "file": "G3-00045.vtu.gz",
+      "sha256": "5a66ce2abbb2bf487d49be265d66a9a5c0a6e1c91779ceae4bd737cd0ca43f9b",
+      "time_h": 5.5
+    },
+    {
+      "file": "G3-00046.vtu.gz",
+      "sha256": "129f627fb7bfe9fb1033c85db17e9c1abe7137280aa1a49f8f32a3958947efb8",
+      "time_h": 5.666666666666667
+    },
+    {
+      "file": "G3-00047.vtu.gz",
+      "sha256": "cd508f21292442997939ff7f9baa5821ceee34d2097ff5c9cd4dd91aa41077d0",
+      "time_h": 5.833333333333333
+    },
+    {
+      "file": "G3-00048.vtu.gz",
+      "sha256": "8855b1c5706a2e3301c15b1e58414297b292ab9a3470f2f9a51e3835e5d6a29e",
+      "time_h": 6.0
+    },
+    {
+      "file": "G3-00049.vtu.gz",
+      "sha256": "fb64c97e643a6af63d04917ea158e3a19b3bf99c642e209986e93f4e0dd49d8a",
+      "time_h": 6.166666666666666
+    },
+    {
+      "file": "G3-00050.vtu.gz",
+      "sha256": "1af3e2000f6c6f17389b5d81d6d40d894086f9b9eec4378cfec1612e0478b9f7",
+      "time_h": 6.333333333333334
+    },
+    {
+      "file": "G3-00051.vtu.gz",
+      "sha256": "e86f6e7abb6d3f1efa661726362494f1c479afa882874791fa7767cd6f386b76",
+      "time_h": 6.5
+    },
+    {
+      "file": "G3-00052.vtu.gz",
+      "sha256": "07b0fd273f67232c072f59d734de3f09e4ad2771d793931f191d39aa7cccfa12",
+      "time_h": 6.666666666666666
+    },
+    {
+      "file": "G3-00053.vtu.gz",
+      "sha256": "042b67e1f0ca00a755516d6310c0371038b79a841286348fe55eecf85b537d8e",
+      "time_h": 6.833333333333334
+    },
+    {
+      "file": "G3-00054.vtu.gz",
+      "sha256": "fdc05060f6576ccafa6e15bfd7f499a0bb40f59b855f6cceea0003e99252d7f7",
+      "time_h": 7.0
+    },
+    {
+      "file": "G3-00055.vtu.gz",
+      "sha256": "4d651c11a0c916ee8e4a53785310366c76a93bf1cee65a7f7aa4f2a14bab96a8",
+      "time_h": 7.166666666666666
+    },
+    {
+      "file": "G3-00056.vtu.gz",
+      "sha256": "c7310fe37cd44cde3248200f80e3039af7d0636ce390a84dfe5ee8fa54a7cb0e",
+      "time_h": 7.333333333333334
+    },
+    {
+      "file": "G3-00057.vtu.gz",
+      "sha256": "73d4421024cb9b1724d830f6d3d3eb66f7ee3980a412b4906ac306968489cbfb",
+      "time_h": 7.5
+    },
+    {
+      "file": "G3-00058.vtu.gz",
+      "sha256": "39a230eef814c984b5d15d2fb78a43bf18e3c7bb13c1d17a260a0d682444db73",
+      "time_h": 7.666666666666666
+    },
+    {
+      "file": "G3-00059.vtu.gz",
+      "sha256": "466aa4ead0d4999a2b40bf2727bdb0bbf38040ebb8535938e7eda674ae033cff",
+      "time_h": 7.833333333333334
+    },
+    {
+      "file": "G3-00060.vtu.gz",
+      "sha256": "bfa1debab78a4f6c5e6e8b55b06f8b0baeb74ccb6b49f1b1ab706e6f20ae655d",
+      "time_h": 8.0
+    },
+    {
+      "file": "G3-00061.vtu.gz",
+      "sha256": "8896dff81edcffe5bfe8ceec223d66094120e6143449d449d5ce7ee9a34a7ff6",
+      "time_h": 8.166666666666666
+    },
+    {
+      "file": "G3-00062.vtu.gz",
+      "sha256": "671ff3344a3ef819f2ddb5cecb1cde537a2713368426947003dd6fe46ea688b1",
+      "time_h": 8.333333333333334
+    },
+    {
+      "file": "G3-00063.vtu.gz",
+      "sha256": "6a6f50b734b12877158c2f1222c413bec606926aecb67332b4e9583c1a4cf32a",
+      "time_h": 8.5
+    },
+    {
+      "file": "G3-00064.vtu.gz",
+      "sha256": "41acf413f3401061cb0e14060b850219c96e8940da8c8d7a884f3ebddd644102",
+      "time_h": 8.666666666666666
+    },
+    {
+      "file": "G3-00065.vtu.gz",
+      "sha256": "9409ecff7ce884dfa7155cfbb151c370c4efff7ce93f4883ab04b46dc8fe9019",
+      "time_h": 8.833333333333334
+    },
+    {
+      "file": "G3-00066.vtu.gz",
+      "sha256": "1445ec8136b8799e9c6743f0f7160af642af40cfa4e997bb6ebfdfc61236470e",
+      "time_h": 9.0
+    },
+    {
+      "file": "G3-00067.vtu.gz",
+      "sha256": "3a306cd36b55e8fdc86815aec651ec9f5193d7cc5a0d2567663ef06e06720d4e",
+      "time_h": 9.166666666666666
+    },
+    {
+      "file": "G3-00068.vtu.gz",
+      "sha256": "f889adfcaed8486f924d2d1621a37446a9040306f51401651a948e01dcfaef53",
+      "time_h": 9.333333333333334
+    },
+    {
+      "file": "G3-00069.vtu.gz",
+      "sha256": "65f7d9d325672fb21fee80d2a7196038aa76797148e4e459fd6ca5ae957cf410",
+      "time_h": 9.5
+    },
+    {
+      "file": "G3-00070.vtu.gz",
+      "sha256": "3c8b106bc2f107c6a065046ad9f5e0d863f50a7b9caaaf25eb1a666a533d253d",
+      "time_h": 9.666666666666666
+    },
+    {
+      "file": "G3-00071.vtu.gz",
+      "sha256": "d32aa65e5a08bedff8b9790d3994b2a2e7d80ea76c4743d770e68cfce0675a7c",
+      "time_h": 9.833333333333334
+    },
+    {
+      "file": "G3-00072.vtu.gz",
+      "sha256": "1b4f46ec63959b57cdb4c78dffb676b1d8f24630d24ce28af8357cb3e66ceb83",
+      "time_h": 10.0
+    },
+    {
+      "file": "G3-00073.vtu.gz",
+      "sha256": "0fc0bed28a6f0537192fdecd06dc711a6599644c6cd8683b4e0fa17c07d7cdb0",
+      "time_h": 10.166666666666666
+    },
+    {
+      "file": "G3-00074.vtu.gz",
+      "sha256": "ec3293da62bff26ce663ab820109350c9c03edea75c8307eadfa26b837848bb6",
+      "time_h": 10.333333333333334
+    },
+    {
+      "file": "G3-00075.vtu.gz",
+      "sha256": "be0af0b4646ba8fcb2b61e84541ab86a6bc543b14c9ff86e6b0450aaa0b683b1",
+      "time_h": 10.5
+    },
+    {
+      "file": "G3-00076.vtu.gz",
+      "sha256": "ea40b06e41cbe6be02775777348a176e9d9e49c2729c420d4723d387349ab0b0",
+      "time_h": 10.666666666666666
+    },
+    {
+      "file": "G3-00077.vtu.gz",
+      "sha256": "eeb080144d3245e15ea02adfd2f934ce3e2d13675058ed106001a49d26e24c66",
+      "time_h": 10.833333333333334
+    },
+    {
+      "file": "G3-00078.vtu.gz",
+      "sha256": "04176d1509832bc75cfa1f4b7fd1e2b2c6210e34c67013a0ddd903a152534648",
+      "time_h": 11.0
+    },
+    {
+      "file": "G3-00079.vtu.gz",
+      "sha256": "d96db422f79ca0b3e1f457a0ed63f86f520e2f273fe2f92e82df21342c2bd750",
+      "time_h": 11.166666666666666
+    },
+    {
+      "file": "G3-00080.vtu.gz",
+      "sha256": "a581545bc0a9cc4d783accb27c6ac96f4e0d912a77c8b48efc4812c7f79b3744",
+      "time_h": 11.333333333333334
+    },
+    {
+      "file": "G3-00081.vtu.gz",
+      "sha256": "b04dff72885b2c04e4007ae0344a6509b08faab097306ef5b9022beeea083e68",
+      "time_h": 11.5
+    },
+    {
+      "file": "G3-00082.vtu.gz",
+      "sha256": "9f0a3727cabe71ce592da1e81b24e7bd1814508adf5abea3d7c13d49a6765dd1",
+      "time_h": 11.666666666666666
+    },
+    {
+      "file": "G3-00083.vtu.gz",
+      "sha256": "90333532c944a41180e60e1b2a1e8ae4ccae4eb62aa06d1eb4e3e979e7143f0a",
+      "time_h": 11.833333333333334
+    },
+    {
+      "file": "G3-00084.vtu.gz",
+      "sha256": "2d2db7a4c1d467bbdff374da4f878da43c5533ed2e5e722e074e68249cdd470b",
+      "time_h": 12.0
+    },
+    {
+      "file": "G3-00085.vtu.gz",
+      "sha256": "b62da46f04e64ff08cd471b6ef6c6b10ed2283cbeee1da795087eab3c8b8ab6b",
+      "time_h": 12.166666666666666
+    },
+    {
+      "file": "G3-00086.vtu.gz",
+      "sha256": "619182a61a9c0f23fedc3e3acb391a439e79d944c48ebcaf06f60cf6232373d6",
+      "time_h": 12.333333333333334
+    },
+    {
+      "file": "G3-00087.vtu.gz",
+      "sha256": "85d22471902b86c89046b0f5bed90494ce5ca2cc17c174af1156e25d66b02edf",
+      "time_h": 12.5
+    },
+    {
+      "file": "G3-00088.vtu.gz",
+      "sha256": "188365540b8caa217ab148f0b83181318f68662e2398cbd69b0c4356219a12c9",
+      "time_h": 12.666666666666666
+    },
+    {
+      "file": "G3-00089.vtu.gz",
+      "sha256": "6c8749cd9f607fef385d0d2f24c7703bde2664284d8960fe001cb45800c2e03b",
+      "time_h": 12.833333333333334
+    },
+    {
+      "file": "G3-00090.vtu.gz",
+      "sha256": "c9571de0124989f75cb4d2488efd4e4e64f50185fc53baa00d01ef44fb5c0377",
+      "time_h": 13.0
+    },
+    {
+      "file": "G3-00091.vtu.gz",
+      "sha256": "f6cf7fa04885e9e0e21bd3809bca5e5296317790747d6f8fc09b8b393ce7981a",
+      "time_h": 13.166666666666666
+    },
+    {
+      "file": "G3-00092.vtu.gz",
+      "sha256": "0506249ae32c188289e8b5c2723ae75f2d983bcc3bfad1b80544e855175fae83",
+      "time_h": 13.333333333333334
+    },
+    {
+      "file": "G3-00093.vtu.gz",
+      "sha256": "5f31a648c2228346344b0fce247c31852d9aa46bce55dc50842a839d03164371",
+      "time_h": 13.5
+    },
+    {
+      "file": "G3-00094.vtu.gz",
+      "sha256": "c9f14f9e2d25ba881220fdfef8f347caa1e442065db8f83f5c6c060edb28add9",
+      "time_h": 13.666666666666666
+    },
+    {
+      "file": "G3-00095.vtu.gz",
+      "sha256": "61efa519c235db1fb1945ff3ac46c247cf4c6afbf727ef4ffb75f2e80bb6d4b7",
+      "time_h": 13.833333333333334
+    },
+    {
+      "file": "G3-00096.vtu.gz",
+      "sha256": "1ff7e8c984618c7e252779c5f66981ed172d5746fe8b9b4c414ce9b4c75a32af",
+      "time_h": 14.0
+    },
+    {
+      "file": "G3-00097.vtu.gz",
+      "sha256": "a7132de85814593fd901d8962544441e013a3100ab5e6d1ad85668b88a3b570c",
+      "time_h": 14.166666666666668
+    },
+    {
+      "file": "G3-00098.vtu.gz",
+      "sha256": "0d8e6f2845eb565874d9e1bd184f83c87f7005a1657f26809ef26c49195f6f85",
+      "time_h": 14.333333333333332
+    },
+    {
+      "file": "G3-00099.vtu.gz",
+      "sha256": "f3eec1d0fcb622d3f9c4284d9ab5a327b6d8023e00a5771eca06c8e9c740d8ba",
+      "time_h": 14.5
+    },
+    {
+      "file": "G3-00100.vtu.gz",
+      "sha256": "e86bab82c9b51400b1e62a939911e0ad55f2b41d626261d6b29ef4959897ec9f",
+      "time_h": 14.666666666666668
+    },
+    {
+      "file": "G3-00101.vtu.gz",
+      "sha256": "2dcf2671be63c8f45e85c929f12d0467385e7304638a0d37a2d34c57927eb473",
+      "time_h": 14.833333333333332
+    },
+    {
+      "file": "G3-00102.vtu.gz",
+      "sha256": "7ce6e6115690292b614c85b8e1693c1f867881b2732739fa24a4b381973836a2",
+      "time_h": 15.0
+    },
+    {
+      "file": "G3-00103.vtu.gz",
+      "sha256": "0e46f18fdbb729e523902cfccd962f9a988c39ecc3dae9305d0461a3c698461a",
+      "time_h": 15.166666666666668
+    },
+    {
+      "file": "G3-00104.vtu.gz",
+      "sha256": "51ca1163ebc5d0fd4834fe5e05a74f42ec0c0798c774d71be42bde635e188f86",
+      "time_h": 15.333333333333332
+    },
+    {
+      "file": "G3-00105.vtu.gz",
+      "sha256": "dfacf34eca259cf6859c3f43e4c45bd91c2419d5eedfe2cc7c1d7f4c97477242",
+      "time_h": 15.5
+    },
+    {
+      "file": "G3-00106.vtu.gz",
+      "sha256": "ddc766363413b789dc6c4a51ba5af38b771e8e40d0a3c8917d74d2f6658c18d1",
+      "time_h": 15.666666666666668
+    },
+    {
+      "file": "G3-00107.vtu.gz",
+      "sha256": "5194ea0169b47965b6105122639090ab960cc3ac52c8e84549025952b2fd1f4d",
+      "time_h": 15.833333333333332
+    },
+    {
+      "file": "G3-00108.vtu.gz",
+      "sha256": "81099ecb7e1cf1f51ff0f3e8e83db4e6a5e07ea59f497e27b3a217a6d04186a0",
+      "time_h": 16.0
+    },
+    {
+      "file": "G3-00109.vtu.gz",
+      "sha256": "517f43aab9f147554b230e733342a488b18448453d5665726197b1db120510fb",
+      "time_h": 16.166666666666668
+    },
+    {
+      "file": "G3-00110.vtu.gz",
+      "sha256": "a28b33d27456fbe9a0e2fef32b3a9f861d05861dccfae0c93a00485ccbdb39b9",
+      "time_h": 16.333333333333332
+    },
+    {
+      "file": "G3-00111.vtu.gz",
+      "sha256": "88bb04d8878f515c11ea2b7f455eb9a56f6c417519b3db2f921c360ec0e9e07a",
+      "time_h": 16.5
+    },
+    {
+      "file": "G3-00112.vtu.gz",
+      "sha256": "477d16bae857bf84731f00958bce11f7ee56bad3125fcf82aea38a6a91b64c55",
+      "time_h": 16.666666666666668
+    },
+    {
+      "file": "G3-00113.vtu.gz",
+      "sha256": "3e1db999fe43195ca74af6199a93e7689cfc4238be45e6c1f377746898b60e38",
+      "time_h": 16.833333333333332
+    },
+    {
+      "file": "G3-00114.vtu.gz",
+      "sha256": "6e891fc1a98c34ce90f438356a48dc8bc8f9cacb1396ab02487bf0a5a5696cef",
+      "time_h": 17.0
+    },
+    {
+      "file": "G3-00115.vtu.gz",
+      "sha256": "1c12166f0ad29149f97161822a1aab9a42999f4aaf01d3e0b6055f54ca8a2aac",
+      "time_h": 17.166666666666668
+    },
+    {
+      "file": "G3-00116.vtu.gz",
+      "sha256": "c270e25d4b1de43ba3b1497f1bdbb4d85baf4b9b595cb29d0096b34d5e027cfd",
+      "time_h": 17.333333333333332
+    },
+    {
+      "file": "G3-00117.vtu.gz",
+      "sha256": "a1cd94ccae806c7d6ed81c9c2d793afbb8068da183c03b74260e52c0e4647080",
+      "time_h": 17.5
+    },
+    {
+      "file": "G3-00118.vtu.gz",
+      "sha256": "296c4cb62cca1d1f8ceb82b37a8f7c452fee8e6d1cade92bb93628f3651b257b",
+      "time_h": 17.666666666666668
+    },
+    {
+      "file": "G3-00119.vtu.gz",
+      "sha256": "a5cd648b9939d1b8a30f9149e67d6a6dc700c7652081fd37f1bcec9ec57d31f1",
+      "time_h": 17.833333333333332
+    },
+    {
+      "file": "G3-00120.vtu.gz",
+      "sha256": "ffe4bc17872ea3cd3fd19d993194162e5fb19f1773118cd4411a7e87f4012185",
+      "time_h": 18.0
+    },
+    {
+      "file": "G3-00121.vtu.gz",
+      "sha256": "6edd9767d3a167183875f9632c16736bb5fa0d08207478d79d4a148de74332bc",
+      "time_h": 18.166666666666668
+    },
+    {
+      "file": "G3-00122.vtu.gz",
+      "sha256": "9fd879b25b08152a68132268b60418245237454b527b6a9067aee403b1dd29c6",
+      "time_h": 18.333333333333332
+    },
+    {
+      "file": "G3-00123.vtu.gz",
+      "sha256": "92465da1629dcd0328ba9595adc332f87e4a9a220be884105086b1b680d1aace",
+      "time_h": 18.5
+    },
+    {
+      "file": "G3-00124.vtu.gz",
+      "sha256": "5838c3ed45f823aa2d9dfc92f254e59e477feb8a8b934b9506e79352ff3b5860",
+      "time_h": 18.666666666666668
+    },
+    {
+      "file": "G3-00125.vtu.gz",
+      "sha256": "090540c50ae16020b6263abb61c30dddb349cef8bbb35234a101919a7ed503e5",
+      "time_h": 18.833333333333332
+    },
+    {
+      "file": "G3-00126.vtu.gz",
+      "sha256": "f47f38665a9cc135c6433c92767fae6221d739de09daa3a77bdfcb5834bbea66",
+      "time_h": 19.0
+    },
+    {
+      "file": "G3-00127.vtu.gz",
+      "sha256": "d398180954090dd958a98d4474abaa2c413ee58fb39ddf2535c08e24fd3fe6bb",
+      "time_h": 19.166666666666668
+    },
+    {
+      "file": "G3-00128.vtu.gz",
+      "sha256": "a5e47d0d081726aac84d667bcdf262ac42f07b1c53f79ba9154b19aa5f9cf8e3",
+      "time_h": 19.333333333333332
+    },
+    {
+      "file": "G3-00129.vtu.gz",
+      "sha256": "6ecb8652e9d0b1141011a28ee5b1f4f964964bf967fe714ffe90b9fa644487bf",
+      "time_h": 19.5
+    },
+    {
+      "file": "G3-00130.vtu.gz",
+      "sha256": "0f0a09f231e9428ecd299f52c429d4f43a349d741b9f986c5f29449b8af2d9d8",
+      "time_h": 19.666666666666668
+    },
+    {
+      "file": "G3-00131.vtu.gz",
+      "sha256": "eaec6e8b84f32741f4460bc8303d81e7bf78ea91f70382b242dd152b9e811ffb",
+      "time_h": 19.833333333333332
+    },
+    {
+      "file": "G3-00132.vtu.gz",
+      "sha256": "78c0881ff53210d00356b5668cfc5b011b16400e4613c122ef43893a0bdea588",
+      "time_h": 20.0
+    },
+    {
+      "file": "G3-00133.vtu.gz",
+      "sha256": "3d7a353b0aaab48ba773b6ad4ed580126b32c2b4811256c64a00a35a2f8012f1",
+      "time_h": 20.166666666666668
+    },
+    {
+      "file": "G3-00134.vtu.gz",
+      "sha256": "7642bc4f60cd3246fe110fab2806cb57a4e794761f80c6732091a7eb480060cc",
+      "time_h": 20.333333333333332
+    },
+    {
+      "file": "G3-00135.vtu.gz",
+      "sha256": "353632a015cd2c6b44d2840108238487b6994b0058aca36b569eb776cca0644f",
+      "time_h": 20.5
+    },
+    {
+      "file": "G3-00136.vtu.gz",
+      "sha256": "3a7ead15f6de55b7e2d487fba3d1915cf22cf477c51d0a4acdef2ba17b57bc89",
+      "time_h": 20.666666666666668
+    },
+    {
+      "file": "G3-00137.vtu.gz",
+      "sha256": "8128acba1d730adc0cdad6a7321cdcd65b3ef1ba3f4ead5d82f89d3ae09eb061",
+      "time_h": 20.833333333333332
+    },
+    {
+      "file": "G3-00138.vtu.gz",
+      "sha256": "2385d3bff7043b4373e5a7f93cc50bc17b255ab606aef6e4a98cae6cf3fda399",
+      "time_h": 21.0
+    },
+    {
+      "file": "G3-00139.vtu.gz",
+      "sha256": "86a80fe3ab9e1bc1d0888b3a2eade8a7cccfb6e57f7f0c57dec1b28caf086f7d",
+      "time_h": 21.166666666666668
+    },
+    {
+      "file": "G3-00140.vtu.gz",
+      "sha256": "1f31b057c58b5fca5926bce6ee183392087b2a2bb06ce83eae6aaedc17bb9c6b",
+      "time_h": 21.333333333333332
+    },
+    {
+      "file": "G3-00141.vtu.gz",
+      "sha256": "a19b60df83ca9d835b69485e27425c98c8c6dcfd4bcfa90f7cd3efecc05631ab",
+      "time_h": 21.5
+    },
+    {
+      "file": "G3-00142.vtu.gz",
+      "sha256": "0d61f0f68872bdf491e077a96beac2ef3c3cb20c52309e9b4f62c02f945db42a",
+      "time_h": 21.666666666666668
+    },
+    {
+      "file": "G3-00143.vtu.gz",
+      "sha256": "77b7eea899449ead2a70295d924126eaca7d7adfa914290b604f528f2fc816f7",
+      "time_h": 21.833333333333332
+    },
+    {
+      "file": "G3-00144.vtu.gz",
+      "sha256": "42418d6702315741c3939701fe0fda9d71763fa6395d281c457fe176f1559461",
+      "time_h": 22.0
+    },
+    {
+      "file": "G3-00145.vtu.gz",
+      "sha256": "2748c404f3b450626786c98538800c6d4afbeeb491dd630c7ed53efcd8974763",
+      "time_h": 22.166666666666668
+    },
+    {
+      "file": "G3-00146.vtu.gz",
+      "sha256": "0c33fe7638be98e23e4241f9d6a30eb71a20bbe18ed44fd145c27e8828ed9fcb",
+      "time_h": 22.333333333333332
+    },
+    {
+      "file": "G3-00147.vtu.gz",
+      "sha256": "96bc52e5fabd51e534f90cec4f71c991715777f8a4175fb5ff50768e0d9bd947",
+      "time_h": 22.5
+    },
+    {
+      "file": "G3-00148.vtu.gz",
+      "sha256": "a77f6ed3827e18276b6e7c10f16d9999b2aa3825f48086c598c91eef4b9e9acf",
+      "time_h": 22.666666666666668
+    },
+    {
+      "file": "G3-00149.vtu.gz",
+      "sha256": "033fdb5e9b61d2e32d263dd0ba744e86b3b41a9bb42df06a40b2ac7929f3c243",
+      "time_h": 22.833333333333332
+    },
+    {
+      "file": "G3-00150.vtu.gz",
+      "sha256": "c7a4d9ac43521f225ba1d684b0d1123dfa4dab4141a13b802f00f62cbec32b8b",
+      "time_h": 23.0
+    },
+    {
+      "file": "G3-00151.vtu.gz",
+      "sha256": "ddb1e66b32086aad296240e00e97a229f379dd588a105cbe35b29767cf885d9b",
+      "time_h": 23.166666666666668
+    },
+    {
+      "file": "G3-00152.vtu.gz",
+      "sha256": "c0869bbad93378672cccb7110ae425ae28a249c9332d38cf5bee36e747aa0ab0",
+      "time_h": 23.333333333333332
+    },
+    {
+      "file": "G3-00153.vtu.gz",
+      "sha256": "db4a5788a21cefa61d2c5c6c9f80c346ed63667a1d1cd38bb072a9a4de870565",
+      "time_h": 23.5
+    },
+    {
+      "file": "G3-00154.vtu.gz",
+      "sha256": "f7c1d2b63bf003d353bb5ec92bb97d03426eac2a41d182a1bca3f519ec29fd59",
+      "time_h": 23.666666666666668
+    },
+    {
+      "file": "G3-00155.vtu.gz",
+      "sha256": "a275aa21502d3093f28f1a489650c7bf23cb31023bb4e564c57ac8df6d8d9320",
+      "time_h": 23.833333333333332
+    },
+    {
+      "file": "G3-00156.vtu.gz",
+      "sha256": "0bb3eb751f15465372e818c3ea7bd0bd6559db78ee48c293f9fa3e6324b6926a",
+      "time_h": 24.0
+    },
+    {
+      "file": "G3-00157.vtu.gz",
+      "sha256": "534b15d669ea34e5e91542717e812db4ed27810e4cfb864ac7ac60b1001aabef",
+      "time_h": 24.166666666666668
+    },
+    {
+      "file": "G3-00158.vtu.gz",
+      "sha256": "f52ea2a54c0d926141e9b16ab83142a8e80d03029f61682e8441f84981be3121",
+      "time_h": 24.333333333333332
+    },
+    {
+      "file": "G3-00159.vtu.gz",
+      "sha256": "e9fd0b4892ac674364e51f01e0eacd069dc9f8a4562999f79a31abe1b6b05d82",
+      "time_h": 24.5
+    },
+    {
+      "file": "G3-00160.vtu.gz",
+      "sha256": "9d6608f067561d52960f8020941d43cc13cc6e921ce37e1cec36b87a801332db",
+      "time_h": 24.666666666666668
+    },
+    {
+      "file": "G3-00161.vtu.gz",
+      "sha256": "86dfa9fc682c6d0ef8ef31746f76cb01e350804dbb9ce0d1c677cc41ed025bd7",
+      "time_h": 24.833333333333332
+    },
+    {
+      "file": "G3-00162.vtu.gz",
+      "sha256": "9781eecf3c20abc5a40f3700832ca2a58c0de82b56a48dc6a1d7b50f09f1a49e",
+      "time_h": 25.0
+    },
+    {
+      "file": "G3-00163.vtu.gz",
+      "sha256": "4427d11cda6a7a9f5fc8163ec3e5bc551bbf041a0d8e30f18145823aa0462bea",
+      "time_h": 25.166666666666668
+    },
+    {
+      "file": "G3-00164.vtu.gz",
+      "sha256": "124b205e20fb804b684c6298fa5385a5a97e83ff5a00ccd7a2a20b9dd94f00ef",
+      "time_h": 25.333333333333332
+    },
+    {
+      "file": "G3-00165.vtu.gz",
+      "sha256": "11f1e4b9645903df06357857ffdcbbeb6aad11c6a4fba45682c05ff343309359",
+      "time_h": 25.5
+    },
+    {
+      "file": "G3-00166.vtu.gz",
+      "sha256": "ad904a302838c81c56ac7fff4e72e9bb584b43c3540f55adaad7e2236e3ef11d",
+      "time_h": 25.666666666666668
+    },
+    {
+      "file": "G3-00167.vtu.gz",
+      "sha256": "978e7b5def242d9c21c5e76a5829793e36a66ffab5cc536cc5c7b606866e4e88",
+      "time_h": 25.833333333333332
+    },
+    {
+      "file": "G3-00168.vtu.gz",
+      "sha256": "d8a4acc350e592cf48762f61e1f4a81633a7ae4c1279a11ad385afe99334b0c5",
+      "time_h": 26.0
+    },
+    {
+      "file": "G3-00169.vtu.gz",
+      "sha256": "8904aed32be086441283a55a2b4bf5aa7ace297fc29f0e06e0082d1698ff1dbf",
+      "time_h": 26.166666666666668
+    },
+    {
+      "file": "G3-00170.vtu.gz",
+      "sha256": "8c55edff6de424921ae955fd97f5bd989b750ad867494888b9aa709f19bd5d20",
+      "time_h": 26.333333333333332
+    },
+    {
+      "file": "G3-00171.vtu.gz",
+      "sha256": "bfa15551be5b3542f7486c81035ad6caacbc195c918608dc486b43f42ddcf7cc",
+      "time_h": 26.5
+    },
+    {
+      "file": "G3-00172.vtu.gz",
+      "sha256": "a19b37b79021cb1d254a4ec5d9c25e54ce1cbf5b2352cc59e214b84859d4d2fc",
+      "time_h": 26.666666666666668
+    },
+    {
+      "file": "G3-00173.vtu.gz",
+      "sha256": "115338cb9a8931e5eedf4265ad6b313cf26ba59ae1dcf70df494400ae5f60933",
+      "time_h": 26.833333333333332
+    },
+    {
+      "file": "G3-00174.vtu.gz",
+      "sha256": "f27e424b9c1857ca47dd4430acdfd6928285df5dd02b36819983475e69dbe33b",
+      "time_h": 27.0
+    },
+    {
+      "file": "G3-00175.vtu.gz",
+      "sha256": "4f9b49a69e7ae34e5cea0b2f1a4a08f3aa4e31b3d7f09ae408f02e9af6a6ca65",
+      "time_h": 27.166666666666668
+    },
+    {
+      "file": "G3-00176.vtu.gz",
+      "sha256": "8c8501bff7c3ed3a5249cf13e31f38c6c85ca0253835893fb8606b9ac3f302bc",
+      "time_h": 27.333333333333332
+    },
+    {
+      "file": "G3-00177.vtu.gz",
+      "sha256": "0a33d84c57f9467a6b22901a0d44585ec760c29dcf4ebf6b1176e9dab676c4f6",
+      "time_h": 27.5
+    },
+    {
+      "file": "G3-00178.vtu.gz",
+      "sha256": "10cbccf648697b324086096f16be987ec0b6805d0168d31dc4c5ab26039f91d3",
+      "time_h": 27.666666666666668
+    },
+    {
+      "file": "G3-00179.vtu.gz",
+      "sha256": "4a3425dd184556f3bac16f6a33c04ece8f644ec15327e33c3479c397a96c53ab",
+      "time_h": 27.833333333333332
+    },
+    {
+      "file": "G3-00180.vtu.gz",
+      "sha256": "e6a6d57a29f2035181b74fb57a9944ffeafef1da2a5b390c367100cc64305bac",
+      "time_h": 28.0
+    },
+    {
+      "file": "G3-00181.vtu.gz",
+      "sha256": "4386d7c45ebeb7b9addfe6c1c2f8a651c47a3a1494213ac3613b72e7b7435e69",
+      "time_h": 28.166666666666668
+    },
+    {
+      "file": "G3-00182.vtu.gz",
+      "sha256": "4bad15ca2f7e096216f8e8311b53831b26d663b9f40e0143afcec586f23042a2",
+      "time_h": 28.333333333333332
+    },
+    {
+      "file": "G3-00183.vtu.gz",
+      "sha256": "f47b56b5cdaaad377ac73dcf525cd9dac90aff40f43a1114fd4d7a7c6556a999",
+      "time_h": 28.5
+    },
+    {
+      "file": "G3-00184.vtu.gz",
+      "sha256": "2972d39a7ef8f752e9ef798945bed0e1aa164949bf60a02b78a2c985bca27810",
+      "time_h": 28.666666666666668
+    },
+    {
+      "file": "G3-00185.vtu.gz",
+      "sha256": "3cfadd3d01b3b655646cf459dec04a8d98c34a48f0b3349293de530b23c9adbe",
+      "time_h": 28.833333333333332
+    },
+    {
+      "file": "G3-00186.vtu.gz",
+      "sha256": "f12dfdcdd0a0865a4bb01ec7272139fbde420b90bd2c53b7f25213acd2ce9266",
+      "time_h": 29.0
+    },
+    {
+      "file": "G3-00187.vtu.gz",
+      "sha256": "42233d5a71b01880fbc2c26c6137975a578394cb3bf221dcf1c8afb34d54ab75",
+      "time_h": 29.166666666666668
+    },
+    {
+      "file": "G3-00188.vtu.gz",
+      "sha256": "0b709c5227fe823d2b1b5324d5e63e2398a3f0cb408a1c7aa92a28ac32f0dd3b",
+      "time_h": 29.333333333333332
+    },
+    {
+      "file": "G3-00189.vtu.gz",
+      "sha256": "c94d54a7addc24795211b335c40200a919d81ca775721d6b3b2ae053298cc9a0",
+      "time_h": 29.5
+    },
+    {
+      "file": "G3-00190.vtu.gz",
+      "sha256": "7ad17c23889363c3cf0e79a9e5e0dcb1dd5ac3e64508ee2e8b336d7e662ce435",
+      "time_h": 29.666666666666668
+    },
+    {
+      "file": "G3-00191.vtu.gz",
+      "sha256": "5506c31862c11c044c4804d1e7528a8debced6d92ec002891cca6ba6574e236f",
+      "time_h": 29.833333333333332
+    },
+    {
+      "file": "G3-00192.vtu.gz",
+      "sha256": "4f3f2aa07701f993587562885c4816e1c5d964361519de4f98c10e8f09ffcc95",
+      "time_h": 30.0
+    },
+    {
+      "file": "G3-00193.vtu.gz",
+      "sha256": "1076c71c7aa334210ae6c5403350379e325e267999c4a08054d80e9e93d49888",
+      "time_h": 30.166666666666664
+    },
+    {
+      "file": "G3-00194.vtu.gz",
+      "sha256": "e46595790a7950f447a7b66b1bc297ef93e662e2f675afd4e38c121201b222b7",
+      "time_h": 30.333333333333336
+    },
+    {
+      "file": "G3-00195.vtu.gz",
+      "sha256": "3924cf3c6cef5d9cdf7e5210092c58a613c7cfd188aa3fccd174951c91e05b84",
+      "time_h": 30.5
+    },
+    {
+      "file": "G3-00196.vtu.gz",
+      "sha256": "4e224c0f19799e36acd9799bec754ae722a95e56e2ade9108b1c37ae2dbb3e1f",
+      "time_h": 30.666666666666664
+    },
+    {
+      "file": "G3-00197.vtu.gz",
+      "sha256": "955c52c10241282454779ab7b3938c86e206d765f824e60acad6cb0c7f6c8e3f",
+      "time_h": 30.833333333333336
+    },
+    {
+      "file": "G3-00198.vtu.gz",
+      "sha256": "4f9eaf783a65e3197a23f4d8e9378a306eb23d3d2d7d2ff62f28dd070554fed5",
+      "time_h": 31.0
+    },
+    {
+      "file": "G3-00199.vtu.gz",
+      "sha256": "64dc7faf2b036d8f9740c619684218f06abdfdbc8c092afdf46fdd665e1d3f04",
+      "time_h": 31.166666666666664
+    },
+    {
+      "file": "G3-00200.vtu.gz",
+      "sha256": "0d29edc71b415abb92be57836c9b52e8a7013904c19055f7037cff0019b832d4",
+      "time_h": 31.333333333333336
+    },
+    {
+      "file": "G3-00201.vtu.gz",
+      "sha256": "71ecdaf6e234927c79328f3bdf95e78e8807b91ed6529fb1c2b618c4d94b4f0a",
+      "time_h": 31.5
+    },
+    {
+      "file": "G3-00202.vtu.gz",
+      "sha256": "42f3b9961f36a85ff916b6040597117a2ee6013dc7f180e4ec97565bb53cf7de",
+      "time_h": 31.666666666666664
+    },
+    {
+      "file": "G3-00203.vtu.gz",
+      "sha256": "dedcd1c1dff072a35a772f1bb304c199b18c233de2cc40ccfa4431ddc420d922",
+      "time_h": 31.833333333333336
+    },
+    {
+      "file": "G3-00204.vtu.gz",
+      "sha256": "3b1eb67f90e95a0cc53fc78813daa324c3febd474a0f3abb2c6821788fb44d6e",
+      "time_h": 32.0
+    },
+    {
+      "file": "G3-00205.vtu.gz",
+      "sha256": "d325b7f9c186920ef192c7dfc6dfab1cc90b01dd53240f4e9142eec6d418e5a5",
+      "time_h": 32.166666666666664
+    },
+    {
+      "file": "G3-00206.vtu.gz",
+      "sha256": "68f71f82add02e36aca2d5cbb6ed99290a4f3879f44aa7c01fcbc21d9d196f02",
+      "time_h": 32.333333333333336
+    },
+    {
+      "file": "G3-00207.vtu.gz",
+      "sha256": "4d4ffb781be453272d35b1f751c952141c2aa0089dc0e0f32fd22293be05b951",
+      "time_h": 32.5
+    },
+    {
+      "file": "G3-00208.vtu.gz",
+      "sha256": "9e782f19be271f724dd2ec4de9922a68b30d664785e6261d8dac91ab3b1dc2da",
+      "time_h": 32.666666666666664
+    },
+    {
+      "file": "G3-00209.vtu.gz",
+      "sha256": "74e1db0eb4e8c7b648d4d233c0963e10a1ac46971c737c89bfaa881ea39f4fae",
+      "time_h": 32.833333333333336
+    },
+    {
+      "file": "G3-00210.vtu.gz",
+      "sha256": "0bb24c1df85d6bbed066d19b6a277224bf2a03eb0a23147ca971b16a7d715dea",
+      "time_h": 33.0
+    },
+    {
+      "file": "G3-00211.vtu.gz",
+      "sha256": "1a0443ab09e69dfc8caae4bc0769447df7313ec5f0242345a0b35ca3c1f1c803",
+      "time_h": 33.166666666666664
+    },
+    {
+      "file": "G3-00212.vtu.gz",
+      "sha256": "d3094766d1f51175049aa106fb077bb020b8ed6a29666cedec4fb9d39d4b0d41",
+      "time_h": 33.333333333333336
+    },
+    {
+      "file": "G3-00213.vtu.gz",
+      "sha256": "b52a624a7e0724e65162b62de79426ec3e4389fb4c83c953de365a1306b10147",
+      "time_h": 33.5
+    },
+    {
+      "file": "G3-00214.vtu.gz",
+      "sha256": "8a7b91a468329a8db16a08b8f66bd1f99dc64f537964384836fd9e2e67fb579f",
+      "time_h": 33.666666666666664
+    },
+    {
+      "file": "G3-00215.vtu.gz",
+      "sha256": "73809a93011295e7c8b7824266ca80f720a7376d54331cc69234e2ecc69b6058",
+      "time_h": 33.833333333333336
+    },
+    {
+      "file": "G3-00216.vtu.gz",
+      "sha256": "50c1e9ea6e3a49c54986cf6ef5f454320a12376fe034290356ac3c757f8ea7c7",
+      "time_h": 34.0
+    },
+    {
+      "file": "G3-00217.vtu.gz",
+      "sha256": "efba0c460534f888d0db290c1ccf9d70ad56f9e27cecfb8c83fdbc85de59bab5",
+      "time_h": 34.166666666666664
+    },
+    {
+      "file": "G3-00218.vtu.gz",
+      "sha256": "6eee850494addad5568f7560586bca1af2427bbf511b4163cc11c423cea25133",
+      "time_h": 34.333333333333336
+    },
+    {
+      "file": "G3-00219.vtu.gz",
+      "sha256": "17ba7310f1475e4beaaa3f7370c46ee9e826fc8b1fbf6dc7524c88cdd8864a93",
+      "time_h": 34.5
+    },
+    {
+      "file": "G3-00220.vtu.gz",
+      "sha256": "87f7377223c89c34a749e4ca3194912b199000cd05e38ad563d15aaae1300efe",
+      "time_h": 34.666666666666664
+    },
+    {
+      "file": "G3-00221.vtu.gz",
+      "sha256": "734beffb929bb6d7e96cde2c2611a5b4683f2ee4008bb4f87e4cd143d4ac674b",
+      "time_h": 34.833333333333336
+    },
+    {
+      "file": "G3-00222.vtu.gz",
+      "sha256": "255c9724de50705b66bf4c719cd1999b8f0f9b254d204c2448c922cb9a4ce995",
+      "time_h": 35.0
+    },
+    {
+      "file": "G3-00223.vtu.gz",
+      "sha256": "b04ae760f13627b87d2f7ffb6283b722f27d88b1441889b3eea39c51181619b9",
+      "time_h": 35.166666666666664
+    },
+    {
+      "file": "G3-00224.vtu.gz",
+      "sha256": "d7fd6d94dbda5da91a509c073f3e47bfd0210a9b2b26d199d56170bb27f9110c",
+      "time_h": 35.333333333333336
+    },
+    {
+      "file": "G3-00225.vtu.gz",
+      "sha256": "5afe9e0e6f60f37d24e26b9820706f72330b5f78d81eec4c2454c69ae34c587d",
+      "time_h": 35.5
+    },
+    {
+      "file": "G3-00226.vtu.gz",
+      "sha256": "00fba77f9923818ca3de085cb9d28723d4174f7fb549f3630acc5f4815971a15",
+      "time_h": 35.666666666666664
+    },
+    {
+      "file": "G3-00227.vtu.gz",
+      "sha256": "1927face4e172394974fe6803acbabfd5f8970dc14376652f9addfa1824a7130",
+      "time_h": 35.833333333333336
+    },
+    {
+      "file": "G3-00228.vtu.gz",
+      "sha256": "c78b02664b5376624516a057fe4480f340e4850c4ff53c539c00303ffd2db8d5",
+      "time_h": 36.0
+    },
+    {
+      "file": "G3-00229.vtu.gz",
+      "sha256": "42c5bab9fda1f0e102335bfd3ad263768aecee5727126719cb9f90b272de6d31",
+      "time_h": 36.166666666666664
+    },
+    {
+      "file": "G3-00230.vtu.gz",
+      "sha256": "847438be8ce2bef17f787ec95b392eccb47ad42f1e224aece335e6caaceefed6",
+      "time_h": 36.333333333333336
+    },
+    {
+      "file": "G3-00231.vtu.gz",
+      "sha256": "ef30add60ef63dd9f279c4496c2e6f400fd148f9fe06c393938236ca3b438282",
+      "time_h": 36.5
+    },
+    {
+      "file": "G3-00232.vtu.gz",
+      "sha256": "dcf85d9b2c155f067e5acba0a2b77eae4d969981642e727dcc9bc64b3afc74ff",
+      "time_h": 36.666666666666664
+    },
+    {
+      "file": "G3-00233.vtu.gz",
+      "sha256": "1a1ad3808de6cdd3d35d5da91f64e48f301050888edef024c66a095d4ed584d3",
+      "time_h": 36.833333333333336
+    },
+    {
+      "file": "G3-00234.vtu.gz",
+      "sha256": "3db8d7c160047cfa5fe3d5526497523b08bb83c8a677a5d14384588bcfafc52c",
+      "time_h": 37.0
+    },
+    {
+      "file": "G3-00235.vtu.gz",
+      "sha256": "de87d20f6c0dc247e01a360358ea8ebdb11c06a184db46695c4e617d76b6c520",
+      "time_h": 37.166666666666664
+    },
+    {
+      "file": "G3-00236.vtu.gz",
+      "sha256": "e17a70b629678b39d9ea621a49e1e89065d1f85704be8fabef930d0b42c1f58c",
+      "time_h": 37.333333333333336
+    },
+    {
+      "file": "G3-00237.vtu.gz",
+      "sha256": "75cd41a588dead83e32aba508cd197e26b612180dabe7b83bfa2d8a25754baac",
+      "time_h": 37.5
+    },
+    {
+      "file": "G3-00238.vtu.gz",
+      "sha256": "9cbe27fede21bb3bbdf9a44d056fa24adf872471b802304e7c03714b94f3f649",
+      "time_h": 37.666666666666664
+    },
+    {
+      "file": "G3-00239.vtu.gz",
+      "sha256": "0693740f9406ecaa127b9968be38d371b976fde52799be911714ff09c0d23042",
+      "time_h": 37.833333333333336
+    },
+    {
+      "file": "G3-00240.vtu.gz",
+      "sha256": "3b98bcbe6ba31aa25888cd611e0eab330508ff74ca2a46c48d59e54708878e58",
+      "time_h": 38.0
+    },
+    {
+      "file": "G3-00241.vtu.gz",
+      "sha256": "b3ae14c90317343d8b1a9a97d923fb2e829c708d236e448899af844b38ab4541",
+      "time_h": 38.166666666666664
+    },
+    {
+      "file": "G3-00242.vtu.gz",
+      "sha256": "120f1eff1662e543309bf8eac998e8d17b08ba95003b32ead68d7fa0a39ce502",
+      "time_h": 38.333333333333336
+    },
+    {
+      "file": "G3-00243.vtu.gz",
+      "sha256": "14e585aef5cf9c30382ef8548bea9890383486203fa89ba8c20cd61812bcd7b7",
+      "time_h": 38.5
+    },
+    {
+      "file": "G3-00244.vtu.gz",
+      "sha256": "f6e55f1c29d3fe5661ba3d9dccc48ff5dc1572a78b6eb0288dfeb4172d2f01e5",
+      "time_h": 38.666666666666664
+    },
+    {
+      "file": "G3-00245.vtu.gz",
+      "sha256": "bbc5d38221bbcc65e60ea89d1c4de7c7a8a98993695acb3ba890e23fc91db66e",
+      "time_h": 38.833333333333336
+    },
+    {
+      "file": "G3-00246.vtu.gz",
+      "sha256": "ab8bf72cf3ba8f46802a36861945cdeb50cabde7af557d91a5eff485f0195317",
+      "time_h": 39.0
+    },
+    {
+      "file": "G3-00247.vtu.gz",
+      "sha256": "6d693194a548727d33b6cf830d5259b716bb225d8c77393a5b2e0e34140100ff",
+      "time_h": 39.166666666666664
+    },
+    {
+      "file": "G3-00248.vtu.gz",
+      "sha256": "ec452aa07e1f4943d8a20a563640373295f72a71f84aa1eecd80f9d466c5a481",
+      "time_h": 39.333333333333336
+    },
+    {
+      "file": "G3-00249.vtu.gz",
+      "sha256": "4adf46c8aeb122666285687efb50eae5735d64dba75ecfdc362681e2239bd3fa",
+      "time_h": 39.5
+    },
+    {
+      "file": "G3-00250.vtu.gz",
+      "sha256": "a9c2124feb34a40d670908b7d32e8dff376d7c5ba9243336e9a238969ded6bfe",
+      "time_h": 39.666666666666664
+    },
+    {
+      "file": "G3-00251.vtu.gz",
+      "sha256": "3328dd0b54b938d47284bbfa3f8b5f7ed4d51bed4a24d768e2a6cd1b96875f15",
+      "time_h": 39.833333333333336
+    },
+    {
+      "file": "G3-00252.vtu.gz",
+      "sha256": "46da17c8b3e8b06bbac919acc8a8f999607e9bc6300c6ac574d558ca09283cc8",
+      "time_h": 40.0
+    },
+    {
+      "file": "G3-00253.vtu.gz",
+      "sha256": "3b44ad751ac9202aaa55cec9e290a8ef1af68d0ccbfeb589e00cbc8246b75c85",
+      "time_h": 40.166666666666664
+    },
+    {
+      "file": "G3-00254.vtu.gz",
+      "sha256": "daed8fa16336a7d5c21bc6216000a9b41f288e29b18f7be4c2dc4cea3a638cda",
+      "time_h": 40.333333333333336
+    },
+    {
+      "file": "G3-00255.vtu.gz",
+      "sha256": "6b06491d66d7536602df0eec933e35fc5d8efccff84bc91d02d23406cacae4fb",
+      "time_h": 40.5
+    },
+    {
+      "file": "G3-00256.vtu.gz",
+      "sha256": "074886e8374a2094853a4b59b9b3633e30f26f54a501d1e125a8986b766692d4",
+      "time_h": 40.666666666666664
+    },
+    {
+      "file": "G3-00257.vtu.gz",
+      "sha256": "1cac4fecf184264595494748a005177ef2e53d90dc1e9c1f4d77d8911c302ce6",
+      "time_h": 40.833333333333336
+    },
+    {
+      "file": "G3-00258.vtu.gz",
+      "sha256": "96672e70d98687f7cdaa63641ac480e93f891cb11a4a51513e3e66b2d39761a0",
+      "time_h": 41.0
+    },
+    {
+      "file": "G3-00259.vtu.gz",
+      "sha256": "bde643e168e024319a9e1e395974f342c90ac7ab85d4b43e013ec2098294b3bf",
+      "time_h": 41.166666666666664
+    },
+    {
+      "file": "G3-00260.vtu.gz",
+      "sha256": "943f0d9ff9c69474aa04bbfe31986e61b17bbb3a2b7c461f26c277faedd1424c",
+      "time_h": 41.333333333333336
+    },
+    {
+      "file": "G3-00261.vtu.gz",
+      "sha256": "971bf42ca375cd1ae57022cec1f2b064d13050633526045fbf6eeecf865809cf",
+      "time_h": 41.5
+    },
+    {
+      "file": "G3-00262.vtu.gz",
+      "sha256": "dda10cd5b4a4a5a65a3b819afc616e55be804ad84f48c71f9a74bcfff1f776c5",
+      "time_h": 41.666666666666664
+    },
+    {
+      "file": "G3-00263.vtu.gz",
+      "sha256": "00c3396391ce850aeeca0d4dbbd59f229fdf8d8ff092f8feb59a3e390d255141",
+      "time_h": 41.833333333333336
+    },
+    {
+      "file": "G3-00264.vtu.gz",
+      "sha256": "caf305f55fcd41d3f074b5ccbfa30aee933ef8ec2a85f7c77bc87b5ca87f86e1",
+      "time_h": 42.0
+    },
+    {
+      "file": "G3-00265.vtu.gz",
+      "sha256": "d7c5603bd1f859f53707ee4fffc0b1386fcb5ed755a3ecbc36d0216da3d9c2c1",
+      "time_h": 42.166666666666664
+    },
+    {
+      "file": "G3-00266.vtu.gz",
+      "sha256": "5112a3b0deb1e5d2800a56082aa99b6ae6b97c2df12f5137af5e958156fce35a",
+      "time_h": 42.333333333333336
+    },
+    {
+      "file": "G3-00267.vtu.gz",
+      "sha256": "c9936d5a60c412c0ac4692a1efde3418bc0992bbad71b9acaad86b9f9b2163b1",
+      "time_h": 42.5
+    },
+    {
+      "file": "G3-00268.vtu.gz",
+      "sha256": "9d7f10c0c56db2da3b2a5892505ad85d8c5dbc9b5e9cf91a0d8da42d02bb0f54",
+      "time_h": 42.666666666666664
+    },
+    {
+      "file": "G3-00269.vtu.gz",
+      "sha256": "3432984fcd483fe1a6fa29d2e56fd37f7f34c447abfe63ee1b5366261833d795",
+      "time_h": 42.833333333333336
+    },
+    {
+      "file": "G3-00270.vtu.gz",
+      "sha256": "4db99b68849f861dcc700de382e92770c5f3db79ba05139a91afaeeda9e1da99",
+      "time_h": 43.0
+    },
+    {
+      "file": "G3-00271.vtu.gz",
+      "sha256": "095110076379d8a9a36f26941ed2f343bc6e4577b6f0689832fee9af7dfe1be8",
+      "time_h": 43.166666666666664
+    },
+    {
+      "file": "G3-00272.vtu.gz",
+      "sha256": "2cbeafcdb8ab55d64ef85da1501584907cb4c087d40b3c99bd68ebbe2160cf3f",
+      "time_h": 43.333333333333336
+    },
+    {
+      "file": "G3-00273.vtu.gz",
+      "sha256": "5ab3ee3a44f3b519c275ef205abf8abd7a92ba6acf01852e61e849b4eb8c461f",
+      "time_h": 43.5
+    },
+    {
+      "file": "G3-00274.vtu.gz",
+      "sha256": "6adf133f2e1a9ceda8527132116eff34f066ba92f5c4d5e14b5ace834b5eb108",
+      "time_h": 43.666666666666664
+    },
+    {
+      "file": "G3-00275.vtu.gz",
+      "sha256": "f75c314cc83a3695cd7ba5b8fb08a78a6270d6763bf8ff9726c1301299b19855",
+      "time_h": 43.833333333333336
+    },
+    {
+      "file": "G3-00276.vtu.gz",
+      "sha256": "d6c08a6507d5c98b2ee2ecf4c421cb7f4c00a3cbeb02a8fba633f1b1afd33a2f",
+      "time_h": 44.0
+    },
+    {
+      "file": "G3-00277.vtu.gz",
+      "sha256": "f83807522f7c9868863fac5b799db83c328e5b47d3c03151bb70be2356316fbd",
+      "time_h": 44.166666666666664
+    },
+    {
+      "file": "G3-00278.vtu.gz",
+      "sha256": "1ba5d63c2fbd31bab98340aa05eab769891dc22b8be70eae8c52cf53c67fd3be",
+      "time_h": 44.333333333333336
+    },
+    {
+      "file": "G3-00279.vtu.gz",
+      "sha256": "ef9f82ea4406ddaf7ddd1f570d1b6de106a787906e505b5913242c37cd785ef3",
+      "time_h": 44.5
+    },
+    {
+      "file": "G3-00280.vtu.gz",
+      "sha256": "cb79c693096cbf3675c67434e029e866e8616c9d3796e3c978d48c49328542d6",
+      "time_h": 44.666666666666664
+    },
+    {
+      "file": "G3-00281.vtu.gz",
+      "sha256": "36a954e9093fcb81dc03d850ebee53663d8c4dda819ca199d225c3aebf5717ef",
+      "time_h": 44.833333333333336
+    },
+    {
+      "file": "G3-00282.vtu.gz",
+      "sha256": "d3bc810e60390a60efbed2c6311e011667fd86259a15082a30ac9f0879dc8175",
+      "time_h": 45.0
+    },
+    {
+      "file": "G3-00283.vtu.gz",
+      "sha256": "19173847901b44d1ed1ff6ddc2b3ed591ded0185adb0383c2092cd6f7ecd82a7",
+      "time_h": 45.166666666666664
+    },
+    {
+      "file": "G3-00284.vtu.gz",
+      "sha256": "86df439b8435215db3da5809fe6c76c27f08700379185c04f7b88eed0f8858c4",
+      "time_h": 45.333333333333336
+    },
+    {
+      "file": "G3-00285.vtu.gz",
+      "sha256": "a6d76a3fdae7ba1a4ed52b188dabd96d682e166aaf801b741a8ed97f139215d4",
+      "time_h": 45.5
+    },
+    {
+      "file": "G3-00286.vtu.gz",
+      "sha256": "a27f79bd73fc57294d52334242d211d1d59ce4f0b555d1bdd1bf6c91c229242a",
+      "time_h": 45.666666666666664
+    },
+    {
+      "file": "G3-00287.vtu.gz",
+      "sha256": "7a1fa98940070e820f149c08969a2c65fe446b3c392574c7d25b7b5a75c56df2",
+      "time_h": 45.833333333333336
+    },
+    {
+      "file": "G3-00288.vtu.gz",
+      "sha256": "56652f379d295be57de99131308acfd74fe873562049e38ddf8e16f775178f84",
+      "time_h": 46.0
+    },
+    {
+      "file": "G3-00289.vtu.gz",
+      "sha256": "006d8756d6264785ada0a094e46768c50e51f520b563e506d0014796ed67fc8c",
+      "time_h": 46.166666666666664
+    },
+    {
+      "file": "G3-00290.vtu.gz",
+      "sha256": "90cff998376761cfdbe0ae46655d0f735758168791e5fcee213a3398ccbe0afb",
+      "time_h": 46.333333333333336
+    },
+    {
+      "file": "G3-00291.vtu.gz",
+      "sha256": "9cb4abeb1cba4b81330c23863c5e268ce17a3f8ad2e68502a02eefd209157b7c",
+      "time_h": 46.5
+    },
+    {
+      "file": "G3-00292.vtu.gz",
+      "sha256": "4b9ca684fc690abb14afb8288888fe3a401f6408722e48487ec882771766fb14",
+      "time_h": 46.666666666666664
+    },
+    {
+      "file": "G3-00293.vtu.gz",
+      "sha256": "54da41af0038b173f4df68a602e9700e4b9dd55994f2ee75b1d76acae5ba6707",
+      "time_h": 46.833333333333336
+    },
+    {
+      "file": "G3-00294.vtu.gz",
+      "sha256": "e39beef25a75a5ece4ca218de0e27f0359d7225e8bec0f9ed51b91956049b02c",
+      "time_h": 47.0
+    },
+    {
+      "file": "G3-00295.vtu.gz",
+      "sha256": "845480266cee36a9e79a98d0b9a001bd17d780e13488ef9ab26146b76d233090",
+      "time_h": 47.166666666666664
+    },
+    {
+      "file": "G3-00296.vtu.gz",
+      "sha256": "eeeb10188bb87d8415ce2417fba548fb10e1423b25e052a64e8f3554003bf8d5",
+      "time_h": 47.333333333333336
+    },
+    {
+      "file": "G3-00297.vtu.gz",
+      "sha256": "2eaf3986770a9753f8c8eb2c46c00c7a316703d2832dcb804b84c86247d36ba6",
+      "time_h": 47.5
+    },
+    {
+      "file": "G3-00298.vtu.gz",
+      "sha256": "f37e820381e25c8048c6af0bda0d4fa3f92f1a23f371eba171048601073b0026",
+      "time_h": 47.666666666666664
+    },
+    {
+      "file": "G3-00299.vtu.gz",
+      "sha256": "ba6043b6d8dedde79f20c8a4c7f7d017ee700ad1e90165fbc6fd7aa6bd563766",
+      "time_h": 47.833333333333336
+    },
+    {
+      "file": "G3-00300.vtu.gz",
+      "sha256": "f3db28244ae62869542c465d9bdff57dcf1f49558ace57038a43320cf103968c",
+      "time_h": 48.0
+    },
+    {
+      "file": "G3-00301.vtu.gz",
+      "sha256": "913ff9019172c0e28e94f6a6903aec29196ceb063185ce05825ff682df7ed58d",
+      "time_h": 48.166666666666664
+    },
+    {
+      "file": "G3-00302.vtu.gz",
+      "sha256": "092b236aa81d4f4acd6d9f78fa099e7e47b9e029a6d2e67e6bc2b87c126fcf84",
+      "time_h": 48.333333333333336
+    },
+    {
+      "file": "G3-00303.vtu.gz",
+      "sha256": "8dccd9d02ae081ce54120d8826cb52dbf8b9efd440ba6514b82e6a2e62df6837",
+      "time_h": 48.5
+    },
+    {
+      "file": "G3-00304.vtu.gz",
+      "sha256": "ffa114015e440e1fc7c3cff91022e68c0daf76f1123056afb7691967afab58ae",
+      "time_h": 48.666666666666664
+    },
+    {
+      "file": "G3-00305.vtu.gz",
+      "sha256": "9e435f590f7cf91f4748c414749983e58c80ad0032d69f3e9d6c51b42fe70bed",
+      "time_h": 48.833333333333336
+    },
+    {
+      "file": "G3-00306.vtu.gz",
+      "sha256": "b02b5901efc472ee91eb8e2580b3ac16b227152e0e8d38bfb8e5956bf46978d1",
+      "time_h": 49.0
+    },
+    {
+      "file": "G3-00307.vtu.gz",
+      "sha256": "b82b2e894201c0270c30a6df104d7319815f1a2be69de1cedabebb91813bd51c",
+      "time_h": 49.166666666666664
+    },
+    {
+      "file": "G3-00308.vtu.gz",
+      "sha256": "955d0b6da9f245b71756cb5688840472ba6bb7e4248a731804ea14bae52b1777",
+      "time_h": 49.333333333333336
+    },
+    {
+      "file": "G3-00309.vtu.gz",
+      "sha256": "51e8a7914763a8da87c67d125a093a3d856a40015cdcb7fac1bff27da6386640",
+      "time_h": 49.5
+    },
+    {
+      "file": "G3-00310.vtu.gz",
+      "sha256": "ec07add70a3a760310de035fc474bb7bcef122efad72cad53639c5a5bb68ec48",
+      "time_h": 49.666666666666664
+    },
+    {
+      "file": "G3-00311.vtu.gz",
+      "sha256": "a2188635cdad6826650c62d2dc0cd27519636c7eeba567307df2131eee1c1d30",
+      "time_h": 49.833333333333336
+    },
+    {
+      "file": "G3-00312.vtu.gz",
+      "sha256": "aa217291cdc3eeaef69b66ffa2cd50f4feafa8a678ba8d4969ec4661a84e3119",
+      "time_h": 50.0
+    },
+    {
+      "file": "G3-00313.vtu.gz",
+      "sha256": "b173607e614dd5690d0743d94be180763410c946561750ac6ca01878c59f88b5",
+      "time_h": 50.166666666666664
+    },
+    {
+      "file": "G3-00314.vtu.gz",
+      "sha256": "f132c6d473eea7cb538c44c8638feec680b055731995ffbeaa8d2b19ff80410f",
+      "time_h": 50.333333333333336
+    },
+    {
+      "file": "G3-00315.vtu.gz",
+      "sha256": "bb9ab0f7bb9c2aa5bd5b55ea8e73eff131d71166a718656d8264e4d8a9a6106a",
+      "time_h": 50.5
+    },
+    {
+      "file": "G3-00316.vtu.gz",
+      "sha256": "c02c14bb02960c169edf600f978f88ab76336fdaedcf8ffb7757f3a659c81292",
+      "time_h": 50.666666666666664
+    },
+    {
+      "file": "G3-00317.vtu.gz",
+      "sha256": "8c3e5661188e14c96624bc3efb44f6296f3b581c5073b3aa13acbb8e3f4becf6",
+      "time_h": 50.833333333333336
+    },
+    {
+      "file": "G3-00318.vtu.gz",
+      "sha256": "c93fabd846d4cb3c226ecb790af9c0545cf1c9b8f326feda3627f2c0a9fc9670",
+      "time_h": 51.0
+    },
+    {
+      "file": "G3-00319.vtu.gz",
+      "sha256": "0acfc33f664073073dc3b3cfa3b28c50c4bf83c02f7ab9b8d42b60385a281167",
+      "time_h": 51.166666666666664
+    },
+    {
+      "file": "G3-00320.vtu.gz",
+      "sha256": "6eb3d5b9126eb2176d072c0b69d817465e733e674608ac1d310e837c666f0561",
+      "time_h": 51.333333333333336
+    },
+    {
+      "file": "G3-00321.vtu.gz",
+      "sha256": "28f59292b550f265d71346e25584c38dfa4b256fa2fd1b6ba24f3a33f25fdbb2",
+      "time_h": 51.5
+    },
+    {
+      "file": "G3-00322.vtu.gz",
+      "sha256": "2fb6ba6dfe6909b849f416fd382dcadd61013905d80a80d43d8632a4cabd287c",
+      "time_h": 51.666666666666664
+    },
+    {
+      "file": "G3-00323.vtu.gz",
+      "sha256": "92d250ded3fd751477c7ad8becb086f4ccdd742d79b8cfbb7bea729ec8dce72e",
+      "time_h": 51.833333333333336
+    },
+    {
+      "file": "G3-00324.vtu.gz",
+      "sha256": "c45698e62820a0333b8e51e477d075b4f0355e913b1621852586f12ae8b0abde",
+      "time_h": 52.0
+    },
+    {
+      "file": "G3-00325.vtu.gz",
+      "sha256": "eace62e226c9b7f8c5d739d1149de8df3b49ef00b644b7d02232a0435064e1f9",
+      "time_h": 52.166666666666664
+    },
+    {
+      "file": "G3-00326.vtu.gz",
+      "sha256": "8bf3d62112290ab33aad79b7685d7736d656d8e0b32cf2ee145aa54ae27b88f4",
+      "time_h": 52.333333333333336
+    },
+    {
+      "file": "G3-00327.vtu.gz",
+      "sha256": "f7bc0d705fd8282ea34e653bbad1ec3488efc86d4c240a7c24b5b45498c9b01b",
+      "time_h": 52.5
+    },
+    {
+      "file": "G3-00328.vtu.gz",
+      "sha256": "374c5d2fbced5e9b3ca12aa6392de7627666d17158580094aa2078b8d502ba61",
+      "time_h": 52.666666666666664
+    },
+    {
+      "file": "G3-00329.vtu.gz",
+      "sha256": "f3f8c3f8e4983c26049969e8ca0321dde5ee2640e4533fa784647722b35d4517",
+      "time_h": 52.833333333333336
+    },
+    {
+      "file": "G3-00330.vtu.gz",
+      "sha256": "dcdfff3f9954b5c3fd0b2753701bde808cd0aa03e47b67a7a1502b3f873d0d98",
+      "time_h": 53.0
+    },
+    {
+      "file": "G3-00331.vtu.gz",
+      "sha256": "3dd5c127c0bd3ea10a587a4d0507601a44d6047ebaf75cf11a8bb954e6f8c411",
+      "time_h": 53.166666666666664
+    },
+    {
+      "file": "G3-00332.vtu.gz",
+      "sha256": "5ccd586d53ee5db988ede62e85272e0236170334ce23151052b58e82579f5cea",
+      "time_h": 53.333333333333336
+    },
+    {
+      "file": "G3-00333.vtu.gz",
+      "sha256": "b91bc69bd2332cc563e6dbb27469f9c52000ed72a424b20468be02025e47842a",
+      "time_h": 53.5
+    },
+    {
+      "file": "G3-00334.vtu.gz",
+      "sha256": "b2f0c6dce0f5d043ba90553a7128928e50729317292e965279a5993d0933efdf",
+      "time_h": 53.666666666666664
+    },
+    {
+      "file": "G3-00335.vtu.gz",
+      "sha256": "07e80f61335be00aae7280b22c577baa16cfa5c81fabd9f94405eff411b413c7",
+      "time_h": 53.833333333333336
+    },
+    {
+      "file": "G3-00336.vtu.gz",
+      "sha256": "17a67cd150987a726bf6259d7574a423ea09bad678fe1627184ac569d4316c88",
+      "time_h": 54.0
+    },
+    {
+      "file": "G3-00337.vtu.gz",
+      "sha256": "d67c4914eda1bc2ed9322ec985141e11593e9e832ed9030abd2ab47e4b62cf2e",
+      "time_h": 54.166666666666664
+    },
+    {
+      "file": "G3-00338.vtu.gz",
+      "sha256": "eb02925c6e10d9dabc96adf6ed03542e253986b1a1b225161a6286015836eed8",
+      "time_h": 54.333333333333336
+    },
+    {
+      "file": "G3-00339.vtu.gz",
+      "sha256": "5dcdc64d1d15a1d15e44db26280b8bd72fbe54924d5873081a065b7ba2dcd179",
+      "time_h": 54.5
+    },
+    {
+      "file": "G3-00340.vtu.gz",
+      "sha256": "4939f17550d73ee9344ae3b0238ca6d8cf8433fcbc03b0f7165dc6b0fb9c90c1",
+      "time_h": 54.666666666666664
+    },
+    {
+      "file": "G3-00341.vtu.gz",
+      "sha256": "cb2fb73b8cdfd9589472292fe57615fa99ac7fb4ae4a5cfaec64e3fc64401aca",
+      "time_h": 54.833333333333336
+    },
+    {
+      "file": "G3-00342.vtu.gz",
+      "sha256": "13438c21c2c6998107add241ccf48f6f31eec0e2b312804e91870761c39fd089",
+      "time_h": 55.0
+    },
+    {
+      "file": "G3-00343.vtu.gz",
+      "sha256": "dce5c0fc77de98a0b1e43f3cbb3af1f409254eb99173df3ab287a32e72ff00e8",
+      "time_h": 55.166666666666664
+    },
+    {
+      "file": "G3-00344.vtu.gz",
+      "sha256": "f8f786f5ad180edf849e409c6a059ba67c7031638bdbbd4c23ccc255bf46bc7c",
+      "time_h": 55.333333333333336
+    },
+    {
+      "file": "G3-00345.vtu.gz",
+      "sha256": "274185ee18356ea26ae0bcc0c5c483beb16bf64c397c11545dbad3ad86658662",
+      "time_h": 55.5
+    },
+    {
+      "file": "G3-00346.vtu.gz",
+      "sha256": "520828b0f03494e917770b8d43ef5f2d5a56bcf80ae0923c7e6f5a8988686bde",
+      "time_h": 55.666666666666664
+    },
+    {
+      "file": "G3-00347.vtu.gz",
+      "sha256": "635429c7b7466acbafff0f96009daa14e0cf5a72947314d3cef6b5581b133717",
+      "time_h": 55.833333333333336
+    },
+    {
+      "file": "G3-00348.vtu.gz",
+      "sha256": "840b48644b96f793203d8a8e075560d1c279dbdcadfe6240c5af868ee537fea2",
+      "time_h": 56.0
+    },
+    {
+      "file": "G3-00349.vtu.gz",
+      "sha256": "d6005b731365f44d2946f39e1caf164526bdd65ca86ffdf37a014728d09f3b4f",
+      "time_h": 56.166666666666664
+    },
+    {
+      "file": "G3-00350.vtu.gz",
+      "sha256": "78b96d093105fcec8e2e61a190c077a2941fba21bc072202e29c06da975f61e9",
+      "time_h": 56.333333333333336
+    },
+    {
+      "file": "G3-00351.vtu.gz",
+      "sha256": "bacf5404118df52bc967c607642b4964cdc5370fd4add9d30d4eedc27ed95e3b",
+      "time_h": 56.5
+    },
+    {
+      "file": "G3-00352.vtu.gz",
+      "sha256": "c8f3a2dce07512c389fd38aef88e6eb596382db9b45af1dda34f9e074cca9680",
+      "time_h": 56.666666666666664
+    },
+    {
+      "file": "G3-00353.vtu.gz",
+      "sha256": "2ac7857f3e69ad2c9af2019522844c1dea933c3a55402166bab838ed25d50530",
+      "time_h": 56.833333333333336
+    },
+    {
+      "file": "G3-00354.vtu.gz",
+      "sha256": "b300dc1d559de06e3c3254603ed59f39c57e3b4aa4a6f248b7cce16ca1345c80",
+      "time_h": 57.0
+    },
+    {
+      "file": "G3-00355.vtu.gz",
+      "sha256": "625f8e8f1a18bf50f8def21e46b2a6c8c4b57538c508cb0ba655fac8245c8bdb",
+      "time_h": 57.166666666666664
+    },
+    {
+      "file": "G3-00356.vtu.gz",
+      "sha256": "d9a4b374029b781e305c013a9db6b5d86c8edf97f3ccc186aeb3720f1a564b16",
+      "time_h": 57.333333333333336
+    },
+    {
+      "file": "G3-00357.vtu.gz",
+      "sha256": "dca486a4a94cec618facf07a4bf8c667c38948636d2e9e6585f42368812d6f02",
+      "time_h": 57.5
+    },
+    {
+      "file": "G3-00358.vtu.gz",
+      "sha256": "ac44a16ced56ee68d6ea93f0aa561c60ee6f6396645ccd5ed24c7da97d7cf5bc",
+      "time_h": 57.666666666666664
+    },
+    {
+      "file": "G3-00359.vtu.gz",
+      "sha256": "9bdf71e735c5e2f0a5eaaa7793a72bc4550226ccdcbf00d2fb515ece6fbbe564",
+      "time_h": 57.833333333333336
+    },
+    {
+      "file": "G3-00360.vtu.gz",
+      "sha256": "c7f7ca20b8694aa2e52ce2a2fe8e3eebf5b3fb989380df73111f2a1d9be13d91",
+      "time_h": 58.0
+    },
+    {
+      "file": "G3-00361.vtu.gz",
+      "sha256": "a0f56591e05c9c0dd354267b508c8e6a0ec012f80f522ca61b3857d00c8e87c7",
+      "time_h": 58.166666666666664
+    },
+    {
+      "file": "G3-00362.vtu.gz",
+      "sha256": "b462a5bd245a1a0c751fb1e00ebadcfd2f2091c777b6dfab70aa21241221c762",
+      "time_h": 58.333333333333336
+    },
+    {
+      "file": "G3-00363.vtu.gz",
+      "sha256": "061736ce8994d3100acb96e0a25c7648118e90a824a4ce309f06f774daa18771",
+      "time_h": 58.5
+    },
+    {
+      "file": "G3-00364.vtu.gz",
+      "sha256": "66c760dd2d979811b101efeda2d5969212025529ecb5992c4e6540acac13e071",
+      "time_h": 58.666666666666664
+    },
+    {
+      "file": "G3-00365.vtu.gz",
+      "sha256": "4847df0290ecc1d0f4168900f2e58c8c069ff9961b56a067b0fd168102ccd268",
+      "time_h": 58.833333333333336
+    },
+    {
+      "file": "G3-00366.vtu.gz",
+      "sha256": "d38de9e2032733207388796f5caea3e4221c33e0e5bb9f2766eb55a70ce54d55",
+      "time_h": 59.0
+    },
+    {
+      "file": "G3-00367.vtu.gz",
+      "sha256": "0c4d79d7e624b493483994d09016f27857ca3d9f52245b38b55b6d4871f776d3",
+      "time_h": 59.166666666666664
+    },
+    {
+      "file": "G3-00368.vtu.gz",
+      "sha256": "2fccc935dc005730a41608f7d7587a1db099303c59eabc237d2b586c18d8ca13",
+      "time_h": 59.333333333333336
+    },
+    {
+      "file": "G3-00369.vtu.gz",
+      "sha256": "5e9c04767ae9f7ca652ced4ce37c1e921d92ebc75cf23a2b47f6b6a129296c79",
+      "time_h": 59.5
+    },
+    {
+      "file": "G3-00370.vtu.gz",
+      "sha256": "c6a44c287af44e140cc90f22a14107367b7bc840f6bc2860c2eaf93e1f301d4c",
+      "time_h": 59.666666666666664
+    },
+    {
+      "file": "G3-00371.vtu.gz",
+      "sha256": "d1d7d92ff0bdfd6c349fcfb55d05e218f6765df784f12cdf0508ebdb152ca99a",
+      "time_h": 59.833333333333336
+    },
+    {
+      "file": "G3-00372.vtu.gz",
+      "sha256": "18dd9eb772b75c56e5e1cc17dd5960ad6e972effaa814d5ae1a442076c486c5b",
+      "time_h": 60.0
+    },
+    {
+      "file": "G3-00373.vtu.gz",
+      "sha256": "7521c498ff46d3c228f312951a43538f1da9e8a28b7b414fcb2b6dc55d5055b7",
+      "time_h": 60.166666666666664
+    },
+    {
+      "file": "G3-00374.vtu.gz",
+      "sha256": "4da18270c722b8388c61b3f363364bc1a05add38557bf9df2ee08f8f07d1a352",
+      "time_h": 60.333333333333336
+    },
+    {
+      "file": "G3-00375.vtu.gz",
+      "sha256": "9c8682ffa3f789394ecdaaecd8601909b19c88ba2efa4d9fc059382b61fee19a",
+      "time_h": 60.5
+    },
+    {
+      "file": "G3-00376.vtu.gz",
+      "sha256": "9d586cec2e622a16f0d54e36fca897f11b53b04b13de4a17a35f6bcf16482764",
+      "time_h": 60.666666666666664
+    },
+    {
+      "file": "G3-00377.vtu.gz",
+      "sha256": "67ef8bc898b5d831e661af86846e4b5e57bc2eca02aeb31b1f232b491aeeb8d2",
+      "time_h": 60.833333333333336
+    },
+    {
+      "file": "G3-00378.vtu.gz",
+      "sha256": "36f20720c14acfb1eb312da4e8536af1088c457fcad70a9b2cb6e0e393b598b1",
+      "time_h": 61.0
+    },
+    {
+      "file": "G3-00379.vtu.gz",
+      "sha256": "736b9f001368cebc2b1f8632f1c8ef31e1e342280db009e93cdf25e578000ac1",
+      "time_h": 61.166666666666664
+    },
+    {
+      "file": "G3-00380.vtu.gz",
+      "sha256": "5f8ac2df677a2bad0b994a95f54d3a6bfa0705a4daf45d21bd373463c71b925f",
+      "time_h": 61.333333333333336
+    },
+    {
+      "file": "G3-00381.vtu.gz",
+      "sha256": "df91e1c3b1cc4b359cb02fbca175371cc9d7db214f74f15e788e0328d8250ec2",
+      "time_h": 61.5
+    },
+    {
+      "file": "G3-00382.vtu.gz",
+      "sha256": "01846b4c42cf096daad7550d02418d7829d034baaebf72ea61046844ba4943a5",
+      "time_h": 61.666666666666664
+    },
+    {
+      "file": "G3-00383.vtu.gz",
+      "sha256": "aaa88636eb414f68cd18e09f703252b799c6f8abb5e3676058f5061674e89e60",
+      "time_h": 61.833333333333336
+    },
+    {
+      "file": "G3-00384.vtu.gz",
+      "sha256": "4efb66a8c78636255db88c71f253a38fcb39f159779a26843cb79433f41abe51",
+      "time_h": 62.0
+    },
+    {
+      "file": "G3-00385.vtu.gz",
+      "sha256": "006f5401033eb21f6646a5db15ca9467a27f2b5dce8b0c017c9c7d902909bc62",
+      "time_h": 62.16666666666667
+    },
+    {
+      "file": "G3-00386.vtu.gz",
+      "sha256": "b8dd14adab971d173f118533e2c43e21d2a27cc630d3738ea02a7fa9603ec088",
+      "time_h": 62.33333333333333
+    },
+    {
+      "file": "G3-00387.vtu.gz",
+      "sha256": "e546a8eda87ba9c7278acd940b6708ca642bb1927707fa4b1614045084ef6296",
+      "time_h": 62.5
+    },
+    {
+      "file": "G3-00388.vtu.gz",
+      "sha256": "35f0f512c8f6a3394d363b541f255378b8b30b2450e563babbd699e09a94d70b",
+      "time_h": 62.66666666666667
+    },
+    {
+      "file": "G3-00389.vtu.gz",
+      "sha256": "c8f06312afb72c698fbad3493f74f67822a56094e5860ec4fad35793583adc83",
+      "time_h": 62.83333333333333
+    },
+    {
+      "file": "G3-00390.vtu.gz",
+      "sha256": "af2986c06ff93193b823affb4e522e88315b6c8eba2bd8506f0ae26eb0b95c4d",
+      "time_h": 63.0
+    },
+    {
+      "file": "G3-00391.vtu.gz",
+      "sha256": "01efe6680b5fb9d06b616c896b1e5e87f45ca0e1f32c4240a2344772cced19c1",
+      "time_h": 63.16666666666667
+    },
+    {
+      "file": "G3-00392.vtu.gz",
+      "sha256": "35495b8a33e282487552b76603a39ac72f72cc2cdd6ba7d9edf3c3ab7d6d8fd4",
+      "time_h": 63.33333333333333
+    },
+    {
+      "file": "G3-00393.vtu.gz",
+      "sha256": "c0cd694ad073bf688a91cb0c35022b6cc34c8b6f0f381787b920f7b068fd2fde",
+      "time_h": 63.5
+    },
+    {
+      "file": "G3-00394.vtu.gz",
+      "sha256": "7b5365ad189bb4bb0987fd5c635f668349c71a72e2d2021b75224ee288806b71",
+      "time_h": 63.66666666666667
+    },
+    {
+      "file": "G3-00395.vtu.gz",
+      "sha256": "3aba8df6cd20ed77337ec421b479cf8e32e4fa79bf89683cb7d1b0a6f2410385",
+      "time_h": 63.83333333333333
+    },
+    {
+      "file": "G3-00396.vtu.gz",
+      "sha256": "3503a06351d84c929d42c7229f84a7fe4699df72b55ddadb4309c76f331a87d6",
+      "time_h": 64.0
+    },
+    {
+      "file": "G3-00397.vtu.gz",
+      "sha256": "9c3058f44108e4934025768dbb88bc8fbb68844e23765657c2da2b8470bedbb8",
+      "time_h": 64.16666666666667
+    },
+    {
+      "file": "G3-00398.vtu.gz",
+      "sha256": "07aee6ad2eca84808d47bec9fd341196ffaead2c0c014c445ff73e0253b43120",
+      "time_h": 64.33333333333333
+    },
+    {
+      "file": "G3-00399.vtu.gz",
+      "sha256": "c81c822dc0077dc53a464da1c32693d770b12fa70dc87561e6e4b1ec72907186",
+      "time_h": 64.5
+    },
+    {
+      "file": "G3-00400.vtu.gz",
+      "sha256": "18bc854321a4ac7b513509580651e171ce9624dbd75219d55345f69e41f41a72",
+      "time_h": 64.66666666666667
+    },
+    {
+      "file": "G3-00401.vtu.gz",
+      "sha256": "a3093bcbf3d23da235669f46831b15e4dbfbcce3ce7dd0e9de4a03d0f2cdbbdd",
+      "time_h": 64.83333333333333
+    },
+    {
+      "file": "G3-00402.vtu.gz",
+      "sha256": "197aa9d79f68547c871d5292415141b7dae7270148633204d8cdde0828471b5a",
+      "time_h": 65.0
+    },
+    {
+      "file": "G3-00403.vtu.gz",
+      "sha256": "da1606e4c35cb1a42d37b8ffaabf1ed5117dac7f67d6234bd8057f80ed5b2639",
+      "time_h": 65.16666666666667
+    },
+    {
+      "file": "G3-00404.vtu.gz",
+      "sha256": "b1575f0b127bd63f33e442791ee570b982e73debad136928e848e462cd5cc8f4",
+      "time_h": 65.33333333333333
+    },
+    {
+      "file": "G3-00405.vtu.gz",
+      "sha256": "78c2f75754bbe10bfa0c7dccc010d9833e27cd2e48a906725e5809df677bc4cd",
+      "time_h": 65.5
+    },
+    {
+      "file": "G3-00406.vtu.gz",
+      "sha256": "24901f6884ecd20647398344a32e9f7485593dc6461839c828732545f7db163c",
+      "time_h": 65.66666666666667
+    },
+    {
+      "file": "G3-00407.vtu.gz",
+      "sha256": "0bbfc81944cfcc94fa5b4282f7ea26cda94279fd0c582c0ed0c8c8658e399384",
+      "time_h": 65.83333333333333
+    },
+    {
+      "file": "G3-00408.vtu.gz",
+      "sha256": "dfd9672ea85fe00be576d56109b7e51e21502d4924b632303ae065ae951e7642",
+      "time_h": 66.0
+    },
+    {
+      "file": "G3-00409.vtu.gz",
+      "sha256": "e88eced0f35445a50902bddf233a73920f8f89f43568d9d89a3b10353a2c66f8",
+      "time_h": 66.16666666666667
+    },
+    {
+      "file": "G3-00410.vtu.gz",
+      "sha256": "4f7a653190aedd43f44bca9e54e758a618ee1c86deaa808cf39d7338ead7e5bf",
+      "time_h": 66.33333333333333
+    },
+    {
+      "file": "G3-00411.vtu.gz",
+      "sha256": "0557e6d2c90d4e1c5415c2764a7c187f05b8f27452d691fab2507b76195b4f10",
+      "time_h": 66.5
+    },
+    {
+      "file": "G3-00412.vtu.gz",
+      "sha256": "1f1bbd06f975afff3c18d442752c25ab475fec184f7fffc635cc1a3a50f7a807",
+      "time_h": 66.66666666666667
+    },
+    {
+      "file": "G3-00413.vtu.gz",
+      "sha256": "c99ddad9359a844f95a570bb8b764641216612ca7b9f21b64fe2588a1e6dfe4d",
+      "time_h": 66.83333333333333
+    },
+    {
+      "file": "G3-00414.vtu.gz",
+      "sha256": "30dcf388e36305ca75238a3d45b076efe4de2c7ef9656d0980041434a72b0257",
+      "time_h": 67.0
+    },
+    {
+      "file": "G3-00415.vtu.gz",
+      "sha256": "17e6233da52c87ed0ac3f64e79bc9cbfc6bd692eab709288bc7aff6940f7f2e2",
+      "time_h": 67.16666666666667
+    },
+    {
+      "file": "G3-00416.vtu.gz",
+      "sha256": "2e0aa49280091914fbbd6f15e49a7e9bccfe1f5e636d98259345801bae6d6add",
+      "time_h": 67.33333333333333
+    },
+    {
+      "file": "G3-00417.vtu.gz",
+      "sha256": "cc59c026b72d96916ef8a278629b1befec8fa77be7eaa1af98f04a295422efe9",
+      "time_h": 67.5
+    },
+    {
+      "file": "G3-00418.vtu.gz",
+      "sha256": "3db128be9e0cf6a45219e7e8af13979fb5cc01b12a343255d0b5a183d3fa611c",
+      "time_h": 67.66666666666667
+    },
+    {
+      "file": "G3-00419.vtu.gz",
+      "sha256": "fc4f57e85854acca64c18cf64eed31910eaa6574e698bd1fc18829255db5e737",
+      "time_h": 67.83333333333333
+    },
+    {
+      "file": "G3-00420.vtu.gz",
+      "sha256": "97b67f4d182122a481545aac2d2361dbae4821bef55999bd057f8a44642e7c7b",
+      "time_h": 68.0
+    },
+    {
+      "file": "G3-00421.vtu.gz",
+      "sha256": "3575a330e5e2bd3c9b56c985d27c432ab7af48ebc645f8a5437f6d191ff07d35",
+      "time_h": 68.16666666666667
+    },
+    {
+      "file": "G3-00422.vtu.gz",
+      "sha256": "fbc549b127d8b42ec1dcb6a94ee96b6d891143b329fd3a4fbe07275953bfa3ed",
+      "time_h": 68.33333333333333
+    },
+    {
+      "file": "G3-00423.vtu.gz",
+      "sha256": "7c9a38415184a1b6c546f96460a836829690465f7b9fab450eb4313e571d2ba1",
+      "time_h": 68.5
+    },
+    {
+      "file": "G3-00424.vtu.gz",
+      "sha256": "4456c96dfd6ecb646d16df9869fd65bb95f09d5ce2573ca2d193f7574a2d6aee",
+      "time_h": 68.66666666666667
+    },
+    {
+      "file": "G3-00425.vtu.gz",
+      "sha256": "47dc81f351432ac20bfb02a8ab84e31cafa84c9c9f0b8b25a466cd41f6fb875e",
+      "time_h": 68.83333333333333
+    },
+    {
+      "file": "G3-00426.vtu.gz",
+      "sha256": "ac298ad1296cc572b27bddc39c23d38cf8d8420d1f1a0bbaa29954fc210c8177",
+      "time_h": 69.0
+    },
+    {
+      "file": "G3-00427.vtu.gz",
+      "sha256": "f6aaba6e4fbcb4501aa896ac8fb55422a541254a36b4ef73662f44f63d6b89e6",
+      "time_h": 69.16666666666667
+    },
+    {
+      "file": "G3-00428.vtu.gz",
+      "sha256": "f874902f0bfc60495c586438c1d63aac7389c348b095876a25b693cf67561aa8",
+      "time_h": 69.33333333333333
+    },
+    {
+      "file": "G3-00429.vtu.gz",
+      "sha256": "be67cf25902a00ab9a42b651f2d81c379780a553936bcc9dafeeb4e288322609",
+      "time_h": 69.5
+    },
+    {
+      "file": "G3-00430.vtu.gz",
+      "sha256": "21ae13e43fad0835628df487640d84268a10c218c0661f6f02bc8653a98bec8b",
+      "time_h": 69.66666666666667
+    },
+    {
+      "file": "G3-00431.vtu.gz",
+      "sha256": "30a48e73cd101221ed1ae06cbe391a86d638b3ce77a634b724efb90b36f128f6",
+      "time_h": 69.83333333333333
+    },
+    {
+      "file": "G3-00432.vtu.gz",
+      "sha256": "dec9962ec452ad4303af449256be12d70e7d99b5658b4044aedfabd4a874fed8",
+      "time_h": 70.0
+    },
+    {
+      "file": "G3-00433.vtu.gz",
+      "sha256": "4a38b36a3ee00d182a0d8f6b587b25c9450b98f00f8724402b68dc16a587f8be",
+      "time_h": 70.16666666666667
+    },
+    {
+      "file": "G3-00434.vtu.gz",
+      "sha256": "9b6c63d69c8e0d2d4939b4abf591459286881fca9dc0de4344b4c2a7f7f9365e",
+      "time_h": 70.33333333333333
+    },
+    {
+      "file": "G3-00435.vtu.gz",
+      "sha256": "680ec4ae0fc8e45f1b4330044fe64865219257a7986ddfd6dbec2d706b426ddb",
+      "time_h": 70.5
+    },
+    {
+      "file": "G3-00436.vtu.gz",
+      "sha256": "1d0546e5c111158c05899e2543a7638c28fb1bf5f706a456734fa8f17f4a3537",
+      "time_h": 70.66666666666667
+    },
+    {
+      "file": "G3-00437.vtu.gz",
+      "sha256": "b2edfcece3939cf655fa1921309871f2481969b2a646692709396b1fc12cd5e1",
+      "time_h": 70.83333333333333
+    },
+    {
+      "file": "G3-00438.vtu.gz",
+      "sha256": "505a9fcf633f759b34ce5fdbfdb63f11302c962e8e28720e0551f9213648306b",
+      "time_h": 71.0
+    },
+    {
+      "file": "G3-00439.vtu.gz",
+      "sha256": "caa2b67f20f8b4e3be073b26b91ece62527cc8df97093b7b21507c4a9872283b",
+      "time_h": 71.16666666666667
+    },
+    {
+      "file": "G3-00440.vtu.gz",
+      "sha256": "7c6ebe899b92ff36cd285e5309f7561055cac6e1868f9649605c701e0c96feb0",
+      "time_h": 71.33333333333333
+    },
+    {
+      "file": "G3-00441.vtu.gz",
+      "sha256": "9ada31b9f99f0e92d3ae4c726da33bc01e7d90baccac591a538c8b040ee7c71e",
+      "time_h": 71.5
+    },
+    {
+      "file": "G3-00442.vtu.gz",
+      "sha256": "59f21744b1751eccc37e584136d6f962c294e643f8f1c4e592171ef2bde68814",
+      "time_h": 71.66666666666667
+    },
+    {
+      "file": "G3-00443.vtu.gz",
+      "sha256": "5c1b58adfd538b793479c6ef222e02cab2dbeea955aa46e126ea190216525828",
+      "time_h": 71.83333333333333
+    },
+    {
+      "file": "G3-00444.vtu.gz",
+      "sha256": "a9b4987bdb1d8b60a7ae8bf21d2a14ae85708cdf62241f3671586aa064867991",
+      "time_h": 72.0
+    },
+    {
+      "file": "G3-00445.vtu.gz",
+      "sha256": "31c65a28002932c89bdf0e739369693b883499bdf5b474563cd65541d904b4bd",
+      "time_h": 72.16666666666667
+    },
+    {
+      "file": "G3-00446.vtu.gz",
+      "sha256": "e9eab0850b4ce7dd5df99d73fc5437ca6be6d56531252e367e223fdabb3108f8",
+      "time_h": 72.33333333333333
+    },
+    {
+      "file": "G3-00447.vtu.gz",
+      "sha256": "252fe86650138e58ffd8921f608384ba6c4f1aca672ae9e065a2cecbfe2e9203",
+      "time_h": 72.5
+    },
+    {
+      "file": "G3-00448.vtu.gz",
+      "sha256": "85684507aac177efadf4a7059c20f6cc38b5156784bf4798a709c36d8b050288",
+      "time_h": 72.66666666666667
+    },
+    {
+      "file": "G3-00449.vtu.gz",
+      "sha256": "5ad859e31d31304927052ac33edde03e93b6957ce22ea3e4fe55990fe71323b2",
+      "time_h": 72.83333333333333
+    },
+    {
+      "file": "G3-00450.vtu.gz",
+      "sha256": "8bd40e85da86686edc543bad61131b38d97aaa2c3549f03424615aa25bf590b8",
+      "time_h": 73.0
+    },
+    {
+      "file": "G3-00451.vtu.gz",
+      "sha256": "0efba7353d58542d17bde78c4abc743947ce5164c768e13e36e9d60f16f9fe21",
+      "time_h": 73.16666666666667
+    },
+    {
+      "file": "G3-00452.vtu.gz",
+      "sha256": "b7807130b4849560e267a2735ebd4de2fc2e824170fb75268809ba0925e25d7f",
+      "time_h": 73.33333333333333
+    },
+    {
+      "file": "G3-00453.vtu.gz",
+      "sha256": "71de1cbb1a2e6ffaf51612630fb20778db41212c3b39b8da2fc8bc7c6ebcb107",
+      "time_h": 73.5
+    },
+    {
+      "file": "G3-00454.vtu.gz",
+      "sha256": "be70b33cd11787dbb4b9f63defca8d55eef43286987bdf564872a33bea1e4d16",
+      "time_h": 73.66666666666667
+    },
+    {
+      "file": "G3-00455.vtu.gz",
+      "sha256": "2a78871041d8b46858361a987f89d003d3e1f47e97403bb31d20f697a848f620",
+      "time_h": 73.83333333333333
+    },
+    {
+      "file": "G3-00456.vtu.gz",
+      "sha256": "c8a25a9bd88fa81799dc3a3990e26d333a8f3638171f3d6a51c2dca3ccfefdf5",
+      "time_h": 74.0
+    },
+    {
+      "file": "G3-00457.vtu.gz",
+      "sha256": "45be83e491bf44a0cea4be8744742071246c72542388d7aa65032ce3c38e74ed",
+      "time_h": 74.16666666666667
+    },
+    {
+      "file": "G3-00458.vtu.gz",
+      "sha256": "701266499c0ce71d5a5f72e2795c9c554f5534a1faaff1fec87d10d078845f2d",
+      "time_h": 74.33333333333333
+    },
+    {
+      "file": "G3-00459.vtu.gz",
+      "sha256": "3bf0871255f7476bb83b125cd10faf10e3ab8fb4545aa4dec53fa71171d28498",
+      "time_h": 74.5
+    },
+    {
+      "file": "G3-00460.vtu.gz",
+      "sha256": "7427b4c19f4d9a9799f3c98fc639c03c95d338307a544b32d9a8d14886c0ecec",
+      "time_h": 74.66666666666667
+    },
+    {
+      "file": "G3-00461.vtu.gz",
+      "sha256": "a88e308eefa889ca357f2f25ff008a664b44eded5d814ff9eb8f5201a682d541",
+      "time_h": 74.83333333333333
+    },
+    {
+      "file": "G3-00462.vtu.gz",
+      "sha256": "b5fd546fa08b8f3fa485f2b9f91ab21f988acc66f9b04f472734707a243055ce",
+      "time_h": 75.0
+    },
+    {
+      "file": "G3-00463.vtu.gz",
+      "sha256": "5f339ad61b246d41dbc31c3824b8884d2782ee42cf165b9c196d1d7886b334e0",
+      "time_h": 75.16666666666667
+    },
+    {
+      "file": "G3-00464.vtu.gz",
+      "sha256": "d631b0731584d3d3ef26ff12ec73cfd067e5af7c89ff899c622f671ac749514a",
+      "time_h": 75.33333333333333
+    },
+    {
+      "file": "G3-00465.vtu.gz",
+      "sha256": "32a43d5e6f5e0366506ea322d5626cd3a837d2beb51f3af33daab80b3d318936",
+      "time_h": 75.5
+    },
+    {
+      "file": "G3-00466.vtu.gz",
+      "sha256": "7663adc95dd5bfeb2c88140c2b322bbc151a0d26fbce5e37bc32dd28294a769f",
+      "time_h": 75.66666666666667
+    },
+    {
+      "file": "G3-00467.vtu.gz",
+      "sha256": "5a98d0db6f9b7895b50392f33f7dea7838734994a9b85b2cfc0ccdae878e857b",
+      "time_h": 75.83333333333333
+    },
+    {
+      "file": "G3-00468.vtu.gz",
+      "sha256": "46bfb2d0c2b56f644ed27eafcb298a3427609add01ce085930cbbe56235db6ba",
+      "time_h": 76.0
+    },
+    {
+      "file": "G3-00469.vtu.gz",
+      "sha256": "0b7cb745187c155d5a5ae8ae40101e0c3f00673eaf66a50191cb5bcbd745084f",
+      "time_h": 76.16666666666667
+    },
+    {
+      "file": "G3-00470.vtu.gz",
+      "sha256": "d0d8e5d787476c9436fd303fb278ce37eaf47f0085d55db88af9c55bc9c66425",
+      "time_h": 76.33333333333333
+    },
+    {
+      "file": "G3-00471.vtu.gz",
+      "sha256": "50f949e15af1135bd4c560171a088977bd6bc2968ba2add54487e8846d4f717a",
+      "time_h": 76.5
+    },
+    {
+      "file": "G3-00472.vtu.gz",
+      "sha256": "a01a9ab6aa9c6b7ee9bb05b33c976bea081ce932fe2f2303bfe33c22239afbf5",
+      "time_h": 76.66666666666667
+    },
+    {
+      "file": "G3-00473.vtu.gz",
+      "sha256": "ba0897eefff85147780aa842b0b70f32992dd59f059d64aec35b8c4b13b6534f",
+      "time_h": 76.83333333333333
+    },
+    {
+      "file": "G3-00474.vtu.gz",
+      "sha256": "3aacc8eca2085852204972e634fc0e669127a647a22740023723776c193b14e7",
+      "time_h": 77.0
+    },
+    {
+      "file": "G3-00475.vtu.gz",
+      "sha256": "121823cdec55fe2b05f1c97eb1b54cff49d91307030f7b7e19a6e0c85e9fb416",
+      "time_h": 77.16666666666667
+    },
+    {
+      "file": "G3-00476.vtu.gz",
+      "sha256": "259bafd6ecf59733707d4f5380c4e143e4309b9a6737cbe2cdd80db27cd0557a",
+      "time_h": 77.33333333333333
+    },
+    {
+      "file": "G3-00477.vtu.gz",
+      "sha256": "7fc547934688f8b292448df5aaeb918132bce63b8759fe9bcd0f86b1d14a9e8b",
+      "time_h": 77.5
+    },
+    {
+      "file": "G3-00478.vtu.gz",
+      "sha256": "cf1205ea80d8b06409005f367ba01420956b2be8a34daacd38343acd880ce45d",
+      "time_h": 77.66666666666667
+    },
+    {
+      "file": "G3-00479.vtu.gz",
+      "sha256": "b281e3db3873cce80120a79280692ea1747a46214f895ca52ce769b7f22f8fe5",
+      "time_h": 77.83333333333333
+    },
+    {
+      "file": "G3-00480.vtu.gz",
+      "sha256": "b2762e400ef4f14de782249c61b87a2d3fad5e6bbe5e2948b8674f0a7cc8d49d",
+      "time_h": 78.0
+    },
+    {
+      "file": "G3-00481.vtu.gz",
+      "sha256": "ed7973c930a0f493346cc665f33363ebee3185d58efb44bd21ed79dc144abd74",
+      "time_h": 78.16666666666667
+    },
+    {
+      "file": "G3-00482.vtu.gz",
+      "sha256": "ffae689c48844f3816022bbd37cf3081b136fb26163138f749ea8346a2a4d67d",
+      "time_h": 78.33333333333333
+    },
+    {
+      "file": "G3-00483.vtu.gz",
+      "sha256": "89bed7c7cc20264553b3eb89bf8f4f0eca624c6ad168a72c479f1f222194761f",
+      "time_h": 78.5
+    },
+    {
+      "file": "G3-00484.vtu.gz",
+      "sha256": "eedef4d3e7d24fd7a520963d88a3e033573a33b40894517dfc666a960fb2c0f0",
+      "time_h": 78.66666666666667
+    },
+    {
+      "file": "G3-00485.vtu.gz",
+      "sha256": "8727a07a3eb8cf035a472ab7d1a180616253856e14a83ab30804409fcc91024e",
+      "time_h": 78.83333333333333
+    },
+    {
+      "file": "G3-00486.vtu.gz",
+      "sha256": "b07ee0e13ec31d508ce2894825d47f6d412352602ea66114454259ec95dd0a4c",
+      "time_h": 79.0
+    },
+    {
+      "file": "G3-00487.vtu.gz",
+      "sha256": "36d127845acee716b4b48f7445bcd1ade59e3a4a33a56d235267f97035ecb0e9",
+      "time_h": 79.16666666666667
+    },
+    {
+      "file": "G3-00488.vtu.gz",
+      "sha256": "a05efa96351a7d2ec2b8f40226e3daa3045f555d10fee7ea305e2ac4e272f08b",
+      "time_h": 79.33333333333333
+    },
+    {
+      "file": "G3-00489.vtu.gz",
+      "sha256": "c5b979104cc1ab700a93104c428299a0fdf8647049dbce3b334579c92ad0556f",
+      "time_h": 79.5
+    },
+    {
+      "file": "G3-00490.vtu.gz",
+      "sha256": "5f250f02548dbdee35f06ad5bc534ca44347e57433c47658cff6b6b007ae0082",
+      "time_h": 79.66666666666667
+    },
+    {
+      "file": "G3-00491.vtu.gz",
+      "sha256": "a05cf670b70f56babf1b3244283f1763bf464caca3c046d9ffab74a618aa72e4",
+      "time_h": 79.83333333333333
+    },
+    {
+      "file": "G3-00492.vtu.gz",
+      "sha256": "2b5849bd8a4e89176b86255dda854c3d7e617b0150a920833b25de22c0d666eb",
+      "time_h": 80.0
+    },
+    {
+      "file": "G3-00493.vtu.gz",
+      "sha256": "0d71c271d6b09d228eb9cfddb9050d485784761129c851f4a9971566270dcbf7",
+      "time_h": 80.16666666666667
+    },
+    {
+      "file": "G3-00494.vtu.gz",
+      "sha256": "942e273a47175b6c7f8d8767f2bcd02f45da181a0949560aaf3607dd532ac0df",
+      "time_h": 80.33333333333333
+    },
+    {
+      "file": "G3-00495.vtu.gz",
+      "sha256": "ded7972e96da9df075905e03fece187d28cb977ed85637641c97c3eabfa13ea2",
+      "time_h": 80.5
+    },
+    {
+      "file": "G3-00496.vtu.gz",
+      "sha256": "c5c6129c35a52bf136db6895368c680aa5b6412775571031d5a0771b012270b5",
+      "time_h": 80.66666666666667
+    },
+    {
+      "file": "G3-00497.vtu.gz",
+      "sha256": "feb675ed7b641cc57c71f1e2f4452eb5ac16c21be48ae0ce73b4f709ee3f8b32",
+      "time_h": 80.83333333333333
+    },
+    {
+      "file": "G3-00498.vtu.gz",
+      "sha256": "560613df7e0b1f836b954835c3bec55389375d6f80b75cdd12a4446c2d9e7d42",
+      "time_h": 81.0
+    },
+    {
+      "file": "G3-00499.vtu.gz",
+      "sha256": "8b903288ec0941e685fa0504c2226ae752d4e3d9ef1fc7de9b12c01f8bd19707",
+      "time_h": 81.16666666666667
+    },
+    {
+      "file": "G3-00500.vtu.gz",
+      "sha256": "a3f9d095608ab88f0a704a65e1a235ef356929027f7385e16965d718e0e6d607",
+      "time_h": 81.33333333333333
+    },
+    {
+      "file": "G3-00501.vtu.gz",
+      "sha256": "ef23b5340ea25bf00d1baef36fafe0311da23becacd9e1ed4bf165a5266c5bc5",
+      "time_h": 81.5
+    },
+    {
+      "file": "G3-00502.vtu.gz",
+      "sha256": "a78bcfd93c661bcc323d239f851a8457b9958c55b34e329d4629adcd38ba876b",
+      "time_h": 81.66666666666667
+    },
+    {
+      "file": "G3-00503.vtu.gz",
+      "sha256": "97a67c51f3ac14bc9038a61142dd850a933d7d90613aa2d39ba5832a2bcd491b",
+      "time_h": 81.83333333333333
+    },
+    {
+      "file": "G3-00504.vtu.gz",
+      "sha256": "9f141b25834a6d3776a6936195fb44440725c8e8ce39477dc2a3a6ce639cb812",
+      "time_h": 82.0
+    },
+    {
+      "file": "G3-00505.vtu.gz",
+      "sha256": "a66e5fc8aafd08c5367fb00c34eb89360693f052a215797b8752397aed0b9f6d",
+      "time_h": 82.16666666666667
+    },
+    {
+      "file": "G3-00506.vtu.gz",
+      "sha256": "8d5c5b7a6c8f870f5776b9682e7fe796b5041882d1d59e2a321f195898f914fb",
+      "time_h": 82.33333333333333
+    },
+    {
+      "file": "G3-00507.vtu.gz",
+      "sha256": "2b520929eba4b14e8c4c66a25bc3da772c6fba54f5dd25f99706886028d1b237",
+      "time_h": 82.5
+    },
+    {
+      "file": "G3-00508.vtu.gz",
+      "sha256": "e5480709ed7c4cee48faa4b853c3458fc70e15305a9ee5fcf09944f03ae45ca3",
+      "time_h": 82.66666666666667
+    },
+    {
+      "file": "G3-00509.vtu.gz",
+      "sha256": "12c860ab97f3a8ea77d3a87bf8b49d838c678f00502b21c1e388809f556a8ea8",
+      "time_h": 82.83333333333333
+    },
+    {
+      "file": "G3-00510.vtu.gz",
+      "sha256": "6f8b3c9bcd74d8294035791ee5abf880d33a56da666fd8fc07a76117fe91d845",
+      "time_h": 83.0
+    },
+    {
+      "file": "G3-00511.vtu.gz",
+      "sha256": "702125837ec06c51995e197fef7f97c41286e553b7eb4d727b9cce7f4e4b77c9",
+      "time_h": 83.16666666666667
+    },
+    {
+      "file": "G3-00512.vtu.gz",
+      "sha256": "c969bad59a889e162b98f0d6994d1998ca6c94f0aa5535232a3b94c7791e24bb",
+      "time_h": 83.33333333333333
+    },
+    {
+      "file": "G3-00513.vtu.gz",
+      "sha256": "2cff4468cb4c637f0d826f8b734becc88cac3052faae3780c10dfcaed00d778a",
+      "time_h": 83.5
+    },
+    {
+      "file": "G3-00514.vtu.gz",
+      "sha256": "666ebd157fa2af794856ffab83262a7a4473013baf2092a77bcc1028d68bd54f",
+      "time_h": 83.66666666666667
+    },
+    {
+      "file": "G3-00515.vtu.gz",
+      "sha256": "f444a7aca7085b860a546850c90582ef032365715977dd277125ff3c640a5b9b",
+      "time_h": 83.83333333333333
+    },
+    {
+      "file": "G3-00516.vtu.gz",
+      "sha256": "3040db28ed998f39047a4bc324b02f676e2cbaa020068da906c10ccef21cfdd3",
+      "time_h": 84.0
+    },
+    {
+      "file": "G3-00517.vtu.gz",
+      "sha256": "d76ba80b2e68a514ec2d6492d8929cf2f8e3fd541f767a8c85694fcb21b78203",
+      "time_h": 84.16666666666667
+    },
+    {
+      "file": "G3-00518.vtu.gz",
+      "sha256": "6495dc38fc9bce65107b134a7972e9f956698e78c3add3d4b50700b075731e79",
+      "time_h": 84.33333333333333
+    },
+    {
+      "file": "G3-00519.vtu.gz",
+      "sha256": "701e7388c90140181408d5884c0623e39089e5e355583931490f26708426e587",
+      "time_h": 84.5
+    },
+    {
+      "file": "G3-00520.vtu.gz",
+      "sha256": "3749fa76c7bdce1918519a995a2e836f4da770bde6d1913dd26dff7d7db527ef",
+      "time_h": 84.66666666666667
+    },
+    {
+      "file": "G3-00521.vtu.gz",
+      "sha256": "8a8b9d865dfc184bdb8f9e7f64716cb75b7e495cda9fd4bc97196b5e33d9e6dd",
+      "time_h": 84.83333333333333
+    },
+    {
+      "file": "G3-00522.vtu.gz",
+      "sha256": "db236b6425ef3861060e50aa77a1c53403d22d4665bf1021b13e6ee3a2e44ba6",
+      "time_h": 85.0
+    },
+    {
+      "file": "G3-00523.vtu.gz",
+      "sha256": "bd49cbe49f9d36859048066d7dc98d69e62de8b159068679f9cdfbb6b6c32555",
+      "time_h": 85.16666666666667
+    },
+    {
+      "file": "G3-00524.vtu.gz",
+      "sha256": "7b6edc47c9579eb5c38116b5c9f3a116e5a83c3ec44e91d4ccb8ef5affd12ddc",
+      "time_h": 85.33333333333333
+    },
+    {
+      "file": "G3-00525.vtu.gz",
+      "sha256": "0148bd71eade785ce31b76bbd1f002eb91115ceb7c8f8187e12eeb3696816173",
+      "time_h": 85.5
+    },
+    {
+      "file": "G3-00526.vtu.gz",
+      "sha256": "86af1bed1ea09553a935b85746bec92469152e987ffea171e0e5358b89424216",
+      "time_h": 85.66666666666667
+    },
+    {
+      "file": "G3-00527.vtu.gz",
+      "sha256": "02cc93ec904404e0c93e47ca08a3d525b6ddc372b9aec258ee99e406806c3d3a",
+      "time_h": 85.83333333333333
+    },
+    {
+      "file": "G3-00528.vtu.gz",
+      "sha256": "2efe3a44f2cee14503cd58c1b0cf30fd8e0b07e4a1c719154fde229ff7941413",
+      "time_h": 86.0
+    },
+    {
+      "file": "G3-00529.vtu.gz",
+      "sha256": "2bb035f2ddf9c184cd903585b1e9432b87bb8c8432fd08499c949df2aa6bae3d",
+      "time_h": 86.16666666666667
+    },
+    {
+      "file": "G3-00530.vtu.gz",
+      "sha256": "3c97982207f9c8f9f4d388faa9e4e1ebdb660be99a80fba00fda1316e2977355",
+      "time_h": 86.33333333333333
+    },
+    {
+      "file": "G3-00531.vtu.gz",
+      "sha256": "436efbce4b14f3f49771f80678e3081bba4a77445413d08252c8b46fa7eba066",
+      "time_h": 86.5
+    },
+    {
+      "file": "G3-00532.vtu.gz",
+      "sha256": "49aedacfe84094c54aed9b1d3b49b924a3d1db92257a3b4040c13e2be0b59a2b",
+      "time_h": 86.66666666666667
+    },
+    {
+      "file": "G3-00533.vtu.gz",
+      "sha256": "a8f25d936a11fa9abea072ed3bc0efff9fa14f430d0a2375e8e4317bd80841ca",
+      "time_h": 86.83333333333333
+    },
+    {
+      "file": "G3-00534.vtu.gz",
+      "sha256": "a56036d53c2190a5555d51907dc33d8fdf8edc21499da84a8b863daca6b5e967",
+      "time_h": 87.0
+    },
+    {
+      "file": "G3-00535.vtu.gz",
+      "sha256": "99272ab2aeae8944ccab22901057ac0dbb6f4a665f290de5d43320ac0704a71f",
+      "time_h": 87.16666666666667
+    },
+    {
+      "file": "G3-00536.vtu.gz",
+      "sha256": "d9eb28cf49a852a922b6d108913db2a8ef6eff4474b4e2730494a759db0eadae",
+      "time_h": 87.33333333333333
+    },
+    {
+      "file": "G3-00537.vtu.gz",
+      "sha256": "b8ecc2b3c039e77041ddddf35b5dde474a0120963bdd4997a5f0cecf7424f115",
+      "time_h": 87.5
+    },
+    {
+      "file": "G3-00538.vtu.gz",
+      "sha256": "d7b3ee072cdff7bcc3d99cdadfdd65ad8189440b8bc13b1fd6fc453f1277502a",
+      "time_h": 87.66666666666667
+    },
+    {
+      "file": "G3-00539.vtu.gz",
+      "sha256": "f792626b61e379038ed17df8b7540e30e01c89088bcfd17ea720df6207547e54",
+      "time_h": 87.83333333333333
+    },
+    {
+      "file": "G3-00540.vtu.gz",
+      "sha256": "b06543fe1f4adeea010b88266a6141d57731ea6cee1a1dd80b41d61e33392bb0",
+      "time_h": 88.0
+    },
+    {
+      "file": "G3-00541.vtu.gz",
+      "sha256": "c6b0ebc5a0b26fa901c0a3e84b8f0978802d1bd3112263707d841c8f4abe1cf9",
+      "time_h": 88.16666666666667
+    },
+    {
+      "file": "G3-00542.vtu.gz",
+      "sha256": "a17acb23d0ff17183d0ed82d681cf69d2827a01f4a9395e3f84e3f5a2612afb0",
+      "time_h": 88.33333333333333
+    },
+    {
+      "file": "G3-00543.vtu.gz",
+      "sha256": "0b775d9f15ea35323d40af12701b2766d958a20dfef0c3aa112ad86c4fe34d02",
+      "time_h": 88.5
+    },
+    {
+      "file": "G3-00544.vtu.gz",
+      "sha256": "5d79932e7232e649ffd7ef85c385101aaa95982463ae20e07563d1d247a96b55",
+      "time_h": 88.66666666666667
+    },
+    {
+      "file": "G3-00545.vtu.gz",
+      "sha256": "81b46b275b52df0cffa8a22a7d27f9971496cd4a05f59c399b94cc8db663917d",
+      "time_h": 88.83333333333333
+    },
+    {
+      "file": "G3-00546.vtu.gz",
+      "sha256": "4d8779aca20271bd3caf14b800314a3dfad86371092cad26424bda7e3bcd4113",
+      "time_h": 89.0
+    },
+    {
+      "file": "G3-00547.vtu.gz",
+      "sha256": "54cd67b2cf24d2911ff456798a8d3f8ac8045c737c62c2e844f77a4a5500d511",
+      "time_h": 89.16666666666667
+    },
+    {
+      "file": "G3-00548.vtu.gz",
+      "sha256": "6c7ff90bd45e215ff3088cabf73968ea238996d5f12b348bd605a4bc8b60a960",
+      "time_h": 89.33333333333333
+    },
+    {
+      "file": "G3-00549.vtu.gz",
+      "sha256": "e45f61373ff9233a2fbd906846f81d99515fde73c9aa27f9a0d55c3e1368c3ef",
+      "time_h": 89.5
+    },
+    {
+      "file": "G3-00550.vtu.gz",
+      "sha256": "73a7ec358e1aa52a6c9945285f10a5b21ce57961026d11ad0dcfa6271db1bb45",
+      "time_h": 89.66666666666667
+    },
+    {
+      "file": "G3-00551.vtu.gz",
+      "sha256": "d4ff8bbffa0f394ad9af4b9da9cfed48aca71386c3417dd2dc4286c84aa76335",
+      "time_h": 89.83333333333333
+    },
+    {
+      "file": "G3-00552.vtu.gz",
+      "sha256": "87e38083b2bcda1c6f8e7e0625841a184f6dfccc1e66cb01029c7ace087ef02c",
+      "time_h": 90.0
+    },
+    {
+      "file": "G3-00553.vtu.gz",
+      "sha256": "8e3f6c7ed924822295de46915dcc062376272abd9accf8c4317036c65989cc08",
+      "time_h": 90.16666666666667
+    },
+    {
+      "file": "G3-00554.vtu.gz",
+      "sha256": "da0dd79c8c93093090ec21e886b90e2e1f0fb44db37606de087bb845bf4bf13f",
+      "time_h": 90.33333333333333
+    },
+    {
+      "file": "G3-00555.vtu.gz",
+      "sha256": "db2d015eb0de1f2065be96d4d791c8bb1bf6cebb94cd42e33418f05e2bdac437",
+      "time_h": 90.5
+    },
+    {
+      "file": "G3-00556.vtu.gz",
+      "sha256": "80c6f2a5af42bde383b9ea91144fc7b8b60aabfba2be21f8f7d23d2a900fadbe",
+      "time_h": 90.66666666666667
+    },
+    {
+      "file": "G3-00557.vtu.gz",
+      "sha256": "72e60bbf1300b4453e628b9798d0fa41927a2bfda436486d913ee6e92567414b",
+      "time_h": 90.83333333333333
+    },
+    {
+      "file": "G3-00558.vtu.gz",
+      "sha256": "38522ac92e5b651ee48abea4dc279224a1af791d37b8c876953095443fbc5989",
+      "time_h": 91.0
+    },
+    {
+      "file": "G3-00559.vtu.gz",
+      "sha256": "565a1d23e588728b43142f7731ec0088491d2724eb3f30cb604e4c8dac599cf1",
+      "time_h": 91.16666666666667
+    },
+    {
+      "file": "G3-00560.vtu.gz",
+      "sha256": "3146cb16ae6714694c1125aeb59f7b876eb3610fda12d154a34606faf61f1e98",
+      "time_h": 91.33333333333333
+    },
+    {
+      "file": "G3-00561.vtu.gz",
+      "sha256": "a59db372e8847a94a97c55044a5cf5405088ba2f25d0605d7255484a5c8f6ad4",
+      "time_h": 91.5
+    },
+    {
+      "file": "G3-00562.vtu.gz",
+      "sha256": "547ed0827f4800e4ead3ea34b659a362e0f08fe2c11d258bf4025b2265939b1b",
+      "time_h": 91.66666666666667
+    },
+    {
+      "file": "G3-00563.vtu.gz",
+      "sha256": "96ffb2b838654e5cd1a011a6e4b9b5567073a402360b1a0d48e290f4e7d973e4",
+      "time_h": 91.83333333333333
+    },
+    {
+      "file": "G3-00564.vtu.gz",
+      "sha256": "72ee04afaba06405f6cc43284c90861c2dc5ef8b1e12f5da35bd0044b863b901",
+      "time_h": 92.0
+    },
+    {
+      "file": "G3-00565.vtu.gz",
+      "sha256": "ce4954401ceaa2b4d609c3dff404821606d812a4c5609ed59739cbdb995c3b23",
+      "time_h": 92.16666666666667
+    },
+    {
+      "file": "G3-00566.vtu.gz",
+      "sha256": "7284d37b8cbe2d50295cf57479122b00f6e8951d8b21382e92c3b62b909eba67",
+      "time_h": 92.33333333333333
+    },
+    {
+      "file": "G3-00567.vtu.gz",
+      "sha256": "5a357ba072c983da6a08b6c465f3ab3d880241750cd11e5ebcde57fd713468c6",
+      "time_h": 92.5
+    },
+    {
+      "file": "G3-00568.vtu.gz",
+      "sha256": "2ca348e6d5f4038637525c77ed5f514290e5540f72b2a6eb2f64d670b84dd2d4",
+      "time_h": 92.66666666666667
+    },
+    {
+      "file": "G3-00569.vtu.gz",
+      "sha256": "d463b71d6b3e1435d999bf75c4859a6850af51323776b68ca5524950f4dfe0c1",
+      "time_h": 92.83333333333333
+    },
+    {
+      "file": "G3-00570.vtu.gz",
+      "sha256": "c6689e3037926c40386b0ee07ee4645e4559376965bd4e04a96ddad397a167b4",
+      "time_h": 93.0
+    },
+    {
+      "file": "G3-00571.vtu.gz",
+      "sha256": "258fd6a9e64d12566531fea1e909acb70c690198aa07bf6cf3d630370c38c8b0",
+      "time_h": 93.16666666666667
+    },
+    {
+      "file": "G3-00572.vtu.gz",
+      "sha256": "db18f923ef8f8973d5ce1e7931b09eab2ac57a0ab60cc15be9f12d8c8f4235da",
+      "time_h": 93.33333333333333
+    },
+    {
+      "file": "G3-00573.vtu.gz",
+      "sha256": "a2d73a0bc7b0f5b3f267603e37fc568d02a6fe939d6d289dbb130b4bba87d7cc",
+      "time_h": 93.5
+    },
+    {
+      "file": "G3-00574.vtu.gz",
+      "sha256": "4d34777017f81790875fced8fc2833449574552958eb3a38f13c51b6360311f8",
+      "time_h": 93.66666666666667
+    },
+    {
+      "file": "G3-00575.vtu.gz",
+      "sha256": "6b682f2d1cd09d1398ad5deb9cf6d7c1a9f62870a4f7cc23000b380d078c2c3b",
+      "time_h": 93.83333333333333
+    },
+    {
+      "file": "G3-00576.vtu.gz",
+      "sha256": "6a52df2f52253880245036b7e87f97e9d425a6578eb544b7f98f12d459fb98cf",
+      "time_h": 94.0
+    },
+    {
+      "file": "G3-00577.vtu.gz",
+      "sha256": "e8df8b88d076bf47e2d70d6b4cd61e4316b99b9692979094916e719519806910",
+      "time_h": 94.16666666666667
+    },
+    {
+      "file": "G3-00578.vtu.gz",
+      "sha256": "0dbbb964ed7f60301b40bd0067adf5e12ab3f919e07f0f1f50262017504c0abb",
+      "time_h": 94.33333333333333
+    },
+    {
+      "file": "G3-00579.vtu.gz",
+      "sha256": "79b09d7a125b7bfce2b2cd4e84cab94c309476af84c52e6f1f9918d2c61270bb",
+      "time_h": 94.5
+    },
+    {
+      "file": "G3-00580.vtu.gz",
+      "sha256": "d3f6b948af0e90e6ad555d63ef98ee59f2abc68471ed51a60541c4d3a38b62dc",
+      "time_h": 94.66666666666667
+    },
+    {
+      "file": "G3-00581.vtu.gz",
+      "sha256": "cb55f214bd6e308d22a89fef0010f999cf64ec01c43dbc5be0c587a08e0ce54f",
+      "time_h": 94.83333333333333
+    },
+    {
+      "file": "G3-00582.vtu.gz",
+      "sha256": "335ad2cd1c262a62155fe10877fdd6bf42f73240041f313172a54e84f364033f",
+      "time_h": 95.0
+    },
+    {
+      "file": "G3-00583.vtu.gz",
+      "sha256": "296bda526022ee45fda78bb47636d5b703c7b4e88e713aadbb5ba8638439808f",
+      "time_h": 95.16666666666667
+    },
+    {
+      "file": "G3-00584.vtu.gz",
+      "sha256": "b4c8873722ceb3294b7b6f3e02056b0cb50e0538b75a18daf23d6f0f523551da",
+      "time_h": 95.33333333333333
+    },
+    {
+      "file": "G3-00585.vtu.gz",
+      "sha256": "00e0ecac478b8501ac12b8e6a6e6cc395a439aaf59de6f4e1d9f01a9904025f7",
+      "time_h": 95.5
+    },
+    {
+      "file": "G3-00586.vtu.gz",
+      "sha256": "62525dd37f4797e3f86f09045db93b53c49f1358a7d95f98dcb54c2fa7afdf79",
+      "time_h": 95.66666666666667
+    },
+    {
+      "file": "G3-00587.vtu.gz",
+      "sha256": "a974e2d9ee972256378249d37588965f9b0473cd37aab6a144806cb12c1770fd",
+      "time_h": 95.83333333333333
+    },
+    {
+      "file": "G3-00588.vtu.gz",
+      "sha256": "f26fd009f4e48741b4093878636c9d136a215b8fd1fb5d75f1d6ec727ef8ed91",
+      "time_h": 96.0
+    },
+    {
+      "file": "G3-00589.vtu.gz",
+      "sha256": "049d213c6e630251b19143604e8aab19571c0f793b2a63ad0f9140aca361a3f2",
+      "time_h": 96.16666666666667
+    },
+    {
+      "file": "G3-00590.vtu.gz",
+      "sha256": "44e7c167fb0e586d7579bd9b24d560fafabc6ee2bd899d7ec9bbf657623d6bf5",
+      "time_h": 96.33333333333333
+    },
+    {
+      "file": "G3-00591.vtu.gz",
+      "sha256": "997baa121de131a6efdd1e07e28d4388b9e7a672fafcdea05df8753d2f28f5ca",
+      "time_h": 96.5
+    },
+    {
+      "file": "G3-00592.vtu.gz",
+      "sha256": "247677503d051fe0a35703009a25c8f28fd5b6cb2f6bf6124d67a988ed7a07f8",
+      "time_h": 96.66666666666667
+    },
+    {
+      "file": "G3-00593.vtu.gz",
+      "sha256": "c009b3198252513cd54604f29d651874449c2b61883842bb75ccd4ff020799ea",
+      "time_h": 96.83333333333333
+    },
+    {
+      "file": "G3-00594.vtu.gz",
+      "sha256": "d4d664d054f9d9843fc28b4be1fe59918caa3ae6fbc3c1af52d73ed0c04edcdd",
+      "time_h": 97.0
+    },
+    {
+      "file": "G3-00595.vtu.gz",
+      "sha256": "e84e3a05e693574a5604a80b51f16ea0ce2cb4a95a8f8d9dba7ae1fb357ec930",
+      "time_h": 97.16666666666667
+    },
+    {
+      "file": "G3-00596.vtu.gz",
+      "sha256": "72b54c9631151530e5bc2d8bf884a75411342255c79d989f408d7d6eb942add5",
+      "time_h": 97.33333333333333
+    },
+    {
+      "file": "G3-00597.vtu.gz",
+      "sha256": "3e0302ace6f0faef9ab9bff9fdb1fb4ee04ee3de9f5f524ddc9f592e5ef3d150",
+      "time_h": 97.5
+    },
+    {
+      "file": "G3-00598.vtu.gz",
+      "sha256": "d84d0d17d6e3da247bd31e7d177f489a3a993f99304efd06c3a1382bf621598a",
+      "time_h": 97.66666666666667
+    },
+    {
+      "file": "G3-00599.vtu.gz",
+      "sha256": "76ae818c4ebc7a6ebcba00fffa7e2922442abb4f78442190ef5cd0176dc7edeb",
+      "time_h": 97.83333333333333
+    },
+    {
+      "file": "G3-00600.vtu.gz",
+      "sha256": "ed0d8e968f1208abd0e7be2bfe3849d749dd6802d24980e0d982b521e34cfff3",
+      "time_h": 98.0
+    },
+    {
+      "file": "G3-00601.vtu.gz",
+      "sha256": "a476fcf9d89ff558ab7f8ddcf9c1950c3e2f1b1bb056f379687096b33d94067b",
+      "time_h": 98.16666666666667
+    },
+    {
+      "file": "G3-00602.vtu.gz",
+      "sha256": "287e5d459aa9ee0aab1cc6c779ab733d87ab19c04c1fa98f3c9db0fdb90e922c",
+      "time_h": 98.33333333333333
+    },
+    {
+      "file": "G3-00603.vtu.gz",
+      "sha256": "45728e19d1770df57fda462127e568e96345912c16617ab11d2abea1bc3d8add",
+      "time_h": 98.5
+    },
+    {
+      "file": "G3-00604.vtu.gz",
+      "sha256": "00bb47ce5e5b690f7d867826d77c7957526479ee3a9e6ab88b13e2e0396aec91",
+      "time_h": 98.66666666666667
+    },
+    {
+      "file": "G3-00605.vtu.gz",
+      "sha256": "9bed20e37052dd6a29a6b8cffd04a1dcba5f1c44f5ca1384f29f067e1a7f59f2",
+      "time_h": 98.83333333333333
+    },
+    {
+      "file": "G3-00606.vtu.gz",
+      "sha256": "acc850b14da339ae4dc65b791df93addaec991766e318d20386487e5255a7536",
+      "time_h": 99.0
+    },
+    {
+      "file": "G3-00607.vtu.gz",
+      "sha256": "87c3e33c9882475301f0e0cb57b175a4662bcdd3ce84910aaa4a86601d185ea9",
+      "time_h": 99.16666666666667
+    },
+    {
+      "file": "G3-00608.vtu.gz",
+      "sha256": "0978ffb0ff0b2a0c15c9a25eb79a061e8384290ad61d5c426a59ebcd2c8df4a0",
+      "time_h": 99.33333333333333
+    },
+    {
+      "file": "G3-00609.vtu.gz",
+      "sha256": "44236e630932df0dfff185eb8e3740c843cef55b3cff0c4463bd12d7744a56e3",
+      "time_h": 99.5
+    },
+    {
+      "file": "G3-00610.vtu.gz",
+      "sha256": "be6c2b3faf636485a27d45e81c23195c6e4c7edc931ca9cee700a11951a1b579",
+      "time_h": 99.66666666666667
+    },
+    {
+      "file": "G3-00611.vtu.gz",
+      "sha256": "09b5c8d4d01297ae02172ddf3a0f39d1eb4d2070954f3e5e622fd7d4a82739fe",
+      "time_h": 99.83333333333333
+    },
+    {
+      "file": "G3-00612.vtu.gz",
+      "sha256": "7a4af4f47b38612d31961ced35488ec6150ba628afb25f111aa3217c4cb63cad",
+      "time_h": 100.0
+    },
+    {
+      "file": "G3-00613.vtu.gz",
+      "sha256": "28d06eee80c146043f957803ab23b671c8d1855338c666876586c06703c031be",
+      "time_h": 100.16666666666667
+    },
+    {
+      "file": "G3-00614.vtu.gz",
+      "sha256": "ee08e4e59216305fd8734b24b8d1ed8c87615a7b02edb0e572f2d400e1aed9fb",
+      "time_h": 100.33333333333333
+    },
+    {
+      "file": "G3-00615.vtu.gz",
+      "sha256": "af5598a9390d2a2bcce7a02afacc225271c7f5e8a647e198f68abff29e93afa5",
+      "time_h": 100.5
+    },
+    {
+      "file": "G3-00616.vtu.gz",
+      "sha256": "5dede2253fecce34d4a7b191edf9707b36b1d5203acacf7c378a4d547e85b69c",
+      "time_h": 100.66666666666667
+    },
+    {
+      "file": "G3-00617.vtu.gz",
+      "sha256": "025c1626b9a08ed6a66b2649c7fb6ca05d2459b65fba839a9441ea2e1ee46718",
+      "time_h": 100.83333333333333
+    },
+    {
+      "file": "G3-00618.vtu.gz",
+      "sha256": "461b42f6aa0676c63105a3c071b471141857a7876ce6fd593fd090fc66cc7a47",
+      "time_h": 101.0
+    },
+    {
+      "file": "G3-00619.vtu.gz",
+      "sha256": "e1dee9d34e66657f28c22bead9daba0b62bc56199c6b27a5d5539b19b17c8869",
+      "time_h": 101.16666666666667
+    },
+    {
+      "file": "G3-00620.vtu.gz",
+      "sha256": "33f68ffabdd94f6d5375f7be3a66ce5e2e12bb389647b445a30e7297cf009cea",
+      "time_h": 101.33333333333333
+    },
+    {
+      "file": "G3-00621.vtu.gz",
+      "sha256": "d049cede0a7301f0ce2e874a82294e90711370e86b0bdd30cd0fba8bb45faa12",
+      "time_h": 101.5
+    },
+    {
+      "file": "G3-00622.vtu.gz",
+      "sha256": "d34cc3070c70fa96431403935a360df8ac28ec07fb156b14b3f9f800089ac80d",
+      "time_h": 101.66666666666667
+    },
+    {
+      "file": "G3-00623.vtu.gz",
+      "sha256": "886675bab96b440c16dd7fa6da32a747327b61e3a99628fb2c680ff5f7132074",
+      "time_h": 101.83333333333333
+    },
+    {
+      "file": "G3-00624.vtu.gz",
+      "sha256": "181ac9953d7170a5864c1490aa20e234e737ace261bfba72185a02071b408217",
+      "time_h": 102.0
+    },
+    {
+      "file": "G3-00625.vtu.gz",
+      "sha256": "5f39e705de1ea64df882179fd0854a0fa6159af73035c5292b0c35e954885f61",
+      "time_h": 102.16666666666667
+    },
+    {
+      "file": "G3-00626.vtu.gz",
+      "sha256": "b6dd16819d053a1d7261d7accb8b3ed0faf382a0dab9f47d8c616d30c88bd771",
+      "time_h": 102.33333333333333
+    },
+    {
+      "file": "G3-00627.vtu.gz",
+      "sha256": "a1d802dc0c8fa31c0a6dd6329f6a22e78a95f1efa855c2d89704b443e88ec7d3",
+      "time_h": 102.5
+    },
+    {
+      "file": "G3-00628.vtu.gz",
+      "sha256": "7fae1405b14a87b60dec28dc9610fb8627cbe053430a849fa122dc9300c529df",
+      "time_h": 102.66666666666667
+    },
+    {
+      "file": "G3-00629.vtu.gz",
+      "sha256": "e927c1583dd4a53d04e13c4c8cef12830bdc9b228d0803aea8e7691067414c13",
+      "time_h": 102.83333333333333
+    },
+    {
+      "file": "G3-00630.vtu.gz",
+      "sha256": "3489fe41d28e89bc1ed056ee58e7dc94fc572ef95492fe79759746ae2cf8d46b",
+      "time_h": 103.0
+    },
+    {
+      "file": "G3-00631.vtu.gz",
+      "sha256": "7dd217f92baa4a60ad5f58ca68170962512a9e06a7b9f136699f7a5efdfc910e",
+      "time_h": 103.16666666666667
+    },
+    {
+      "file": "G3-00632.vtu.gz",
+      "sha256": "64d3a6858b8df4f4a0bb4243c8b268f9c9c3cd3c60564e1adf5b9cc35ccd0e04",
+      "time_h": 103.33333333333333
+    },
+    {
+      "file": "G3-00633.vtu.gz",
+      "sha256": "ef634f272f7712df633c73ff563a79b5e36a9e465f6f5188950d05091a5e0046",
+      "time_h": 103.5
+    },
+    {
+      "file": "G3-00634.vtu.gz",
+      "sha256": "b42232ae23271ca4a5ba5c71f8d2009b9798cd697e2a1e83bf3266fedbd1b2f9",
+      "time_h": 103.66666666666667
+    },
+    {
+      "file": "G3-00635.vtu.gz",
+      "sha256": "4a7119172f57e3e20d974e5e9ae820919d76f0fcced8dfcb5e0023def72d4fe6",
+      "time_h": 103.83333333333333
+    },
+    {
+      "file": "G3-00636.vtu.gz",
+      "sha256": "084694ea597169f1f682af844c5171bcb1c6f06488cdfb8a482aac316b1f491e",
+      "time_h": 104.0
+    },
+    {
+      "file": "G3-00637.vtu.gz",
+      "sha256": "5920c6a2043d243e4e8fad0952c961d00dc0240544fd2a008a11c5b3a790b6ff",
+      "time_h": 104.16666666666667
+    },
+    {
+      "file": "G3-00638.vtu.gz",
+      "sha256": "61ef540408fd9a7e075f1bfdd7fe09d6b174548b81f1fd7478c7b99f8df58a87",
+      "time_h": 104.33333333333333
+    },
+    {
+      "file": "G3-00639.vtu.gz",
+      "sha256": "eb5e76dc4e1cbfd973893f2fcc8ea2c61e72755b35b247b8fd1f0baeb44f52b0",
+      "time_h": 104.5
+    },
+    {
+      "file": "G3-00640.vtu.gz",
+      "sha256": "9985d225a3c8d55faf8ff1b7509b1ae5756252b711871fa7d6d6c1782f266c04",
+      "time_h": 104.66666666666667
+    },
+    {
+      "file": "G3-00641.vtu.gz",
+      "sha256": "33b09ecbc3f053a75c0445eaf47a61be8c1cbc664e2a76613af256b69687b893",
+      "time_h": 104.83333333333333
+    },
+    {
+      "file": "G3-00642.vtu.gz",
+      "sha256": "44575aeacf9c77704f703dc5e9cff37a3e7c1cecbf4d82f78ddde6bfd2cc31db",
+      "time_h": 105.0
+    },
+    {
+      "file": "G3-00643.vtu.gz",
+      "sha256": "ad3cdba9b67fe2d36bb85f0d787a294a4c1c5bc36bc66ff93b52d7f736155f71",
+      "time_h": 105.16666666666667
+    },
+    {
+      "file": "G3-00644.vtu.gz",
+      "sha256": "4b02f79203a019ef28265cd7505f39c892e8e771ebf19caba68e8064e07bc130",
+      "time_h": 105.33333333333333
+    },
+    {
+      "file": "G3-00645.vtu.gz",
+      "sha256": "e722fb12343cae3a22e4cd6774e259454c8a83ed3572aa51c7fcb268b8591b4c",
+      "time_h": 105.5
+    },
+    {
+      "file": "G3-00646.vtu.gz",
+      "sha256": "fdeb3ac61057ff4f6bffdcf4ddd810319a3a5e1cfa66cbcb687444b7fff94b88",
+      "time_h": 105.66666666666667
+    },
+    {
+      "file": "G3-00647.vtu.gz",
+      "sha256": "3be7997817bd9948d791678220177f413587b94f964db140c6bbb86d0ab55847",
+      "time_h": 105.83333333333333
+    },
+    {
+      "file": "G3-00648.vtu.gz",
+      "sha256": "5f71f70b008749a7be728213d4a8de9c78b655e18c025e6cd65379b4440f9da6",
+      "time_h": 106.0
+    },
+    {
+      "file": "G3-00649.vtu.gz",
+      "sha256": "38664dd652ebaa662daa1b9c689b1919600eb1eda6a2e2f8de6e3cc0fe2e65b5",
+      "time_h": 106.16666666666667
+    },
+    {
+      "file": "G3-00650.vtu.gz",
+      "sha256": "feef207299a40fdc54b2fb8bf39299b464e945294b6de504c06e04467404cac5",
+      "time_h": 106.33333333333333
+    },
+    {
+      "file": "G3-00651.vtu.gz",
+      "sha256": "23bd2bfb108a07035d356305c81b1ab902f2f266f4d120d8d92e95bedff58888",
+      "time_h": 106.5
+    },
+    {
+      "file": "G3-00652.vtu.gz",
+      "sha256": "5477cfe8e2f5c0f6edbf4df1cebf6df023899c6bbd2acd6d28532bfedd06268b",
+      "time_h": 106.66666666666667
+    },
+    {
+      "file": "G3-00653.vtu.gz",
+      "sha256": "0a35e10361ff96b6c2055f9be9d762d0a6f1aacaabc2d63989d82f2d1ec654e8",
+      "time_h": 106.83333333333333
+    },
+    {
+      "file": "G3-00654.vtu.gz",
+      "sha256": "892a192f7f312e15738f3ec42c011855c85ea3acc7433847bf4e7f86e78f8ee1",
+      "time_h": 107.0
+    },
+    {
+      "file": "G3-00655.vtu.gz",
+      "sha256": "5ca4a443bfb0ffa79c24c7da4241d73d7b208c13ffb261363343e94964559f00",
+      "time_h": 107.16666666666667
+    },
+    {
+      "file": "G3-00656.vtu.gz",
+      "sha256": "7b41518f1c05dc57e084d54a6903298c22baf02d8f9deb85d05e8fef1efed22d",
+      "time_h": 107.33333333333333
+    },
+    {
+      "file": "G3-00657.vtu.gz",
+      "sha256": "3c41def2a5714fe54ca37d33be881de5e897a0663141756150c1d797613961a7",
+      "time_h": 107.5
+    },
+    {
+      "file": "G3-00658.vtu.gz",
+      "sha256": "6afaf8e551d10cb0151330c79827ff83cb92d3069b5dff693c3616245c0622ca",
+      "time_h": 107.66666666666667
+    },
+    {
+      "file": "G3-00659.vtu.gz",
+      "sha256": "d976c74cf5f2de9fe27f3c25a6b2d430e895c980930c3ea36b9936f3ce6069b8",
+      "time_h": 107.83333333333333
+    },
+    {
+      "file": "G3-00660.vtu.gz",
+      "sha256": "af908634b4a78a1b42b750536fa7d37ecd1dd1a0f98b7352360bc5ecc1477ea2",
+      "time_h": 108.0
+    },
+    {
+      "file": "G3-00661.vtu.gz",
+      "sha256": "4ae965248d77c00c92361152268fec0bb681506fdd465685b84325ee891045d2",
+      "time_h": 108.16666666666667
+    },
+    {
+      "file": "G3-00662.vtu.gz",
+      "sha256": "44f7f766a2a54da88a7cf902188854a1f93c68945df5e936aa7d5b9c2ae50f55",
+      "time_h": 108.33333333333333
+    },
+    {
+      "file": "G3-00663.vtu.gz",
+      "sha256": "ecb3d55e3790b3a10a025af70215c8237343e375d60b4b14963698cac31d0f2f",
+      "time_h": 108.5
+    },
+    {
+      "file": "G3-00664.vtu.gz",
+      "sha256": "a965fcac73e92300ac3020edeb5a0aa20a32a9ad50777b4e199ff5a51b9fd93e",
+      "time_h": 108.66666666666667
+    },
+    {
+      "file": "G3-00665.vtu.gz",
+      "sha256": "641ab950a10af5e165f11a1d223bf9bcc7109364a1adb4968a9d6804e781c82a",
+      "time_h": 108.83333333333333
+    },
+    {
+      "file": "G3-00666.vtu.gz",
+      "sha256": "49e07ac8add2ff98a8ac66190a427b97fbf9e1091600accc36bbf7dbfd330ebd",
+      "time_h": 109.0
+    },
+    {
+      "file": "G3-00667.vtu.gz",
+      "sha256": "122e9d6905e83c2ebaa9d1decfa3c195ab9014b609b98351463cc2d726a8c3cd",
+      "time_h": 109.16666666666667
+    },
+    {
+      "file": "G3-00668.vtu.gz",
+      "sha256": "2ed302525ffb1be58224ab03e030f1541549a0b9af275ecbbe40b42a892594f5",
+      "time_h": 109.33333333333333
+    },
+    {
+      "file": "G3-00669.vtu.gz",
+      "sha256": "1d50b73f55e387961f424722bc89a7e18675303cb19ee03037b99078ea17aae6",
+      "time_h": 109.5
+    },
+    {
+      "file": "G3-00670.vtu.gz",
+      "sha256": "7b8d3be2325ff16c6b066a475a704961cbbdd9fb14b1e800be666a6081ffd3a4",
+      "time_h": 109.66666666666667
+    },
+    {
+      "file": "G3-00671.vtu.gz",
+      "sha256": "ff4db50f5719a0c9817f920ad56e5f1e61cd539af78944e01f872a75cd2f26f3",
+      "time_h": 109.83333333333333
+    },
+    {
+      "file": "G3-00672.vtu.gz",
+      "sha256": "afc333ef841ce596d33afa48b02fdf3d8af122a3143120c325263e3842a25bb3",
+      "time_h": 110.0
+    },
+    {
+      "file": "G3-00673.vtu.gz",
+      "sha256": "fdb7eee169c876eb2a43bc32c1bc691a72b4b0f8f628135f6600f5a73a14db40",
+      "time_h": 110.16666666666667
+    },
+    {
+      "file": "G3-00674.vtu.gz",
+      "sha256": "bb9fa78a6b1547a525f382aee4b07e3b3848eb0688e78a1a137de63e98140ae1",
+      "time_h": 110.33333333333333
+    },
+    {
+      "file": "G3-00675.vtu.gz",
+      "sha256": "5a8a4f6889c36487130eea737c4cb31abc26d0666742108104c5349dc84e3916",
+      "time_h": 110.5
+    },
+    {
+      "file": "G3-00676.vtu.gz",
+      "sha256": "7e8df3e6f009efd2b7753f62250d8e2c5ad90fda93fb083f2f234002e0b60850",
+      "time_h": 110.66666666666667
+    },
+    {
+      "file": "G3-00677.vtu.gz",
+      "sha256": "5f5e9b33777249ef8ec1f1e14151329f1f5c4520434eb3cd1d60bfe66282502f",
+      "time_h": 110.83333333333333
+    },
+    {
+      "file": "G3-00678.vtu.gz",
+      "sha256": "ad95a1dcf8aaccabcd26623ed787490444a7c9ff975ca25f3b800cc888cd368b",
+      "time_h": 111.0
+    },
+    {
+      "file": "G3-00679.vtu.gz",
+      "sha256": "873f93624f4fd7ba3853d474ddf5cc9f999e72ad6fe063309934fe6bc10a1adf",
+      "time_h": 111.16666666666667
+    },
+    {
+      "file": "G3-00680.vtu.gz",
+      "sha256": "6bb672fb8f3dc15945953f64210fbcb6c200b6d76517c602f53003bf1d292bc5",
+      "time_h": 111.33333333333333
+    },
+    {
+      "file": "G3-00681.vtu.gz",
+      "sha256": "2e63931864be7f910f184da8f6ef3c6d274b08f4f7cdeec429a0374d416ecf9e",
+      "time_h": 111.5
+    },
+    {
+      "file": "G3-00682.vtu.gz",
+      "sha256": "75fe61b3f86cd21bfe304a281fbeee0f94e96713461eed387289590be9b708e4",
+      "time_h": 111.66666666666667
+    },
+    {
+      "file": "G3-00683.vtu.gz",
+      "sha256": "311dc0bc0c2b1aaefe071485e40f4ce56d21eb3cba9a4cfb757ac511388b57fb",
+      "time_h": 111.83333333333333
+    },
+    {
+      "file": "G3-00684.vtu.gz",
+      "sha256": "a4654fe687dc7d6060860ea9a0d36f3f571c1536001d146002af3ada8dd5ab86",
+      "time_h": 112.0
+    },
+    {
+      "file": "G3-00685.vtu.gz",
+      "sha256": "98f67af38d49f8eed0c3d40665d3b037ec644b437a828d74eab96435ca46ebf3",
+      "time_h": 112.16666666666667
+    },
+    {
+      "file": "G3-00686.vtu.gz",
+      "sha256": "1e8cf5e29427275beb4ed7cdac6fde1a14c1f7fe3168750f809fd331eb625f6c",
+      "time_h": 112.33333333333333
+    },
+    {
+      "file": "G3-00687.vtu.gz",
+      "sha256": "fce57d225525132c61059d124a36e01b3920daa0833cf4f4c5742f650ddcf354",
+      "time_h": 112.5
+    },
+    {
+      "file": "G3-00688.vtu.gz",
+      "sha256": "ba07331ae72ef3522055b5268b122649ad4c8918572269224ae7a8478f830435",
+      "time_h": 112.66666666666667
+    },
+    {
+      "file": "G3-00689.vtu.gz",
+      "sha256": "3f1bab51f931c05f2e72dabb32f1bfe2c2edc03ae842b11afb1c7cdad761227e",
+      "time_h": 112.83333333333333
+    },
+    {
+      "file": "G3-00690.vtu.gz",
+      "sha256": "365491f2d4e0cdadbe2e03fc897d0468498a6fab0234439a5e5a01d04b3e494c",
+      "time_h": 113.0
+    },
+    {
+      "file": "G3-00691.vtu.gz",
+      "sha256": "49f6556c48f6be3768381a142d412a2e8a5c7307e9215e1678f20de5b4b3afc2",
+      "time_h": 113.16666666666667
+    },
+    {
+      "file": "G3-00692.vtu.gz",
+      "sha256": "95e543c8ac05e799eca91d635377df6fb9e4d17dba0912259f9f04cbec35eb08",
+      "time_h": 113.33333333333333
+    },
+    {
+      "file": "G3-00693.vtu.gz",
+      "sha256": "61088b0d0715d5bf830ec1d5c85cb0097df5f421da47cba2b8ddf4ba8af71913",
+      "time_h": 113.5
+    },
+    {
+      "file": "G3-00694.vtu.gz",
+      "sha256": "0425eb2e8729a78d64258f473332ca389e42726835cbc30dcac029ebb5e068a9",
+      "time_h": 113.66666666666667
+    },
+    {
+      "file": "G3-00695.vtu.gz",
+      "sha256": "7750b6d98998a72351b99f3304f23f9a03a69d36646beca9770a50adc438dae6",
+      "time_h": 113.83333333333333
+    },
+    {
+      "file": "G3-00696.vtu.gz",
+      "sha256": "30148e26825883eddde1c0959a9c0c80cd582de86871e99aed992525debd8500",
+      "time_h": 114.0
+    },
+    {
+      "file": "G3-00697.vtu.gz",
+      "sha256": "046fe0d8f38f449e7af5f86618c1a6cad237f162f5b4b55bc953d30f20453070",
+      "time_h": 114.16666666666667
+    },
+    {
+      "file": "G3-00698.vtu.gz",
+      "sha256": "1d2c99318069f965635ea475317039dff124bdfed7f65a79b214b1e4bff904b1",
+      "time_h": 114.33333333333333
+    },
+    {
+      "file": "G3-00699.vtu.gz",
+      "sha256": "2a365a5f5aec14450aecd5c1ec471aed9a1b31f18b57028bcdc90d6750fc0f85",
+      "time_h": 114.5
+    },
+    {
+      "file": "G3-00700.vtu.gz",
+      "sha256": "a794603807c18dad5ad47520552505e9b52059ac8379d3c17ceae7d59ac068a2",
+      "time_h": 114.66666666666667
+    },
+    {
+      "file": "G3-00701.vtu.gz",
+      "sha256": "99474db569339047daa35191fc3db85347fd05e4ea641313b1221ec1326efcc3",
+      "time_h": 114.83333333333333
+    },
+    {
+      "file": "G3-00702.vtu.gz",
+      "sha256": "b67992f8941d9fa06ef2ead85d797eccde4710573b144000e7ad23ab044d7fca",
+      "time_h": 115.0
+    },
+    {
+      "file": "G3-00703.vtu.gz",
+      "sha256": "c083c2009807769818dab7b70336fc09b846263a021fe5cc0f0e0a1028100619",
+      "time_h": 115.16666666666667
+    },
+    {
+      "file": "G3-00704.vtu.gz",
+      "sha256": "48d54a785248f842bb4a7c1669b977144eebbeaf3cb7e4f75babd41c2677de40",
+      "time_h": 115.33333333333333
+    },
+    {
+      "file": "G3-00705.vtu.gz",
+      "sha256": "df9ff9418062efd07bf998af56141360bcd191e0f79a68f8c987f62d178b4d2c",
+      "time_h": 115.5
+    },
+    {
+      "file": "G3-00706.vtu.gz",
+      "sha256": "3143a7445c47cf23f11ae15475053684087f28f1c49217952581d58fa9e71695",
+      "time_h": 115.66666666666667
+    },
+    {
+      "file": "G3-00707.vtu.gz",
+      "sha256": "bdc3bc4bcd141fdd3967f9326f1c42920df4739dd27dc2359c2e5493335582a9",
+      "time_h": 115.83333333333333
+    },
+    {
+      "file": "G3-00708.vtu.gz",
+      "sha256": "5b80ec346fade291c5a78dbac24483526120fec0ee2f7c97c8802078d9e5bc58",
+      "time_h": 116.0
+    },
+    {
+      "file": "G3-00709.vtu.gz",
+      "sha256": "204e21c8aa77b40777d2706bbbb7d841b091108b2579ccd5545f24130a9986f7",
+      "time_h": 116.16666666666667
+    },
+    {
+      "file": "G3-00710.vtu.gz",
+      "sha256": "5c4d2c030518c37a8bd44e505a6e3046b0d6f514f2dfa3323e1dd51170ced1b4",
+      "time_h": 116.33333333333333
+    },
+    {
+      "file": "G3-00711.vtu.gz",
+      "sha256": "b61cda618e20b093dffa8cf7e575f83b504595690a1f2da99d6fe8c4ad4e6b34",
+      "time_h": 116.5
+    },
+    {
+      "file": "G3-00712.vtu.gz",
+      "sha256": "4d2b157a04d260b982da517831a5cfa12a78af720612b50a7267e2223d5cd6df",
+      "time_h": 116.66666666666667
+    },
+    {
+      "file": "G3-00713.vtu.gz",
+      "sha256": "7cdc9423635934abbecc92104977b66a0cf0708f5750f878de718866628784b4",
+      "time_h": 116.83333333333333
+    },
+    {
+      "file": "G3-00714.vtu.gz",
+      "sha256": "ee3b0ddd1c5d4c683edc422597ba1cc3d4ce73273fb8327e19cf86960c2b616f",
+      "time_h": 117.0
+    },
+    {
+      "file": "G3-00715.vtu.gz",
+      "sha256": "5d63242c7b84de830909f5961e6218e7b0120e710d227e03c18d69e57790018b",
+      "time_h": 117.16666666666667
+    },
+    {
+      "file": "G3-00716.vtu.gz",
+      "sha256": "9245b567749e21764005a3bcd28b8a47941952e41c2860b41596cad6ec326316",
+      "time_h": 117.33333333333333
+    },
+    {
+      "file": "G3-00717.vtu.gz",
+      "sha256": "72574b21982d472fe3302da223aff41e880950023670d827946f0ef9d6215fb2",
+      "time_h": 117.5
+    },
+    {
+      "file": "G3-00718.vtu.gz",
+      "sha256": "4a82ae5f417cefe0230a2bb402648bf025913e0bdd09eec56f6ef043fee195f1",
+      "time_h": 117.66666666666667
+    },
+    {
+      "file": "G3-00719.vtu.gz",
+      "sha256": "73849f2ef72c9485305e8824f00194d84f12609014c665ba8736b524bf36b49d",
+      "time_h": 117.83333333333333
+    },
+    {
+      "file": "G3-00720.vtu.gz",
+      "sha256": "1831c3c00e8a0c3b13d510c9bb6a52bb270478a1608b88641e866c38bbeb3515",
+      "time_h": 118.0
+    },
+    {
+      "file": "G3-00721.vtu.gz",
+      "sha256": "dd203a4f47ca264919dc5893da52b2aac38130802bef92f73431b41073d9be48",
+      "time_h": 118.16666666666667
+    },
+    {
+      "file": "G3-00722.vtu.gz",
+      "sha256": "40f828efcf93ab303c32c660c0f6cb1322c32f6bb201ea56fbaf763e81ac386e",
+      "time_h": 118.33333333333333
+    },
+    {
+      "file": "G3-00723.vtu.gz",
+      "sha256": "db42ec3c3612b8b2d09adfa05aab8bfbfcbe8646c54d9234c2f3122fc5335284",
+      "time_h": 118.5
+    },
+    {
+      "file": "G3-00724.vtu.gz",
+      "sha256": "2dff76eeecad792b9c6283b73bb53e4ca1f1583c7252d1174f63a4928f5e4490",
+      "time_h": 118.66666666666667
+    },
+    {
+      "file": "G3-00725.vtu.gz",
+      "sha256": "d6ba6bcb3753e3e97bd355d94bb39802c4c54238ac5fe29513b396128e8d2ff3",
+      "time_h": 118.83333333333333
+    },
+    {
+      "file": "G3-00726.vtu.gz",
+      "sha256": "6dba8fbda58348358fe14b21d28d5581cd261d12afd9ed3a3d29ebf4ec8f04ac",
+      "time_h": 119.0
+    },
+    {
+      "file": "G3-00727.vtu.gz",
+      "sha256": "13a2c3851beddea6f78cdf6dce2aa1a7c2a7673883ad0520240328b8b0484d81",
+      "time_h": 119.16666666666667
+    },
+    {
+      "file": "G3-00728.vtu.gz",
+      "sha256": "083e93aa2478642d457357833bc03c1348230655ba31b86a05bf2f49f53a092c",
+      "time_h": 119.33333333333333
+    },
+    {
+      "file": "G3-00729.vtu.gz",
+      "sha256": "b5706e328517e114c8608ddd8ed1982b5856ffd6d4c3975e8275619714fa8cc5",
+      "time_h": 119.5
+    },
+    {
+      "file": "G3-00730.vtu.gz",
+      "sha256": "259a71cfc7e6ada856118d2a19c0826e9274186a766f48a65ffdf2c3b1853c65",
+      "time_h": 119.66666666666667
+    },
+    {
+      "file": "G3-00731.vtu.gz",
+      "sha256": "9832e8322bccd61320d89e35b7071474f8c6f409c1663202556182085cb2ff44",
+      "time_h": 119.83333333333333
+    },
+    {
+      "file": "G3-00732.vtu.gz",
+      "sha256": "25d46a6f115e1c3d77f3834685c1c0aa947f84b37d14114f9bb6617fead2c7c7",
+      "time_h": 120.0
+    },
+    {
+      "file": "G3-00733.vtu.gz",
+      "sha256": "6af020dbad0f4e80fdb98de0a624c8262fc134b69cea2c2bd5e12b90a3870da1",
+      "time_h": 120.16666666666667
+    },
+    {
+      "file": "G3-00734.vtu.gz",
+      "sha256": "7b757517fa1af2b56d526a87fb6a5fc97df322b2a713fb302841ad46b5117108",
+      "time_h": 120.33333333333333
+    },
+    {
+      "file": "G3-00735.vtu.gz",
+      "sha256": "fddedebb59724f8898ee1cb7d5b367a53a373093b850e11fda70c0c4e2f7e36e",
+      "time_h": 120.5
+    },
+    {
+      "file": "G3-00736.vtu.gz",
+      "sha256": "503d63f8ce31190dab25240ad29c302683d2e637ed2f0439e629e92bbca7f4bb",
+      "time_h": 120.66666666666667
+    },
+    {
+      "file": "G3-00737.vtu.gz",
+      "sha256": "10e25186b1dc0b5fe1faee65302a25ed6033ae76c5690b29a58a12fa360e3e63",
+      "time_h": 120.83333333333333
+    },
+    {
+      "file": "G3-00738.vtu.gz",
+      "sha256": "34338a46cc1730ca14145058911d65f0ff2598cb77c3e2a3afcbf89e3f06a009",
+      "time_h": 121.0
+    },
+    {
+      "file": "G3-00739.vtu.gz",
+      "sha256": "7ca07bbc4f3b4247a401fb09c496801e9717e13f9654358e4bb2c1248b6c6945",
+      "time_h": 121.16666666666667
+    },
+    {
+      "file": "G3-00740.vtu.gz",
+      "sha256": "03bc8b367de2808b04c58fc23c31075f46be4f79f6e4ad86f7e01b947fa0169b",
+      "time_h": 121.33333333333333
+    },
+    {
+      "file": "G3-00741.vtu.gz",
+      "sha256": "6900d56ee5aec104690929170f8e6cea2494e3896860063f2ddff892a215132a",
+      "time_h": 121.5
+    },
+    {
+      "file": "G3-00742.vtu.gz",
+      "sha256": "ed95c0275ad0e7a0c8a4d0c30ed19b96e3d5648fdf65f53411108b96c13764f3",
+      "time_h": 121.66666666666667
+    },
+    {
+      "file": "G3-00743.vtu.gz",
+      "sha256": "dc1c23741ab37a6fb677d4651d83dc2e3612ab0d772c6ea03de3847bfa037e28",
+      "time_h": 121.83333333333333
+    },
+    {
+      "file": "G3-00744.vtu.gz",
+      "sha256": "31f48aec43bda7020875a0e55d68475556e467772883e6c1fee988cbc95e33d7",
+      "time_h": 122.0
+    },
+    {
+      "file": "G3-00745.vtu.gz",
+      "sha256": "cd7e0e89d290d37122d414ac2d0176655edfc2b8a5add2f9b3202a8d766559eb",
+      "time_h": 122.16666666666667
+    },
+    {
+      "file": "G3-00746.vtu.gz",
+      "sha256": "3d57a6cbc66d0f342be4455b262d910feabfc1ffbf772d157297f941a073a8a7",
+      "time_h": 122.33333333333333
+    },
+    {
+      "file": "G3-00747.vtu.gz",
+      "sha256": "aefcdd05cd3d8d8f1b332caa40ecbd48b574b76ff1f049beec257bb6df0c7947",
+      "time_h": 122.5
+    },
+    {
+      "file": "G3-00748.vtu.gz",
+      "sha256": "b907e114b9449bb8111374820b243742cd48b5dc0bdfea488194e1e04dd73366",
+      "time_h": 122.66666666666667
+    },
+    {
+      "file": "G3-00749.vtu.gz",
+      "sha256": "43f853a04b0648cae30d1ac08102b78b83dd2f1b3880f9500edd0ba1e2b75e6b",
+      "time_h": 122.83333333333333
+    },
+    {
+      "file": "G3-00750.vtu.gz",
+      "sha256": "5c5422010d4526fe97ae9632e5736956152dd5ad315706f951166104442f0c6a",
+      "time_h": 123.0
+    },
+    {
+      "file": "G3-00751.vtu.gz",
+      "sha256": "d137a4c5e7778a99cc20e66d6cf1ae7bb413c5c4bcb9c25597a4e005d61de1fb",
+      "time_h": 123.16666666666667
+    },
+    {
+      "file": "G3-00752.vtu.gz",
+      "sha256": "b43d453dd62191323b271dde37b263dccc764d8b9c743e65939d1e8565699be8",
+      "time_h": 123.33333333333333
+    },
+    {
+      "file": "G3-00753.vtu.gz",
+      "sha256": "5111d3f7c9285f8f6683115a90ff78c5085e517dfe006427b15553386f41da55",
+      "time_h": 123.5
+    },
+    {
+      "file": "G3-00754.vtu.gz",
+      "sha256": "89d45b8f23c9646b231dc0669579697187089a836b10e38dd5aa77191198ce01",
+      "time_h": 123.66666666666667
+    },
+    {
+      "file": "G3-00755.vtu.gz",
+      "sha256": "86c94439190fc2ef73ba81c130c972cc3f9d4d194ff4f044aef64f050c2a6ae7",
+      "time_h": 123.83333333333333
+    },
+    {
+      "file": "G3-00756.vtu.gz",
+      "sha256": "654e7755061f4653ca9cf1a8775ffc358b9531f32513d0abff6676a729082ab7",
+      "time_h": 124.0
+    },
+    {
+      "file": "G3-00757.vtu.gz",
+      "sha256": "cc82afbe9c0ba5d47cfd3f5789e14b3046bae7fd37179cfd1b92abd32592beb1",
+      "time_h": 124.16666666666667
+    },
+    {
+      "file": "G3-00758.vtu.gz",
+      "sha256": "1434e4874b64cd0e35728fe1ad3e7a7957ed1072835305b284f8e0dd7b9866e9",
+      "time_h": 124.33333333333333
+    },
+    {
+      "file": "G3-00759.vtu.gz",
+      "sha256": "2cee217d7ec40daaadd11cd0d416f6e8d2ddbe6fa2953c06c956ed7bb04e9e01",
+      "time_h": 124.5
+    },
+    {
+      "file": "G3-00760.vtu.gz",
+      "sha256": "d76597787c82d03d3756ac776a1235fbbe8de91088ed2b064dd124c6081a10ff",
+      "time_h": 124.66666666666667
+    },
+    {
+      "file": "G3-00761.vtu.gz",
+      "sha256": "a0cbf4f5d43d36124f8299a89ab200ddf257d07f08b3ce743285d9ef5b88d7a5",
+      "time_h": 124.83333333333333
+    },
+    {
+      "file": "G3-00762.vtu.gz",
+      "sha256": "fe5cf84cda6feb11ad6708351dc9922eaa955369c8bd96b7c71b394aa428e7d1",
+      "time_h": 125.0
+    },
+    {
+      "file": "G3-00763.vtu.gz",
+      "sha256": "9ff2cb81a36039cc9335bfa08045015ae4db999ce479af00efa4af8b932cbf6f",
+      "time_h": 125.16666666666667
+    },
+    {
+      "file": "G3-00764.vtu.gz",
+      "sha256": "41257fd32b1035ff4024b5526b3b8be54868e7d7cc1b1514fc98e6badab8e555",
+      "time_h": 125.33333333333333
+    },
+    {
+      "file": "G3-00765.vtu.gz",
+      "sha256": "e52bf29d9f3a9cbc997bbeac0d74ca865950fa3edb73fca9869bebf01a39bef4",
+      "time_h": 125.5
+    },
+    {
+      "file": "G3-00766.vtu.gz",
+      "sha256": "5463ea2bc56ff1515a0342c5b38506dbc38f728254b2335829282c68ac312ad3",
+      "time_h": 125.66666666666667
+    },
+    {
+      "file": "G3-00767.vtu.gz",
+      "sha256": "8089cc8d310fbfb385e5a3be3881dca365349166d9f8e040b7e2006b5b5cc024",
+      "time_h": 125.83333333333333
+    },
+    {
+      "file": "G3-00768.vtu.gz",
+      "sha256": "508e3921fe22fd78f7e10785c14d38b567548b1ca94b42c0e96807cd0b14ff81",
+      "time_h": 126.0
+    },
+    {
+      "file": "G3-00769.vtu.gz",
+      "sha256": "8dc3f21c23b053304ca16c429dc58e5decd01b38d88ebeb97c97c119a1230a8f",
+      "time_h": 126.16666666666666
+    },
+    {
+      "file": "G3-00770.vtu.gz",
+      "sha256": "ac7284ef43a4a1a5d27c8b293b1d58e411cc22f4e46a17c5b31509a28b507a3f",
+      "time_h": 126.33333333333334
+    },
+    {
+      "file": "G3-00771.vtu.gz",
+      "sha256": "7e04cd8f1674433a8ea876e09ae54705fe3b7f5d5b113c158d60340d91b3dc33",
+      "time_h": 126.5
+    },
+    {
+      "file": "G3-00772.vtu.gz",
+      "sha256": "d518903b00b3e0906f61bb456bb2ddd50f2dc28bab87f0380109db5b0bf71bab",
+      "time_h": 126.66666666666666
+    },
+    {
+      "file": "G3-00773.vtu.gz",
+      "sha256": "0b9af5f2621dd4a8b65be8e078684fc8fd9426fb55d9730caedeb10707d71a65",
+      "time_h": 126.83333333333334
+    },
+    {
+      "file": "G3-00774.vtu.gz",
+      "sha256": "a770d959635d20a3a03f107ffaf945516326fe5dcfdbf9c14362ef91b779e40e",
+      "time_h": 127.0
+    },
+    {
+      "file": "G3-00775.vtu.gz",
+      "sha256": "45822be36af9a23be735640f162264b2aaefebd0fa699ed19e25997f78edacfc",
+      "time_h": 127.16666666666666
+    },
+    {
+      "file": "G3-00776.vtu.gz",
+      "sha256": "7bdacd8cdb0c3351132607a1eb381642db66116f05a359864f450fd4f717d82c",
+      "time_h": 127.33333333333334
+    },
+    {
+      "file": "G3-00777.vtu.gz",
+      "sha256": "8ca36b7a7c1f845a1ae18f9923d8bb0609a7a140f58d0c9031ae38a390a69eb0",
+      "time_h": 127.5
+    },
+    {
+      "file": "G3-00778.vtu.gz",
+      "sha256": "db4b47412098727208d37e763dc07c4321824c098e030bdbb1a2801ef8641d0c",
+      "time_h": 127.66666666666666
+    },
+    {
+      "file": "G3-00779.vtu.gz",
+      "sha256": "cfd93d470edf20c5bc9ca2d431cafcb664562b166e7e8595676824b68376285b",
+      "time_h": 127.83333333333334
+    },
+    {
+      "file": "G3-00780.vtu.gz",
+      "sha256": "9364d030e9cc581b4ba82b34a090910373e1aa09d5c6b87f5d7d09e48f715670",
+      "time_h": 128.0
+    },
+    {
+      "file": "G3-00781.vtu.gz",
+      "sha256": "ecff330e19659800430eece985f663480631cee749043149aa05b347e9df4d28",
+      "time_h": 128.16666666666666
+    },
+    {
+      "file": "G3-00782.vtu.gz",
+      "sha256": "f11ff58f8b7bea3d0ce84d5e1219ec7e0adc9c5792363b2cb699ad2ad49fcce9",
+      "time_h": 128.33333333333334
+    },
+    {
+      "file": "G3-00783.vtu.gz",
+      "sha256": "996cc81039fdd6755c6ff0237efea550bddc392869ce8e94fba6d9d115a9548d",
+      "time_h": 128.5
+    },
+    {
+      "file": "G3-00784.vtu.gz",
+      "sha256": "262d017bf6224c41c2e23c6e7247ff6c1c7b51f4287104cd5a81c12954241f7e",
+      "time_h": 128.66666666666666
+    },
+    {
+      "file": "G3-00785.vtu.gz",
+      "sha256": "c1b359e92f7d223ea1205c98fe8b4234547f6bcdd85ce695add4ae8ee684307a",
+      "time_h": 128.83333333333334
+    },
+    {
+      "file": "G3-00786.vtu.gz",
+      "sha256": "37e2bcbb77545740fa005a924439256c0fa9997153e340c803e0742afe49b5d4",
+      "time_h": 129.0
+    },
+    {
+      "file": "G3-00787.vtu.gz",
+      "sha256": "8a377102f5eeb8403739223b544efb1321b94cfb2c5b999c044bb40b4832f072",
+      "time_h": 129.16666666666666
+    },
+    {
+      "file": "G3-00788.vtu.gz",
+      "sha256": "61fcb3159ac42256cf605ecc2b2040797bc448c8c15ba1fdb388e07b983fc966",
+      "time_h": 129.33333333333334
+    },
+    {
+      "file": "G3-00789.vtu.gz",
+      "sha256": "755c043a7bebcc5170637ab0c2ff59bd66a070db9f502b573dccce4a174c7d0e",
+      "time_h": 129.5
+    },
+    {
+      "file": "G3-00790.vtu.gz",
+      "sha256": "3b30ea3a2f099a3019d779716f9029651140d26e466eb10954024d34810a5af6",
+      "time_h": 129.66666666666666
+    },
+    {
+      "file": "G3-00791.vtu.gz",
+      "sha256": "96bc7cdf3b1664c983da1683c34d69d4e38fdddcbbab395cabfff4f08b07e307",
+      "time_h": 129.83333333333334
+    },
+    {
+      "file": "G3-00792.vtu.gz",
+      "sha256": "4b02e0d06ecee32255e936e893ab86cd61b092e25f7914e07399018b92972593",
+      "time_h": 130.0
+    },
+    {
+      "file": "G3-00793.vtu.gz",
+      "sha256": "623005fff97b4e2982e71002b0513fa83c49152c28007173998956be3279329c",
+      "time_h": 130.16666666666666
+    },
+    {
+      "file": "G3-00794.vtu.gz",
+      "sha256": "91f3acd2ed0fd92ba2dbd7e5859b7b78fe03f427590d6b6dda5b730a70bf17ae",
+      "time_h": 130.33333333333334
+    },
+    {
+      "file": "G3-00795.vtu.gz",
+      "sha256": "718eca8743fe0665f8574cfe086bb562d742aae532004df1666fbda93df809d6",
+      "time_h": 130.5
+    },
+    {
+      "file": "G3-00796.vtu.gz",
+      "sha256": "d43e4b07560642a06531a667bd4382b3a986eb9283e336c8b206b324a4442f9f",
+      "time_h": 130.66666666666666
+    },
+    {
+      "file": "G3-00797.vtu.gz",
+      "sha256": "48cc0c4d3ef2ad02e5d9f87eddc7224be4fae88b627a2a602765705c7b4ca508",
+      "time_h": 130.83333333333334
+    },
+    {
+      "file": "G3-00798.vtu.gz",
+      "sha256": "56984ebe1d418ee9394004e9da0204d27a19eece46fa15c8ffdf95099573a7b7",
+      "time_h": 131.0
+    },
+    {
+      "file": "G3-00799.vtu.gz",
+      "sha256": "400a24cbe777e5d23f986f9206addfb2e4c854f942f2b65e2a0cf559daca1ed4",
+      "time_h": 131.16666666666666
+    },
+    {
+      "file": "G3-00800.vtu.gz",
+      "sha256": "25f8bc4cb753fb8698655b629f5a4afa16adf6aabe1b337f7ebdc6391e31c46e",
+      "time_h": 131.33333333333334
+    },
+    {
+      "file": "G3-00801.vtu.gz",
+      "sha256": "3191a06593b058abc25c604fbcf8ccca80d1e1d56bb67c16b78699a5c4c6da8e",
+      "time_h": 131.5
+    },
+    {
+      "file": "G3-00802.vtu.gz",
+      "sha256": "bf3e1288d764f5f1542ad1b4b422782b179696b77ad42049cac00a04e50e129c",
+      "time_h": 131.66666666666666
+    },
+    {
+      "file": "G3-00803.vtu.gz",
+      "sha256": "ea1d05ecf0cc9d5bd0019d0b863b2ab8439ce1b41a8624094cecc4cc8b36299d",
+      "time_h": 131.83333333333334
+    },
+    {
+      "file": "G3-00804.vtu.gz",
+      "sha256": "fd135ae7ac7b90831daad036fb35105b0649262d00c0aa8ed1cf6820938afb7a",
+      "time_h": 132.0
+    },
+    {
+      "file": "G3-00805.vtu.gz",
+      "sha256": "2f3a0a1080d8b1dae5fc4fc60f9f7dc12b8238dcaf5d441e78bf8c5315a18cd0",
+      "time_h": 132.16666666666666
+    },
+    {
+      "file": "G3-00806.vtu.gz",
+      "sha256": "0b86a559b2bfdbc9332f2b92a2b173373213c2b1a554099df0266effd5192fd2",
+      "time_h": 132.33333333333334
+    },
+    {
+      "file": "G3-00807.vtu.gz",
+      "sha256": "2deb8b759bd70ce0a4513464386a66ddf52dae92e39622162aff381b4eb4f444",
+      "time_h": 132.5
+    },
+    {
+      "file": "G3-00808.vtu.gz",
+      "sha256": "99f8b482417fc0f769a1a8bfcf171132f1a8d12458321debb12d77749d790f71",
+      "time_h": 132.66666666666666
+    },
+    {
+      "file": "G3-00809.vtu.gz",
+      "sha256": "01c732f59ebf32747c4b3c7d45d3ca9cf96a919ec38b90b6891d0e7187c098fe",
+      "time_h": 132.83333333333334
+    },
+    {
+      "file": "G3-00810.vtu.gz",
+      "sha256": "dea5e29732349e1e9deb9fe36f9d3261e0be83e240dc65e3d650c929aa915d24",
+      "time_h": 133.0
+    },
+    {
+      "file": "G3-00811.vtu.gz",
+      "sha256": "9f49e17f753db6257d9877e492b47b19af6a9c29a8699e142a2fdddfe2c18f7f",
+      "time_h": 133.16666666666666
+    },
+    {
+      "file": "G3-00812.vtu.gz",
+      "sha256": "b9b1e3cf562090daa7bdc32d8bf9214b801c8b69423357d3ca2b5c8411f568d9",
+      "time_h": 133.33333333333334
+    },
+    {
+      "file": "G3-00813.vtu.gz",
+      "sha256": "f70cf7cea8c33a9fdb681564c7cc523c664af3b574d3c45f1507dcc12ad8f898",
+      "time_h": 133.5
+    },
+    {
+      "file": "G3-00814.vtu.gz",
+      "sha256": "9ffb21eb435956d8507382af8c22540b3ffe5ac12df67107687deb3e3d3874b0",
+      "time_h": 133.66666666666666
+    },
+    {
+      "file": "G3-00815.vtu.gz",
+      "sha256": "5f8ae3bc4bf4b8de7f8156d4451b22d8b24f661ffeddede75eadec49a90dc736",
+      "time_h": 133.83333333333334
+    },
+    {
+      "file": "G3-00816.vtu.gz",
+      "sha256": "bef0ef8db52e11a8d868cad3ccabd3d4e60bd47ba1964c517adbb836c451ad60",
+      "time_h": 134.0
+    },
+    {
+      "file": "G3-00817.vtu.gz",
+      "sha256": "a64396471e0fd70b4408897b2e03a83076013c7085c79ba0103e75074daa8f61",
+      "time_h": 134.16666666666666
+    },
+    {
+      "file": "G3-00818.vtu.gz",
+      "sha256": "808a1c844bb04591d207d339a09460fad32b1e2df15467a585f08defcc757b70",
+      "time_h": 134.33333333333334
+    },
+    {
+      "file": "G3-00819.vtu.gz",
+      "sha256": "447a87c75613013cb38ffea42ac87e20a139d025f30b0348d57df8baf253a315",
+      "time_h": 134.5
+    },
+    {
+      "file": "G3-00820.vtu.gz",
+      "sha256": "e22d4ba5cd09738252af5c436779597721d014966b0fd53b9a2044e085969710",
+      "time_h": 134.66666666666666
+    },
+    {
+      "file": "G3-00821.vtu.gz",
+      "sha256": "6fb0b93e9a1c96da768b99b36a9dcb3c87dcf84b24b0658b51999ad82a50fb77",
+      "time_h": 134.83333333333334
+    },
+    {
+      "file": "G3-00822.vtu.gz",
+      "sha256": "19bcc780bd59a02f8223447e52b783707ecce9dddf130afcd2bb00ccbc349853",
+      "time_h": 135.0
+    },
+    {
+      "file": "G3-00823.vtu.gz",
+      "sha256": "913862f40daf84c420d37be40ade4ff51a0d7e6520f620f49970aed5446639d2",
+      "time_h": 135.16666666666666
+    },
+    {
+      "file": "G3-00824.vtu.gz",
+      "sha256": "9d6ad1af4a63467591d0d1609785e61bbbfbea1e8aa41a7227eeaff0c79d2d19",
+      "time_h": 135.33333333333334
+    },
+    {
+      "file": "G3-00825.vtu.gz",
+      "sha256": "5bb0d35aa9e95d9d63578615b7a3efd93ed502949e3b6dab78ee188d18f6f9d5",
+      "time_h": 135.5
+    },
+    {
+      "file": "G3-00826.vtu.gz",
+      "sha256": "35bdeafaffaa1148a3ea6ccdd31fde05bc015b7616c93445541bb6c02adb6502",
+      "time_h": 135.66666666666666
+    },
+    {
+      "file": "G3-00827.vtu.gz",
+      "sha256": "fd2e5103ac33790290b489c66baab618ed54a674b40229e3a72e3ac8b13a4a99",
+      "time_h": 135.83333333333334
+    },
+    {
+      "file": "G3-00828.vtu.gz",
+      "sha256": "43a0387d816e49c7a289fdd8e4c9302d28b2e1781e21c006c356c826b6dde458",
+      "time_h": 136.0
+    },
+    {
+      "file": "G3-00829.vtu.gz",
+      "sha256": "1eec92f0fa503fea6817d009fb3e3da68b6469bf5c839caae4bceef553d83588",
+      "time_h": 136.16666666666666
+    },
+    {
+      "file": "G3-00830.vtu.gz",
+      "sha256": "4746f3b6ad8ad17f261a4e1d66dcf5cfbb524bdbebf6f5c8d185389f8dde0c81",
+      "time_h": 136.33333333333334
+    },
+    {
+      "file": "G3-00831.vtu.gz",
+      "sha256": "c9cd0829d3142b743fa4d2ad337f5740afc5631411e3bf6a6d4165d0329141d5",
+      "time_h": 136.5
+    },
+    {
+      "file": "G3-00832.vtu.gz",
+      "sha256": "47583ccb6d8a5c2c7a30019d8d92c24a2bae58c6375dd8e6a98e50f18efc0b8c",
+      "time_h": 136.66666666666666
+    },
+    {
+      "file": "G3-00833.vtu.gz",
+      "sha256": "dbc61362ab5ff5599f82bf1567ef3cd4da2e774de4faaba56d3a20f66f62a684",
+      "time_h": 136.83333333333334
+    },
+    {
+      "file": "G3-00834.vtu.gz",
+      "sha256": "2bd662032028127fe255229cb009bba592dba2e80d69c16579405bccc072cb6b",
+      "time_h": 137.0
+    },
+    {
+      "file": "G3-00835.vtu.gz",
+      "sha256": "f3d7c7863ea54e61f8ec691f0c0d8a0a9c684a367381142384cceb8d60a5052b",
+      "time_h": 137.16666666666666
+    },
+    {
+      "file": "G3-00836.vtu.gz",
+      "sha256": "b591c8eda3c4b359daace60d4874e80ec1fae6b5f21f4540b0def68b287f2094",
+      "time_h": 137.33333333333334
+    },
+    {
+      "file": "G3-00837.vtu.gz",
+      "sha256": "6b0cf64950e4b3131d2ea4a8aa2567e67ac425a3aa96ba74b12b99575ea28420",
+      "time_h": 137.5
+    },
+    {
+      "file": "G3-00838.vtu.gz",
+      "sha256": "b6bc2c2f00d1c6fc80122fd73aea2501206cc0ef9267ba69617ad16e8c393b93",
+      "time_h": 137.66666666666666
+    },
+    {
+      "file": "G3-00839.vtu.gz",
+      "sha256": "ae9ffd0b72d271a42a7f33a038a77e94bdc3629fea1768985d54553e39ea3ecf",
+      "time_h": 137.83333333333334
+    },
+    {
+      "file": "G3-00840.vtu.gz",
+      "sha256": "7aaeea71bdcf16af60773a80de54fd35f7593d5795b2dc4c5d8b9357d584c237",
+      "time_h": 138.0
+    },
+    {
+      "file": "G3-00841.vtu.gz",
+      "sha256": "83bd30caa43442cbd243cbc5e606f17c1acb7e22f09b1276953f2f342d29986e",
+      "time_h": 138.16666666666666
+    },
+    {
+      "file": "G3-00842.vtu.gz",
+      "sha256": "cec8f6223536946c828bc3ce9ce48a82a978cefd4a2a98fb765ce83a2da93a1f",
+      "time_h": 138.33333333333334
+    },
+    {
+      "file": "G3-00843.vtu.gz",
+      "sha256": "05f4f5c3a955fcf3293bc5dc36a5a53c073572b48ba29c1681a0d6e58c113792",
+      "time_h": 138.5
+    },
+    {
+      "file": "G3-00844.vtu.gz",
+      "sha256": "2018f86e45ad5a72a62f7c8d9b4b9ff05ed0acff0cf276be5a1594e47d32bb4c",
+      "time_h": 138.66666666666666
+    },
+    {
+      "file": "G3-00845.vtu.gz",
+      "sha256": "e184f6074b8812a790cb538b01164dccb4961653d351533b8a4a1de979c2503d",
+      "time_h": 138.83333333333334
+    },
+    {
+      "file": "G3-00846.vtu.gz",
+      "sha256": "9549d8a3b0cecb908cb71932aa329a223691967cd313c584ec61eafbe657bb09",
+      "time_h": 139.0
+    },
+    {
+      "file": "G3-00847.vtu.gz",
+      "sha256": "4ad365f24da0e77607a98001e12f933e440207eff04ce7fb6bf4ea1f620a5d04",
+      "time_h": 139.16666666666666
+    },
+    {
+      "file": "G3-00848.vtu.gz",
+      "sha256": "64b5a926561b8f661b002f17127dcbe85109a1272cc9699a3ac46076f7c46a6d",
+      "time_h": 139.33333333333334
+    },
+    {
+      "file": "G3-00849.vtu.gz",
+      "sha256": "4845760c7370960bbbe8a0e81403dea1fb7853439d1c27978056a6fd9e3de8ba",
+      "time_h": 139.5
+    },
+    {
+      "file": "G3-00850.vtu.gz",
+      "sha256": "fd521a4eb12a4caf3e79723817eb772dde5661473d715a8a0bd01fedca663a09",
+      "time_h": 139.66666666666666
+    },
+    {
+      "file": "G3-00851.vtu.gz",
+      "sha256": "cd4f8bc722d266600ef64121da2308e0a75d6bc7fd3d1c15d6eb92a828658cb2",
+      "time_h": 139.83333333333334
+    },
+    {
+      "file": "G3-00852.vtu.gz",
+      "sha256": "96be339adeb4bf0c3918c41d36106042eb987728daf0934fb547551ea6cd813f",
+      "time_h": 140.0
+    },
+    {
+      "file": "G3-00853.vtu.gz",
+      "sha256": "c9a9761af3d074000bcda9504685aa46cc96565049fa16c2225403e29ac66017",
+      "time_h": 140.16666666666666
+    },
+    {
+      "file": "G3-00854.vtu.gz",
+      "sha256": "807be72a3baa20b8a7d196e147fa6dfa332caf911578c74f69580799e278c58c",
+      "time_h": 140.33333333333334
+    },
+    {
+      "file": "G3-00855.vtu.gz",
+      "sha256": "f4b720ef4ed1ceddbe918e0ba0aa629895e47168455261f11cb54436cc129a68",
+      "time_h": 140.5
+    },
+    {
+      "file": "G3-00856.vtu.gz",
+      "sha256": "2f913498887bf9ea9bd40b59f8621014637a2bd6f85c01115efef2de0c5740d0",
+      "time_h": 140.66666666666666
+    },
+    {
+      "file": "G3-00857.vtu.gz",
+      "sha256": "480bd103f737243e71bc6932344df094a0eea8b141f23de7da70e79035a5b3ad",
+      "time_h": 140.83333333333334
+    },
+    {
+      "file": "G3-00858.vtu.gz",
+      "sha256": "c19dcb2b8fd223288a1e57f3cb23a3c68b45f58444e8def80d963df113093bb1",
+      "time_h": 141.0
+    },
+    {
+      "file": "G3-00859.vtu.gz",
+      "sha256": "75f388b190cd9e1df58682e796f88467ed2127d380caa280866f8f4b359245a5",
+      "time_h": 141.16666666666666
+    },
+    {
+      "file": "G3-00860.vtu.gz",
+      "sha256": "54df55641e2a01178de61c4c850532a34e51669142668d04ee8ea336ab74696f",
+      "time_h": 141.33333333333334
+    },
+    {
+      "file": "G3-00861.vtu.gz",
+      "sha256": "20e1a4312fe60a0e38e81b9ee740566a7828957eb0683c5fa1af7c2bf0ff9f34",
+      "time_h": 141.5
+    },
+    {
+      "file": "G3-00862.vtu.gz",
+      "sha256": "5fb803105250ed48218f3740a9cd4c8236dfdee2d718a7ec6936e8b3ae9f2e6d",
+      "time_h": 141.66666666666666
+    },
+    {
+      "file": "G3-00863.vtu.gz",
+      "sha256": "4682954506f1ff018cd4733ef4713af731eb36af1d868f0e8db758922adabce2",
+      "time_h": 141.83333333333334
+    },
+    {
+      "file": "G3-00864.vtu.gz",
+      "sha256": "4897b405082e711eef17f3e19b0e87876c77e1df21b5b7b160d95aa428e84e2e",
+      "time_h": 142.0
+    },
+    {
+      "file": "G3-00865.vtu.gz",
+      "sha256": "499bb0c8eb5d288862c35039db60dd8c7a85a386132726d88b1b4ef10afd7ba6",
+      "time_h": 142.16666666666666
+    },
+    {
+      "file": "G3-00866.vtu.gz",
+      "sha256": "6dfe31a4f05a83bcdc8a9a6e53e4da06f6f720eca11d497023a2566cb0e1d63c",
+      "time_h": 142.33333333333334
+    },
+    {
+      "file": "G3-00867.vtu.gz",
+      "sha256": "3c140e7051f9209664f8e352f3b330655123c73da3e023e5552aa74d2da5fbe7",
+      "time_h": 142.5
+    },
+    {
+      "file": "G3-00868.vtu.gz",
+      "sha256": "66d8c99e9603bd8aaabb953e0a104d8fc04a6ec9bc5e44d6f4f0f0250ab29bd8",
+      "time_h": 142.66666666666666
+    },
+    {
+      "file": "G3-00869.vtu.gz",
+      "sha256": "ee29ad86ed1a1d51401e93943c7d239911739b4806b6c33aa80fa8f7562ff94a",
+      "time_h": 142.83333333333334
+    },
+    {
+      "file": "G3-00870.vtu.gz",
+      "sha256": "9badd74e6fb554f903b95ff9ce456ca142196a3d90597e9f7d1d334db986781e",
+      "time_h": 143.0
+    },
+    {
+      "file": "G3-00871.vtu.gz",
+      "sha256": "ec0bbeb6ec311f3a255d69e1fdd25b09beed6db56a6b2b39bddb67d5848bc2c8",
+      "time_h": 143.16666666666666
+    },
+    {
+      "file": "G3-00872.vtu.gz",
+      "sha256": "32d33eeeb30cdc0b584733748d95d80c06d1b2a93e6eefe4fa0b502923b0d753",
+      "time_h": 143.33333333333334
+    },
+    {
+      "file": "G3-00873.vtu.gz",
+      "sha256": "8b7fb3de718960713da40d687654900ebfd4f25708353189db487b572ee6ee05",
+      "time_h": 143.5
+    },
+    {
+      "file": "G3-00874.vtu.gz",
+      "sha256": "9430e53bcedbed69939c18a22092bc238ddcb5912557d26a0243dd0c9bd04fbe",
+      "time_h": 143.66666666666666
+    },
+    {
+      "file": "G3-00875.vtu.gz",
+      "sha256": "237972086b9f0fd56489f262ab9a6249649ea5985990300579764fe5d606b468",
+      "time_h": 143.83333333333334
+    },
+    {
+      "file": "G3-00876.vtu.gz",
+      "sha256": "2c2302fa4824ddb00e2b1ee1fbb182e6aa929bda6f81f2b6146c4aa3c9dd7820",
+      "time_h": 144.0
+    },
+    {
+      "file": "G3-00877.vtu.gz",
+      "sha256": "80eb83c189a630a3a4dc0da8c6284261671123c9181b160a4a729a982dab859b",
+      "time_h": 144.16666666666666
+    },
+    {
+      "file": "G3-00878.vtu.gz",
+      "sha256": "7e151789ccfb6477fd728be7abfa87ab6db673fe513e53142ec8d002beee7395",
+      "time_h": 144.33333333333334
+    },
+    {
+      "file": "G3-00879.vtu.gz",
+      "sha256": "24b92316a4c56f2505662c07f71ac7809de2644f18cbb8ece9024fc27b56545b",
+      "time_h": 144.5
+    },
+    {
+      "file": "G3-00880.vtu.gz",
+      "sha256": "21863dd66f3d25d5a7217931984cfae9a380ea885e6df176573628881f6ac9d9",
+      "time_h": 144.66666666666666
+    },
+    {
+      "file": "G3-00881.vtu.gz",
+      "sha256": "96de007fca737cc357a4e38592bdbfb8be1c7e67a08cf9c451b332d150e2b309",
+      "time_h": 144.83333333333334
+    },
+    {
+      "file": "G3-00882.vtu.gz",
+      "sha256": "649262172a1d65025f1ac4cd3109ea4d7db69123933a502b70db72f6208a4ad1",
+      "time_h": 145.0
+    },
+    {
+      "file": "G3-00883.vtu.gz",
+      "sha256": "a6344208f1485b9b4e01b639838b392d7d63bfb4b6da534afdf188b3fd2b3bb8",
+      "time_h": 145.16666666666666
+    },
+    {
+      "file": "G3-00884.vtu.gz",
+      "sha256": "533b8308b1fcf3d692dad52832cdc71999bae443af713aa117b8e7d3d77444fd",
+      "time_h": 145.33333333333334
+    },
+    {
+      "file": "G3-00885.vtu.gz",
+      "sha256": "9c935ab80cc0200a5547d0b8d08bf4cbd2e88ff25221aeeaf5dfea16dac6e35a",
+      "time_h": 145.5
+    },
+    {
+      "file": "G3-00886.vtu.gz",
+      "sha256": "c3de568a8d1b540779d4cff7e81c2f28cc146e5888a5b19ae9bf705eb3442b3e",
+      "time_h": 145.66666666666666
+    },
+    {
+      "file": "G3-00887.vtu.gz",
+      "sha256": "1fa13f72364b84f77e00a59b6819614dc15333142f7a42e2fe51e10db92ff136",
+      "time_h": 145.83333333333334
+    },
+    {
+      "file": "G3-00888.vtu.gz",
+      "sha256": "bb3535eb1e5990a6f8298b77a44769b259942abfdb98904a63a5c9fda329e227",
+      "time_h": 146.0
+    },
+    {
+      "file": "G3-00889.vtu.gz",
+      "sha256": "8eaf6286104ee428ba687da7622fe9064e0db8468b0236cc0b8a9c28af157c05",
+      "time_h": 146.16666666666666
+    },
+    {
+      "file": "G3-00890.vtu.gz",
+      "sha256": "fda27e17b2d078996a8b10aa75f1a66c1a6a41fa76953f49aa6a4a61d2bbf72f",
+      "time_h": 146.33333333333334
+    },
+    {
+      "file": "G3-00891.vtu.gz",
+      "sha256": "5503d27f85a0aeb6af907084448dc4c80bb476675b8ffb4b2ebf8468e545f5ac",
+      "time_h": 146.5
+    },
+    {
+      "file": "G3-00892.vtu.gz",
+      "sha256": "40f95360b182c2772a12d8562cda9d77965d07c8a498ecec53ba49c8d45935d4",
+      "time_h": 146.66666666666666
+    },
+    {
+      "file": "G3-00893.vtu.gz",
+      "sha256": "9aa4f422f6c526ce9964b9d02cc4f4d006548b7da47504951a7adabf97f2c27c",
+      "time_h": 146.83333333333334
+    },
+    {
+      "file": "G3-00894.vtu.gz",
+      "sha256": "942d4a082195ea9e54a5f2b6ae7828d5ff10c462a40487f0a3cc81144d1bb492",
+      "time_h": 147.0
+    },
+    {
+      "file": "G3-00895.vtu.gz",
+      "sha256": "fdff966257512f2a8b7c1e423c53f71ca1c057d41e19026ddb32180d9c0a8523",
+      "time_h": 147.16666666666666
+    },
+    {
+      "file": "G3-00896.vtu.gz",
+      "sha256": "c325b64ab7ed5eea818d59edef653798644a4e863b10af4cd757b02f03fb4bf4",
+      "time_h": 147.33333333333334
+    },
+    {
+      "file": "G3-00897.vtu.gz",
+      "sha256": "3e3924244f3a9e962d264b483e0493ffdd450d01aa31ed88364288978b2047ea",
+      "time_h": 147.5
+    },
+    {
+      "file": "G3-00898.vtu.gz",
+      "sha256": "d0897cd286fd063f1404bfed2f2b80421315a86488c630bd8a429228d5947bb7",
+      "time_h": 147.66666666666666
+    },
+    {
+      "file": "G3-00899.vtu.gz",
+      "sha256": "5064e8fc92b74a6cfe280705924dcfbfd00eb8b5c6a16790e33c2151c874c476",
+      "time_h": 147.83333333333334
+    },
+    {
+      "file": "G3-00900.vtu.gz",
+      "sha256": "c989913a535adc382eb4129cadc7a1ec3d8b24bcbdeb163dea4d5fc52da4d90d",
+      "time_h": 148.0
+    },
+    {
+      "file": "G3-00901.vtu.gz",
+      "sha256": "c9442a3b50374362f2288bb1020754db90ff77a57991f85bad552344152ba1ae",
+      "time_h": 148.16666666666666
+    },
+    {
+      "file": "G3-00902.vtu.gz",
+      "sha256": "731fb70dbd83547fe4ee6de9af24fcbe71864ef68a2f840ad5f3295656fee68c",
+      "time_h": 148.33333333333334
+    },
+    {
+      "file": "G3-00903.vtu.gz",
+      "sha256": "935d4c6e29b4df63a017e2bc6aba1d16bec38a9248b3ff1a1d05ae7364f63e8e",
+      "time_h": 148.5
+    },
+    {
+      "file": "G3-00904.vtu.gz",
+      "sha256": "29d43612e493cffe41b3ba7db39a58f47737c5630779097e19392b10a064dd1a",
+      "time_h": 148.66666666666666
+    },
+    {
+      "file": "G3-00905.vtu.gz",
+      "sha256": "76530b1bfe128318bbed551ce3ade2b4e9562300206cda0272892fe0fcef633c",
+      "time_h": 148.83333333333334
+    },
+    {
+      "file": "G3-00906.vtu.gz",
+      "sha256": "0c4075a7f558bf02aa28f5dda2d6ac3821b3ea71406fdcb3c698c5977033c69e",
+      "time_h": 149.0
+    },
+    {
+      "file": "G3-00907.vtu.gz",
+      "sha256": "144bd74d5b68be1d683fdd124c0fee9412a82131c003b20741a901aae728ae2f",
+      "time_h": 149.16666666666666
+    },
+    {
+      "file": "G3-00908.vtu.gz",
+      "sha256": "84c8340ca0921ed383da8b5fd9ff7be1c912f89f91ef41a03a0e31a53ed4fe17",
+      "time_h": 149.33333333333334
+    },
+    {
+      "file": "G3-00909.vtu.gz",
+      "sha256": "9570f745b87f14873918427021aacf2da0b10e969968d1558cb0afacd3a7334b",
+      "time_h": 149.5
+    },
+    {
+      "file": "G3-00910.vtu.gz",
+      "sha256": "be662ffd4379c052fd66eca5efab24aaa4dd7fd847c770a736b20d01a504bb44",
+      "time_h": 149.66666666666666
+    },
+    {
+      "file": "G3-00911.vtu.gz",
+      "sha256": "1f59e36891b03c706e1a217dab5313b8d55d863e537a53a83c8fc3b777bac7cb",
+      "time_h": 149.83333333333334
+    },
+    {
+      "file": "G3-00912.vtu.gz",
+      "sha256": "cef1525f316f5faf068e744bc096e924cea511d1d2282922af595325b8ba7922",
+      "time_h": 150.0
+    },
+    {
+      "file": "G3-00913.vtu.gz",
+      "sha256": "6c32fa0dc3025ea6a6a0e269597d8f5a0888b4bcdefbae8d80e85f477bad0f39",
+      "time_h": 150.16666666666666
+    },
+    {
+      "file": "G3-00914.vtu.gz",
+      "sha256": "236f8bdfe64586f2e172e2323c6c99857c1b7ece941fd9fecf60fccea6aa3a8d",
+      "time_h": 150.33333333333334
+    },
+    {
+      "file": "G3-00915.vtu.gz",
+      "sha256": "578cdad7aec4231513a5f0c89dc5409ca06e3ab3b2070803cec4b2f71de5c178",
+      "time_h": 150.5
+    },
+    {
+      "file": "G3-00916.vtu.gz",
+      "sha256": "c333254d238bd2f4b6171f0677315e8801d61115a08e7982ed91f9768db9ff35",
+      "time_h": 150.66666666666666
+    },
+    {
+      "file": "G3-00917.vtu.gz",
+      "sha256": "73229bf51add1a2d1c7aacdbafcc9bb8b0f59470321451c61aed928555c771b2",
+      "time_h": 150.83333333333334
+    },
+    {
+      "file": "G3-00918.vtu.gz",
+      "sha256": "99dc5f24f8d06ccf48eea66c774f8c406c0f47c7bf895361d93decb4927abded",
+      "time_h": 151.0
+    },
+    {
+      "file": "G3-00919.vtu.gz",
+      "sha256": "70cc65efcbbb386b7cd03ea50a0d0a5081d065712f31b2e7f0ba95deb007ce15",
+      "time_h": 151.16666666666666
+    },
+    {
+      "file": "G3-00920.vtu.gz",
+      "sha256": "e542474e38a3c3acd35417322c0aabcff904671a809b591c6154a03da85f3dfb",
+      "time_h": 151.33333333333334
+    },
+    {
+      "file": "G3-00921.vtu.gz",
+      "sha256": "725ed9930534438c3a3c82d64a4b8f495c6573fe3152a596b458796f8f166d26",
+      "time_h": 151.5
+    },
+    {
+      "file": "G3-00922.vtu.gz",
+      "sha256": "dd37332c00cfb0fbb1549e0fe44e545d6c097c34e71d6b68b41ddc67e5430cf8",
+      "time_h": 151.66666666666666
+    },
+    {
+      "file": "G3-00923.vtu.gz",
+      "sha256": "c74495e185234b1188095fecdb331ca2c6142443641bde21b6b4648e4198eb2b",
+      "time_h": 151.83333333333334
+    },
+    {
+      "file": "G3-00924.vtu.gz",
+      "sha256": "a641d584b4fad7240d5593cb1563281be0b2213419099a8451000530a5981aff",
+      "time_h": 152.0
+    },
+    {
+      "file": "G3-00925.vtu.gz",
+      "sha256": "6a6f8e4a3ff6b68e8768b4ab5d2b78a9ade05cbd77c76b23487029964afa2927",
+      "time_h": 152.16666666666666
+    },
+    {
+      "file": "G3-00926.vtu.gz",
+      "sha256": "7aa9e554e9a3f6390f0b6860eebbe3caee85d7ce82e3c47008f4c56cd871ca97",
+      "time_h": 152.33333333333334
+    },
+    {
+      "file": "G3-00927.vtu.gz",
+      "sha256": "e0d5fa985439dfc2b057ea0a1728e9cb100488f9ecf67148b3c405961e8bfea5",
+      "time_h": 152.5
+    },
+    {
+      "file": "G3-00928.vtu.gz",
+      "sha256": "7daa9a8dd17f30084b43e0ca2d1d662c52e80750c4db3c8c0d494e36adc6c6a3",
+      "time_h": 152.66666666666666
+    },
+    {
+      "file": "G3-00929.vtu.gz",
+      "sha256": "715133d7a15c84843e80310e4bb4f738048ff05316af1ca373a01a206f3e213c",
+      "time_h": 152.83333333333334
+    },
+    {
+      "file": "G3-00930.vtu.gz",
+      "sha256": "ee345c26b171524e5bae5e6456a1dbccaea69ce185101a2458b676ba8c270505",
+      "time_h": 153.0
+    },
+    {
+      "file": "G3-00931.vtu.gz",
+      "sha256": "4517ad8549b3ebd201bf48da5a8865d6a17f0d641581b24523980021da9facda",
+      "time_h": 153.16666666666666
+    },
+    {
+      "file": "G3-00932.vtu.gz",
+      "sha256": "21c2a2095772ed168be23d83c42a21b5debc876acac364473d3be3cab96d8180",
+      "time_h": 153.33333333333334
+    },
+    {
+      "file": "G3-00933.vtu.gz",
+      "sha256": "7ae4d76815b665ace2133a0f5eb9ee6c8b8c6f03c2230c0bb705299f4189e830",
+      "time_h": 153.5
+    },
+    {
+      "file": "G3-00934.vtu.gz",
+      "sha256": "77f5003c2d57acd68fe45df849f75d25a85adaf092abf4475830b11f0fe70652",
+      "time_h": 153.66666666666666
+    },
+    {
+      "file": "G3-00935.vtu.gz",
+      "sha256": "226c83590a705fda14e94ce184ef0f962662b4747d9bddf3e4466b33d62cc971",
+      "time_h": 153.83333333333334
+    },
+    {
+      "file": "G3-00936.vtu.gz",
+      "sha256": "28907e89f1e8cc3a7e70383caf6744a2ed35fd45879e5f3fba67e06958883f73",
+      "time_h": 154.0
+    },
+    {
+      "file": "G3-00937.vtu.gz",
+      "sha256": "c1018353316e15bb85fff58f673d99ed30811a85b36cc1c70c2e6c615b95237d",
+      "time_h": 154.16666666666666
+    },
+    {
+      "file": "G3-00938.vtu.gz",
+      "sha256": "e9914476dc13a5c2e50670b94c7bc23be9d50b7df41a84d1970ab1b6082e401e",
+      "time_h": 154.33333333333334
+    },
+    {
+      "file": "G3-00939.vtu.gz",
+      "sha256": "a5aecef90fb2c97f42d1ad0a608d92a5870ffe9eb8f98a848b84ba658e166ba4",
+      "time_h": 154.5
+    },
+    {
+      "file": "G3-00940.vtu.gz",
+      "sha256": "64455ad29d1c6deb975cdfb610f81ba3b408b6f5831c1b00dc6e0ae6983ac693",
+      "time_h": 154.66666666666666
+    },
+    {
+      "file": "G3-00941.vtu.gz",
+      "sha256": "692d6315a963cf9d64fffa43beb068118918589f6cae1d69f185e84e8e120f22",
+      "time_h": 154.83333333333334
+    },
+    {
+      "file": "G3-00942.vtu.gz",
+      "sha256": "e60b489dbd692e11c38b5bc793c5d3e68272e03afc80495410460c9f4310e51b",
+      "time_h": 155.0
+    },
+    {
+      "file": "G3-00943.vtu.gz",
+      "sha256": "095d2f356696a7597af88f717c04e987706b347725c496de0f6efd8f2e2a4be6",
+      "time_h": 155.16666666666666
+    },
+    {
+      "file": "G3-00944.vtu.gz",
+      "sha256": "a48c0247270c315b5e4945ad1b9c3c83cd8fda24b04b8d6b340253cb2428fa0b",
+      "time_h": 155.33333333333334
+    },
+    {
+      "file": "G3-00945.vtu.gz",
+      "sha256": "7b1ce37addc4c4482939090e2a9715445f128c36d2faf99532fadc4491df7116",
+      "time_h": 155.5
+    },
+    {
+      "file": "G3-00946.vtu.gz",
+      "sha256": "4a5594fa1f9b6c392c56e8f15c79e793a53479e7c3b3ae8ffc06b827f0d3996e",
+      "time_h": 155.66666666666666
+    },
+    {
+      "file": "G3-00947.vtu.gz",
+      "sha256": "cd627b07df2d83c140bf0c052b46077f97d3c3d1ac4ce319d8283bb6db4307af",
+      "time_h": 155.83333333333334
+    },
+    {
+      "file": "G3-00948.vtu.gz",
+      "sha256": "d9e8fd4a31d7125f50686caae9c91c1e2c67b4d3c36a2c87f23c31e1141a0701",
+      "time_h": 156.0
+    },
+    {
+      "file": "G3-00949.vtu.gz",
+      "sha256": "01da7382cbe46dd1c19090e2f841ccd5bad4335db5e14983b659fc2e8764232d",
+      "time_h": 156.16666666666666
+    },
+    {
+      "file": "G3-00950.vtu.gz",
+      "sha256": "642a940bc699e3ee06237a81e210d678a62e9eb4ebc26e24f2bed185d46e27a9",
+      "time_h": 156.33333333333334
+    },
+    {
+      "file": "G3-00951.vtu.gz",
+      "sha256": "ebe1d6adf3c42400f33da504cb863d21cd21dc90020c3dc404bd8cd93dd4ace7",
+      "time_h": 156.5
+    },
+    {
+      "file": "G3-00952.vtu.gz",
+      "sha256": "2d1e5c8428ced55d0575f9bb1f065b1cb306dd48f2abbcc2de74c62effeae0d3",
+      "time_h": 156.66666666666666
+    },
+    {
+      "file": "G3-00953.vtu.gz",
+      "sha256": "d870fcabfeeb752bf1837612348e3d846199bbed93c6b11bffc393a13f01cd07",
+      "time_h": 156.83333333333334
+    },
+    {
+      "file": "G3-00954.vtu.gz",
+      "sha256": "5679a790c2496c86f2e3d69ff902eac4f046d3dfda86b36496404a5c673f4bfe",
+      "time_h": 157.0
+    },
+    {
+      "file": "G3-00955.vtu.gz",
+      "sha256": "3188c0e1799408d644c4bba09b0e5496004cef30dc7011bcb80ef79f0df530d4",
+      "time_h": 157.16666666666666
+    },
+    {
+      "file": "G3-00956.vtu.gz",
+      "sha256": "0ee51e1ed8f9ea52edd4697883b0858a83d2af8085a910b673f213ff5d327dd8",
+      "time_h": 157.33333333333334
+    },
+    {
+      "file": "G3-00957.vtu.gz",
+      "sha256": "91c86345eec44f4af64ad63d563d8d673190ec6dd062f58962a589ffddec0a3b",
+      "time_h": 157.5
+    },
+    {
+      "file": "G3-00958.vtu.gz",
+      "sha256": "71eed07831fb539405a72e032eb3ef9e8557c0121c1809fcd51d5bb643c0f26a",
+      "time_h": 157.66666666666666
+    },
+    {
+      "file": "G3-00959.vtu.gz",
+      "sha256": "29d93b2a868ed1e4e0cc28bcf7042a9995572cbcfc4f6299bfd793cb423bc435",
+      "time_h": 157.83333333333334
+    },
+    {
+      "file": "G3-00960.vtu.gz",
+      "sha256": "e3c9f86ff673b6ad80a30ac3b217952ebcc5b9ea2e35652f091dabd1f08e38b6",
+      "time_h": 158.0
+    },
+    {
+      "file": "G3-00961.vtu.gz",
+      "sha256": "f3abda3145db70732c7ba0ad83e5fc78b59f9f01689073b3015db20768e447a8",
+      "time_h": 158.16666666666666
+    },
+    {
+      "file": "G3-00962.vtu.gz",
+      "sha256": "42f09dec3268a2d23f6165a8ee4c82af345b8fc7e1b09d16ca1b6db2395da19b",
+      "time_h": 158.33333333333334
+    },
+    {
+      "file": "G3-00963.vtu.gz",
+      "sha256": "0ac867fd7a205df6c66f214fe8638163abc451ca1ea459ef19f1c79610b8b93f",
+      "time_h": 158.5
+    },
+    {
+      "file": "G3-00964.vtu.gz",
+      "sha256": "ba72afee676a7a313cd0fd9cb04d86b6e3a89ab31254f7a5df5c14b4a51838e1",
+      "time_h": 158.66666666666666
+    },
+    {
+      "file": "G3-00965.vtu.gz",
+      "sha256": "35bdbea118037927a1714ccfd1cee0fe48487a143693d451a576802d0e7b7114",
+      "time_h": 158.83333333333334
+    },
+    {
+      "file": "G3-00966.vtu.gz",
+      "sha256": "344670161e741acfb303735ee93786b279101cc5fe5ad05fbdc61adbad65c086",
+      "time_h": 159.0
+    },
+    {
+      "file": "G3-00967.vtu.gz",
+      "sha256": "74f8dc84d0612882c72e27735e5a2afa22de68d166257948db5ce2c0c87edf98",
+      "time_h": 159.16666666666666
+    },
+    {
+      "file": "G3-00968.vtu.gz",
+      "sha256": "99d77e9fa801b33b4e7856275b467bc8fecc9ac92a288b979ea8eae26b3d1a7c",
+      "time_h": 159.33333333333334
+    },
+    {
+      "file": "G3-00969.vtu.gz",
+      "sha256": "f4f230b4781b02fdd2292055fbe98d06c5699cce265256c207d4bf69b81d7895",
+      "time_h": 159.5
+    },
+    {
+      "file": "G3-00970.vtu.gz",
+      "sha256": "37fc97f6d1d28d7378d13b4ceb8ad6ddd0036145daf8be3eaf9d52c86511642f",
+      "time_h": 159.66666666666666
+    },
+    {
+      "file": "G3-00971.vtu.gz",
+      "sha256": "a7c45664237844d696283d67fe9b4953c15837bac1133bedf4c9e34a6f1ad903",
+      "time_h": 159.83333333333334
+    },
+    {
+      "file": "G3-00972.vtu.gz",
+      "sha256": "5c08d21815b5188c766ad0c6cfe352a1540d45e31308da33f7e3e26a92022242",
+      "time_h": 160.0
+    },
+    {
+      "file": "G3-00973.vtu.gz",
+      "sha256": "ba5466db6c188287077dd4e6a5173697b8dc91ccae7198788827430517a58ec1",
+      "time_h": 160.16666666666666
+    },
+    {
+      "file": "G3-00974.vtu.gz",
+      "sha256": "2aa0e9dd8ce6061b6744f01870e8c2d9bad56eb4c266f5ca65b0cdb84a2c7555",
+      "time_h": 160.33333333333334
+    },
+    {
+      "file": "G3-00975.vtu.gz",
+      "sha256": "e77e7f5d74b83ef60214227c42953130fe5304cb3d75b57afc31bb3f6a964f2f",
+      "time_h": 160.5
+    },
+    {
+      "file": "G3-00976.vtu.gz",
+      "sha256": "c0ae95dca7beee1f36c948c1314a5a2b42350e3afed6ce2658e83938f959d9eb",
+      "time_h": 160.66666666666666
+    },
+    {
+      "file": "G3-00977.vtu.gz",
+      "sha256": "d9691db642f30fd8b35eedc8eed94621e9d5f07e65cffaebcd2e0d0d5b67784b",
+      "time_h": 160.83333333333334
+    },
+    {
+      "file": "G3-00978.vtu.gz",
+      "sha256": "f4a9d9edb995ae3cc8f86fe6f5042d5c1aa942e8e3b5ccb5de9f8168fe8c8814",
+      "time_h": 161.0
+    },
+    {
+      "file": "G3-00979.vtu.gz",
+      "sha256": "2d9ae172b323928da3258a1b14fc1fa1a13982153f81cd453c94bc8b4dc7891d",
+      "time_h": 161.16666666666666
+    },
+    {
+      "file": "G3-00980.vtu.gz",
+      "sha256": "751f4713bcf3f112d1db85f03c8136b88b5c38fc1e2163b3f41afb94e81256c8",
+      "time_h": 161.33333333333334
+    },
+    {
+      "file": "G3-00981.vtu.gz",
+      "sha256": "1601d757b427b14e1a209c5d857716eab83d4c1a52b82e2d5a55c26333f13f94",
+      "time_h": 161.5
+    },
+    {
+      "file": "G3-00982.vtu.gz",
+      "sha256": "73ea15d262519d1006262fc40e9abb9c529888c4f3644cd2c41bebb7e7f71ba9",
+      "time_h": 161.66666666666666
+    },
+    {
+      "file": "G3-00983.vtu.gz",
+      "sha256": "b23f98702db90d5eb71e53bab4d2bab19cd78b8cd6aed19457c49f98fc9eccc4",
+      "time_h": 161.83333333333334
+    },
+    {
+      "file": "G3-00984.vtu.gz",
+      "sha256": "e3071dd9e27cfa6ef093fd8e4e4081096e100e34f6913ae314bbb64d14edbc75",
+      "time_h": 162.0
+    },
+    {
+      "file": "G3-00985.vtu.gz",
+      "sha256": "6994f21aad68b6197a494601c94723a18014ee63721b5d4b7342351f4adbdd85",
+      "time_h": 162.16666666666666
+    },
+    {
+      "file": "G3-00986.vtu.gz",
+      "sha256": "248acf537c9acd3406adb1b9bd7077e95bd563c61cbbaf91876baf6f2fad09e1",
+      "time_h": 162.33333333333334
+    },
+    {
+      "file": "G3-00987.vtu.gz",
+      "sha256": "f5cd5cc41b5eb384711d0c478754c1daba5599d95b9a0adb7a3796212a81948b",
+      "time_h": 162.5
+    },
+    {
+      "file": "G3-00988.vtu.gz",
+      "sha256": "c8b376b36feb88d406f47b74b9b94afe7e5733f8f2c384bf7627d5631a36bb5b",
+      "time_h": 162.66666666666666
+    },
+    {
+      "file": "G3-00989.vtu.gz",
+      "sha256": "c81dbfaf5735d1fe6648ceafea3a14c010398c18f2b0d516e2c335d83d7ccc1b",
+      "time_h": 162.83333333333334
+    },
+    {
+      "file": "G3-00990.vtu.gz",
+      "sha256": "bb36a826b23a333eec8c6ac5ba0ddf3a4fca6c069302a1b260fd165deac3d554",
+      "time_h": 163.0
+    },
+    {
+      "file": "G3-00991.vtu.gz",
+      "sha256": "864131ba0151462e5c1e67123597521ff97ef2a24f35f3bb9c94b21e6d2f1648",
+      "time_h": 163.16666666666666
+    },
+    {
+      "file": "G3-00992.vtu.gz",
+      "sha256": "afc4de6553eaf30a47f97ff9c4a246bc0f855b58441fc96a6a8174e522313277",
+      "time_h": 163.33333333333334
+    },
+    {
+      "file": "G3-00993.vtu.gz",
+      "sha256": "abc9051de2aedfc93e4469ed4674f9a06fb82102f9bdba35a2b47e41d35a057a",
+      "time_h": 163.5
+    },
+    {
+      "file": "G3-00994.vtu.gz",
+      "sha256": "9eea321ade65e4a7e57c946363c7eeca61c2f1cc570ffb5ecbbd9d076b9be378",
+      "time_h": 163.66666666666666
+    },
+    {
+      "file": "G3-00995.vtu.gz",
+      "sha256": "6276f6010a925e7a9178ec140b528fe9c8e9805a413e7fcb536ec25d530cc881",
+      "time_h": 163.83333333333334
+    },
+    {
+      "file": "G3-00996.vtu.gz",
+      "sha256": "6f6381a662213dc073f0b2ff86b05d93e3a60a31c9efafc0a7684f3a75888139",
+      "time_h": 164.0
+    },
+    {
+      "file": "G3-00997.vtu.gz",
+      "sha256": "58abe5c86f8bd61e66dfd115ee5c82db0b7f723b2c26c6b0be44f2f240e7ebec",
+      "time_h": 164.16666666666666
+    },
+    {
+      "file": "G3-00998.vtu.gz",
+      "sha256": "3af7c30a728a4d661f45fbd455a47afed8bf6fd21cd18f16b558ef62d7f8c73d",
+      "time_h": 164.33333333333334
+    },
+    {
+      "file": "G3-00999.vtu.gz",
+      "sha256": "f5e4274e4e6eb2f9ec5a63bf2e6ac24c2788998907c24cbceac5f2ef345aaca8",
+      "time_h": 164.5
+    },
+    {
+      "file": "G3-01000.vtu.gz",
+      "sha256": "eb0130fe3d23c4f7c8642868bc43344288dcfa9d255a770bfad17e60b20f0ffb",
+      "time_h": 164.66666666666666
+    },
+    {
+      "file": "G3-01001.vtu.gz",
+      "sha256": "27bcd239ba040156834160473624a3942fbb9bbf817bb7d11f62faca3eb16383",
+      "time_h": 164.83333333333334
+    },
+    {
+      "file": "G3-01002.vtu.gz",
+      "sha256": "21f8a10aaa8953f7afda642c81f942fe4f058714bfaca50d19e979207070c16f",
+      "time_h": 165.0
+    },
+    {
+      "file": "G3-01003.vtu.gz",
+      "sha256": "5c7456dbc2db00d75b13b90766b6eee5a0d05fed4ab9e96af466716a1503b22e",
+      "time_h": 165.16666666666666
+    },
+    {
+      "file": "G3-01004.vtu.gz",
+      "sha256": "5a1ec226edf5eb1c797275820180ef71cab26e721f2a314abf48667c84f70045",
+      "time_h": 165.33333333333334
+    },
+    {
+      "file": "G3-01005.vtu.gz",
+      "sha256": "63e1e2b37b4e5ce4c51d75e6784a8260f619a355a1e1cade16cfc21be290b11a",
+      "time_h": 165.5
+    },
+    {
+      "file": "G3-01006.vtu.gz",
+      "sha256": "7ecfe474fd370e4ef5a156bad0c2d6905395b5967e25ff290236598c330b3c40",
+      "time_h": 165.66666666666666
+    },
+    {
+      "file": "G3-01007.vtu.gz",
+      "sha256": "895036ae7232d55a61df0688c55cb7e4abb4ae8d5fabe17f40afbb2717d2403a",
+      "time_h": 165.83333333333334
+    },
+    {
+      "file": "G3-01008.vtu.gz",
+      "sha256": "21b2cac5ea3316aa545baefc34d4d1492c29d6074745d3a695f9ebf85fd88374",
+      "time_h": 166.0
+    },
+    {
+      "file": "G3-01009.vtu.gz",
+      "sha256": "d9232b2199db48ddeab646ee091c95c01b5801a35d742bf45be4bdb4f906169f",
+      "time_h": 166.16666666666666
+    },
+    {
+      "file": "G3-01010.vtu.gz",
+      "sha256": "c020c86be27e8d843e07d82053e454c738c652609ea65ef700f690b83b5f4271",
+      "time_h": 166.33333333333334
+    },
+    {
+      "file": "G3-01011.vtu.gz",
+      "sha256": "4ecebcbd5b833224f735c9610e597782a2360ec82e1eec5abdb2104a3ae5125e",
+      "time_h": 166.5
+    },
+    {
+      "file": "G3-01012.vtu.gz",
+      "sha256": "2fdbc967bff22d2aeeba5e07f21fa2f27fed0ca5527939c70dad657792ee722a",
+      "time_h": 166.66666666666666
+    },
+    {
+      "file": "G3-01013.vtu.gz",
+      "sha256": "b72a96a7868f19671f317328207a89148a48cc7ab6d802006944a39b8882d0fa",
+      "time_h": 166.83333333333334
+    },
+    {
+      "file": "G3-01014.vtu.gz",
+      "sha256": "e0242731ac823d9834982ae332d4a375284014cabccd99e059b90ef1e3be96bc",
+      "time_h": 167.0
+    },
+    {
+      "file": "G3-01015.vtu.gz",
+      "sha256": "55611f18bf8f1f37150f3aa81be07dbff25cd96c8506496f8326d7ecc4ae1f77",
+      "time_h": 167.16666666666666
+    },
+    {
+      "file": "G3-01016.vtu.gz",
+      "sha256": "533eef9085d28306df3b7fdc3b69216e2ffdef05da86b627856ccb391e483019",
+      "time_h": 167.33333333333334
+    },
+    {
+      "file": "G3-01017.vtu.gz",
+      "sha256": "95afe98fc941ba4d1706b2d937b424803096c18d6ba099f36e4f2c3385882c75",
+      "time_h": 167.5
+    },
+    {
+      "file": "G3-01018.vtu.gz",
+      "sha256": "ff3107f51debe2e5144683bbea5f0b7aba728e9e9c0bafc4383429e9b583596b",
+      "time_h": 167.66666666666666
+    },
+    {
+      "file": "G3-01019.vtu.gz",
+      "sha256": "7f4adc029ce8fdf68c1253dfa5e50ba3e9e6ae5467eb2f4a2721689348c4ec1f",
+      "time_h": 167.83333333333334
+    },
+    {
+      "file": "G3-01020.vtu.gz",
+      "sha256": "88968f10fdea156417197fe5122c1c5bf7958e9b44dec2c95e2789d4a03c0b15",
+      "time_h": 168.0
+    },
+    {
+      "file": "G3-01021.vtu.gz",
+      "sha256": "5431e01c80b552f0f54c6e125eda04a8e03f1025e0d9d8b12e4568c1c30bad0a",
+      "time_h": 168.16666666666666
+    },
+    {
+      "file": "G3-01022.vtu.gz",
+      "sha256": "d9e070d38a0de623756e45feb75c6de578524acabf0fc4503bcee8dbd0fa0304",
+      "time_h": 168.33333333333334
+    },
+    {
+      "file": "G3-01023.vtu.gz",
+      "sha256": "baf12d630d8e772a122ca501f6cdafba2400611d5127cb5a81ae572602ac0802",
+      "time_h": 168.5
+    },
+    {
+      "file": "G3-01024.vtu.gz",
+      "sha256": "ba79843336764c57108ca61fb434db68e93435b524954e66848e7871bed670ac",
+      "time_h": 168.66666666666666
+    },
+    {
+      "file": "G3-01025.vtu.gz",
+      "sha256": "63b446a1f8ce4808e7c5bd390e9a5e6678dbdb596ab2eb8505cfe1640e89dda0",
+      "time_h": 168.83333333333334
+    },
+    {
+      "file": "G3-01026.vtu.gz",
+      "sha256": "8331d182f561ff2a26dd240cb30d0e0f684848e44ddff8a89cd8f6954658d8bd",
+      "time_h": 169.0
+    },
+    {
+      "file": "G3-01027.vtu.gz",
+      "sha256": "3802ab443c3aedeee9a5521f207bea7220a03ef00707af83b51d5122c8aebb14",
+      "time_h": 169.16666666666666
+    },
+    {
+      "file": "G3-01028.vtu.gz",
+      "sha256": "d059f4d38569fa9fffefa57e45b8facb9854d4275537b66c26856444009e0c53",
+      "time_h": 169.33333333333334
+    },
+    {
+      "file": "G3-01029.vtu.gz",
+      "sha256": "5b5d75b9550e66cbc11764b549203d93badb90c79a39eb91e5cd9100c9f5ad78",
+      "time_h": 169.5
+    },
+    {
+      "file": "G3-01030.vtu.gz",
+      "sha256": "50a6540c52281d2cb6543eaba2aa28d8f6416ee3a6b6b665dab691a01b495de9",
+      "time_h": 169.66666666666666
+    },
+    {
+      "file": "G3-01031.vtu.gz",
+      "sha256": "d0e81aa777f3e2ddab3584f7def9fdbdae4d9a11aafe9dc61ef274e048d8208b",
+      "time_h": 169.83333333333334
+    },
+    {
+      "file": "G3-01032.vtu.gz",
+      "sha256": "338d55c84e42bdec8003f719af5498dc641e05d91bd45d30b1a2c0a38f9bb637",
+      "time_h": 170.0
+    },
+    {
+      "file": "G3-01033.vtu.gz",
+      "sha256": "70cb6846af6ceccb4f82711da04fbdb76275728f7f9db5e2db39cf79cb153534",
+      "time_h": 170.16666666666666
+    },
+    {
+      "file": "G3-01034.vtu.gz",
+      "sha256": "1bdd828cdb1b90c785f34fcf2583447b60844e30679bf5ca4f02154918dcc605",
+      "time_h": 170.33333333333334
+    },
+    {
+      "file": "G3-01035.vtu.gz",
+      "sha256": "f0ed6557f3d8cb32338627d1eeee35acdc7096db1882c7c6fd3cb534954f6188",
+      "time_h": 170.5
+    },
+    {
+      "file": "G3-01036.vtu.gz",
+      "sha256": "6cfd906a2973f0d07331e77fd29f5afcc5ddac44e889862824214a7b3760a518",
+      "time_h": 170.66666666666666
+    },
+    {
+      "file": "G3-01037.vtu.gz",
+      "sha256": "d809672475fe43c311301a5068623207a821c5ba82109f3d593a0de7d44d4a6f",
+      "time_h": 170.83333333333334
+    },
+    {
+      "file": "G3-01038.vtu.gz",
+      "sha256": "29c41af8276b8f4dc87ea583e3935a9a6c2f2ac1d6f254025f30335a244c52cf",
+      "time_h": 171.0
+    },
+    {
+      "file": "G3-01039.vtu.gz",
+      "sha256": "656da50879bd0b07056c35be85744815efa9805ca33056db84316565776037c3",
+      "time_h": 171.16666666666666
+    },
+    {
+      "file": "G3-01040.vtu.gz",
+      "sha256": "3c850231274e6894dd1ae31cbde44c4e780012c3c2b26b3abd346c1db605a3c5",
+      "time_h": 171.33333333333334
+    },
+    {
+      "file": "G3-01041.vtu.gz",
+      "sha256": "a93e628c506934078ed8c63e1180562c57b815f85f4d7c00db19f65427925ac3",
+      "time_h": 171.5
+    },
+    {
+      "file": "G3-01042.vtu.gz",
+      "sha256": "a6d5deb972e8b234763bb75cfce1f1595505a6eb8202d3f1dd785c5a44099b8d",
+      "time_h": 171.66666666666666
+    },
+    {
+      "file": "G3-01043.vtu.gz",
+      "sha256": "11f45e3f02a157e64703adffc9db4aa046ccc343b9d0e77a7e6246f45d421b25",
+      "time_h": 171.83333333333334
+    },
+    {
+      "file": "G3-01044.vtu.gz",
+      "sha256": "671e9e27b056b57dec78a0991593eaf01e74730446e6b7be5cca45fa3ca5f371",
+      "time_h": 172.0
+    },
+    {
+      "file": "G3-01045.vtu.gz",
+      "sha256": "4a13d7470b9b2575675788923fb592c6e72a4881a9110cbff9df2c101f96f5ae",
+      "time_h": 172.16666666666666
+    },
+    {
+      "file": "G3-01046.vtu.gz",
+      "sha256": "027b2a36e51a34b675809f3b89640489ad834dbd00805efa5a359b2509290f76",
+      "time_h": 172.33333333333334
+    },
+    {
+      "file": "G3-01047.vtu.gz",
+      "sha256": "90fd2854fd61236f6ec618a755c1c3d2a5987c92612a310dcffbe4ee55f93d98",
+      "time_h": 172.5
+    },
+    {
+      "file": "G3-01048.vtu.gz",
+      "sha256": "691d825eba83ef000a937b56f54ae63e6014659e52dc7f4e9dc8c431e863bae5",
+      "time_h": 172.66666666666666
+    },
+    {
+      "file": "G3-01049.vtu.gz",
+      "sha256": "402ae13bde0374ff5d4991a79ce61428bcfd5f3bceed9da036df8a3a319d1db4",
+      "time_h": 172.83333333333334
+    },
+    {
+      "file": "G3-01050.vtu.gz",
+      "sha256": "045e63bdd73383aa35457c41f454c56f2511330422deee4a863a60278adda799",
+      "time_h": 173.0
+    },
+    {
+      "file": "G3-01051.vtu.gz",
+      "sha256": "8eaea0cf5e7b4a4e63077fbb5a18a04d16c6119e711a22d4d94b2d637952919d",
+      "time_h": 173.16666666666666
+    },
+    {
+      "file": "G3-01052.vtu.gz",
+      "sha256": "432964ce1ca8a338faf302fea55dccd06c821ecce6b963a6c03a0a94067a1837",
+      "time_h": 173.33333333333334
+    },
+    {
+      "file": "G3-01053.vtu.gz",
+      "sha256": "b3bed767964e4e75d7774b287cf2602a822b11d6b69ea65e80d85686b44fc99d",
+      "time_h": 173.5
+    },
+    {
+      "file": "G3-01054.vtu.gz",
+      "sha256": "0eb548cad83816d7e4ad6df7e6b70876dd32119245f446deefe183c5bf97cf03",
+      "time_h": 173.66666666666666
+    },
+    {
+      "file": "G3-01055.vtu.gz",
+      "sha256": "c09fb1e4918e8530379086e6971c18dbc942d56b332f82450241297b6fbfca92",
+      "time_h": 173.83333333333334
+    },
+    {
+      "file": "G3-01056.vtu.gz",
+      "sha256": "b3dfe7bea0ed9ab3334cbfd9990d80a9fde5688909fefe4e270594d76fc11cab",
+      "time_h": 174.0
+    }
+  ],
+  "interpretation": "native depth-wide diagnostic; geometry must be read from case metadata; no absolute 2D\u20133D or morphology/onset validation"
+}

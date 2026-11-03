@@ -1,6 +1,6 @@
 {
-  "state": "running",
-  "utc": "2026-11-03T20:29:41.828674+00:00",
+  "state": "completed_conditional",
+  "utc": "2026-11-03T21:14:04.960923+00:00",
   "supervisor_pid": 2951663,
   "host": "frodo",
   "simultaneous": true,
@@ -10,10 +10,15 @@
     "G3": 11
   },
   "production_wall_s": 172800,
-  "running": {
-    "G1": 2951671,
-    "G2": 2951673,
-    "G3": 2951674
+  "running": {},
+  "returncodes": {
+    "G1": 0,
+    "G2": 0,
+    "G3": 0
   },
-  "returncodes": {}
+  "case_states": {
+    "G1": "completed_conditional",
+    "G2": "completed_conditional",
+    "G3": "completed_conditional"
+  }
 }

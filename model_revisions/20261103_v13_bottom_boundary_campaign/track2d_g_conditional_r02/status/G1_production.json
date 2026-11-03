@@ -1,5 +1,5 @@
 {
-  "state": "running",
+  "state": "completed_conditional",
   "case": "G1",
   "stage": "conditional_production",
   "validation_status": "conditional_unaccepted_refined_grid_gate",
@@ -8,5 +8,24 @@
   "host": "frodo",
   "controller_pid": 2951671,
   "affinity": "3",
-  "utc": "2026-11-03T19:28:26.726662+00:00"
+  "utc": "2026-11-03T21:13:54.318162+00:00",
+  "acceptance": {
+    "status": "passed",
+    "relative_budget_residuals": {
+      "water_residual_mol": 1.039594757930216e-12,
+      "salt_residual_mol": 1.3575422537651613e-12,
+      "coarse_residual_mol": 1.5459094186126955e-11,
+      "fine_residual_mol": 1.9231764846462928e-11
+    },
+    "relative_energy_budget_residual": 1.6376845634118376e-10,
+    "T_min_K": 290.8047513252515,
+    "T_max_K": 293.15,
+    "first_solid_mol": 0.0,
+    "final_solid_mol": 0.008560945312057996,
+    "final_dissolved_mol": 0.07333565486255372,
+    "max_molality_after_initial": 6.011884292870148,
+    "max_complementarity_after_initial": 1.7589782191483213e-16,
+    "completed_evaporation_h": 174.0
+  },
+  "raw": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G1"
 }

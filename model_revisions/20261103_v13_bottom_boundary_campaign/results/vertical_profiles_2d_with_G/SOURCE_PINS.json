@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-11-03T22:20:54.313097+00:00",
+  "reference": "model_revisions\\20261103_v13_bottom_boundary_campaign\\results\\vertical_profiles_2d\\RH0_2D_VERTICAL_PROFILES_COMPARISON.pdf",
+  "layout": "12x7 inches; 2 rows F36/W3; 24,60,108,174 h columns; 0\u20135.5 M and 0\u201340 mm axes",
+  "source_sha256": {
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\plot_2d_profiles_with_g.py": "78187f901d3943b983897fe078427465f87f1c472c6ea7594e17bfccaf5fe23c",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\results\\vertical_profiles_2d\\RH0_2D_VERTICAL_PROFILES_COMPARISON.pdf": "e0602b4f18048bbfa2494fc328c079768787b528686233e815d9e7fb697bf8b9",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\baseline_reference\\MRI_profile_pairs_unchanged.csv": "62804ae5ab27b71cce2b2fa57ace68afaa1efe6ebee9a82a4676e141d081b7ed",
+    "analysis\\model_experiment_comparison_20261028\\experimental_profiles.csv": "1af322bd1fa3f47ec37c85fb3b1360a0f09dc7cdaa814eac3022b6df66569d5b",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B0\\profiles_history.csv": "298d72b536a98a20dda4b5e7b089fe1c022da7c41dbb5cf10dcce8316e41a471",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B1\\profiles_history.csv": "9e30cecddee2ae4102aad646e483f6c3bacf5bf61fe56c74975ca4fe044af81f",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B2\\profiles_history.csv": "0746a9d5616d6278a2e1835cd8340e731cc4db60edf7cc5ce5fa41bc6bfcafd7",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d\\results\\B3\\profiles_history.csv": "2da7ce1ac9167884fe74e8e36cf9acd16c46e3cd2c34dd9b6ce794f160295aa9",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_conditional_r02\\status\\G1_production.json": "df78936f0375a32859551ad0ef1f6116c4b1a66d211df65cfa3bc5097854e7c2",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_conditional_r02\\results\\G1\\profiles_history.csv": "e1bc592e3193b4919feb998c9e377357634cb9f01e180d749b1fcc6483c1645c",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_conditional_r02\\status\\G2_production.json": "4f3761868401922b84416482c5848d81e7a02e3a00891a927225104e558dab57",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_conditional_r02\\results\\G2\\profiles_history.csv": "48ce77061f812fb1cb6f37c475fd72cdde73ba34fb616e111940de492cbb6b9f",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_conditional_r02\\status\\G3_production.json": "bcdca4f091571756573a244c4c797d5d800356733635686cb5c452d3b5a7e673",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track2d_g_conditional_r02\\results\\G3\\profiles_history.csv": "7a088a268b1a4d870118c5f553de677b6d6349d3a0667e5c2324c5a9ffea0787"
+  },
+  "MRI_versus_original_reference_data": "all 320 plotted values and depths matched to 1e-12",
+  "model_sampling": "actual saved 2 h outputs at requested times; no interpolation, fitting, or smoothing",
+  "pages": [
+    "00_all_B_and_conditional_G",
+    "01_B_only",
+    "02_B0_and_conditional_G",
+    "B0_profiles",
+    "B1_profiles",
+    "B2_profiles",
+    "B3_profiles",
+    "G1_profiles",
+    "G2_profiles",
+    "G3_profiles"
+  ],
+  "limitations": "B cases accepted. G cases are conditional sensitivities because the original refined-grid gate failed; conventional 2D is not 3D geometry equivalence."
+}

@@ -1,0 +1,26 @@
+{
+  "state": "passed_conditional_2d_G_delivery",
+  "pdf": "RH0_2D_B_G_VERTICAL_PROFILES_COMPARISON.pdf",
+  "pdf_sha256": "8f632d8c00716e8a280d238084d7f4d71ddf0bffd3f22fe3dd702d10c5d86d90",
+  "pdf_pages": 10,
+  "visual_review": {
+    "reviewed_pages": [1, 3, 10],
+    "status": "passed",
+    "checks": [
+      "titles and legends do not overlap after layout repair",
+      "all directly compared panels share 0–5.5 mol/L and 0–40 mm axes",
+      "conditional G status is stated on every page",
+      "color is redundant with line style",
+      "MRI points and model curves remain visually distinct"
+    ]
+  },
+  "numerical_review": {
+    "completed_evaporation_h": 174.0,
+    "pvd_final_time_s": 633600.0,
+    "frames_per_G_case": 1057,
+    "verified_gzip_fields_per_G_case": 1057,
+    "missing_gzip_fields": 0,
+    "max_field_ledger_relative_error": 6.8523942649890365e-15
+  },
+  "scientific_status": "conditional sensitivity only; original refined-grid gate remains failed"
+}
