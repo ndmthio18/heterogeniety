@@ -1,0 +1,54 @@
+{
+  "utc": "2026-11-03T18:12:00.578488+00:00",
+  "cases": {
+    "B0": {
+      "accepted_h": 7.416666666666667,
+      "relative_budget_errors": {
+        "water_residual_mol": 1.2534616916477956e-13,
+        "salt_residual_mol": 1.2270005748848355e-13,
+        "coarse_residual_mol": 2.0972020602033662e-13,
+        "fine_residual_mol": 1.6271566873287862e-14
+      },
+      "solver_wrapper_pid": 2835153,
+      "alive": true,
+      "start_utc": "2026-11-03T17:24:15.332211+00:00"
+    },
+    "B1": {
+      "accepted_h": 7.416666666666667,
+      "relative_budget_errors": {
+        "water_residual_mol": 2.3287943636089984e-13,
+        "salt_residual_mol": 2.341768443186167e-13,
+        "coarse_residual_mol": 4.405892382107864e-13,
+        "fine_residual_mol": 3.4706914875082283e-14
+      },
+      "solver_wrapper_pid": 2835152,
+      "alive": true,
+      "start_utc": "2026-11-03T17:24:15.332211+00:00"
+    },
+    "B2": {
+      "accepted_h": 7.333333333333333,
+      "relative_budget_errors": {
+        "water_residual_mol": 1.2505249470286174e-13,
+        "salt_residual_mol": 1.2246081934752504e-13,
+        "coarse_residual_mol": 2.2061414529356216e-13,
+        "fine_residual_mol": 3.594939669460191e-14
+      },
+      "solver_wrapper_pid": 2835157,
+      "alive": true,
+      "start_utc": "2026-11-03T17:24:15.332283+00:00"
+    },
+    "B3": {
+      "accepted_h": 7.25,
+      "relative_budget_errors": {
+        "water_residual_mol": 2.7233180706763838e-14,
+        "salt_residual_mol": 3.895306339211223e-14,
+        "coarse_residual_mol": 2.516780481430432e-14,
+        "fine_residual_mol": 1.792826431002056e-14
+      },
+      "solver_wrapper_pid": 2835156,
+      "alive": true,
+      "start_utc": "2026-11-03T17:24:15.332280+00:00"
+    }
+  },
+  "disk_GiB": 203.4803123474121
+}

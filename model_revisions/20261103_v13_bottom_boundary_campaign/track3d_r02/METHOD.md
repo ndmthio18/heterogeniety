@@ -31,3 +31,8 @@ At 16:49 UTC the G boundary probes passed for all four configurations (maximum d
 Read DEPLOYMENT.json, provenance/stage_receipt.json, provenance/live_verification.json, provenance/launcher_repair.patch and provenance/sal_pending_superseded.json. Source and initial-controller versions are retained locally. Use parent status_tracks.py, backup_frodo_3d.py and MONITOR_INSTRUCTIONS.md. Remote root is /temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02 via SSH iws_zhixin; archived attempt01 remains /tmp/zhixin_v13_bottom_boundary_20261103 on sal.
 
 The repository delivery excludes raw fields, executable binaries, transport archives and comparison NPZs. Reconstruct reference arrays with the parent prepare_reference.py and the previously hash-verified v13 archive; copy the resulting baseline_reference into this isolated root before a fresh deployment. No standalone, dependency-free build is claimed.
+
+
+### Follow-up verification, 18:12 UTC
+
+Baseline and all four B short gates passed. B0–B3 full174h predictions launched17:24:15UTC and reached7.25–7.4167h with live processes and maximum relative water/salt/partition residual4.41e-13. G dynamic gates remain running; G174h not launched. Both remaining historical sal shorts terminated by the same3600s wall guard. New Frodo1053-file backup verified; total1350 paths. See provenance/monitor_20261103_1811UTC.json. Full174h acceptance and comparisons remain pending.

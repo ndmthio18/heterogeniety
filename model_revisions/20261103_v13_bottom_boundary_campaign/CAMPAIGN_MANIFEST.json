@@ -1,6 +1,6 @@
 {
-  "created_utc": "2026-11-03T16:52:52.186324+00:00",
-  "scope": "Accepted 2D B174h light results, preserved separate 2D G failure, and deployed 3D r02 launcher repair with full regression/production pending; no raw/binaries/transport archives/NPZ",
+  "created_utc": "2026-11-03T18:12:45.798742+00:00",
+  "scope": "Accepted 2D B174h light results; separate2D G failure; 3D r02 B174h running after passed gates, G gates pending; no raw/binaries/transport/NPZ",
   "files": [
     {
       "path": "2D_3D_COMPARISON.md",
@@ -64,8 +64,8 @@
     },
     {
       "path": "MONITOR_INSTRUCTIONS.md",
-      "bytes": 3326,
-      "sha256": "66a15fc2584ac54a7161fb0b84a594391fb0383bab05b1f57f2e96edc50b3e24"
+      "bytes": 3439,
+      "sha256": "bbc9ad82af300a38cfbe604b03f932283f6597b6c48465c26185e0bcbff0c85a"
     },
     {
       "path": "README.md",
@@ -104,13 +104,13 @@
     },
     {
       "path": "TRACK_RUN_STATUS.csv",
-      "bytes": 1001,
-      "sha256": "0f9867e85b274ac940741b21f44ed9a1bcd457af21a7246b1896ef4c8675b321"
+      "bytes": 975,
+      "sha256": "676219cb90dd2528db5925c65a13f2727e88dedc598baa7caf4c54358f0b1dc6"
     },
     {
       "path": "TRACK_STATUS.json",
-      "bytes": 187707,
-      "sha256": "96e3bbd134ac401d990d60ca4688465512d02982eaa506ade05acd9f41dcd66e"
+      "bytes": 272164,
+      "sha256": "e2e92d1b083edcc547303271260c3a6b059bf287246001019203177dd9410bde"
     },
     {
       "path": "backup_frodo.py",
@@ -1854,8 +1854,8 @@
     },
     {
       "path": "track3d_r02/METHOD.md",
-      "bytes": 4281,
-      "sha256": "74fe78209b237bf398d54b9caab8f58ec872aa8d1a20bb68bbe073b3b38d5db0"
+      "bytes": 4806,
+      "sha256": "6aeac534747ad4212f5b14a74b7b61ac362a3c23078ade1b82b3a2655004745b"
     },
     {
       "path": "track3d_r02/baseline_reference/MRI_profile_pairs_unchanged.csv",
@@ -2263,6 +2263,11 @@
       "sha256": "deb052f8a72c7461dbb6a5a9a3c5f528bf3ea278368559e4c67a838f6f5cf8bd"
     },
     {
+      "path": "track3d_r02/provenance/frodo_/20261103_181119_verified.json",
+      "bytes": 501,
+      "sha256": "f175fe81b3ac843db7903b279757bcf26032203a9df5ac830f930b4d58d1c17e"
+    },
+    {
       "path": "track3d_r02/provenance/launcher_repair.patch",
       "bytes": 3052,
       "sha256": "8792cd4e0d18ec027edd807d6750a31beccf193309b7160f3381f395d35ba9ec"
@@ -2276,6 +2281,11 @@
       "path": "track3d_r02/provenance/local_repair_checks.json",
       "bytes": 601,
       "sha256": "022c90f5df2c065c8e0cea0e169edd99bca48bd41d42cbd54ed6940384b5c2d8"
+    },
+    {
+      "path": "track3d_r02/provenance/monitor_20261103_1811UTC.json",
+      "bytes": 1839,
+      "sha256": "36b3d1afba024bb1d83d3a0afc9c511a582df1dd147ffeb102461405d55467de"
     },
     {
       "path": "track3d_r02/provenance/runtime_snapshot/Baseline_short_status.json",
@@ -2361,6 +2371,11 @@
       "path": "track3d_r02/provenance/runtime_snapshot/supervisor_status.json",
       "bytes": 790,
       "sha256": "5487f4a39b9d9498dc3174fcd2443790678dad2be87ba6c66d7ff7dc3d9b8283"
+    },
+    {
+      "path": "track3d_r02/provenance/sal_/20261103_181119_verified.json",
+      "bytes": 461,
+      "sha256": "d260bcf455b6abd50f84d4d58798ba2422e8c2e3819aaa1831a3e7c04e45839f"
     },
     {
       "path": "track3d_r02/provenance/sal_pending_superseded.json",
