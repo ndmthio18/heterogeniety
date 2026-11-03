@@ -1,0 +1,12 @@
+{
+  "state": "running",
+  "case": "G2",
+  "stage": "conditional_production",
+  "validation_status": "conditional_unaccepted_refined_grid_gate",
+  "original_gate_failure": "2D G1_refined residual floor 1.04\u20131.09e-10 above fixed 1e-10 criterion",
+  "scientific_use": "sensitivity evidence only; exclude from validated claims until numerical screen is resolved",
+  "host": "frodo",
+  "controller_pid": 2951673,
+  "affinity": "10",
+  "utc": "2026-11-03T19:28:26.725368+00:00"
+}

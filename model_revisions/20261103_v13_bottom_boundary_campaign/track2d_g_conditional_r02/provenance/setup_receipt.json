@@ -1,0 +1,7 @@
+{
+  "state": "passed",
+  "source_root": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d",
+  "native_binary_sha256": "d0ea5ad1d65bf6de1ad2854f33474be207d8170069a619d1eae93dd29cc1c3be",
+  "frozen_inputs": 44,
+  "change": "orchestration isolation only; production physics and numerics unchanged"
+}

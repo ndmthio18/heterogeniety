@@ -1,0 +1,19 @@
+{
+  "pid": 2951663,
+  "utc": "2026-11-03T19:28:19.449824+00:00",
+  "python": "/temp/zhixin/heterogeneity_thermal_calibration_v15_20261102/venv/bin/python",
+  "root": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02",
+  "cases": [
+    "G1",
+    "G2",
+    "G3"
+  ],
+  "simultaneous": true,
+  "cpus": [
+    3,
+    10,
+    11
+  ],
+  "mem_available_GiB": 20.587993621826172,
+  "disk_free_GiB": 193.70047760009766
+}
