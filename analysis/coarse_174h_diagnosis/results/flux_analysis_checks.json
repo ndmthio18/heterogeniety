@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "native_replay_scaled_max_error": 4.6734469787109016e-07,
+  "accepted_interval_max_closure_mol": 4.1876224710080123e-14,
+  "gross_sign_test": "passed",
+  "face_geometry_tests": "passed: 768 bottom, 960 interface, 2304 selected horizontal faces",
+  "quadrature_note": "10-minute trapezoid is approximate. Native accepted net budgets remain authoritative. No grid/full-time-step convergence claim."
+}

@@ -1,0 +1,17 @@
+{
+  "numerical_reduction": "passed verify_audit.py",
+  "native_transfer": "45 files SHA256 verified",
+  "visual_review": "passed",
+  "reviewed_figures": [
+    "01_concentration_and_error",
+    "02_signal_and_apparent_inventory",
+    "03_coarse_internal_fields",
+    "04_thermal_and_evaporation",
+    "05_native_flux_histories",
+    "06_native_flux_maps"
+  ],
+  "pdf_pages": 6,
+  "visual_findings": "Corrected post174h extrapolation; labelled corrected GV; cell-centre central band distinct from whole-volume measures; bottom outflow shifts toward interface at174h; interface advection forward and diffusion largely reverse; symmetric-log scales labelled with numeric ticks; no cropped labels in final maps.",
+  "limitations": "No new dynamic sensitivity runs or full-grid/dt convergence. Source MRI processing and filter properties unresolved.",
+  "reviewed_utc": "2026-11-03T13:10:53.606375+00:00"
+}

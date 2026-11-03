@@ -1,0 +1,5 @@
+{
+  "file": "experimental_data\\DARUS-6478\\extracted\\Heterogeneous F36 W3 Evaporation with MRI\\F36 & W3 Sand Hydraulic Properties\\F36 & W3 Sand Hydraulic Properties.xlsx",
+  "sha256": "d63221c0572671a484eb8e6c7645660f2cc22bf8fb947b32baa6aea032c87b2d",
+  "note": "Recorded converted/cached means do not exactly reproduce all raw cm/day readings. Do not silently replace v12 K; resolve units/averaging before a physical sensitivity bracket."
+}

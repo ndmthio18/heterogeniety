@@ -1,0 +1,7 @@
+{
+  "binary_sha256": "45a91a07cdf6444d13867099c6df3e0bb22b894a5b446568440fd8d3d414397b",
+  "accepted_binary_sha256": "6595025e48333062cfa05022d9f6d65670421d33f5fb6c92213c0a402a10b58e",
+  "original_problem_sha256": "1186a75fa0125bceb9a498dec6e5a010754b74d2dafef93ff0fdd7fccf6f5dbb",
+  "diagnostic_problem_sha256": "34fdc21b3b83f203f54480625b477db72f5f97497e744b073cde22368dd902cd",
+  "purpose": "Read-only accepted-state finite-volume flux replay. No Newton/time stepping."
+}

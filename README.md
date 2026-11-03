@@ -1,6 +1,14 @@
 # Heterogeneity: RH=0 cylinder evaporation and salt precipitation
 
-本仓库归档 RH=0、固定孔隙率和本征渗透率的三维圆柱 **v12 / 174 h** 分析结果。当前内容仅覆盖本次已验收对照，不包含其他非等温、性能或气膜厚度率定任务的结论。
+本仓库归档 RH=0、固定孔隙率和本征渗透率的三维圆柱 **v12 / 174 h** 分析结果。本研究分支另含 L1 粗砂浓度偏差审计，引用独立已验收 v13 非等温结果作为明确分版本的比较；原 v12 交付目录保持不变。
+
+## L1 粗砂浓度偏差审计（独立研究分支）
+
+- [最终诊断](analysis/coarse_174h_diagnosis/FINAL_DIAGNOSIS.md) / [六页图件 PDF](analysis/coarse_174h_diagnosis/results/COARSE_174H_AUDIT_FIGURES.pdf)
+- [Phase 1 发现](analysis/coarse_174h_diagnosis/PHASE_1_FINDINGS.md) / [后续受控试验矩阵](analysis/coarse_174h_diagnosis/SENSITIVITY_MATRIX.md)
+- [来源、复现与校验说明](analysis/coarse_174h_diagnosis/README.md)
+
+完成了 MRI 来源审计、1044 帧原生面通量回放、粗细砂盐量闭合及独立热效应比较。回放不推进求解时间；未新增174 h物理敏感性计算。诊断明确区分模型输运机制、待检验的边界假设及实验观测不确定性。本分支不自动合并 main。
 
 ## 阅读入口
 

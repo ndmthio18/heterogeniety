@@ -1,0 +1,46 @@
+{
+  "state": "passed",
+  "frames": 7,
+  "max_scaled_error": 3.4577174858586083e-09,
+  "native_face_sum_tests": "passed",
+  "donor_concentration_test": "passed",
+  "saved_interval_s": 600,
+  "zero_hour": "Preseed ledger flux approximately zero; 0h is supplied separately in quadrature.",
+  "sources": [
+    {
+      "time_h": 24.0,
+      "file": "RH0_174h-00156.vtu.gz",
+      "gzip_sha256": "1257ef912e7023ef96383a7f2d3fc1f56dd987f72513c57021b42e5bc0228570"
+    },
+    {
+      "time_h": 60.0,
+      "file": "RH0_174h-00372.vtu.gz",
+      "gzip_sha256": "2d83adff0b7d469cdfc38ce231d7bdf82663fdea87f23477570dbe084d264e9d"
+    },
+    {
+      "time_h": 84.0,
+      "file": "RH0_174h-00516.vtu.gz",
+      "gzip_sha256": "a9ad2eef7d12dcc07b4b7ed782e79cb646a4f1e5597e9e3a0b386b2acbbdcdcc"
+    },
+    {
+      "time_h": 96.0,
+      "file": "RH0_174h-00588.vtu.gz",
+      "gzip_sha256": "f925477203ec06bd86bed74b8fbc9d3e36e5d1beea0e930a706fc63f3f4eb7a6"
+    },
+    {
+      "time_h": 120.0,
+      "file": "RH0_174h-00732.vtu.gz",
+      "gzip_sha256": "b02b9bbef4b318309a9d899eb206e952b899cac813a19adb9e5823c7fdb8d469"
+    },
+    {
+      "time_h": 144.0,
+      "file": "RH0_174h-00876.vtu.gz",
+      "gzip_sha256": "5e2c47b59e57bf1a749c7e38cac3a9236533c5744d4be1891f13eb2c1dbb746e"
+    },
+    {
+      "time_h": 174.0,
+      "file": "RH0_174h-01056.vtu.gz",
+      "gzip_sha256": "2fd6fe45441a72af67532f09a92015c56936765bbfb17c0492658987ddfe3acb"
+    }
+  ]
+}
