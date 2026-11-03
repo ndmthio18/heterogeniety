@@ -1,0 +1,41 @@
+--- attempt01/campaign.py
++++ track3d_r02/campaign.py
+@@ -1,16 +1,17 @@
+ """Slurm-only isolated gates and predictions; no automatic numerical retries."""
+ from pathlib import Path
+-import os,sys,json,subprocess,gzip,xml.etree.ElementTree as ET,configparser,hashlib
++import os,sys,json,subprocess,gzip,xml.etree.ElementTree as ET,configparser,hashlib,socket
+ import numpy as np,pandas as pd
+ import runner as r
+ R=Path(__file__).resolve().parent;r.ROOT=R;r.SCRATCH=R/'raw';r.SCRATCH.mkdir(exist_ok=True)
+-assert os.environ.get('SLURM_JOB_ID'),'Must run inside Slurm'
++assert os.environ.get('SLURM_JOB_ID') or (os.environ.get('LOCAL_CAMPAIGN_APPROVED')=='1' and socket.gethostname()=='frodo'),'Authorized compute host required'
++r.SHORT_WALL_S=6*3600
+ assert os.environ.get('DUMUX_NUM_THREADS')=='1'
+ cpus=','.join(map(str,sorted(os.sched_getaffinity(0))))
+ mode=sys.argv[1];case=sys.argv[2] if len(sys.argv)>2 else 'baseline'
+ if case=='array':case='B'+os.environ['SLURM_ARRAY_TASK_ID']
+ status_path=R/'status'/f'{case}_{mode}.json';status_path.parent.mkdir(exist_ok=True)
+-def status(state,**kw):r.write(status_path,dict(state=state,case=case,stage=mode,utc=r.utc(),job=os.environ['SLURM_JOB_ID'],affinity=cpus,**kw))
++def status(state,**kw):r.write(status_path,dict(state=state,case=case,stage=mode,utc=r.utc(),job=os.environ.get('SLURM_JOB_ID',os.environ.get('CAMPAIGN_JOB_ID')),host=socket.gethostname(),controller_pid=os.getpid(),affinity=cpus,**kw))
+ def fields(out,seconds):
+  pvd=ET.parse(next(out.glob('*.pvd')))
+  file=next(e.get('file') for e in pvd.findall('.//DataSet') if abs(float(e.get('timestep'))-seconds)<1e-7)
+--- attempt01/campaign_g.py
++++ track3d_r02/campaign_g.py
+@@ -1,12 +1,12 @@
+ from pathlib import Path
+-import os,sys,json,subprocess,configparser,shutil,math
++import os,sys,json,subprocess,configparser,shutil,math,socket
+ import numpy as np,pandas as pd
+ import runner as r
+ from checks import compare,fields,hydro_check
+ R=Path(__file__).resolve().parent;r.ROOT=R;r.SCRATCH=R/'raw';r.BUILD_DIRECTORY='build_filter_sal';r.SHORT_WALL_S=6*3600
+-assert os.environ.get('SLURM_JOB_ID') and os.environ.get('DUMUX_NUM_THREADS')=='1'
++assert (os.environ.get('SLURM_JOB_ID') or (os.environ.get('LOCAL_CAMPAIGN_APPROVED')=='1' and socket.gethostname()=='frodo')) and os.environ.get('DUMUX_NUM_THREADS')=='1'
+ cpus=','.join(map(str,sorted(os.sched_getaffinity(0))));mode=sys.argv[1];case=sys.argv[2] if len(sys.argv)>2 else 'Gates'
+-def status(state,**kw):r.write(R/'status'/f'{case}_{mode}.json',dict(case=case,stage=mode,state=state,utc=r.utc(),job=os.environ['SLURM_JOB_ID'],affinity=cpus,**kw))
++def status(state,**kw):r.write(R/'status'/f'{case}_{mode}.json',dict(case=case,stage=mode,state=state,utc=r.utc(),job=os.environ.get('SLURM_JOB_ID',os.environ.get('CAMPAIGN_JOB_ID')),host=socket.gethostname(),controller_pid=os.getpid(),affinity=cpus,**kw))
+ def run(name,production=False):
+  z=r.run(name,cpus,production=production);assert z['state']=='completed',z;return z
+ def probe(name):

@@ -1,0 +1,45 @@
+{
+  "state": "running",
+  "utc": "2026-11-03T16:51:29.870331+00:00",
+  "supervisor_pid": 2824177,
+  "host": "frodo",
+  "cpu_pool": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "max_parallel": 6,
+  "short_wall_s": 21600,
+  "production_wall_s": 172800,
+  "running": {
+    "baseline": {
+      "pid": 2824190,
+      "cpu": 4
+    }
+  },
+  "finished": {
+    "probeG": {
+      "state": "passed",
+      "returncode": 0,
+      "status": "passed",
+      "utc": "2026-11-03T16:47:14.855815+00:00"
+    }
+  },
+  "pending": [
+    "short_B0",
+    "short_B1",
+    "short_B2",
+    "short_B3",
+    "gatesG",
+    "production_B0",
+    "production_B1",
+    "production_B2",
+    "production_B3",
+    "production_G1",
+    "production_G2",
+    "production_G3"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "case": "Baseline_short",
+  "start_utc": "2026-11-03T16:48:32.103745+00:00",
+  "binary_sha256": "0764e54f49d1fab8a252cdb64e3dcbefa382cb656c2745cdb5c5227951b1b4cc",
+  "input_sha256": "2c7e0c3a65cd6683accb299fd8514eac81e3bb551e893ae44cbd3eee9505e1e4",
+  "cpu": "4",
+  "requested_threads": 1,
+  "wall_limit_s": 21600,
+  "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/Baseline_short",
+  "state": "running",
+  "controller_pid": 2824190,
+  "solver_pid": 2825062,
+  "evaporation_time_h": -1.4430551528930664,
+  "salt_solid_mol": 5.157056747108623e-38,
+  "C_max_mol_L": 1.0000000802186377,
+  "S_min": 1.0,
+  "updated_utc": "2026-11-03T16:51:32.161429+00:00",
+  "scratch_free_GiB": 225.47994995117188
+}

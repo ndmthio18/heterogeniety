@@ -1,0 +1,14 @@
+{
+  "campaign.py": "syntax passed",
+  "campaign_g.py": "syntax passed",
+  "supervisor_frodo.py": "syntax passed",
+  "setup_frodo.py": "syntax passed",
+  "runner.py": "unchanged from attempt01",
+  "checks.py": "unchanged from attempt01",
+  "collect_case.py": "unchanged from attempt01",
+  "native_replay.py": "unchanged from attempt01",
+  "native_replay.cc": "unchanged from attempt01",
+  "test_boundary.cc": "unchanged from attempt01",
+  "runtime_snapshot_files": 19,
+  "scope": "Launcher and host isolation only; physical and numerical source inputs unchanged; full regression pending"
+}

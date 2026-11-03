@@ -1,5 +1,7 @@
 # Accelerated nonisothermal v13 bottom-boundary campaign
 
+**Active state (2026-11-03 16:49 UTC):** 3D launcher repair is deployed in `track3d_r02` on Frodo; G probes passed, baseline running,174h pending. Read track3d_r02/METHOD.md and MONITOR_INSTRUCTIONS.md. Old sal launch notes below are historical. Accepted2D B0–B3 results remain unchanged;2D G failure is separate.
+
 See TASK.md, METHOD.md, BASELINE_VERIFICATION.md, BOUNDARY_IMPLEMENTATION.md and CASE_MATRIX.csv. This is an authorized running research campaign; FINAL_COMPARISON.md is explicitly pending. RUN_STATUS.csv and remote_status_latest.json are timestamped snapshots, not live status.
 
 Source_baseline is the exact frozen accelerated source; source_filter contains isolated explicit-filter changes. Input manifests protect all case inputs and meshes. Build scripts record the pinned remote dependency paths and compiler commands; full DuMuX/DUNE/runtime libraries and compiled binaries are not bundled. Build/relocation manifests record hashes. The source patches and preserved failed test attempts explain changes.

@@ -13,3 +13,8 @@ Monitor every two hours. No parameter/tolerance/time-step changes or restarts me
 ## Two-host extension after explicit user steering
 
 Frodo verified12physical/24logical cores,~22GiB available RAM,237GiB scratch and nearly idle; no Slurm/PBS.2D now uses bounded local supervisor, max6single-thread processes on physical CPUs4–9 (50% of physical capacity),nice10,48h/case,8GiB free-memory and20GiB scratch admission guard. No heavy login-node job: Frodo is the user's authorized compute workstation with existing simulation/build environment. cxhpc verified through liqin bridge,32physical/64logical cores,load~15,~219GiB available memory and495GiB storage; not used because Frodo already compatible/idle. No host-key bypass. sal2D jobs19195–19200 were all held/pending and cancelled;3D arrays restored concurrency2. Source/metadata and cancellation receipts retained.
+
+
+## Active repair supersedes historical placement — 2026-11-03 16:49 UTC
+
+The user requested diagnosis and repair of3D. Active3D is isolated Frodo track3d_r02, CPUs4–9 max6serial tasks,1thread,nice10,6hshort/48hproduction,8GiB RAM/30GiB scratch admission. Launch available22.15GiB RAM/226.21GiB scratch. The2D supervisor is terminal; no competing2D children remain. Any2DG repair must coordinate this shared pool. Unrelated CPU0 simulation untouched. Old sal B2/B3 finish independently; never-started pending long/G duplicates cancelled and preserved. See track3d_r02/METHOD.md.

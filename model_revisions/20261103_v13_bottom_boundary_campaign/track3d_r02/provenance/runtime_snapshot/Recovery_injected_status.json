@@ -1,0 +1,39 @@
+{
+  "case": "Recovery_injected",
+  "start_utc": "2026-11-03T16:48:17.059504+00:00",
+  "binary_sha256": "0764e54f49d1fab8a252cdb64e3dcbefa382cb656c2745cdb5c5227951b1b4cc",
+  "input_sha256": "fe5327a573ee46c480341a9a8115fc4a2400801d3db32bee34c14763017c791c",
+  "cpu": "4",
+  "requested_threads": 1,
+  "wall_limit_s": 21600,
+  "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/Recovery_injected",
+  "state": "completed",
+  "controller_pid": 2824190,
+  "solver_pid": 2824976,
+  "evaporation_time_h": 0.16666666666666666,
+  "salt_solid_mol": 0.003865451030349248,
+  "C_max_mol_L": 5.328960472029123,
+  "S_min": 0.5507488837050813,
+  "updated_utc": "2026-11-03T16:48:32.065465+00:00",
+  "scratch_free_GiB": 225.54608535766602,
+  "returncode": 0,
+  "end_utc": "2026-11-03T16:48:32.065740+00:00",
+  "acceptance": {
+    "status": "passed",
+    "relative_budget_residuals": {
+      "water_residual_mol": 2.1415657176970734e-15,
+      "salt_residual_mol": 2.178808047016189e-15,
+      "coarse_residual_mol": 6.293153560816082e-16,
+      "fine_residual_mol": 9.935005378081468e-16
+    },
+    "relative_energy_budget_residual": 1.727546660023857e-15,
+    "T_min_K": 293.15,
+    "T_max_K": 293.22265200066136,
+    "first_solid_mol": 0.0,
+    "final_solid_mol": 0.003865451030349248,
+    "final_dissolved_mol": 0.12352335521919298,
+    "max_molality_after_initial": 6.011884292870153,
+    "max_complementarity_after_initial": 1.7856559027485995e-15,
+    "completed_evaporation_h": 0.16666666666666666
+  }
+}
