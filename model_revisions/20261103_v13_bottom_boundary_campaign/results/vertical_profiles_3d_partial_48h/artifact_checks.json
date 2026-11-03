@@ -1,0 +1,26 @@
+{
+  "state": "passed_partial_preview",
+  "pdf": "RH0_3D_PARTIAL_48H_COMPARISON.pdf",
+  "pdf_sha256": "42e604c8f8f28e3fe2a304b5c144e144f1f41d17b2a9fb7990b4c73a1f4df1fd",
+  "pdf_pages": 3,
+  "visual_review": {
+    "reviewed_pages": [1, 2, 3],
+    "status": "passed",
+    "checks": [
+      "titles and legends do not overlap",
+      "all profile panels share 0–5.5 mol/L and 0–40 mm axes",
+      "B/MRI comparisons use only common 0, 24 and 48 h saved states",
+      "12 and 16 h G panels explicitly state that archived MRI is unavailable",
+      "G3 pending-resource state is explicit",
+      "color is redundant with line style and markers"
+    ]
+  },
+  "numerical_review": {
+    "B_snapshot_through_evaporation_h": 48.0,
+    "G_snapshot_through_evaporation_h": 16.0,
+    "max_field_ledger_relative_error": 8.38923169311646e-15,
+    "interpolation_or_extrapolation": false,
+    "smoothing": false
+  },
+  "scientific_status": "read-only partial production preview; not final acceptance or validation"
+}

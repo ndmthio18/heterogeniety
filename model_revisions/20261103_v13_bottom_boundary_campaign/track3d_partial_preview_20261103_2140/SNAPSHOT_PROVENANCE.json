@@ -1,0 +1,141 @@
+{
+  "created_utc": "2026-11-03T21:43:07.729248+00:00",
+  "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02",
+  "selected_evaporation_h": {
+    "B0": [
+      0.0,
+      24.0,
+      48.0
+    ],
+    "B1": [
+      0.0,
+      24.0,
+      48.0
+    ],
+    "B2": [
+      0.0,
+      24.0,
+      48.0
+    ],
+    "B3": [
+      0.0,
+      24.0,
+      48.0
+    ],
+    "G1": [
+      0.0,
+      12.0,
+      16.0
+    ],
+    "G2": [
+      0.0,
+      12.0,
+      16.0
+    ]
+  },
+  "cases": {
+    "B0": [
+      {
+        "time_h": 0.0,
+        "file": "B0-00012.vtu.gz",
+        "sha256": "128813950c3072ea64d5b95812a612a8498e24a413ab891acd9de60c4bfe59a9"
+      },
+      {
+        "time_h": 24.0,
+        "file": "B0-00156.vtu.gz",
+        "sha256": "18eea3654dee8c1f9322b54ae381ae5dee2e4746c9a4b01de8dac3e5176e2d73"
+      },
+      {
+        "time_h": 48.0,
+        "file": "B0-00300.vtu.gz",
+        "sha256": "01e2c81d2849ba588d942799840eda43021c075dcf20cdbaf5941bb13809accd"
+      }
+    ],
+    "B1": [
+      {
+        "time_h": 0.0,
+        "file": "B1-00012.vtu.gz",
+        "sha256": "126ad3015a7b84ea45fea5435e2042aaf4618654f067889d8bd6f8a7cf8fe0a2"
+      },
+      {
+        "time_h": 24.0,
+        "file": "B1-00156.vtu.gz",
+        "sha256": "3d25906bad348efbe730f66c12ec093f99179780a5c7788c9bcfdff4b3e72623"
+      },
+      {
+        "time_h": 48.0,
+        "file": "B1-00300.vtu.gz",
+        "sha256": "f1264717debbdadc272c75874bc323ebabc4af12186f4475fdf0a15e91147e2a"
+      }
+    ],
+    "B2": [
+      {
+        "time_h": 0.0,
+        "file": "B2-00012.vtu.gz",
+        "sha256": "f0ffaef1992c404d795c413934e37ee41fa179e2d336b6feaeb3417fd9a6f01e"
+      },
+      {
+        "time_h": 24.0,
+        "file": "B2-00156.vtu.gz",
+        "sha256": "9bc412cf5a269ae76c7513b66e51354d6c6c2fe807333fc67802ac9c0c8c240f"
+      },
+      {
+        "time_h": 48.0,
+        "file": "B2-00300.vtu.gz",
+        "sha256": "2d0ddff771aff1e4ad8c3c6384ed655b1c4728acc07d57e667dbb2c9dd3955af"
+      }
+    ],
+    "B3": [
+      {
+        "time_h": 0.0,
+        "file": "B3-00012.vtu.gz",
+        "sha256": "e775f9ce9f5cef40696ccd2bbf0517f8d7183cc6500601596e03017cd4b27ed5"
+      },
+      {
+        "time_h": 24.0,
+        "file": "B3-00156.vtu.gz",
+        "sha256": "5d653204eac778d498560ad534e6afc9798cd12643f2171a4944a68acfad97b6"
+      },
+      {
+        "time_h": 48.0,
+        "file": "B3-00300.vtu.gz",
+        "sha256": "44de063b89a0181e8456e75f7d42ccbb2f2cb2f5c359710cbb109c1a5b930a23"
+      }
+    ],
+    "G1": [
+      {
+        "time_h": 0.0,
+        "file": "G1-00012.vtu.gz",
+        "sha256": "76cd303f68ab5d7d08f3e21d6620cdf1a49e2d431ecce9c3ccd25d6277009f73"
+      },
+      {
+        "time_h": 12.0,
+        "file": "G1-00084.vtu.gz",
+        "sha256": "7540bd936cb57fa3d6de0d4595440aebfe93946a5b10cde765482005309c2f2c"
+      },
+      {
+        "time_h": 16.0,
+        "file": "G1-00108.vtu.gz",
+        "sha256": "e18fa50f2cb5f96f85a23ed85bfae092d923a9e9be33e9c093b1fa4047f12462"
+      }
+    ],
+    "G2": [
+      {
+        "time_h": 0.0,
+        "file": "G2-00012.vtu.gz",
+        "sha256": "937fca00ddeb769fdc1b43c5e5f7cb16765cb48358015121b35e3e79f2dd8851"
+      },
+      {
+        "time_h": 12.0,
+        "file": "G2-00084.vtu.gz",
+        "sha256": "6f10040fc0b48e8507563a19788fcdd4a63c740456a3f5dc47d34e2c57986e40"
+      },
+      {
+        "time_h": 16.0,
+        "file": "G2-00108.vtu.gz",
+        "sha256": "f556d1df81489dc7607ffccdc753f638fa65dcee72bec04150500b0eea7bfb56"
+      }
+    ]
+  },
+  "scientific_status": "read-only partial 3D preview; production continues; G3 not started"
+}

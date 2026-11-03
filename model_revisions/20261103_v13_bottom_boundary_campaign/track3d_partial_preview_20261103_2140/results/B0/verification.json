@@ -1,0 +1,24 @@
+{
+  "state": "passed",
+  "through_evaporation_h": 48.0,
+  "frames": 3,
+  "max_salt_field_ledger_relative_error": 6.3395544411139026e-15,
+  "source_hashes": [
+    {
+      "file": "B0-00012.vtu.gz",
+      "sha256": "128813950c3072ea64d5b95812a612a8498e24a413ab891acd9de60c4bfe59a9",
+      "time_h": 0.0
+    },
+    {
+      "file": "B0-00156.vtu.gz",
+      "sha256": "18eea3654dee8c1f9322b54ae381ae5dee2e4746c9a4b01de8dac3e5176e2d73",
+      "time_h": 24.0
+    },
+    {
+      "file": "B0-00300.vtu.gz",
+      "sha256": "01e2c81d2849ba588d942799840eda43021c075dcf20cdbaf5941bb13809accd",
+      "time_h": 48.0
+    }
+  ],
+  "interpretation": "native depth-wide diagnostic; geometry must be read from case metadata; no absolute 2D\u20133D or morphology/onset validation"
+}

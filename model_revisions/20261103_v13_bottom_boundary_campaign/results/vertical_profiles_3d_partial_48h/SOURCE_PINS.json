@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-11-03T21:45:51.923469+00:00",
+  "source_sha256": {
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\plot_3d_partial_preview.py": "e30d465ae00009d0505271c4b2020542c1bba766a9d9fa118a208af7f654fb3c",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\baseline_reference\\MRI_profile_pairs_unchanged.csv": "62804ae5ab27b71cce2b2fa57ace68afaa1efe6ebee9a82a4676e141d081b7ed",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\results\\vertical_profiles_2d_G_partial_102h\\RH0_2D_G_PARTIAL_102H_COMPARISON.pdf": "2b492d38f4efdc60b3b17575c7e39675f0a419e53821a1f1e855a6406eea305b",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\SNAPSHOT_PROVENANCE.json": "25803cc05af0924a7ec6e8c6342ffd93808ae4fed0f714f0b696f9ceb78e3146",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\B0\\profiles_history.csv": "21d3d90f215fb6d5134fc899bf3aeeda9970fdbbd9b20f38c7c35f38804f5708",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\B0\\verification.json": "78d30ddca6fff4cd75a2cbf2d1048710d7c03e554371ff103c654a0dd520a4c9",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\B1\\profiles_history.csv": "01dbbd0b0d9c415a3ebf0aac456d6503e8ee7e00bad99161352992b1e6921135",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\B1\\verification.json": "c6d1333593e1723e2b425ec6b11886e3c2c3c73c450a038ca090cf5557c462f8",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\B2\\profiles_history.csv": "f807e5bada82d9e7880f20ce4edf22f693b8ac2086cfd6506579bb1f7c31e48b",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\B2\\verification.json": "1e7c68bad0b4cf1ce4e26b50cfa67001543cb92ac645c95a815b0089f0287889",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\B3\\profiles_history.csv": "4cb63e4605b0321383b47a76305ea560b4bce522e55745e43d1598ed3933d0fc",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\B3\\verification.json": "e538e6232264fddff10d78a0677f716090e2e8bf6662ded245ca1a935f403eb6",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\G1\\profiles_history.csv": "77d99a02c0bede3547e884af8053d492da28ea7b4955226eddf8fb733f3ba100",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\G1\\verification.json": "72462fd47a6223a00c27c810d5d03058926473e7d370b6199b0f020b1429d250",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\G2\\profiles_history.csv": "141d1978afa7245747b3b96f32dc89a67fe5d26db0cd2bbfa9e731409c39210e",
+    "model_revisions\\20261103_v13_bottom_boundary_campaign\\track3d_partial_preview_20261103_2140\\results\\G2\\verification.json": "c520999c8b5a203bd4816d6dbbdca8c30ee20c3a705c83f0c6d42422126dd15e"
+  },
+  "B_times_h": [
+    0,
+    24,
+    48
+  ],
+  "G_times_h": [
+    0,
+    12,
+    16
+  ],
+  "missing_data": "G3 pending; no MRI at12/16h; no values interpolated or extrapolated",
+  "model_sampling": "actual closed compressed saved states only",
+  "pages": [
+    "B_vs_MRI",
+    "B_error_summary",
+    "G_early_preview"
+  ],
+  "scientific_status": "partial production preview; not final acceptance or validation"
+}
