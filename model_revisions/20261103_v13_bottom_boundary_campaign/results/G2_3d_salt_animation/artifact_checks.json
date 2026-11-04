@@ -23,18 +23,18 @@
     "transparent_threshold_context": true
   },
   "mp4": {
-    "resolution": [1920, 1080],
+    "resolution": [3840, 2160],
     "fps": 8.0,
     "encoded_frames": 112,
     "duration_s": 14.0,
     "codec": "h264",
-    "sha256": "57419b2e544f84ac9bf21d6a5dbb14586ca16344f4265e68dbc58d46feed067e"
+    "sha256": "0497a9dfb6a897713ba1338082a9af9720f08d248911ccc2d94d43e9f89f4670"
   },
   "gif": {
-    "resolution": [800, 450],
+    "resolution": [1600, 900],
     "physical_frames": 88,
     "frame_duration_ms": 160,
-    "sha256": "fb0ff55893fe57d7e7556b489f43b3bcc07cdc188587b6f45dc7aa27f7f8f8cf"
+    "sha256": "79134841ec9ad9d578be768f34c8cc94dcae6d5f2c6ac2cbdc2435818a338ef1"
   },
   "automated_preflight": {
     "pass": 11,
@@ -45,6 +45,9 @@
     "passed": true,
     "source_frames_checked_h": [0, 24, 60, 72, 108, 174],
     "decoded_mp4_positions_checked": ["start", "midpoint", "end"],
+    "colorbar_overlap": false,
+    "dedicated_legend_gutters": true,
+    "native_4k_render": true,
     "reviewer": "Codex"
   },
   "scientific_status": "model visualization; not independent physical validation or experimental onset evidence"

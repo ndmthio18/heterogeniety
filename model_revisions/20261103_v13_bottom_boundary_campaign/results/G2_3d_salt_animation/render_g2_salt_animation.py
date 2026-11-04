@@ -46,7 +46,7 @@ CLIM = (1.0, 5.5)
 F36_ANOMALY_CLIM = (-0.15, 0.15)
 F36_SLICE_Y_M = 0.0125
 KEY_TIMES_H = (0, 24, 60, 108, 174)
-WINDOW_SIZE = (1920, 1080)
+WINDOW_SIZE = (3840, 2160)
 FPS = 8
 SALT_CMAP = ListedColormap(mpl.colormaps["viridis"](np.linspace(0.30, 1.0, 256)))
 ANOMALY_CMAP = ListedColormap(mpl.colormaps["RdBu_r"](np.linspace(0.0, 1.0, 256)))
@@ -157,39 +157,39 @@ def add_direct_labels(plotter: pv.Plotter, time_h: float, detail: bool = False) 
     if detail:
         plotter.add_text(
             f"F36 lateral instability · {time_h:03.0f} h",
-            position=(0.025, 0.940), viewport=True, font_size=17, color="white",
+            position=(0.025, 0.940), viewport=True, font_size=34, color="white",
             font="arial", shadow=False,
         )
         plotter.add_text(
             "Horizontal slice y ≈ 12.5 mm · Δc from same-radius mean",
-            position=(0.025, 0.895), viewport=True, font_size=10, color="#E2E8F0",
+            position=(0.025, 0.895), viewport=True, font_size=20, color="#E2E8F0",
             font="arial", shadow=False,
         )
         plotter.add_text(
             "Blue: below ring mean · red: above ring mean · fixed ±0.15 mol L⁻¹",
-            position=(0.025, 0.035), viewport=True, font_size=9, color="#CBD5E1",
+            position=(0.025, 0.035), viewport=True, font_size=18, color="#CBD5E1",
             font="arial", shadow=False,
         )
         return
 
     plotter.add_text(
         f"G2 full domain · dissolved NaCl · {time_h:03.0f} h",
-        position=(0.025, 0.940), viewport=True, font_size=17, color="white",
+        position=(0.025, 0.940), viewport=True, font_size=34, color="white",
         font="arial", shadow=False,
     )
     plotter.add_text(
         "F36 coarse (x < 25 mm)     |     W3 fine (x ≥ 25 mm)",
-        position=(0.025, 0.895), viewport=True, font_size=10, color="#E2E8F0",
+        position=(0.025, 0.895), viewport=True, font_size=20, color="#E2E8F0",
         font="arial", shadow=False,
     )
     plotter.add_text(
         "Ø50 × 40 mm specimen · 4.5 mm filter · Ø5 mm supply port · front half clipped",
-        position=(0.025, 0.035), viewport=True, font_size=9, color="#CBD5E1",
+        position=(0.025, 0.035), viewport=True, font_size=18, color="#CBD5E1",
         font="arial", shadow=False,
     )
     plotter.add_text(
         "Cyan wireframe: cells containing equilibrium solid inventory (location only)",
-        position=(0.025, 0.070), viewport=True, font_size=8, color="#5EEAD4",
+        position=(0.025, 0.070), viewport=True, font_size=16, color="#5EEAD4",
         font="arial", shadow=False,
     )
 
@@ -207,13 +207,13 @@ def add_concentration_panel(
     scalar_bar_args = {
         "title": scalar_title,
         "color": "white",
-        "title_font_size": 12,
-        "label_font_size": 10,
+        "title_font_size": 24,
+        "label_font_size": 20,
         "font_family": "arial",
         "vertical": True,
-        "position_x": 0.875,
+        "position_x": 0.925,
         "position_y": 0.20,
-        "width": 0.075,
+        "width": 0.030,
         "height": 0.58,
         "n_labels": 6,
         "fmt": "%.1f",
@@ -297,13 +297,13 @@ def add_f36_horizontal_slice(
         scalar_bar_args={
             "title": "Δc (mol L⁻¹)",
             "color": "white",
-            "title_font_size": 12,
-            "label_font_size": 10,
+            "title_font_size": 24,
+            "label_font_size": 20,
             "font_family": "arial",
             "vertical": True,
-            "position_x": 0.875,
+            "position_x": 0.925,
             "position_y": 0.20,
-            "width": 0.075,
+            "width": 0.030,
             "height": 0.58,
             "n_labels": 6,
             "fmt": "%.2f",
@@ -359,7 +359,9 @@ def render_frame(
         (0.025, 0.0175, -0.003),
         (0.0, 1.0, 0.0),
     ]
-    plotter.camera.zoom(1.08)
+    # Leave a dedicated right-hand legend gutter; the scalar bar no longer
+    # overlays the specimen.
+    plotter.camera.zoom(0.88)
     plotter.render()
     main_image = plotter.screenshot(transparent_background=False, return_img=True)
     plotter.close()
@@ -383,7 +385,8 @@ def render_frame(
         (0.0, 0.0, 1.0),
     ]
     plotter.enable_parallel_projection()
-    plotter.camera.zoom(1.35)
+    # Leave the same independent legend gutter in the F36 detail panel.
+    plotter.camera.zoom(1.08)
     plotter.render()
     detail_image = plotter.screenshot(transparent_background=False, return_img=True)
     plotter.close()
@@ -429,7 +432,7 @@ def encode_movies(frame_paths: list[pathlib.Path], output_dir: pathlib.Path) -> 
     try:
         for path in frame_paths:
             with Image.open(path) as image:
-                preview = image.resize((800, 450), Image.Resampling.LANCZOS).convert("RGB")
+                preview = image.resize((1600, 900), Image.Resampling.LANCZOS).convert("RGB")
                 gif_writer.append_data(np.asarray(preview))
     finally:
         gif_writer.close()

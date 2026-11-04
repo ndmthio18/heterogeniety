@@ -4,7 +4,7 @@ Core conclusion: The accepted G2 simulation predicts how dissolved NaCl redistri
 
 Figure archetype: image plate + quantitative spatial field.
 
-Target output: 16:9 scientific animation for screen presentation, plus high-resolution key frames and a machine-readable source manifest.
+Target output: native 4K UHD (3840 x 2160 px), 16:9 scientific animation for screen presentation, a 1600 x 900 px preview GIF, high-resolution key frames, and a machine-readable source manifest. Both color bars occupy dedicated legend gutters outside the specimen and instability data regions.
 
 Backend: Python (PyVista/VTK for all rendering; imageio-ffmpeg for encoding).
 

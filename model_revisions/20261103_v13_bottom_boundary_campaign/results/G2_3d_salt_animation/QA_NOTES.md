@@ -20,15 +20,17 @@
 
 ## Encoded artifacts
 
-- MP4: H.264/yuv420p, 1920 × 1080 px, 8 fps, 112 encoded frames, 14.0 s. The 88 physical frames are unchanged; the additional frames are endpoint holds.
-- GIF preview: 800 × 450 px, 88 physical frames, 160 ms per frame, infinite loop.
-- MP4 SHA256: `57419b2e544f84ac9bf21d6a5dbb14586ca16344f4265e68dbc58d46feed067e`.
-- GIF SHA256: `fb0ff55893fe57d7e7556b489f43b3bcc07cdc188587b6f45dc7aa27f7f8f8cf`.
+- MP4: H.264/yuv420p, 3840 × 2160 px, 8 fps, 112 encoded frames, 14.0 s. The 88 physical frames are unchanged; the additional frames are endpoint holds.
+- GIF preview: 1600 × 900 px, 88 physical frames, 160 ms per frame, infinite loop.
+- MP4 SHA256: `0497a9dfb6a897713ba1338082a9af9720f08d248911ccc2d94d43e9f89f4670`.
+- GIF SHA256: `79134841ec9ad9d578be768f34c8cc94dcae6d5f2c6ac2cbdc2435818a338ef1`.
+- The 4K sequence was rendered directly from the verified native mesh fields; it is not an enlargement of the earlier 1920 × 1080 video.
 
 ## Visual inspection
 
 - Inspected source renders at 0, 24, 60, 72, 108, and 174 h.
 - Inspected decoded MP4 frames at start, midpoint (96 h), and end; no blank frames, clipping defects, title overlap, or color-bar drift were found.
+- Both color bars were moved into dedicated dark-background legend gutters. Visual inspection of the 0, 96, and 174 h decoded frames and the five-frame contact sheet confirmed that neither bar overlaps the specimen, supply-port geometry, or F36 instability field.
 - The 0 h uniform 1 mol L-1 field and the later low-concentration F36 side remain visible in the exact central section after switching to a brighter truncated sequential color map.
 - The F36 panel clearly resolves the red/blue lateral symmetry breaking at 24, 60, 108, and 174 h. The diagnostic is ring-mean relative and therefore cannot be read as absolute concentration.
 - The 72 h frame shows the first cyan solid-inventory location in the 2 h sampling. This is a saved model equilibrium event, not an experimental nucleation time.

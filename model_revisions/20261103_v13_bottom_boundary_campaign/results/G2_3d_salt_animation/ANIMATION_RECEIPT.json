@@ -101,8 +101,8 @@
     0.15
   ],
   "window_size_px": [
-    1920,
-    1080
+    3840,
+    2160
   ],
   "fps": 8,
   "solid_overlay": true,
@@ -113,33 +113,33 @@
   "artifacts": [
     {
       "name": "G2_3D_DISSOLVED_NACL_0_174H.mp4",
-      "bytes": 3692330,
-      "sha256": "57419b2e544f84ac9bf21d6a5dbb14586ca16344f4265e68dbc58d46feed067e"
+      "bytes": 8232360,
+      "sha256": "0497a9dfb6a897713ba1338082a9af9720f08d248911ccc2d94d43e9f89f4670"
     },
     {
       "name": "G2_3D_DISSOLVED_NACL_0_174H_preview.gif",
-      "bytes": 6118435,
-      "sha256": "fb0ff55893fe57d7e7556b489f43b3bcc07cdc188587b6f45dc7aa27f7f8f8cf"
+      "bytes": 18896036,
+      "sha256": "79134841ec9ad9d578be768f34c8cc94dcae6d5f2c6ac2cbdc2435818a338ef1"
     },
     {
       "name": "G2_3D_DISSOLVED_NACL_FRAME_METRICS.csv",
       "bytes": 24451,
-      "sha256": "39c199ed018175b85570f6d068e6762188b608b98b292268d72aa0571ae211a3"
+      "sha256": "6b3c18c0eedf4e534fc8aea1d45303dfb07f3d7e1125086d105add62994c178b"
     },
     {
       "name": "G2_3D_DISSOLVED_NACL_KEYFRAMES.pdf",
-      "bytes": 138401,
-      "sha256": "97b0205f535ebb29538947528608520827ed287af2be94e5eab151f2ba71d82a"
+      "bytes": 127234,
+      "sha256": "28d5ffab6981424d060c855e5bdf88e0e5874ea3d03b48790126c61218f19031"
     },
     {
       "name": "G2_3D_DISSOLVED_NACL_KEYFRAMES.png",
-      "bytes": 471346,
-      "sha256": "566795cc195e5f4220ef4210c2deda6e374e32e00a10ad68fa08b0007064a668"
+      "bytes": 423640,
+      "sha256": "7168923d4a61568a50e5b2535d921bba3b9e4a90d9fa682034f379dc43836e58"
     },
     {
       "name": "G2_3D_DISSOLVED_NACL_KEYFRAMES.svg",
-      "bytes": 169795,
-      "sha256": "90e222570d18174971325f1a85ef98d206f725b27f33e0bb0ded52ee10ad55ad"
+      "bytes": 154491,
+      "sha256": "fda65b63ce1dba677069e5421fbcb35392eb59279333e12e6c536d8716eb4347"
     }
   ]
 }
