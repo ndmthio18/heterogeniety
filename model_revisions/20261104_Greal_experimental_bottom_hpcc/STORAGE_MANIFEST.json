@@ -1,0 +1,23 @@
+{
+  "state": "production_running_capacity_passed",
+  "authoritative_remote_root": "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104",
+  "local_policy": "lightweight source, inputs, scalar histories, selected fields and verified final archive only; no repeated raw VTU copies",
+  "deployed_solver_sha256": "03ce05a89732a7057c96f3becfb96f6017a87479a9dfa08d1553124857c87f5c",
+  "deployed_boundary_sha256": "3eb99fd12df8d54ff98dcefa57fba2f5b8ad11a8bd929c4c2bbf76d7c55c3748",
+  "mesh_6layers_sha256": "4a47ac0b67c6bca83b7d1241558346a66d7eb830642b923ee9005f554de86395",
+  "mesh_12layers_sha256": "daf5fc5c7012e7f1bb3c43455176d789a99a3dc46b1fdabfc4edb02e29916c8d",
+  "port_map_sha256": "d30db051344d4d900820a9834c71425a2910a1111f1b7f6aa0c9a32648bd4d15",
+  "measured_vtu_frame_bytes": 15150762,
+  "hourly_frames_per_job_estimate": 178,
+  "concurrent_jobs": 2,
+  "projected_total_GiB_including_750MiB_compact_per_job": 6.4884765625,
+  "free_before_GiB": 5088558.839870453,
+  "reserve_GiB": 30,
+  "capacity_state": "pass",
+  "production_jobs": {
+    "Greal-75": "16293418",
+    "Greal-81": "16293419"
+  },
+  "final_archive": null,
+  "final_archive_sha256": null
+}

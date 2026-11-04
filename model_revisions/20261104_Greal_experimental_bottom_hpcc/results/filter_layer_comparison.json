@@ -1,0 +1,88 @@
+{
+  "state": "passed",
+  "interpretation": "completed finite vertical-resolution screen; not a radial refinement",
+  "metrics": {
+    "film_budget.csv": {
+      "cumulative_reservoir_loss_g": {
+        "six_layers": 0.06435570496741863,
+        "twelve_layers": 0.06435584024209724,
+        "absolute_difference": 1.3527467861151887e-07,
+        "relative_difference": 2.1019842557859383e-06
+      },
+      "cumulative_top_water_g": {
+        "six_layers": 0.059548306875475486,
+        "twelve_layers": 0.0595482992284756,
+        "absolute_difference": -7.646999887478412e-09,
+        "relative_difference": 1.2841674748988994e-07
+      },
+      "sample_water_g": {
+        "six_layers": 32.186575896886474,
+        "twelve_layers": 32.18657603219429,
+        "absolute_difference": 1.3530781473036768e-07,
+        "relative_difference": 4.203858626150305e-09
+      }
+    },
+    "budget.csv": {
+      "water_mol": {
+        "six_layers": 1.7866363753726844,
+        "twelve_layers": 1.7866363828834513,
+        "absolute_difference": 7.510766897311782e-09,
+        "relative_difference": 4.203858715092527e-09
+      },
+      "salt_total_mol": {
+        "six_layers": 0.03294679845218555,
+        "twelve_layers": 0.032946798582620875,
+        "absolute_difference": 1.3043532226530985e-10,
+        "relative_difference": 3.958968045244388e-09
+      },
+      "coarse_salt_mol": {
+        "six_layers": 0.01725744403071857,
+        "twelve_layers": 0.017257444098990566,
+        "absolute_difference": 6.827199569570119e-11,
+        "relative_difference": 3.956089648859691e-09
+      },
+      "fine_salt_mol": {
+        "six_layers": 0.0156893544214669,
+        "twelve_layers": 0.015689354483630298,
+        "absolute_difference": 6.216339942799465e-11,
+        "relative_difference": 3.962138769899915e-09
+      },
+      "C_max_mol_L": {
+        "six_layers": 1.1126542296562123,
+        "twelve_layers": 1.1126542132787445,
+        "absolute_difference": -1.6377467826345082e-08,
+        "relative_difference": 1.4719278810817435e-08
+      },
+      "S_min": {
+        "six_layers": 0.9997744594446605,
+        "twelve_layers": 0.9997744639270596,
+        "absolute_difference": 4.482399118543867e-09,
+        "relative_difference": 4.483410309394863e-09
+      }
+    },
+    "thermal_budget.csv": {
+      "energy_J": {
+        "six_layers": 36698.62673417316,
+        "twelve_layers": 36698.62127205141,
+        "absolute_difference": -0.005462121749587823,
+        "relative_difference": 1.4883722459569814e-07
+      },
+      "T_min_K": {
+        "six_layers": 291.88135327440415,
+        "twelve_layers": 291.8813494624777,
+        "absolute_difference": -3.81192643317263e-06,
+        "relative_difference": 1.3059849114749557e-08
+      },
+      "T_max_K": {
+        "six_layers": 293.08646651792645,
+        "twelve_layers": 293.08667671507266,
+        "absolute_difference": 0.00021019714620251762,
+        "relative_difference": 7.171847567709546e-07
+      }
+    }
+  },
+  "profile_max_absolute_difference_M": 3.546365290318931e-08,
+  "max_reported_relative_difference": 2.1019842557859383e-06,
+  "vertical_convergence_screen": true,
+  "radial_convergence_demonstrated": false
+}

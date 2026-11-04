@@ -1,0 +1,15 @@
+{
+  "water_relative": 5.829022790146564e-14,
+  "salt_relative": 2.940152582773764e-14,
+  "coarse_relative": 1.2677530390544923e-13,
+  "fine_relative": 8.178205021376462e-14,
+  "energy_relative": 1.6373879048131916e-10,
+  "temperature_min_K": 291.88135327440415,
+  "temperature_max_K": 293.15,
+  "max_complementarity_relative": 1.095603547281281e-30,
+  "min_solid_vf": -1.0351293654014962e-32,
+  "vtu_count": 4,
+  "total_bytes": 83931322,
+  "film_faces_bytes": 608431,
+  "state": "passed"
+}

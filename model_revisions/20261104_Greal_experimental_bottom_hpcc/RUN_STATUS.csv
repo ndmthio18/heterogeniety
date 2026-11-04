@@ -1,0 +1,9 @@
+case,stage,state,accepted_time_s,host,threads,note
+geometry,gate_A,passed,0,local,1,exact port area and six-layer filter topology
+boundary,gate_B,passed,0,Slurm-cntest,1,job 16293218 completed exit 0
+short_sparse,gate_C,passed,7800,Slurm-cnmix,1,job 16293235 completed and validated
+filter_z12,spatial_screen,passed,7800,Slurm-cnmix,1,job 16293236 vertical-only screen passed; radial convergence not demonstrated
+output_equivalence,gate_D,passed,7800,Slurm-cnmix,1,physics tables SHA-identical; detailed face file reduced 94.16 percent
+multicore,gate_E,passed,9600,Slurm-cnmix,8,jobs 16293333-16293336; 8 threads fastest but 27.3 percent efficiency
+Greal-75,production,running,0,Slurm-cnmix,8,job 16293418 actual RUNNING observed; 174 h not complete
+Greal-81,production,running,0,Slurm-cnmix,8,job 16293419 actual RUNNING observed; 174 h not complete

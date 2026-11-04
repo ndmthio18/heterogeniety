@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "mesh": "filter_12layers.msh",
+  "mesh_sha256": "daf5fc5c7012e7f1bb3c43455176d789a99a3dc46b1fdabfc4edb02e29916c8d",
+  "mesh_elements": 39936,
+  "filter_cells": 9216,
+  "filter_thickness_m": 0.0045,
+  "filter_layers": 12,
+  "filter_layer_thickness_m": 0.00037499999999999995,
+  "bottom_faces": 768,
+  "port_map": "Greal04_port_12layers.txt",
+  "port_map_sha256": "d30db051344d4d900820a9834c71425a2910a1111f1b7f6aa0c9a32648bd4d15",
+  "nominal_diameter_m": 0.004,
+  "centre_xz_m": [
+    0.025,
+    0.0
+  ],
+  "analytic_area_m2": 1.2566370614359173e-05,
+  "integrated_active_area_m2": 1.2566370614359165e-05,
+  "relative_area_error": 6.661338147750939e-16,
+  "active_faces": 64,
+  "cut_faces": 64,
+  "bottom_face_area_min_m2": 2.1271080800685728e-07,
+  "bottom_face_area_max_m2": 4.8923485841578156e-06,
+  "bottom_face_equivalent_diameter_max_m": 0.0024958228470744505,
+  "interpretation": "Exact integrated area on the frozen mesh; this does not establish local radial-pressure or through-filter spatial convergence. The layer count is recorded for controlled comparison."
+}

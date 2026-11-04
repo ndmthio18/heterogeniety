@@ -1,0 +1,3 @@
+case,film_thickness_m,port_diameter_m,filter_permeability_m2,pre_equilibration_h,evaporation_h,status,purpose
+Greal-75,0.0075,0.004,5.30e-12,2,174,gated,primary early-film candidate
+Greal-81,0.008100162249880822,0.004,5.30e-12,2,174,gated,controlled film comparison

@@ -1,0 +1,14 @@
+{
+  "state": "submitted",
+  "selected_threads": 8,
+  "jobs": {
+    "Greal-75": {
+      "job_id": "16293418",
+      "directory": "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-75"
+    },
+    "Greal-81": {
+      "job_id": "16293419",
+      "directory": "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-81"
+    }
+  }
+}

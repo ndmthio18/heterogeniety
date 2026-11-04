@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "mesh": "filter_6layers.msh",
+  "mesh_sha256": "4a47ac0b67c6bca83b7d1241558346a66d7eb830642b923ee9005f554de86395",
+  "mesh_elements": 35328,
+  "filter_cells": 4608,
+  "filter_thickness_m": 0.0045,
+  "filter_layers": 6,
+  "filter_layer_thickness_m": 0.0007499999999999999,
+  "bottom_faces": 768,
+  "port_map": "Greal04_port.txt",
+  "port_map_sha256": "d30db051344d4d900820a9834c71425a2910a1111f1b7f6aa0c9a32648bd4d15",
+  "nominal_diameter_m": 0.004,
+  "centre_xz_m": [
+    0.025,
+    0.0
+  ],
+  "analytic_area_m2": 1.2566370614359173e-05,
+  "integrated_active_area_m2": 1.2566370614359165e-05,
+  "relative_area_error": 6.661338147750939e-16,
+  "active_faces": 64,
+  "cut_faces": 64,
+  "bottom_face_area_min_m2": 2.1271080800685728e-07,
+  "bottom_face_area_max_m2": 4.8923485841578156e-06,
+  "bottom_face_equivalent_diameter_max_m": 0.0024958228470744505,
+  "interpretation": "Exact integrated area on the frozen mesh; this does not establish local radial-pressure or through-filter spatial convergence. Six 0.75 mm filter layers are inherited."
+}

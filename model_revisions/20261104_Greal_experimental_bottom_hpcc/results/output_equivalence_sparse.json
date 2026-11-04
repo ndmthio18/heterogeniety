@@ -1,0 +1,50 @@
+{
+  "state": "passed",
+  "physics_tables": {
+    "final_state.txt": {
+      "dense_sha256": "1bd1c8319bf35a5f80dec86d44a20a8c4d65fdf9ef4eef27f4aa08fef196de1f",
+      "sparse_sha256": "1bd1c8319bf35a5f80dec86d44a20a8c4d65fdf9ef4eef27f4aa08fef196de1f",
+      "identical": true
+    },
+    "budget.csv": {
+      "dense_sha256": "232232559a8fb545daa19cfb7dd3d2093cfffdbaf90cd1d26fbc1ee0e68fb6f1",
+      "sparse_sha256": "232232559a8fb545daa19cfb7dd3d2093cfffdbaf90cd1d26fbc1ee0e68fb6f1",
+      "identical": true
+    },
+    "film_budget.csv": {
+      "dense_sha256": "e0d438b4013a8bc226b8448e081269fa481f0ccd610672433721c7b1a33eef2a",
+      "sparse_sha256": "e0d438b4013a8bc226b8448e081269fa481f0ccd610672433721c7b1a33eef2a",
+      "identical": true
+    },
+    "thermal_budget.csv": {
+      "dense_sha256": "77f9adbb4130ac984eb40ed444c92530134e6f83862f9a74061a2d4ff457b993",
+      "sparse_sha256": "77f9adbb4130ac984eb40ed444c92530134e6f83862f9a74061a2d4ff457b993",
+      "identical": true
+    },
+    "mineral_budget.csv": {
+      "dense_sha256": "f7e80c861ec3527f2b6570db5d4bd404861ba6e4056c41ca7ad2c1d16ec3bc3f",
+      "sparse_sha256": "f7e80c861ec3527f2b6570db5d4bd404861ba6e4056c41ca7ad2c1d16ec3bc3f",
+      "identical": true
+    },
+    "material_budgets.csv": {
+      "dense_sha256": "8d49967e3145a252be8f8bafee34fc492464f703be5be59980c2a8b45e7469f3",
+      "sparse_sha256": "8d49967e3145a252be8f8bafee34fc492464f703be5be59980c2a8b45e7469f3",
+      "identical": true
+    },
+    "native_fluxes.csv": {
+      "dense_sha256": "d7822ebb7a99b445fb6164ada76859d0e0b59f7867376160ec3b52428dea20d4",
+      "sparse_sha256": "d7822ebb7a99b445fb6164ada76859d0e0b59f7867376160ec3b52428dea20d4",
+      "identical": true
+    },
+    "depth_profiles_compact.csv": {
+      "dense_sha256": "6a80e46dbfeff16a139920062b257decbc3168a15b5a06ec608bb0eb785f6a9d",
+      "sparse_sha256": "6a80e46dbfeff16a139920062b257decbc3168a15b5a06ec608bb0eb785f6a9d",
+      "identical": true
+    }
+  },
+  "dense_film_faces_bytes": 10424694,
+  "sparse_film_faces_bytes": 608431,
+  "dense_vtu_count": 4,
+  "sparse_vtu_count": 4,
+  "interpretation": "output-frequency equivalence only; not a time-step or grid convergence test"
+}

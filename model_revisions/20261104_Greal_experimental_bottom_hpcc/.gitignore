@@ -1,0 +1,13 @@
+deployment/
+**/__pycache__/
+*.pyc
+*.vtu
+*.pvd
+*.tar
+*.tar.gz
+provenance/orted_hpcc
+provenance/solver*
+provenance/test_boundary_hpcc*
+# Superseded login-node prototypes; formal execution uses Slurm scripts below.
+scripts/hpcc_benchmark.py
+scripts/hpcc_production.py

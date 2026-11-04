@@ -1,0 +1,103 @@
+{
+  "state": "passed",
+  "results": [
+    {
+      "threads": 1,
+      "job_id": "16293333",
+      "elapsed_s": 380.0,
+      "user_cpu_s": 335.65,
+      "system_cpu_s": 4.5,
+      "cpu_percent": 91.0,
+      "max_rss_kb": 340136,
+      "node_list": "ibc11b11n01",
+      "binary_sha256": "03ce05a89732a7057c96f3becfb96f6017a87479a9dfa08d1553124857c87f5c",
+      "timing": {
+        "newton_s": 348.05283283628523,
+        "audit_record_s": 0.6240154206752777,
+        "output_s": 1.588685531169176,
+        "step_s": 350.32641578651965
+      },
+      "state_comparison": {
+        "phase_identical": true,
+        "max_relative": 0.0,
+        "passed": true
+      },
+      "speedup": 1.0,
+      "parallel_efficiency": 1.0
+    },
+    {
+      "threads": 2,
+      "job_id": "16293334",
+      "elapsed_s": 297.0,
+      "user_cpu_s": 354.21,
+      "system_cpu_s": 5.47,
+      "cpu_percent": 123.0,
+      "max_rss_kb": 340576,
+      "node_list": "ibc11b11n01",
+      "binary_sha256": "03ce05a89732a7057c96f3becfb96f6017a87479a9dfa08d1553124857c87f5c",
+      "timing": {
+        "newton_s": 276.3154540490359,
+        "audit_record_s": 0.6435336284339428,
+        "output_s": 1.590085132047534,
+        "step_s": 278.58592673018575
+      },
+      "state_comparison": {
+        "phase_identical": true,
+        "max_relative": 0.0,
+        "passed": true
+      },
+      "speedup": 1.2794612794612794,
+      "parallel_efficiency": 0.6397306397306397
+    },
+    {
+      "threads": 4,
+      "job_id": "16293335",
+      "elapsed_s": 259.0,
+      "user_cpu_s": 349.76,
+      "system_cpu_s": 5.03,
+      "cpu_percent": 140.0,
+      "max_rss_kb": 350412,
+      "node_list": "ibc11b11n01",
+      "binary_sha256": "03ce05a89732a7057c96f3becfb96f6017a87479a9dfa08d1553124857c87f5c",
+      "timing": {
+        "newton_s": 239.55377032607794,
+        "audit_record_s": 0.538692019879818,
+        "output_s": 1.571306362748146,
+        "step_s": 241.7193569727242
+      },
+      "state_comparison": {
+        "phase_identical": true,
+        "max_relative": 0.0,
+        "passed": true
+      },
+      "speedup": 1.4671814671814671,
+      "parallel_efficiency": 0.3667953667953668
+    },
+    {
+      "threads": 8,
+      "job_id": "16293336",
+      "elapsed_s": 174.0,
+      "user_cpu_s": 298.91,
+      "system_cpu_s": 2.74,
+      "cpu_percent": 176.0,
+      "max_rss_kb": 352596,
+      "node_list": "ibc11b11n23",
+      "binary_sha256": "03ce05a89732a7057c96f3becfb96f6017a87479a9dfa08d1553124857c87f5c",
+      "timing": {
+        "newton_s": 164.60198323614895,
+        "audit_record_s": 0.3437487669289112,
+        "output_s": 1.3072406444698572,
+        "step_s": 166.2731968369335
+      },
+      "state_comparison": {
+        "phase_identical": true,
+        "max_relative": 0.0,
+        "passed": true
+      },
+      "speedup": 2.1839080459770117,
+      "parallel_efficiency": 0.27298850574712646
+    }
+  ],
+  "selected_threads": 8,
+  "selection_rule": "lowest Slurm elapsed time among state-equivalent one-task cases"
+}

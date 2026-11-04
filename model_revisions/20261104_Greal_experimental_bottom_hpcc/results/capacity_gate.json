@@ -1,0 +1,11 @@
+{
+  "state": "pass",
+  "path": "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104",
+  "frames_per_job": 178,
+  "jobs": 2,
+  "projected_output_GiB": 6.4884765625,
+  "free_before_GiB": 5088558.839870453,
+  "projected_free_after_GiB": 5088552.351393891,
+  "reserve_GiB": 30.0,
+  "warning_GiB": 50.0
+}
