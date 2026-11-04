@@ -792,12 +792,12 @@
           "state": "running",
           "controller_pid": 2959665,
           "solver_pid": 2959667,
-          "evaporation_time_h": 82.66666666666667,
-          "salt_solid_mol": 7.06263707840348e-05,
-          "C_max_mol_L": 5.3313078825477955,
-          "S_min": 0.9946751913897237,
-          "updated_utc": "2026-11-04T04:10:41.599335+00:00",
-          "scratch_free_GiB": 371.7894744873047
+          "evaporation_time_h": 104.75,
+          "salt_solid_mol": 0.0006602931586613076,
+          "C_max_mol_L": 5.331406968705513,
+          "S_min": 0.99467306752772,
+          "updated_utc": "2026-11-04T06:14:39.165478+00:00",
+          "scratch_free_GiB": 383.4423141479492
         },
         "B1_short_status": {
           "case": "B1_short",
@@ -996,7 +996,7 @@
         },
         "supervisor_status": {
           "state": "running",
-          "utc": "2026-11-04T04:10:45.493571+00:00",
+          "utc": "2026-11-04T06:14:49.362946+00:00",
           "supervisor_pid": 2824177,
           "host": "frodo",
           "cpu_pool": [
@@ -1369,12 +1369,12 @@
           "state": "running",
           "controller_pid": 2835149,
           "solver_pid": 2835152,
-          "evaporation_time_h": 132.5,
-          "salt_solid_mol": 0.0017490887643650049,
-          "C_max_mol_L": 5.331436870087903,
-          "S_min": 0.9945794988297424,
-          "updated_utc": "2026-11-04T04:10:36.622506+00:00",
-          "scratch_free_GiB": 371.7801971435547
+          "evaporation_time_h": 159.41666666666666,
+          "salt_solid_mol": 0.003100087124879371,
+          "C_max_mol_L": 5.331449104921483,
+          "S_min": 0.9946147290661558,
+          "updated_utc": "2026-11-04T06:14:42.684300+00:00",
+          "scratch_free_GiB": 383.44231033325195
         },
         "Dissolve_dt30_status": {
           "case": "Dissolve_dt30",
@@ -1544,12 +1544,12 @@
           "state": "running",
           "controller_pid": 2835148,
           "solver_pid": 2835153,
-          "evaporation_time_h": 132.25,
-          "salt_solid_mol": 0.0017383559948018067,
-          "C_max_mol_L": 5.331437486930385,
-          "S_min": 0.9945215059047349,
-          "updated_utc": "2026-11-04T04:10:40.345978+00:00",
-          "scratch_free_GiB": 371.79845428466797
+          "evaporation_time_h": 158.66666666666666,
+          "salt_solid_mol": 0.003093100722381257,
+          "C_max_mol_L": 5.331445708078854,
+          "S_min": 0.9946387707895212,
+          "updated_utc": "2026-11-04T06:14:47.292537+00:00",
+          "scratch_free_GiB": 383.4423065185547
         },
         "G2_hydro_status": {
           "case": "G2_hydro",
@@ -1641,12 +1641,12 @@
           "state": "running",
           "controller_pid": 2835151,
           "solver_pid": 2835156,
-          "evaporation_time_h": 126.5,
-          "salt_solid_mol": 0.002175062575938594,
-          "C_max_mol_L": 5.331468398759301,
-          "S_min": 0.9945097956044014,
-          "updated_utc": "2026-11-04T04:10:36.821569+00:00",
-          "scratch_free_GiB": 371.77503204345703
+          "evaporation_time_h": 153.58333333333334,
+          "salt_solid_mol": 0.004311594448218066,
+          "C_max_mol_L": 5.331469601450085,
+          "S_min": 0.9945005330702529,
+          "updated_utc": "2026-11-04T06:14:45.294630+00:00",
+          "scratch_free_GiB": 383.4423065185547
         },
         "B0_hydro_status": {
           "case": "B0_hydro",
@@ -1699,12 +1699,12 @@
           "state": "running",
           "controller_pid": 2835150,
           "solver_pid": 2835157,
-          "evaporation_time_h": 127.75,
-          "salt_solid_mol": 0.0014863835502698154,
-          "C_max_mol_L": 5.331443359056143,
-          "S_min": 0.9946023884362301,
-          "updated_utc": "2026-11-04T04:10:40.354363+00:00",
-          "scratch_free_GiB": 371.79845428466797
+          "evaporation_time_h": 157.25,
+          "salt_solid_mol": 0.0027854641371641,
+          "C_max_mol_L": 5.331444445794396,
+          "S_min": 0.9945901457829106,
+          "updated_utc": "2026-11-04T06:14:50.052638+00:00",
+          "scratch_free_GiB": 383.4511947631836
         },
         "B3_hydro_status": {
           "case": "B3_hydro",
@@ -1835,12 +1835,12 @@
           "state": "running",
           "controller_pid": 2959666,
           "solver_pid": 2959668,
-          "evaporation_time_h": 81.75,
-          "salt_solid_mol": 5.912132902114866e-05,
-          "C_max_mol_L": 5.331305308544913,
-          "S_min": 0.994675260685379,
-          "updated_utc": "2026-11-04T04:10:41.254669+00:00",
-          "scratch_free_GiB": 371.79822540283203
+          "evaporation_time_h": 104.33333333333333,
+          "salt_solid_mol": 0.0006447055729952306,
+          "C_max_mol_L": 5.331407399958283,
+          "S_min": 0.9946736518720092,
+          "updated_utc": "2026-11-04T06:14:50.460521+00:00",
+          "scratch_free_GiB": 383.4511947631836
         },
         "G2_short_status": {
           "case": "G2_short",
@@ -4983,8 +4983,8 @@
       }
     }
   },
-  "squeue": "19169|film080|RUNNING|21:33:24|8|localhost\n19168|film075|RUNNING|21:33:25|8|localhost\n",
-  "scratch_free_GiB": 74.58479309082031,
+  "squeue": "19169|film080|RUNNING|23:37:26|8|localhost\n19168|film075|RUNNING|23:37:27|8|localhost\n",
+  "scratch_free_GiB": 70.14579391479492,
   "frodo_supervisor": {
     "state": "completed_with_failures",
     "utc": "2026-11-03T16:09:55.946198+00:00",
@@ -5040,7 +5040,7 @@
     },
     "queued": []
   },
-  "frodo_scratch_GiB": 371.78325271606445,
+  "frodo_scratch_GiB": 383.43317794799805,
   "frodo_2d_g_supervisor": {
     "state": "completed_conditional",
     "utc": "2026-11-03T21:14:04.960923+00:00",
@@ -5067,7 +5067,7 @@
   },
   "frodo_3d_supervisor": {
     "state": "running",
-    "utc": "2026-11-04T04:10:45.493571+00:00",
+    "utc": "2026-11-04T06:14:49.362946+00:00",
     "supervisor_pid": 2824177,
     "host": "frodo",
     "cpu_pool": [
@@ -5156,5 +5156,5 @@
     ]
   },
   "active_3d_attempt": "Frodo track3d_r02",
-  "queried_utc": "2026-11-04T04:10:52.790013+00:00"
+  "queried_utc": "2026-11-04T06:14:54.175765+00:00"
 }

@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-11-04T04:21:52.9609956+00:00",
+  "created_utc": "2026-11-04T06:21:28.5242231+00:00",
   "scope": "Accepted 2D B; conditional 2D G1-G3 complete at 174 h with failed refined-grid gate retained; 3D production continues; no raw fields, binaries, transport archives or NPZ",
   "files": [
     {
@@ -1619,13 +1619,13 @@
     },
     {
       "path": "TRACK_RUN_STATUS.csv",
-      "bytes": 1054,
-      "sha256": "d49e2945224cae367551bc912d2d2bdc4edfe9ac850e5cbdd12cac6b6fd7f908"
+      "bytes": 1094,
+      "sha256": "7f699ca675e6010a2185b6a2fd171e4dd07b181d8087fd1da0d7a3d4740c03be"
     },
     {
       "path": "TRACK_STATUS.json",
-      "bytes": 296428,
-      "sha256": "36a90cdac17ff5a418a8c82b8ae6f2e761adc3e6f343cf991633fa3437f82414"
+      "bytes": 296459,
+      "sha256": "39379e5647526c8af3db1cfd33e84188db3c08ae6d6d32c5aa0c46f1c2849d44"
     },
     {
       "path": "track2d_g_conditional_r02/conditional_controller.py",
