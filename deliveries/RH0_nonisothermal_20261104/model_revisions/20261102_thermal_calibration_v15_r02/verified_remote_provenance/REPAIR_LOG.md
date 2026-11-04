@@ -1,1 +1,0 @@
-Initial staging stopped before any solver: four source files differed only by CRLF versus LF. Universal-newline text equality was verified for every file. Original staged source, status, empty build directory and traceback preserved in provenance/staging_attempt01. Copied exact frozen Frodo source bytes; no algorithm/physics change or relaxed hash check.

@@ -1,11 +1,3 @@
 __pycache__/
 *.pyc
 .DS_Store
-*.tar
-*.tar.gz
-*.vtu
-*.vtu.gz
-*.vtk
-*.pvd
-*.exe
-*.dll
