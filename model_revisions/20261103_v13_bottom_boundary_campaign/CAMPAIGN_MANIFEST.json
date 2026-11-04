@@ -1,6 +1,6 @@
 {
-  "created_utc": "2026-11-04T06:21:28.5242231+00:00",
-  "scope": "Accepted 2D B; conditional 2D G1-G3 complete at 174 h with failed refined-grid gate retained; 3D production continues; no raw fields, binaries, transport archives or NPZ",
+  "created_utc": "2026-11-04T08:24:42.9852882+00:00",
+  "scope": "Accepted 2D B; conditional 2D G complete; 3D B reached 174 h with B0-B2 replay-only cancellation repair in progress; 3D G production continues; no raw fields, binaries, transport archives or NPZ",
   "files": [
     {
       "path": "2D_3D_COMPARISON.md",
@@ -749,8 +749,8 @@
     },
     {
       "path": "REPAIR_LOG.md",
-      "bytes": 5034,
-      "sha256": "830a98e95e6d1406bd81e7c74e1880076ce827e2eef00e1ee7f06cc36ef1bf89"
+      "bytes": 6101,
+      "sha256": "6b86513525e3e2be2e9255486a57b821b651ace8393d2c42e4d9af1f3355fcf9"
     },
     {
       "path": "resource_dispatch.py",
@@ -1619,13 +1619,13 @@
     },
     {
       "path": "TRACK_RUN_STATUS.csv",
-      "bytes": 1094,
-      "sha256": "7f699ca675e6010a2185b6a2fd171e4dd07b181d8087fd1da0d7a3d4740c03be"
+      "bytes": 1644,
+      "sha256": "0fc4aa6e99aaa4175b63fb88f2d1ce484f5a5d1c0ab77b052865dd50fd602068"
     },
     {
       "path": "TRACK_STATUS.json",
-      "bytes": 296459,
-      "sha256": "39379e5647526c8af3db1cfd33e84188db3c08ae6d6d32c5aa0c46f1c2849d44"
+      "bytes": 303958,
+      "sha256": "67f106faf16fab385ae7725e0eddb0ba8ed1cc5127a9ba7f5637815d04f4f84e"
     },
     {
       "path": "track2d_g_conditional_r02/conditional_controller.py",
@@ -3024,8 +3024,8 @@
     },
     {
       "path": "track3d_r02/native_replay.py",
-      "bytes": 5710,
-      "sha256": "7aed3fdba9734c262d81636479c1e93002024b57f67ba005c855d827fed1fa6c"
+      "bytes": 6822,
+      "sha256": "4eb5b3ec83f118faccc3fc9da2bf1043d2bfcc45de2fee6e0ca2d4644f1e8da9"
     },
     {
       "path": "track3d_r02/provenance/20261103_164916_verified.json",
@@ -3196,6 +3196,11 @@
       "path": "track3d_r02/provenance/stage_receipt.json",
       "bytes": 219,
       "sha256": "96fe3761a63fb188cacee1e794f6aed36588d17dbaf54d1d5f51387448e42e91"
+    },
+    {
+      "path": "track3d_r02/repair_native_replay_energy_gate.py",
+      "bytes": 3698,
+      "sha256": "0ae1a0d1c4d6a1ac320cacf52c7c91c78fee901c1c0eeecbd85b116ca9c8542d"
     },
     {
       "path": "track3d_r02/runner.py",

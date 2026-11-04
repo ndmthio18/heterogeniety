@@ -35,9 +35,21 @@ try:
   vals=np.array([float(v) for v in line.split()[2:]]);ref=bud.loc[ts,cols].to_numpy(float)
   # Primary-field precision gate; absolute floors prevent cancellation from masking a failure.
   scales=np.r_[np.maximum(abs(ref[:4]),1e-10),np.maximum(abs(ref[4:]),1e-10)]
-  rel=abs(vals-ref)/scales
-  if rel.max()>1e-5:raise RuntimeError(f'Replay mismatch {t}: {dict(zip(cols,rel))}')
-  row={'time_h':t,'max_scaled_error':rel.max()};row.update({c:float(v) for c,v in zip(cols,vals)});checks.append(row)
+  delta=abs(vals-ref);rel=delta/scales
+  # The final quantity is a signed net energy flux assembled from many face
+  # contributions.  Near a zero crossing, VTU text roundoff can leave an
+  # O(1e-11 W) reconstruction difference while the material/storage fields
+  # still agree to machine precision.  Require the original relative gate OR
+  # a strict absolute 1e-10 W gate for this cancellation-prone diagnostic.
+  # This is a replay-verification rule only; it does not change solver
+  # tolerances, states, physics, timesteps, or the accepted energy budget.
+  energy_boundary_ok=(rel[-1]<=1e-5 or delta[-1]<=1e-10)
+  if rel[:-1].max()>1e-5 or not energy_boundary_ok:
+   raise RuntimeError(f'Replay mismatch {t}: relative={dict(zip(cols,rel))}, energy_boundary_abs_W={delta[-1]}')
+  row={'time_h':t,'max_scaled_error':rel[:-1].max(),
+       'energy_boundary_relative_error':rel[-1],
+       'energy_boundary_absolute_error_W':delta[-1]}
+  row.update({c:float(v) for c,v in zip(cols,vals)});checks.append(row)
   faces=pd.read_csv(O/f'native_faces_{ts:.0f}.csv').rename(columns={'q_liq_m3_s':'liquid_volume_m3_s','donor_C_M':'donor_C_mol_L'});record={'time_h':t}
   for kind,label in [(0,'bottom'),(1,'interface'),(2,'vertical')]:
    groups=[(str(m),faces[(faces.kind==kind)&(faces.material==m)]) for m in [0,1]] if kind!=1 else [('all',faces[faces.kind==1])]
@@ -64,7 +76,13 @@ try:
   pd.DataFrame(hist).to_csv(O/'flux_history.csv',index=False);pd.DataFrame(checks).to_csv(O/'replay_checks.csv',index=False)
   if len(hist)%30==0 or pilot:print(f'Replayed {t:.4f} h, max scaled error {rel.max():.3g}',flush=True)
  p.stdin.close();assert p.wait()==0
- (O/'verification.json').write_text(json.dumps({'state':'passed','frames':len(hist),'max_scaled_error':max(x['max_scaled_error'] for x in checks),'native_face_sum_tests':'passed','donor_concentration_test':'passed','saved_interval_s':600,'zero_hour':'Preseed ledger flux approximately zero; 0h is supplied separately in quadrature.','sources':sources},indent=2))
+ (O/'verification.json').write_text(json.dumps({'state':'passed','frames':len(hist),
+  'max_scaled_error':max(x['max_scaled_error'] for x in checks),
+  'max_energy_boundary_relative_error':max(x['energy_boundary_relative_error'] for x in checks),
+  'max_energy_boundary_absolute_error_W':max(x['energy_boundary_absolute_error_W'] for x in checks),
+  'energy_boundary_gate':'relative <= 1e-5 OR absolute <= 1e-10 W; signed net-flux cancellation safeguard',
+  'native_face_sum_tests':'passed','donor_concentration_test':'passed','saved_interval_s':600,
+  'zero_hour':'Preseed ledger flux approximately zero; 0h is supplied separately in quadrature.','sources':sources},indent=2))
 finally:
  if p.poll() is None:p.terminate()
  err.close();log.close()

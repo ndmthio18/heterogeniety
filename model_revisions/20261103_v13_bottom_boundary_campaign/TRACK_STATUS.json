@@ -13,14 +13,15 @@
           "affinity": "9"
         },
         "B2_production.json": {
-          "state": "running",
+          "state": "failed",
           "case": "B2",
           "stage": "production",
-          "utc": "2026-11-03T17:24:15.313852+00:00",
+          "utc": "2026-11-04T07:27:07.531411+00:00",
           "job": "frodo3d_r02_production_B2",
           "host": "frodo",
           "controller_pid": 2835150,
-          "affinity": "6"
+          "affinity": "6",
+          "error": "CalledProcessError(1, ['/temp/zhixin/heterogeneity_thermal_calibration_v15_20261102/venv/bin/python', '/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/native_replay.py', 'B2'])"
         },
         "B0_short.json": {
           "state": "passed",
@@ -253,14 +254,15 @@
           "native_pilot": "passed"
         },
         "B0_production.json": {
-          "state": "running",
+          "state": "failed",
           "case": "B0",
           "stage": "production",
-          "utc": "2026-11-03T17:24:15.313895+00:00",
+          "utc": "2026-11-04T07:33:39.249130+00:00",
           "job": "frodo3d_r02_production_B0",
           "host": "frodo",
           "controller_pid": 2835148,
-          "affinity": "4"
+          "affinity": "4",
+          "error": "CalledProcessError(1, ['/temp/zhixin/heterogeneity_thermal_calibration_v15_20261102/venv/bin/python', '/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/native_replay.py', 'B0'])"
         },
         "B1_short.json": {
           "state": "passed",
@@ -340,24 +342,44 @@
           }
         },
         "B1_production.json": {
-          "state": "running",
+          "state": "failed",
           "case": "B1",
           "stage": "production",
-          "utc": "2026-11-03T17:24:15.313811+00:00",
+          "utc": "2026-11-04T07:26:06.786989+00:00",
           "job": "frodo3d_r02_production_B1",
           "host": "frodo",
           "controller_pid": 2835149,
-          "affinity": "5"
+          "affinity": "5",
+          "error": "CalledProcessError(1, ['/temp/zhixin/heterogeneity_thermal_calibration_v15_20261102/venv/bin/python', '/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/native_replay.py', 'B1'])"
         },
         "B3_production.json": {
-          "state": "running",
+          "state": "completed",
           "case": "B3",
           "stage": "production",
-          "utc": "2026-11-03T17:24:15.313946+00:00",
+          "utc": "2026-11-04T08:10:14.866096+00:00",
           "job": "frodo3d_r02_production_B3",
           "host": "frodo",
           "controller_pid": 2835151,
-          "affinity": "7"
+          "affinity": "7",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 3.937881604946754e-14,
+              "salt_residual_mol": 8.721003441055027e-14,
+              "coarse_residual_mol": 3.973237936215583e-13,
+              "fine_residual_mol": 3.328238162358358e-13
+            },
+            "relative_energy_budget_residual": 1.8283853604748399e-10,
+            "T_min_K": 291.36749056614156,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.006188573015448607,
+            "final_dissolved_mol": 0.06545826257758941,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.835260920754121e-16,
+            "completed_evaporation_h": 174.0
+          },
+          "raw": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3"
         },
         "baseline_baseline.json": {
           "state": "passed",
@@ -739,6 +761,16 @@
             }
           ]
         },
+        "G3_production.json": {
+          "case": "G3",
+          "stage": "production",
+          "state": "running",
+          "utc": "2026-11-04T07:26:20.878071+00:00",
+          "job": "frodo3d_r02_production_G3",
+          "host": "frodo",
+          "controller_pid": 3399439,
+          "affinity": "5"
+        },
         "G1_production.json": {
           "case": "G1",
           "stage": "production",
@@ -792,12 +824,12 @@
           "state": "running",
           "controller_pid": 2959665,
           "solver_pid": 2959667,
-          "evaporation_time_h": 104.75,
-          "salt_solid_mol": 0.0006602931586613076,
-          "C_max_mol_L": 5.331406968705513,
-          "S_min": 0.99467306752772,
-          "updated_utc": "2026-11-04T06:14:39.165478+00:00",
-          "scratch_free_GiB": 383.4423141479492
+          "evaporation_time_h": 128.16666666666666,
+          "salt_solid_mol": 0.001855628473696549,
+          "C_max_mol_L": 5.331444498406543,
+          "S_min": 0.9946787571530267,
+          "updated_utc": "2026-11-04T08:20:23.492893+00:00",
+          "scratch_free_GiB": 378.58404541015625
         },
         "B1_short_status": {
           "case": "B1_short",
@@ -996,7 +1028,7 @@
         },
         "supervisor_status": {
           "state": "running",
-          "utc": "2026-11-04T06:14:49.362946+00:00",
+          "utc": "2026-11-04T08:20:20.816474+00:00",
           "supervisor_pid": 2824177,
           "host": "frodo",
           "cpu_pool": [
@@ -1011,22 +1043,6 @@
           "short_wall_s": 21600,
           "production_wall_s": 172800,
           "running": {
-            "production_B0": {
-              "pid": 2835148,
-              "cpu": 4
-            },
-            "production_B1": {
-              "pid": 2835149,
-              "cpu": 5
-            },
-            "production_B2": {
-              "pid": 2835150,
-              "cpu": 6
-            },
-            "production_B3": {
-              "pid": 2835151,
-              "cpu": 7
-            },
             "production_G1": {
               "pid": 2959665,
               "cpu": 8
@@ -1034,6 +1050,10 @@
             "production_G2": {
               "pid": 2959666,
               "cpu": 9
+            },
+            "production_G3": {
+              "pid": 3399439,
+              "cpu": 5
             }
           },
           "finished": {
@@ -1078,11 +1098,33 @@
               "returncode": 0,
               "status": "passed",
               "utc": "2026-11-03T19:46:22.162368+00:00"
+            },
+            "production_B1": {
+              "state": "failed",
+              "returncode": 1,
+              "status": "failed",
+              "utc": "2026-11-04T07:26:20.588847+00:00"
+            },
+            "production_B2": {
+              "state": "failed",
+              "returncode": 1,
+              "status": "failed",
+              "utc": "2026-11-04T07:27:20.617147+00:00"
+            },
+            "production_B0": {
+              "state": "failed",
+              "returncode": 1,
+              "status": "failed",
+              "utc": "2026-11-04T07:33:50.643119+00:00"
+            },
+            "production_B3": {
+              "state": "passed",
+              "returncode": 0,
+              "status": "completed",
+              "utc": "2026-11-04T08:10:20.779267+00:00"
             }
           },
-          "pending": [
-            "production_G3"
-          ]
+          "pending": []
         },
         "G3_short_status": {
           "case": "G3_short",
@@ -1366,15 +1408,35 @@
           "requested_threads": 1,
           "wall_limit_s": 172800,
           "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1",
-          "state": "running",
+          "state": "completed",
           "controller_pid": 2835149,
           "solver_pid": 2835152,
-          "evaporation_time_h": 159.41666666666666,
-          "salt_solid_mol": 0.003100087124879371,
-          "C_max_mol_L": 5.331449104921483,
-          "S_min": 0.9946147290661558,
-          "updated_utc": "2026-11-04T06:14:42.684300+00:00",
-          "scratch_free_GiB": 383.44231033325195
+          "evaporation_time_h": 174.0,
+          "salt_solid_mol": 0.003807423257456216,
+          "C_max_mol_L": 5.3314461538800195,
+          "S_min": 0.9946045749101935,
+          "updated_utc": "2026-11-04T07:11:17.380390+00:00",
+          "scratch_free_GiB": 380.6027717590332,
+          "returncode": 0,
+          "end_utc": "2026-11-04T07:11:17.583321+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 4.0379896106978494e-13,
+              "salt_residual_mol": 4.764532187022319e-13,
+              "coarse_residual_mol": 8.395566797292949e-13,
+              "fine_residual_mol": 9.41444029677438e-14
+            },
+            "relative_energy_budget_residual": 1.8283358059249567e-10,
+            "T_min_K": 291.3674907441667,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.003807423257456216,
+            "final_dissolved_mol": 0.051477200993024594,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.9126888806747646e-16,
+            "completed_evaporation_h": 174.0
+          }
         },
         "Dissolve_dt30_status": {
           "case": "Dissolve_dt30",
@@ -1414,6 +1476,25 @@
             "max_complementarity_after_initial": 2.8776184784468592e-129,
             "completed_evaporation_h": 0.16666666666666666
           }
+        },
+        "G3_status": {
+          "case": "G3",
+          "start_utc": "2026-11-04T07:26:21.291867+00:00",
+          "binary_sha256": "508d114ab0242f5ff66483a5d81556885072cbadef13dbbbf49c491c47d68454",
+          "input_sha256": "43ec2d8e4592a2c6671e01eaa673c1a52839ab61f5816dbc83ba09b804c4ede9",
+          "cpu": "5",
+          "requested_threads": 1,
+          "wall_limit_s": 172800,
+          "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G3",
+          "state": "running",
+          "controller_pid": 3399439,
+          "solver_pid": 3399440,
+          "evaporation_time_h": 8.083333333333334,
+          "salt_solid_mol": 6.699745162832273e-37,
+          "C_max_mol_L": 1.9791676188887175,
+          "S_min": 0.9947006699607892,
+          "updated_utc": "2026-11-04T08:20:21.235923+00:00",
+          "scratch_free_GiB": 378.58404541015625
         },
         "RemainSolid_dt15_status": {
           "case": "RemainSolid_dt15",
@@ -1541,15 +1622,35 @@
           "requested_threads": 1,
           "wall_limit_s": 172800,
           "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0",
-          "state": "running",
+          "state": "completed",
           "controller_pid": 2835148,
           "solver_pid": 2835153,
-          "evaporation_time_h": 158.66666666666666,
-          "salt_solid_mol": 0.003093100722381257,
-          "C_max_mol_L": 5.331445708078854,
-          "S_min": 0.9946387707895212,
-          "updated_utc": "2026-11-04T06:14:47.292537+00:00",
-          "scratch_free_GiB": 383.4423065185547
+          "evaporation_time_h": 174.0,
+          "salt_solid_mol": 0.003874583928715312,
+          "C_max_mol_L": 5.331449639257773,
+          "S_min": 0.9946080531256722,
+          "updated_utc": "2026-11-04T07:19:10.572475+00:00",
+          "scratch_free_GiB": 380.32523345947266,
+          "returncode": 0,
+          "end_utc": "2026-11-04T07:19:10.783341+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 5.518949427740549e-13,
+              "salt_residual_mol": 7.776713215327974e-13,
+              "coarse_residual_mol": 1.483659254968252e-12,
+              "fine_residual_mol": 6.420193537894931e-14
+            },
+            "relative_energy_budget_residual": 1.8287748002269764e-10,
+            "T_min_K": 291.36749074626863,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.003874583928715312,
+            "final_dissolved_mol": 0.05147627859840897,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.8379853469496242e-16,
+            "completed_evaporation_h": 174.0
+          }
         },
         "G2_hydro_status": {
           "case": "G2_hydro",
@@ -1638,15 +1739,35 @@
           "requested_threads": 1,
           "wall_limit_s": 172800,
           "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3",
-          "state": "running",
+          "state": "completed",
           "controller_pid": 2835151,
           "solver_pid": 2835156,
-          "evaporation_time_h": 153.58333333333334,
-          "salt_solid_mol": 0.004311594448218066,
-          "C_max_mol_L": 5.331469601450085,
-          "S_min": 0.9945005330702529,
-          "updated_utc": "2026-11-04T06:14:45.294630+00:00",
-          "scratch_free_GiB": 383.4423065185547
+          "evaporation_time_h": 174.0,
+          "salt_solid_mol": 0.006188573015448607,
+          "C_max_mol_L": 5.331504926142322,
+          "S_min": 0.9944968027416177,
+          "updated_utc": "2026-11-04T07:46:06.042240+00:00",
+          "scratch_free_GiB": 379.48626708984375,
+          "returncode": 0,
+          "end_utc": "2026-11-04T07:46:06.236823+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 3.937881604946754e-14,
+              "salt_residual_mol": 8.721003441055027e-14,
+              "coarse_residual_mol": 3.973237936215583e-13,
+              "fine_residual_mol": 3.328238162358358e-13
+            },
+            "relative_energy_budget_residual": 1.8283853604748399e-10,
+            "T_min_K": 291.36749056614156,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.006188573015448607,
+            "final_dissolved_mol": 0.06545826257758941,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.835260920754121e-16,
+            "completed_evaporation_h": 174.0
+          }
         },
         "B0_hydro_status": {
           "case": "B0_hydro",
@@ -1696,15 +1817,35 @@
           "requested_threads": 1,
           "wall_limit_s": 172800,
           "raw_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2",
-          "state": "running",
+          "state": "completed",
           "controller_pid": 2835150,
           "solver_pid": 2835157,
-          "evaporation_time_h": 157.25,
-          "salt_solid_mol": 0.0027854641371641,
-          "C_max_mol_L": 5.331444445794396,
-          "S_min": 0.9945901457829106,
-          "updated_utc": "2026-11-04T06:14:50.052638+00:00",
-          "scratch_free_GiB": 383.4511947631836
+          "evaporation_time_h": 174.0,
+          "salt_solid_mol": 0.0035924616098038952,
+          "C_max_mol_L": 5.331443552432573,
+          "S_min": 0.9945908044374192,
+          "updated_utc": "2026-11-04T07:15:30.259680+00:00",
+          "scratch_free_GiB": 380.4291763305664,
+          "returncode": 0,
+          "end_utc": "2026-11-04T07:15:30.261707+00:00",
+          "acceptance": {
+            "status": "passed",
+            "relative_budget_residuals": {
+              "water_residual_mol": 3.272145149659603e-13,
+              "salt_residual_mol": 3.6828483156284445e-13,
+              "coarse_residual_mol": 8.180976552408255e-13,
+              "fine_residual_mol": 2.1581928408793488e-13
+            },
+            "relative_energy_budget_residual": 1.828551382020444e-10,
+            "T_min_K": 291.36749072603885,
+            "T_max_K": 293.15,
+            "first_solid_mol": 0.0,
+            "final_solid_mol": 0.0035924616098038952,
+            "final_dissolved_mol": 0.05278886875044049,
+            "max_molality_after_initial": 6.011884292870148,
+            "max_complementarity_after_initial": 1.8114399428839088e-16,
+            "completed_evaporation_h": 174.0
+          }
         },
         "B3_hydro_status": {
           "case": "B3_hydro",
@@ -1835,12 +1976,12 @@
           "state": "running",
           "controller_pid": 2959666,
           "solver_pid": 2959668,
-          "evaporation_time_h": 104.33333333333333,
-          "salt_solid_mol": 0.0006447055729952306,
-          "C_max_mol_L": 5.331407399958283,
-          "S_min": 0.9946736518720092,
-          "updated_utc": "2026-11-04T06:14:50.460521+00:00",
-          "scratch_free_GiB": 383.4511947631836
+          "evaporation_time_h": 128.08333333333334,
+          "salt_solid_mol": 0.001851304174322702,
+          "C_max_mol_L": 5.331444667401595,
+          "S_min": 0.9946785650581834,
+          "updated_utc": "2026-11-04T08:20:17.035170+00:00",
+          "scratch_free_GiB": 378.58404541015625
         },
         "G2_short_status": {
           "case": "G2_short",
@@ -4983,8 +5124,8 @@
       }
     }
   },
-  "squeue": "19169|film080|RUNNING|23:37:26|8|localhost\n19168|film075|RUNNING|23:37:27|8|localhost\n",
-  "scratch_free_GiB": 70.14579391479492,
+  "squeue": "19219|WP9-R96|RUNNING|1:49|2|localhost\n19169|film080|RUNNING|1-01:42:59|8|localhost\n19168|film075|RUNNING|1-01:43:00|8|localhost\n",
+  "scratch_free_GiB": 67.56237411499023,
   "frodo_supervisor": {
     "state": "completed_with_failures",
     "utc": "2026-11-03T16:09:55.946198+00:00",
@@ -5040,7 +5181,7 @@
     },
     "queued": []
   },
-  "frodo_scratch_GiB": 383.43317794799805,
+  "frodo_scratch_GiB": 378.56664657592773,
   "frodo_2d_g_supervisor": {
     "state": "completed_conditional",
     "utc": "2026-11-03T21:14:04.960923+00:00",
@@ -5067,7 +5208,7 @@
   },
   "frodo_3d_supervisor": {
     "state": "running",
-    "utc": "2026-11-04T06:14:49.362946+00:00",
+    "utc": "2026-11-04T08:20:20.816474+00:00",
     "supervisor_pid": 2824177,
     "host": "frodo",
     "cpu_pool": [
@@ -5082,22 +5223,6 @@
     "short_wall_s": 21600,
     "production_wall_s": 172800,
     "running": {
-      "production_B0": {
-        "pid": 2835148,
-        "cpu": 4
-      },
-      "production_B1": {
-        "pid": 2835149,
-        "cpu": 5
-      },
-      "production_B2": {
-        "pid": 2835150,
-        "cpu": 6
-      },
-      "production_B3": {
-        "pid": 2835151,
-        "cpu": 7
-      },
       "production_G1": {
         "pid": 2959665,
         "cpu": 8
@@ -5105,6 +5230,10 @@
       "production_G2": {
         "pid": 2959666,
         "cpu": 9
+      },
+      "production_G3": {
+        "pid": 3399439,
+        "cpu": 5
       }
     },
     "finished": {
@@ -5149,12 +5278,34 @@
         "returncode": 0,
         "status": "passed",
         "utc": "2026-11-03T19:46:22.162368+00:00"
+      },
+      "production_B1": {
+        "state": "failed",
+        "returncode": 1,
+        "status": "failed",
+        "utc": "2026-11-04T07:26:20.588847+00:00"
+      },
+      "production_B2": {
+        "state": "failed",
+        "returncode": 1,
+        "status": "failed",
+        "utc": "2026-11-04T07:27:20.617147+00:00"
+      },
+      "production_B0": {
+        "state": "failed",
+        "returncode": 1,
+        "status": "failed",
+        "utc": "2026-11-04T07:33:50.643119+00:00"
+      },
+      "production_B3": {
+        "state": "passed",
+        "returncode": 0,
+        "status": "completed",
+        "utc": "2026-11-04T08:10:20.779267+00:00"
       }
     },
-    "pending": [
-      "production_G3"
-    ]
+    "pending": []
   },
   "active_3d_attempt": "Frodo track3d_r02",
-  "queried_utc": "2026-11-04T06:14:54.175765+00:00"
+  "queried_utc": "2026-11-04T08:20:27.293272+00:00"
 }
