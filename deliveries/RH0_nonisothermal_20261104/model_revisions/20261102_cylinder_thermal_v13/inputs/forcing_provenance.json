@@ -1,0 +1,12 @@
+{
+  "status": "diagnostic_not_independently_measured_evaporation",
+  "source": "Ali raw balance masses with workbook nominal times",
+  "area_m2": 0.001963495408493621,
+  "reference_solution_density_kg_m3": 1039,
+  "solution_concentration_mol_L": 1,
+  "salt_mass_fraction": 0.05624639076034649,
+  "water_storage_change_assumption_kg": 0,
+  "first_hour_assumption": "hold first available 1-2h interval water flux; not measured",
+  "clock": "nominal workbook clock; Bruker elapsed clock retained as unresolved sensitivity",
+  "filter": "idealized distributed reservoir boundary; zero resistance is not a measured filter property"
+}
