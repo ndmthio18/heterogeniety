@@ -1,0 +1,30 @@
+{
+  "scope": "D-drive sal v16 redundant tar archives only",
+  "authorized_by_user": true,
+  "authoritative_archive": {
+    "path": "C:\\Users\\12608\\Documents\\Heterogeneity_backups\\20261103_sal_film_v16\\backup_20261104_115737.tar",
+    "sha256_reverified_before_cleanup": "fca0857f0b27a3eb1a7df7276e81bf2446669517d804827e246433ef5b8ac724",
+    "member_count": 589,
+    "member_hashes_verified": true
+  },
+  "delete_root": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261103_sal_film_v16\\remote_backup",
+  "deleted_pattern": "resolved regular files with extension .tar directly under delete_root",
+  "target_count": 15,
+  "expected_reclaim_gib": 28.562,
+  "execution": {
+    "completed_utc": "2026-11-04T12:09:52Z",
+    "deleted_count": 15,
+    "reclaimed_bytes": 30667798528,
+    "reclaimed_gib": 28.562,
+    "remaining_tar_count_in_delete_root": 0,
+    "d_drive_free_gib_after_cleanup": 28.562,
+    "authoritative_archive_sha256_reverified_after_cleanup": "fca0857f0b27a3eb1a7df7276e81bf2446669517d804827e246433ef5b8ac724"
+  },
+  "preserved": [
+    "all verification JSON files",
+    "USER_STOP_20261104.json",
+    "source and input files",
+    "analysis CSV, plots, and reports",
+    "all bottom-boundary campaign archives"
+  ]
+}

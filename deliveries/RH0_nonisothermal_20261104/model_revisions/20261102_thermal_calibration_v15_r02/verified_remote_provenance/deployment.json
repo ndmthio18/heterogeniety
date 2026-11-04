@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-02T17:58:31.988360+00:00",
+  "reason": "User requested verified accelerated profile",
+  "previous_status": {
+    "state": "gates_running",
+    "utc": "2026-11-02T17:49:52.967530+00:00",
+    "controller_pid": 2354572
+  },
+  "replacement": "/temp/zhixin/heterogeneity_thermal_calibration_v15_r02_20261102",
+  "reference_solver_pid": 2355273,
+  "reference_solver_allowed_to_finish": true,
+  "new_controller_pid": 2361037,
+  "first_controller_pid": 2359154
+}

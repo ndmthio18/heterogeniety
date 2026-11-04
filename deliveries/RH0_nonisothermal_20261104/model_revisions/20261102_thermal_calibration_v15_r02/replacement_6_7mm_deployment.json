@@ -1,0 +1,35 @@
+{
+  "utc": "2026-11-02T20:40:54.240364+00:00",
+  "controller_pid": 2420830,
+  "stopped_cases": [
+    {
+      "case": "Trial01",
+      "state": "stopped_by_user",
+      "evaporation_time_h": 39.5,
+      "solver_pid": 2364718
+    },
+    {
+      "case": "Bracket04mm",
+      "state": "stopped_by_user",
+      "evaporation_time_h": 15.0,
+      "solver_pid": 2395120
+    },
+    {
+      "case": "Bracket12mm",
+      "state": "stopped_by_user",
+      "evaporation_time_h": 15.0,
+      "solver_pid": 2395121
+    }
+  ],
+  "new_cases": {
+    "Film06mm": {
+      "delta_mm": 6,
+      "cpus": "0-3"
+    },
+    "Film07mm": {
+      "delta_mm": 7,
+      "cpus": "4-7"
+    }
+  },
+  "automatic_additional_cases": false
+}

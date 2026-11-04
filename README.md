@@ -1,6 +1,6 @@
 # Heterogeneity: RH=0 cylinder evaporation and salt precipitation
 
-本仓库归档 RH=0、固定孔隙率和本征渗透率的三维圆柱 **v12 / 174 h** 分析结果。本研究分支另含 L1 粗砂浓度偏差审计，引用独立已验收 v13 非等温结果作为明确分版本的比较；原 v12 交付目录保持不变。
+本仓库归档 RH=0、固定孔隙率和本征渗透率的三维圆柱计算，包括等温 **v12 / 174 h** 对照、独立验收的非等温 **v13 / 174 h** 结果、气膜厚度部分率定记录，以及本研究分支的底部边界敏感性计算和L1粗砂浓度偏差审计。各数据集分别标注完整、部分和用户终止状态；数值匹配不等同于独立物理验证，原v12交付目录保持不变。
 
 ## v13 底部边界敏感性计算（进行中）
 
@@ -19,7 +19,6 @@
 - [来源、复现与校验说明](analysis/coarse_174h_diagnosis/README.md)
 
 完成了 MRI 来源审计、1044 帧原生面通量回放、粗细砂盐量闭合及独立热效应比较。回放不推进求解时间；未新增174 h物理敏感性计算。诊断明确区分模型输运机制、待检验的边界假设及实验观测不确定性。本分支不自动合并 main。
-
 ## 阅读入口
 
 - [完整中文分析报告](deliveries/RH0_fixed_174h_20261103/model_revisions/20261102_cylinder_fixed_hydraulics_v12/FIXED_HYDRAULICS_174H_REPORT.md)
@@ -27,6 +26,9 @@
 - [蒸发曲线](deliveries/RH0_fixed_174h_20261103/model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/01_evaporation.png)、[浓度剖面](deliveries/RH0_fixed_174h_20261103/model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/03_profiles.png)、[粗砂下沉](deliveries/RH0_fixed_174h_20261103/model_revisions/20261102_cylinder_fixed_hydraulics_v12/results/comparison/04_downflow.png)
 - [仅依据称重速率的阶段变化分析](deliveries/RH0_fixed_174h_20261103/analysis/evaporation_only_onset_20261102/EVAPORATION_ONLY_INFERENCE.md)
 - [完整ZIP交付包](archives/RH0_fixed_174h_analysis_20261103.zip) / [SHA256](archives/RH0_fixed_174h_analysis_20261103.zip.sha256)
+- [非等温v13及气膜率定交付说明](deliveries/RH0_nonisothermal_20261104/README.md)
+- [非等温8.10 mm完整174 h报告](deliveries/RH0_nonisothermal_20261104/model_revisions/20261102_cylinder_thermal_v13/COMPLETION_REPORT.md)
+- [7.5/8.0/8.10 mm蒸发曲线比较](deliveries/RH0_nonisothermal_20261104/analysis/film_7p5_8p0_8p1_snapshot_20261104/evaporation_comparison.pdf)
 
 ## 主要结果与限制
 

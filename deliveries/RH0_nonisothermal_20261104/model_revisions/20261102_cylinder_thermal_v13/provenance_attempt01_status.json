@@ -1,0 +1,6 @@
+{
+  "state": "failed",
+  "updated_utc": "2026-11-02T11:33:13.211274+00:00",
+  "error": "AssertionError({'time_s': 0.0, 'evaporation_time_h': 0.0, 'dt_s': 0.0, 'water_mol': 2.725629095250813e-15, 'air_mol': 0.0, 'salt_total_mol': 2.3966888517178094e-15, 'salt_dissolved_mol': 5.285269635017605e-08, 'salt_solid_mol': 1.7418043668401844e-06, 'coarse_salt_mol': 8.707380156819161e-05, 'fine_salt_mol': 8.11142804727888e-05, 'water_boundary_out_mol_s': 0.0, 'salt_boundary_out_mol_s': 0.0, 'cumulative_water_out_mol': 0.0, 'cumulative_salt_out_mol': 0.0, 'water_residual_mol': 0.002886579864025407, 'salt_residual_mol': 0.0002498001805406602, 'interface_adv_mol_s': 0.0018947840043384563, 'interface_diff_mol_s': 0.0025216929637123632, 'cumulative_interface_adv_mol': 0.0005019509331142528, 'cumulative_interface_diff_mol': 0.002894164803697765, 'coarse_bottom_salt_out_mol_s': 0.0, 'fine_bottom_salt_out_mol_s': 0.0, 'S_min': 0.00011961611127195293, 'porosity_min': 6.9219181312677856e-09, 'precip_vf_max': 1.8041851033889398e-06, 'C_max_mol_L': 8.114519829305339e-05, 'coarse_residual_mol': 6.640808151536688e-05, 'fine_residual_mol': 0.00011129774548978605, 'coarse_top_water_out_mol_s': 0.0, 'fine_top_water_out_mol_s': 0.0, 'cumulative_coarse_top_water_mol': 0.0, 'cumulative_fine_top_water_mol': 0.0})",
+  "scratch_root": "/tmp/zhixin_cylinder_thermal_v13_20261102"
+}

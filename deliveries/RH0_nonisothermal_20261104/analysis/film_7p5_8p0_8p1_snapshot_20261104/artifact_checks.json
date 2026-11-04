@@ -1,0 +1,26 @@
+{
+  "visual_review": {
+    "status": "passed",
+    "artifact": "evaporation_comparison.png",
+    "checked_at_utc": "2026-11-04T11:44:18Z",
+    "notes": "All panels, legends, axes, partial-run endpoints, and the 36 h common-window marker were inspected; no clipping or misleading continuation was observed."
+  },
+  "scientific_scope": {
+    "status": "passed",
+    "common_comparison_window_h": [1.0, 36.0],
+    "partial_runs_extrapolated": false,
+    "available_model_time_h": {
+      "Film075mm": 39.9166666667,
+      "Film080mm": 46.0,
+      "Film081mm": 174.0
+    }
+  },
+  "png_metadata": {
+    "status": "passed",
+    "mode": "RGB",
+    "has_alpha": false,
+    "dpi": 299.9994,
+    "width_px": 2125,
+    "height_px": 1830
+  }
+}
