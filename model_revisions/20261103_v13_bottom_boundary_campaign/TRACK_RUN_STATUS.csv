@@ -6,10 +6,10 @@ dimension,case,host,state,accepted_evaporation_h,job,error
 2D,G1,frodo,completed_conditional,174.0,frodo_2d_g_conditional_G1,Original refined-grid gate remains failed; conditional sensitivity run
 2D,G2,frodo,completed_conditional,174.0,frodo_2d_g_conditional_G2,Original refined-grid gate remains failed; conditional sensitivity run
 2D,G3,frodo,completed_conditional,174.0,frodo_2d_g_conditional_G3,Original refined-grid gate remains failed; conditional sensitivity run
-3D,B0,frodo,running,106.25,frodo3d_r02_production_B0,
-3D,B1,frodo,running,106.66666666666667,frodo3d_r02_production_B1,
-3D,B2,frodo,running,102.33333333333333,frodo3d_r02_production_B2,
-3D,B3,frodo,running,101.58333333333333,frodo3d_r02_production_B3,
-3D,G1,frodo,running,62.333333333333336,frodo3d_r02_production_G1,
-3D,G2,frodo,running,61.25,frodo3d_r02_production_G2,
+3D,B0,frodo,running,132.25,frodo3d_r02_production_B0,
+3D,B1,frodo,running,132.5,frodo3d_r02_production_B1,
+3D,B2,frodo,running,127.75,frodo3d_r02_production_B2,
+3D,B3,frodo,running,126.5,frodo3d_r02_production_B3,
+3D,G1,frodo,running,82.66666666666667,frodo3d_r02_production_G1,
+3D,G2,frodo,running,81.75,frodo3d_r02_production_G2,
 3D,G3,frodo,pending_gates_resources,0,frodo3d_r02_production_G3,
