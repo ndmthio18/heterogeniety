@@ -1,0 +1,65 @@
+{
+  "created_utc": "2026-11-04T11:25:45Z",
+  "scope": "3D B0-B3 accepted 174 h plus frozen current G snapshots; no interpolation or extrapolation",
+  "pdf": {
+    "path": "RH0_3D_B174_GCURRENT_MRI_COMPARISON.pdf",
+    "sha256": "ac3444358efb4a5608f00420b799b178ba26caccbe87218d61c9039ccb3889c5",
+    "pages": 4
+  },
+  "profile_metrics": {
+    "path": "profile_metrics.csv",
+    "sha256": "7d0e3aeef6ba23596a614991ca53f79da090465c2719c75dccd3f0e126de2b13"
+  },
+  "source_snapshot": {
+    "remote_path": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/plot_snapshot_20261104_1120",
+    "archive_sha256": "12b46a9731cab2c27a5f33f68832270bcecef407d56e47c1d17dd3b29e027024",
+    "field_count": 32,
+    "selected_times_h": {
+      "B0-B3": [
+        0,
+        24,
+        60,
+        108,
+        174
+      ],
+      "G1-G2": [
+        0,
+        24,
+        60,
+        108,
+        144
+      ],
+      "G3": [
+        0,
+        24
+      ]
+    }
+  },
+  "numerical_checks": {
+    "maximum_field_ledger_relative_error": 2.6987E-14,
+    "missing_states_are_explicit_gaps": true,
+    "interpolation_used": false,
+    "extrapolation_used": false
+  },
+  "visual_review": {
+    "status": "passed",
+    "reviewed_pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "checks": [
+      "titles and legends do not overlap",
+      "axes are consistent across paired panels",
+      "missing G states are visibly labelled",
+      "scientific caveats are legible"
+    ]
+  },
+  "live_status_at_creation": {
+    "G1_accepted_h": 164.16666666666666,
+    "G2_accepted_h": 164.25,
+    "G3_accepted_h": 45.333333333333336,
+    "note": "The plotted snapshot is intentionally pinned to closed common saved states and is not relabelled with later live progress."
+  }
+}

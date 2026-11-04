@@ -1,6 +1,6 @@
 {
-  "created_utc": "2026-11-04T10:32:37.9204054+00:00",
-  "scope": "Accepted 2D B; conditional 2D G complete; 3D B complete at 174 h after documented replay-only cancellation repair; 3D G production continues; no raw fields, binaries, transport archives or NPZ",
+  "created_utc": "2026-11-04T11:29:49.5505396Z",
+  "scope": "Accepted 2D B; conditional 2D G complete; 3D B complete at 174 h; current closed-state 3D G profile analysis through 144 h for G1/G2 and 24 h for G3; no raw fields, binaries, transport archives, snapshots or NPZ",
   "files": [
     {
       "path": "2D_3D_COMPARISON.md",
@@ -568,6 +568,11 @@
       "sha256": "78187f901d3943b983897fe078427465f87f1c472c6ea7594e17bfccaf5fe23c"
     },
     {
+      "path": "plot_3d_current_comparison.py",
+      "bytes": 10334,
+      "sha256": "9cacd04c69127b95324e9716d91cd401415ae5fd358031c656698b9669a1fce4"
+    },
+    {
       "path": "plot_3d_partial_preview.py",
       "bytes": 10164,
       "sha256": "e30d465ae00009d0505271c4b2020542c1bba766a9d9fa118a208af7f654fb3c"
@@ -576,6 +581,11 @@
       "path": "plot_enrichment.py",
       "bytes": 4097,
       "sha256": "d44ec1ed8b0600ed2ac072542074d25cff3b1469e670fc7a562fda94d99560c7"
+    },
+    {
+      "path": "prepare_3d_current_snapshot.py",
+      "bytes": 2783,
+      "sha256": "2e85e71eb39bf9d64d363377f76ed1d2391149185cd50c2d3ed686035b4bc1bf"
     },
     {
       "path": "prepare_geometry.py",
@@ -1286,6 +1296,101 @@
       "path": "results/vertical_profiles_2d/SOURCE_PINS.json",
       "bytes": 2373,
       "sha256": "e25578bf011ae7c9e48655ee45375fa6304850e140243c6ccfafd4fce5527b48"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/artifact_checks.json",
+      "bytes": 1747,
+      "sha256": "f939341273c5305c13b974fb1d9ce0c62a445e6f208dbb02376c6b68ad0a1990"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/B_174h_effect_vs_B0.csv",
+      "bytes": 667,
+      "sha256": "039c3a402f01ffe27808331b793b1a14c03f095931c2d4411592dbcfc9592bf3"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/CURRENT_3D_ANALYSIS.md",
+      "bytes": 2641,
+      "sha256": "ba683afc443a9c2c034305362e102140bf8cd08dd43d810c5919639c1f24e2be"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/page01_B_complete.png",
+      "bytes": 275683,
+      "sha256": "8392028a780436d36398958350cb9a065471bb5980f1754b24da615c94d001eb"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/page01_B_complete.svg",
+      "bytes": 129371,
+      "sha256": "6c1249e37456cddddc589c5c879c388c75b9dc0c2e541674f60e71e5726d0ece"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/page02_G_current.png",
+      "bytes": 229172,
+      "sha256": "753eac1b5bfcc7a1bac18a3d7bbb5017ef13384baaba495f13e93a05cc1a73c6"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/page02_G_current.svg",
+      "bytes": 107308,
+      "sha256": "d92149306013cfd2321f6e45ecf9eb0e491bb7850d65951ca814e813024bc11f"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/page03_error_evolution.png",
+      "bytes": 327172,
+      "sha256": "323812311e8c9f3362099980028abd5f5cba482cdc3a6d9c4b355ed1ed704c9f"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/page03_error_evolution.svg",
+      "bytes": 53067,
+      "sha256": "b5285b64347827682aa6cd2043874fedd4aa23c475a6285bdf291a0d73372db3"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/page04_B174_effect.png",
+      "bytes": 87299,
+      "sha256": "40b3711015170a63f24f87a84ddd7886bfef104ca6974bde5316494bb78a9833"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/page04_B174_effect.svg",
+      "bytes": 17583,
+      "sha256": "39ca32a63d845a8b570c9ef8025d29fd7a95bce1ae30dafbacf290ad36fa2095"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/profile_metrics.csv",
+      "bytes": 2304,
+      "sha256": "7d0e3aeef6ba23596a614991ca53f79da090465c2719c75dccd3f0e126de2b13"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/profile_pairs.csv",
+      "bytes": 95391,
+      "sha256": "43355fc38219cb47c0454d9d20db9b092b632fa5c4326bd4301638956d2c3382"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/QA_pdf_page_01.png",
+      "bytes": 132972,
+      "sha256": "43eb328943e73d63dbb55014b081c70d6ccec271a77c735a3107e5c982c716c8"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/QA_pdf_page_02.png",
+      "bytes": 117475,
+      "sha256": "8b959d069ece92dc79e67bebaf046867149cd0f0faea15a4edbdfccadb56c5c2"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/QA_pdf_page_03.png",
+      "bytes": 110376,
+      "sha256": "742c16bfd67c1f548b24fd1cd599689c05f7dcf37a1ce8e400ec51ead3d57d14"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/QA_pdf_page_04.png",
+      "bytes": 33177,
+      "sha256": "1fae9190463d49cf291d6f8de841e453c7b2ded7b9e7eaa4e985bf742c664722"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/RH0_3D_B174_GCURRENT_MRI_COMPARISON.pdf",
+      "bytes": 65805,
+      "sha256": "ac3444358efb4a5608f00420b799b178ba26caccbe87218d61c9039ccb3889c5"
+    },
+    {
+      "path": "results/vertical_profiles_3d_B174_Gcurrent/SOURCE_PINS.json",
+      "bytes": 5139,
+      "sha256": "55acd58067c242400dba5403cf46a9c958adb8703293e0ad54fd845d79800b9b"
     },
     {
       "path": "results/vertical_profiles_3d_partial_48h/artifact_checks.json",
