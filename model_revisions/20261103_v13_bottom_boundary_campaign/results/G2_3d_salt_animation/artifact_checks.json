@@ -1,0 +1,51 @@
+{
+  "source": {
+    "case": "G2",
+    "accepted_evaporation_h": 174.0,
+    "frame_count": 88,
+    "frame_spacing_h": 2.0,
+    "bundle_sha256": "b27bc4aa1ff4c059193ba47a84fdc0e3332e5dde22df8790b5d04f47a70c9275",
+    "all_frame_hashes_verified": true
+  },
+  "mapping": {
+    "field": "dissolved NaCl concentration",
+    "formula": "x^NaCl_liq * rhoMolar_liq / 1000",
+    "units": "mol/L",
+    "fixed_clim_M": [1.0, 5.5],
+    "f36_anomaly_definition": "native-cell concentration minus the mean of cells on the same native radial ring",
+    "f36_anomaly_fixed_clim_M": [-0.15, 0.15],
+    "f36_horizontal_layer_y_mm": 12.5,
+    "temporal_interpolation": false,
+    "spatial_resampling": false,
+    "per_frame_normalization": false,
+    "solid_overlay_is_location_only": true,
+    "exact_z0_quantitative_section": true,
+    "transparent_threshold_context": true
+  },
+  "mp4": {
+    "resolution": [1920, 1080],
+    "fps": 8.0,
+    "encoded_frames": 112,
+    "duration_s": 14.0,
+    "codec": "h264",
+    "sha256": "57419b2e544f84ac9bf21d6a5dbb14586ca16344f4265e68dbc58d46feed067e"
+  },
+  "gif": {
+    "resolution": [800, 450],
+    "physical_frames": 88,
+    "frame_duration_ms": 160,
+    "sha256": "fb0ff55893fe57d7e7556b489f43b3bcc07cdc188587b6f45dc7aa27f7f8f8cf"
+  },
+  "automated_preflight": {
+    "pass": 11,
+    "warn": 3,
+    "fail": 0
+  },
+  "visual_review": {
+    "passed": true,
+    "source_frames_checked_h": [0, 24, 60, 72, 108, 174],
+    "decoded_mp4_positions_checked": ["start", "midpoint", "end"],
+    "reviewer": "Codex"
+  },
+  "scientific_status": "model visualization; not independent physical validation or experimental onset evidence"
+}
