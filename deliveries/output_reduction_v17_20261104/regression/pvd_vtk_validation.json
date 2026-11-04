@@ -1,0 +1,145 @@
+{
+  "state": "passed",
+  "vtk_version": "9.3.1",
+  "scope": "PVD XML references plus vtkXMLUnstructuredGridReader used by ParaView; Frodo pvpython 5.11.2 itself segfaults during proxy creation and is recorded separately.",
+  "datasets": [
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\regression\\remote_results\\original\\OutputOriginal.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 0.0,
+          "file": "OutputOriginal-00000.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 600.0,
+          "file": "OutputOriginal-00001.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 1200.0,
+          "file": "OutputOriginal-00002.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 1800.0,
+          "file": "OutputOriginal-00003.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 2400.0,
+          "file": "OutputOriginal-00004.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 3000.0,
+          "file": "OutputOriginal-00005.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 3600.0,
+          "file": "OutputOriginal-00006.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 4200.0,
+          "file": "OutputOriginal-00007.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 4800.0,
+          "file": "OutputOriginal-00008.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 5400.0,
+          "file": "OutputOriginal-00009.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 6000.0,
+          "file": "OutputOriginal-00010.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 6600.0,
+          "file": "OutputOriginal-00011.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 7200.0,
+          "file": "OutputOriginal-00012.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 7800.0,
+          "file": "OutputOriginal-00013.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\regression\\remote_results\\reduced\\OutputReduced.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 0.0,
+          "file": "OutputReduced-00000.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 3600.0,
+          "file": "OutputReduced-00001.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 7200.0,
+          "file": "OutputReduced-00002.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 7800.0,
+          "file": "OutputReduced-00003.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        }
+      ]
+    }
+  ]
+}

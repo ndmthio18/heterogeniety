@@ -1,0 +1,142 @@
+{
+  "utc": "2026-11-04T13:34:25.930934+00:00",
+  "scope": "reports, implementations and compact evidence; bulk sparse VTUs and downloaded regression raw have their own manifests/results",
+  "files": {
+    "analyze_sparse.py": {
+      "bytes": 6818,
+      "sha256": "60f63ad0104b5b3a94928c71f03472dd563f2c9508ba36e0111ce09efe1e4eaf"
+    },
+    "build_evidence/build.log": {
+      "bytes": 97709,
+      "sha256": "dc65bcd6fffa3cae0e6626b43136b98a4708ccb272bf07641dc3b28ef94ced91"
+    },
+    "build_evidence/build_manifest.json": {
+      "bytes": 8733,
+      "sha256": "b9e30eb7858cc8f1c2050b6f94e8926a0a46cddad57861b73c1cfda5e684a5d6"
+    },
+    "build_evidence/compile_command.json": {
+      "bytes": 5600,
+      "sha256": "41eeb9f19cff35b0851c7d07817104ecf7f4d59315f754e32fdf7677ce0bd27a"
+    },
+    "build_evidence_manifest.py": {
+      "bytes": 1142,
+      "sha256": "c0bade7a6f6395936a5cf6e7a9cd238b7b04a51f92a1d67818abf06e32494d0b"
+    },
+    "build_profile_overlay.py": {
+      "bytes": 1806,
+      "sha256": "9f47626a37a645fa1ba24fe0477b2959e69777c7162700346e9f612f461354fb"
+    },
+    "build_sparse_index.py": {
+      "bytes": 1050,
+      "sha256": "1b63d749b7040d34c7138565097effa5c15fdfdd8d6b85ba962ddcf789b7b702"
+    },
+    "capacity_guard.py": {
+      "bytes": 1933,
+      "sha256": "9af13185d4a4437898e3a66a7a4ff98a242200c0f8f9599bc5c4a89234cd5f12"
+    },
+    "capacity_guard_example.json": {
+      "bytes": 276,
+      "sha256": "7279eeb118a993f2b23b00611ad46aebc425adaa9b4670663ccce76b3f6b8223"
+    },
+    "DISK_USAGE_AUDIT.md": {
+      "bytes": 5478,
+      "sha256": "0cdabebca22aa3af9450dac9f6d1cd30a259aedad510b1e6617a8e61bfce1355"
+    },
+    "field_series.py": {
+      "bytes": 1013,
+      "sha256": "0aa436ba02ead8540af0d59f35ea59a6efa3a43b59b38e07ce5f98e32b18cd67"
+    },
+    "incremental_backup.py": {
+      "bytes": 2358,
+      "sha256": "0f4f43b3236614db8d2a46acd4eeb7766e424c085244f810a4b772a84cf61eb9"
+    },
+    "make_sparse_working_set.py": {
+      "bytes": 3957,
+      "sha256": "632e29ed17b73cd5a0b65dee90f4e8e0634790283941acc51c34e7833881d1ef"
+    },
+    "native_replay_sparse.py": {
+      "bytes": 7075,
+      "sha256": "e7f723344cffcb1fad4019d3f35a6f736e04ab2b0604ce3c404b419c52ebb212"
+    },
+    "OUTPUT_EQUIVALENCE_TEST.md": {
+      "bytes": 4217,
+      "sha256": "9880b6e7d43ba92b1d5ca5ae5c61fc21abcfc99950e4afa5b2edf0d5a3374ed5"
+    },
+    "OUTPUT_REDUCTION_IMPLEMENTATION.md": {
+      "bytes": 4955,
+      "sha256": "7cd759d14a1d9000b9dd152bc336a296d94da29fb2717adc477c920d30ee08e4"
+    },
+    "regression/compare_profile_overlay.py": {
+      "bytes": 5735,
+      "sha256": "df6e9326298b12b5f064c64f809ab92264c522a73b9ec1b9cfaf82370f4c1203"
+    },
+    "regression/compare_runs.py": {
+      "bytes": 5650,
+      "sha256": "8256b9c7791766a2e696094da078f080326fc0da7c46d7dda987ae5cc16ce105"
+    },
+    "regression/equivalence_results.json": {
+      "bytes": 4775,
+      "sha256": "fa2717c148b0c778199469b83da67f9bf22073310672f5a8cb6b153283da5789"
+    },
+    "regression/original.input": {
+      "bytes": 2123,
+      "sha256": "91159c40a84d8d2bee58b9a453341ff9de31a73641e587ffea223cf92d305a5b"
+    },
+    "regression/profile.input": {
+      "bytes": 2122,
+      "sha256": "cc82a66894fcc9b9bd6e212592631b558877eab0b8cff059475d518f577a9cac"
+    },
+    "regression/profile_overlay_equivalence.json": {
+      "bytes": 4154,
+      "sha256": "2c4bffdb8383c6c3e80ccf6719751b9ec960206e5319f121f20fcc7d77b9ccf9"
+    },
+    "regression/pvd_vtk_validation.json": {
+      "bytes": 3910,
+      "sha256": "46ea58a2db367d2ccdb414f47a260665eb5e8cf8e696cc026b18fd401776f2ec"
+    },
+    "regression/reduced.input": {
+      "bytes": 2122,
+      "sha256": "3bc919125afcc3f05515f09eedbf451255221101d2ce1f3222eae26ca9fa92e9"
+    },
+    "SAFE_ARCHIVE_AND_CLEANUP_PLAN.md": {
+      "bytes": 3832,
+      "sha256": "de5b680d0cef9813566167ed721b60b62ff035a10c91c669e22c03020bbbcc17"
+    },
+    "select_available_frames.py": {
+      "bytes": 1292,
+      "sha256": "f7799d1b8daa69968d5e0a32662907892140e9bbaa86a9be0cd895266e13050d"
+    },
+    "source_overlay/appl/campaign_diagnostics.hh": {
+      "bytes": 8095,
+      "sha256": "678656f5dc2dcf9fb19b189095b9215aff14f92cba1532e14be37c7eb7bfe2f7"
+    },
+    "source_overlay/appl/main.cc": {
+      "bytes": 7031,
+      "sha256": "8a4296d6119a95a4de9db27b6ba0c3df7d4413c0d99f9cdc69d43d82992bcc93"
+    },
+    "source_overlay/appl/params.input": {
+      "bytes": 4345,
+      "sha256": "1700e53c27815e01dc3216bb019bfe66d4eacd72bac1e73e4036d5b9989cc590"
+    },
+    "SPARSE_WORKING_SET_INDEX.json": {
+      "bytes": 62683,
+      "sha256": "91e8db6c74c5e2a7ff724aa0d0d23cac70a3547304ad744caafab90150291573"
+    },
+    "validate_paraview.py": {
+      "bytes": 1750,
+      "sha256": "d92e6a75663189411f8b4d42468b16b4aa7374478440f94d9885ae29ad8855e7"
+    },
+    "validate_vtk_reader.py": {
+      "bytes": 2185,
+      "sha256": "df9aed6e8ca389f4f399882b6aa2b0ff31bc1170ae631cbc9c95ef06d0558840"
+    },
+    "vtk_reader_validation.json": {
+      "bytes": 21620,
+      "sha256": "dd1bacb6b5a0fd38ce89871abfd412e2813b7a40ec42147941b216509203664e"
+    },
+    "vtk_reader_validation_local.json": {
+      "bytes": 22627,
+      "sha256": "7dbf10c25d79eb7467c46ceadcb10c6ec3f05b69ec79901efa5c9146c66c9311"
+    }
+  }
+}

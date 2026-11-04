@@ -1,0 +1,232 @@
+{
+  "binary_sha256_original": "9b1422e33fb76423322b081e414206e22777548fca0b703d6e285186a4fe63e5",
+  "binary_sha256_reduced": "9b1422e33fb76423322b081e414206e22777548fca0b703d6e285186a4fe63e5",
+  "input_difference_allowed": "Problem.Name and Benchmark.VtkEvery only",
+  "tables": {
+    "budget.csv": {
+      "rows": 47,
+      "max_absolute_difference": 0.0,
+      "max_relative_difference": 0.0
+    },
+    "film_budget.csv": {
+      "rows": 47,
+      "max_absolute_difference": 0.0,
+      "max_relative_difference": 0.0
+    },
+    "thermal_budget.csv": {
+      "rows": 47,
+      "max_absolute_difference": 0.0,
+      "max_relative_difference": 0.0
+    },
+    "mineral_budget.csv": {
+      "rows": 47,
+      "max_absolute_difference": 0.0,
+      "max_relative_difference": 0.0
+    }
+  },
+  "final_fields": {
+    "Permeability": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "S_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "S_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "T": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "dof_id": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "mob_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "mob_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "p_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "p_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "pc": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "phase presence": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "porosity": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "precipitateVolumeFraction^NaCl": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "rhoMolar_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "rhoMolar_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "rho_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "rho_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "velocity_liq_interior_LS (m/s)": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        3
+      ]
+    },
+    "x^Air_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "x^Air_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "x^H2O_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "x^H2O_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "x^NaCl_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "x^NaCl_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    }
+  },
+  "final_F36_W3_profiles": {
+    "F36": {
+      "max_absolute_difference_M": 0.0,
+      "bins": 40
+    },
+    "W3": {
+      "max_absolute_difference_M": 0.0,
+      "bins": 40
+    }
+  },
+  "performance": {
+    "original": {
+      "accepted_steps": 46,
+      "sum_output_s": 11.848304631188512,
+      "sum_step_s": 470.5721765104681,
+      "sum_newton_s": 431.2739884685725,
+      "sum_audit_record_s": 3.357163103297351
+    },
+    "reduced": {
+      "accepted_steps": 46,
+      "sum_output_s": 2.7006472684442997,
+      "sum_step_s": 459.430249305442,
+      "sum_newton_s": 429.2557268347591,
+      "sum_audit_record_s": 3.3700601272284967
+    }
+  },
+  "original_vtu_count": 14,
+  "reduced_vtu_count": 4,
+  "original_output_bytes": 221307367,
+  "reduced_output_bytes": 82910939,
+  "measured_reduction_fraction": 0.6253584319224221,
+  "original_field_bytes": 194565064,
+  "reduced_field_bytes": 56169423,
+  "measured_field_reduction_fraction": 0.7113077659204019,
+  "state": "passed"
+}

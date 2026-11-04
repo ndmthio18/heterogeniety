@@ -1,0 +1,1217 @@
+{
+  "state": "passed",
+  "datasets": [
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0/B0.pvd",
+      "source_pvd_sha256": "0f053985ed60db50ce07230dc536bd3e468a7925ea2bae57754f232c14964721",
+      "sparse_pvd": "B0_sparse.pvd",
+      "sparse_pvd_sha256": "81fdcc8e852eceb0ebd75f30559ea90919d9d9d512652380c5086c66f4de06f4",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0/B0-00012.vtu.gz",
+          "source_sha256": "fdfc25ea21d1ee5f12b8e5b3e9e857f75e78362a60fa094b7d408739bca567a8",
+          "file": "B0-00012.vtu",
+          "working_sha256": "950da099f1836656e22b5ae70af2f3dda08f98f851f16a5afa41e6f84e0fd031",
+          "bytes": 1549668
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0/B0-00156.vtu.gz",
+          "source_sha256": "87ed167a7b2b3b52df65cfb9dcb3173dfb527d67b74f8006bd65ad96c8284f66",
+          "file": "B0-00156.vtu",
+          "working_sha256": "f72322e72accbe05a22d504f19b66c4360c0e6a9dff1eaa45f8dbf6e9c848636",
+          "bytes": 1655585
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0/B0-00372.vtu.gz",
+          "source_sha256": "4e3448b9c4165bc651140aa7ddc815db6b1768b08c61aa7089be2bb4f586d602",
+          "file": "B0-00372.vtu",
+          "working_sha256": "020624b8cc48ca839c74e747407fcfa0c85efd5ed9d630b00d3d7b0d3ff9a568",
+          "bytes": 1655676
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0/B0-00516.vtu.gz",
+          "source_sha256": "753fce7bb4192dd60c14e3a3594f976c1748e896e01b80a3d872f3c452aface3",
+          "file": "B0-00516.vtu",
+          "working_sha256": "e6d1a6dfb92d3c478655d07392ec34d4293709b1ba993cd76c0757256882b07b",
+          "bytes": 1656084
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0/B0-00588.vtu.gz",
+          "source_sha256": "b80bda17a1bfc31877e1a5825f85f5de39764888e1da9cb04c0e2d40a0d82c58",
+          "file": "B0-00588.vtu",
+          "working_sha256": "5224587aa7660fb482357bf05f5646b2436a802bdec7c2edffc4b3ef93f3f485",
+          "bytes": 1656622
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0/B0-00660.vtu.gz",
+          "source_sha256": "9173f3e04b2caae4b2d28a6c71e256ff199662bedffe2cb8d84641ed7552b3f0",
+          "file": "B0-00660.vtu",
+          "working_sha256": "8407192b49051346ea1db958c93e2a4c85d9979d557b381687970291a8f69c19",
+          "bytes": 1656435
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0/B0-00732.vtu.gz",
+          "source_sha256": "c432c001de670b77acbedccbed530562270dab72fcad5d744864870ce2eefae7",
+          "file": "B0-00732.vtu",
+          "working_sha256": "2a3dc702283affa92e17234f53d5d50b0e874bf5fb8388603cd51b450bfced89",
+          "bytes": 1656686
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0/B0-00876.vtu.gz",
+          "source_sha256": "284262cc26ace71dd885210277faf32a6ed1d7bbf54c8f3f998ef1ebe347a0a5",
+          "file": "B0-00876.vtu",
+          "working_sha256": "4770a54b24b76a82778570194690e9e48e3078ec8158c918414de7a77087b18a",
+          "bytes": 1657020
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B0/B0-01056.vtu.gz",
+          "source_sha256": "91fbecb91acfb28529770648359ee9856bdc4c1e21c29fa0b98f2da70d8b32b0",
+          "file": "B0-01056.vtu",
+          "working_sha256": "d4048527c420599cc17d29eb73416b8d85fe717f02d7ca7f7903ed3217122fd8",
+          "bytes": 1656894
+        }
+      ],
+      "working_bytes": 14801411,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "2d_b/B0"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1/B1.pvd",
+      "source_pvd_sha256": "77a0644f421eadeaf21ee6093616fd0cc02db605d0b1854832f10bf2a4d39930",
+      "sparse_pvd": "B1_sparse.pvd",
+      "sparse_pvd_sha256": "feea0b5eb0bee2c6e19342c74b7b374dd39825e1cb476a34d7434d4add85b414",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1/B1-00012.vtu.gz",
+          "source_sha256": "74bfe5590760ce7c57346d4ac1d252ffa0be32315fd5f962c41fe9a73985b618",
+          "file": "B1-00012.vtu",
+          "working_sha256": "cfd57fb20ceeb105b8b3012cb8c4907fbc320601ff63eadfe18cb22c2d682028",
+          "bytes": 1549645
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1/B1-00156.vtu.gz",
+          "source_sha256": "b85b8c4e9d5a3d92706f731aefe1d92bd14bfe9a6279c9edf1c73738e5e9b162",
+          "file": "B1-00156.vtu",
+          "working_sha256": "78e39fc45262cf187ac504091010d5530b84dad619cdfea6e3128b5b6b3576c9",
+          "bytes": 1655379
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1/B1-00372.vtu.gz",
+          "source_sha256": "d449c6d81adf1dec76142ba0f441dc05210e711d1445a0a7a2b8193f5e1115be",
+          "file": "B1-00372.vtu",
+          "working_sha256": "cb448e7b2c8576620b3b1af83500928541274d53278ec575639a52d4d933c3f1",
+          "bytes": 1655560
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1/B1-00516.vtu.gz",
+          "source_sha256": "ceb7701eefab3be3bef8b00915483dcd2852de34f949896e1a56a157401b723a",
+          "file": "B1-00516.vtu",
+          "working_sha256": "d40022a010b1583b85b6e24e3003922bda53d67b244104f3f5559a507243e448",
+          "bytes": 1656307
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1/B1-00588.vtu.gz",
+          "source_sha256": "0967d63a12f9c6a5b4ba3a5ae071e8d57621dd6395fcae3774b33bd3f0d5781d",
+          "file": "B1-00588.vtu",
+          "working_sha256": "f9ea4ee9a4058c106e8f436cd764fc36314ad132eb9b00cb41964892de48d6b8",
+          "bytes": 1656446
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1/B1-00660.vtu.gz",
+          "source_sha256": "dd9fa76e5da9bbe617fe00907a0ebee997e6bbc79a9f343e7ee1f6e5f6328997",
+          "file": "B1-00660.vtu",
+          "working_sha256": "0a5353c926673c0be79493d3a1503263eb3f8f40fd28172df29d802911b94fae",
+          "bytes": 1656652
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1/B1-00732.vtu.gz",
+          "source_sha256": "a37b3760aa386f2b6c728778da2a52d9bb0b1d30a22fd88bb7c18c4239ab8c9f",
+          "file": "B1-00732.vtu",
+          "working_sha256": "4fcc4c0a9d666686d6f61334a32ca50d9f366aa18317abccb528a2093497883a",
+          "bytes": 1656827
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1/B1-00876.vtu.gz",
+          "source_sha256": "df20eec4dd0f8b8e381400e1a437cb332a501b8ba9d4797e5d8ba65bb5943824",
+          "file": "B1-00876.vtu",
+          "working_sha256": "9af856c239bb3203fadc6fcb412294b68c0fc2ed6b288e5a0ce5d9da9d27eed8",
+          "bytes": 1657087
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B1/B1-01056.vtu.gz",
+          "source_sha256": "c4f341091bf11f97b63e42e9b6e556b986e737cb97f6d97a2b13721bf13b2a04",
+          "file": "B1-01056.vtu",
+          "working_sha256": "6055f88a27d1fb93b138ca39e1a7f6c7b36e5d89b79c80a441563679bd79be34",
+          "bytes": 1656806
+        }
+      ],
+      "working_bytes": 14801450,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "2d_b/B1"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2/B2.pvd",
+      "source_pvd_sha256": "521198efe24182bf5c982f0709c2b71f029d7d678cce8be05cbd2d7799988e9b",
+      "sparse_pvd": "B2_sparse.pvd",
+      "sparse_pvd_sha256": "506992d7ad66e25f71a29577cfae35222a58553146d91e64b1065978bb04233b",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2/B2-00012.vtu.gz",
+          "source_sha256": "bdcdcf4d9fc513d2cfc9d3c4346ec28adfadf32c25d424ec0be7990486bc21f5",
+          "file": "B2-00012.vtu",
+          "working_sha256": "634e52f36e3f56756849af3a708fb3535b7a4239e7ebf8cc9eece86c6bb035f5",
+          "bytes": 1549668
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2/B2-00156.vtu.gz",
+          "source_sha256": "9a4dd4fc89601c1b45b802b12b900b294936d73ddfcd4e7c7f0a227e25fd45ff",
+          "file": "B2-00156.vtu",
+          "working_sha256": "f49c4ae1354c8beb180242a5c8555811a1045fb1a6207b061603f7050f5c0f3e",
+          "bytes": 1655432
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2/B2-00372.vtu.gz",
+          "source_sha256": "018ac4624b959f9dbec181dca687952ebdf18ace3f696493f2a793dd7a5c515f",
+          "file": "B2-00372.vtu",
+          "working_sha256": "7637d9cae60dbc460ad73cba9bfb8fe80b95957ae3f78e11b05fa2aaa7ee2d4c",
+          "bytes": 1655355
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2/B2-00516.vtu.gz",
+          "source_sha256": "a63322b5c1e291ebee655a234e7c30cac35719d5283f82f060cadaf68aa870bc",
+          "file": "B2-00516.vtu",
+          "working_sha256": "df0fae50aecaf4357ee0adb3672c98dc7c34ff4984b78b7d306c1f90c2b48457",
+          "bytes": 1656316
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2/B2-00588.vtu.gz",
+          "source_sha256": "33376f33cc682df9bd9485e905c3b5a62e826459e61dc0b1c7cf41ce150292cf",
+          "file": "B2-00588.vtu",
+          "working_sha256": "99f40b590ed88957db8a7be29dda8fc6c0ae5cdad5cbcdb3786eba45b3c0bed7",
+          "bytes": 1656434
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2/B2-00660.vtu.gz",
+          "source_sha256": "f1b7fcae7390907fffb58e4ffc18e87b27a7d998871cb8a82f8b917e0ac1b64b",
+          "file": "B2-00660.vtu",
+          "working_sha256": "c92110388b1eac41d867f083cf1ca9046e4c9e94cc684159fd335c2e5e5aed76",
+          "bytes": 1656733
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2/B2-00732.vtu.gz",
+          "source_sha256": "0045d7397be3f3e7c2dfc80839fad8135d6d30926836ac91880f6ae0ca69e616",
+          "file": "B2-00732.vtu",
+          "working_sha256": "cdf4fa9751e95462ea5012b31446fd85e6c5d4d57f42f0a724f67eae80e46d7a",
+          "bytes": 1656726
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2/B2-00876.vtu.gz",
+          "source_sha256": "a5db4a5efe9bb9750fc75c5bd96f4778e1864fdc6e3847b8ed1bbe68e7d7ca95",
+          "file": "B2-00876.vtu",
+          "working_sha256": "96722b2a7236890f54f5e6e5dc1022be26ca0d2159bc7d0d21e5d6721cfcc6db",
+          "bytes": 1657077
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B2/B2-01056.vtu.gz",
+          "source_sha256": "46ddfa771c5f7ecf44a8161cc871e5fc0824c2b4b954a80ce46439ae784b0e7d",
+          "file": "B2-01056.vtu",
+          "working_sha256": "edb22643f9a66d728b782e31293138ffa07d73f98e09b40bea8ec92d6842f4f8",
+          "bytes": 1657127
+        }
+      ],
+      "working_bytes": 14801609,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "2d_b/B2"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3/B3.pvd",
+      "source_pvd_sha256": "10d22d96c143e23064d7da619f95abfb9a63a6c0992361ec4e02f0f51d1fada3",
+      "sparse_pvd": "B3_sparse.pvd",
+      "sparse_pvd_sha256": "68b1fc0ee2234c1cf21e0f22544ae07497e612c4d02824b91fcbf0ce898558f7",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3/B3-00012.vtu.gz",
+          "source_sha256": "ee82e95e276c08e18ef96082f9545f34ed38ebf2d9a8601618bba1377191fd52",
+          "file": "B3-00012.vtu",
+          "working_sha256": "7db80843dc197790eb966b08dafcad686891a6bd8ef583d9364b29cf4d74da1d",
+          "bytes": 1549760
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3/B3-00156.vtu.gz",
+          "source_sha256": "809e52b1a693d5622d064a451a90990f34058c3151cc09583c9ca676363ff303",
+          "file": "B3-00156.vtu",
+          "working_sha256": "13929707f0cf6d7cd773fa7fe3e5acbe547639719083dbc8e7ccee3a46e7b464",
+          "bytes": 1655536
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3/B3-00372.vtu.gz",
+          "source_sha256": "f2b4ced4e7b9faae72a543560e8771c77b375ef9494f4330442d3708f73e9817",
+          "file": "B3-00372.vtu",
+          "working_sha256": "4f97403f3bcad01d03f198b6c8d7cd18cf88d62f2dad602209ecad0c03b3e6cc",
+          "bytes": 1655807
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3/B3-00516.vtu.gz",
+          "source_sha256": "a76e6c35b1378779d1dcb674b5aa8b7f393733da29fb87058924700b35194ded",
+          "file": "B3-00516.vtu",
+          "working_sha256": "6249f3d4cc3ac04c662d58ccb102ba2abb49acad7d4ea8e4a6a8276f4a883593",
+          "bytes": 1656798
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3/B3-00588.vtu.gz",
+          "source_sha256": "8f16b97dbd8617948ba5852ee4b882d7ec49f42c44504eaebb011286fac2fbac",
+          "file": "B3-00588.vtu",
+          "working_sha256": "a37c7bdcaf4857dbb1eeb2be3bd23b236de11193af49683dde842aed4c8d7d7f",
+          "bytes": 1657154
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3/B3-00660.vtu.gz",
+          "source_sha256": "c8fe81fa4897227bfad4cbd5807596241633d4f7a7f96b318b64cb6288b7c5f0",
+          "file": "B3-00660.vtu",
+          "working_sha256": "3fa06efbc7fbe143d259bb6febbe36a622e8458c1d42681b65d5aaf18e9771cd",
+          "bytes": 1657522
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3/B3-00732.vtu.gz",
+          "source_sha256": "274cd707b8aa323e4cfd9135871f4504270d46d7227f5d605169d2b186945192",
+          "file": "B3-00732.vtu",
+          "working_sha256": "85d557887d8bf0b7a7f744b44a057fdabdecc140621848927474bd5e274412cb",
+          "bytes": 1657481
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3/B3-00876.vtu.gz",
+          "source_sha256": "34f0cd30316f6f162c2fdf366fe96daa01245ca3e4e2ebbef2fdd64a8b63bf20",
+          "file": "B3-00876.vtu",
+          "working_sha256": "f9feca6b1b616264ac90df0f1d2802b1ab8896f189f13f8ff35578b0be3141d9",
+          "bytes": 1657626
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d/raw/runs/B3/B3-01056.vtu.gz",
+          "source_sha256": "04b423d5dcc37d29afaa431da6df7d7e3329d17d04a1af68d6e56e3a282956df",
+          "file": "B3-01056.vtu",
+          "working_sha256": "3de0ab9148eae3a6426ef40af3914bac56c6ed9c7f60eb3feead555d19b26628",
+          "bytes": 1657752
+        }
+      ],
+      "working_bytes": 14806177,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "2d_b/B3"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G1/G1.pvd",
+      "source_pvd_sha256": "7e9dbd1fe4a9b7bc2254585295eccb6eb92ab3e573f5b4ee64066e1044c3c559",
+      "sparse_pvd": "G1_sparse.pvd",
+      "sparse_pvd_sha256": "f320d89e1edd11fd630012a3317459c21032258bd70c7a1629123294254ef7c2",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G1/G1-00012.vtu.gz",
+          "source_sha256": "68a819eb8b01e8963c87817b254d19cae2de63110bb5cdcec4cf20bf60b885bb",
+          "file": "G1-00012.vtu",
+          "working_sha256": "e16e5ee42c23cebc178f75127816ce8c64a807b1030e4a3e97d5dd2c75acecdc",
+          "bytes": 1781351
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G1/G1-00156.vtu.gz",
+          "source_sha256": "f170a06548d83f4225ea3c9b7b16a5892bec739bab08e23b710f5f7500d7dfc7",
+          "file": "G1-00156.vtu",
+          "working_sha256": "dcc76faf1190c258ab16eb454463129ed4d5592e7265982b822d395f29636880",
+          "bytes": 1904661
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G1/G1-00372.vtu.gz",
+          "source_sha256": "7d7b54d9eead7e86b67d355a62ba92e7de4826e42f51a4bd96faef8409e92ac3",
+          "file": "G1-00372.vtu",
+          "working_sha256": "813fe3d6930f9e84dbb8a812c30d8896ff82a4ef7515b0a87d26a73d5f858d89",
+          "bytes": 1904782
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G1/G1-00516.vtu.gz",
+          "source_sha256": "76e488e7309e9024201abc788a9733a71ffb23747b39d789b3c3d124a7e036cc",
+          "file": "G1-00516.vtu",
+          "working_sha256": "3c869dd0fed310892e9098ac2beea11cbd6de614ca6b93dff46b3adbf3e89602",
+          "bytes": 1906164
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G1/G1-00588.vtu.gz",
+          "source_sha256": "5ad6c7f765bc0fdeacef8a99bd7082e9cb29f4ac547b4361f3d120b96b23f23b",
+          "file": "G1-00588.vtu",
+          "working_sha256": "e5d00c996e404eccca6b1ee36d4d058c6afef39c2ae5e3f3363367ba1344be4e",
+          "bytes": 1906643
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G1/G1-00660.vtu.gz",
+          "source_sha256": "acc0e5118b05515216955b84ed67b26d8f2e5ec667dd9ec47ee44a7364040fb0",
+          "file": "G1-00660.vtu",
+          "working_sha256": "a91cd9ca5fcc724bad12499f5130d710fd4b4f4ecfe366f5bd46dd1f0d9965e2",
+          "bytes": 1906945
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G1/G1-00732.vtu.gz",
+          "source_sha256": "eb670f4e8667e7f498507d8b812e9f32f457be3fbd5faa7fabb51676c74d939a",
+          "file": "G1-00732.vtu",
+          "working_sha256": "26d78262ff1612c1b6d2dfc6b6f709b0809a464a0984a128acda743558d15f0b",
+          "bytes": 1907188
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G1/G1-00876.vtu.gz",
+          "source_sha256": "e995c3f268a576abd649b36d27e51cd0af5b92cc6335ebf9cdbbf7b0a0c2fd98",
+          "file": "G1-00876.vtu",
+          "working_sha256": "a757b3d69cbeec015c13ee5dd3ffcb1498f60f20b898c5f60e0d99be20fc8242",
+          "bytes": 1907369
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G1/G1-01056.vtu.gz",
+          "source_sha256": "a1344d77376735de7bcb1a10198fc626f7118fc2e155d53094cde25cb1113658",
+          "file": "G1-01056.vtu",
+          "working_sha256": "c6bbe39465c53a0b73f7cc4cede91fc3422e373c3c25179434cece43743d9e0b",
+          "bytes": 1907654
+        }
+      ],
+      "working_bytes": 17033498,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "2d_g/G1"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G2/G2.pvd",
+      "source_pvd_sha256": "57cfe0946cd5b6dc4f3e2dfae87a08d8bdf002734a562dacac71da23a280acda",
+      "sparse_pvd": "G2_sparse.pvd",
+      "sparse_pvd_sha256": "18b0e30eac5daef3312695c57bc9742738a8e80539397dc36da56753a421a59a",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G2/G2-00012.vtu.gz",
+          "source_sha256": "8c4476a9b22370102afa9e6d9144716996acbad0a67312e71f94105c264e81fd",
+          "file": "G2-00012.vtu",
+          "working_sha256": "16133f83fd60a246576f639c86d5e49396cb42c666700ca0d22fca9a84f9bdfa",
+          "bytes": 1781410
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G2/G2-00156.vtu.gz",
+          "source_sha256": "234b5875159d81373563cfe7d8326f230193fcff308c60e519f9f0477946cb17",
+          "file": "G2-00156.vtu",
+          "working_sha256": "fa54f1b3b106dca8f5de9704a4c374ab17e84d77b43f8c765768c06ebe690426",
+          "bytes": 1904763
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G2/G2-00372.vtu.gz",
+          "source_sha256": "c8a3aca176f711b4e3db9f3ff98ed6e9f558e379f81d71ce3e075e7568ca4830",
+          "file": "G2-00372.vtu",
+          "working_sha256": "88acda508ee9f38e41384c2c5a1c5cd025be8e59c352a1e8067e379864738ab3",
+          "bytes": 1904794
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G2/G2-00516.vtu.gz",
+          "source_sha256": "89a40f9871c38bedfafd2e439fcd892f7f4e475f408213744939331c2d7aec93",
+          "file": "G2-00516.vtu",
+          "working_sha256": "e368b33593e6fbb64b18fc7d31933078742effcb5f5a5b5915e8710a0c88fda1",
+          "bytes": 1906086
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G2/G2-00588.vtu.gz",
+          "source_sha256": "cb8af2fedaa607d805729479cc6576624ce3e8b0ec94f62b2dd57d428bb5a6c4",
+          "file": "G2-00588.vtu",
+          "working_sha256": "815594036cf0f0fc296c2d32466c1f0107e7b43f4d1ef5587ad2843835862f11",
+          "bytes": 1906618
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G2/G2-00660.vtu.gz",
+          "source_sha256": "afe2d24245d7103ad0b434606efc219ec089b515e5d7e477c699f2501fb7997e",
+          "file": "G2-00660.vtu",
+          "working_sha256": "2c183a2ee003ad008859452ff70601b12d53683ebbea05db626036c564c1bebb",
+          "bytes": 1906953
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G2/G2-00732.vtu.gz",
+          "source_sha256": "cb81124e1b07ecadf6b37740a0790cfbd0d813f4979b9ec1ec227eeb976e345f",
+          "file": "G2-00732.vtu",
+          "working_sha256": "9834e92fcbde18a21d3b93e7f722e11a2a05b21aba1b4115e5ca909b4f1618ca",
+          "bytes": 1907133
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G2/G2-00876.vtu.gz",
+          "source_sha256": "9bbe5a3b08797e43a0149616450403061cfc11b461634b9e6646a4097bc79a66",
+          "file": "G2-00876.vtu",
+          "working_sha256": "65727cd28aebbef9a4efed905de04a751a7a40dc7558cde3a2c56e515434cd90",
+          "bytes": 1907358
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G2/G2-01056.vtu.gz",
+          "source_sha256": "8391804fd9b38d4dcac621c199749344dbbc312d46b6ddf4ed1addb2acf219c9",
+          "file": "G2-01056.vtu",
+          "working_sha256": "d4880fc9a6ab5a23aee527e6d434e6095afc0b6d16882f9d4fbdfa159ae25690",
+          "bytes": 1907729
+        }
+      ],
+      "working_bytes": 17033585,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "2d_g/G2"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G3/G3.pvd",
+      "source_pvd_sha256": "b815936d9146ac20becbc41bfa9d526b18f429c79aaf76111895146398be60e2",
+      "sparse_pvd": "G3_sparse.pvd",
+      "sparse_pvd_sha256": "012aa5743892ca6879887038ce917cb9ba821b24ee30d1a33238ab26eb303afe",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G3/G3-00012.vtu.gz",
+          "source_sha256": "672e8ea60a6ebaccc7939aac93197b8d5e0e7379639d57c57a644a4b2fc89ded",
+          "file": "G3-00012.vtu",
+          "working_sha256": "a7bcd0a0c94b756cdf36a03ad25d498e9aeb7e18ce1e4c11f847160fb2305185",
+          "bytes": 1781448
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G3/G3-00156.vtu.gz",
+          "source_sha256": "0bb3eb751f15465372e818c3ea7bd0bd6559db78ee48c293f9fa3e6324b6926a",
+          "file": "G3-00156.vtu",
+          "working_sha256": "01c04b83b4024f34770d176b2daf506c10dfae46e26d16ab7778654eff906312",
+          "bytes": 1904596
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G3/G3-00372.vtu.gz",
+          "source_sha256": "18dd9eb772b75c56e5e1cc17dd5960ad6e972effaa814d5ae1a442076c486c5b",
+          "file": "G3-00372.vtu",
+          "working_sha256": "d804050f0c768028e82133615825265b88e0a69a60cba67dbede390714631186",
+          "bytes": 1904782
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G3/G3-00516.vtu.gz",
+          "source_sha256": "3040db28ed998f39047a4bc324b02f676e2cbaa020068da906c10ccef21cfdd3",
+          "file": "G3-00516.vtu",
+          "working_sha256": "1f7382e26079e4e09e79955410777a900a59ef280d71afe4dfc4967dd48b6d15",
+          "bytes": 1906184
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G3/G3-00588.vtu.gz",
+          "source_sha256": "f26fd009f4e48741b4093878636c9d136a215b8fd1fb5d75f1d6ec727ef8ed91",
+          "file": "G3-00588.vtu",
+          "working_sha256": "b69d320f4cc2dc4049d501d37ad357af19edfa21af397580f81b73929c8db948",
+          "bytes": 1906638
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G3/G3-00660.vtu.gz",
+          "source_sha256": "af908634b4a78a1b42b750536fa7d37ecd1dd1a0f98b7352360bc5ecc1477ea2",
+          "file": "G3-00660.vtu",
+          "working_sha256": "d5f390a5d9adcddc54a2f2f318c2972489d26946993ca742a63de3f89ccc2ce4",
+          "bytes": 1907066
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G3/G3-00732.vtu.gz",
+          "source_sha256": "25d46a6f115e1c3d77f3834685c1c0aa947f84b37d14114f9bb6617fead2c7c7",
+          "file": "G3-00732.vtu",
+          "working_sha256": "bf9bf1e8b2a15c26fbad23d5872e09be98c71b522101038455894ba6045547ce",
+          "bytes": 1906993
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G3/G3-00876.vtu.gz",
+          "source_sha256": "2c2302fa4824ddb00e2b1ee1fbb182e6aa929bda6f81f2b6146c4aa3c9dd7820",
+          "file": "G3-00876.vtu",
+          "working_sha256": "c2c4e46ceb8747e4313540a0293597206e0ec39900d0c9c3080bb1b626716086",
+          "bytes": 1907437
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track2d_g_conditional_r02/raw/runs/G3/G3-01056.vtu.gz",
+          "source_sha256": "b3dfe7bea0ed9ab3334cbfd9990d80a9fde5688909fefe4e270594d76fc11cab",
+          "file": "G3-01056.vtu",
+          "working_sha256": "741a4c5d8f89ab6c0b32af463137eeec343cdf5526ca2bcb62b0f8f92a814d4b",
+          "bytes": 1907461
+        }
+      ],
+      "working_bytes": 17033346,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "2d_g/G3"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0/B0.pvd",
+      "source_pvd_sha256": "0f053985ed60db50ce07230dc536bd3e468a7925ea2bae57754f232c14964721",
+      "sparse_pvd": "B0_sparse.pvd",
+      "sparse_pvd_sha256": "81fdcc8e852eceb0ebd75f30559ea90919d9d9d512652380c5086c66f4de06f4",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0/B0-00012.vtu.gz",
+          "source_sha256": "128813950c3072ea64d5b95812a612a8498e24a413ab891acd9de60c4bfe59a9",
+          "file": "B0-00012.vtu",
+          "working_sha256": "41c25db9be048d2ceeaf944489584aacc74cdfdad73d3d74d2485d613b163b6a",
+          "bytes": 13825792
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0/B0-00156.vtu.gz",
+          "source_sha256": "18eea3654dee8c1f9322b54ae381ae5dee2e4746c9a4b01de8dac3e5176e2d73",
+          "file": "B0-00156.vtu",
+          "working_sha256": "1ee3cb3fc689ed22e4d0bf4fcad538333ee8e87a78d749d49c6226b49d4aa7e5",
+          "bytes": 15343995
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0/B0-00372.vtu.gz",
+          "source_sha256": "4f1d5d2b0c5637ade3e675ebcbbc52d9ab18efbe17423d9947f53271174c508c",
+          "file": "B0-00372.vtu",
+          "working_sha256": "789d77e425470438789a2718b1c21e8b54d22240f5a64d34acef4d2a4f3152f7",
+          "bytes": 15340723
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0/B0-00516.vtu.gz",
+          "source_sha256": "646571a77a2b5ff378e8e0d9653860e7e0400a15d0168e3bf6d08716d3d62676",
+          "file": "B0-00516.vtu",
+          "working_sha256": "b99e5b4a126ad61d6809958e4ec636993617dea18f99145e34145f2daea7b700",
+          "bytes": 15339721
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0/B0-00588.vtu.gz",
+          "source_sha256": "c644b3036a7c94de5f606a5dbae37861975d967a2dc0bacadf7ae15081c8ba7b",
+          "file": "B0-00588.vtu",
+          "working_sha256": "43f34f8f50e11e1f248913872e6b5b2ba8d40fe6006e70f827d605523cba6ebf",
+          "bytes": 15339619
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0/B0-00660.vtu.gz",
+          "source_sha256": "bd8ccac0a2e5c7c3ad442ea8cffecb049a64ad089f6142b30cb24c6b718a58f9",
+          "file": "B0-00660.vtu",
+          "working_sha256": "c46ffc70127f45a31d9f8da79cf61e9274b4cb90e19ed322dd3ea95289fbc139",
+          "bytes": 15341996
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0/B0-00732.vtu.gz",
+          "source_sha256": "6bde09c1e71ca9de959841bbf1bb96402bd2473bd673fa16beebba1203847358",
+          "file": "B0-00732.vtu",
+          "working_sha256": "e299719161f3ab553768e6f2114a9cedcd94d546374673429309df36d5663d8e",
+          "bytes": 15343434
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0/B0-00876.vtu.gz",
+          "source_sha256": "7106ed89c2194e194b106d7655b85568d31c6b2c82a03f20f43c7f38db92af94",
+          "file": "B0-00876.vtu",
+          "working_sha256": "c19d3044831b1134b401698f726e92b7d4c2bde26399400db07a460b16a6889f",
+          "bytes": 15343256
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0/B0-01056.vtu.gz",
+          "source_sha256": "da1290c8f10a81aa35a6466f71981a41e66653087c20195a1346f1ea791cd4ed",
+          "file": "B0-01056.vtu",
+          "working_sha256": "e2d15ccb214fadac409e01fd5bd2a80bcd768736ab28a5b60262cb54987a6c08",
+          "bytes": 15339040
+        }
+      ],
+      "working_bytes": 136558317,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "3d/B0"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1/B1.pvd",
+      "source_pvd_sha256": "77a0644f421eadeaf21ee6093616fd0cc02db605d0b1854832f10bf2a4d39930",
+      "sparse_pvd": "B1_sparse.pvd",
+      "sparse_pvd_sha256": "feea0b5eb0bee2c6e19342c74b7b374dd39825e1cb476a34d7434d4add85b414",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1/B1-00012.vtu.gz",
+          "source_sha256": "126ad3015a7b84ea45fea5435e2042aaf4618654f067889d8bd6f8a7cf8fe0a2",
+          "file": "B1-00012.vtu",
+          "working_sha256": "c662cdc8c7941f32d58e31c9c411d25eeef23eda905ad608b8fbdd4bb36ebc5b",
+          "bytes": 13825716
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1/B1-00156.vtu.gz",
+          "source_sha256": "3d25906bad348efbe730f66c12ec093f99179780a5c7788c9bcfdff4b3e72623",
+          "file": "B1-00156.vtu",
+          "working_sha256": "b1e9852b0c7f1d951b210bbc91e1b286c3a64c2456f3ddf3bb64fa643df24583",
+          "bytes": 15343852
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1/B1-00372.vtu.gz",
+          "source_sha256": "c26a3f4ec9d0b7aa7a0bf802af01d37c70c69a184c9f3b65632dfcedeacb8dec",
+          "file": "B1-00372.vtu",
+          "working_sha256": "5e4f8613e813f4ba533693d7401d8a654a6efe430e0dbe14556c34ce0af5bcfe",
+          "bytes": 15340739
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1/B1-00516.vtu.gz",
+          "source_sha256": "da8bef5006e79fdd18ef443dab110cee9cba1c322a3d31c2fdf4ab8bc28ba12c",
+          "file": "B1-00516.vtu",
+          "working_sha256": "dbe0f21c266998ce8205fccbb78dbd9c8f25a73180ebc035067147fb5a21b91e",
+          "bytes": 15339788
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1/B1-00588.vtu.gz",
+          "source_sha256": "4ae7964575f38dead8aae07b66a7e866050767de422764b03bb7f4bf928c2bf8",
+          "file": "B1-00588.vtu",
+          "working_sha256": "57b977efbdda73a90f22210e5697ad26c5f0aab2242fc8da517fa59d5eac3b4a",
+          "bytes": 15340966
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1/B1-00660.vtu.gz",
+          "source_sha256": "752f90eb054f828c0cd908eeee47eb1f317ceee561a3f6b44b28b5a27e0c96ed",
+          "file": "B1-00660.vtu",
+          "working_sha256": "dfb712643c205cbe26ef3cd9fd096fb613ad272c53f5e5aa1a955813cd91bae4",
+          "bytes": 15342295
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1/B1-00732.vtu.gz",
+          "source_sha256": "75aa5cd9807541f0a82de23a8617a54644ccee418d1a9a2150660a30b9b0962c",
+          "file": "B1-00732.vtu",
+          "working_sha256": "7fd262ba80100f9a8098d33bf3044fadf4ec23e423322ca4bfcdc7614928f22f",
+          "bytes": 15345211
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1/B1-00876.vtu.gz",
+          "source_sha256": "717fcda026053ebdddd377e61611f9deaa0ac6aaa0568c5edcb9fed1d8e45d8c",
+          "file": "B1-00876.vtu",
+          "working_sha256": "679a7213409427b70e582248577a3409b6c40292ef4bc0590c825d0a9ad2150d",
+          "bytes": 15345044
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1/B1-01056.vtu.gz",
+          "source_sha256": "b8b14bb891d2cfb81624f609dbdeff4097bd8031e2d07554432031a7bba36e19",
+          "file": "B1-01056.vtu",
+          "working_sha256": "9552478357cabf79c616899b173e318df5dcb17739aca09503f31648444ab37d",
+          "bytes": 15338680
+        }
+      ],
+      "working_bytes": 136563032,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "3d/B1"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2/B2.pvd",
+      "source_pvd_sha256": "521198efe24182bf5c982f0709c2b71f029d7d678cce8be05cbd2d7799988e9b",
+      "sparse_pvd": "B2_sparse.pvd",
+      "sparse_pvd_sha256": "506992d7ad66e25f71a29577cfae35222a58553146d91e64b1065978bb04233b",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2/B2-00012.vtu.gz",
+          "source_sha256": "f0ffaef1992c404d795c413934e37ee41fa179e2d336b6feaeb3417fd9a6f01e",
+          "file": "B2-00012.vtu",
+          "working_sha256": "99680265b02a1977ebe178e05a11308a25b7c85c7a1e50ce5dcd47a1ea51c79d",
+          "bytes": 13825758
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2/B2-00156.vtu.gz",
+          "source_sha256": "9bc412cf5a269ae76c7513b66e51354d6c6c2fe807333fc67802ac9c0c8c240f",
+          "file": "B2-00156.vtu",
+          "working_sha256": "a1e821a477ee39ffabf726ce5e08c2b61156b9bad579945ce4c5959f3778158d",
+          "bytes": 15344163
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2/B2-00372.vtu.gz",
+          "source_sha256": "bdfd304169714c78918e8bfc4c8c3dd2ae0eafea3930e6ca452e6070e760d2ab",
+          "file": "B2-00372.vtu",
+          "working_sha256": "a52f4ace44666c220c19489b9e4af34905206dbe658caf0ece2911a03b8813b1",
+          "bytes": 15341299
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2/B2-00516.vtu.gz",
+          "source_sha256": "bcb0c1d45c7b50a14ee7c08c9987d956f7c17b7bec127c7c5d8ea4ffa726b8e9",
+          "file": "B2-00516.vtu",
+          "working_sha256": "e50052b42467dfe9fb9a2812e90ea1b19f9fd0da6333911677ffa3604c06c7fe",
+          "bytes": 15340770
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2/B2-00588.vtu.gz",
+          "source_sha256": "0b4e3577434eccb33810310d03d3dee879570f5c9e5504ba691e0bdcbf412390",
+          "file": "B2-00588.vtu",
+          "working_sha256": "f347b31d62119e5ffcd82c985b0a3ae3cecbcc1e3e3ba7ae166189c783ea6096",
+          "bytes": 15342871
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2/B2-00660.vtu.gz",
+          "source_sha256": "6f99a7c45a37895fea9171db0541f9063f71804a489f028ef5741228e643001a",
+          "file": "B2-00660.vtu",
+          "working_sha256": "64e5aa5329ebe2ea56676ca7b593f96203fb1d782de4f0f570e238afdc56f4ce",
+          "bytes": 15342838
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2/B2-00732.vtu.gz",
+          "source_sha256": "145d27b17231966744a6e9308b03fdbad1db550ed208ea0de303d1ae263e9bed",
+          "file": "B2-00732.vtu",
+          "working_sha256": "f6ce7fbe57934eed541f8df1b9c32560dc2dbaa6f181a15a1495b37eabc0880c",
+          "bytes": 15342894
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2/B2-00876.vtu.gz",
+          "source_sha256": "84c7e29f98ae3eb6d80f73809080bd88430d6321823504e210ea174bf3c24edf",
+          "file": "B2-00876.vtu",
+          "working_sha256": "8bbda6e89b0b9df3d21362cc8e2a60a4f70c986277c1be48f8a99e46c449f5d9",
+          "bytes": 15340854
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2/B2-01056.vtu.gz",
+          "source_sha256": "90bbe2a9549f7a5abf6e7552fd52ee525e993d1c68b83e27a42c881d0c1f395f",
+          "file": "B2-01056.vtu",
+          "working_sha256": "4624b9c7d3ae30ea4037400e88d00028b89b781f2966df45a6275d5648f0d519",
+          "bytes": 15339796
+        }
+      ],
+      "working_bytes": 136561984,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "3d/B2"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3/B3.pvd",
+      "source_pvd_sha256": "10d22d96c143e23064d7da619f95abfb9a63a6c0992361ec4e02f0f51d1fada3",
+      "sparse_pvd": "B3_sparse.pvd",
+      "sparse_pvd_sha256": "68b1fc0ee2234c1cf21e0f22544ae07497e612c4d02824b91fcbf0ce898558f7",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3/B3-00012.vtu.gz",
+          "source_sha256": "e775f9ce9f5cef40696ccd2bbf0517f8d7183cc6500601596e03017cd4b27ed5",
+          "file": "B3-00012.vtu",
+          "working_sha256": "fafb2f24b255427f61326a4212732bbe4d6ca1f7221474ff25de5428f886a8cd",
+          "bytes": 13825627
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3/B3-00156.vtu.gz",
+          "source_sha256": "5d653204eac778d498560ad534e6afc9798cd12643f2171a4944a68acfad97b6",
+          "file": "B3-00156.vtu",
+          "working_sha256": "35ce34bfc26c15dbf989a951a65c79f2c8967672eb9f91c84a0bfe3ac47d4003",
+          "bytes": 15343926
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3/B3-00372.vtu.gz",
+          "source_sha256": "7ef3b99113566579d4588fcb5b2d8e307106ee0ca9a9f29691203c79a6434021",
+          "file": "B3-00372.vtu",
+          "working_sha256": "897df9e4bc91942f6d5a1531c269f48ce7e8ddc79c2c5e0f5197c529ee070ae2",
+          "bytes": 15345975
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3/B3-00516.vtu.gz",
+          "source_sha256": "503e1d6bcee736cd636bb19649b4ec153e935f1ccd51504fcf85a2588139102e",
+          "file": "B3-00516.vtu",
+          "working_sha256": "ddf4a4de92ecba0846f035b2f3a81ff2436e8e3fedc65a5e2c6b228cb431a0cd",
+          "bytes": 15346315
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3/B3-00588.vtu.gz",
+          "source_sha256": "22184e04b2a4b4b2b40241b4784a33bed3e51e3350391b6f16b0486ba0c370f0",
+          "file": "B3-00588.vtu",
+          "working_sha256": "e98999a80415bb01086a787bb4afff4feefe09706b082d36cf948c8587c51a4f",
+          "bytes": 15348898
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3/B3-00660.vtu.gz",
+          "source_sha256": "0831f3bc76b3b5e8545ec678c3aba4cb1d6479faf857edbcfd3b322e52a15de4",
+          "file": "B3-00660.vtu",
+          "working_sha256": "1641a715009b7a61ac48c3ef4824e78ed6daffc52505a41a6cf2dbf188fbbb5a",
+          "bytes": 15351596
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3/B3-00732.vtu.gz",
+          "source_sha256": "7b6b7940056952332ae49709e30c565cd92957b07260ecc77db25153b902d0a2",
+          "file": "B3-00732.vtu",
+          "working_sha256": "13c18074e09b7c000b57e331a9f0826b774f12a781533751f96557546541ab05",
+          "bytes": 15352029
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3/B3-00876.vtu.gz",
+          "source_sha256": "c3c86864aeb15d545d211c8fff72f470fc5d910a77d2ff3958d6c59dc5eac58a",
+          "file": "B3-00876.vtu",
+          "working_sha256": "a6198011a6439f35261fdf619531c539f5e01bb0cc88c42196097873218456cb",
+          "bytes": 15354086
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B3/B3-01056.vtu.gz",
+          "source_sha256": "36c82585971e688cbda22e2bef5c1d5cce6d103f46f9b66813bbf9b7a6d6e78e",
+          "file": "B3-01056.vtu",
+          "working_sha256": "40d1cc466d11b6a15a06a0626e1d4d15355cf136a0438bebe94a5ee8de8a796b",
+          "bytes": 15356767
+        }
+      ],
+      "working_bytes": 136625960,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "3d/B3"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G1/G1.pvd",
+      "source_pvd_sha256": "7e9dbd1fe4a9b7bc2254585295eccb6eb92ab3e573f5b4ee64066e1044c3c559",
+      "sparse_pvd": "G1_sparse.pvd",
+      "sparse_pvd_sha256": "f320d89e1edd11fd630012a3317459c21032258bd70c7a1629123294254ef7c2",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G1/G1-00012.vtu.gz",
+          "source_sha256": "76cd303f68ab5d7d08f3e21d6620cdf1a49e2d431ecce9c3ccd25d6277009f73",
+          "file": "G1-00012.vtu",
+          "working_sha256": "c1b4ab2152c96eb928d5ec1cd0f2988bec4c917eb4629c04b7e7644e0f046985",
+          "bytes": 15888716
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G1/G1-00156.vtu.gz",
+          "source_sha256": "a65f492b0a48f30ab0092c05a920c11e39e97cd8b648bbd0fbea9fce5834880d",
+          "file": "G1-00156.vtu",
+          "working_sha256": "8e9a3179f97df997c4ce99031a77f995ba2b852dfb6f02144700a441ceeddea1",
+          "bytes": 17632695
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G1/G1-00372.vtu.gz",
+          "source_sha256": "d29f656b0d51663628e1ca863400e45c8e27ef9fa77f68de541453cf5452693f",
+          "file": "G1-00372.vtu",
+          "working_sha256": "5f89ec4eb3396ac6d39356d5c7bb975961bc9a15d04aaed5de4f9b82b9fb5000",
+          "bytes": 17630881
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G1/G1-00516.vtu.gz",
+          "source_sha256": "08fcd40ffed22fedef16aac3cedead61b8c5042752b9954e4d8fc45912a04145",
+          "file": "G1-00516.vtu",
+          "working_sha256": "3bf7e554779595411af4ed058de8da5c909a240b2514d767bfec94ccad11a266",
+          "bytes": 17633175
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G1/G1-00588.vtu.gz",
+          "source_sha256": "c48901fec293b23ffa7f6e0d2c6a8efe271e482494eb41e581f9e32ef963d8be",
+          "file": "G1-00588.vtu",
+          "working_sha256": "dc2a508a7a07fa6759be9873c55affb27791117600b68240554fded5f51dbbb9",
+          "bytes": 17633909
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G1/G1-00660.vtu.gz",
+          "source_sha256": "b9e65ac384fa62233f69de3de6e1329c35e4a263a2ce1daab4aa003c77991ed6",
+          "file": "G1-00660.vtu",
+          "working_sha256": "66be20eadb5a3dfa7e4f9fa07d3b1514de1cc76329e237f2339dec308e49dd18",
+          "bytes": 17636746
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G1/G1-00732.vtu.gz",
+          "source_sha256": "301a5f8823e08beb8d4bbfb48012790fccac4f12c2c8f26937c582c4ab96df66",
+          "file": "G1-00732.vtu",
+          "working_sha256": "876aee20a3240b783b3a09bde0e3979cdb76b0dbbcea96f253587c41968b13ac",
+          "bytes": 17639183
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G1/G1-00876.vtu.gz",
+          "source_sha256": "3e7488254cb4cd0d1076c39775e749a1c2421907b0b3e687564dd10050d7268e",
+          "file": "G1-00876.vtu",
+          "working_sha256": "90368fefee76e975b693985957097379dba56872504219f9d6932d9796534d8d",
+          "bytes": 17641607
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G1/G1-01056.vtu.gz",
+          "source_sha256": "df41457f263fd441d23cb547e41169563a2c4fee58b1f61472e0cb6ce05a6bd3",
+          "file": "G1-01056.vtu",
+          "working_sha256": "008d483d24a48abba833d409a7c528caccf5c3f104e00c89b2e1a0524ea56f51",
+          "bytes": 17644954
+        }
+      ],
+      "working_bytes": 156982607,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "3d/G1"
+    },
+    {
+      "state": "passed",
+      "source_pvd": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2/G2.pvd",
+      "source_pvd_sha256": "57cfe0946cd5b6dc4f3e2dfae87a08d8bdf002734a562dacac71da23a280acda",
+      "sparse_pvd": "G2_sparse.pvd",
+      "sparse_pvd_sha256": "18b0e30eac5daef3312695c57bc9742738a8e80539397dc36da56753a421a59a",
+      "frames": [
+        {
+          "evaporation_h": 0,
+          "simulation_time_s": 7200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2/G2-00012.vtu.gz",
+          "source_sha256": "937fca00ddeb769fdc1b43c5e5f7cb16765cb48358015121b35e3e79f2dd8851",
+          "file": "G2-00012.vtu",
+          "working_sha256": "06cf657ee4f49475949f94d2e4ce5933fc4f3e845ed38c5f0d55eacdb8452a49",
+          "bytes": 15888873
+        },
+        {
+          "evaporation_h": 24,
+          "simulation_time_s": 93600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2/G2-00156.vtu.gz",
+          "source_sha256": "c9b08964b6ebed1e25bc1f103de905cc2e197e3745d2232832a01e9e416f5925",
+          "file": "G2-00156.vtu",
+          "working_sha256": "dfa143675874dd9ae4aa3c10acdaa805d07c38caa35837541aca493cd075ca6b",
+          "bytes": 17632993
+        },
+        {
+          "evaporation_h": 60,
+          "simulation_time_s": 223200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2/G2-00372.vtu.gz",
+          "source_sha256": "26664a583c644b62d60351df3bed07c44ddb2de73c38ed4c2bcdd8f08e90e4d2",
+          "file": "G2-00372.vtu",
+          "working_sha256": "cb7979a4bc35ca5a2f629e80b170743759c87b057d06eed5794325c278ab6361",
+          "bytes": 17631390
+        },
+        {
+          "evaporation_h": 84,
+          "simulation_time_s": 309600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2/G2-00516.vtu.gz",
+          "source_sha256": "c66f316970b548d22249af2e3f672f8c94bc964cbddf62322ae3a5ba35cfe22c",
+          "file": "G2-00516.vtu",
+          "working_sha256": "dfec41a73b5d3477a1ff3d0420083b8f8c991fa4199cbaaa97dacdc5f21a8404",
+          "bytes": 17633121
+        },
+        {
+          "evaporation_h": 96,
+          "simulation_time_s": 352800.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2/G2-00588.vtu.gz",
+          "source_sha256": "ba583f2298f53a857cccab10c7c888c71a477b02917e23394a316d19f5302b0b",
+          "file": "G2-00588.vtu",
+          "working_sha256": "4fe49d2cf53a83392c2226ee02506d07e0d0de39dd7262867a48b98fa63a4f05",
+          "bytes": 17634841
+        },
+        {
+          "evaporation_h": 108,
+          "simulation_time_s": 396000.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2/G2-00660.vtu.gz",
+          "source_sha256": "118f78ce8fab1f375b358a3ed34e582c2e5c1977058c2d0d8caf5800e58d1fc7",
+          "file": "G2-00660.vtu",
+          "working_sha256": "d1d3c48e79e9f4591d171b7508c7768351d140e11f2d384d3a9101d05d1d6fb7",
+          "bytes": 17636492
+        },
+        {
+          "evaporation_h": 120,
+          "simulation_time_s": 439200.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2/G2-00732.vtu.gz",
+          "source_sha256": "b0aab89f0b462982bd123cffa01082e7cb216d5bae1c66d3beee153cbcba6c0e",
+          "file": "G2-00732.vtu",
+          "working_sha256": "727b83c2067c764f2b5401d649d85333921a73addf33b7c78e8a7c95911cad4a",
+          "bytes": 17638991
+        },
+        {
+          "evaporation_h": 144,
+          "simulation_time_s": 525600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2/G2-00876.vtu.gz",
+          "source_sha256": "4b7b48f968efe464c9ab4d1b9e018e433f1da3deee681ac3469207daf60e7806",
+          "file": "G2-00876.vtu",
+          "working_sha256": "0e9fde09a7b98cdfa459654623df79dae29edfed2b2c35bee1959a8d7b02f717",
+          "bytes": 17641423
+        },
+        {
+          "evaporation_h": 174,
+          "simulation_time_s": 633600.0,
+          "source": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/G2/G2-01056.vtu.gz",
+          "source_sha256": "1995d21bfbc05629e322e483a6337d8fef523ebd0c7b392c276312b5183df308",
+          "file": "G2-01056.vtu",
+          "working_sha256": "be8fbde902191d139bc91ee9ef93fb57bb10a18924538c5b39aa825b79d591f3",
+          "bytes": 17646444
+        }
+      ],
+      "working_bytes": 156985309,
+      "note": "A working copy only. The verified full-resolution archive remains authoritative.",
+      "dataset": "3d/G2"
+    }
+  ],
+  "total_frames": 117,
+  "total_working_bytes": 970588285,
+  "storage_note": "Bulk VTU working files are local/external and are intentionally excluded from Git; this index fixes all source and working hashes."
+}

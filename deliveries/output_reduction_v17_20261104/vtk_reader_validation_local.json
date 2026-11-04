@@ -1,0 +1,904 @@
+{
+  "state": "passed",
+  "vtk_version": "9.3.1",
+  "scope": "PVD XML references plus vtkXMLUnstructuredGridReader used by ParaView; Frodo pvpython 5.11.2 itself segfaults during proxy creation and is recorded separately.",
+  "datasets": [
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\2d_b\\B0\\B0_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "B0-00012.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "B0-00156.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "B0-00372.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "B0-00516.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "B0-00588.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "B0-00660.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "B0-00732.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "B0-00876.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "B0-01056.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\2d_b\\B1\\B1_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "B1-00012.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "B1-00156.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "B1-00372.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "B1-00516.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "B1-00588.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "B1-00660.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "B1-00732.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "B1-00876.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "B1-01056.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\2d_b\\B2\\B2_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "B2-00012.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "B2-00156.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "B2-00372.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "B2-00516.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "B2-00588.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "B2-00660.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "B2-00732.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "B2-00876.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "B2-01056.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\2d_b\\B3\\B3_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "B3-00012.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "B3-00156.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "B3-00372.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "B3-00516.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "B3-00588.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "B3-00660.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "B3-00732.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "B3-00876.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "B3-01056.vtu",
+          "points": 4141,
+          "cells": 4000,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\2d_g\\G1\\G1_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "G1-00012.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "G1-00156.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "G1-00372.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "G1-00516.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "G1-00588.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "G1-00660.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "G1-00732.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "G1-00876.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "G1-01056.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\2d_g\\G2\\G2_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "G2-00012.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "G2-00156.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "G2-00372.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "G2-00516.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "G2-00588.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "G2-00660.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "G2-00732.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "G2-00876.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "G2-01056.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\2d_g\\G3\\G3_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "G3-00012.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "G3-00156.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "G3-00372.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "G3-00516.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "G3-00588.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "G3-00660.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "G3-00732.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "G3-00876.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "G3-01056.vtu",
+          "points": 4747,
+          "cells": 4600,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\3d\\B0\\B0_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "B0-00012.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "B0-00156.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "B0-00372.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "B0-00516.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "B0-00588.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "B0-00660.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "B0-00732.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "B0-00876.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "B0-01056.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\3d\\B1\\B1_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "B1-00012.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "B1-00156.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "B1-00372.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "B1-00516.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "B1-00588.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "B1-00660.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "B1-00732.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "B1-00876.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "B1-01056.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\3d\\B2\\B2_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "B2-00012.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "B2-00156.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "B2-00372.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "B2-00516.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "B2-00588.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "B2-00660.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "B2-00732.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "B2-00876.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "B2-01056.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\3d\\B3\\B3_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "B3-00012.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "B3-00156.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "B3-00372.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "B3-00516.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "B3-00588.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "B3-00660.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "B3-00732.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "B3-00876.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "B3-01056.vtu",
+          "points": 31529,
+          "cells": 30720,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\3d\\G1\\G1_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "G1-00012.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "G1-00156.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "G1-00372.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "G1-00516.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "G1-00588.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "G1-00660.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "G1-00732.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "G1-00876.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "G1-01056.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        }
+      ]
+    },
+    {
+      "pvd": "model_revisions\\20261104_output_reduction_v17\\sparse_working_sets\\3d\\G2\\G2_sparse.pvd",
+      "state": "passed",
+      "frames": [
+        {
+          "time_s": 7200.0,
+          "file": "G2-00012.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 93600.0,
+          "file": "G2-00156.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 223200.0,
+          "file": "G2-00372.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 309600.0,
+          "file": "G2-00516.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 352800.0,
+          "file": "G2-00588.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 396000.0,
+          "file": "G2-00660.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 439200.0,
+          "file": "G2-00732.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 525600.0,
+          "file": "G2-00876.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        },
+        {
+          "time_s": 633600.0,
+          "file": "G2-01056.vtu",
+          "points": 36143,
+          "cells": 35328,
+          "cell_arrays": 24
+        }
+      ]
+    }
+  ]
+}

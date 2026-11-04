@@ -1,0 +1,207 @@
+{
+  "reference_binary_sha256": "9b1422e33fb76423322b081e414206e22777548fca0b703d6e285186a4fe63e5",
+  "overlay_binary_sha256": "e36ca36d532b5a42b56e27c6a50e0c3c379d5de706072a3743e91cec57166908",
+  "binary_difference_reason": "diagnostic-only accepted-step depth_profiles_compact.csv writer",
+  "tables": {
+    "budget.csv": {
+      "rows": 47,
+      "max_absolute_difference": 0.0,
+      "max_relative_difference": 0.0
+    },
+    "film_budget.csv": {
+      "rows": 47,
+      "max_absolute_difference": 0.0,
+      "max_relative_difference": 0.0
+    },
+    "thermal_budget.csv": {
+      "rows": 47,
+      "max_absolute_difference": 0.0,
+      "max_relative_difference": 0.0
+    },
+    "mineral_budget.csv": {
+      "rows": 47,
+      "max_absolute_difference": 0.0,
+      "max_relative_difference": 0.0
+    }
+  },
+  "final_fields": {
+    "Permeability": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "S_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "S_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "T": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "dof_id": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "mob_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "mob_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "p_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "p_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "pc": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "phase presence": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "porosity": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "precipitateVolumeFraction^NaCl": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "rhoMolar_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "rhoMolar_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "rho_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "rho_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "velocity_liq_interior_LS (m/s)": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        3
+      ]
+    },
+    "x^Air_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "x^Air_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "x^H2O_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "x^H2O_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "x^NaCl_gas": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    },
+    "x^NaCl_liq": {
+      "max_absolute_difference": 0.0,
+      "shape": [
+        30720,
+        1
+      ]
+    }
+  },
+  "compact_profile_against_final_vtu": {
+    "final_time_s": 7800.0,
+    "rows": 80,
+    "max_concentration_absolute_difference_M": 9.547918011776346e-15,
+    "max_liquid_volume_absolute_difference_m3": 4.716914725022385e-20
+  },
+  "compact_profile_rows_total": 3840,
+  "accepted_step_rows_reference": 47,
+  "accepted_step_rows_overlay": 47,
+  "state": "passed"
+}

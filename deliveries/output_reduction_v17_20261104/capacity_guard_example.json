@@ -1,0 +1,11 @@
+{
+  "state": "pass",
+  "path": "/temp/zhixin",
+  "frames_per_job": 178,
+  "jobs": 6,
+  "projected_output_GiB": 7.1068794140625,
+  "free_before_GiB": 370.7355422973633,
+  "projected_free_after_GiB": 363.62866288330076,
+  "reserve_GiB": 30.0,
+  "warning_GiB": 50.0
+}

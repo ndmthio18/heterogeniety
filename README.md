@@ -29,6 +29,7 @@
 - [非等温v13及气膜率定交付说明](deliveries/RH0_nonisothermal_20261104/README.md)
 - [非等温8.10 mm完整174 h报告](deliveries/RH0_nonisothermal_20261104/model_revisions/20261102_cylinder_thermal_v13/COMPLETION_REPORT.md)
 - [7.5/8.0/8.10 mm蒸发曲线比较](deliveries/RH0_nonisothermal_20261104/analysis/film_7p5_8p0_8p1_snapshot_20261104/evaporation_comparison.pdf)
+- [v17磁盘审计与输出降采样交付](deliveries/output_reduction_v17_20261104/README.md)：含安全清理提案、每小时场输出实现、PVD驱动后处理及严格短窗等价性证据；尚未执行原始数据删除。
 
 ## 主要结果与限制
 
