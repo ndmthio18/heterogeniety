@@ -1,0 +1,27 @@
+Replayed 5.0000 h, max scaled error 2.19e-09
+Replayed 10.0000 h, max scaled error 3.39e-08
+Replayed 15.0000 h, max scaled error 4.15e-08
+Replayed 20.0000 h, max scaled error 7.7e-09
+Replayed 25.0000 h, max scaled error 1.49e-08
+Replayed 30.0000 h, max scaled error 3.29e-08
+Replayed 35.0000 h, max scaled error 1.75e-08
+Replayed 40.0000 h, max scaled error 3.13e-08
+Replayed 45.0000 h, max scaled error 3.04e-08
+Replayed 50.0000 h, max scaled error 9.25e-11
+Replayed 55.0000 h, max scaled error 3.59e-08
+Replayed 60.0000 h, max scaled error 1.14e-08
+Replayed 65.0000 h, max scaled error 5.37e-08
+Replayed 70.0000 h, max scaled error 5.23e-08
+Replayed 75.0000 h, max scaled error 5.45e-09
+Replayed 80.0000 h, max scaled error 1.21e-07
+Traceback (most recent call last):
+  File "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/native_replay.py", line 39, in <module>
+    if rel.max()>1e-5:raise RuntimeError(f'Replay mismatch {t}: {dict(zip(cols,rel))}')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Replay mismatch 82.83333333333333: {'water_mol': np.float64(0.0), 'salt_total_mol': np.float64(0.0), 'coarse_salt_mol': np.float64(4.7808467813439525e-16), 'fine_salt_mol': np.float64(1.2474620031710613e-16), 'coarse_bottom_salt_out_mol_s': np.float64(1.7429094748594407e-09), 'fine_bottom_salt_out_mol_s': np.float64(8.60392450240751e-11), 'interface_adv_mol_s': np.float64(1.6987476373834518e-11), 'interface_diff_mol_s': np.float64(5.3860875561388394e-15), 'energy_J': np.float64(4.4399695302531507e-16), 'energy_boundary_out_W': np.float64(0.0002808945307018744)}
+Traceback (most recent call last):
+  File "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/campaign.py", line 82, in <module>
+    subprocess.run([sys.executable,str(R/'native_replay.py'),case],check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/temp/zhixin/heterogeneity_thermal_calibration_v15_20261102/venv/bin/python', '/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/native_replay.py', 'B2']' returned non-zero exit status 1.

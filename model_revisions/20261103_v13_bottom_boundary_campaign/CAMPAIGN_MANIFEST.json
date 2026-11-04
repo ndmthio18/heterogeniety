@@ -1,6 +1,6 @@
 {
-  "created_utc": "2026-11-04T08:24:42.9852882+00:00",
-  "scope": "Accepted 2D B; conditional 2D G complete; 3D B reached 174 h with B0-B2 replay-only cancellation repair in progress; 3D G production continues; no raw fields, binaries, transport archives or NPZ",
+  "created_utc": "2026-11-04T10:32:37.9204054+00:00",
+  "scope": "Accepted 2D B; conditional 2D G complete; 3D B complete at 174 h after documented replay-only cancellation repair; 3D G production continues; no raw fields, binaries, transport archives or NPZ",
   "files": [
     {
       "path": "2D_3D_COMPARISON.md",
@@ -749,8 +749,8 @@
     },
     {
       "path": "REPAIR_LOG.md",
-      "bytes": 6101,
-      "sha256": "6b86513525e3e2be2e9255486a57b821b651ace8393d2c42e4d9af1f3355fcf9"
+      "bytes": 6701,
+      "sha256": "593c88923e9d3a4ee70148ea29fd5304ef9d9913384f6da20dab453c740b1487"
     },
     {
       "path": "resource_dispatch.py",
@@ -1619,13 +1619,13 @@
     },
     {
       "path": "TRACK_RUN_STATUS.csv",
-      "bytes": 1644,
-      "sha256": "0fc4aa6e99aaa4175b63fb88f2d1ce484f5a5d1c0ab77b052865dd50fd602068"
+      "bytes": 1062,
+      "sha256": "c68c8e5c2e00e2bf6e65d15290040fa03c90929fab285c8fa7afa249a645d6a6"
     },
     {
       "path": "TRACK_STATUS.json",
-      "bytes": 303958,
-      "sha256": "67f106faf16fab385ae7725e0eddb0ba8ed1cc5127a9ba7f5637815d04f4f84e"
+      "bytes": 1030425,
+      "sha256": "f5deb775e941729c77b4ad78a56fe81e5ce396127725615be4851afe5537d7c2"
     },
     {
       "path": "track2d_g_conditional_r02/conditional_controller.py",
@@ -3096,6 +3096,101 @@
       "path": "track3d_r02/provenance/monitor_20261103_1811UTC.json",
       "bytes": 1839,
       "sha256": "36b3d1afba024bb1d83d3a0afc9c511a582df1dd147ffeb102461405d55467de"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B0_collect.log",
+      "bytes": 450,
+      "sha256": "144247a70afdd1ac1ee208cc7a6479c1d68250fba19635e1272a1d5604e8f70d"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B0_production.json",
+      "bytes": 420,
+      "sha256": "3ca0a4f0a63442477cd1c0a0555e86a6c9a7f5ce11ea0c734cf6a316d60f445e"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B0_repair.log",
+      "bytes": 1575,
+      "sha256": "7b03804845b70a9c8805644b3049a691b57f16829848fb9b8565ffbdb91d6f0a"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B0_repaired_status.json",
+      "bytes": 195286,
+      "sha256": "152c17c80f62fdf454307786fbce43ccfdceb57056114ae8e4ce840d5d67a5e4"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B0_verification.json",
+      "bytes": 173103,
+      "sha256": "b394bceca71b177e3aa3d744993880ebd1bb4486e7554d68ca356aff357a3746"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B1_collect.log",
+      "bytes": 451,
+      "sha256": "3da7f55ee291888e3050354d6606ce999ee73b4ab9556971fae718ab20e59673"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B1_production.json",
+      "bytes": 420,
+      "sha256": "bcc88d56d462878546b05e4a343b4143f141029f6033f417bea7e91f3f37a607"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B1_repair.log",
+      "bytes": 1575,
+      "sha256": "21a934dbf13f142df2bddaa945a13d6e06feabf0d2a2d3b92257c6d5aca99d4d"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B1_repaired_status.json",
+      "bytes": 195284,
+      "sha256": "9a0690644c0653c3300f16b6ae3b09c809f2b2df19cf7ca6154129247f09bfdf"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B1_verification.json",
+      "bytes": 173101,
+      "sha256": "b128bb251c4a88aeb4ef970faac7288e5ccc5a02ef9bc0041b6a0017ab62737a"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B2_collect.log",
+      "bytes": 451,
+      "sha256": "a03de1634ab120b77a88f1995502b5513212feb71b0561e844ef66593d3e6f0c"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B2_production.json",
+      "bytes": 420,
+      "sha256": "3ae5e28f2af26202028fd3062f238958b193ec638dee996408511b94cea4d25f"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B2_repair.log",
+      "bytes": 1575,
+      "sha256": "f57c0834b113d67d38b7611cee5d1f3227f97ec61864ad1f8467387f5eb446d8"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B2_repaired_status.json",
+      "bytes": 195285,
+      "sha256": "c65f8fc98892f2df693b5805d189acd36db0d3d9c5a18aadd58805bb955c6cc1"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/B2_verification.json",
+      "bytes": 173100,
+      "sha256": "f4d87cd3b804574eb350b29d43ab427f0080a5c945bb28189c4eac28be865209"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/production_B0.log",
+      "bytes": 2380,
+      "sha256": "548859ca96f9cb3320ca3ee78d1fb9efb51ffaf3fbbb51056fe93db655377f15"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/production_B1.log",
+      "bytes": 2467,
+      "sha256": "e06e05fc5247222d7356d3ee512a5f099e098319abc06a2872c0ad11dccfefaa"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/production_B2.log",
+      "bytes": 2214,
+      "sha256": "bdc11803ff578b4829e31e03db82e40a006512479b2a89ef30e47fbabb0ea1f3"
+    },
+    {
+      "path": "track3d_r02/provenance/native_replay_energy_gate_attempt01_20261104_082335/receipt.json",
+      "bytes": 974,
+      "sha256": "119202631dec6697dc2334684eff75ba120da3ace8175e9b74dca243905dde6d"
     },
     {
       "path": "track3d_r02/provenance/runtime_snapshot/Baseline_short_status.json",

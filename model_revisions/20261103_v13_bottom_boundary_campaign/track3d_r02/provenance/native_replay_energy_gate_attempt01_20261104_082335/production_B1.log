@@ -1,0 +1,32 @@
+Replayed 5.0000 h, max scaled error 5.4e-08
+Replayed 10.0000 h, max scaled error 1.04e-08
+Replayed 15.0000 h, max scaled error 6.9e-08
+Replayed 20.0000 h, max scaled error 6.68e-09
+Replayed 25.0000 h, max scaled error 6.52e-08
+Replayed 30.0000 h, max scaled error 1.94e-08
+Replayed 35.0000 h, max scaled error 2.14e-08
+Replayed 40.0000 h, max scaled error 3.29e-08
+Replayed 45.0000 h, max scaled error 7.07e-08
+Replayed 50.0000 h, max scaled error 1.03e-07
+Replayed 55.0000 h, max scaled error 8.66e-09
+Replayed 60.0000 h, max scaled error 7.78e-08
+Replayed 65.0000 h, max scaled error 1.99e-07
+Replayed 70.0000 h, max scaled error 3.88e-08
+Replayed 75.0000 h, max scaled error 2.96e-07
+Replayed 80.0000 h, max scaled error 1.11e-07
+Replayed 85.0000 h, max scaled error 1.01e-06
+Replayed 90.0000 h, max scaled error 5.47e-07
+Replayed 95.0000 h, max scaled error 1.13e-06
+Replayed 100.0000 h, max scaled error 1.49e-06
+Replayed 105.0000 h, max scaled error 2.05e-06
+Traceback (most recent call last):
+  File "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/native_replay.py", line 39, in <module>
+    if rel.max()>1e-5:raise RuntimeError(f'Replay mismatch {t}: {dict(zip(cols,rel))}')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Replay mismatch 106.0: {'water_mol': np.float64(1.391754657694157e-16), 'salt_total_mol': np.float64(1.3478216724109555e-16), 'coarse_salt_mol': np.float64(1.62745170077394e-16), 'fine_salt_mol': np.float64(2.300388745371582e-16), 'coarse_bottom_salt_out_mol_s': np.float64(4.2900810996583555e-09), 'fine_bottom_salt_out_mol_s': np.float64(3.532863891347282e-10), 'interface_adv_mol_s': np.float64(6.602951992243814e-11), 'interface_diff_mol_s': np.float64(7.425249486231509e-15), 'energy_J': np.float64(2.2200012261438844e-16), 'energy_boundary_out_W': np.float64(1.0575817708091112e-05)}
+Traceback (most recent call last):
+  File "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/campaign.py", line 82, in <module>
+    subprocess.run([sys.executable,str(R/'native_replay.py'),case],check=True)
+  File "/usr/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/temp/zhixin/heterogeneity_thermal_calibration_v15_20261102/venv/bin/python', '/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/native_replay.py', 'B1']' returned non-zero exit status 1.

@@ -1,0 +1,11 @@
+{
+  "state": "failed",
+  "case": "B2",
+  "stage": "production",
+  "utc": "2026-11-04T07:27:07.531411+00:00",
+  "job": "frodo3d_r02_production_B2",
+  "host": "frodo",
+  "controller_pid": 2835150,
+  "affinity": "6",
+  "error": "CalledProcessError(1, ['/temp/zhixin/heterogeneity_thermal_calibration_v15_20261102/venv/bin/python', '/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/native_replay.py', 'B2'])"
+}

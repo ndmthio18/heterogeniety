@@ -1,0 +1,25 @@
+{
+  "state": "completed",
+  "utc": "2026-11-04T08:23:35.714167+00:00",
+  "scope": "postprocess replay only; no solver rerun or physics/numerical change",
+  "cases": {
+    "B0": {
+      "cpu": 4,
+      "pid": 3413295,
+      "preserved_attempt": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B0/native_replay_attempt01_energy_net_roundoff_20261104_082335"
+    },
+    "B1": {
+      "cpu": 6,
+      "pid": 3413296,
+      "preserved_attempt": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B1/native_replay_attempt01_energy_net_roundoff_20261104_082335"
+    },
+    "B2": {
+      "cpu": 7,
+      "pid": 3413297,
+      "preserved_attempt": "/temp/zhixin/v13_bottom_boundary_campaign_20261103/track3d_r02/raw/runs/B2/native_replay_attempt01_energy_net_roundoff_20261104_082335"
+    }
+  },
+  "energy_boundary_gate": "relative <= 1e-5 OR absolute <= 1e-10 W",
+  "failed": {},
+  "completed_utc": "2026-11-04T08:48:12.307827+00:00"
+}
