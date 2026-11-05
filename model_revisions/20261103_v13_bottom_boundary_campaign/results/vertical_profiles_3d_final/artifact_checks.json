@@ -1,0 +1,48 @@
+{
+  "state": "passed_complete_3d_delivery",
+  "cases": {
+    "B0_B3": "completed_174h",
+    "G1_G3": "completed_174h"
+  },
+  "g3_acceptance": {
+    "completed_evaporation_h": 174.0,
+    "returncode": 0,
+    "max_relative_material_budget_residual": 4.824121838868047e-12,
+    "relative_energy_budget_residual": 1.6382938219825326e-10,
+    "max_complementarity": 1.8445584242405414e-16,
+    "temperature_range_K": [291.37544570740454, 293.15]
+  },
+  "backup": {
+    "archive": "snapshot_3d_r02_20261105_080449.tar",
+    "archive_sha256": "f9ec8bb4cbb572462fc9e38e162e2426b2893e23dfcc739d026e105189088b50",
+    "new_files_verified": 189,
+    "total_verified_paths": 12216
+  },
+  "final_snapshot": {
+    "fields": 35,
+    "times_h": [0, 24, 60, 108, 174],
+    "archive_sha256": "9bab9ca6dc2ed75d4f456fcd3cbd589fb2aca0d81505dfb5ab26c8dd6360e3f2",
+    "provenance_sha256": "dac4a32f284e5b020835039ba80889d37b9e2f84b7662277280db1c69f50e9c7",
+    "interpolation": false,
+    "extrapolation": false,
+    "max_field_ledger_relative_error": 2.698710953493712e-14
+  },
+  "comparison": {
+    "pdf": "RH0_3D_B_G_174H_MRI_COMPARISON.pdf",
+    "pdf_sha256": "479823ba6c2634b605b93fa627b544a1fd4a999f8a31357a050aa30ae39134cf",
+    "pdf_pages": 5,
+    "profile_metrics_sha256": "3b28c67bc4c763a390f1345e62048034dd3e831e86adcff48adfabdf249b75e1",
+    "effect_table_sha256": "89650add832dfc009cbed32a13a62fe97ffeef164ae472f7fbcf527e3356ec38"
+  },
+  "visual_review": {
+    "passed": true,
+    "reviewed_pages": [1, 2, 5],
+    "checks": [
+      "titles and legends do not overlap",
+      "all profile panels share 0-5.5 mol/L and 0-40 mm axes",
+      "MRI points and model curves remain distinguishable",
+      "terminal port-effect bars and footnote are fully visible"
+    ]
+  },
+  "scientific_status": "complete within-3D sensitivity comparison; not grid convergence, absolute 2D-3D equivalence, experimental onset evidence, or independent physical validation"
+}

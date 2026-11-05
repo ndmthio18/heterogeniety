@@ -1,4 +1,4 @@
-"""Create a hash-pinned, read-only sparse snapshot for current 3D plotting."""
+"""Create a hash-pinned, read-only sparse snapshot for 3D plotting."""
 from pathlib import Path
 import copy, gzip, hashlib, json, shutil, sys
 import xml.etree.ElementTree as ET
@@ -13,9 +13,9 @@ requested = {
     "B1": [0, 24, 60, 108, 174],
     "B2": [0, 24, 60, 108, 174],
     "B3": [0, 24, 60, 108, 174],
-    "G1": [0, 24, 60, 108, 144],
-    "G2": [0, 24, 60, 108, 144],
-    "G3": [0, 24],
+    "G1": [0, 24, 60, 108, 174],
+    "G2": [0, 24, 60, 108, 174],
+    "G3": [0, 24, 60, 108, 174],
 }
 
 def sha(path):
