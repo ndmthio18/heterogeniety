@@ -1,0 +1,585 @@
+{
+  "status": "passed",
+  "scope": "read-only one-way dry/disconnected-crust screening; not coupled prediction",
+  "source_input_manifest": {
+    "source_root": "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs",
+    "times_h": [
+      72.0,
+      84.0,
+      96.0,
+      108.0,
+      120.0,
+      144.0,
+      174.0
+    ],
+    "files": {
+      "Greal-81": {
+        "film_faces.csv": {
+          "bytes": 40646173,
+          "sha256": "c5ddcd147a417bd32537f0cb5210301a016fba68ad56490b132c6112f50ef4e6"
+        },
+        "film_budget.csv": {
+          "bytes": 666273,
+          "sha256": "785a49f858a9bb971aa0a68e77b53bf56298ce944576642c2d58fc0744d4b4c0"
+        },
+        "budget.csv": {
+          "bytes": 1407613,
+          "sha256": "a2c06c3f1e44976b5bb590e47a85be57fad56a692fa88c40868892706321e573"
+        },
+        "mineral_budget.csv": {
+          "bytes": 385484,
+          "sha256": "b3b42b707af37f4be26435d73791b0c9fe5f40d8742307dd02e0bc2a4ea26cf9"
+        },
+        "material_budgets.csv": {
+          "bytes": 1470657,
+          "sha256": "39463031d7e195a80da93745775a09dfc7ccf3078cee18ce5b24ad114f3dfe51"
+        },
+        "selected_vtk": {
+          "72": {
+            "path": "Greal-81/Greal-81-00074.vtu",
+            "bytes": 17571597,
+            "sha256": "5c02b46f117e6ef07909572e659cd7b8ecd9a5de17be6b7b22a57883cae9fbaa"
+          },
+          "84": {
+            "path": "Greal-81/Greal-81-00086.vtu",
+            "bytes": 17572502,
+            "sha256": "d7a864d468b80fbf0185e714449baffb4cdeef4b26e3794b6f8d55db1b09ac90"
+          },
+          "96": {
+            "path": "Greal-81/Greal-81-00098.vtu",
+            "bytes": 17573796,
+            "sha256": "0a1e9ec41e2cbf7b89b39ed478c6891bbea541b0ee2f5812439ceda51cb3c771"
+          },
+          "108": {
+            "path": "Greal-81/Greal-81-00110.vtu",
+            "bytes": 17576067,
+            "sha256": "28e1975891fe452284edc5c6c9e9107f5aa7383c5c2286bc58a00dc1f9617c6e"
+          },
+          "120": {
+            "path": "Greal-81/Greal-81-00122.vtu",
+            "bytes": 17577896,
+            "sha256": "496032305e6cfba200c2d6a07a12b0254791ad97ab8764f757b8c160c03a6a9a"
+          },
+          "144": {
+            "path": "Greal-81/Greal-81-00146.vtu",
+            "bytes": 17579893,
+            "sha256": "55365a801484d99d382406d4f71d3113839d5fd005fe2e553e68407052100a35"
+          },
+          "174": {
+            "path": "Greal-81/Greal-81-00176.vtu",
+            "bytes": 17587116,
+            "sha256": "2f82bbd853f1ebecba66effd80eb9d457d628818ac78969b0e3ff27589e61659"
+          }
+        }
+      },
+      "Greal-75": {
+        "film_faces.csv": {
+          "bytes": 40652621,
+          "sha256": "3b867ba2bd424ea49e12482bc43e07c2a94c82c4481c261d4ebfd1d2734fff33"
+        },
+        "film_budget.csv": {
+          "bytes": 667012,
+          "sha256": "e5547acddb9f24b8198882a744287fee42b0fbd36161cb73c2be1f2f9be8133b"
+        },
+        "budget.csv": {
+          "bytes": 1407081,
+          "sha256": "3b387e350be4755b466586d0b0ee388c92080b0a291e4a2424986cd4233a1ccb"
+        },
+        "mineral_budget.csv": {
+          "bytes": 384979,
+          "sha256": "6250543d3b8c87401bda76bcfef90216c452cb1d30cf0c0047628aaeda137f40"
+        },
+        "material_budgets.csv": {
+          "bytes": 1469840,
+          "sha256": "f13efa71ae21c975c1c94c6254075167839d218a7ce35d768282b98d4fb33fb1"
+        },
+        "selected_vtk": {
+          "72": {
+            "path": "Greal-75/Greal-75-00074.vtu",
+            "bytes": 17569174,
+            "sha256": "8d8ea1dfb7db4bb36e608e28358fb2159f9df744494cf7a07908d2cdf705cb3e"
+          },
+          "84": {
+            "path": "Greal-75/Greal-75-00086.vtu",
+            "bytes": 17570085,
+            "sha256": "4f243e3b84d2a5a981263047d254927e9101bac55785d041763b9e790d6bdf81"
+          },
+          "96": {
+            "path": "Greal-75/Greal-75-00098.vtu",
+            "bytes": 17570690,
+            "sha256": "e0fac21e36cd3a54c5b88fd12da492786bd4f40355920faf38c65d200af7c9b0"
+          },
+          "108": {
+            "path": "Greal-75/Greal-75-00110.vtu",
+            "bytes": 17573354,
+            "sha256": "9232a3d0c4eaa72963ee5d84375e2d14da88c80f71ba90476c4ecf3e15814b44"
+          },
+          "120": {
+            "path": "Greal-75/Greal-75-00122.vtu",
+            "bytes": 17575161,
+            "sha256": "7d70e0b86bb643b012e95f5ab886d327776c41043a9df4a3e7f8e2d7102076da"
+          },
+          "144": {
+            "path": "Greal-75/Greal-75-00146.vtu",
+            "bytes": 17579115,
+            "sha256": "ca6f61ed2f426a63c21c19a45bfc5a81e053ef6ff4987370aaa4c037d97511a0"
+          },
+          "174": {
+            "path": "Greal-75/Greal-75-00176.vtu",
+            "bytes": 17594257,
+            "sha256": "89f6fd1037fbb489e502c4e97ea9735b12afbfd2339281eae4a920989fc9956d"
+          }
+        }
+      }
+    },
+    "outputs": {
+      "Greal-81_film_faces_selected.csv": {
+        "rows": 5376,
+        "rows_by_time": {
+          "72": 768,
+          "84": 768,
+          "96": 768,
+          "108": 768,
+          "120": 768,
+          "144": 768,
+          "174": 768
+        },
+        "bytes": 1618257,
+        "sha256": "aea09a2e81e09db34f7bf8b2d085599a4e5acd866da21fd754d7ff1163efb6eb"
+      },
+      "Greal-81_top_temperature_selected.csv": {
+        "rows": 2688,
+        "bytes": 218460,
+        "sha256": "3ca27d94b5b7c9b386014323c6a83f76e2bbf2e4550e7e38345e04397b83392d"
+      },
+      "Greal-81_film_budget.csv": {
+        "bytes": 666273,
+        "sha256": "785a49f858a9bb971aa0a68e77b53bf56298ce944576642c2d58fc0744d4b4c0"
+      },
+      "Greal-81_budget.csv": {
+        "bytes": 1407613,
+        "sha256": "a2c06c3f1e44976b5bb590e47a85be57fad56a692fa88c40868892706321e573"
+      },
+      "Greal-81_mineral_budget.csv": {
+        "bytes": 385484,
+        "sha256": "b3b42b707af37f4be26435d73791b0c9fe5f40d8742307dd02e0bc2a4ea26cf9"
+      },
+      "Greal-81_material_budgets.csv": {
+        "bytes": 1470657,
+        "sha256": "39463031d7e195a80da93745775a09dfc7ccf3078cee18ce5b24ad114f3dfe51"
+      },
+      "Greal-75_film_faces_selected.csv": {
+        "rows": 5376,
+        "rows_by_time": {
+          "72": 768,
+          "84": 768,
+          "96": 768,
+          "108": 768,
+          "120": 768,
+          "144": 768,
+          "174": 768
+        },
+        "bytes": 1618515,
+        "sha256": "48abdbf56f519f1670a1ded9892d0ba7e5d3dcd22b81047ad837a24a7b6053cf"
+      },
+      "Greal-75_top_temperature_selected.csv": {
+        "rows": 2688,
+        "bytes": 218495,
+        "sha256": "70eb0dde5d5aca69866779f53e5b28a94d04ba40494bfe0ad6c0e2a70dc7525b"
+      },
+      "Greal-75_film_budget.csv": {
+        "bytes": 667012,
+        "sha256": "e5547acddb9f24b8198882a744287fee42b0fbd36161cb73c2be1f2f9be8133b"
+      },
+      "Greal-75_budget.csv": {
+        "bytes": 1407081,
+        "sha256": "3b387e350be4755b466586d0b0ee388c92080b0a291e4a2424986cd4233a1ccb"
+      },
+      "Greal-75_mineral_budget.csv": {
+        "bytes": 384979,
+        "sha256": "6250543d3b8c87401bda76bcfef90216c452cb1d30cf0c0047628aaeda137f40"
+      },
+      "Greal-75_material_budgets.csv": {
+        "bytes": 1469840,
+        "sha256": "f13efa71ae21c975c1c94c6254075167839d218a7ce35d768282b98d4fb33fb1"
+      }
+    }
+  },
+  "source_input_hashes_verified": true,
+  "mapping": {
+    "Greal-81": {
+      "72": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "84": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "96": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "108": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "120": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "144": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "174": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      }
+    },
+    "Greal-75": {
+      "72": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "84": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "96": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "108": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "120": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "144": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      },
+      "174": {
+        "W3_faces": 384,
+        "unique_cell_ids": 384,
+        "unique_film_points": 384,
+        "actual_W3_area_m2": 0.0009801714032956054,
+        "film_W3_area_m2": 0.0009801714032956063,
+        "area_abs_difference_m2": 8.673617379884035e-19,
+        "integration_point_to_vertex_mean_center_max_m": 0.00034429299840613734
+      }
+    }
+  },
+  "baseline_flux_ledgers": {
+    "Greal-81": {
+      "72": {
+        "reconstructed_W3_g_h": 0.1367232867865443,
+        "accepted_W3_g_h": 0.13672328678654413,
+        "reconstructed_F36_g_h": 0.15407670312677252,
+        "accepted_F36_g_h": 0.1540767031267727,
+        "reconstructed_total_g_h": 0.2907999899133168,
+        "accepted_total_g_h": 0.2907999899133169,
+        "differences_g_h": {
+          "W3": 1.6653345369377348e-16,
+          "F36": -1.942890293094024e-16,
+          "total": -1.1102230246251565e-16
+        }
+      },
+      "84": {
+        "reconstructed_W3_g_h": 0.13515919146824323,
+        "accepted_W3_g_h": 0.13515919146824312,
+        "reconstructed_F36_g_h": 0.15355693123499964,
+        "accepted_F36_g_h": 0.15355693123499967,
+        "reconstructed_total_g_h": 0.2887161227032429,
+        "accepted_total_g_h": 0.2887161227032428,
+        "differences_g_h": {
+          "W3": 1.1102230246251565e-16,
+          "F36": -2.7755575615628914e-17,
+          "total": 5.551115123125783e-17
+        }
+      },
+      "96": {
+        "reconstructed_W3_g_h": 0.1341511133797019,
+        "accepted_W3_g_h": 0.13415111337970176,
+        "reconstructed_F36_g_h": 0.1530248338695596,
+        "accepted_F36_g_h": 0.15302483386955948,
+        "reconstructed_total_g_h": 0.2871759472492615,
+        "accepted_total_g_h": 0.28717594724926127,
+        "differences_g_h": {
+          "W3": 1.3877787807814457e-16,
+          "F36": 1.1102230246251565e-16,
+          "total": 2.220446049250313e-16
+        }
+      },
+      "108": {
+        "reconstructed_W3_g_h": 0.1334269659823958,
+        "accepted_W3_g_h": 0.13342696598239578,
+        "reconstructed_F36_g_h": 0.15248424348328396,
+        "accepted_F36_g_h": 0.15248424348328382,
+        "reconstructed_total_g_h": 0.28591120946567977,
+        "accepted_total_g_h": 0.28591120946567955,
+        "differences_g_h": {
+          "W3": 2.7755575615628914e-17,
+          "F36": 1.3877787807814457e-16,
+          "total": 2.220446049250313e-16
+        }
+      },
+      "120": {
+        "reconstructed_W3_g_h": 0.13286963630552168,
+        "accepted_W3_g_h": 0.13286963630552168,
+        "reconstructed_F36_g_h": 0.1519456134750551,
+        "accepted_F36_g_h": 0.15194561347505509,
+        "reconstructed_total_g_h": 0.2848152497805768,
+        "accepted_total_g_h": 0.28481524978057676,
+        "differences_g_h": {
+          "W3": 0.0,
+          "F36": 2.7755575615628914e-17,
+          "total": 5.551115123125783e-17
+        }
+      },
+      "144": {
+        "reconstructed_W3_g_h": 0.132030150755401,
+        "accepted_W3_g_h": 0.13203015075540098,
+        "reconstructed_F36_g_h": 0.15089676927063597,
+        "accepted_F36_g_h": 0.15089676927063608,
+        "reconstructed_total_g_h": 0.282926920026037,
+        "accepted_total_g_h": 0.28292692002603703,
+        "differences_g_h": {
+          "W3": 2.7755575615628914e-17,
+          "F36": -1.1102230246251565e-16,
+          "total": -5.551115123125783e-17
+        }
+      },
+      "174": {
+        "reconstructed_W3_g_h": 0.13126302289536979,
+        "accepted_W3_g_h": 0.1312630228953698,
+        "reconstructed_F36_g_h": 0.14966334545030804,
+        "accepted_F36_g_h": 0.14966334545030804,
+        "reconstructed_total_g_h": 0.28092636834567786,
+        "accepted_total_g_h": 0.28092636834567786,
+        "differences_g_h": {
+          "W3": -2.7755575615628914e-17,
+          "F36": 0.0,
+          "total": 0.0
+        }
+      }
+    },
+    "Greal-75": {
+      "72": {
+        "reconstructed_W3_g_h": 0.14476703580724745,
+        "accepted_W3_g_h": 0.14476703580724745,
+        "reconstructed_F36_g_h": 0.16496327860098595,
+        "accepted_F36_g_h": 0.16496327860098592,
+        "reconstructed_total_g_h": 0.3097303144082334,
+        "accepted_total_g_h": 0.30973031440823334,
+        "differences_g_h": {
+          "W3": 0.0,
+          "F36": 2.7755575615628914e-17,
+          "total": 5.551115123125783e-17
+        }
+      },
+      "84": {
+        "reconstructed_W3_g_h": 0.143657739971653,
+        "accepted_W3_g_h": 0.14365773997165293,
+        "reconstructed_F36_g_h": 0.16437103658931893,
+        "accepted_F36_g_h": 0.16437103658931893,
+        "reconstructed_total_g_h": 0.30802877656097194,
+        "accepted_total_g_h": 0.3080287765609719,
+        "differences_g_h": {
+          "W3": 5.551115123125783e-17,
+          "F36": 0.0,
+          "total": 5.551115123125783e-17
+        }
+      },
+      "96": {
+        "reconstructed_W3_g_h": 0.14289995150720186,
+        "accepted_W3_g_h": 0.14289995150720178,
+        "reconstructed_F36_g_h": 0.1637709862135944,
+        "accepted_F36_g_h": 0.16377098621359443,
+        "reconstructed_total_g_h": 0.30667093772079623,
+        "accepted_total_g_h": 0.3066709377207962,
+        "differences_g_h": {
+          "W3": 8.326672684688674e-17,
+          "F36": -2.7755575615628914e-17,
+          "total": 5.551115123125783e-17
+        }
+      },
+      "108": {
+        "reconstructed_W3_g_h": 0.1423195517605153,
+        "accepted_W3_g_h": 0.1423195517605154,
+        "reconstructed_F36_g_h": 0.1631734631400431,
+        "accepted_F36_g_h": 0.16317346314004297,
+        "reconstructed_total_g_h": 0.3054930149005584,
+        "accepted_total_g_h": 0.30549301490055836,
+        "differences_g_h": {
+          "W3": -8.326672684688674e-17,
+          "F36": 1.3877787807814457e-16,
+          "total": 5.551115123125783e-17
+        }
+      },
+      "120": {
+        "reconstructed_W3_g_h": 0.14185761067950212,
+        "accepted_W3_g_h": 0.14185761067950206,
+        "reconstructed_F36_g_h": 0.16258670922246482,
+        "accepted_F36_g_h": 0.16258670922246488,
+        "reconstructed_total_g_h": 0.30444431990196696,
+        "accepted_total_g_h": 0.30444431990196696,
+        "differences_g_h": {
+          "W3": 5.551115123125783e-17,
+          "F36": -5.551115123125783e-17,
+          "total": 0.0
+        }
+      },
+      "144": {
+        "reconstructed_W3_g_h": 0.14112415331465455,
+        "accepted_W3_g_h": 0.14112415331465453,
+        "reconstructed_F36_g_h": 0.16146263742755743,
+        "accepted_F36_g_h": 0.16146263742755743,
+        "reconstructed_total_g_h": 0.30258679074221195,
+        "accepted_total_g_h": 0.30258679074221195,
+        "differences_g_h": {
+          "W3": 2.7755575615628914e-17,
+          "F36": 0.0,
+          "total": 0.0
+        }
+      },
+      "174": {
+        "reconstructed_W3_g_h": 0.1404338639940902,
+        "accepted_W3_g_h": 0.1404338639940902,
+        "reconstructed_F36_g_h": 0.160166121741919,
+        "accepted_F36_g_h": 0.16016612174191908,
+        "reconstructed_total_g_h": 0.3005999857360092,
+        "accepted_total_g_h": 0.30059998573600916,
+        "differences_g_h": {
+          "W3": 0.0,
+          "F36": -8.326672684688674e-17,
+          "total": 5.551115123125783e-17
+        }
+      }
+    }
+  },
+  "gates": {
+    "all_384_W3_faces_matched_once_each_snapshot": true,
+    "no_unmatched_or_duplicate_faces": true,
+    "maximum_area_abs_difference_m2": 8.673617379884035e-19,
+    "maximum_baseline_flux_ledger_abs_difference_g_h": 2.220446049250313e-16,
+    "no_salt_exactly_original": true,
+    "vanishing_height_continuity_max_abs_beta_minus_one": 1.5543122344752192e-15,
+    "larger_diffusivity_ratio_never_reduces_beta": true,
+    "increasing_thickness_never_increases_beta": true,
+    "beta_min": 0.23218307277438557,
+    "beta_max": 1.0,
+    "all_beta_within_0_1": true,
+    "zero_external_fraction_has_zero_resistance": true,
+    "subthreshold_faces_beta_exactly_one": true,
+    "F36_unchanged_max_abs_g_h": 0.0,
+    "partial_coverage_mass_max_relative_error": 1.97374070881122e-16
+  },
+  "highest_loading_vs_initial_flux": {
+    "Greal-81": {
+      "terminal_highest_loading_cell_id": 30527,
+      "terminal_highest_loading_kg_m2": 1.197204532927308,
+      "same_face_72h_original_flux_kg_m2_s": 3.631478819790235e-05,
+      "same_face_72h_flux_unweighted_percentile": 1.5625,
+      "terminal_loading_vs_72h_flux_spearman": -0.81297966415856,
+      "descriptive_p_value": 9.633483478197679e-92,
+      "is_same_face_initial_flux_maximum": false
+    },
+    "Greal-75": {
+      "terminal_highest_loading_cell_id": 30527,
+      "terminal_highest_loading_kg_m2": 1.5303513533318944,
+      "same_face_72h_original_flux_kg_m2_s": 3.903076954675307e-05,
+      "same_face_72h_flux_unweighted_percentile": 17.1875,
+      "terminal_loading_vs_72h_flux_spearman": -0.8427225364117732,
+      "descriptive_p_value": 8.925447827224836e-105,
+      "is_same_face_initial_flux_maximum": false
+    }
+  },
+  "interpretive_limits": [
+    "Numerical solid-bearing area is not measured physical crust coverage.",
+    "Dry/disconnected resistance does not represent a wet hydraulically connected crust.",
+    "Temperature, activity, concentration and pressure states are held at accepted baseline values.",
+    "Correlations are descriptive and retain geometric and shared-state confounding.",
+    "Snapshot rates cannot be integrated cumulatively without denser matched spatial fields or validation of a temporal interpolation rule."
+  ],
+  "figure_hashes": {
+    "Figure_T8_1_local_beta_maps.pdf": "2c7ec01ca531681323b13ca35ede3d8eadc73ecfb621887a4352fffd82b3e727",
+    "Figure_T8_1_local_beta_maps.png": "f028307cb9b00b35c1120637e39d35145239ac9686bb50599886aeb3f64b6178",
+    "Figure_T8_2_original_vs_corrected_flux.pdf": "abf4f29665547d7f37a54a349daedce210be57d0cce1ef2c25329b009d737d0d",
+    "Figure_T8_2_original_vs_corrected_flux.png": "85136f247ac663e103c77e96958f8068b59e11f6655e7327a7400c7fbe948e4a",
+    "Figure_T8_3_uniform_vs_local_rates.pdf": "1471313d9a1cb29301928f4bf4ec4c2a59ec4f7e791e7c32390e66e37dd9e261",
+    "Figure_T8_3_uniform_vs_local_rates.png": "663c885bb0f8d0321837666ed1b2288981de66fc98db8dcc453aaa0e35dca34c",
+    "Figure_T8_4_salt_flux_correlation.pdf": "4df0cd1104957a66188db82fb89e9322c61ac53a365e2f33c0f10ce6d63b2499",
+    "Figure_T8_4_salt_flux_correlation.png": "2cce799e016a84aacd37c2c3ac3d0c58ef4ba58e1c9088b0381449ea4c3a7d5d",
+    "Figure_T8_5_snapshot_evolution.pdf": "996229c5cfaf3d293f633a277b61134c5c307ba872950973dbf27d82138e1faf",
+    "Figure_T8_5_snapshot_evolution.png": "4e6b1e398a98915404be92556717c988026a2a8ba889c6bdbf2dc2fcd8a487b3"
+  }
+}
