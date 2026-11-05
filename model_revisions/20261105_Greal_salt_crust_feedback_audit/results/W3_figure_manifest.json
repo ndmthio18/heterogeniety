@@ -1,0 +1,30 @@
+{
+  "audience": "scientific review; general 178/120 mm layouts, no journal compliance claimed",
+  "sources": [
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-81",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-75"
+  ],
+  "transformations": [
+    "actual VTK convex-cell volume",
+    "actual top polygon area",
+    "VF threshold sensitivity",
+    "solid moles=cell volume*VF*2165/0.0584428",
+    "hypothetical height=mass/[2165*(1-0.43)*area]*alpha"
+  ],
+  "missing_data": "below primary VF threshold shown gray, not zero-colored",
+  "normalization": "common LogNorm across all Greal-81 time-map panels; no smoothing/interpolation",
+  "figures": {
+    "Figure_T1a_Greal81_solid_loading_maps.pdf": "5eac086a814cee27b0a69a9aa42a34dbbba287a73c53312b0829fd48be9b9674",
+    "Figure_T1a_Greal81_solid_loading_maps.png": "1167aca772d08117dede1f9eeb4d0d58eb03c69ec3eeb36ac098b75ddbfb193f",
+    "Figure_T1b_Greal81_hypothetical_height_maps.pdf": "d7cad6315420ec694bcb0332bea0ed0712e104ed098da3efef369f1581501549",
+    "Figure_T1b_Greal81_hypothetical_height_maps.png": "2f1a458b117a3ca84cd53cec80fc36a9c8d9e413b41e2d6bc9d5156455674852",
+    "Figure_T2_mass_concentration.pdf": "8a25760eb21cd2b52285978c1c70f78fc9c1721cef32c86ac7f4db20f70189a5",
+    "Figure_T2_mass_concentration.png": "7732bb8e2e7fb6a8261637f82dcb6df9dc534531ca0d3835b39bdf02d877dbf5",
+    "Figure_T3_thickness_distributions.pdf": "754a7c26d56d626f0f29ee051d3306a0051a423c1c95106b0d0a1467b0fd83fa",
+    "Figure_T3_thickness_distributions.png": "64da5d077ee3dc207e38a6ee3bb147c889c52f20990fa3bfb805b9c4fbe5e000",
+    "Figure_T4_coverage_thresholds.pdf": "e198008e6d05c25454e4d5eb9a5414e95cd09b0cad50aea816ce1fa0a0f474f1",
+    "Figure_T4_coverage_thresholds.png": "78b8ab39af715b37f4a0abadc01c3cb8e10e90bb35d686f9dedb96c7e28990de",
+    "Figure_T5_Greal75_vs_81_174h.pdf": "f69c6aa332f0cd45b8a795c71725e7ba6465c9f687cea06fbf16324d80fb1da2",
+    "Figure_T5_Greal75_vs_81_174h.png": "0173f7f3dd23640881407f46898fb054aa0573b559ac7c5a7d0b95d166a9dc45"
+  }
+}

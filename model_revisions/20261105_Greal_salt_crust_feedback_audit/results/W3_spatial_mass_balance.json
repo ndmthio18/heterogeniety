@@ -1,0 +1,309 @@
+{
+  "constants": {
+    "rho_NaCl_kg_m3": 2165.0,
+    "molar_mass_kg_mol": 0.0584428,
+    "solid_molar_density_mol_m3": 37044.76856002792,
+    "crust_porosity": 0.43,
+    "primary_vf_threshold": 1e-12,
+    "absolute_tolerance_mol": 5e-13,
+    "relative_tolerance": 5e-10
+  },
+  "source_files_read_only": true,
+  "cases": {
+    "Greal-81": {
+      "times": {
+        "60": {
+          "surface_cell_mol": 3.165512576889493e-41,
+          "profile_top1": {
+            "reference_mol": 1.936766192040818e-39,
+            "absolute_difference_mol": -1.905111066271923e-39,
+            "relative_difference": -3.810222132543846e-27,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 5.417094124752239e-38,
+            "absolute_difference_mol": -5.413928612175349e-38,
+            "relative_difference": -1.08278572243507e-25,
+            "passed": true
+          }
+        },
+        "72": {
+          "surface_cell_mol": 1.2019965086562527e-08,
+          "profile_top1": {
+            "reference_mol": 1.2019965086562648e-08,
+            "absolute_difference_mol": -1.2076836943274204e-22,
+            "relative_difference": -1.004731449409544e-14,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 1.2019965086562648e-08,
+            "absolute_difference_mol": -1.2076836943274204e-22,
+            "relative_difference": -1.004731449409544e-14,
+            "passed": true
+          }
+        },
+        "84": {
+          "surface_cell_mol": 8.15169196330605e-05,
+          "profile_top1": {
+            "reference_mol": 8.151691963306048e-05,
+            "absolute_difference_mol": 1.3552527156068805e-20,
+            "relative_difference": 1.662541619221387e-16,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 8.151691963306048e-05,
+            "absolute_difference_mol": 1.3552527156068805e-20,
+            "relative_difference": 1.662541619221387e-16,
+            "passed": true
+          }
+        },
+        "96": {
+          "surface_cell_mol": 0.00034239082545646076,
+          "profile_top1": {
+            "reference_mol": 0.0003423908254564611,
+            "absolute_difference_mol": -3.2526065174565133e-19,
+            "relative_difference": -9.499689464868911e-16,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 0.0003423908254564611,
+            "absolute_difference_mol": -3.2526065174565133e-19,
+            "relative_difference": -9.499689464868911e-16,
+            "passed": true
+          }
+        },
+        "108": {
+          "surface_cell_mol": 0.0007681549693772823,
+          "profile_top1": {
+            "reference_mol": 0.0007681549693772829,
+            "absolute_difference_mol": -6.505213034913027e-19,
+            "relative_difference": -8.468620648495682e-16,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 0.0007681549693772829,
+            "absolute_difference_mol": -6.505213034913027e-19,
+            "relative_difference": -8.468620648495682e-16,
+            "passed": true
+          }
+        },
+        "120": {
+          "surface_cell_mol": 0.001342781493597686,
+          "profile_top1": {
+            "reference_mol": 0.0013427814935976867,
+            "absolute_difference_mol": -6.505213034913027e-19,
+            "relative_difference": -4.844580496476566e-16,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 0.0013427814935976867,
+            "absolute_difference_mol": -6.505213034913027e-19,
+            "relative_difference": -4.844580496476566e-16,
+            "passed": true
+          }
+        },
+        "144": {
+          "surface_cell_mol": 0.0028868107902948973,
+          "profile_top1": {
+            "reference_mol": 0.0028868107902949003,
+            "absolute_difference_mol": -3.0357660829594124e-18,
+            "relative_difference": -1.0515985644661165e-15,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 0.0028868107902949003,
+            "absolute_difference_mol": -3.0357660829594124e-18,
+            "relative_difference": -1.0515985644661165e-15,
+            "passed": true
+          }
+        },
+        "174": {
+          "surface_cell_mol": 0.005487798553277463,
+          "profile_top1": {
+            "reference_mol": 0.005487798553277465,
+            "absolute_difference_mol": -1.734723475976807e-18,
+            "relative_difference": -3.1610553104956493e-16,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 0.005487798553277465,
+            "absolute_difference_mol": -1.734723475976807e-18,
+            "relative_difference": -3.1610553104956493e-16,
+            "passed": true
+          },
+          "previous_inventory_summary_top1": {
+            "reference_mol": 0.0054877985532774,
+            "absolute_difference_mol": 6.331740687315346e-17,
+            "relative_difference": 1.1537851883309256e-14,
+            "passed": true
+          }
+        }
+      },
+      "face_mapping": {
+        "top_cell_count": 384,
+        "unique_top_face_count": 384,
+        "actual_discrete_W3_area_m2": 0.000980171403295606,
+        "analytical_half_circle_area_m2": 0.0009817477042468104,
+        "relative_discrete_area_difference": -0.001605606964381648,
+        "every_top_cell_has_one_face": true
+      }
+    },
+    "Greal-75": {
+      "times": {
+        "60": {
+          "surface_cell_mol": 6.545432587142116e-41,
+          "profile_top1": {
+            "reference_mol": -4.837073238133012e-40,
+            "absolute_difference_mol": 5.4916164968472236e-40,
+            "relative_difference": 1.0983232993694447e-27,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": -3.7539827721733184e-38,
+            "absolute_difference_mol": 3.7605282047604605e-38,
+            "relative_difference": 7.521056409520921e-26,
+            "passed": true
+          }
+        },
+        "72": {
+          "surface_cell_mol": 9.982208522442179e-05,
+          "profile_top1": {
+            "reference_mol": 9.982208522442179e-05,
+            "absolute_difference_mol": 0.0,
+            "relative_difference": 0.0,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 9.982208522442179e-05,
+            "absolute_difference_mol": 0.0,
+            "relative_difference": 0.0,
+            "passed": true
+          }
+        },
+        "84": {
+          "surface_cell_mol": 0.00043973155717960883,
+          "profile_top1": {
+            "reference_mol": 0.0004397315571796088,
+            "absolute_difference_mol": 5.421010862427522e-20,
+            "relative_difference": 1.232800051285222e-16,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 0.0004397315571796088,
+            "absolute_difference_mol": 5.421010862427522e-20,
+            "relative_difference": 1.232800051285222e-16,
+            "passed": true
+          }
+        },
+        "96": {
+          "surface_cell_mol": 0.0009809368542648236,
+          "profile_top1": {
+            "reference_mol": 0.000980936854264824,
+            "absolute_difference_mol": -4.336808689942018e-19,
+            "relative_difference": -4.4210885451870355e-16,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 0.000980936854264824,
+            "absolute_difference_mol": -4.336808689942018e-19,
+            "relative_difference": -4.4210885451870355e-16,
+            "passed": true
+          }
+        },
+        "108": {
+          "surface_cell_mol": 0.001692570836159344,
+          "profile_top1": {
+            "reference_mol": 0.0016925708361593451,
+            "absolute_difference_mol": -1.0842021724855044e-18,
+            "relative_difference": -6.405653159815129e-16,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 0.0016925708361593451,
+            "absolute_difference_mol": -1.0842021724855044e-18,
+            "relative_difference": -6.405653159815129e-16,
+            "passed": true
+          }
+        },
+        "120": {
+          "surface_cell_mol": 0.002557651565204824,
+          "profile_top1": {
+            "reference_mol": 0.0025576515652048254,
+            "absolute_difference_mol": -1.3010426069826053e-18,
+            "relative_difference": -5.086864155706109e-16,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 0.0025576515652048254,
+            "absolute_difference_mol": -1.3010426069826053e-18,
+            "relative_difference": -5.086864155706109e-16,
+            "passed": true
+          }
+        },
+        "144": {
+          "surface_cell_mol": 0.00469958126743086,
+          "profile_top1": {
+            "reference_mol": 0.0046995812674308635,
+            "absolute_difference_mol": -3.469446951953614e-18,
+            "relative_difference": -7.382459743802386e-16,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 0.0046995812674308635,
+            "absolute_difference_mol": -3.469446951953614e-18,
+            "relative_difference": -7.382459743802386e-16,
+            "passed": true
+          }
+        },
+        "174": {
+          "surface_cell_mol": 0.008081341454132756,
+          "profile_top1": {
+            "reference_mol": 0.008081341454132758,
+            "absolute_difference_mol": -1.734723475976807e-18,
+            "relative_difference": -2.1465786167093313e-16,
+            "passed": true
+          },
+          "mineral_fine": {
+            "reference_mol": 0.008081341454132758,
+            "absolute_difference_mol": -1.734723475976807e-18,
+            "relative_difference": -2.1465786167093313e-16,
+            "passed": true
+          },
+          "previous_inventory_summary_top1": {
+            "reference_mol": 0.0080813414541327,
+            "absolute_difference_mol": 5.551115123125783e-17,
+            "relative_difference": 6.8690515734699084e-15,
+            "passed": true
+          }
+        }
+      },
+      "face_mapping": {
+        "top_cell_count": 384,
+        "unique_top_face_count": 384,
+        "actual_discrete_W3_area_m2": 0.000980171403295606,
+        "analytical_half_circle_area_m2": 0.0009817477042468104,
+        "relative_discrete_area_difference": -0.001605606964381648,
+        "every_top_cell_has_one_face": true
+      }
+    }
+  },
+  "hashes": {
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-81/Greal-81-00062.vtu": "2931adcf6ee9f15c70a97ed35444d3243ae61504b73d960c13c4bc5f0d50daeb",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-81/Greal-81-00074.vtu": "5c02b46f117e6ef07909572e659cd7b8ecd9a5de17be6b7b22a57883cae9fbaa",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-81/Greal-81-00086.vtu": "d7a864d468b80fbf0185e714449baffb4cdeef4b26e3794b6f8d55db1b09ac90",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-81/Greal-81-00098.vtu": "0a1e9ec41e2cbf7b89b39ed478c6891bbea541b0ee2f5812439ceda51cb3c771",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-81/Greal-81-00110.vtu": "28e1975891fe452284edc5c6c9e9107f5aa7383c5c2286bc58a00dc1f9617c6e",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-81/Greal-81-00122.vtu": "496032305e6cfba200c2d6a07a12b0254791ad97ab8764f757b8c160c03a6a9a",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-81/Greal-81-00146.vtu": "55365a801484d99d382406d4f71d3113839d5fd005fe2e553e68407052100a35",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-81/Greal-81-00176.vtu": "2f82bbd853f1ebecba66effd80eb9d457d628818ac78969b0e3ff27589e61659",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-75/Greal-75-00062.vtu": "6fb6f05bd22309231c8a10371e584ab9ec7cb1ee67ec37a6b104b3c599b3cbfe",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-75/Greal-75-00074.vtu": "8d8ea1dfb7db4bb36e608e28358fb2159f9df744494cf7a07908d2cdf705cb3e",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-75/Greal-75-00086.vtu": "4f243e3b84d2a5a981263047d254927e9101bac55785d041763b9e790d6bdf81",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-75/Greal-75-00098.vtu": "e0fac21e36cd3a54c5b88fd12da492786bd4f40355920faf38c65d200af7c9b0",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-75/Greal-75-00110.vtu": "9232a3d0c4eaa72963ee5d84375e2d14da88c80f71ba90476c4ecf3e15814b44",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-75/Greal-75-00122.vtu": "7d70e0b86bb643b012e95f5ab886d327776c41043a9df4a3e7f8e2d7102076da",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-75/Greal-75-00146.vtu": "ca6f61ed2f426a63c21c19a45bfc5a81e053ef6ff4987370aaa4c037d97511a0",
+    "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/runs/Greal-75/Greal-75-00176.vtu": "89f6fd1037fbb489e502c4e97ea9735b12afbfd2339281eae4a920989fc9956d"
+  },
+  "all_mass_checks_passed": true
+}
