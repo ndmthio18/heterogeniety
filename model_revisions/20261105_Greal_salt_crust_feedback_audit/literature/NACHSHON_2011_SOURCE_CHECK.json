@@ -1,0 +1,14 @@
+{
+  "review_date": "2026-11-05",
+  "doi": "10.1029/2011WR010776",
+  "publisher": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011WR010776",
+  "publisher_table_route": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2011wr010776",
+  "original_paper_text": "https://citeseerx.ist.psu.edu/document?doi=36f33c1955efc77b340d6ad6a25cac201771f318&repid=rep1&type=pdf",
+  "access": "Publisher indexed full-text/table excerpts cross-checked with parsed original-paper PDF text. Direct full-text access intermittent.",
+  "locations": {"thickness": "Eq. 5, PDF p.4/16", "inversion": "Eq. 9, PDF p.8/16, paragraphs 35-36", "table": "Table 2, PDF p.9/16", "methods": "paragraphs 19,25-28", "dry_crust_assumption": "paragraph 42"},
+  "unavailable": ["publisher tab-delimited supplement (403)", "PDF page screenshots (403)", "original unrounded inversion data", "verified constant ambient temperature setpoint"],
+  "transcription": "six rows cross-checked",
+  "formula": "verified signed Fick law; magnitude Ds=abs(J)*L/abs(DeltaC)",
+  "arithmetic": "six reported coefficients inconsistent with displayed inputs; ordinary displayed-digit rounding intervals do not overlap",
+  "scope": "literature Task 1 only; no simulation, code physics changes, parameter fitting or Task 2"
+}

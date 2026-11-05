@@ -2,6 +2,8 @@
 
 Access checked 2026-11-05. Source-specific claims below are limited to retrieved primary material. No provisional diffusivity range is relabelled as verified evidence.
 
+**Task 6 / Task 1 update (2026-11-05):** The historical access limitations below are retained as provenance. Subsequent publisher-indexed Table 2 and original-paper parsed text now verify the six transcribed values and Eq. 9. See [focused verification](NACHSHON_2011_TRANSFERABILITY.md) and [six-row arithmetic audit](results/NACHSHON_2011_TABLE2_VERIFIED.csv). All six coefficients fail direct reproduction from the displayed J, L and Delta C; this supersedes the earlier "not verified" status with **transcription verified, numerical consistency unresolved**. Heterogeneous published D_s/D_air ratios are 0.080914, 0.095524, 0.086533 and 0.231129, not universal bounds. Earlier figures and accepted results are unchanged; the earlier parameter-availability decision below describes the original Task 5 evidence state only.
+
 ## 2010WR009677 — full HTML reviewed
 
 [Publisher full text](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2010WR009677), sections 2.3, 3.1, 4 and 5.1; paragraph numbers provide exact locations because PDF pagination was unavailable.
