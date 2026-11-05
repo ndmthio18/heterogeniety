@@ -1,0 +1,70 @@
+{
+  "Greal-81": {
+    "transport_0_174": {
+      "start_h": 0,
+      "end_h": 174,
+      "lateral_adv_net_mol": 0.03970873464458076,
+      "lateral_adv_gross_mol": 0.04024245355400213,
+      "lateral_diff_net_mol": -0.014873760119302477,
+      "lateral_diff_gross_mol": 0.023402998345529523,
+      "upward_adv_net_mol": 0.004171229116323294,
+      "upward_adv_gross_mol": 0.004208577980741251,
+      "upward_diff_net_mol": -0.0010598716445593822,
+      "upward_diff_gross_mol": 0.0013470658429292478
+    },
+    "terminal_surface": {
+      "time_h": 174.0,
+      "aw_mean": 0.7836084732492474,
+      "C_mean_M": 4.900874492239509,
+      "W3_evap_g_h": 0.1312630228953697,
+      "F36_evap_g_h": 0.149663345450308,
+      "total_evap_g_h": 0.2809263683456777,
+      "salt_dissolved_mol": 0.0365729925590905,
+      "salt_solid_mol": 0.0054877985532774,
+      "equivalent_height_mm": 0.2647132727323125,
+      "F36_to_W3_adv_net_mol_s": 7.598669518819175e-08,
+      "F36_to_W3_adv_gross_mol_s": 7.736345448944627e-08,
+      "F36_to_W3_diff_net_mol_s": -3.5751302312305995e-08,
+      "F36_to_W3_diff_gross_mol_s": 5.4011647615877256e-08,
+      "filter_to_W3_adv_net_mol_s": 9.327196908294714e-09,
+      "filter_to_W3_adv_gross_mol_s": 9.475174727469417e-09,
+      "filter_to_W3_diff_net_mol_s": -2.416525553860866e-09,
+      "filter_to_W3_diff_gross_mol_s": 3.725073096852589e-09
+    },
+    "height_growth_max_mm_h": 0.0047443533231485
+  },
+  "Greal-75": {
+    "transport_0_174": {
+      "start_h": 0,
+      "end_h": 174,
+      "lateral_adv_net_mol": 0.042736071048620594,
+      "lateral_adv_gross_mol": 0.04329508081512501,
+      "lateral_diff_net_mol": -0.0155597563883669,
+      "lateral_diff_gross_mol": 0.024803886183449572,
+      "upward_adv_net_mol": 0.0046102273329684685,
+      "upward_adv_gross_mol": 0.004643773822247103,
+      "upward_diff_net_mol": -0.0011173108148734576,
+      "upward_diff_gross_mol": 0.001437552493300198
+    },
+    "terminal_surface": {
+      "time_h": 174.0,
+      "aw_mean": 0.7808267720696331,
+      "C_mean_M": 4.94985053362937,
+      "W3_evap_g_h": 0.1404338639940902,
+      "F36_evap_g_h": 0.160166121741919,
+      "total_evap_g_h": 0.3005999857360092,
+      "salt_dissolved_mol": 0.0367023488395405,
+      "salt_solid_mol": 0.0080813414541327,
+      "equivalent_height_mm": 0.38981721424763044,
+      "F36_to_W3_adv_net_mol_s": 8.182597625239664e-08,
+      "F36_to_W3_adv_gross_mol_s": 8.325078725490582e-08,
+      "F36_to_W3_diff_net_mol_s": -3.5951091079403795e-08,
+      "F36_to_W3_diff_gross_mol_s": 5.561750163135928e-08,
+      "filter_to_W3_adv_net_mol_s": 1.04569322866808e-08,
+      "filter_to_W3_adv_gross_mol_s": 1.0580751152029024e-08,
+      "filter_to_W3_diff_net_mol_s": -2.6062405942923347e-09,
+      "filter_to_W3_diff_gross_mol_s": 3.992685839924377e-09
+    },
+    "height_growth_max_mm_h": 0.0060355930039241
+  }
+}

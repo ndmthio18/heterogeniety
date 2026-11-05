@@ -1,0 +1,35 @@
+{
+  "coverage": [
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "observations": 440,
+      "matched": 440,
+      "missing_times": []
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "observations": 440,
+      "matched": 440,
+      "missing_times": []
+    },
+    {
+      "case": "Greal-75",
+      "side": "F36",
+      "observations": 440,
+      "matched": 440,
+      "missing_times": []
+    },
+    {
+      "case": "Greal-75",
+      "side": "W3",
+      "observations": 440,
+      "matched": 440,
+      "missing_times": []
+    }
+  ],
+  "MRI_sha256": "62804ae5ab27b71cce2b2fa57ace68afaa1efe6ebee9a82a4676e141d081b7ed",
+  "window_rule": "[0,60], then (lower,upper]; exact time and depth joins; no interpolation",
+  "estimator": "equal weight per observed 1mm depth-bin pair; C_volume_mean_M uses overlap-weighted bulk cell volume (campaign_diagnostics.hh), not liquid-volume weighting; slopes are finite differences between observed times"
+}

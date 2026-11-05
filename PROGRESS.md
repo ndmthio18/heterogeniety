@@ -1,5 +1,11 @@
 # Project progress
 
+## 2026-11-05 — G-real salt-crust Phase I audit
+
+Read-only analysis delivered in `model_revisions/20261105_Greal_salt_crust_feedback_audit`: precipitation location, equivalent thickness sensitivities, conditional resistance screening, original/recalibrated MRI errors, accepted-step net/gross transport, selected native temperature fields, seven figure families and conservative future design.44 source hashes verified against accepted archive;1760 MRI pairs matched;W3 salt closure residual below2e-15mol. No solver changes or new simulations.
+
+Decision: NO-GO for immediate coupled implementation/fitting. Solid is near W3 surface, but external fraction and wet/dry regime are unmeasured; MRI disagreement predates model precipitation. Two references were only partially accessible; the proposed dimensional diffusion band remains unverified and no literature band is fabricated. Conditional late feedback remains plausible. Phase II requires review. Branch: `research/greal-salt-crust-feedback-audit`.
+
 Last updated: 2026-11-03 (Europe/Berlin; revision batch started 2026-10-28)
 
 ## Objective

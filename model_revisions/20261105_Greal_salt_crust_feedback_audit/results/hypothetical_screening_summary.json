@@ -1,0 +1,56 @@
+{
+  "Greal-81": [
+    {
+      "Dcrust_over_Dair": 0.01,
+      "full_coverage_terminal_reduction_fraction": 0.7656981992498292,
+      "estimated_evaporated_water_reduction_g": 5.710676887645965
+    },
+    {
+      "Dcrust_over_Dair": 0.05,
+      "full_coverage_terminal_reduction_fraction": 0.3952588024986603,
+      "estimated_evaporated_water_reduction_g": 2.231261711188747
+    },
+    {
+      "Dcrust_over_Dair": 0.1,
+      "full_coverage_terminal_reduction_fraction": 0.2463068830750389,
+      "estimated_evaporated_water_reduction_g": 1.287033127565127
+    },
+    {
+      "Dcrust_over_Dair": 0.25,
+      "full_coverage_terminal_reduction_fraction": 0.11560774292093279,
+      "estimated_evaporated_water_reduction_g": 0.5693508142258153
+    },
+    {
+      "Dcrust_over_Dair": 1.0,
+      "full_coverage_terminal_reduction_fraction": 0.03164581134730593,
+      "estimated_evaporated_water_reduction_g": 0.15052643451175604
+    }
+  ],
+  "Greal-75": [
+    {
+      "Dcrust_over_Dair": 0.01,
+      "full_coverage_terminal_reduction_fraction": 0.8386462512551356,
+      "estimated_evaporated_water_reduction_g": 8.283368072348342
+    },
+    {
+      "Dcrust_over_Dair": 0.05,
+      "full_coverage_terminal_reduction_fraction": 0.5096867682706425,
+      "estimated_evaporated_water_reduction_g": 3.7603222748092797
+    },
+    {
+      "Dcrust_over_Dair": 0.1,
+      "full_coverage_terminal_reduction_fraction": 0.3419997604659275,
+      "estimated_evaporated_water_reduction_g": 2.290103436858429
+    },
+    {
+      "Dcrust_over_Dair": 0.25,
+      "full_coverage_terminal_reduction_fraction": 0.17211862034399428,
+      "estimated_evaporated_water_reduction_g": 1.062017004850042
+    },
+    {
+      "Dcrust_over_Dair": 1.0,
+      "full_coverage_terminal_reduction_fraction": 0.049407635647589876,
+      "estimated_evaporated_water_reduction_g": 0.2894508005530995
+    }
+  ]
+}

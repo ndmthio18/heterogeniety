@@ -1,0 +1,11 @@
+# Ali crystallization evidence
+
+Primary source: project `Ch_4_Hetero_MRI_Ali.pdf`, PDF page 12, printed page 58, section 4.3.4. This page was read directly with PDF text extraction. It describes MRI sodium-recovery shortfalls reaching 23% and later reducing to 10–15%; these are total-sodium recovery differences and cannot be assigned as uniform pointwise concentration errors.
+
+The same page identifies coarser resolution, reduced averaging, undetected solid sodium and possible supersaturation outside calibration as candidate contributors. It explicitly presents 96–108 h nucleation as a hypothesis. It identifies Fig. 4.6 as surface-crust evidence, not a direct timestamp of first nucleation. Figure 4.7 profiles are whole-cross-section or whole-material-half profiles; no unsupported central-ROI uncertainty is introduced.
+
+The archived supplied profile table covers 11 times. It does not contain all early curves shown in Fig. 4.7. Exact nominal-time matching is used, with no inferred acquisition-clock correction. Finite acquisition duration and the previously recorded 32-minute window remain observation limitations; no unprovided voxel-level reprocessing has been invented.
+
+Printed pages 59–62 (PDF 13–16) were also visually inspected. Figure 4.7 compares total sodium recovery and whole-half profiles. Section 4.3.4 uses an approximate one-dimensional diffusion argument, not a measured interfacial salt flux. Section 4.3.5 and Figure 4.8 propose downflow in F36, lateral redistribution and upward supply in W3, followed by surface accumulation. Page 61 explicitly states that separate local evaporation rates are unknown. These support a mechanism hypothesis, not numerical validation of the current lateral or W3 evaporative flux.
+
+PDF pages 10–11 (printed 56–57) were subsequently visually reviewed. Figure 4.5 displays sodium concentration fields; Figure 4.6 compares 0, 24 and 174 h and shows an upper W3 feature in 1H imaging at 174 h. The accompanying text interprets this as moisture within evolving crust above the original surface; no comparable F36 feature is reported. Moisture is evidence against automatically treating every crust as dry, but it does not measure hydraulic continuity, permeability or an exact first-crystal time. The images do not quantify external salt mass or coverage for the present calculation.

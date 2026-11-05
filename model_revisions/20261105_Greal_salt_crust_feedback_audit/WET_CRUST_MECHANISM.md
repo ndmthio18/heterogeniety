@@ -1,0 +1,7 @@
+# Wet connected crust: bounding mechanism
+
+Porosity alone establishes neither hydraulic connectivity nor enhanced evaporation. For liquid-fed evaporation at the outer crust surface, connected liquid pathways must span the crust. The available capillary pressure must exceed viscous loss plus gravity: approximately `Delta p_available >= mu J_l h/(rho_l K k_rl) + rho_l g h`. Crust permeability, capillary curve, liquid saturation and contact area are presently unknown. Consequently no numerical enhancement factor is justified.
+
+A connected, sufficiently permeable crust can maintain evaporation if atmospheric transfer and heat supply remain limiting. Enhancement additionally requires an increase in effective exposed transfer area or shorter transport distance that is not offset by cooling, vapor-field overlap or reduced water activity. A detached crust with sparse liquid contacts may instead impose vapor resistance across an air gap and the crust. A wet but poorly supplied crust can also suppress evaporation through hydraulic limitation.
+
+The useful regime coordinates are hydraulic supply capacity divided by evaporation demand, and gas-side plus crust vapor resistance divided by air-film resistance. A third constraint is available heat divided by latent demand. None can be replaced by a fitted switch based only on solid mass. The existing data determine equivalent mass and baseline demand, but not crust connectivity or supply capacity.

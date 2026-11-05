@@ -1,0 +1,46 @@
+{
+  "Greal-81": {
+    "F36": {
+      "matched": 177,
+      "water_molar_mass_inferred_kg_mol": 0.018015179999999995,
+      "max_abs_difference_g_h": 2.7755575615628914e-16,
+      "area_range_m2": [
+        0.0009801714032956,
+        0.0009801714032956
+      ]
+    },
+    "W3": {
+      "matched": 177,
+      "water_molar_mass_inferred_kg_mol": 0.018015179999999995,
+      "max_abs_difference_g_h": 2.7755575615628914e-16,
+      "area_range_m2": [
+        0.0009801714032956,
+        0.0009801714032956
+      ]
+    },
+    "total_max_abs_difference_g_h": 3.3306690738754696e-16,
+    "temperature_rows": 0
+  },
+  "Greal-75": {
+    "F36": {
+      "matched": 177,
+      "water_molar_mass_inferred_kg_mol": 0.018015179999999995,
+      "max_abs_difference_g_h": 2.220446049250313e-16,
+      "area_range_m2": [
+        0.0009801714032956,
+        0.0009801714032956
+      ]
+    },
+    "W3": {
+      "matched": 177,
+      "water_molar_mass_inferred_kg_mol": 0.018015179999999995,
+      "max_abs_difference_g_h": 3.0531133177191805e-16,
+      "area_range_m2": [
+        0.0009801714032956,
+        0.0009801714032956
+      ]
+    },
+    "total_max_abs_difference_g_h": 3.3306690738754696e-16,
+    "temperature_rows": 0
+  }
+}

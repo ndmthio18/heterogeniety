@@ -1,0 +1,13 @@
+# G-real salt-crust feedback audit — Phase I
+
+Read SCIENTIFIC_CONCLUSIONS.md and GO_NO_GO.md first. Phase I recommends NO-GO for immediate implementation/fitting: the surface mechanism is plausible, but wet/dry regime and simultaneous MRI/evaporation improvement remain unresolved. No coupled implementation or production run was performed.
+
+Accepted Greal-81 and Greal-75 files are read-only sources. `scripts/inventory_audit.py` reconstructs the top 1/2 mm and deeper W3 solid inventories, compares material sums against mineral ledgers, checks onset thresholds 1e-12/1e-9/1e-6 mol, and evaluates hypothetical external crust height for density 2165/2650 kg/m3, porosity 0.30/0.43/0.60 and coverage 1/0.75/0.5/0.25. The additional porosities are analyst-selected sensitivity scenarios, not measured values.
+
+Filter solid is presently inferred as the total-minus-sand ledger remainder; this is not independent spatial verification. Top-layer salt is not automatically external efflorescence. Thickness estimates do not change solver solid storage.
+
+Inventory, MRI windows, face-flux verification, native temperature/location, transport histories, seven figure families, supplementary state figures and conservative design are delivered. Two papers were only partially accessible; the dimensional diffusivity band and unavailable equation images/pages are explicitly unverified. Figure 3 contains a verified literature fitted ratio plus conditional scenarios, not a literature uncertainty band. See LITERATURE_AUDIT.md.
+
+Reproduce on HPCC with Python 3, numpy1.26.4, pandas2.2.3 and matplotlib3.8.4. Set SRC to the authoritative run directory and MRI to the source revision inputs/MRI_profile_pairs_unchanged.csv. Run inventory_audit.py, mri_audit.py, surface_audit.py, verify_surface.py, selected_vtu_audit.py and synthesize_audit.py in that order, each with --source "$SRC" --out results; mri_audit.py additionally needs --mri "$MRI". All scripts reside under scripts/.
+
+Full accepted-step thickness sensitivity remains reproducible remotely; delivered hourly and terminal tables reduce storage. Actual accepted-step dt is used for transport integration. C_volume_mean_M uses bulk-volume overlap weighting; residual statistics give equal weight to measured bin/time pairs. Surface states use face-area weighting. Native fields are selected by PVD time. Only compact results/figures/scripts/reports enter Git, not raw fields or binaries. See results/QA_checks.json for verification and REPAIR_LOG.md for analysis corrections.
