@@ -1,0 +1,228 @@
+{
+  "Greal-75": {
+    "endpoint_h": 174.0,
+    "evaporation": {
+      "loss_1_174_g": 56.00676180438404,
+      "final_error_g": 4.486761804384059,
+      "final_error_percent": 8.70877679422372,
+      "cumulative_rmse_g": 1.7812255580129286,
+      "duration_weighted_rate_rmse_g_h": 0.035290423103643276
+    },
+    "first_solid_h": 61.083333333333336,
+    "terminal_solid_mol": 0.0080813414541327,
+    "terminal_solid_g_NaCl": 0.472273594579515,
+    "terminal_temperature_K": [
+      291.4152422683185,
+      292.8757225226016
+    ],
+    "max_relative_closure": {
+      "water": 1.2233951649527734e-13,
+      "salt": 9.706295804832311e-14,
+      "F36": 1.2605725267234554e-12,
+      "W3": 1.5109080779329861e-12,
+      "energy": 1.6375337772834828e-10
+    },
+    "terminal_concentration_M": {
+      "F36_upper_3_12": 2.2840519627436864,
+      "F36_middle_12_28": 2.286685956015442,
+      "F36_lower_28_37": 2.26240910068728,
+      "F36_core_3_37": 2.279562290011252,
+      "W3_core_3_37": 2.4954355646607342
+    },
+    "MRI_profile_rmse": [
+      {
+        "side": "F36",
+        "window": "all",
+        "n": 440,
+        "rmse_M": 0.2709985072253903
+      },
+      {
+        "side": "F36",
+        "window": "core_3_37",
+        "n": 374,
+        "rmse_M": 0.26089229973974076
+      },
+      {
+        "side": "F36",
+        "window": "terminal_core_3_37",
+        "n": 34,
+        "rmse_M": 0.2557524124424876
+      },
+      {
+        "side": "W3",
+        "window": "all",
+        "n": 440,
+        "rmse_M": 0.4563302309585655
+      },
+      {
+        "side": "W3",
+        "window": "core_3_37",
+        "n": 374,
+        "rmse_M": 0.4341770647660952
+      },
+      {
+        "side": "W3",
+        "window": "terminal_core_3_37",
+        "n": 34,
+        "rmse_M": 0.26813187157472107
+      }
+    ],
+    "material_salt": {
+      "F36": {
+        "initial_salt_mol": 0.0156827424527303,
+        "terminal_salt_mol": 0.0359657161215698,
+        "salt_increment_mol": 0.020282973668839497
+      },
+      "W3": {
+        "initial_salt_mol": 0.0141144682074569,
+        "terminal_salt_mol": 0.044783690293675,
+        "salt_increment_mol": 0.0306692220862181
+      },
+      "filter": {
+        "initial_salt_mol": 0.0030875402270501,
+        "terminal_salt_mol": 0.006483981528722,
+        "salt_increment_mol": 0.0033964413016719
+      }
+    },
+    "flux_integrals": {
+      "reservoir_filter_material2": {
+        "net_salt_mol": -0.05434863705673332,
+        "gross_out_salt_mol": 1.3794302024735552e-16,
+        "gross_in_salt_mol": 0.054348637056733456
+      },
+      "F36_to_W3_material0": {
+        "net_salt_mol": 0.027176314660253643,
+        "gross_out_salt_mol": 0.047637640829414137,
+        "gross_in_salt_mol": 0.02046132616916049
+      },
+      "sand_to_filter_material0": {
+        "net_salt_mol": -0.04745927923690485,
+        "gross_out_salt_mol": 0.0432123820047922,
+        "gross_in_salt_mol": 0.09067166124169704
+      },
+      "sand_to_filter_material1": {
+        "net_salt_mol": -0.0034929165180947034,
+        "gross_out_salt_mol": 0.0012942048987264528,
+        "gross_in_salt_mol": 0.004787121416821157
+      },
+      "filter_lateral_material2": {
+        "net_salt_mol": -0.02146311838627924,
+        "gross_out_salt_mol": 0.009918018009787382,
+        "gross_in_salt_mol": 0.03138113639606663
+      }
+    }
+  },
+  "Greal-81": {
+    "endpoint_h": 174.0,
+    "evaporation": {
+      "loss_1_174_g": 52.40572143960316,
+      "final_error_g": 0.8857214396031807,
+      "final_error_percent": 1.7191798128943732,
+      "cumulative_rmse_g": 0.6238794200092883,
+      "duration_weighted_rate_rmse_g_h": 0.024755653056622747
+    },
+    "first_solid_h": 71.91666666666667,
+    "terminal_solid_mol": 0.0054877985532774,
+    "terminal_solid_g_NaCl": 0.32070694745353123,
+    "terminal_temperature_K": [
+      291.5226892166584,
+      292.8925944758207
+    ],
+    "max_relative_closure": {
+      "water": 9.631678393367474e-14,
+      "salt": 7.638432785541951e-14,
+      "F36": 1.240558244115508e-12,
+      "W3": 1.3961608245439931e-12,
+      "energy": 1.6375609294616796e-10
+    },
+    "terminal_concentration_M": {
+      "F36_upper_3_12": 2.2510127150524712,
+      "F36_middle_12_28": 2.239743562686747,
+      "F36_lower_28_37": 2.2133935079931875,
+      "F36_core_3_37": 2.235751219142513,
+      "W3_core_3_37": 2.4883472223403467
+    },
+    "MRI_profile_rmse": [
+      {
+        "side": "F36",
+        "window": "all",
+        "n": 440,
+        "rmse_M": 0.28461071384826997
+      },
+      {
+        "side": "F36",
+        "window": "core_3_37",
+        "n": 374,
+        "rmse_M": 0.27985335023892227
+      },
+      {
+        "side": "F36",
+        "window": "terminal_core_3_37",
+        "n": 34,
+        "rmse_M": 0.29118135386068883
+      },
+      {
+        "side": "W3",
+        "window": "all",
+        "n": 440,
+        "rmse_M": 0.4255444483558568
+      },
+      {
+        "side": "W3",
+        "window": "core_3_37",
+        "n": 374,
+        "rmse_M": 0.4087818015693839
+      },
+      {
+        "side": "W3",
+        "window": "terminal_core_3_37",
+        "n": 34,
+        "rmse_M": 0.26024002246878897
+      }
+    ],
+    "material_salt": {
+      "F36": {
+        "initial_salt_mol": 0.0156827424527303,
+        "terminal_salt_mol": 0.0352844947663476,
+        "salt_increment_mol": 0.019601752313617302
+      },
+      "W3": {
+        "initial_salt_mol": 0.0141144682074569,
+        "terminal_salt_mol": 0.0420607911123695,
+        "salt_increment_mol": 0.027946322904912602
+      },
+      "filter": {
+        "initial_salt_mol": 0.0030875402270501,
+        "terminal_salt_mol": 0.0063924751501576,
+        "salt_increment_mol": 0.0033049349231075
+      }
+    },
+    "flux_integrals": {
+      "reservoir_filter_material2": {
+        "net_salt_mol": -0.050853010141640884,
+        "gross_out_salt_mol": 1.3794302024735552e-16,
+        "gross_in_salt_mol": 0.05085301014164102
+      },
+      "F36_to_W3_material0": {
+        "net_salt_mol": 0.024834974525278233,
+        "gross_out_salt_mol": 0.04424021321240497,
+        "gross_in_salt_mol": 0.01940523868712674
+      },
+      "sand_to_filter_material0": {
+        "net_salt_mol": -0.044436717746688864,
+        "gross_out_salt_mol": 0.04148355646892001,
+        "gross_in_salt_mol": 0.08592027421560887
+      },
+      "sand_to_filter_material1": {
+        "net_salt_mol": -0.0031113574717636042,
+        "gross_out_salt_mol": 0.0012221431759536015,
+        "gross_in_salt_mol": 0.004333500647717205
+      },
+      "filter_lateral_material2": {
+        "net_salt_mol": -0.020152899611197927,
+        "gross_out_salt_mol": 0.009372704695801143,
+        "gross_in_salt_mol": 0.02952560430699907
+      }
+    }
+  }
+}

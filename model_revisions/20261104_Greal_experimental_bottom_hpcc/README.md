@@ -16,12 +16,19 @@ The campaign is gated. Geometry/source, hydrostatic/boundary transport, short co
 
 See `PROGRESS.md` at project root for current execution state.
 
-## Execution status (2026-11-04)
+## Execution status (2026-11-05)
 
 Geometry, boundary transport, formal short-coupled conservation, sparse-output
 equivalence, six/twelve-layer vertical screening, storage admission, and the
-formal 1/2/4/8-thread Slurm benchmark passed.  The production jobs are now
-actually running on `cnmix`: Greal-75 is Slurm job `16293418` and Greal-81 is
-job `16293419`, each as one MPI task with eight threads.  Neither has reached
-174 h, so the evaporation and salt-redistribution reports remain explicitly
-pending rather than presenting partial results as validation.
+formal 1/2/4/8-thread Slurm benchmark passed. Greal-75 (`16293418`) and
+Greal-81 (`16293419`) both reached 2 h pre-equilibration plus 174 h evaporation
+and exited 0. Endpoint, water/salt/material/energy budgets and final file lists
+passed. The authoritative 6.5 GB remote archive contains 754 files and has
+SHA256 `9c55017bc712067afc6a32b0e801725364bfe1f38279468b25f281e937c9cf9f`;
+only the verified compact data and hash lists are stored locally.
+
+Greal-81 is the better full-window member of this pair: its 1--174 h reservoir
+loss is 52.4057 g versus 51.52 g measured (+1.719%), compared with 56.0068 g
+(+8.709%) for Greal-75. Neither result is an independent validation: Greal-81
+still misses the preset 1% endpoint tolerance, and both modeled interval-rate
+curves decline less strongly than the experiment.

@@ -1,5 +1,5 @@
 {
-  "state": "production_running_capacity_passed",
+  "state": "completed_verified_remote_archive",
   "authoritative_remote_root": "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104",
   "local_policy": "lightweight source, inputs, scalar histories, selected fields and verified final archive only; no repeated raw VTU copies",
   "deployed_solver_sha256": "03ce05a89732a7057c96f3becfb96f6017a87479a9dfa08d1553124857c87f5c",
@@ -18,6 +18,12 @@
     "Greal-75": "16293418",
     "Greal-81": "16293419"
   },
-  "final_archive": null,
-  "final_archive_sha256": null
+  "compact_local_archive": "results/greal_compact_final.tar.gz",
+  "compact_local_archive_sha256": "d30f5186d3b3e0bde21974b0b2ff4731f7a3b4585f14416af6663283cbd19e70",
+  "final_archive": "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/final_delivery/Greal_75_81_full_174h.tar",
+  "final_archive_size": "6.5G",
+  "final_archive_member_count": 754,
+  "final_archive_sha256": "9c55017bc712067afc6a32b0e801725364bfe1f38279468b25f281e937c9cf9f",
+  "local_full_archive_policy": "not downloaded; full raw remains in the verified authoritative HPCC archive",
+  "verification_lists": "results/archive_verification"
 }

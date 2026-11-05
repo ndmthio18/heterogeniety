@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 def load_case(path):
     path = Path(path)
-    return {name: pd.read_csv(path / name) for name in (
+    return {Path(name).stem: pd.read_csv(path / name) for name in (
         "film_budget.csv", "budget.csv", "material_budgets.csv",
         "native_fluxes.csv", "depth_profiles_compact.csv")}
 
@@ -35,6 +35,9 @@ def main():
     args = parser.parse_args()
     out = Path(args.out); out.mkdir(parents=True, exist_ok=True)
     exp = pd.read_csv(args.experiment)
+    # The model ends at 174 h.  Later weighing points must not be compared with
+    # a clamped 174 h model value.
+    exp = exp[(exp.time_h >= 1.0) & (exp.time_h <= 174.0)].copy()
     cases = {"Greal-75": load_case(args.greal75), "Greal-81": load_case(args.greal81)}
 
     fig, axes = plt.subplots(1, 2, figsize=(10, 4.2), constrained_layout=True)
@@ -65,7 +68,9 @@ def main():
             q = p[p.material == material]
             for lo, hi, band in bands:
                 z = q[(q.depth_mm >= lo) & (q.depth_mm < hi)]
-                curve = z.groupby("evaporation_h").apply(lambda x: np.average(x.C_volume_mean_M, weights=x.liquid_volume_m3))
+                grouped = (z.assign(weighted_C=z.C_volume_mean_M*z.liquid_volume_m3)
+                           .groupby("evaporation_h")[["weighted_C", "liquid_volume_m3"]].sum())
+                curve = grouped.weighted_C/grouped.liquid_volume_m3
                 row[0].plot(curve.index, curve.values, label=f"{label} {band}")
             inventory = q.groupby("evaporation_h")[["salt_dissolved_mol", "salt_solid_mol", "salt_total_mol"]].sum()
             row[1].plot(inventory.index, inventory.salt_dissolved_mol, label=f"{label} dissolved")

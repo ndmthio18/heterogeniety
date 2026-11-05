@@ -1,0 +1,18 @@
+{
+  "state": "verified",
+  "verified_at": "2026-11-05",
+  "compact_local_archive": {
+    "path": "results/greal_compact_final.tar.gz",
+    "sha256": "d30f5186d3b3e0bde21974b0b2ff4731f7a3b4585f14416af6663283cbd19e70",
+    "extracted_file_count": 24,
+    "authoritative_extraction": "results/full174_verified"
+  },
+  "full_remote_archive": {
+    "path": "/WORK/hulm_work/zhixin/Greal_experimental_bottom_hpcc_20261104/final_delivery/Greal_75_81_full_174h.tar",
+    "size": "6.5G",
+    "member_count": 754,
+    "sha256": "9c55017bc712067afc6a32b0e801725364bfe1f38279468b25f281e937c9cf9f",
+    "local_verification_lists": "results/archive_verification",
+    "downloaded_to_D_drive": false
+  }
+}
