@@ -1,0 +1,8 @@
+# Transfer-only staging archives and compiled executables are provenance-external.
+provenance/stage_*.tar.gz
+solver*
+runs/
+*.vtu
+*.pvd
+__pycache__/
+*.pyc
