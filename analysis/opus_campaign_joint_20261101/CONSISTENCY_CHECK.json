@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-01T19:53:38.876847+00:00",
+  "checks": {
+    "all_report_links_exist": true,
+    "source_hashes_match": true,
+    "report_hash_matches": true,
+    "formal_cases_26": true,
+    "B_cases_22": true,
+    "true_24h_all_cases": true,
+    "all_archives_verified": true,
+    "all_cases_closed_at_native_and_field_gate": true,
+    "accepted_flux_reintegration_22_passed": true,
+    "positive_W3_E1_all_10_scenarios": true,
+    "numeric_failures_retained": true,
+    "Opus_B_completion_not_fabricated": true,
+    "MRI_validation_not_claimed": true
+  },
+  "missing_links": [],
+  "source_hash_mismatches": [],
+  "links_checked": 16,
+  "source_hashes_checked": 122,
+  "all_passed": true
+}

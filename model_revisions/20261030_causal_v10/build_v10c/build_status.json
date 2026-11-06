@@ -1,0 +1,9 @@
+{
+  "tag": "v10c",
+  "state": "built",
+  "requested_utc": "2026-10-30T19:18:21.087696+00:00",
+  "lock_acquired_utc": "2026-10-30T19:18:21.087792+00:00",
+  "mem_available_gib_at_start": 12.960464477539062,
+  "compile_seconds": 61.76965522766113,
+  "finished_utc": "2026-10-30T19:19:27.865065+00:00"
+}

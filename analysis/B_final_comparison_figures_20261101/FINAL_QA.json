@@ -1,0 +1,117 @@
+{
+  "Fig05_B_final_response_robustness": {
+    "pdf_sha256": "d5f7372938c004fa1dd64d819cbc20ee81535a92c3827633ab9d3cc690b04ac3",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 22,
+      "contained_image_overlays": 0
+    },
+    "font_names": [
+      "HIQOUK+ArialMT",
+      "HIQOUK+Arial-BoldMT"
+    ],
+    "page_points": [
+      0.0,
+      0.0,
+      547.2000122070312,
+      511.20001220703125
+    ],
+    "raster_pixels": [
+      4560,
+      4260
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "Fig04_B_final_supply_and_partitioning": {
+    "pdf_sha256": "b12c5ab385ddef2491a8628593fced3c4be72775f5461b6a762aa8c176f2c9bd",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 11,
+      "contained_image_overlays": 0
+    },
+    "font_names": [
+      "HIQOUK+ArialMT",
+      "HIQOUK+Arial-BoldMT"
+    ],
+    "page_points": [
+      0.0,
+      0.0,
+      547.2000122070312,
+      518.4000244140625
+    ],
+    "raster_pixels": [
+      4560,
+      4320
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "FigS_B_final_local_transport_compensation": {
+    "pdf_sha256": "c7f3a3309fb62ce34e034eccd1d58d4884f2efc1e5fe661cc3abf66e92b30c2c",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 9,
+      "contained_image_overlays": 0
+    },
+    "font_names": [
+      "HIQOUK+ArialMT",
+      "HIQOUK+Arial-BoldMT"
+    ],
+    "page_points": [
+      0.0,
+      0.0,
+      547.2000122070312,
+      532.7999877929688
+    ],
+    "raster_pixels": [
+      4560,
+      4440
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "FigS_B_final_numerical_and_plume_limits": {
+    "pdf_sha256": "e7593d8ffac3f4959b071790513efe13b714bdb396e01e16a66967735ba8970c",
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 10,
+      "contained_image_overlays": 0
+    },
+    "font_names": [
+      "HIQOUK+ArialMT",
+      "HIQOUK+Arial-BoldMT"
+    ],
+    "page_points": [
+      0.0,
+      0.0,
+      547.2000122070312,
+      540.0
+    ],
+    "raster_pixels": [
+      4560,
+      4500
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "numeric_summary": {
+    "accepted_cases": 26,
+    "max_independent_0_2mm_closure_mg": 4.3922909753746353e-10,
+    "source_files_verified": 261
+  },
+  "visual_review": "All four final previews reviewed for labels, legends, clipping and honest scale/uncertainty encoding.",
+  "submission_status": "Provisional scientific figure package, not certification of journal production compliance or experimental validation."
+}

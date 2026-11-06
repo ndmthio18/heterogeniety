@@ -1,0 +1,52 @@
+cases ['C1B1', 'C0B1', 'C1B0', 'C0B0']
+{
+ "tag": "v10c",
+ "cases": [
+  "C1B1",
+  "C0B1",
+  "C1B0",
+  "C0B0"
+ ],
+ "extraction": {
+  "C1B1": {
+   "frames": 145,
+   "max_field_vs_ledger_band_salt_relative_error": 7.889711694216217e-15,
+   "max_side_budget_closure_g": 1.1382006448457105e-11,
+   "script_sha256": "8b48975d9ed1f497ca8c71ae85fcd18917cf93815222f970cc4455028a9494c5"
+  },
+  "C0B1": {
+   "frames": 145,
+   "max_field_vs_ledger_band_salt_relative_error": 7.113570519684126e-15,
+   "max_side_budget_closure_g": 7.0929928597252e-12,
+   "script_sha256": "8b48975d9ed1f497ca8c71ae85fcd18917cf93815222f970cc4455028a9494c5"
+  },
+  "C1B0": {
+   "frames": 145,
+   "max_field_vs_ledger_band_salt_relative_error": 8.251849769229812e-15,
+   "max_side_budget_closure_g": 8.288481012641569e-12,
+   "script_sha256": "8b48975d9ed1f497ca8c71ae85fcd18917cf93815222f970cc4455028a9494c5"
+  },
+  "C0B0": {
+   "frames": 145,
+   "max_field_vs_ledger_band_salt_relative_error": 6.565214954855802e-15,
+   "max_side_budget_closure_g": 6.345146630337695e-12,
+   "script_sha256": "8b48975d9ed1f497ca8c71ae85fcd18917cf93815222f970cc4455028a9494c5"
+  }
+ },
+ "analysis_script_sha256": "6f3bd04c25291ec90742801e2b2436dc8e555840f589334ce35841ae3f502098",
+ "outputs": [
+  "analysis_summary.json",
+  "analyze_stdout.txt",
+  "effects_table.csv",
+  "effects_timeseries.csv",
+  "fig1_inventories_effects.png",
+  "fig2_supply_interface_evaporation.png",
+  "fig3_plume_diagnostics.png",
+  "fig4_profiles_24h.png",
+  "fig5_sections_24h.png",
+  "interface_exchange.csv",
+  "persistent_downflow.json",
+  "side_decomposition.csv",
+  "vertical_transport_selected.csv"
+ ]
+}

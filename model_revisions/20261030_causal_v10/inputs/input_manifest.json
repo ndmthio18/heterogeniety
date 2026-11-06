@@ -1,0 +1,66 @@
+{
+  "SelfTest_C1B1": {
+    "role": "selftest",
+    "sha256": "84aa443206b28f67f02fe1623f23d6b7f84e0ebab9b1817732d986e8c1cafb99"
+  },
+  "SelfTest_C0B1": {
+    "role": "selftest",
+    "sha256": "a14b24fc29dfb3d56761574e915ff972b866fc7cc6c6035b6317901587598073"
+  },
+  "SelfTest_C1B0": {
+    "role": "selftest",
+    "sha256": "870baef8082090a5bd60fc72eb8022709f777c4408d0b10ef112363ba14fb4fb"
+  },
+  "SelfTest_C0B0": {
+    "role": "selftest",
+    "sha256": "cacf1283c5dd475336ffc25ff6aa36216c17290e7f280caca21f22977d53c779"
+  },
+  "Hydrostatic_C1B1": {
+    "role": "hydrostatic",
+    "sha256": "2ffb4854a4cc2add8c109f855a16564adbc9628a03657ac40db16127611c81a9"
+  },
+  "Hydrostatic_C1B0": {
+    "role": "hydrostatic",
+    "sha256": "8b3b002d0a0b9da1fc00c8f64f39995af8e557437b96a784052cf3f3ccf4ca4c"
+  },
+  "Hydrostatic_C0B0": {
+    "role": "hydrostatic",
+    "sha256": "478d597742a8a2cfa053f3451b09a383c34c60d9b319832e4e3640ffc010e03e"
+  },
+  "PrefixRegression": {
+    "role": "prefix_regression",
+    "sha256": "f8acae64e9e7de03af6c44531fcd0b7fd354c52db12b67a6abe88e838734ecf1"
+  },
+  "Short_C0B1": {
+    "role": "short_check",
+    "sha256": "2cfb7b4927cf2d28bd232d890a039a93de951929025053156896fbdf28657964"
+  },
+  "Short_C1B0": {
+    "role": "short_check",
+    "sha256": "a2228a72d3d73114f49a71e45a8c060d35e48d999044e0625c41764759b3f883"
+  },
+  "Short_C0B0": {
+    "role": "short_check",
+    "sha256": "500d18080540c9fdb3788e5ea83d7f9eefa4301f8b16ac4e98fce1ec7e3431df"
+  },
+  "C1B1_24h": {
+    "role": "production",
+    "sha256": "aa319f8a1b610289ce35c213257831934248c4d9a6a61a4ed9d976244a2b7674"
+  },
+  "C0B1_24h": {
+    "role": "production",
+    "sha256": "ea9acb1d73391db86d904dd0073486671c66bac19575d0684dec5d8d91f040c1"
+  },
+  "C1B0_24h": {
+    "role": "production",
+    "sha256": "f98a5bbd8409831efd6a6d4d1f3e15a14a8d93e861215b2af87c2d2a6d619eec"
+  },
+  "C0B0_24h": {
+    "role": "production",
+    "sha256": "9708137c2ea8c6b7aeb568081865b4f3d9da93267a0d67f7810e0607aa657356"
+  },
+  "_base": {
+    "file": "Dry_trial02_r02.input",
+    "sha256": "419252ed9c6eaf78c5e9c4e4b6efe090a1ac426e5694d1895924868013ffd9b0"
+  }
+}

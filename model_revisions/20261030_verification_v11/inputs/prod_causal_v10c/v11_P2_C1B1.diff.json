@@ -1,0 +1,24 @@
+{
+ "name": "v11_P2_C1B1",
+ "template": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\handoff\\causal_v10c\\snapshot\\inputs\\C1B1_24h.input",
+ "template_sha256": "aa319f8a1b610289ce35c213257831934248c4d9a6a61a4ed9d976244a2b7674",
+ "input_sha256": "99e554c52a9945a74e9c8b5cc2f326a146db359cf4ba1c969617a7b82cf97fdb",
+ "diff": {
+  "Grid.File": [
+   "cylinder.msh",
+   "cyl_medium_r12t64z40_v08.msh"
+  ],
+  "SpatialParams.CoarsePermeability": [
+   "7.819185772155931e-12",
+   "8.085283717281657e-12"
+  ],
+  "Problem.Name": [
+   "C1B1_24h",
+   "v11_P2_C1B1"
+  ],
+  "SpatialParams.FinePermeability": [
+   "3.2034098778596945e-14",
+   "3.070360905296832e-14"
+  ]
+ }
+}

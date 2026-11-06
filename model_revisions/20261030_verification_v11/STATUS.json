@@ -1,0 +1,177 @@
+{
+  "agent": "Opus B (verification: grid/timestep/perturbation/parameter)",
+  "resolved_model": "claude-opus-5-5",
+  "resolved_model_evidence": "model_revision_plan/20261030_opus_campaign/verification_stream.jsonl init event model=claude-opus-5-5",
+  "report_path": "model_revisions/20261030_verification_v11/VERIFICATION_REPORT.md",
+  "stage": "production",
+  "state": "running",
+  "case": "v11_P2_C0B1",
+  "reached_hours": 21.833333333333332,
+  "controller_pid": 1191747,
+  "solver_pid": 2209601,
+  "completed": [
+    "mesh family + audits",
+    "metrics extractor validated",
+    "DESIGN registered + amendments 1,2 + erratum + timeline clarification (15:50Z)",
+    "RT_medium/coarse/fine_v08bin pre-handoff tests",
+    "parameter interval review",
+    "handoff causal_v10c intake verified",
+    "v11_G_coarse_C1B1/C0B1 accepted",
+    "v11_T150_C1B1/C0B1 accepted",
+    "v11_G_fine_C1B1/C0B1 accepted",
+    "A C1B1/C0B1/C1B0/C0B0 identity verified + extracted",
+    "archive+release: RT x3, G_coarse x2, T150 x2, G_fine x2",
+    "v11_S2_C1B1 accepted (1.77 h)",
+    "v11_S2_C0B1 accepted (1.80 h); E_1(W3 0-3mm,24h) seed2 = +0.004314 g vs seed1 +0.004313 g",
+    "v11_S3_C1B1 accepted (2.0 h, extracted)",
+    "v11_S3_C0B1 accepted (1.15 h); E_1(W3 0-3mm,24h) seed3 = +0.004315 g; E_F36 0-3mm 24h seed1/2/3 = -0.00732/-0.00714/-0.00842 g",
+    "v11_A3e-6_C1B1 accepted (extracted)",
+    "v11_A3e-6_C0B1 accepted (1.21 h); E_1(W3 0-3mm,24h) sigma3e-6 = +0.004313 g; C0 F36 onset 15.33 h (sigma1e-5: 14.0 h)",
+    "v11_A3e-5_C1B1 accepted (extracted)",
+    "v11_A3e-5_C0B1 accepted (1.59 h); E_1(W3 0-3mm,24h) sigma3e-5 = +0.004314 g; C0 F36 onset 12.67 h (sigma 3e-6/1e-5/3e-5: 15.33/14.0/12.67 h); C1 onset 6.67 h for all sigma",
+    "v11_P1_C1B1 accepted (extracted)",
+    "v11_P1_C0B1 accepted (1.13 h); P1 (Ks_F36 7.3e-5, Ks_W3 3.2e-7): E_1(W3 0-3mm) 12h +0.004210, 24h +0.004764 g (baseline +0.004313); C0 F36 onset 14.67 h",
+    "v11_P2_C1B1 accepted (extracted)"
+  ],
+  "failed": [],
+  "pending": [
+    "v11_P2_C0B1 (running)",
+    "B0 extension: G_fine and T150 B0 pairs",
+    "VERIFICATION_REPORT",
+    "COMPLETION.json"
+  ],
+  "next_action": "monitor queue; archive/release each completed run; final gates/report",
+  "updated_utc": "2026-11-01T08:04:41+00:00",
+  "controller_alive": true,
+  "controller_state": "running",
+  "remote_resources": {
+    "mem_available_GiB": 15.46,
+    "scratch_free_GiB": 15.14,
+    "home_free_GiB": 2.74
+  },
+  "remote_cases": {
+    "RT_coarse_v08bin": {
+      "state": "completed",
+      "reached_evaporation_h": 1.0,
+      "wall_h": 0.06748035307776364,
+      "peak_rss_GiB": 0.12159347534179688,
+      "failure_reason": null
+    },
+    "RT_fine_v08bin": {
+      "state": "completed",
+      "reached_evaporation_h": 1.0,
+      "wall_h": 0.9883366140730666,
+      "peak_rss_GiB": 0.6305122375488281,
+      "failure_reason": null
+    },
+    "RT_medium_v08bin": {
+      "state": "completed",
+      "reached_evaporation_h": 1.0,
+      "wall_h": 0.20809706807637768,
+      "peak_rss_GiB": 0.21630477905273438,
+      "failure_reason": null
+    },
+    "v11_G_coarse_C0B1": {
+      "state": "completed",
+      "reached_evaporation_h": 24.0,
+      "wall_h": 0.6113371081369566,
+      "peak_rss_GiB": 0.12340927124023438,
+      "failure_reason": null
+    },
+    "v11_G_coarse_C1B1": {
+      "state": "completed",
+      "reached_evaporation_h": 24.0,
+      "wall_h": 0.5590361414011245,
+      "peak_rss_GiB": 0.12221145629882812,
+      "failure_reason": null
+    },
+    "v11_G_fine_C0B1": {
+      "state": "completed",
+      "reached_evaporation_h": 24.0,
+      "wall_h": 5.519664205831941,
+      "peak_rss_GiB": 0.6356697082519531,
+      "failure_reason": null
+    },
+    "v11_G_fine_C1B1": {
+      "state": "completed",
+      "reached_evaporation_h": 24.0,
+      "wall_h": 5.576774543451385,
+      "peak_rss_GiB": 0.6364212036132812,
+      "failure_reason": null
+    },
+    "v11_S2_C1B1": {
+      "state": "running",
+      "reached_evaporation_h": 14.416666666666666,
+      "wall_h": 1.1311974967980576,
+      "peak_rss_GiB": 0.21821212768554688,
+      "failure_reason": null
+    },
+    "v11_T150_C0B1": {
+      "state": "completed",
+      "reached_evaporation_h": 24.0,
+      "wall_h": 2.610426978194446,
+      "peak_rss_GiB": 0.217987060546875,
+      "failure_reason": null
+    },
+    "v11_T150_C1B1": {
+      "state": "completed",
+      "reached_evaporation_h": 24.0,
+      "wall_h": 3.45406160372332,
+      "peak_rss_GiB": 0.21892929077148438,
+      "failure_reason": null
+    }
+  },
+  "handoff": {
+    "version": "causal_v10c",
+    "snapshot_sha256": "39344707eb548296ff2cad7980a7ce0c10619a038b1bc62f5c1395a7f10aa703",
+    "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+    "intake": "verified remote+local, 0 mismatches"
+  },
+  "resume_command": "ssh liqin \"cd /home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11 && setsid nohup /home/zhixin/micromamba/envs/vasca311/bin/python3 remote/controller.py > logs/controller.out 2>&1 < /dev/null &\"  (only if controller_alive=false; completed/failed cases are skipped, never relaunched)",
+  "remote_completed_runs": [
+    "RT_coarse_v08bin",
+    "RT_fine_v08bin",
+    "RT_medium_v08bin",
+    "v11_G_coarse_C0B1",
+    "v11_G_coarse_C1B1"
+  ],
+  "remote_failed_runs": [],
+  "notes": "local background sync loop stopped at its 2 h background limit (not restarted); STATUS is updated by each foreground poll",
+  "archive": {
+    "runs_archive_local": "model_revisions/20261030_verification_v11/runs_archive/<case>/ (ARCHIVE_MANIFEST.json per case, all files SHA256 double-end verified)",
+    "remote_release": "verified large files of archived runs removed individually on liqin; RELEASED_INDEX.json kept in each remote run dir",
+    "archived_cases": [
+      "RT_coarse_v08bin",
+      "RT_medium_v08bin",
+      "RT_fine_v08bin",
+      "v11_G_coarse_C1B1",
+      "v11_G_coarse_C0B1",
+      "v11_T150_C1B1",
+      "v11_T150_C0B1"
+    ]
+  },
+  "interim_findings": "dt300->150: all registered gates pass; E_1(W3 0-3mm,24h) 0.004313 vs 0.004317 g. Grid: E_1(W3 0-3mm,24h) coarse/medium/fine 0.004428/0.004313/0.004310 g (medium->fine 0.05%); interface net 0.12%; onsets within 10 min. Not within working tolerances medium->fine: F36 surface change 2.3-2.4%, E_F36 surface 2.9% (non-monotone), E_F36 deep 9.5%, F36 core descending fraction 48% (non-monotone), W3 net vertical transport at 3 mm 5.7%.",
+  "session_resume": {
+    "utc": "2026-10-31T15:50Z",
+    "note": "CLI process of first session ended ~15:31 UTC without result event; resumed same session. Remote controller 1191747 and solver 1905899 were never restarted or duplicated.",
+    "coordinator_evidence": "model_revision_plan/20261030_opus_campaign/COORDINATOR_FINE_PAIR_20261031_1458UTC.json"
+  },
+  "unit_note": "NaCl molar mass: B 58.443 g/mol, A 58.4428 g/mol; 58.443/58.4428-1 = 3.422e-6 (0.0003422 %); cross-report comparisons in mol or with stated factor; source data unchanged",
+  "session_resume_2": {
+    "utc": "2026-10-31T16:03:32+00:00",
+    "note": "second resume; previous resume CLI (PID 40040) disappeared ~15:48 UTC; remote controller 1191747/solver chain untouched; waits now <=60 s per call"
+  },
+  "projection": {
+    "computed_utc": "2026-10-31T16:45:18+00:00",
+    "remaining_runs": 15,
+    "estimate_h": 33,
+    "batch_cap_utc": "2026-11-02T19:07Z"
+  },
+  "how_to_resume": {
+    "remote_controller": "already running (PID in controller_pid); never restart while alive. Only if controller_alive=false: ssh liqin \"cd /home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11 && setsid nohup /home/zhixin/micromamba/envs/vasca311/bin/python3 remote/controller.py > logs/controller.out 2>&1 < /dev/null &\" (skips completed/failed, never relaunches existing run dirs)",
+    "per_completed_run": "python tools/archive_pull.py CASE && python tools/release_remote.py CASE",
+    "analysis": "python tools/finalize.py && python tools/build_report.py",
+    "poll": "python tools/poll_brief.py (<=45 s)"
+  },
+  "report_status": "VERIFICATION_REPORT.md exists as IN PROGRESS interim (auto-labelled); not final"
+}

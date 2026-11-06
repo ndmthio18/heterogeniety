@@ -1,0 +1,38 @@
+{
+  "captured_utc": "2026-10-30T19:05:28.250512+00:00",
+  "baseline_run": "model_revisions/20261030_cylinder_film_v08/runs/Dry_trial02_r02",
+  "v08_binary_sha256": "c9145e427a63e9d4b9c3a6e2dca459d8df0e4c54133f7ec698e076941a2eb1f3",
+  "v08_run_binary_sha256": "c9145e427a63e9d4b9c3a6e2dca459d8df0e4c54133f7ec698e076941a2eb1f3",
+  "v08_input_sha256": "419252ed9c6eaf78c5e9c4e4b6efe090a1ac426e5694d1895924868013ffd9b0",
+  "copied_input_sha256": "419252ed9c6eaf78c5e9c4e4b6efe090a1ac426e5694d1895924868013ffd9b0",
+  "v08_mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+  "copied_mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+  "v08_forcing_sha256": "4758eb4bf0356f16d1d10376709fecebb9570c6e211b901a124430af9f2bddbe",
+  "copied_forcing_sha256": "4758eb4bf0356f16d1d10376709fecebb9570c6e211b901a124430af9f2bddbe",
+  "copied_source_matches_v08_build_manifest": true,
+  "source_mismatches": {},
+  "source_files_not_in_manifest": [],
+  "copied_source_sha256": {
+    "source/appl/CMakeLists.txt": "1aa7dc9493cd64263e4c27d8310f0efe3ac6e80d426a02d710883231cf8baa93",
+    "source/appl/cylinder_geometry.hh": "a72cf329684708fa887f3e405728e95e2377cd009ba5da59364ac1d4fa0c511c",
+    "source/appl/geometry_audit.hh": "13f17059ddea094895e8eafc04e1b0eb85bfc58a09d950d5815601a11171c241",
+    "source/appl/iofields.hh": "144227a2f608f3e574ad2d5d70a50de78931532adfd54e569f1596c64e6acb41",
+    "source/appl/main.cc": "092801a1f1435a896132f505767d2fd1df00c5c19890a7a7b650f999697df553",
+    "source/appl/params.input": "59b4efad9495e9e17fde23455a2c4e07abef517641c2db309ff7cc1973cf67b2",
+    "source/appl/phase_equilibrium.hh": "9f3f488f4123bd60ee08280de951fa21a95c80ca3449e4ada45cbe8641f2155c",
+    "source/appl/problem.hh": "4dab55018a4a50664028af46af50e8988ff8028a183403d92593b83a0a31ab85",
+    "source/appl/properties.hh": "bb23bd2a7a6d79a983834bb4094fc8da29ced91c399a311c554894fd75576395",
+    "source/appl/revision_support.hh": "fed909ca2c4ee597b657c4c332645b0c1b06c9a5846cc25783b1b21cc9ae511b",
+    "source/appl/run_testcases.sh": "439f6ae1c744b786296950380fc165835fa3b88063bec5660ba32ae3b87c6331",
+    "source/appl/spatialparams.hh": "3fa0da3ce5f8a99202959145ec72f31156565ff123e30e5c503edbe49964f814",
+    "source/appl/transport_fluidsystem.hh": "286d7d6095c174121a86398f13231a15bccaa62e2fa92322d3f30989766f07d6",
+    "source/appl/water_activity.hh": "9d3c2828105c99dc16904471293c0557f6248f3c3f38b43cddce3d7c76cbabe2",
+    "source/config.h": "8954964a23b81ad511751cbcc3b45e2c0a42a462f4f5377d65ef3b1cb7849b09",
+    "source/dumux/porousmediumflow/2pnc/volumevariables.hh": "d6e72c40c56b3159c92717bce02da862ae3d5eedd85ab78f14bb1b4108eaa1e5"
+  },
+  "copied_tests_sha256": {
+    "tests/test_revision_support.cc": "e2f682b7365adb7990d7c5b70d2320d442f50c06d08864188d957a1d9a3f8f7a",
+    "tests/test_unified_equilibrium.cc": "98a4d81e9f28a1da89b8da3e9c92d3288799bd39dc5377ab62a345504c34b0fd"
+  },
+  "baseline_budget_sha256": "7f50b5fcd7a4e54a740c030cfc126092a354de556c209ca5d7546ed83fe3cd5b"
+}

@@ -1,0 +1,65 @@
+{
+  "stage": "hydrostatic_C1B1",
+  "case": "Hydrostatic_C1B1",
+  "raw_path": "/tmp/zhixin_causal_v10_20261030/runs/v10c/Hydrostatic_C1B1",
+  "run_manifest": {
+    "case": "Hydrostatic_C1B1",
+    "tag": "v10c",
+    "start_utc": "2026-10-30T19:23:45.755582+00:00",
+    "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+    "input_sha256": "2ffb4854a4cc2add8c109f855a16564adbc9628a03657ac40db16127611c81a9",
+    "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+    "cpu": 4,
+    "nice": 10,
+    "threads": 1,
+    "wall_limit_s": 3600,
+    "raw_path": "/tmp/zhixin_causal_v10_20261030/runs/v10c/Hydrostatic_C1B1",
+    "resources_at_start": {
+      "mem_available_gib": 13.140438079833984,
+      "scratch_free_gib": 23.094650268554688,
+      "home_free_gib": 3.7390899658203125
+    },
+    "controller_pid": 1200829,
+    "state": "running",
+    "TEnd": 7200.0,
+    "solver_pid": 1201543,
+    "returncode": 0,
+    "end_utc": "2026-10-30T19:30:45.779199+00:00",
+    "wall_s": 420.02010474400595,
+    "peak_rss_MiB": 223.00390625,
+    "cpu_seconds": 417.885791,
+    "scratch_bytes": 187324959
+  },
+  "validation": {
+    "run_status": {
+      "status": "completed",
+      "time_s": 7200,
+      "evaporation_time_h": 0
+    },
+    "max_relative_budget_residuals": {
+      "water_residual_mol": 1.1232914263011398e-13,
+      "salt_residual_mol": 1.1212493499246019e-13,
+      "coarse_residual_mol": 2.0999718824416425e-13,
+      "fine_residual_mol": 2.1489477317649287e-15,
+      "F36_side_water": 2.1153585945744395e-13,
+      "F36_side_salt": 2.0999718824416425e-13,
+      "W3_side_water": 1.18859488417021e-15,
+      "W3_side_salt": 2.2718516520883587e-15
+    },
+    "precip_vf_max": 0.0,
+    "S_min": 1.0,
+    "C_max_mol_L": 1.000000080218638,
+    "interface_faces_evaluated": [
+      960.0,
+      960.0
+    ],
+    "max_abs_interface_columns": 5.662229347605439e-16,
+    "legacy_vs_band_interface_salt_max_rel": 1.8768163871563697e-15,
+    "hashes": {
+      "input": "2ffb4854a4cc2add8c109f855a16564adbc9628a03657ac40db16127611c81a9",
+      "mesh": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+      "binary": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a"
+    }
+  },
+  "status": "passed"
+}

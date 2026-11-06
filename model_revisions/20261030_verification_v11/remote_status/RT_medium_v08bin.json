@@ -1,0 +1,66 @@
+{
+ "case": "RT_medium_v08bin",
+ "state": "completed",
+ "spec": {
+  "name": "RT_medium_v08bin",
+  "purpose": "pre-handoff engineering test with frozen v08 binary: runner regression (medium), new-mesh geometry/hydrostatic pre-period, timing and peak memory; NOT a causal or production result",
+  "input": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/inputs/pre_handoff/RT_medium_v08bin.input",
+  "mesh": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/inputs/mesh/cyl_medium_r12t64z40_v08.msh",
+  "binary": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/bin/v08_c9145e42/heterogeneity_revised",
+  "binary_sha256": "c9145e427a63e9d4b9c3a6e2dca459d8df0e4c54133f7ec698e076941a2eb1f3",
+  "wall_s": 7200,
+  "cpu": 5,
+  "extra_files": [
+   "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/inputs/pre_handoff/water_flux_zero_storage.txt"
+  ],
+  "expected_scratch_GiB": 1.0,
+  "min_mem_GiB": 8.0,
+  "extract": true
+ },
+ "runner_pid": 1191748,
+ "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+ "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/RT_medium_v08bin",
+ "created_utc": "2026-10-30T19:07:22+00:00",
+ "resources": {
+  "mem_available_GiB": 13.17684555053711,
+  "scratch_free_GiB": 23.18608856201172,
+  "home_free_GiB": 3.7392807006835938,
+  "loadavg": [
+   "2.96",
+   "2.65",
+   "2.31"
+  ]
+ },
+ "updated_utc": "2026-10-30T19:19:50+00:00",
+ "input_sha256": "0e212bc189b8a0730844c8889c06e0b6a971c5ccdc6bb81bd88f2f8952dd9714",
+ "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+ "binary_sha256": "c9145e427a63e9d4b9c3a6e2dca459d8df0e4c54133f7ec698e076941a2eb1f3",
+ "cpu": 5,
+ "start_utc": "2026-10-30T19:07:22+00:00",
+ "solver_pid": 1191749,
+ "peak_rss_GiB": 0.21630477905273438,
+ "wall_h": 0.20809706807637768,
+ "reached_evaporation_h": 1.0,
+ "dt_s": 300.0,
+ "S_min": 0.9952113585864791,
+ "C_max_mol_L": 1.3120701952006948,
+ "returncode": 0,
+ "end_utc": "2026-10-30T19:19:51+00:00",
+ "acceptance": {
+  "final_time_s": 10800.0,
+  "target_time_s": 10800.0,
+  "final_evaporation_h": 1.0,
+  "accepted_steps": 56,
+  "all_finite": true,
+  "max_precip_vf": 0.0,
+  "min_S": 0.9952113585864791,
+  "max_C_mol_L": 1.3120701952006948,
+  "max_relative_residuals": {
+   "water_residual_mol": 1.469952571039975e-13,
+   "salt_residual_mol": 1.5344443272846787e-13,
+   "coarse_residual_mol": 2.7474273763599676e-13,
+   "fine_residual_mol": 1.275827309425737e-14
+  },
+  "status": "passed"
+ }
+}

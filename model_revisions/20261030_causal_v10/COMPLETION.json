@@ -1,0 +1,140 @@
+{
+  "agent": "Opus A",
+  "resolved_model": "claude-opus-5-5",
+  "state": "completed",
+  "reasons": [],
+  "written_utc": "2026-10-31T03:22:44.486960+00:00",
+  "report": "model_revisions/20261030_causal_v10/CAUSAL_REPORT.md",
+  "report_sha256": "0a8b55c4648478c8aa29aabf01911436466054235244e233589b01c58023e8f6",
+  "checks": {
+    "selftest_C1B1": {
+      "ok": true,
+      "detail": null
+    },
+    "selftest_C0B1": {
+      "ok": true,
+      "detail": null
+    },
+    "selftest_C1B0": {
+      "ok": true,
+      "detail": null
+    },
+    "selftest_C0B0": {
+      "ok": true,
+      "detail": null
+    },
+    "hydrostatic_compare": {
+      "ok": true,
+      "detail": 1.0681731851669364e-15
+    },
+    "prefix_regression_vs_v08": {
+      "ok": true,
+      "detail": 0.0
+    },
+    "short_C0B1": {
+      "ok": true,
+      "detail": null
+    },
+    "short_C1B0": {
+      "ok": true,
+      "detail": null
+    },
+    "short_C0B0": {
+      "ok": true,
+      "detail": null
+    },
+    "handoff_written_and_verified": {
+      "ok": true,
+      "detail": {
+        "sha256": "f92190a276e95763382992ad5df225b12843b85e86e90788b51fc79c0b4d9b6c",
+        "snapshot_sha256": "39344707eb548296ff2cad7980a7ce0c10619a038b1bc62f5c1395a7f10aa703"
+      }
+    },
+    "production_C1B1_24h": {
+      "ok": true,
+      "detail": {
+        "max_rel_residual": 5.603473942860552e-13,
+        "wall_h": 2.0423475048841726,
+        "cpu_h": 2.0333454544444445
+      }
+    },
+    "extraction_C1B1_24h": {
+      "ok": true,
+      "detail": 7.889711694216217e-15
+    },
+    "production_C0B1_24h": {
+      "ok": true,
+      "detail": {
+        "max_rel_residual": 6.752402059198158e-13,
+        "wall_h": 1.6569137531377944,
+        "cpu_h": 1.6534791630555548
+      }
+    },
+    "extraction_C0B1_24h": {
+      "ok": true,
+      "detail": 7.113570519684126e-15
+    },
+    "production_C1B0_24h": {
+      "ok": true,
+      "detail": {
+        "max_rel_residual": 3.508661117393048e-13,
+        "wall_h": 1.596023811178877,
+        "cpu_h": 1.5895475588888894
+      }
+    },
+    "extraction_C1B0_24h": {
+      "ok": true,
+      "detail": 8.251849769229812e-15
+    },
+    "production_C0B0_24h": {
+      "ok": true,
+      "detail": {
+        "max_rel_residual": 6.266217729570775e-13,
+        "wall_h": 1.2106660125277833,
+        "cpu_h": 1.208551513333334
+      }
+    },
+    "extraction_C0B0_24h": {
+      "ok": true,
+      "detail": 6.565214954855802e-15
+    },
+    "C1B1_24h_regression_vs_v08": {
+      "ok": true,
+      "detail": 0.0
+    },
+    "analysis": {
+      "ok": true,
+      "detail": null
+    },
+    "report": {
+      "ok": true,
+      "detail": null
+    },
+    "archive_local_copy_verified": {
+      "ok": true,
+      "detail": null
+    }
+  },
+  "scope_note": "Completed = all Opus A protocol gates, four validated 24 h runs, extraction, analysis, report and archive. Numerical robustness of the effects (grid/dt/perturbation) is Opus B's task and is not claimed here; no parameter-interval test; not experimental validation.",
+  "key_results_g": {
+    "E1_W3_0_3mm_12h_24h": [
+      0.0042237,
+      0.0043127
+    ],
+    "E0_W3_0_3mm_12h_24h": [
+      0.0035115,
+      0.0083265
+    ],
+    "interaction_12h_24h": [
+      0.00071215,
+      -0.0040138
+    ],
+    "W3_side_effect_24h_B1": 0.041993,
+    "W3_bottom_salt_supply_C1_vs_C0_24h_B1": [
+      0.021549,
+      0.23664
+    ],
+    "interface_salt_net_24h_C1B1": 0.25708
+  },
+  "recommendation_to_B": "Interaction E1-E0 is of the same order as E and changes sign between 12 and 24 h: run the B=0 fine-grid and 150 s pair extension."
+}

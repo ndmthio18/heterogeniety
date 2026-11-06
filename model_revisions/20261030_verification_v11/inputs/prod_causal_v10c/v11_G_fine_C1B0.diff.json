@@ -1,0 +1,20 @@
+{
+ "name": "v11_G_fine_C1B0",
+ "template": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\handoff\\causal_v10c\\snapshot\\inputs\\C1B0_24h.input",
+ "template_sha256": "f98a5bbd8409831efd6a6d4d1f3e15a14a8d93e861215b2af87c2d2a6d619eec",
+ "input_sha256": "164b47789c9091b37cd8c22df684ea462e9d59c6d346bcaa56eeee12baccebe6",
+ "diff": {
+  "Problem.Name": [
+   "C1B0_24h",
+   "v11_G_fine_C1B0"
+  ],
+  "Grid.File": [
+   "cylinder.msh",
+   "cyl_fine_r18t96z60.msh"
+  ],
+  "Revision.WaterFluxAreaCorrection": [
+   "1.0016081890839748",
+   "1.0007143040431583"
+  ]
+ }
+}

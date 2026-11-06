@@ -1,0 +1,20 @@
+{
+ "name": "v11_T150_C1B0",
+ "template": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\handoff\\causal_v10c\\snapshot\\inputs\\C1B0_24h.input",
+ "template_sha256": "f98a5bbd8409831efd6a6d4d1f3e15a14a8d93e861215b2af87c2d2a6d619eec",
+ "input_sha256": "5b006577d92bcf6b8be1b4471f32153b29c83242a3bc9ac383b833e8dd5ef901",
+ "diff": {
+  "Problem.Name": [
+   "C1B0_24h",
+   "v11_T150_C1B0"
+  ],
+  "Grid.File": [
+   "cylinder.msh",
+   "cyl_medium_r12t64z40_v08.msh"
+  ],
+  "TimeLoop.MaxTimeStepSize": [
+   "300",
+   "150"
+  ]
+ }
+}

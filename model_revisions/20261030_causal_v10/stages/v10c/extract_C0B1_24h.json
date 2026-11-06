@@ -1,0 +1,6 @@
+{
+  "status": "completed",
+  "stdout": "{\"case\": \"C0B1_24h\", \"frames\": 145, \"max_field_vs_ledger_band_salt_relative_error\": 7.113570519684126e-15, \"max_side_budget_closure_g\": 7.0929928597252e-12}\n",
+  "stderr": "",
+  "utc": "2026-10-31T00:11:56.245730+00:00"
+}

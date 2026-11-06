@@ -1,0 +1,85 @@
+{
+  "utc": "2026-10-31T03:27:37.848677+00:00",
+  "archive_executor_verification": {
+    "verified_utc": "2026-10-31T03:21:37.511240+00:00",
+    "cases": {
+      "C1B1_24h": {
+        "files": 157,
+        "bytes": 801795111,
+        "gzip_mismatch": [],
+        "raw_mismatch": [],
+        "missing": [],
+        "pvd_frames": 157,
+        "frames_without_field": [],
+        "small_file_mismatch": [],
+        "status": "verified"
+      },
+      "C0B1_24h": {
+        "files": 157,
+        "bytes": 735018141,
+        "gzip_mismatch": [],
+        "raw_mismatch": [],
+        "missing": [],
+        "pvd_frames": 157,
+        "frames_without_field": [],
+        "small_file_mismatch": [],
+        "status": "verified"
+      },
+      "C1B0_24h": {
+        "files": 157,
+        "bytes": 788691620,
+        "gzip_mismatch": [],
+        "raw_mismatch": [],
+        "missing": [],
+        "pvd_frames": 157,
+        "frames_without_field": [],
+        "small_file_mismatch": [],
+        "status": "verified"
+      },
+      "C0B0_24h": {
+        "files": 157,
+        "bytes": 682478156,
+        "gzip_mismatch": [],
+        "raw_mismatch": [],
+        "missing": [],
+        "pvd_frames": 157,
+        "frames_without_field": [],
+        "small_file_mismatch": [],
+        "status": "verified"
+      }
+    },
+    "status": "verified"
+  },
+  "independent_endpoint_hashes": {
+    "C1B1_24h": {
+      "time_s": 93600.0,
+      "gzip_sha256": "bdf98f54003c8985e21186c796753d6f88334416a9f216d034bca90a190743b0",
+      "raw_sha256": "63c0997e3f4d0cd72dc9c1f468e2e41734fcca04284ce9d4a80991fc6c44c2e7",
+      "gzip_matches": true,
+      "raw_matches": true
+    },
+    "C0B1_24h": {
+      "time_s": 93600.0,
+      "gzip_sha256": "a619e9f4a1cfe98a80488cd7ae1c2e8f5ea2dd924637e3bb1dc54c4ea693e76b",
+      "raw_sha256": "ad0e04ad4334c2be996b0def6389bf926157fdf844bada5bd911ebb28da6cadb",
+      "gzip_matches": true,
+      "raw_matches": true
+    },
+    "C1B0_24h": {
+      "time_s": 93600.0,
+      "gzip_sha256": "fcdf970ece4fb045799ae384ee9061e51b6a433afa3656729bd3bc7954028279",
+      "raw_sha256": "2182c7fcf99aecec5c7e86fe2dec0a8ef5506655d63132c398b35600ff52e50e",
+      "gzip_matches": true,
+      "raw_matches": true
+    },
+    "C0B0_24h": {
+      "time_s": 93600.0,
+      "gzip_sha256": "16acf8b02a535d7263dbb3d33b44dad5a83eb2870e447ef68f97608af3705130",
+      "raw_sha256": "240e420759f1a52365cdaee6a2dd0529c1d81b8f5fe545d4fa04836c4f336649",
+      "gzip_matches": true,
+      "raw_matches": true
+    }
+  },
+  "report_hash_matches": true,
+  "all_checks_pass": true
+}

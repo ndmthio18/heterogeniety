@@ -1,0 +1,88 @@
+Title
+Solute redistribution across a vertical textural interface during saline water evaporation
+or Evaporation-driven solute redistribution across a vertical textural interface: MRI observations and numerical analysis
+Target journal: Water Resources Research
+Scope. Combine time-resolved MRI observations with DuMuˣ simulations to explain dissolved-salt redistribution in a continuously supplied, near-saturated F36–W3 system. Treat the effect of interdomain exchange on surface enrichment as a question to be tested. Discuss salt crust formation as a later consequence unless its onset and feedback are independently quantified.
+Abstract
+Establish the problem: evaporation concentrates salt near the surface, while internal transport can redistribute it into the porous medium.
+State the question: how does hydraulic contact between coarse and fine domains modify this redistribution and the resulting surface enrichment?
+Summarize the approach: three-dimensional sodium MRI, water-content observations and mass measurements, combined with an experimentally constrained numerical model and targeted process comparisons.
+Report the principal quantitative findings once established: domain-specific salt accumulation, the direction and magnitude of interfacial exchange, and the change caused by connecting the two domains.
+Close with the physical implication and scope: when neighboring domains must be considered together to describe salt accumulation under sustained evaporative supply.
+1 Introduction
+Paragraph 1  Evaporation and salt accumulation
+Explain how shallow saline-water supply sustains evaporation and transports dissolved salt toward the surface. Introduce the importance of internal redistribution for near-surface salinity and subsequent precipitation. Define the relevant setting as sustained supply rather than unrestricted drying of an isolated sample.
+Paragraph 2  Competing transport processes
+Explain the competition between upward advection, diffusion and density-driven downward convection. Summarize the different behavior previously observed in homogeneous F36 and W3 samples. Establish what that work already explains about permeability-dependent redistribution.
+Paragraph 3  The role of a textural interface
+Review how hydraulic contact and concentration gradients can produce lateral water and solute transport. Identify the unresolved issue for the present system: whether a convecting coarse domain modifies salt storage and surface enrichment in an adjacent fine domain. Distinguish this question from the established observation that heterogeneous media can support lateral redistribution.
+Paragraph 4  Objectives of this study
+Introduce the paired experimental and numerical investigation. State three objectives: characterize the evolving salt distribution in each domain; identify interfacial transport and its drivers; and quantify how connection changes surface enrichment relative to comparable isolated domains. End by explaining how MRI and numerical process comparisons address these objectives together.
+2 Materials and Methods
+2.1 Porous materials and experimental configuration
+Describe F36 and W3 grain characteristics, porosity, permeability and relevant hydraulic properties, including their measurement uncertainty.
+Describe the cylindrical sample, equal coarse and fine halves, vertical contact, packing procedure, initial brine concentration and initial water content.
+Specify the reservoir level, supply connection, filter plate, nitrogen flow, temperature, humidity and experimental duration. State the number of independent experiments.
+2.2 MRI acquisition and calibration
+Describe sodium MRI for dissolved-salt imaging and proton MRI for water-content assessment, including spatial resolution, acquisition duration and scan timing.
+Explain material-specific calibration, reconstruction scaling, gain or power corrections, image registration and the treatment of artifacts and partial-volume voxels.
+Define the coarse and fine masks and the surface and deep regions used for analysis. Explain how calibration and imaging uncertainty propagate to concentrations and integrated inventories.
+2.3 Evaporation measurements and experimental salt inventories
+Explain how reservoir mass records are converted into evaporative loss, accounting for changes in sample water storage and any relevant background losses.
+Calculate dissolved-salt inventories for the whole sample and each domain. Use consistent definitions of sodium mass, NaCl-equivalent mass and solution concentration.
+Compare MRI-recovered salt with the independently estimated salt input and identify what can be inferred before and after precipitation becomes relevant.
+2.4 Numerical model and boundary conditions
+Present the conservation equations, Darcy flow and dissolved-salt transport, including density dependence, diffusion and any retained thermal or phase-change processes.
+Describe the representation of the two materials, continuity conditions at their interface, the supply boundary and the evaporating surface.
+Identify measured, prescribed and calibrated parameters. State whether evaporation is an imposed forcing or a model prediction, and explain the geometric approximation used to represent the cylindrical experiment.
+2.5 Quantities used for model comparison
+Compare simulations with measurements after applying compatible spatial averaging, acquisition-time averaging and the same domain masks.
+Define depth profiles, domain inventories, surface-region inventories and plume descriptors used to evaluate redistribution.
+Separate calibration from evaluation. Specify the comparison period, uncertainty treatment and quantitative error measures without treating prescribed inputs as independent validation data.
+2.6 Process comparisons and numerical verification
+Define the connected reference case and a case with no direct exchange across the material interface, while keeping supply and atmospheric forcing comparable.
+Define a comparison that removes salinity-induced buoyancy while retaining gravity and the relevant hydrostatic forcing. Extract advective and diffusive interfacial salt fluxes separately.
+Describe grid, time-step and initial-perturbation checks, physical bounds and water/salt conservation. State which outputs are accepted for interpretation and how any limited parameter or width variations are selected.
+2.7 Dimensionless parameters and regime classification
+Define candidate input coordinates using a reference evaporative buoyancy ratio in the coarse domain and a ratio of evaporative replacement time to lateral diffusion time. State the density reference, velocity and diffusion conventions, domain width and all additional parameters held fixed.
+Define a common dimensionless observation stage and a signed coupling response based on the difference in fine-side surface salt inventory between connected and comparable isolated domains. Diagnose convection using transport metrics and the no-salinity-buoyancy comparison.
+Specify practical-effect thresholds, uncertain classifications and the treatment of precipitation, loss of the accepted saturation state and numerical failures. Describe sparse sampling, refinement near transitions and the checks needed before interpreting the plane as a regime map.
+3 Results and Discussion
+3.1 Spatial and temporal patterns of salt redistribution
+Present the experimental sequence from initial near-surface enrichment to later redistribution. Show where descending high-concentration structures occur in F36 and where salt accumulates in W3.
+Quantify the evolution of depth profiles and surface/deep salt inventories in both domains. Present uncertainty and repeatability alongside the observed contrasts.
+Relate these patterns to measured evaporation and water-content observations. Report the onset of any later crust-related observations separately from dissolved-salt enrichment.
+Figures 1 and 2: Experimental configuration and representative MRI observations, followed by quantitative profiles and inventories.
+3.2 Numerical representation of the measured redistribution
+Compare modeled and measured concentrations at matched times and spatial scales, including separate assessments for F36 and W3.
+Evaluate whether the model captures the location and timing of downward redistribution, deep salt accumulation and fine-side surface enrichment.
+Report inventory errors and the important remaining discrepancies. Identify the temporal and spatial range over which the model supports further process interpretation.
+Figure 3: Model–measurement comparisons of concentration profiles and salt inventories, with uncertainty or residuals.
+3.3 Interfacial salt exchange and its driving processes
+Present the depth–time distribution of the interfacial salt flux and separate its advective and diffusive contributions using conservative numerical face fluxes.
+Determine whether shallow and deep exchange occur in opposite directions and how their relative contributions evolve as the coarse-side plume develops.
+Close the salt budget of each domain using storage changes, bottom supply, interfacial exchange and any phase transfer. Report both net exchange and exchange in each direction so that opposing contributions are not hidden by cancellation.
+Figure 4: Interfacial fluxes and their decomposition, together with coarse- and fine-domain salt budgets.
+Interpret the flux decomposition and process comparisons as a coherent physical explanation. Evaluate the proposed circulation pathway against alternatives involving bottom supply, pressure-driven lateral flow and wall-guided plumes. Use the term capillary pumping only where the modeled phase state and pressure gradients justify it.
+3.4 Effects of domain connection on surface enrichment
+Compare the connected and isolated-domain cases under comparable external forcing. Quantify changes in surface-region salt inventory, mean surface concentration and deep storage.
+Use the buoyancy comparison to establish how coarse-side convection contributes to those changes. Distinguish direct interfacial transport from changes in the partitioning of bottom supply.
+Determine whether connection enhances, suppresses or has little effect on enrichment, and report the effect magnitude relative to numerical and parameter uncertainty.
+Figure 5: Differences in surface enrichment and salt partitioning between the reference and process-comparison cases.
+Explain the additional understanding gained by connecting the two materials. Discuss whether local surface enrichment depends on transport within the neighboring domain and whether independent-column approximations can describe the observed salt partitioning. Relate the findings to earlier homogeneous and heterogeneous evaporation studies.
+3.5 Regime map of convective redistribution and interdomain coupling
+Construct a conditional map over the declared buoyancy and lateral-diffusion reference coordinates at a common dimensionless stage. Display the signed coupling response continuously and distinguish the occurrence of coarse-side convection from a substantial effect on fine-side enrichment.
+Test whether weak coupling, convection with weak coupling, strong coupling without detectable coarse-side convection, and convection-associated strong coupling can be distinguished. These are candidate behaviors; retain only classes supported by transport budgets, paired process comparisons and uncertainty analysis.
+Explain which balances characterize the observed classes and where independent-domain approximations remain adequate. Mark the experimental configuration and its uncertainty, and distinguish its local constraint from unvalidated numerical extrapolation.
+Assess sensitivity of candidate transitions to observation time, classification thresholds, numerical resolution, initial perturbations and confinement. Show unresolved cases explicitly and avoid calling an operational transition a universal or neutral-stability boundary.
+Figure 6: Sampled regime or coupling-response map, representative concentration and flux fields, and a selected time or sensitivity comparison. Use a coupling-response map if the evidence does not support robust discrete regimes.
+3.6 Implications for salt accumulation and limits of interpretation
+Discuss how changes in dissolved-salt storage and surface enrichment could alter the approach to precipitation. Distinguish measured enrichment from reaching solubility, nucleation and visible crust formation. Explain the relevance to shallow saline-water systems while keeping field-scale rates and untested crust feedback outside the supported conclusions.
+Discuss the consequences of MRI calibration uncertainty, finite scan duration, limited experimental replication and the absence of direct local evaporation or velocity measurements. Explain the limits imposed by the model geometry, supply representation and accepted simulation period. Identify which conclusions remain robust and which require further observations.
+4 Conclusions
+Summarize the experimentally established differences in redistribution between the coarse and fine domains.
+State the interfacial transport mechanism and its effect on surface enrichment only to the extent supported by the budgets and process comparisons, including the quantitative effect size.
+State the conditions under which domain connection matters and the implications for describing evaporative salt accumulation. Keep the conclusions within the investigated supply, saturation and geometric conditions.
+Supporting Information and Open Research
+Supporting information: provide complete calibration and scan tables, uncertainty calculations, additional profiles and numerical sensitivity tests. Keep the decisive interfacial budgets and process comparisons in the main text.
+Open research: identify the archived experimental data, exact model version and modifications, accepted configurations, processed figure data and scripts needed to reproduce the reported analyses.

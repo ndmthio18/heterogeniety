@@ -9,3 +9,11 @@ __pycache__/
 *.pvd
 *.exe
 *.dll
+
+# Large local-only campaign archives and solver products.
+model_revisions/20261030_causal_v10/archive/
+model_revisions/20261030_causal_v10/snapshot_v10c.tar.gz
+model_revisions/20261030_verification_v11/runs_archive/
+model_revisions/20261030_verification_v11/handoff/**/snapshot/
+model_revisions/20261030_verification_v11/handoff/**/*.tar.gz
+model_revision_plan/20261030_opus_campaign/*_stream.jsonl

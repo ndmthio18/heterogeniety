@@ -1,0 +1,20 @@
+{
+ "name": "v11_G_coarse_C1B1",
+ "case_id": "G_coarse",
+ "arm": "C1B1",
+ "mesh_level": "coarse",
+ "input": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/inputs/prod_causal_v10c/v11_G_coarse_C1B1.input",
+ "mesh": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/inputs/mesh/cyl_coarse_r8t48z27.msh",
+ "binary": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/handoff/causal_v10c/snapshot/build_v10c/heterogeneity_causal",
+ "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+ "handoff_version": "causal_v10c",
+ "wall_s": 21600,
+ "cpu": 5,
+ "extra_files": [
+  "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/handoff/causal_v10c/snapshot/inputs/water_flux_zero_storage.txt",
+  "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/handoff/causal_v10c/snapshot/inputs/forcing_provenance.json"
+ ],
+ "expected_scratch_GiB": 1.0,
+ "min_mem_GiB": 8.0,
+ "extract": true
+}

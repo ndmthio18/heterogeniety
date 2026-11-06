@@ -2,6 +2,18 @@
 
 本仓库归档 RH=0、固定孔隙率和本征渗透率的三维圆柱计算，包括等温 **v12 / 174 h** 对照、独立验收的非等温 **v13 / 174 h** 结果、气膜厚度部分率定记录，以及本研究分支的底部边界敏感性计算和L1粗砂浓度偏差审计。各数据集分别标注完整、部分和用户终止状态；数值匹配不等同于独立物理验证，原v12交付目录保持不变。
 
+## 24 h连接与盐度浮力因果研究
+
+本分支现包含完整的轻量级研究交付：v10的连接/隔断 × 保留/关闭盐度浮力2×2因果计算、v11的22组网格/时间步/扰动/渗透率验证、协调者联合复核，以及最终Fig04、Fig05和补充图。
+
+- [联合中文评估](analysis/opus_campaign_joint_20261101/JOINT_ASSESSMENT_ZH.md)
+- [v10因果报告](model_revisions/20261030_causal_v10/CAUSAL_REPORT.md)
+- [v11验证报告](model_revisions/20261030_verification_v11/VERIFICATION_REPORT.md)
+- [最终比较图包](analysis/B_final_comparison_figures_20261101/refined_v2/B_final_comparison_pack_v2.pdf)
+- [GitHub同步范围与排除项](analysis/opus_campaign_joint_20261101/GITHUB_SYNC_SCOPE.md)
+
+冻结条件下，24 h的W3表层连接效应为：保留盐度浮力时+4.313 mg，关闭盐度浮力时+8.327 mg，交互项−4.014 mg。连接效应在已测试的网格、时间步、扰动和渗透率条件下保持正值，但部分F36羽流形态和垂向通量未达到收敛判据；这些结果支持机制归因，不构成实验验证或全面数值收敛证明。
+
 ## v13 底部边界敏感性计算（进行中）
 
 依据 `bottom boundary.md` 新增独立非等温 v13 计算：B0–B3 等效滤板阻力，G1–G3 显式4.5mm滤板与2/5/10mm中心入口。几何尺寸与滤板物性是注明的探索假设，不是已测量材料参数。

@@ -1,0 +1,12 @@
+{
+ "version": "causal_v10c",
+ "intake_utc": "2026-10-30T20:28:39+00:00",
+ "handoff_sha256": "f92190a276e95763382992ad5df225b12843b85e86e90788b51fc79c0b4d9b6c",
+ "snapshot_sha256": "39344707eb548296ff2cad7980a7ce0c10619a038b1bc62f5c1395a7f10aa703",
+ "snapshot_expected": "39344707eb548296ff2cad7980a7ce0c10619a038b1bc62f5c1395a7f10aa703",
+ "mismatches": [],
+ "binary": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/handoff/causal_v10c/snapshot/build_v10c/heterogeneity_causal",
+ "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+ "v11_medium_mesh_equals_handoff_mesh": true,
+ "status": "verified"
+}

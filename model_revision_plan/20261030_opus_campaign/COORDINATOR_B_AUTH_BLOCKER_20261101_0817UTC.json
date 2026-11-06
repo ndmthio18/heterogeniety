@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-11-01T08:17:55.270406+00:00",
+  "agent": "verification",
+  "session": "f4e9a63a-c97d-4bcf-b571-b893fb4a344b",
+  "actual_model_before_exit": "claude-opus-5-5",
+  "last_cli_pid": 11192,
+  "host_pid": 45436,
+  "cli_exit_code": 1,
+  "exit_utc": "2026-11-01T08:04:42.393066+00:00",
+  "error_code": "oauth_not_allowed_for_organization",
+  "http_status": 403,
+  "message": "Your organization has disabled Claude subscription access for Claude Code",
+  "same_session_processes_alive": false,
+  "remote_controller_pid": 1191747,
+  "remote_solver_pid": 2232307,
+  "remote_case": "v11_G_fine_C1B0",
+  "completed_production": 18,
+  "required_production": 22,
+  "action": "Do not retry unchanged denied credentials or change auth/model. Remote deterministic queue continues. Coordinator performs authorized hash archive and independent audits. Resume same Opus session only after user restores authorized Claude Code access, with original restrictions."
+}

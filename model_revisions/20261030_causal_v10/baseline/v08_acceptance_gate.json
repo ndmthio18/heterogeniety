@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "case": "Dry_trial02_r02",
+  "completed_evaporation_h": 24,
+  "relative_residuals": {
+    "water_residual_mol": 2.9039251439200245e-13,
+    "salt_residual_mol": 3.0948500862916236e-13,
+    "coarse_residual_mol": 5.603473942860552e-13,
+    "fine_residual_mol": 6.357973428231196e-14
+  },
+  "min_saturation": 0.9944394736650672,
+  "max_C_mol_L": 3.3826490785370957,
+  "actual_top_water_g": 8.174214746005585,
+  "accepted_steps": 332,
+  "reservoir_loss_g_1_24h": 8.119393633665911,
+  "film_audit": {
+    "status": "passed",
+    "case": "Dry_trial02_r02",
+    "faces_per_step": 768,
+    "steps": 333,
+    "max_flux_formula_difference_kg_m2_s": 8.131516293641283e-20,
+    "max_relative_internal_surface_vapor_pressure_difference": 1.3309580073510863e-15,
+    "max_face_to_budget_water_difference_kg_s": 1.1911400820763599e-22,
+    "film_RH": 0.0,
+    "film_thickness_m": 0.008100162249880822,
+    "gas_D_m2_s": 2.418907449661513e-05,
+    "reference_gas_density_kg_m3": 1.1881574183205692
+  }
+}

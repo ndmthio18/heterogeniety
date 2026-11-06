@@ -1,0 +1,23 @@
+{
+  "pdf": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\analysis\\B_final_comparison_figures_20261101\\refined_v2\\FigS_numerical_limits_v2.pdf",
+  "auditable": true,
+  "verdict": "PASS",
+  "page_count": 1,
+  "visible_text_box_count": 77,
+  "text_trace_count": 77,
+  "stroke_path_count": 81,
+  "filled_region_count": 66,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 34,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": []
+}

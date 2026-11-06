@@ -1,0 +1,257 @@
+{
+ "medium->fine|surface_change": {
+  "n": 16,
+  "pass": 14,
+  "fail": 2,
+  "na": 0,
+  "worst_rel": 0.023675751572180805
+ },
+ "medium->fine|surface_inventory": {
+  "n": 16,
+  "pass": 16,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.009214456827764185
+ },
+ "medium->fine|surface_change_0_2": {
+  "n": 16,
+  "pass": 0,
+  "fail": 0,
+  "na": 16,
+  "worst_rel": 0
+ },
+ "medium->fine|deep_change": {
+  "n": 16,
+  "pass": 14,
+  "fail": 2,
+  "na": 0,
+  "worst_rel": 0.06385924792671743
+ },
+ "medium->fine|bottom_salt": {
+  "n": 16,
+  "pass": 16,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.0021823125235900524
+ },
+ "medium->fine|vertical_transport": {
+  "n": 48,
+  "pass": 47,
+  "fail": 1,
+  "na": 0,
+  "worst_rel": 0.05742290509417239
+ },
+ "medium->fine|core_descending_vf": {
+  "n": 16,
+  "pass": 2,
+  "fail": 1,
+  "na": 13,
+  "worst_rel": 0.4781859055945305
+ },
+ "medium->fine|interface_net": {
+  "n": 4,
+  "pass": 4,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.0012087958513677458
+ },
+ "medium->fine|interface_pos": {
+  "n": 4,
+  "pass": 4,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.00367336844720822
+ },
+ "medium->fine|interface_liquid_net": {
+  "n": 4,
+  "pass": 4,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.0006890365016296765
+ },
+ "medium->fine|effect": {
+  "n": 32,
+  "pass": 27,
+  "fail": 5,
+  "na": 0,
+  "worst_rel": 0.09547836192203764
+ },
+ "medium->fine|onset": {
+  "n": 8,
+  "pass": 8,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0
+ },
+ "dt300->150|surface_change": {
+  "n": 16,
+  "pass": 16,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.0029323862012765713
+ },
+ "dt300->150|surface_inventory": {
+  "n": 16,
+  "pass": 16,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.0012491445437090105
+ },
+ "dt300->150|surface_change_0_2": {
+  "n": 16,
+  "pass": 0,
+  "fail": 0,
+  "na": 16,
+  "worst_rel": 0
+ },
+ "dt300->150|deep_change": {
+  "n": 16,
+  "pass": 16,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.032745796115270336
+ },
+ "dt300->150|bottom_salt": {
+  "n": 16,
+  "pass": 16,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.00039027725802649727
+ },
+ "dt300->150|vertical_transport": {
+  "n": 48,
+  "pass": 48,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.002962081012948038
+ },
+ "dt300->150|core_descending_vf": {
+  "n": 16,
+  "pass": 3,
+  "fail": 0,
+  "na": 13,
+  "worst_rel": 0.014832206012102155
+ },
+ "dt300->150|interface_net": {
+  "n": 4,
+  "pass": 4,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.000330568923308395
+ },
+ "dt300->150|interface_pos": {
+  "n": 4,
+  "pass": 4,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.0005700004571772733
+ },
+ "dt300->150|interface_liquid_net": {
+  "n": 4,
+  "pass": 4,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.00010275957490683844
+ },
+ "dt300->150|effect": {
+  "n": 32,
+  "pass": 32,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.04119375561275492
+ },
+ "dt300->150|onset": {
+  "n": 8,
+  "pass": 8,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0
+ },
+ "coarse->medium (info)|surface_change": {
+  "n": 16,
+  "pass": 14,
+  "fail": 2,
+  "na": 0,
+  "worst_rel": 0.028758327658391005
+ },
+ "coarse->medium (info)|surface_inventory": {
+  "n": 16,
+  "pass": 16,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.010115259549015777
+ },
+ "coarse->medium (info)|surface_change_0_2": {
+  "n": 16,
+  "pass": 0,
+  "fail": 0,
+  "na": 16,
+  "worst_rel": 0
+ },
+ "coarse->medium (info)|deep_change": {
+  "n": 16,
+  "pass": 10,
+  "fail": 6,
+  "na": 0,
+  "worst_rel": 0.10431654804827599
+ },
+ "coarse->medium (info)|bottom_salt": {
+  "n": 16,
+  "pass": 16,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.0030785253484388896
+ },
+ "coarse->medium (info)|vertical_transport": {
+  "n": 48,
+  "pass": 48,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.03558656445285989
+ },
+ "coarse->medium (info)|core_descending_vf": {
+  "n": 16,
+  "pass": 1,
+  "fail": 2,
+  "na": 13,
+  "worst_rel": 0.5079586900841365
+ },
+ "coarse->medium (info)|interface_net": {
+  "n": 4,
+  "pass": 4,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.0014116385439171032
+ },
+ "coarse->medium (info)|interface_pos": {
+  "n": 4,
+  "pass": 4,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.003435409604451408
+ },
+ "coarse->medium (info)|interface_liquid_net": {
+  "n": 4,
+  "pass": 4,
+  "fail": 0,
+  "na": 0,
+  "worst_rel": 0.0008492296187258494
+ },
+ "coarse->medium (info)|effect": {
+  "n": 32,
+  "pass": 25,
+  "fail": 7,
+  "na": 0,
+  "worst_rel": 0.0731534928516879
+ },
+ "coarse->medium (info)|onset": {
+  "n": 8,
+  "pass": 6,
+  "fail": 2,
+  "na": 0,
+  "worst_rel": 0
+ }
+}
+{}
+{"interaction_pairs": ["MEDIUM"], "cases_summarised": 22}
+{"terminal": false, "completed": 14, "total": 22}

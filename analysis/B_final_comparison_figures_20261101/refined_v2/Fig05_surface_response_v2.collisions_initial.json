@@ -1,0 +1,48 @@
+{
+  "pdf": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\analysis\\B_final_comparison_figures_20261101\\refined_v2\\Fig05_surface_response_v2.pdf",
+  "auditable": true,
+  "verdict": "REVIEW REQUIRED",
+  "page_count": 1,
+  "visible_text_box_count": 70,
+  "text_trace_count": 70,
+  "stroke_path_count": 101,
+  "filled_region_count": 82,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 0,
+    "warn": 1,
+    "contained_fill_overlays": 12,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "Reference",
+      "text_bbox": [
+        110.79212188720703,
+        50.1136589050293,
+        144.0068359375,
+        57.31365966796875
+      ],
+      "other_text": null,
+      "other_bbox": [
+        85.59212493896484,
+        56.042999267578125,
+        251.3855438232422,
+        167.37152099609375
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "stage": "prefix_regression",
+  "case": "PrefixRegression",
+  "raw_path": "/tmp/zhixin_causal_v10_20261030/runs/v10c/PrefixRegression",
+  "run_manifest": {
+    "case": "PrefixRegression",
+    "tag": "v10c",
+    "start_utc": "2026-10-30T19:46:08.012112+00:00",
+    "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+    "input_sha256": "f8acae64e9e7de03af6c44531fcd0b7fd354c52db12b67a6abe88e838734ecf1",
+    "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+    "cpu": 4,
+    "nice": 10,
+    "threads": 1,
+    "wall_limit_s": 3600,
+    "raw_path": "/tmp/zhixin_causal_v10_20261030/runs/v10c/PrefixRegression",
+    "resources_at_start": {
+      "mem_available_gib": 15.651626586914062,
+      "scratch_free_gib": 22.27452850341797,
+      "home_free_gib": 3.7389068603515625
+    },
+    "controller_pid": 1200829,
+    "state": "running",
+    "TEnd": 7800.0,
+    "solver_pid": 1216031,
+    "returncode": 0,
+    "end_utc": "2026-10-30T19:55:48.053895+00:00",
+    "wall_s": 580.0373788230354,
+    "peak_rss_MiB": 223.015625,
+    "cpu_seconds": 561.0129249999998,
+    "scratch_bytes": 201941830
+  },
+  "validation": {
+    "run_status": {
+      "status": "completed",
+      "time_s": 7800,
+      "evaporation_time_h": 0.16666666666666666
+    },
+    "max_relative_budget_residuals": {
+      "water_residual_mol": 1.2912227070838234e-13,
+      "salt_residual_mol": 1.3397836201576165e-13,
+      "coarse_residual_mol": 2.276902730090607e-13,
+      "fine_residual_mol": 2.1489477317649287e-15,
+      "F36_side_water": 2.3663237480117926e-13,
+      "F36_side_salt": 2.279115055510855e-13,
+      "W3_side_water": 3.218894829775462e-15,
+      "W3_side_salt": 2.2718516520883587e-15
+    },
+    "precip_vf_max": 0.0,
+    "S_min": 0.9979701090645828,
+    "C_max_mol_L": 1.111500595995489,
+    "interface_faces_evaluated": [
+      960.0,
+      960.0
+    ],
+    "max_abs_interface_columns": 0.0006241322065651604,
+    "legacy_vs_band_interface_salt_max_rel": 1.1622325693126263e-15,
+    "hashes": {
+      "input": "f8acae64e9e7de03af6c44531fcd0b7fd354c52db12b67a6abe88e838734ecf1",
+      "mesh": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+      "binary": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a"
+    }
+  },
+  "regression_status": "passed",
+  "through_time_s": 7800,
+  "tolerance": 1e-06,
+  "max_scaled_difference": 0.0,
+  "identical_accepted_step_times": true,
+  "budget_max_relative_to_peak": {
+    "water_mol": 0.0,
+    "air_mol": 0.0,
+    "salt_total_mol": 0.0,
+    "coarse_salt_mol": 0.0,
+    "fine_salt_mol": 0.0,
+    "cumulative_water_out_mol": 0.0,
+    "cumulative_salt_out_mol": 0.0,
+    "cumulative_interface_adv_mol": 0.0,
+    "cumulative_interface_diff_mol": 0.0,
+    "cumulative_coarse_top_water_mol": 0.0,
+    "cumulative_fine_top_water_mol": 0.0,
+    "C_max_mol_L": 0.0,
+    "S_min": 0.0
+  },
+  "field_max_relative_to_peak": {
+    "0.0": {
+      "S_liq": 0.0,
+      "p_liq": 0.0,
+      "rho_liq": 0.0,
+      "mob_liq": 0.0,
+      "S_gas": 0.0,
+      "p_gas": 0.0,
+      "rho_gas": 0.0,
+      "mob_gas": 0.0,
+      "pc": 0.0,
+      "porosity": 0.0,
+      "x^H2O_liq": 0.0,
+      "x^Air_liq": 0.0,
+      "x^NaCl_liq": 0.0,
+      "rhoMolar_liq": 0.0,
+      "x^H2O_gas": 0.0,
+      "x^Air_gas": 0.0,
+      "x^NaCl_gas": 0.0,
+      "rhoMolar_gas": 0.0,
+      "precipitateVolumeFraction^NaCl": 0.0,
+      "Permeability": 0.0,
+      "velocity_liq_interior_LS (m/s)": 0.0
+    },
+    "7200.0": {
+      "S_liq": 0.0,
+      "p_liq": 0.0,
+      "rho_liq": 0.0,
+      "mob_liq": 0.0,
+      "S_gas": 0.0,
+      "p_gas": 0.0,
+      "rho_gas": 0.0,
+      "mob_gas": 0.0,
+      "pc": 0.0,
+      "porosity": 0.0,
+      "x^H2O_liq": 0.0,
+      "x^Air_liq": 0.0,
+      "x^NaCl_liq": 0.0,
+      "rhoMolar_liq": 0.0,
+      "x^H2O_gas": 0.0,
+      "x^Air_gas": 0.0,
+      "x^NaCl_gas": 0.0,
+      "rhoMolar_gas": 0.0,
+      "precipitateVolumeFraction^NaCl": 0.0,
+      "Permeability": 0.0,
+      "velocity_liq_interior_LS (m/s)": 0.0
+    },
+    "7800.0": {
+      "S_liq": 0.0,
+      "p_liq": 0.0,
+      "rho_liq": 0.0,
+      "mob_liq": 0.0,
+      "S_gas": 0.0,
+      "p_gas": 0.0,
+      "rho_gas": 0.0,
+      "mob_gas": 0.0,
+      "pc": 0.0,
+      "porosity": 0.0,
+      "x^H2O_liq": 0.0,
+      "x^Air_liq": 0.0,
+      "x^NaCl_liq": 0.0,
+      "rhoMolar_liq": 0.0,
+      "x^H2O_gas": 0.0,
+      "x^Air_gas": 0.0,
+      "x^NaCl_gas": 0.0,
+      "rhoMolar_gas": 0.0,
+      "precipitateVolumeFraction^NaCl": 0.0,
+      "Permeability": 0.0,
+      "velocity_liq_interior_LS (m/s)": 0.0
+    }
+  },
+  "v08_binary_sha256": "c9145e427a63e9d4b9c3a6e2dca459d8df0e4c54133f7ec698e076941a2eb1f3",
+  "v08_budget_sha256": "7f50b5fcd7a4e54a740c030cfc126092a354de556c209ca5d7546ed83fe3cd5b",
+  "seed_partition_impulses": {
+    "v10": [
+      9.092129701904206e-09,
+      -9.092130819066124e-09
+    ],
+    "v08": [
+      9.092129701904206e-09,
+      -9.092130819066124e-09
+    ]
+  },
+  "status": "passed"
+}

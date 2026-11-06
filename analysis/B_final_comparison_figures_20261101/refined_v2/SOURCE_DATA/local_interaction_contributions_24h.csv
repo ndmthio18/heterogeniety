@@ -1,0 +1,13 @@
+scenario,term,interaction_contribution_mg
+medium,vertical_adv_mg,-3.60093208220178
+medium,vertical_diff_mg,8.15604334623987
+medium,lateral_net_inferred_mg,-8.56894160617406
+medium,storage_change_mg,-4.01383034213592
+fine,vertical_adv_mg,-3.62123229431353
+fine,vertical_diff_mg,8.20073704594063
+fine,lateral_net_inferred_mg,-8.52089557086234
+fine,storage_change_mg,-3.94139081923527
+dt150,vertical_adv_mg,-3.58412368057287
+dt150,vertical_diff_mg,8.10426646314539
+dt150,lateral_net_inferred_mg,-8.52786559225257
+dt150,storage_change_mg,-4.00772280968005

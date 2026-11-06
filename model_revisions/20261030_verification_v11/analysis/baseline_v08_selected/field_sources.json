@@ -1,0 +1,47 @@
+[
+ {
+  "file": "Dry_trial02_r02-00012.vtu",
+  "time_h": 0.0,
+  "sha256": "3e5a6a630cc8d0397f42d9e5f59725d725f214b87e49e900e314f309b79cb3d3"
+ },
+ {
+  "file": "Dry_trial02_r02-00018.vtu",
+  "time_h": 1.0,
+  "sha256": "b7a3c2e2ac1bc78f4aea328d31c7c139f500d37049326086ec7e4ba7407d2363"
+ },
+ {
+  "file": "Dry_trial02_r02-00024.vtu",
+  "time_h": 2.0,
+  "sha256": "c02079fbd5407e58b1280fd816a6b55f47672d8590b05bfafe98783ff5d41e19"
+ },
+ {
+  "file": "Dry_trial02_r02-00030.vtu",
+  "time_h": 3.0,
+  "sha256": "c3eefb98f5413841b8ee80050d172c02f7b95488a6814a5ffd6c8a113670d88e"
+ },
+ {
+  "file": "Dry_trial02_r02-00036.vtu",
+  "time_h": 4.0,
+  "sha256": "c84ab999f3a463ae445063506eda6b7e09b37af01e65d1b6244c656b895df2a1"
+ },
+ {
+  "file": "Dry_trial02_r02-00042.vtu",
+  "time_h": 5.0,
+  "sha256": "db1ee3306aafd00fb30d556596b4feb38de307b72f6e64a3014aea871491321c"
+ },
+ {
+  "file": "Dry_trial02_r02-00060.vtu",
+  "time_h": 8.0,
+  "sha256": "63d6b7ee7a5ff8357d40ce11415b96fbec69b8a68009c3017c5777817c84e4f8"
+ },
+ {
+  "file": "Dry_trial02_r02-00084.vtu",
+  "time_h": 12.0,
+  "sha256": "b86a346ee5e278bb980fe809943ca7d0b0a499620f9cb326b73f365c5e8e4f50"
+ },
+ {
+  "file": "Dry_trial02_r02-00156.vtu",
+  "time_h": 24.0,
+  "sha256": "63c0997e3f4d0cd72dc9c1f468e2e41734fcca04284ce9d4a80991fc6c44c2e7"
+ }
+]

@@ -1,0 +1,17 @@
+{
+ "MEDIUM": {
+  "label": "medium dt300 B0 (A C1B0/C0B0)",
+  "C1": "remote_analysis/A_C1B0_24h",
+  "C0": "remote_analysis/A_C0B0_24h"
+ },
+ "G_fine": {
+  "label": "fine B0",
+  "C1": "remote_analysis/v11_G_fine_C1B0",
+  "C0": "remote_analysis/v11_G_fine_C0B0"
+ },
+ "T150": {
+  "label": "medium dt150 B0",
+  "C1": "remote_analysis/v11_T150_C1B0",
+  "C0": "remote_analysis/v11_T150_C0B0"
+ }
+}

@@ -1,0 +1,65 @@
+{
+  "stage": "hydrostatic_C0B0",
+  "case": "Hydrostatic_C0B0",
+  "raw_path": "/tmp/zhixin_causal_v10_20261030/runs/v10c/Hydrostatic_C0B0",
+  "run_manifest": {
+    "case": "Hydrostatic_C0B0",
+    "tag": "v10c",
+    "start_utc": "2026-10-30T19:38:05.839671+00:00",
+    "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+    "input_sha256": "478d597742a8a2cfa053f3451b09a383c34c60d9b319832e4e3640ffc010e03e",
+    "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+    "cpu": 4,
+    "nice": 10,
+    "threads": 1,
+    "wall_limit_s": 3600,
+    "raw_path": "/tmp/zhixin_causal_v10_20261030/runs/v10c/Hydrostatic_C0B0",
+    "resources_at_start": {
+      "mem_available_gib": 12.468124389648438,
+      "scratch_free_gib": 22.52429962158203,
+      "home_free_gib": 3.73773193359375
+    },
+    "controller_pid": 1200829,
+    "state": "running",
+    "TEnd": 7200.0,
+    "solver_pid": 1210614,
+    "returncode": 0,
+    "end_utc": "2026-10-30T19:46:05.875648+00:00",
+    "wall_s": 480.03052035707515,
+    "peak_rss_MiB": 221.87109375,
+    "cpu_seconds": 461.1564470000002,
+    "scratch_bytes": 187221245
+  },
+  "validation": {
+    "run_status": {
+      "status": "completed",
+      "time_s": 7200,
+      "evaporation_time_h": 0
+    },
+    "max_relative_budget_residuals": {
+      "water_residual_mol": 1.131599014297383e-13,
+      "salt_residual_mol": 1.1295569379208451e-13,
+      "coarse_residual_mol": 2.1167564458554137e-13,
+      "fine_residual_mol": 2.0378203738860467e-15,
+      "F36_side_water": 2.1323638798912468e-13,
+      "F36_side_salt": 2.1167564458554137e-13,
+      "W3_side_water": 1.1802314140089907e-15,
+      "W3_side_salt": 2.160724294209472e-15
+    },
+    "precip_vf_max": 0.0,
+    "S_min": 1.0,
+    "C_max_mol_L": 1.000000080218638,
+    "interface_faces_evaluated": [
+      960.0,
+      960.0
+    ],
+    "max_abs_interface_columns": 0.0,
+    "legacy_vs_band_interface_salt_max_rel": 0.0,
+    "hashes": {
+      "input": "478d597742a8a2cfa053f3451b09a383c34c60d9b319832e4e3640ffc010e03e",
+      "mesh": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+      "binary": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a"
+    }
+  },
+  "status": "passed"
+}

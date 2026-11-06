@@ -1,0 +1,59 @@
+{
+  "utc": "2026-11-01T19:54:18.108709+00:00",
+  "state": "computations_and_coordinator_review_complete_original_Opus_B_report_blocked",
+  "formal_cases": {
+    "A": 4,
+    "B": 22,
+    "total": 26,
+    "all_true_24h": true
+  },
+  "all_archives_verified": true,
+  "coordinator_report": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\analysis\\opus_campaign_joint_20261101\\JOINT_ASSESSMENT_ZH.md",
+  "report_sha256": "e041603252a31ef0bdfc287674222b6f10c567d476f36ec9f0989f2260885620",
+  "original_Opus_A_complete": true,
+  "original_Opus_B_report_complete": false,
+  "remaining_work": [
+    "Restore organization-authorized Claude Code access, then resume same Opus B session with original safety/tool/model restrictions if its own final report is required.",
+    "F36 inventory, plume morphology and selected vertical flux grid criteria remain unmet; full parameter and experimental validation are not established."
+  ],
+  "remote_terminal_controller": {
+    "status": {
+      "controller_pid": 1191747,
+      "started_utc": "2026-10-30T19:07:22+00:00",
+      "state": "stopped",
+      "done": [
+        "RT_medium_v08bin",
+        "RT_coarse_v08bin",
+        "RT_fine_v08bin",
+        "v11_G_coarse_C1B1",
+        "v11_G_coarse_C0B1",
+        "v11_T150_C1B1",
+        "v11_T150_C0B1",
+        "v11_G_fine_C1B1",
+        "v11_G_fine_C0B1",
+        "v11_S2_C1B1",
+        "v11_S2_C0B1",
+        "v11_S3_C1B1",
+        "v11_S3_C0B1",
+        "v11_A3e-6_C1B1",
+        "v11_A3e-6_C0B1",
+        "v11_A3e-5_C1B1",
+        "v11_A3e-5_C0B1",
+        "v11_P1_C1B1",
+        "v11_P1_C0B1",
+        "v11_P2_C1B1",
+        "v11_P2_C0B1",
+        "v11_G_fine_C1B0",
+        "v11_G_fine_C0B0",
+        "v11_T150_C1B0",
+        "v11_T150_C0B0"
+      ],
+      "failed": [],
+      "current": null,
+      "pending": [],
+      "updated_utc": "2026-11-01T19:48:40+00:00"
+    },
+    "pid_still_exists": false
+  },
+  "monitor_disposition": "Retire opus heartbeat after delivering report and authorization blocker; no solver/controller remains active in this campaign."
+}

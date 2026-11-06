@@ -1,0 +1,37 @@
+[
+ {
+  "file": "RT_fine_v08bin-00012.vtu.gz",
+  "time_h": 0.0,
+  "sha256": "7673afb856ac955ac9a114966209272d877f542c43081364cca713eb8bbd760f"
+ },
+ {
+  "file": "RT_fine_v08bin-00013.vtu.gz",
+  "time_h": 0.16666666666666652,
+  "sha256": "1d366d64eda349b5157d119843571fdff5b08ae06fd292115f3eb7eb9282d08c"
+ },
+ {
+  "file": "RT_fine_v08bin-00014.vtu.gz",
+  "time_h": 0.3333333333333335,
+  "sha256": "0d7ec29dd45f01cf6053831c868819adfb44ce4af8e2e174ae5bd9da5c061639"
+ },
+ {
+  "file": "RT_fine_v08bin-00015.vtu.gz",
+  "time_h": 0.5,
+  "sha256": "d635230eb23f8e4de4abf78571d7d1fcb734d67a0e0a048061cf8821f3565ddb"
+ },
+ {
+  "file": "RT_fine_v08bin-00016.vtu.gz",
+  "time_h": 0.6666666666666665,
+  "sha256": "c5ef9f198dc3edf9824ccaf47c0f9062b4d5b5e0fe1b91364d9d32f23b80533d"
+ },
+ {
+  "file": "RT_fine_v08bin-00017.vtu.gz",
+  "time_h": 0.8333333333333335,
+  "sha256": "c1bbd921dca7b29ea376724f4eae930e591e176eee24ffbb6a02fe86c4a6b8c9"
+ },
+ {
+  "file": "RT_fine_v08bin-00018.vtu.gz",
+  "time_h": 1.0,
+  "sha256": "9e7743dc53683c00dc8211c86a77c65c241fd7582b4ca6866b30deeaf1609687"
+ }
+]

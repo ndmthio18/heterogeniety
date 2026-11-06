@@ -1,0 +1,799 @@
+{
+  "generated_utc": "2026-11-01T19:51:38.379248+00:00",
+  "sources": [
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\A_C1B1_24h\\summary.json",
+      "sha256": "8ddfe5a4bfee2e382d37ac5acb284d0c2784cf21954ad757947c3747d0172219"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\A_C0B1_24h\\summary.json",
+      "sha256": "2abb4404fd398ce5771e90dc22e3c1375c18d82bd6fd27de30307b588cac76d5"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\A_C1B0_24h\\summary.json",
+      "sha256": "cae0f74cf2a7fb58ed627503b235921e86cdc87393f2be01f045eb219eb686a7"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\A_C0B0_24h\\summary.json",
+      "sha256": "2c78997114c0195737ab58a659ec9bbbec3a9bf79a0ccea01107399ce4f8aa9c"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_G_coarse_C1B1\\summary.json",
+      "sha256": "9234a8d9e93d3f1939ced41e72ee7d418bf10461188e5a117997048be2977afe"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_G_coarse_C1B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "1aa668c86384aa52a3a272c0c76dd7a73d257c0247d89d42038028e7844bc2f6"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_G_coarse_C1B1.json",
+      "sha256": "922de449380bbb15aa6aacf17d62f02d045f071f9620d351bf0b58bc17e5790e"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_G_coarse_C0B1\\summary.json",
+      "sha256": "8435441d55fff8ba600e91f04f7c50797ec8625494100682b2d5c44da2bffaa5"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_G_coarse_C0B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "d4ead022c07e25f8c01c3442f9372b8eee7ed56874cdca47dac3a4c9e0b6065a"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_G_coarse_C0B1.json",
+      "sha256": "efcab38ae47d06755dd221f019f75918afea805e90e828a30f29040d298082b8"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_G_fine_C1B1\\summary.json",
+      "sha256": "eff66ebf0f843a52592eaf81434aa8bdd58fd72cf0c9392463f28d9e67cf17e1"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_G_fine_C1B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "a86b86d62651d96876b2376532851efb7ec3c67ef19bba98720e324d060e07b9"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_G_fine_C1B1.json",
+      "sha256": "84b2d41f6fda4f313322c9b30c6c0945133d104faf79566916d6e68defadc308"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_G_fine_C0B1\\summary.json",
+      "sha256": "9b49399895e1d9be0a5f1f835258303719d920313df7bf4c18f0d2d256f227ed"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_G_fine_C0B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "f26d0e51028b451cdec8d6d3591a1a38e43b78f9395829ae88de32afb78f1985"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_G_fine_C0B1.json",
+      "sha256": "fe3a2fd9994ce45850dc96ffe0e165b8307f18aa9bc1ce5cee002c89846ba7ea"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_G_fine_C1B0\\summary.json",
+      "sha256": "ba23b6349faa7325a0f6e421424390eb6843be49e0cac466d4d76a69b852137b"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_G_fine_C1B0\\ARCHIVE_MANIFEST.json",
+      "sha256": "aecefb6348153a5ba9aa2a926a3496370e655062912331c1b88b49acfc7f1d6b"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_G_fine_C1B0.json",
+      "sha256": "5c7a240214a540a5d9a8645876b931aed77e3918fa5d177fcd463a021ec46f5e"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_G_fine_C0B0\\summary.json",
+      "sha256": "a6857cf6d95e0920e072357f3bdbfde415873bdc9249dd6383f73ccad2f96a1f"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_G_fine_C0B0\\ARCHIVE_MANIFEST.json",
+      "sha256": "494397116e27aeac0670b929a379b4ff838f5c81b261bc1531c5803ca4e1aeae"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_G_fine_C0B0.json",
+      "sha256": "64a104f262a8c8900c4a08af3e168783b9b99f0a087eee33b5921f69ab80ad8c"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_T150_C1B1\\summary.json",
+      "sha256": "7435873ea3edbfd6e645022e3a5ca3fbd5bea718426be6a55f90dc2653f31cde"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_T150_C1B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "edc4a7982422f22443e8b650e559fa804976a186e36661a7088a441ca744eec4"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_T150_C1B1.json",
+      "sha256": "b9c3e89f2e39fe6bc2abca9974707f184af6632e040e1ab318593fe4cbaccbf2"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_T150_C0B1\\summary.json",
+      "sha256": "512824de404b411e39c66a1b629123c1fe20e0be9b2daf29587a84896c5aebd3"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_T150_C0B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "dc8fed5d5f001a6484c8426e3b9fb31135e1985c9dd431edfed1468a49b11678"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_T150_C0B1.json",
+      "sha256": "c6b1fe77efc8c56629a6fbdffeacdb5e7dfda0cbddccecf742feb060f622ace6"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_T150_C1B0\\summary.json",
+      "sha256": "84a517dea6425c9078bf47f15dd9379ca8520fa5c00300b29bbf4ddcb0362ce8"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_T150_C1B0\\ARCHIVE_MANIFEST.json",
+      "sha256": "c0817e06a745c70be382e29e4c43277d5a2c062a6fdd75089044d5ba91880d29"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_T150_C1B0.json",
+      "sha256": "0979681dbb3fa5147fd323364c6c464e1c5e20bd0c07bdef37a83f111c508463"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_T150_C0B0\\summary.json",
+      "sha256": "89f3703ff1a205044b9a7d5352efd0122335a874f19e95dc920b6bb8ec855311"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_T150_C0B0\\ARCHIVE_MANIFEST.json",
+      "sha256": "d94c743dcdc5086064877e1b62db1b1516821dab5c6cd96a915b564642de5ad3"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_T150_C0B0.json",
+      "sha256": "1830a8a736e14d51c2fae17fa5e6187cf4d2d432ee0e77139cbd9a661679e934"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_S2_C1B1\\summary.json",
+      "sha256": "5f020c78cd28de304e4eae70c8bfcee4563d9a7e020b1078ca6252cab2d1f6d3"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_S2_C1B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "31900b2f05aef3d10bc3db7066bc42dda05fb0bacf0e4de75bb8379aedcc2784"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_S2_C1B1.json",
+      "sha256": "326905653bec1464a3b2f8dffd91aab64ab0e1193b489f811dcc01e5f78dbc3b"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_S2_C0B1\\summary.json",
+      "sha256": "6f66dfad83ae1ec0cfc4293389dd57e08e30daed13cf80ed7044522cb7bc474a"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_S2_C0B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "c6ee9563ff891aa4f19919db52f99a287ab0e52a6e15413e0ce96a9591b71ff7"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_S2_C0B1.json",
+      "sha256": "3eaa43f56f6d393d8e81c86bd6135c82a0a935be37e69bd2a77913becd123333"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_S3_C1B1\\summary.json",
+      "sha256": "40c8731dc47ea316e111158abb5f7a4f0b354e27ca9a54215524e204beffd50b"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_S3_C1B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "091050b2cf1b3aab4cc17ad765cec8aed34d2fbb39f628257f891505c4a3ca81"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_S3_C1B1.json",
+      "sha256": "3388aa3fc9971e2a1795f0142d8cac60dd7d1faebb0f87badffd55c358299745"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_S3_C0B1\\summary.json",
+      "sha256": "d5a8017c0cf70b1496016963e76ada174e22ceed80fcd48caa9db87cdd2d422b"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_S3_C0B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "75521f8aff91efa882c69dacb48dfb5227797b37f9163e7a8fcf2142bb708487"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_S3_C0B1.json",
+      "sha256": "e2cd0966503f6696e91d897a9239fc7a21253e92f1cef8704b6937dad257910c"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_A3e-6_C1B1\\summary.json",
+      "sha256": "c5cc1ce01d47362d98f26a37ee9f4c295e30024a7124e75750ca1d9fddbe6ebd"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_A3e-6_C1B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "f049118ea76ba1fc21124a801b9bc5c8707066c6ec0d877812e8ee97a42d0971"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_A3e-6_C1B1.json",
+      "sha256": "10309f2eaa9637d7efb5070f086ff5a0cd5c3dc910ff0849acd4c086e848681a"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_A3e-6_C0B1\\summary.json",
+      "sha256": "1deb4f45d84a9ca88fac605b5727fea60aff10a945128a7621f4c37b234f2246"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_A3e-6_C0B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "6839f58342b1362d6b5b5473aa515f492b74471a480212c7c38611b72b2ab1ce"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_A3e-6_C0B1.json",
+      "sha256": "8dfb794f584115af43ef4d35a1f856e047be4811542c569d91156859e4289332"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_A3e-5_C1B1\\summary.json",
+      "sha256": "547c64e7654ee6a8949686beffd3ab24361e2472a271f598837d35ca7425d8de"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_A3e-5_C1B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "d2e2d3b87b50de9676e9802b72d2ef473e2d4a62ecd25a3f7320f684fd7be3e9"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_A3e-5_C1B1.json",
+      "sha256": "aa0f11a7e7416eb724b38e39bfba119de46347b122a2a2544ac2c0317a80d02f"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_A3e-5_C0B1\\summary.json",
+      "sha256": "ec4f111236e4a812b0be74dcb5bc6436f879a566f000e9767301124c2559db93"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_A3e-5_C0B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "f8b559eba5d35c7134fa8bc05dc62a0433078050ca3a292e59c78b88814f15f8"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_A3e-5_C0B1.json",
+      "sha256": "1f234b37f964718c06299a21b6f3b0a9db05b7a3d436d416094d3fa31e0ef36c"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_P1_C1B1\\summary.json",
+      "sha256": "cb34eb4255b6e75d6060c88246c621fce13d0414bfe388592a34b6f9747a9c75"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_P1_C1B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "76987d2a9abc527f469c775afe22cad03410c8a17b816f09773ba6b5fad38979"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_P1_C1B1.json",
+      "sha256": "4f422ef9ab4bb13b725d4e98cdfbf82c799cff75005c525e9c2fc3809a1182bb"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_P1_C0B1\\summary.json",
+      "sha256": "6caa4f66c8d99121eb54b7b31bc47ec63783b111b51789348f54dbc8610cdc4a"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_P1_C0B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "9f4e78e05aa7fab9962074bdcfde3d325e71ed61842052f35cd61cd2b3840a48"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_P1_C0B1.json",
+      "sha256": "269b5d83848498982aea3dabf59f120952cd8659c184ad1c08ab4edce6d39946"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_P2_C1B1\\summary.json",
+      "sha256": "661a79e0175e2e67564f3e5ec2176752c5be6accfba80205a3794ac46a906e9d"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_P2_C1B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "daa106f3af6c56d992cdde95491699eb3728119172510458073dd295cb9113bf"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_P2_C1B1.json",
+      "sha256": "c01dff71454e83b692cfc0cc2222b7ab2d39f4ec14ebdab4895ae7c006a72f39"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_analysis\\v11_P2_C0B1\\summary.json",
+      "sha256": "ff37bc2e355bc3ca191d1d9c61609fe5ca6d129ddc0b31fb1bc8ccefa892a689"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\runs_archive\\v11_P2_C0B1\\ARCHIVE_MANIFEST.json",
+      "sha256": "0282d5c19d4450bcda5565638d033f0974ccce576c224d9aee08af49e2e72675"
+    },
+    {
+      "path": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\remote_status\\v11_P2_C0B1.json",
+      "sha256": "476a40b371639dbf5c6205efd3e2680456b95932e4a486b95d553e9aaf88a830"
+    }
+  ],
+  "acceptance": [
+    {
+      "case": "A_C1B1_24h",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 5.603473942860552e-13,
+      "max_executor_raw_field_salt_error": 1.6112051370842972e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": null
+    },
+    {
+      "case": "A_C0B1_24h",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 6.514030681061684e-13,
+      "max_executor_raw_field_salt_error": 1.4069691033410447e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": null
+    },
+    {
+      "case": "A_C1B0_24h",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 3.5075549821101376e-13,
+      "max_executor_raw_field_salt_error": 1.2827659449286454e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": null
+    },
+    {
+      "case": "A_C0B0_24h",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 6.207078140053937e-13,
+      "max_executor_raw_field_salt_error": 1.452775435460495e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": null
+    },
+    {
+      "case": "v11_G_coarse_C1B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 5.610484116788697e-13,
+      "max_executor_raw_field_salt_error": 7.202177883620518e-15,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": 0.5590361414011245
+    },
+    {
+      "case": "v11_G_coarse_C0B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 9.96601329145542e-13,
+      "max_executor_raw_field_salt_error": 9.573235653217358e-15,
+      "archive_verified": true,
+      "zero_interface_max_abs": 0.0,
+      "wall_h": 0.6113371081369566
+    },
+    {
+      "case": "v11_G_fine_C1B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 1.6957461712791544e-11,
+      "max_executor_raw_field_salt_error": 2.5858492368723148e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": 5.576774543451385
+    },
+    {
+      "case": "v11_G_fine_C0B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 1.6559345919548277e-11,
+      "max_executor_raw_field_salt_error": 2.5266553314178205e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": 0.0,
+      "wall_h": 5.519664205831941
+    },
+    {
+      "case": "v11_G_fine_C1B0",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 1.6521293910857232e-11,
+      "max_executor_raw_field_salt_error": 3.1670615119746266e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": 4.827020786105811
+    },
+    {
+      "case": "v11_G_fine_C0B0",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 1.655645872010389e-11,
+      "max_executor_raw_field_salt_error": 2.2969307181067995e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": 0.0,
+      "wall_h": 3.4352831642666652
+    },
+    {
+      "case": "v11_T150_C1B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 3.397459954732922e-13,
+      "max_executor_raw_field_salt_error": 1.2701995146213017e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": 3.45406160372332
+    },
+    {
+      "case": "v11_T150_C0B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 5.334337401837319e-13,
+      "max_executor_raw_field_salt_error": 1.3431190829228927e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": 0.0,
+      "wall_h": 2.610426978194446
+    },
+    {
+      "case": "v11_T150_C1B0",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 2.8628768708567906e-13,
+      "max_executor_raw_field_salt_error": 1.8122642219500225e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": 1.9372125816477799
+    },
+    {
+      "case": "v11_T150_C0B0",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 3.029428006071945e-13,
+      "max_executor_raw_field_salt_error": 1.588479899937973e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": 0.0,
+      "wall_h": 1.2935797366644126
+    },
+    {
+      "case": "v11_S2_C1B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 5.894110988445364e-13,
+      "max_executor_raw_field_salt_error": 1.5012743906247007e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": 1.7652937734047172
+    },
+    {
+      "case": "v11_S2_C0B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 3.8183789966080714e-13,
+      "max_executor_raw_field_salt_error": 1.5360160744434124e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": 0.0,
+      "wall_h": 1.8023637687344711
+    },
+    {
+      "case": "v11_S3_C1B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 4.0542623456887986e-13,
+      "max_executor_raw_field_salt_error": 1.3750890889757159e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": 1.9012453083008425
+    },
+    {
+      "case": "v11_S3_C0B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 6.264597174765299e-13,
+      "max_executor_raw_field_salt_error": 1.2845375994347442e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": 0.0,
+      "wall_h": 1.1520872169036172
+    },
+    {
+      "case": "v11_A3e-6_C1B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 4.312410988179055e-13,
+      "max_executor_raw_field_salt_error": 1.9063730387066856e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": 1.3731641557316632
+    },
+    {
+      "case": "v11_A3e-6_C0B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 2.2401497118339425e-13,
+      "max_executor_raw_field_salt_error": 1.202722154903808e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": 0.0,
+      "wall_h": 1.2140844859805657
+    },
+    {
+      "case": "v11_A3e-5_C1B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 7.133259039126184e-13,
+      "max_executor_raw_field_salt_error": 1.7180294421136527e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": 1.4079303984177791
+    },
+    {
+      "case": "v11_A3e-5_C0B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 6.924130337200861e-13,
+      "max_executor_raw_field_salt_error": 1.3287211187722456e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": 0.0,
+      "wall_h": 1.5913982513999994
+    },
+    {
+      "case": "v11_P1_C1B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 7.709832055343437e-13,
+      "max_executor_raw_field_salt_error": 1.724112524305547e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": 1.2881283550853064
+    },
+    {
+      "case": "v11_P1_C0B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 2.624305958705866e-13,
+      "max_executor_raw_field_salt_error": 1.369795448664638e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": 0.0,
+      "wall_h": 1.134862493703614
+    },
+    {
+      "case": "v11_P2_C1B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 3.1384601065757387e-13,
+      "max_executor_raw_field_salt_error": 1.7071557806365502e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": null,
+      "wall_h": 1.3440864676127806
+    },
+    {
+      "case": "v11_P2_C0B1",
+      "final_h": 24.0,
+      "frames": 145,
+      "max_native_relative_budget_error": 5.443844794845488e-13,
+      "max_executor_raw_field_salt_error": 1.4760058240942898e-14,
+      "archive_verified": true,
+      "zero_interface_max_abs": 0.0,
+      "wall_h": 1.225641457539427
+    }
+  ],
+  "W3_24h_primary_effects": [
+    {
+      "scenario": "medium",
+      "time_h": 24,
+      "side": "W3",
+      "band_mm": "0_3",
+      "E1_g": 0.004312729228837131,
+      "E0_g": 0.008326559570983688,
+      "interaction_g": -0.004013830342146557
+    },
+    {
+      "scenario": "coarse",
+      "time_h": 24,
+      "side": "W3",
+      "band_mm": "0_3",
+      "E1_g": 0.004428037814976027,
+      "E0_g": null,
+      "interaction_g": null
+    },
+    {
+      "scenario": "fine",
+      "time_h": 24,
+      "side": "W3",
+      "band_mm": "0_3",
+      "E1_g": 0.004310357460996922,
+      "E0_g": 0.00825174828023223,
+      "interaction_g": -0.0039413908192353075
+    },
+    {
+      "scenario": "dt150",
+      "time_h": 24,
+      "side": "W3",
+      "band_mm": "0_3",
+      "E1_g": 0.0043172983054936,
+      "E0_g": 0.008325021115184073,
+      "interaction_g": -0.004007722809690473
+    },
+    {
+      "scenario": "seed2",
+      "time_h": 24,
+      "side": "W3",
+      "band_mm": "0_3",
+      "E1_g": 0.004314008718690782,
+      "E0_g": null,
+      "interaction_g": null
+    },
+    {
+      "scenario": "seed3",
+      "time_h": 24,
+      "side": "W3",
+      "band_mm": "0_3",
+      "E1_g": 0.004314611503795279,
+      "E0_g": null,
+      "interaction_g": null
+    },
+    {
+      "scenario": "amplitude3e-6",
+      "time_h": 24,
+      "side": "W3",
+      "band_mm": "0_3",
+      "E1_g": 0.00431252203812138,
+      "E0_g": null,
+      "interaction_g": null
+    },
+    {
+      "scenario": "amplitude3e-5",
+      "time_h": 24,
+      "side": "W3",
+      "band_mm": "0_3",
+      "E1_g": 0.004314404842542141,
+      "E0_g": null,
+      "interaction_g": null
+    },
+    {
+      "scenario": "P1",
+      "time_h": 24,
+      "side": "W3",
+      "band_mm": "0_3",
+      "E1_g": 0.004764322378148722,
+      "E0_g": null,
+      "interaction_g": null
+    },
+    {
+      "scenario": "P2",
+      "time_h": 24,
+      "side": "W3",
+      "band_mm": "0_3",
+      "E1_g": 0.003981233493785569,
+      "E0_g": null,
+      "interaction_g": null
+    }
+  ],
+  "working_criterion_failures": [
+    {
+      "comparison": "fine",
+      "arm": "C1B1",
+      "family": "surface_inventory",
+      "metric": "F36_salt_g_0_2mm_increase",
+      "medium_value": 0.030381919188515766,
+      "refined_value": 0.029715918317938537,
+      "absolute_difference": 0.0006660008705772283,
+      "relative_difference": 0.022412259431174475,
+      "working_tolerance": 0.02,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C1B1",
+      "family": "surface_inventory",
+      "metric": "F36_salt_g_0_3mm_increase",
+      "medium_value": 0.04190949527864593,
+      "refined_value": 0.040977140131955664,
+      "absolute_difference": 0.0009323551466902669,
+      "relative_difference": 0.02275305557410479,
+      "working_tolerance": 0.02,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C1B1",
+      "family": "plume_volume_fraction",
+      "metric": "F36_core_desc_vf_5.0e-09",
+      "medium_value": 0.17637433126850172,
+      "refined_value": 0.11685579741528214,
+      "absolute_difference": 0.05951853385321958,
+      "relative_difference": 0.5093331710510057,
+      "working_tolerance": 0.05,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C1B1",
+      "family": "plume_volume_fraction",
+      "metric": "F36_core_desc_vf_1.0e-08",
+      "medium_value": 0.1685854787770242,
+      "refined_value": 0.11404890152109701,
+      "absolute_difference": 0.0545365772559272,
+      "relative_difference": 0.4781859055945305,
+      "working_tolerance": 0.05,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C1B1",
+      "family": "plume_volume_fraction",
+      "metric": "F36_core_desc_vf_2.0e-08",
+      "medium_value": 0.15724126465938473,
+      "refined_value": 0.1079529507772927,
+      "absolute_difference": 0.04928831388209204,
+      "relative_difference": 0.45657217822395607,
+      "working_tolerance": 0.05,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C1B1",
+      "family": "vertical_conservative_flux",
+      "metric": "A_F36_down_salt_advgross_cum_mol_at20mm",
+      "medium_value": 0.0033693520739708394,
+      "refined_value": 0.0035469592761730863,
+      "absolute_difference": 0.0001776072022022469,
+      "relative_difference": 0.05007308750211316,
+      "working_tolerance": 0.05,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C1B1",
+      "family": "vertical_conservative_flux",
+      "metric": "A_W3_down_salt_net_cum_mol_at3mm",
+      "medium_value": -0.00012380155543410714,
+      "refined_value": -0.00011707856415601435,
+      "absolute_difference": 6.722991278092794e-06,
+      "relative_difference": 0.057422905094172465,
+      "working_tolerance": 0.05,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C1B1",
+      "family": "vertical_conservative_flux",
+      "metric": "A_W3_down_salt_advgross_cum_mol_at3mm",
+      "medium_value": 7.736270590446765e-08,
+      "refined_value": 1.2794256219244705e-07,
+      "absolute_difference": 5.05798562879794e-08,
+      "relative_difference": 0.3953325259494086,
+      "working_tolerance": 0.05,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C1B1",
+      "family": "vertical_conservative_flux",
+      "metric": "A_W3_down_salt_advgross_cum_mol_at10mm",
+      "medium_value": 2.3693643619103237e-09,
+      "refined_value": 1.5334332477619846e-09,
+      "absolute_difference": 8.359311141483391e-10,
+      "relative_difference": 0.5451369437622172,
+      "working_tolerance": 0.05,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C0B1",
+      "family": "surface_inventory",
+      "metric": "F36_salt_g_0_2mm_increase",
+      "medium_value": 0.03541648797236076,
+      "refined_value": 0.0346343420245157,
+      "absolute_difference": 0.0007821459478450574,
+      "relative_difference": 0.022582959632708493,
+      "working_tolerance": 0.02,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C0B1",
+      "family": "surface_inventory",
+      "metric": "F36_salt_g_0_3mm_increase",
+      "medium_value": 0.04922667507531893,
+      "refined_value": 0.04808815193650495,
+      "absolute_difference": 0.0011385231388139766,
+      "relative_difference": 0.023675751572180805,
+      "working_tolerance": 0.02,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C0B1",
+      "family": "vertical_conservative_flux",
+      "metric": "A_F36_down_salt_advgross_cum_mol_at20mm",
+      "medium_value": 0.0026940135839519327,
+      "refined_value": 0.002890336005113669,
+      "absolute_difference": 0.0001963224211617362,
+      "relative_difference": 0.06792373648406161,
+      "working_tolerance": 0.05,
+      "within_working_tolerance": false
+    },
+    {
+      "comparison": "fine",
+      "arm": "C1B0",
+      "family": "vertical_conservative_flux",
+      "metric": "A_W3_down_salt_net_cum_mol_at3mm",
+      "medium_value": -4.5860468644100636e-05,
+      "refined_value": -3.871970143176415e-05,
+      "absolute_difference": 7.140767212336483e-06,
+      "relative_difference": 0.18442206288498064,
+      "working_tolerance": 0.05,
+      "within_working_tolerance": false
+    }
+  ],
+  "comparison_count": 360,
+  "status": "Coordinator evidence aggregation; original Opus B final report remains blocked by organization access 403."
+}

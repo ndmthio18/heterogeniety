@@ -1,0 +1,20 @@
+{
+ "name": "v11_S2_C1B1",
+ "template": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\model_revisions\\20261030_verification_v11\\handoff\\causal_v10c\\snapshot\\inputs\\C1B1_24h.input",
+ "template_sha256": "aa319f8a1b610289ce35c213257831934248c4d9a6a61a4ed9d976244a2b7674",
+ "input_sha256": "d9244078e6e1b5031bb9cf662a37c006d9f52afaf3a0c091700f76c411896d97",
+ "diff": {
+  "Grid.File": [
+   "cylinder.msh",
+   "cyl_medium_r12t64z40_v08.msh"
+  ],
+  "Revision.RandomSeed": [
+   "1",
+   "2"
+  ],
+  "Problem.Name": [
+   "C1B1_24h",
+   "v11_S2_C1B1"
+  ]
+ }
+}

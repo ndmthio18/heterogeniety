@@ -1,0 +1,65 @@
+{
+  "stage": "short_C0B0",
+  "case": "Short_C0B0",
+  "raw_path": "/tmp/zhixin_causal_v10_20261030/runs/v10c/Short_C0B0",
+  "run_manifest": {
+    "case": "Short_C0B0",
+    "tag": "v10c",
+    "start_utc": "2026-10-30T20:18:29.323203+00:00",
+    "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+    "input_sha256": "500d18080540c9fdb3788e5ea83d7f9eefa4301f8b16ac4e98fce1ec7e3431df",
+    "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+    "cpu": 4,
+    "nice": 10,
+    "threads": 1,
+    "wall_limit_s": 3600,
+    "raw_path": "/tmp/zhixin_causal_v10_20261030/runs/v10c/Short_C0B0",
+    "resources_at_start": {
+      "mem_available_gib": 16.607139587402344,
+      "scratch_free_gib": 21.36208724975586,
+      "home_free_gib": 3.737621307373047
+    },
+    "controller_pid": 1200829,
+    "state": "running",
+    "TEnd": 9000.0,
+    "solver_pid": 1232670,
+    "returncode": 0,
+    "end_utc": "2026-10-30T20:28:29.360956+00:00",
+    "wall_s": 600.0332479579374,
+    "peak_rss_MiB": 221.8515625,
+    "cpu_seconds": 580.8861149999998,
+    "scratch_bytes": 231183365
+  },
+  "validation": {
+    "run_status": {
+      "status": "completed",
+      "time_s": 9000,
+      "evaporation_time_h": 0.5
+    },
+    "max_relative_budget_residuals": {
+      "water_residual_mol": 1.131599014297383e-13,
+      "salt_residual_mol": 1.214947702764302e-13,
+      "coarse_residual_mol": 2.1476135018626988e-13,
+      "fine_residual_mol": 7.34734998683477e-15,
+      "F36_side_water": 2.141529578801207e-13,
+      "F36_side_salt": 2.1498257724285205e-13,
+      "W3_side_water": 1.263269704840108e-14,
+      "W3_side_salt": 7.470253907158195e-15
+    },
+    "precip_vf_max": 0.0,
+    "S_min": 0.9995830328813197,
+    "C_max_mol_L": 1.2088049622787513,
+    "interface_faces_evaluated": [
+      960.0,
+      960.0
+    ],
+    "max_abs_interface_columns": 0.0,
+    "legacy_vs_band_interface_salt_max_rel": 0.0,
+    "hashes": {
+      "input": "500d18080540c9fdb3788e5ea83d7f9eefa4301f8b16ac4e98fce1ec7e3431df",
+      "mesh": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+      "binary": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a"
+    }
+  },
+  "status": "passed"
+}

@@ -1,0 +1,7 @@
+{"case": "RT_coarse_v08bin", "files": 34, "bytes": 22009775, "status": "verified"}
+{"case": "RT_fine_v08bin", "files": 34, "bytes": 194407450, "status": "verified"}
+{"case": "RT_medium_v08bin", "files": 34, "bytes": 60077585, "status": "verified"}
+{"case": "v11_G_coarse_C0B1", "files": 176, "bytes": 230421810, "status": "verified"}
+{"case": "v11_G_coarse_C1B1", "files": 176, "bytes": 252590053, "status": "verified"}
+{"case": "v11_T150_C0B1", "files": 176, "bytes": 714736820, "status": "verified"}
+{"case": "v11_T150_C1B1", "files": 176, "bytes": 783262538, "status": "verified"}

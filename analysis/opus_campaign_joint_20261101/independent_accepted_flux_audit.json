@@ -1,0 +1,404 @@
+{
+  "utc": "2026-11-01T19:52:54.528888+00:00",
+  "cases": [
+    {
+      "case": "v11_A3e-5_C0B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          4.910336259357278e-13,
+          4.805604736605969e-13
+        ],
+        [
+          3.718681768380864e-14,
+          1.7882520407058405e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": 0.0,
+      "causal_budget_sha256": "bf6a376115361e46ecea9726359bb5973cce7ab741420dbb733af9b04a9bfa92",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_A3e-5_C1B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          4.980426329857862e-13,
+          5.034574740168504e-13
+        ],
+        [
+          3.8561698353436014e-14,
+          4.458339709732259e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": null,
+      "causal_budget_sha256": "40d74f352ab9c0844f4e3aa5d1530129a21393260437379c2dd628d09e922231",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_A3e-6_C0B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          4.1427710915085766e-13,
+          4.13335101841693e-13
+        ],
+        [
+          3.0154622601066266e-14,
+          1.9971887052556637e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": 0.0,
+      "causal_budget_sha256": "1042ec9bf4a041513086e5a39f03b55baef599a5d9b6db8fe29040d536531f32",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_A3e-6_C1B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          2.170476210058582e-13,
+          2.2106113628972328e-13
+        ],
+        [
+          5.824042023730452e-14,
+          6.858038754047141e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": null,
+      "causal_budget_sha256": "5e6b5a051d4d47d2121e813366751129c68186aef85abed8c167a1dc4add06a2",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_G_coarse_C0B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          4.740755853061413e-13,
+          4.801096584815175e-13
+        ],
+        [
+          1.535496277689741e-14,
+          1.2398064357814643e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": 0.0,
+      "causal_budget_sha256": "3001007c28a1493b59ff60dd2ae9fffffc0d989a50a0af1c47c98fc449856537",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_G_coarse_C1B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          2.7706065659007953e-13,
+          2.82486666127894e-13
+        ],
+        [
+          3.825320107935354e-14,
+          4.051675126362751e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": null,
+      "causal_budget_sha256": "0f1c04790fbee5c407ce9eccae027d8fcf216f2a7743c3d8a81a85e1c85ae652",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_G_fine_C0B0",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          2.7174338798155104e-13,
+          2.3683324054833773e-13
+        ],
+        [
+          3.8994586142790804e-14,
+          3.843459547447832e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": 0.0,
+      "causal_budget_sha256": "ac9313c5ecb21fc10e31dabdca921699ec0b67620ecefa63d15d31fa7a956186",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_G_fine_C0B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          1.3935323642028157e-13,
+          1.5787040789701376e-13
+        ],
+        [
+          3.6946254382645655e-14,
+          3.011528607065753e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": 0.0,
+      "causal_budget_sha256": "09dc151f9c482049efdc7066ed0e2e399fd16a74379308a071620548b88b5d97",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_G_fine_C1B0",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          2.9669647626501197e-13,
+          2.8750428151493265e-13
+        ],
+        [
+          1.409342660105827e-13,
+          1.702542064708121e-13
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": null,
+      "causal_budget_sha256": "d138bc36da730312a48371b6599add639c94d1f222e1762742caabe6c6ef952d",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_G_fine_C1B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          5.324054424049752e-13,
+          5.540660062944896e-13
+        ],
+        [
+          1.3626802499671271e-13,
+          1.22425852038514e-13
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": null,
+      "causal_budget_sha256": "1053313e28fafb5bbabe3218f4573e857222701ddaf43f730edc518ef419a6e1",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_P1_C0B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          2.7194947354226726e-13,
+          2.575082938616341e-13
+        ],
+        [
+          3.868781862876588e-14,
+          1.8589217948918102e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": 0.0,
+      "causal_budget_sha256": "2b2266404f2953aa03af1f6319a5a497ceb070168da98760481cc83def952b0a",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_P1_C1B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          5.55114376375819e-13,
+          5.709040728923364e-13
+        ],
+        [
+          6.02074440830322e-14,
+          6.71055404965903e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": null,
+      "causal_budget_sha256": "33dd00c3acdded5fce3280eb3a06f92586da2a5b742fdbc157d4d1e9ae4bddc1",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_P2_C0B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          3.285529317844385e-13,
+          3.256462272889394e-13
+        ],
+        [
+          3.014783585979291e-14,
+          2.3843360542744542e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": 0.0,
+      "causal_budget_sha256": "566bba9e5da85b03008b7138d08e1faa6ceb02981891650b8ec3c1e12a27f273",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_P2_C1B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          5.226561075618665e-13,
+          5.310417226344384e-13
+        ],
+        [
+          6.363248617898586e-14,
+          6.360277876737268e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": null,
+      "causal_budget_sha256": "c639e2adf9a2ac002498f336fd816a2574f1455bedee2dca76dbb91543052f7c",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_S2_C0B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          3.403801858015161e-13,
+          3.626464525023056e-13
+        ],
+        [
+          3.350953503719525e-14,
+          1.6346221403015588e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": 0.0,
+      "causal_budget_sha256": "475e29e3db0bb85a2b650985e054df3c074dab6f1f7e2f8371d1a6011f2ae0ad",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_S2_C1B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          3.998982100835301e-13,
+          3.7984685615156853e-13
+        ],
+        [
+          7.126417674087468e-14,
+          6.934853704249281e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": null,
+      "causal_budget_sha256": "ee4859db2499ca4f7328faba82ae25160508aef9dd2d592ed5578a231fe7bd5b",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_S3_C0B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          4.2833024463706416e-13,
+          4.148007310915498e-13
+        ],
+        [
+          3.144184119591279e-14,
+          1.4932826319296196e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": 0.0,
+      "causal_budget_sha256": "54736ceaa5e5dee5721cf1d0634612f7e8d6b164dde3f670477182a959774dca",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_S3_C1B1",
+      "accepted_rows": 333,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          2.037920972878029e-13,
+          1.9586890522142981e-13
+        ],
+        [
+          4.582860157188195e-14,
+          5.518386022521803e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": null,
+      "causal_budget_sha256": "28eddfd4697463e1afce794f1e99b955d1e082bb62e5f6bc311c15a60bc9f49e",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_T150_C0B0",
+      "accepted_rows": 630,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          1.0336631130650811e-13,
+          9.125616084014096e-14
+        ],
+        [
+          3.663369827003013e-14,
+          3.561141091371253e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": 0.0,
+      "causal_budget_sha256": "86926747e4df4c1a767b013020fc36b08132d9b3b7f5f80b2887350f4ff0dc35",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_T150_C0B1",
+      "accepted_rows": 630,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          3.356082583436876e-13,
+          3.219959808553337e-13
+        ],
+        [
+          3.369843266930366e-14,
+          2.0617132634254622e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": 0.0,
+      "causal_budget_sha256": "d9adee273c043e3801c5eaf042ee2f5d39a47e0e86a80be615eda7626f2c1fe2",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_T150_C1B0",
+      "accepted_rows": 630,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          1.6375931620718953e-13,
+          1.7418865367637815e-13
+        ],
+        [
+          4.818812528791872e-14,
+          5.128166075494928e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": null,
+      "causal_budget_sha256": "52ee9eb039006f9049c073089997704684fb390b94b033a28b757c23a2fda589",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    },
+    {
+      "case": "v11_T150_C1B1",
+      "accepted_rows": 630,
+      "end_s": 93600.0,
+      "max_relative_error_rows_F36_W3_columns_water_salt": [
+        [
+          1.382988563201944e-13,
+          1.2950078824678186e-13
+        ],
+        [
+          2.924661317486851e-14,
+          3.089497297130108e-14
+        ]
+      ],
+      "max_blocked_instantaneous_water_or_salt_interface_rate": null,
+      "causal_budget_sha256": "b686cddea335a0875362164430c89100ba265f4130bee35f4d2440061f8c03be",
+      "method": "Reintegrate instantaneous accepted-step external boundary and eight advective/diffusive interface-band rates; subtract recorded side component seed impulses exactly once."
+    }
+  ],
+  "all_passed": true,
+  "maximum_relative_error": 5.709040728923364e-13,
+  "script_sha256": "74a04113c93856bf39328b26c27d9ff02591052b7a0d0d33a780ebbd2224877e"
+}

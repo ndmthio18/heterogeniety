@@ -1,0 +1,70 @@
+{
+ "case": "v11_T150_C1B0",
+ "state": "completed",
+ "spec": {
+  "name": "v11_T150_C1B0",
+  "case_id": "T150",
+  "arm": "C1B0",
+  "mesh_level": "medium",
+  "input": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/inputs/prod_causal_v10c/v11_T150_C1B0.input",
+  "mesh": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/inputs/mesh/cyl_medium_r12t64z40_v08.msh",
+  "binary": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/handoff/causal_v10c/snapshot/build_v10c/heterogeneity_causal",
+  "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+  "handoff_version": "causal_v10c",
+  "wall_s": 21600,
+  "cpu": 5,
+  "extra_files": [
+   "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/handoff/causal_v10c/snapshot/inputs/water_flux_zero_storage.txt",
+   "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_verification_v11/handoff/causal_v10c/snapshot/inputs/forcing_provenance.json"
+  ],
+  "expected_scratch_GiB": 1.0,
+  "min_mem_GiB": 8.0,
+  "extract": true
+ },
+ "runner_pid": 2325806,
+ "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+ "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_T150_C1B0",
+ "created_utc": "2026-11-01T16:32:00+00:00",
+ "resources": {
+  "mem_available_GiB": 14.76906967163086,
+  "scratch_free_GiB": 15.05588150024414,
+  "home_free_GiB": 2.6994400024414062,
+  "loadavg": [
+   "1.18",
+   "1.21",
+   "1.19"
+  ]
+ },
+ "updated_utc": "2026-11-01T18:28:13+00:00",
+ "input_sha256": "5b006577d92bcf6b8be1b4471f32153b29c83242a3bc9ac383b833e8dd5ef901",
+ "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+ "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+ "cpu": 5,
+ "start_utc": "2026-11-01T16:32:00+00:00",
+ "solver_pid": 2325808,
+ "peak_rss_GiB": 0.21783828735351562,
+ "wall_h": 1.9372125816477799,
+ "reached_evaporation_h": 24.0,
+ "dt_s": 150.0,
+ "S_min": 0.9944252490814691,
+ "C_max_mol_L": 3.366433498603076,
+ "returncode": 0,
+ "end_utc": "2026-11-01T18:28:14+00:00",
+ "acceptance": {
+  "final_time_s": 93600.0,
+  "target_time_s": 93600.0,
+  "final_evaporation_h": 24.0,
+  "accepted_steps": 629,
+  "all_finite": true,
+  "max_precip_vf": 0.0,
+  "min_S": 0.9944252490814691,
+  "max_C_mol_L": 3.366433498603076,
+  "max_relative_residuals": {
+   "water_residual_mol": 1.5286429254339367e-13,
+   "salt_residual_mol": 1.5709304179076673e-13,
+   "coarse_residual_mol": 2.8628768708567906e-13,
+   "fine_residual_mol": 4.923454233206217e-14
+  },
+  "status": "passed"
+ }
+}

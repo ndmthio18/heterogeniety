@@ -1,0 +1,1295 @@
+{
+ "controller": {
+  "controller_pid": 1191747,
+  "started_utc": "2026-10-30T19:07:22+00:00",
+  "state": "idle_queue_exhausted",
+  "done": [
+   "RT_medium_v08bin",
+   "RT_coarse_v08bin",
+   "RT_fine_v08bin",
+   "v11_G_coarse_C1B1",
+   "v11_G_coarse_C0B1",
+   "v11_T150_C1B1",
+   "v11_T150_C0B1",
+   "v11_G_fine_C1B1",
+   "v11_G_fine_C0B1",
+   "v11_S2_C1B1",
+   "v11_S2_C0B1",
+   "v11_S3_C1B1",
+   "v11_S3_C0B1",
+   "v11_A3e-6_C1B1",
+   "v11_A3e-6_C0B1",
+   "v11_A3e-5_C1B1",
+   "v11_A3e-5_C0B1",
+   "v11_P1_C1B1",
+   "v11_P1_C0B1",
+   "v11_P2_C1B1",
+   "v11_P2_C0B1",
+   "v11_G_fine_C1B0",
+   "v11_G_fine_C0B0",
+   "v11_T150_C1B0",
+   "v11_T150_C0B0"
+  ],
+  "failed": [],
+  "current": null,
+  "pending": [],
+  "updated_utc": "2026-11-01T19:46:40+00:00"
+ },
+ "cases": {
+  "RT_coarse_v08bin": {
+   "case": "RT_coarse_v08bin",
+   "state": "completed",
+   "runner_pid": 1199282,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/RT_coarse_v08bin",
+   "created_utc": "2026-10-30T19:19:55+00:00",
+   "resources": {
+    "mem_available_GiB": 12.929122924804688,
+    "scratch_free_GiB": 23.074420928955078,
+    "home_free_GiB": 3.7390899658203125,
+    "loadavg": [
+     "2.52",
+     "2.61",
+     "2.38"
+    ]
+   },
+   "updated_utc": "2026-10-30T19:23:58+00:00",
+   "input_sha256": "47a61c82d6e79398423676dead2c2f796b91d92e3c2c5e1a3debf8dee9257545",
+   "mesh_sha256": "198249a5a96192faafed69da3dfba229a7bb3391c78f4b97355066fdd434127b",
+   "binary_sha256": "c9145e427a63e9d4b9c3a6e2dca459d8df0e4c54133f7ec698e076941a2eb1f3",
+   "cpu": 5,
+   "start_utc": "2026-10-30T19:19:55+00:00",
+   "solver_pid": 1199283,
+   "peak_rss_GiB": 0.12159347534179688,
+   "wall_h": 0.06748035307776364,
+   "reached_evaporation_h": 1.0,
+   "dt_s": 300.0,
+   "S_min": 0.995877861287553,
+   "C_max_mol_L": 1.3094531958256246,
+   "returncode": 0,
+   "end_utc": "2026-10-30T19:23:58+00:00",
+   "acceptance": {
+    "final_time_s": 10800.0,
+    "target_time_s": 10800.0,
+    "final_evaporation_h": 1.0,
+    "accepted_steps": 56,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.995877861287553,
+    "max_C_mol_L": 1.3094531958256246,
+    "max_relative_residuals": {
+     "water_residual_mol": 2.944527037239459e-13,
+     "salt_residual_mol": 2.8811169885338797e-13,
+     "coarse_residual_mol": 5.610484116788697e-13,
+     "fine_residual_mol": 1.2103473932342214e-14
+    },
+    "status": "passed"
+   }
+  },
+  "RT_fine_v08bin": {
+   "case": "RT_fine_v08bin",
+   "state": "completed",
+   "runner_pid": 1201679,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/RT_fine_v08bin",
+   "created_utc": "2026-10-30T19:23:59+00:00",
+   "resources": {
+    "mem_available_GiB": 17.041339874267578,
+    "scratch_free_GiB": 21.184494018554688,
+    "home_free_GiB": 3.737537384033203,
+    "loadavg": [
+     "4.18",
+     "3.69",
+     "3.70"
+    ]
+   },
+   "updated_utc": "2026-10-30T20:23:14+00:00",
+   "input_sha256": "a52518609f35f1f69fc4f72fdcbba7c276ddd3675b0df0333d104bce723659d4",
+   "mesh_sha256": "f8712ff3a78a907594c1b7a077aebb0822da36985b3cf8ee70918177f4e4cf95",
+   "binary_sha256": "c9145e427a63e9d4b9c3a6e2dca459d8df0e4c54133f7ec698e076941a2eb1f3",
+   "cpu": 5,
+   "start_utc": "2026-10-30T19:23:59+00:00",
+   "solver_pid": 1201680,
+   "peak_rss_GiB": 0.6305122375488281,
+   "wall_h": 0.9883366140730666,
+   "reached_evaporation_h": 1.0,
+   "dt_s": 300.0,
+   "S_min": 0.9947301306761561,
+   "C_max_mol_L": 1.313918830520922,
+   "returncode": 0,
+   "end_utc": "2026-10-30T20:23:17+00:00",
+   "acceptance": {
+    "final_time_s": 10800.0,
+    "target_time_s": 10800.0,
+    "final_evaporation_h": 1.0,
+    "accepted_steps": 56,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9947301306761561,
+    "max_C_mol_L": 1.313918830520922,
+    "max_relative_residuals": {
+     "water_residual_mol": 8.742643898752498e-12,
+     "salt_residual_mol": 8.719249620485977e-12,
+     "coarse_residual_mol": 1.6498495792633096e-11,
+     "fine_residual_mol": 7.54767553663254e-14
+    },
+    "status": "passed"
+   }
+  },
+  "RT_medium_v08bin": {
+   "case": "RT_medium_v08bin",
+   "state": "completed",
+   "runner_pid": 1191748,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/RT_medium_v08bin",
+   "created_utc": "2026-10-30T19:07:22+00:00",
+   "resources": {
+    "mem_available_GiB": 13.17684555053711,
+    "scratch_free_GiB": 23.18608856201172,
+    "home_free_GiB": 3.7392807006835938,
+    "loadavg": [
+     "2.96",
+     "2.65",
+     "2.31"
+    ]
+   },
+   "updated_utc": "2026-10-30T19:19:50+00:00",
+   "input_sha256": "0e212bc189b8a0730844c8889c06e0b6a971c5ccdc6bb81bd88f2f8952dd9714",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "c9145e427a63e9d4b9c3a6e2dca459d8df0e4c54133f7ec698e076941a2eb1f3",
+   "cpu": 5,
+   "start_utc": "2026-10-30T19:07:22+00:00",
+   "solver_pid": 1191749,
+   "peak_rss_GiB": 0.21630477905273438,
+   "wall_h": 0.20809706807637768,
+   "reached_evaporation_h": 1.0,
+   "dt_s": 300.0,
+   "S_min": 0.9952113585864791,
+   "C_max_mol_L": 1.3120701952006948,
+   "returncode": 0,
+   "end_utc": "2026-10-30T19:19:51+00:00",
+   "acceptance": {
+    "final_time_s": 10800.0,
+    "target_time_s": 10800.0,
+    "final_evaporation_h": 1.0,
+    "accepted_steps": 56,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9952113585864791,
+    "max_C_mol_L": 1.3120701952006948,
+    "max_relative_residuals": {
+     "water_residual_mol": 1.469952571039975e-13,
+     "salt_residual_mol": 1.5344443272846787e-13,
+     "coarse_residual_mol": 2.7474273763599676e-13,
+     "fine_residual_mol": 1.275827309425737e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_A3e-5_C0B1": {
+   "case": "v11_A3e-5_C0B1",
+   "state": "completed",
+   "runner_pid": 2125161,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_A3e-5_C0B1",
+   "created_utc": "2026-11-01T01:36:19+00:00",
+   "resources": {
+    "mem_available_GiB": 15.61434555053711,
+    "scratch_free_GiB": 14.59326171875,
+    "home_free_GiB": 2.5307464599609375,
+    "loadavg": [
+     "0.98",
+     "1.24",
+     "1.93"
+    ]
+   },
+   "updated_utc": "2026-11-01T03:11:48+00:00",
+   "input_sha256": "483fdafc557fc3c911c47f8b8ebb82a09dae24666c96a05e1ca922093fb1b1ff",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-11-01T01:36:19+00:00",
+   "solver_pid": 2125162,
+   "peak_rss_GiB": 0.217681884765625,
+   "wall_h": 1.5913982513999994,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9995220760322034,
+   "C_max_mol_L": 3.079663547501597,
+   "returncode": 0,
+   "end_utc": "2026-11-01T03:11:48+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9995191991675457,
+    "max_C_mol_L": 3.079663547501597,
+    "max_relative_residuals": {
+     "water_residual_mol": 3.747384921341827e-13,
+     "salt_residual_mol": 3.746596638511991e-13,
+     "coarse_residual_mol": 6.924130337200861e-13,
+     "fine_residual_mol": 1.8404862068432943e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_A3e-5_C1B1": {
+   "case": "v11_A3e-5_C1B1",
+   "state": "completed",
+   "runner_pid": 2094571,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_A3e-5_C1B1",
+   "created_utc": "2026-11-01T00:11:07+00:00",
+   "resources": {
+    "mem_available_GiB": 15.307586669921875,
+    "scratch_free_GiB": 14.605735778808594,
+    "home_free_GiB": 2.7925376892089844,
+    "loadavg": [
+     "7.18",
+     "5.68",
+     "3.64"
+    ]
+   },
+   "updated_utc": "2026-11-01T01:35:34+00:00",
+   "input_sha256": "6e085c8a4253d50a4317847d4793cc7aee29fa44419e8a73e5114cba2d5da566",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-11-01T00:11:07+00:00",
+   "solver_pid": 2094572,
+   "peak_rss_GiB": 0.2186279296875,
+   "wall_h": 1.4079303984177791,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9944531155867952,
+   "C_max_mol_L": 3.3827262152773625,
+   "returncode": 0,
+   "end_utc": "2026-11-01T01:35:35+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9944396428566527,
+    "max_C_mol_L": 3.3827262152773625,
+    "max_relative_residuals": {
+     "water_residual_mol": 3.9267906409184534e-13,
+     "salt_residual_mol": 3.8225706671540257e-13,
+     "coarse_residual_mol": 7.133259039126184e-13,
+     "fine_residual_mol": 4.232311718762454e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_A3e-6_C0B1": {
+   "case": "v11_A3e-6_C0B1",
+   "state": "completed",
+   "runner_pid": 2053995,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_A3e-6_C0B1",
+   "created_utc": "2026-10-31T22:57:51+00:00",
+   "resources": {
+    "mem_available_GiB": 15.59530258178711,
+    "scratch_free_GiB": 14.685413360595703,
+    "home_free_GiB": 2.7929420471191406,
+    "loadavg": [
+     "1.50",
+     "1.99",
+     "2.05"
+    ]
+   },
+   "updated_utc": "2026-11-01T00:10:42+00:00",
+   "input_sha256": "7b154f0b448567033ff930f6c6f67d870bdf2faef9e1558d1c3fd60d063bdcec",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-31T22:57:52+00:00",
+   "solver_pid": 2053996,
+   "peak_rss_GiB": 0.21792984008789062,
+   "wall_h": 1.2140844859805657,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9995220761097733,
+   "C_max_mol_L": 3.0796417911713774,
+   "returncode": 0,
+   "end_utc": "2026-11-01T00:10:42+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9995191992315483,
+    "max_C_mol_L": 3.0796417911713774,
+    "max_relative_residuals": {
+     "water_residual_mol": 1.393101139780786e-13,
+     "salt_residual_mol": 1.137270353137686e-13,
+     "coarse_residual_mol": 2.2401497118339425e-13,
+     "fine_residual_mol": 1.7943972367220098e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_A3e-6_C1B1": {
+   "case": "v11_A3e-6_C1B1",
+   "state": "completed",
+   "runner_pid": 2023872,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_A3e-6_C1B1",
+   "created_utc": "2026-10-31T21:35:03+00:00",
+   "resources": {
+    "mem_available_GiB": 15.481651306152344,
+    "scratch_free_GiB": 14.798786163330078,
+    "home_free_GiB": 2.8578529357910156,
+    "loadavg": [
+     "1.72",
+     "2.09",
+     "2.06"
+    ]
+   },
+   "updated_utc": "2026-10-31T22:57:25+00:00",
+   "input_sha256": "129a8aff80a5dcbc40ee46da2b37110079638989afc56414616a54a5858319bb",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-31T21:35:03+00:00",
+   "solver_pid": 2023873,
+   "peak_rss_GiB": 0.21887969970703125,
+   "wall_h": 1.3731641557316632,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9944535273469696,
+   "C_max_mol_L": 3.382622899331095,
+   "returncode": 0,
+   "end_utc": "2026-10-31T22:57:26+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9944394113664234,
+    "max_C_mol_L": 3.382622899331095,
+    "max_relative_residuals": {
+     "water_residual_mol": 2.345291502856891e-13,
+     "salt_residual_mol": 2.1026758463438248e-13,
+     "coarse_residual_mol": 4.312410988179055e-13,
+     "fine_residual_mol": 6.636811697464967e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_G_coarse_C0B1": {
+   "case": "v11_G_coarse_C0B1",
+   "state": "completed",
+   "runner_pid": 1261793,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_G_coarse_C0B1",
+   "created_utc": "2026-10-30T21:04:20+00:00",
+   "resources": {
+    "mem_available_GiB": 16.90082550048828,
+    "scratch_free_GiB": 19.55791473388672,
+    "home_free_GiB": 3.7086753845214844,
+    "loadavg": [
+     "3.46",
+     "4.01",
+     "4.62"
+    ]
+   },
+   "updated_utc": "2026-10-30T21:41:01+00:00",
+   "input_sha256": "46b52e2ef1d3de1678e4c36ddf8d995a08f375b52737786674fe2188c9e1451f",
+   "mesh_sha256": "198249a5a96192faafed69da3dfba229a7bb3391c78f4b97355066fdd434127b",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-30T21:04:20+00:00",
+   "solver_pid": 1261794,
+   "peak_rss_GiB": 0.12340927124023438,
+   "wall_h": 0.6113371081369566,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9994502136738566,
+   "C_max_mol_L": 3.064125977732788,
+   "returncode": 0,
+   "end_utc": "2026-10-30T21:41:01+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9994470025697753,
+    "max_C_mol_L": 3.064125977732788,
+    "max_relative_residuals": {
+     "water_residual_mol": 5.256946472013866e-13,
+     "salt_residual_mol": 5.235069316848935e-13,
+     "coarse_residual_mol": 9.96601329145542e-13,
+     "fine_residual_mol": 1.0429140985853991e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_G_coarse_C1B1": {
+   "case": "v11_G_coarse_C1B1",
+   "state": "completed",
+   "runner_pid": 1239416,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_G_coarse_C1B1",
+   "created_utc": "2026-10-30T20:30:31+00:00",
+   "resources": {
+    "mem_available_GiB": 16.317840576171875,
+    "scratch_free_GiB": 20.486515045166016,
+    "home_free_GiB": 3.7108230590820312,
+    "loadavg": [
+     "5.17",
+     "4.19",
+     "3.59"
+    ]
+   },
+   "updated_utc": "2026-10-30T21:04:03+00:00",
+   "input_sha256": "efbdc37a6615ced36921f21063fa6ff96f0de1bd5e886319c3318b69a2c7bdc0",
+   "mesh_sha256": "198249a5a96192faafed69da3dfba229a7bb3391c78f4b97355066fdd434127b",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-30T20:30:31+00:00",
+   "solver_pid": 1239417,
+   "peak_rss_GiB": 0.12221145629882812,
+   "wall_h": 0.5590361414011245,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9949003341576811,
+   "C_max_mol_L": 3.3666571258859572,
+   "returncode": 0,
+   "end_utc": "2026-10-30T21:04:04+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9948905936311684,
+    "max_C_mol_L": 3.3666571258859572,
+    "max_relative_residuals": {
+     "water_residual_mol": 2.944527037239459e-13,
+     "salt_residual_mol": 2.8811169885338797e-13,
+     "coarse_residual_mol": 5.610484116788697e-13,
+     "fine_residual_mol": 3.885162661507481e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_G_fine_C0B0": {
+   "case": "v11_G_fine_C0B0",
+   "state": "completed",
+   "runner_pid": 2291645,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_G_fine_C0B0",
+   "created_utc": "2026-11-01T13:04:30+00:00",
+   "resources": {
+    "mem_available_GiB": 14.76999282836914,
+    "scratch_free_GiB": 13.918167114257812,
+    "home_free_GiB": 2.6981735229492188,
+    "loadavg": [
+     "1.19",
+     "1.20",
+     "1.25"
+    ]
+   },
+   "updated_utc": "2026-11-01T16:30:35+00:00",
+   "input_sha256": "0440b49dda6ff730f275ba2ca30d4b20f116553f046c466a1f3e277cc1f4059a",
+   "mesh_sha256": "f8712ff3a78a907594c1b7a077aebb0822da36985b3cf8ee70918177f4e4cf95",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-11-01T13:04:30+00:00",
+   "solver_pid": 2291653,
+   "peak_rss_GiB": 0.6356163024902344,
+   "wall_h": 3.4352831642666652,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9995852347342975,
+   "C_max_mol_L": 3.0909031171951256,
+   "returncode": 0,
+   "end_utc": "2026-11-01T16:30:37+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9995826512478627,
+    "max_C_mol_L": 3.0909031171951256,
+    "max_relative_residuals": {
+     "water_residual_mol": 8.733204370479464e-12,
+     "salt_residual_mol": 8.754576188857734e-12,
+     "coarse_residual_mol": 1.655645872010389e-11,
+     "fine_residual_mol": 1.1358466713703618e-13
+    },
+    "status": "passed"
+   }
+  },
+  "v11_G_fine_C0B1": {
+   "case": "v11_G_fine_C0B1",
+   "state": "completed",
+   "runner_pid": 1658505,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_G_fine_C0B1",
+   "created_utc": "2026-10-31T09:22:15+00:00",
+   "resources": {
+    "mem_available_GiB": 15.430381774902344,
+    "scratch_free_GiB": 13.452411651611328,
+    "home_free_GiB": 3.05450439453125,
+    "loadavg": [
+     "4.44",
+     "4.18",
+     "4.21"
+    ]
+   },
+   "updated_utc": "2026-10-31T14:53:23+00:00",
+   "input_sha256": "cdc14dc20f87ac9993fa9ec34964fc1f62af56edd305ce7dfb89c82a1fb1f8f0",
+   "mesh_sha256": "f8712ff3a78a907594c1b7a077aebb0822da36985b3cf8ee70918177f4e4cf95",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-31T09:22:15+00:00",
+   "solver_pid": 1658506,
+   "peak_rss_GiB": 0.6356697082519531,
+   "wall_h": 5.519664205831941,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9995851706713526,
+   "C_max_mol_L": 3.0909033119126432,
+   "returncode": 0,
+   "end_utc": "2026-10-31T14:53:26+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9995826187686239,
+    "max_C_mol_L": 3.0909033119126432,
+    "max_relative_residuals": {
+     "water_residual_mol": 8.715239058560553e-12,
+     "salt_residual_mol": 8.742463183885808e-12,
+     "coarse_residual_mol": 1.6559345919548277e-11,
+     "fine_residual_mol": 1.050811663811013e-13
+    },
+    "status": "passed"
+   }
+  },
+  "v11_G_fine_C1B0": {
+   "case": "v11_G_fine_C1B0",
+   "state": "completed",
+   "runner_pid": 2232306,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_G_fine_C1B0",
+   "created_utc": "2026-11-01T08:13:26+00:00",
+   "resources": {
+    "mem_available_GiB": 14.778579711914062,
+    "scratch_free_GiB": 13.557723999023438,
+    "home_free_GiB": 2.6985549926757812,
+    "loadavg": [
+     "0.98",
+     "1.13",
+     "1.16"
+    ]
+   },
+   "updated_utc": "2026-11-01T13:03:01+00:00",
+   "input_sha256": "164b47789c9091b37cd8c22df684ea462e9d59c6d346bcaa56eeee12baccebe6",
+   "mesh_sha256": "f8712ff3a78a907594c1b7a077aebb0822da36985b3cf8ee70918177f4e4cf95",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-11-01T08:13:26+00:00",
+   "solver_pid": 2232307,
+   "peak_rss_GiB": 0.6362152099609375,
+   "wall_h": 4.827020786105811,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9941269570726746,
+   "C_max_mol_L": 3.377115956441711,
+   "returncode": 0,
+   "end_utc": "2026-11-01T13:03:03+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9941269570726746,
+    "max_C_mol_L": 3.377115956441711,
+    "max_relative_residuals": {
+     "water_residual_mol": 8.708658563226667e-12,
+     "salt_residual_mol": 8.740645506068891e-12,
+     "coarse_residual_mol": 1.6521293910857232e-11,
+     "fine_residual_mol": 2.453275317366553e-13
+    },
+    "status": "passed"
+   }
+  },
+  "v11_G_fine_C1B1": {
+   "case": "v11_G_fine_C1B1",
+   "state": "completed",
+   "runner_pid": 1494137,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_G_fine_C1B1",
+   "created_utc": "2026-10-31T03:46:09+00:00",
+   "resources": {
+    "mem_available_GiB": 17.829635620117188,
+    "scratch_free_GiB": 13.688957214355469,
+    "home_free_GiB": 2.4284210205078125,
+    "loadavg": [
+     "1.33",
+     "1.32",
+     "1.36"
+    ]
+   },
+   "updated_utc": "2026-10-31T09:20:43+00:00",
+   "input_sha256": "d0c3284066251595c21062dc23302ef34f104576e849a296bc1ece37d9d38d99",
+   "mesh_sha256": "f8712ff3a78a907594c1b7a077aebb0822da36985b3cf8ee70918177f4e4cf95",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-31T03:46:09+00:00",
+   "solver_pid": 1494138,
+   "peak_rss_GiB": 0.6364212036132812,
+   "wall_h": 5.576774543451385,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9941446639622287,
+   "C_max_mol_L": 3.3945558293857907,
+   "returncode": 0,
+   "end_utc": "2026-10-31T09:20:46+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.99413192138615,
+    "max_C_mol_L": 3.3945558293857907,
+    "max_relative_residuals": {
+     "water_residual_mol": 8.890599335347969e-12,
+     "salt_residual_mol": 8.921918879394265e-12,
+     "coarse_residual_mol": 1.6957461712791544e-11,
+     "fine_residual_mol": 8.279011549733552e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_P1_C0B1": {
+   "case": "v11_P1_C0B1",
+   "state": "completed",
+   "runner_pid": 2174240,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_P1_C0B1",
+   "created_utc": "2026-11-01T04:29:55+00:00",
+   "resources": {
+    "mem_available_GiB": 15.55404281616211,
+    "scratch_free_GiB": 15.081146240234375,
+    "home_free_GiB": 2.531238555908203,
+    "loadavg": [
+     "0.95",
+     "1.19",
+     "1.18"
+    ]
+   },
+   "updated_utc": "2026-11-01T05:38:00+00:00",
+   "input_sha256": "fb207dd014cec7af35a5018443e14a42d80852e3111082160ee55f94af93a9f8",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-11-01T04:29:55+00:00",
+   "solver_pid": 2174241,
+   "peak_rss_GiB": 0.21727371215820312,
+   "wall_h": 1.134862493703614,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9995256091875034,
+   "C_max_mol_L": 3.079647241010817,
+   "returncode": 0,
+   "end_utc": "2026-11-01T05:38:00+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9995227547712392,
+    "max_C_mol_L": 3.079647241010817,
+    "max_relative_residuals": {
+     "water_residual_mol": 1.3440908913891064e-13,
+     "salt_residual_mol": 1.4400134854105213e-13,
+     "coarse_residual_mol": 2.624305958705866e-13,
+     "fine_residual_mol": 2.0555680674092888e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_P1_C1B1": {
+   "case": "v11_P1_C1B1",
+   "state": "completed",
+   "runner_pid": 2157473,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_P1_C1B1",
+   "created_utc": "2026-11-01T03:12:13+00:00",
+   "resources": {
+    "mem_available_GiB": 15.653282165527344,
+    "scratch_free_GiB": 14.556671142578125,
+    "home_free_GiB": 2.5291061401367188,
+    "loadavg": [
+     "1.26",
+     "1.30",
+     "1.28"
+    ]
+   },
+   "updated_utc": "2026-11-01T04:29:29+00:00",
+   "input_sha256": "d633daafb973fea7a9193c866ccf5cd65acea977510826536040054397bf938e",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-11-01T03:12:13+00:00",
+   "solver_pid": 2157474,
+   "peak_rss_GiB": 0.21808624267578125,
+   "wall_h": 1.2881283550853064,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.994378688455021,
+   "C_max_mol_L": 3.3837363944373697,
+   "returncode": 0,
+   "end_utc": "2026-11-01T04:29:30+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9943688230397414,
+    "max_C_mol_L": 3.3837363944373697,
+    "max_relative_residuals": {
+     "water_residual_mol": 4.16639832755884e-13,
+     "salt_residual_mol": 4.293551427088173e-13,
+     "coarse_residual_mol": 7.709832055343437e-13,
+     "fine_residual_mol": 6.952137068044756e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_P2_C0B1": {
+   "case": "v11_P2_C0B1",
+   "state": "completed",
+   "runner_pid": 2209600,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_P2_C0B1",
+   "created_utc": "2026-11-01T06:59:29+00:00",
+   "resources": {
+    "mem_available_GiB": 15.984325408935547,
+    "scratch_free_GiB": 15.075004577636719,
+    "home_free_GiB": 2.7328033447265625,
+    "loadavg": [
+     "1.82",
+     "2.68",
+     "2.55"
+    ]
+   },
+   "updated_utc": "2026-11-01T08:13:00+00:00",
+   "input_sha256": "51d335703ec5c62e4995b643b7f289916f8a6d24240873d2fa1fc3b30b9fd42c",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-11-01T06:59:29+00:00",
+   "solver_pid": 2209601,
+   "peak_rss_GiB": 0.21723556518554688,
+   "wall_h": 1.225641457539427,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.999515224538876,
+   "C_max_mol_L": 3.07964780124066,
+   "returncode": 0,
+   "end_utc": "2026-11-01T08:13:01+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9995123040076765,
+    "max_C_mol_L": 3.07964780124066,
+    "max_relative_residuals": {
+     "water_residual_mol": 2.984165857585643e-13,
+     "salt_residual_mol": 3.0276087046199377e-13,
+     "coarse_residual_mol": 5.443844794845488e-13,
+     "fine_residual_mol": 2.5994179148404458e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_P2_C1B1": {
+   "case": "v11_P2_C1B1",
+   "state": "completed",
+   "runner_pid": 2187671,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_P2_C1B1",
+   "created_utc": "2026-11-01T05:38:25+00:00",
+   "resources": {
+    "mem_available_GiB": 15.60555648803711,
+    "scratch_free_GiB": 15.016643524169922,
+    "home_free_GiB": 2.2163543701171875,
+    "loadavg": [
+     "0.96",
+     "1.13",
+     "1.20"
+    ]
+   },
+   "updated_utc": "2026-11-01T06:59:03+00:00",
+   "input_sha256": "99e554c52a9945a74e9c8b5cc2f326a146db359cf4ba1c969617a7b82cf97fdb",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-11-01T05:38:25+00:00",
+   "solver_pid": 2187672,
+   "peak_rss_GiB": 0.21870803833007812,
+   "wall_h": 1.3440864676127806,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.994506918439797,
+   "C_max_mol_L": 3.381598088747183,
+   "returncode": 0,
+   "end_utc": "2026-11-01T06:59:03+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9944905810082064,
+    "max_C_mol_L": 3.381598088747183,
+    "max_relative_residuals": {
+     "water_residual_mol": 1.8456623262196796e-13,
+     "salt_residual_mol": 1.7644313203589801e-13,
+     "coarse_residual_mol": 3.1384601065757387e-13,
+     "fine_residual_mol": 6.139818969657117e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_S2_C0B1": {
+   "case": "v11_S2_C0B1",
+   "state": "completed",
+   "runner_pid": 1938630,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_S2_C0B1",
+   "created_utc": "2026-10-31T16:42:13+00:00",
+   "resources": {
+    "mem_available_GiB": 14.777717590332031,
+    "scratch_free_GiB": 14.878150939941406,
+    "home_free_GiB": 2.9616241455078125,
+    "loadavg": [
+     "3.51",
+     "3.79",
+     "4.48"
+    ]
+   },
+   "updated_utc": "2026-10-31T18:30:21+00:00",
+   "input_sha256": "86a3f99f70fa1765f3c09ebe651eca56f3398655087de9467fc68fe9defb3d8a",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-31T16:42:13+00:00",
+   "solver_pid": 1938631,
+   "peak_rss_GiB": 0.21706008911132812,
+   "wall_h": 1.8023637687344711,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9995220760683307,
+   "C_max_mol_L": 3.0796369492776274,
+   "returncode": 0,
+   "end_utc": "2026-10-31T18:30:22+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9995191991192958,
+    "max_C_mol_L": 3.0796369492776274,
+    "max_relative_residuals": {
+     "water_residual_mol": 2.028503833565942e-13,
+     "salt_residual_mol": 2.1490316473447596e-13,
+     "coarse_residual_mol": 3.8183789966080714e-13,
+     "fine_residual_mol": 1.4625566518487615e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_S2_C1B1": {
+   "case": "v11_S2_C1B1",
+   "state": "completed",
+   "runner_pid": 1905898,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_S2_C1B1",
+   "created_utc": "2026-10-31T14:55:40+00:00",
+   "resources": {
+    "mem_available_GiB": 15.606269836425781,
+    "scratch_free_GiB": 14.817535400390625,
+    "home_free_GiB": 2.9735260009765625,
+    "loadavg": [
+     "3.26",
+     "3.74",
+     "3.57"
+    ]
+   },
+   "updated_utc": "2026-10-31T16:41:34+00:00",
+   "input_sha256": "d9244078e6e1b5031bb9cf662a37c006d9f52afaf3a0c091700f76c411896d97",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-31T14:55:40+00:00",
+   "solver_pid": 1905899,
+   "peak_rss_GiB": 0.21883773803710938,
+   "wall_h": 1.7652937734047172,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9944535293810732,
+   "C_max_mol_L": 3.3826541170822297,
+   "returncode": 0,
+   "end_utc": "2026-10-31T16:41:35+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9944394753874051,
+    "max_C_mol_L": 3.3826541170822297,
+    "max_relative_residuals": {
+     "water_residual_mol": 2.9767718815667755e-13,
+     "salt_residual_mol": 2.958911881786527e-13,
+     "coarse_residual_mol": 5.894110988445364e-13,
+     "fine_residual_mol": 6.721308142687323e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_S3_C0B1": {
+   "case": "v11_S3_C0B1",
+   "state": "completed",
+   "runner_pid": 2010481,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_S3_C0B1",
+   "created_utc": "2026-10-31T20:25:30+00:00",
+   "resources": {
+    "mem_available_GiB": 15.97994613647461,
+    "scratch_free_GiB": 14.863784790039062,
+    "home_free_GiB": 2.9509620666503906,
+    "loadavg": [
+     "1.32",
+     "1.25",
+     "1.26"
+    ]
+   },
+   "updated_utc": "2026-10-31T21:34:37+00:00",
+   "input_sha256": "545991a1d85fa02b5a6cc04364b103e74c4037f19f5db92e3c80be26d0fb72ee",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-31T20:25:30+00:00",
+   "solver_pid": 2010482,
+   "peak_rss_GiB": 0.2169342041015625,
+   "wall_h": 1.1520872169036172,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9995220759875979,
+   "C_max_mol_L": 3.0796405802016538,
+   "returncode": 0,
+   "end_utc": "2026-10-31T21:34:38+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9995191990281097,
+    "max_C_mol_L": 3.0796405802016538,
+    "max_relative_residuals": {
+     "water_residual_mol": 3.3236779477389245e-13,
+     "salt_residual_mol": 3.4744291412694526e-13,
+     "coarse_residual_mol": 6.264597174765299e-13,
+     "fine_residual_mol": 1.6469125323338994e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_S3_C1B1": {
+   "case": "v11_S3_C1B1",
+   "state": "completed",
+   "runner_pid": 1980188,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_S3_C1B1",
+   "created_utc": "2026-10-31T18:31:01+00:00",
+   "resources": {
+    "mem_available_GiB": 16.02820587158203,
+    "scratch_free_GiB": 14.812725067138672,
+    "home_free_GiB": 2.953369140625,
+    "loadavg": [
+     "1.04",
+     "1.27",
+     "1.73"
+    ]
+   },
+   "updated_utc": "2026-10-31T20:25:05+00:00",
+   "input_sha256": "271e6d184c2b11d03f19eedf4230487374eb4a1cc0c0877ef23f4713cfa4df15",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-31T18:31:01+00:00",
+   "solver_pid": 1980189,
+   "peak_rss_GiB": 0.21871185302734375,
+   "wall_h": 1.9012453083008425,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 300.0,
+   "S_min": 0.9944534154997113,
+   "C_max_mol_L": 3.382638268841764,
+   "returncode": 0,
+   "end_utc": "2026-10-31T20:25:06+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 332,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9944393456506369,
+    "max_C_mol_L": 3.382638268841764,
+    "max_relative_residuals": {
+     "water_residual_mol": 2.1367787001480218e-13,
+     "salt_residual_mol": 2.2145992716804622e-13,
+     "coarse_residual_mol": 4.0542623456887986e-13,
+     "fine_residual_mol": 5.3052245357108564e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_T150_C0B0": {
+   "case": "v11_T150_C0B0",
+   "state": "completed",
+   "runner_pid": 2345717,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_T150_C0B0",
+   "created_utc": "2026-11-01T18:28:39+00:00",
+   "resources": {
+    "mem_available_GiB": 14.842327117919922,
+    "scratch_free_GiB": 15.154903411865234,
+    "home_free_GiB": 2.693592071533203,
+    "loadavg": [
+     "0.96",
+     "1.14",
+     "1.21"
+    ]
+   },
+   "updated_utc": "2026-11-01T19:46:16+00:00",
+   "input_sha256": "aaaf4496e0407429b0f30aa316a954b13813700c224fc92eb67947f8e79f81d5",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-11-01T18:28:39+00:00",
+   "solver_pid": 2345718,
+   "peak_rss_GiB": 0.21672439575195312,
+   "wall_h": 1.2935797366644126,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 150.0,
+   "S_min": 0.9995221483568532,
+   "C_max_mol_L": 3.0799419453636085,
+   "returncode": 0,
+   "end_utc": "2026-11-01T19:46:16+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 629,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9995192261912185,
+    "max_C_mol_L": 3.0799419453636085,
+    "max_relative_residuals": {
+     "water_residual_mol": 1.7534814128743186e-13,
+     "salt_residual_mol": 1.924966480497226e-13,
+     "coarse_residual_mol": 3.029428006071945e-13,
+     "fine_residual_mol": 3.7639325599049005e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_T150_C0B1": {
+   "case": "v11_T150_C0B1",
+   "state": "completed",
+   "runner_pid": 1417343,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_T150_C0B1",
+   "created_utc": "2026-10-31T01:09:07+00:00",
+   "resources": {
+    "mem_available_GiB": 17.725234985351562,
+    "scratch_free_GiB": 13.870811462402344,
+    "home_free_GiB": 2.742115020751953,
+    "loadavg": [
+     "1.38",
+     "1.38",
+     "1.46"
+    ]
+   },
+   "updated_utc": "2026-10-31T03:45:44+00:00",
+   "input_sha256": "e48aa31adf9e195bcb35c411a43e2d3e64d543461ef7b13916902a5e67733c3c",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-31T01:09:07+00:00",
+   "solver_pid": 1417344,
+   "peak_rss_GiB": 0.217987060546875,
+   "wall_h": 2.610426978194446,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 150.0,
+   "S_min": 0.999522074467958,
+   "C_max_mol_L": 3.0799421366261592,
+   "returncode": 0,
+   "end_utc": "2026-10-31T03:45:44+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 629,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9995191886500454,
+    "max_C_mol_L": 3.0799421366261592,
+    "max_relative_residuals": {
+     "water_residual_mol": 3.1343385821195595e-13,
+     "salt_residual_mol": 3.0136364694673795e-13,
+     "coarse_residual_mol": 5.334337401837319e-13,
+     "fine_residual_mol": 2.2675773299671974e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_T150_C1B0": {
+   "case": "v11_T150_C1B0",
+   "state": "completed",
+   "runner_pid": 2325806,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_T150_C1B0",
+   "created_utc": "2026-11-01T16:32:00+00:00",
+   "resources": {
+    "mem_available_GiB": 14.76906967163086,
+    "scratch_free_GiB": 15.05588150024414,
+    "home_free_GiB": 2.6994400024414062,
+    "loadavg": [
+     "1.18",
+     "1.21",
+     "1.19"
+    ]
+   },
+   "updated_utc": "2026-11-01T18:28:13+00:00",
+   "input_sha256": "5b006577d92bcf6b8be1b4471f32153b29c83242a3bc9ac383b833e8dd5ef901",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-11-01T16:32:00+00:00",
+   "solver_pid": 2325808,
+   "peak_rss_GiB": 0.21783828735351562,
+   "wall_h": 1.9372125816477799,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 150.0,
+   "S_min": 0.9944252490814691,
+   "C_max_mol_L": 3.366433498603076,
+   "returncode": 0,
+   "end_utc": "2026-11-01T18:28:14+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 629,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.9944252490814691,
+    "max_C_mol_L": 3.366433498603076,
+    "max_relative_residuals": {
+     "water_residual_mol": 1.5286429254339367e-13,
+     "salt_residual_mol": 1.5709304179076673e-13,
+     "coarse_residual_mol": 2.8628768708567906e-13,
+     "fine_residual_mol": 4.923454233206217e-14
+    },
+    "status": "passed"
+   }
+  },
+  "v11_T150_C1B1": {
+   "case": "v11_T150_C1B1",
+   "state": "completed",
+   "runner_pid": 1283887,
+   "runner_sha256": "943e0c65974349c902bc498316202b3e6e9726bda7527abd20085659836385d8",
+   "raw_path": "/tmp/zhixin_verification_v11_20261030/runs/v11_T150_C1B1",
+   "created_utc": "2026-10-30T21:41:14+00:00",
+   "resources": {
+    "mem_available_GiB": 17.268638610839844,
+    "scratch_free_GiB": 16.09063720703125,
+    "home_free_GiB": 2.7568397521972656,
+    "loadavg": [
+     "4.01",
+     "3.60",
+     "3.49"
+    ]
+   },
+   "updated_utc": "2026-10-31T01:08:28+00:00",
+   "input_sha256": "88c036b0b45ae5a2524831e5e28e2ae064a0c76c7065476ba60bb7917dd3e766",
+   "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+   "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+   "cpu": 5,
+   "start_utc": "2026-10-30T21:41:14+00:00",
+   "solver_pid": 1283888,
+   "peak_rss_GiB": 0.21892929077148438,
+   "wall_h": 3.45406160372332,
+   "reached_evaporation_h": 24.0,
+   "dt_s": 150.0,
+   "S_min": 0.9944536298186057,
+   "C_max_mol_L": 3.3829241715076455,
+   "returncode": 0,
+   "end_utc": "2026-10-31T01:08:29+00:00",
+   "acceptance": {
+    "final_time_s": 93600.0,
+    "target_time_s": 93600.0,
+    "final_evaporation_h": 24.0,
+    "accepted_steps": 629,
+    "all_finite": true,
+    "max_precip_vf": 0.0,
+    "min_S": 0.994439232494478,
+    "max_C_mol_L": 3.3829241715076455,
+    "max_relative_residuals": {
+     "water_residual_mol": 1.9263075653848804e-13,
+     "salt_residual_mol": 2.0568294497494934e-13,
+     "coarse_residual_mol": 3.397459954732922e-13,
+     "fine_residual_mol": 2.8783041934180936e-14
+    },
+    "status": "passed"
+   }
+  }
+ },
+ "controller_alive": true,
+ "mem_available_GiB": 14.751544952392578,
+ "scratch_free_GiB": 15.185562133789062,
+ "home_free_GiB": 2.692718505859375,
+ "A_handoff_remote": true
+}

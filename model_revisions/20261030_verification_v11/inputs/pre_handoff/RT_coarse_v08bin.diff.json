@@ -1,0 +1,24 @@
+{
+ "name": "RT_coarse_v08bin",
+ "template": "inputs/pre_handoff/template_v08_Dry_trial02_r02.input",
+ "template_sha256": "419252ed9c6eaf78c5e9c4e4b6efe090a1ac426e5694d1895924868013ffd9b0",
+ "input_sha256": "47a61c82d6e79398423676dead2c2f796b91d92e3c2c5e1a3debf8dee9257545",
+ "diff": {
+  "TimeLoop.TEnd": [
+   "93600",
+   "10800"
+  ],
+  "Grid.File": [
+   "cylinder.msh",
+   "cyl_coarse_r8t48z27.msh"
+  ],
+  "Problem.Name": [
+   "Dry_trial02_r02",
+   "RT_coarse_v08bin"
+  ],
+  "Revision.WaterFluxAreaCorrection": [
+   "1.0016081890839748",
+   "1.0028615075117908"
+  ]
+ }
+}

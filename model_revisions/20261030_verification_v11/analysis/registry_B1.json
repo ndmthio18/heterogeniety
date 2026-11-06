@@ -1,0 +1,52 @@
+{
+ "MEDIUM": {
+  "label": "medium dt300 s1 1e-5 (A C1B1/C0B1)",
+  "C1": "remote_analysis/A_C1B1_24h",
+  "C0": "remote_analysis/A_C0B1_24h"
+ },
+ "G_coarse": {
+  "label": "coarse",
+  "C1": "remote_analysis/v11_G_coarse_C1B1",
+  "C0": "remote_analysis/v11_G_coarse_C0B1"
+ },
+ "T150": {
+  "label": "medium dt150",
+  "C1": "remote_analysis/v11_T150_C1B1",
+  "C0": "remote_analysis/v11_T150_C0B1"
+ },
+ "G_fine": {
+  "label": "fine",
+  "C1": "remote_analysis/v11_G_fine_C1B1",
+  "C0": "remote_analysis/v11_G_fine_C0B1"
+ },
+ "S2": {
+  "label": "seed 2",
+  "C1": "remote_analysis/v11_S2_C1B1",
+  "C0": "remote_analysis/v11_S2_C0B1"
+ },
+ "S3": {
+  "label": "seed 3",
+  "C1": "remote_analysis/v11_S3_C1B1",
+  "C0": "remote_analysis/v11_S3_C0B1"
+ },
+ "A3e-6": {
+  "label": "sigma 3e-6",
+  "C1": "remote_analysis/v11_A3e-6_C1B1",
+  "C0": "remote_analysis/v11_A3e-6_C0B1"
+ },
+ "A3e-5": {
+  "label": "sigma 3e-5",
+  "C1": "remote_analysis/v11_A3e-5_C1B1",
+  "C0": "remote_analysis/v11_A3e-5_C0B1"
+ },
+ "P1": {
+  "label": "Ks min contrast",
+  "C1": "remote_analysis/v11_P1_C1B1",
+  "C0": "remote_analysis/v11_P1_C0B1"
+ },
+ "P2": {
+  "label": "Ks max contrast",
+  "C1": "remote_analysis/v11_P2_C1B1",
+  "C0": "remote_analysis/v11_P2_C0B1"
+ }
+}

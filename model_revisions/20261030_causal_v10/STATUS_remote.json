@@ -1,0 +1,43 @@
+{
+  "tag": "v10c",
+  "controller_pid": 1200829,
+  "started_utc": "2026-10-30T19:22:25.696744+00:00",
+  "completed": [
+    "selftest_C1B1",
+    "selftest_C0B1",
+    "selftest_C1B0",
+    "selftest_C0B0",
+    "hydrostatic_C1B1",
+    "hydrostatic_C1B0",
+    "hydrostatic_C0B0",
+    "hydrostatic_compare",
+    "prefix_regression",
+    "short_C0B1",
+    "short_C1B0",
+    "short_C0B0",
+    "handoff",
+    "production_C1B1_24h",
+    "production_C0B1_24h",
+    "production_C1B0_24h",
+    "production_C0B0_24h"
+  ],
+  "failed": [],
+  "stage": "finished",
+  "state": "completed",
+  "scratch_root": "/tmp/zhixin_causal_v10_20261030",
+  "updated_utc": "2026-10-31T03:01:36.728431+00:00",
+  "case": null,
+  "solver_pid": null,
+  "reached_hours": 23.916666666666668,
+  "wall_min": 72.6,
+  "peak_rss_MiB": 221.9,
+  "scratch_free_gib": 14.05,
+  "mem_available_gib": 17.54,
+  "handoff": "/home/zhixin/Documents/Cooperation_Ali/model_revisions/20261030_causal_v10/HANDOFF_READY.json",
+  "production_completed": [
+    "C1B1_24h",
+    "C0B1_24h",
+    "C1B0_24h",
+    "C0B0_24h"
+  ]
+}

@@ -1,0 +1,266 @@
+{
+ "A_C0B0_24h": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005116186732472083,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.000589899899931893,
+  "seed_impulse_mol_F36_W3": [
+   9.092129701904206e-09,
+   -9.092130819066124e-09
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 6.207078140053937e-13,
+  "field_ledger": 1.452775435460495e-14,
+  "final_h": 24.0
+ },
+ "A_C0B1_24h": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005116186732472083,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.000589899899931893,
+  "seed_impulse_mol_F36_W3": [
+   9.092129701904206e-09,
+   -9.092130819066124e-09
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 6.514030681061684e-13,
+  "field_ledger": 1.4069691033410447e-14,
+  "final_h": 24.0
+ },
+ "A_C1B0_24h": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005116186732472082,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005898998999318865,
+  "seed_impulse_mol_F36_W3": [
+   9.092129701904206e-09,
+   -9.092130819066124e-09
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 3.5075549821101376e-13,
+  "field_ledger": 1.2827659449286454e-14,
+  "final_h": 24.0
+ },
+ "A_C1B1_24h": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005116186732472082,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005898998999318865,
+  "seed_impulse_mol_F36_W3": [
+   9.092129701904206e-09,
+   -9.092130819066124e-09
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 5.603473942860552e-13,
+  "field_ledger": 1.6112051370842972e-14,
+  "final_h": 24.0
+ },
+ "RT_coarse_v08bin": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005122326700484062,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005892837246420912,
+  "seed_impulse_mol_F36_W3": [
+   1.3264294690396028e-08,
+   -1.3264294947135102e-08
+  ],
+  "cells": 10368,
+  "max_rel_budget_residual": 5.610484116788697e-13,
+  "field_ledger": 4.20857014354837e-15,
+  "final_h": 1.0
+ },
+ "RT_fine_v08bin": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005115195311367068,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.000590004036389674,
+  "seed_impulse_mol_F36_W3": [
+   7.364453661479198e-09,
+   -7.364455135994152e-09
+  ],
+  "cells": 103680,
+  "max_rel_budget_residual": 1.6498495792633096e-11,
+  "field_ledger": 2.077677477062162e-14,
+  "final_h": 1.0
+ },
+ "RT_medium_v08bin": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005116186732472082,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005898998999318865,
+  "seed_impulse_mol_F36_W3": [
+   9.092129701904206e-09,
+   -9.092130819066124e-09
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 2.7474273763599676e-13,
+  "field_ledger": 7.694179656924258e-15,
+  "final_h": 1.0
+ },
+ "v08_Dry_trial02_r02_full": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005116186732472082,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005898998999318865,
+  "seed_impulse_mol_F36_W3": [
+   9.092129701904206e-09,
+   -9.092130819066124e-09
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 5.603473942860552e-13,
+  "field_ledger": 1.6112051370842972e-14,
+  "final_h": 24.0
+ },
+ "v11_A3e-5_C0B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.001534855969613788,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.001769699726935037,
+  "seed_impulse_mol_F36_W3": [
+   2.728441432855999e-08,
+   -2.7284414625197706e-08
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 6.924130337200861e-13,
+  "field_ledger": 1.3287211187722456e-14,
+  "final_h": 24.0
+ },
+ "v11_A3e-5_C1B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0015348559696137878,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0017696997269350404,
+  "seed_impulse_mol_F36_W3": [
+   2.728441432855999e-08,
+   -2.7284414625197706e-08
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 7.133259039126184e-13,
+  "field_ledger": 1.7180294421136527e-14,
+  "final_h": 24.0
+ },
+ "v11_A3e-6_C0B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0001534856036614586,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.00017696996892369347,
+  "seed_impulse_mol_F36_W3": [
+   2.7273574787489707e-09,
+   -2.727358613258124e-09
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 2.2401497118339425e-13,
+  "field_ledger": 1.202722154903808e-14,
+  "final_h": 24.0
+ },
+ "v11_A3e-6_C1B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.00015348560366145912,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0001769699689236877,
+  "seed_impulse_mol_F36_W3": [
+   2.7273574787489707e-09,
+   -2.727358613258124e-09
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 4.312410988179055e-13,
+  "field_ledger": 1.9063730387066856e-14,
+  "final_h": 24.0
+ },
+ "v11_G_coarse_C0B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005122326700484069,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005892837246420858,
+  "seed_impulse_mol_F36_W3": [
+   1.3264294690396028e-08,
+   -1.3264294945400379e-08
+  ],
+  "cells": 10368,
+  "max_rel_budget_residual": 9.96601329145542e-13,
+  "field_ledger": 9.573235653217358e-15,
+  "final_h": 24.0
+ },
+ "v11_G_coarse_C1B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005122326700484062,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005892837246420912,
+  "seed_impulse_mol_F36_W3": [
+   1.3264294690396028e-08,
+   -1.3264294947135102e-08
+  ],
+  "cells": 10368,
+  "max_rel_budget_residual": 5.610484116788697e-13,
+  "field_ledger": 7.202177883620518e-15,
+  "final_h": 24.0
+ },
+ "v11_G_fine_C0B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.000511519531136706,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005900040363896788,
+  "seed_impulse_mol_F36_W3": [
+   7.364453661479198e-09,
+   -7.364455135994152e-09
+  ],
+  "cells": 103680,
+  "max_rel_budget_residual": 1.6559345919548277e-11,
+  "field_ledger": 2.5266553314178205e-14,
+  "final_h": 24.0
+ },
+ "v11_G_fine_C1B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005115195311367068,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.000590004036389674,
+  "seed_impulse_mol_F36_W3": [
+   7.364453661479198e-09,
+   -7.364455135994152e-09
+  ],
+  "cells": 103680,
+  "max_rel_budget_residual": 1.6957461712791544e-11,
+  "field_ledger": 2.5858492368723148e-14,
+  "final_h": 24.0
+ },
+ "v11_S2_C0B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005102056639831715,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005909146700685549,
+  "seed_impulse_mol_F36_W3": [
+   1.544649193274683e-08,
+   -1.5446492243262333e-08
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 3.8183789966080714e-13,
+  "field_ledger": 1.5360160744434124e-14,
+  "final_h": 24.0
+ },
+ "v11_S2_C1B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005102056639831716,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005909146700685577,
+  "seed_impulse_mol_F36_W3": [
+   1.544649193274683e-08,
+   -1.5446492243262333e-08
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 5.894110988445364e-13,
+  "field_ledger": 1.5012743906247007e-14,
+  "final_h": 24.0
+ },
+ "v11_S3_C0B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005819352429320415,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005203489556682329,
+  "seed_impulse_mol_F36_W3": [
+   1.877223834712005e-08,
+   -1.877223952846674e-08
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 6.264597174765299e-13,
+  "field_ledger": 1.2845375994347442e-14,
+  "final_h": 24.0
+ },
+ "v11_S3_C1B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005819352429320415,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005203489556682285,
+  "seed_impulse_mol_F36_W3": [
+   1.877223834712005e-08,
+   -1.877223952846674e-08
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 4.0542623456887986e-13,
+  "field_ledger": 1.3750890889757159e-14,
+  "final_h": 24.0
+ },
+ "v11_T150_C0B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005116186732472083,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.000589899899931893,
+  "seed_impulse_mol_F36_W3": [
+   9.092129701904206e-09,
+   -9.092130819066124e-09
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 5.334337401837319e-13,
+  "field_ledger": 1.3431190829228927e-14,
+  "final_h": 24.0
+ },
+ "v11_T150_C1B1": {
+  "F36_t0_rms_layer_anomaly_mol_L": 0.0005116186732472083,
+  "W3_t0_rms_layer_anomaly_mol_L": 0.0005898998999318867,
+  "seed_impulse_mol_F36_W3": [
+   9.092129701904206e-09,
+   -9.092130819066124e-09
+  ],
+  "cells": 30720,
+  "max_rel_budget_residual": 3.397459954732922e-13,
+  "field_ledger": 1.2701995146213017e-14,
+  "final_h": 24.0
+ }
+}

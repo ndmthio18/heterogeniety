@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-01T19:47:43.203321+00:00",
+  "controller": {
+    "controller_pid": 1191747,
+    "started_utc": "2026-10-30T19:07:22+00:00",
+    "state": "idle_queue_exhausted",
+    "done": [
+      "RT_medium_v08bin",
+      "RT_coarse_v08bin",
+      "RT_fine_v08bin",
+      "v11_G_coarse_C1B1",
+      "v11_G_coarse_C0B1",
+      "v11_T150_C1B1",
+      "v11_T150_C0B1",
+      "v11_G_fine_C1B1",
+      "v11_G_fine_C0B1",
+      "v11_S2_C1B1",
+      "v11_S2_C0B1",
+      "v11_S3_C1B1",
+      "v11_S3_C0B1",
+      "v11_A3e-6_C1B1",
+      "v11_A3e-6_C0B1",
+      "v11_A3e-5_C1B1",
+      "v11_A3e-5_C0B1",
+      "v11_P1_C1B1",
+      "v11_P1_C0B1",
+      "v11_P2_C1B1",
+      "v11_P2_C0B1",
+      "v11_G_fine_C1B0",
+      "v11_G_fine_C0B0",
+      "v11_T150_C1B0",
+      "v11_T150_C0B0"
+    ],
+    "failed": [],
+    "current": null,
+    "pending": [],
+    "updated_utc": "2026-11-01T19:47:40+00:00"
+  },
+  "queue_count": 25,
+  "action": "STOP_WHEN_IDLE set after all 22 production and 3 engineering tests completed; no active solver stopped"
+}

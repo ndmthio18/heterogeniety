@@ -1,0 +1,32 @@
+{
+  "file": "inputs/mesh/cyl_coarse_r8t48z27.msh",
+  "sha256": "198249a5a96192faafed69da3dfba229a7bb3391c78f4b97355066fdd434127b",
+  "radial_layers": 8,
+  "angular_sectors": 48,
+  "vertical_layers": 27,
+  "cells": 10368,
+  "expected_cells": 10368,
+  "volume_m3": 7.831571533203414e-05,
+  "coarse_volume_fraction": 0.4999999999999862,
+  "top_area_m2": 0.0019578928833007764,
+  "polygon_area_formula_m2": 0.001957892883300774,
+  "circle_area_m2": 0.001963495408493621,
+  "water_flux_area_correction": 1.0028615075117908,
+  "contact_area_m2": 0.001999999999999996,
+  "contact_area_expected_m2": 0.002,
+  "max_circumcentre_radius_spread_rel": 6.7293403110715734e-15,
+  "min_circumcentre_inside_margin_m2": 3.2003643952749914e-07,
+  "bottom_layer_mm": 5.8674261182342455,
+  "top_layer_mm": 0.10137640405646214,
+  "vertical_ratio": 0.855482490509672,
+  "top_3mm_layers": 12,
+  "layer_boundaries_near_3mm_mm": [
+    3.9653374629800493,
+    3.3055510299203408,
+    2.741115288961926,
+    2.258250395554155,
+    1.845167933961986
+  ],
+  "status": "passed",
+  "generator_sha256": "61464c714648eba48c4d6f9fae54a768ba05e09e9a6010c32db15112ae97e4c8"
+}

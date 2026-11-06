@@ -1,0 +1,9 @@
+term,group,baseline_mg,min_mg,max_mg,members
+bottom_diff,Numerics*,-215.0919466615935,-215.2589424433719,-214.97187491380947,medium;coarse;fine;dt150;seed2;seed3;amplitude3e-6;amplitude3e-5
+bottom_diff,Ks corners,-215.0919466615935,-215.1938553552771,-215.02513506693072,medium;P1;P2
+lateral_net,Numerics*,257.08466043195375,256.7862718455359,257.3957994064352,medium;coarse;fine;dt150;seed2;seed3;amplitude3e-6;amplitude3e-5
+lateral_net,Ks corners,257.08466043195375,256.4045083437807,258.07550429579055,medium;P1;P2
+whole_change,Numerics*,41.9927137703308,41.527329402162,42.42392449271,medium;coarse;fine;dt150;seed2;seed3;amplitude3e-6;amplitude3e-5
+whole_change,Ks corners,41.9927137703308,41.2106529884552,43.050369228875,medium;P1;P2
+surface_change,Numerics*,4.3127292288371,4.31035746099689,4.42803781497603,medium;coarse;fine;dt150;seed2;seed3;amplitude3e-6;amplitude3e-5
+surface_change,Ks corners,4.3127292288371,3.98123349378551,4.76432237814869,medium;P1;P2

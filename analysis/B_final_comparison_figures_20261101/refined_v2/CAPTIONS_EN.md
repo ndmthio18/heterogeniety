@@ -1,0 +1,25 @@
+# Captions and alternative text — visual revision v2
+
+## Fig05_surface_response_v2
+
+**Surface connection response and buoyancy interaction after numerical and parameter checks.** (a) W3 upper-3-mm salt-inventory connection contrast over 24 h. Shading spans eight numerical/perturbation scenarios; dashed and dotted curves show two prescribed hydraulic-conductivity corners. (b) Endpoints for all ten B1 pairs, shown on an explicitly zoomed horizontal scale. Background shading groups perturbation variants only. (c) Buoyancy interaction for the reference, fine mesh and halved maximum time step. (d) Corresponding endpoint contrasts; symbols match (c), with vertical offsets for legibility. Δconn denotes connected minus blocked; Δint = Δconn(B1) − Δconn(B0), where B1/B0 retain/disable salinity buoyancy. Ranges are finite scenario envelopes, not confidence intervals. Salt is expressed as NaCl-equivalent mass; RH = 0.
+
+Alt text: Four panels show a positive surface connection contrast in all tested B1 pairs and a buoyancy interaction changing from positive near 12 h to approximately minus 4 mg at 24 h. Fine-mesh and halved-time-step curves closely follow the reference.
+
+## Fig04_supply_partition_v2
+
+**Redistribution of salt supply and depth-resolved storage under connection.** (a) W3 cumulative bottom salt inputs in ten connected/blocked B1 pairs. Thin horizontal lines join members of the same pair, not different scenarios. (b) Connected-case interfacial advection, diffusion and net transfer, positive from F36 to W3. (c) Connection contrasts of bottom input, net lateral input and whole-W3 storage; the upper-3-mm storage response below the divider is a subset, not an additional budget term. (d) W3 storage connection contrasts by depth. In (c,d), markers denote reference values and capped lines denote finite min–max ranges for eight numerical/perturbation scenarios or the reference plus two Ks corners. All values are cumulative over 24 h; narrow ranges may be obscured by markers.
+
+Alt text: Paired points show reduced W3 bottom input with connection, offset by positive net lateral supply. The whole-W3 inventory contrast is larger than the surface contrast, with most additional inventory located 3–20 mm below the surface.
+
+## FigS_local_compensation_v2
+
+**Compensation between local salt-transport contributions.** (a) Upper-2-mm connection contrasts of directly recorded vertical/lateral advective and diffusive inputs and storage change. (b) Upper-3-mm contrasts of vertical advection, vertical diffusion, inferred net lateral input and storage. In (a,b), all ten B1 pairs are plotted, diamonds denote the reference, and grey spans give finite scenario ranges; close values may overlap. (c) Upper-3-mm buoyancy-interaction contributions for three complete B0/B1 comparisons. (d) Upper-3-mm contrast histories for the reference (solid) and fine mesh (dashed). Positive values denote increased cumulative input/storage relative to the blocked case. A negative input contrast does not establish reversal of the underlying flux. Asterisks identify upper-3-mm lateral net input inferred from storage change minus vertical input; this is not an independent lateral-flux test. Independent four-flux closure applies to the upper-2-mm region only.
+
+Alt text: Large positive lateral and negative vertical connection contributions nearly cancel, leaving a small positive surface inventory contrast. The compensation remains visible with mesh refinement, while the buoyancy interaction consists of several opposing terms.
+
+## FigS_numerical_limits_v2
+
+**Metric-specific numerical limits and plume sensitivity.** (a) Selected registered relative changes normalized by their predefined tolerances: 2% for surface-inventory increments and 5% for the displayed flux/volume metrics. Denominators use the finer-mesh or smaller-time-step result. Amber cells exceed one and fail; displayed ratios are rounded, with very small nonzero values shown as <0.01. The complete registered comparison table accompanies the figure. (b) F36 descending-core volume fraction on three meshes. (c) Core volume fraction and (d) persistent-core diagnostic onset under phase/amplitude perturbations. B1 is used in (b–d); connected/blocked encodings are shared. Fractions are displayed as percentages of the relevant material's core volume. The core uses radius <20 mm, distance from the material interface >3 mm, and depth 5–35 mm. Onset requires downward Darcy speed >1e-8 m/s for three consecutive 10-min frames and is not a linear-instability threshold or experimentally detected onset. Registered vertical-flux checks retain their original depth interpolation and are not replaced by the inventory-weighted local budgets in the preceding figure.
+
+Alt text: A pass/fail matrix preserves failures in F36 surface inventory and several transport/plume metrics despite successful time-step checks. Connected plume volume varies non-monotonically with grid refinement, and blocked plume volume and diagnostic onset vary with perturbations.

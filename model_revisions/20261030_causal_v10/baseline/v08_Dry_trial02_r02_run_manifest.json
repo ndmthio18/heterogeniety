@@ -1,0 +1,27 @@
+{
+  "case": "Dry_trial02_r02",
+  "run_id": "Dry_trial02_r02",
+  "start_utc": "2026-10-30T12:39:42.793842+00:00",
+  "binary_sha256": "c9145e427a63e9d4b9c3a6e2dca459d8df0e4c54133f7ec698e076941a2eb1f3",
+  "input_sha256": "419252ed9c6eaf78c5e9c4e4b6efe090a1ac426e5694d1895924868013ffd9b0",
+  "forcing_sha256": "4758eb4bf0356f16d1d10376709fecebb9570c6e211b901a124430af9f2bddbe",
+  "nonisothermal": false,
+  "solver_processes": 1,
+  "requested_blas_openmp_threads": 1,
+  "cpu_affinity": [
+    6
+  ],
+  "runner_sha256": "eafb2e84326a9cc0e5b72655142e827796527d6721350b9878a620a64f038442",
+  "geometry_assumption": "DistributedReservoir, no explicit filter",
+  "filter_hydraulic_resistance_Pa_s_m": 0.0,
+  "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+  "water_forcing_mode": "FilmTransfer",
+  "unified_water_activity": true,
+  "film_RH": 0.0,
+  "film_thickness_m": 0.008100162249880822,
+  "observed_water_history_used_as_forcing": false,
+  "solver_pid": 937844,
+  "runner_pid": 937843,
+  "returncode": 0,
+  "end_utc": "2026-10-30T14:17:35.690092+00:00"
+}

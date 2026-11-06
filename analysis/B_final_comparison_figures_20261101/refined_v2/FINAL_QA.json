@@ -1,0 +1,855 @@
+{
+  "frozen_source_tables_verified": 10,
+  "original_numeric_QA_sha256": "3d58e7dc43f2f77b7e0afb3a092e3c908f4ced42dd263b6033f6d6c41b7cdbbb",
+  "scope": "Visual revision only; parent raw-field and balance checks are inherited, not rerun.",
+  "visual_review": "All four previews and all four pages rendered from the final combined PDF inspected; no clipping or layout defects found; explicit endpoint zoom; original failed metrics preserved.",
+  "initial_audit_resolution": "Initial static export warnings were due to dynamic extension paths and a screen-only preview DPI. Exports are now explicit and thumbnails derived from 600-dpi PNGs. The first legend was moved slightly to clear a fill-edge warning. Original audit records retained.",
+  "source_validator": {
+    "source": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\analysis\\B_final_comparison_figures_20261101\\refined_v2\\redraw.py",
+    "backend": "python",
+    "summary": {
+      "ready": true,
+      "strict": false,
+      "counts": {
+        "PASS": 21,
+        "WARN": 0,
+        "FAIL": 0
+      }
+    },
+    "findings": [
+      {
+        "check_id": "SOURCE-SYNTAX",
+        "level": "PASS",
+        "message": "Python source parses successfully",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-FAMILY",
+        "level": "PASS",
+        "message": "A publication-safe sans-serif family is configured",
+        "evidence": [
+          "Arial",
+          "sans-serif"
+        ]
+      },
+      {
+        "check_id": "FONT-SIZE",
+        "level": "PASS",
+        "message": "All detected text sizes are at least 5 pt (minimum 7 pt)",
+        "evidence": []
+      },
+      {
+        "check_id": "FONT-GLYPH-FLOOR",
+        "level": "PASS",
+        "message": "No mathtext superscript/subscript expression detected",
+        "evidence": []
+      },
+      {
+        "check_id": "LEGEND-LABEL-CASE",
+        "level": "PASS",
+        "message": "Detected literal legend labels start with display-style capitalization",
+        "evidence": []
+      },
+      {
+        "check_id": "COLOR-MAP",
+        "level": "PASS",
+        "message": "No rainbow/jet/hsv color mapping detected",
+        "evidence": []
+      },
+      {
+        "check_id": "EDITABLE-TEXT",
+        "level": "PASS",
+        "message": "SVG and PDF editable-text settings are configured",
+        "evidence": []
+      },
+      {
+        "check_id": "EXPORT-VECTOR",
+        "level": "PASS",
+        "message": "Both SVG and PDF exports are present",
+        "evidence": []
+      },
+      {
+        "check_id": "EXPORT-RASTER",
+        "level": "PASS",
+        "message": "TIFF raster export is present",
+        "evidence": []
+      },
+      {
+        "check_id": "RASTER-DPI",
+        "level": "PASS",
+        "message": "A raster export of at least 600 dpi is configured",
+        "evidence": [
+          "600"
+        ]
+      },
+      {
+        "check_id": "FINAL-WIDTH",
+        "level": "PASS",
+        "message": "Detected width 183.0 mm matches a common journal column width",
+        "evidence": []
+      },
+      {
+        "check_id": "DATA-SAMPLING",
+        "level": "PASS",
+        "message": "No high-confidence row-sampling operation detected",
+        "evidence": []
+      },
+      {
+        "check_id": "DATA-EXCLUSION",
+        "level": "PASS",
+        "message": "No high-confidence missing-data exclusion detected",
+        "evidence": []
+      },
+      {
+        "check_id": "DEMO-DATA",
+        "level": "PASS",
+        "message": "No obvious simulated-data generator detected",
+        "evidence": []
+      },
+      {
+        "check_id": "LOG-GUARD",
+        "level": "PASS",
+        "message": "No logarithmic transform or axis detected",
+        "evidence": []
+      },
+      {
+        "check_id": "INTERP-MONOTONIC",
+        "level": "PASS",
+        "message": "No NumPy interpolation requiring an increasing x-grid detected",
+        "evidence": []
+      },
+      {
+        "check_id": "UNCERTAINTY-ENCODING",
+        "level": "PASS",
+        "message": "No stochastic aggregate requiring a variability audit was inferred",
+        "evidence": []
+      },
+      {
+        "check_id": "ROTATION-ANCHOR",
+        "level": "PASS",
+        "message": "No rotated Matplotlib text detected",
+        "evidence": []
+      },
+      {
+        "check_id": "ANNOTATION-WORKAROUND",
+        "level": "PASS",
+        "message": "No high-risk hard-coded label height or opaque white text mask detected",
+        "evidence": []
+      },
+      {
+        "check_id": "PANEL-ALIGNMENT-GATE",
+        "level": "PASS",
+        "message": "Render-time panel-alignment gate is wired into the plotting source",
+        "evidence": [
+          "require_matplotlib_panel_alignment("
+        ]
+      },
+      {
+        "check_id": "BACKEND-EXCLUSIVE",
+        "level": "PASS",
+        "message": "No obvious cross-backend plotting reference found for python",
+        "evidence": []
+      }
+    ]
+  },
+  "Fig05_surface_response_v2": {
+    "pdf_sha256": "db10500074f0a5738b684081936fdfa9ce9ecb4098d489c149b9c39488da39c7",
+    "font_audit": {
+      "pdf": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\analysis\\B_final_comparison_figures_20261101\\refined_v2\\Fig05_surface_response_v2.pdf",
+      "auditable": true,
+      "minimum_required_pt": 7.0,
+      "minimum_found_pt": 7.2,
+      "text_run_count": 26,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 12,
+      "contained_image_overlays": 0
+    },
+    "panel_alignment": {
+      "schema_version": 1,
+      "applicable": true,
+      "auditable": true,
+      "verdict": "PASS",
+      "backend": "python-matplotlib",
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "comparisons": 4,
+        "exemptions": 0
+      },
+      "tolerances": {
+        "alignment_pt": 1.5,
+        "gutter_pt": 1.5
+      },
+      "layout": {
+        "schema_version": 1,
+        "backend": "python-matplotlib",
+        "figure": {
+          "width_pt": 518.740157480315,
+          "height_pt": 442.8
+        },
+        "panels": [
+          {
+            "id": "a",
+            "bbox_pt": [
+              85.59212598425198,
+              270.10800000000006,
+              251.3855488652154,
+              407.37600000000003
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 0,
+            "col_stop": 1,
+            "panel_label": "a",
+            "panel_label_anchor_pt": [
+              69.01278369615564,
+              417.67110000000014
+            ]
+          },
+          {
+            "id": "b",
+            "bbox_pt": [
+              342.5719314497453,
+              270.10800000000006,
+              508.3653543307087,
+              407.37600000000003
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 1,
+            "col_stop": 2,
+            "panel_label": "b",
+            "panel_label_anchor_pt": [
+              325.99258916164894,
+              417.67110000000014
+            ]
+          },
+          {
+            "id": "c",
+            "bbox_pt": [
+              85.59212598425198,
+              64.20600000000006,
+              251.3855488652154,
+              201.47400000000005
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 0,
+            "col_stop": 1,
+            "panel_label": "c",
+            "panel_label_anchor_pt": [
+              69.01278369615564,
+              211.7691
+            ]
+          },
+          {
+            "id": "d",
+            "bbox_pt": [
+              342.5719314497453,
+              64.20600000000006,
+              508.3653543307087,
+              201.47400000000005
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 1,
+            "col_stop": 2,
+            "panel_label": "d",
+            "panel_label_anchor_pt": [
+              325.99258916164894,
+              211.7691
+            ]
+          }
+        ],
+        "row_groups": [
+          {
+            "id": "inferred-row-1",
+            "panels": [
+              "a",
+              "b"
+            ]
+          },
+          {
+            "id": "inferred-row-2",
+            "panels": [
+              "c",
+              "d"
+            ]
+          }
+        ],
+        "column_groups": [
+          {
+            "id": "inferred-column-1",
+            "panels": [
+              "a",
+              "c"
+            ]
+          },
+          {
+            "id": "inferred-column-2",
+            "panels": [
+              "b",
+              "d"
+            ]
+          }
+        ],
+        "boundary_groups": [],
+        "exemptions": []
+      },
+      "findings": []
+    },
+    "fonts": [
+      "HIQOUK+ArialMT",
+      "HIQOUK+Arial-BoldMT"
+    ],
+    "page_points": [
+      0.0,
+      0.0,
+      518.7401733398438,
+      442.79998779296875
+    ],
+    "raster_pixels": [
+      4322,
+      3690
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "Fig04_supply_partition_v2": {
+    "pdf_sha256": "4a350deae6a1d917cac48e6d6d523c4bb599ab301443175c8a71a7bf0bbac9fc",
+    "font_audit": {
+      "pdf": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\analysis\\B_final_comparison_figures_20261101\\refined_v2\\Fig04_supply_partition_v2.pdf",
+      "auditable": true,
+      "minimum_required_pt": 7.0,
+      "minimum_found_pt": 7.0,
+      "text_run_count": 25,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 9,
+      "contained_image_overlays": 0
+    },
+    "panel_alignment": {
+      "schema_version": 1,
+      "applicable": true,
+      "auditable": true,
+      "verdict": "PASS",
+      "backend": "python-matplotlib",
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "comparisons": 4,
+        "exemptions": 0
+      },
+      "tolerances": {
+        "alignment_pt": 1.5,
+        "gutter_pt": 1.5
+      },
+      "layout": {
+        "schema_version": 1,
+        "backend": "python-matplotlib",
+        "figure": {
+          "width_pt": 518.740157480315,
+          "height_pt": 460.8
+        },
+        "panels": [
+          {
+            "id": "a",
+            "bbox_pt": [
+              85.59212598425198,
+              281.0880000000001,
+              251.3855488652154,
+              423.93600000000004
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 0,
+            "col_stop": 1,
+            "panel_label": "a",
+            "panel_label_anchor_pt": [
+              69.01278369615564,
+              434.6496
+            ]
+          },
+          {
+            "id": "b",
+            "bbox_pt": [
+              342.5719314497453,
+              281.0880000000001,
+              508.3653543307087,
+              423.93600000000004
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 1,
+            "col_stop": 2,
+            "panel_label": "b",
+            "panel_label_anchor_pt": [
+              325.99258916164894,
+              434.6496
+            ]
+          },
+          {
+            "id": "c",
+            "bbox_pt": [
+              85.59212598425198,
+              66.81600000000006,
+              251.3855488652154,
+              209.66400000000004
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 0,
+            "col_stop": 1,
+            "panel_label": "c",
+            "panel_label_anchor_pt": [
+              69.01278369615564,
+              220.37760000000003
+            ]
+          },
+          {
+            "id": "d",
+            "bbox_pt": [
+              342.5719314497453,
+              66.81600000000006,
+              508.3653543307087,
+              209.66400000000004
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 1,
+            "col_stop": 2,
+            "panel_label": "d",
+            "panel_label_anchor_pt": [
+              325.99258916164894,
+              220.37760000000003
+            ]
+          }
+        ],
+        "row_groups": [
+          {
+            "id": "inferred-row-1",
+            "panels": [
+              "a",
+              "b"
+            ]
+          },
+          {
+            "id": "inferred-row-2",
+            "panels": [
+              "c",
+              "d"
+            ]
+          }
+        ],
+        "column_groups": [
+          {
+            "id": "inferred-column-1",
+            "panels": [
+              "a",
+              "c"
+            ]
+          },
+          {
+            "id": "inferred-column-2",
+            "panels": [
+              "b",
+              "d"
+            ]
+          }
+        ],
+        "boundary_groups": [],
+        "exemptions": []
+      },
+      "findings": []
+    },
+    "fonts": [
+      "HIQOUK+ArialMT",
+      "HIQOUK+Arial-BoldMT"
+    ],
+    "page_points": [
+      0.0,
+      0.0,
+      518.7401733398438,
+      460.79998779296875
+    ],
+    "raster_pixels": [
+      4322,
+      3840
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "FigS_local_compensation_v2": {
+    "pdf_sha256": "ef3c941f2f6670dd6343adb43bf93a8479e211856b2d0b271c17737200c84dcb",
+    "font_audit": {
+      "pdf": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\analysis\\B_final_comparison_figures_20261101\\refined_v2\\FigS_local_compensation_v2.pdf",
+      "auditable": true,
+      "minimum_required_pt": 7.0,
+      "minimum_found_pt": 7.0,
+      "text_run_count": 26,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 10,
+      "contained_image_overlays": 0
+    },
+    "panel_alignment": {
+      "schema_version": 1,
+      "applicable": true,
+      "auditable": true,
+      "verdict": "PASS",
+      "backend": "python-matplotlib",
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "comparisons": 4,
+        "exemptions": 0
+      },
+      "tolerances": {
+        "alignment_pt": 1.5,
+        "gutter_pt": 1.5
+      },
+      "layout": {
+        "schema_version": 1,
+        "backend": "python-matplotlib",
+        "figure": {
+          "width_pt": 518.740157480315,
+          "height_pt": 453.59999999999997
+        },
+        "panels": [
+          {
+            "id": "a",
+            "bbox_pt": [
+              85.59212598425198,
+              276.696,
+              251.3855488652154,
+              417.312
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 0,
+            "col_stop": 1,
+            "panel_label": "a",
+            "panel_label_anchor_pt": [
+              69.01278369615564,
+              427.8582
+            ]
+          },
+          {
+            "id": "b",
+            "bbox_pt": [
+              342.5719314497453,
+              276.696,
+              508.3653543307087,
+              417.312
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 1,
+            "col_stop": 2,
+            "panel_label": "b",
+            "panel_label_anchor_pt": [
+              325.99258916164894,
+              427.8582
+            ]
+          },
+          {
+            "id": "c",
+            "bbox_pt": [
+              85.59212598425198,
+              65.77200000000005,
+              251.3855488652154,
+              206.388
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 0,
+            "col_stop": 1,
+            "panel_label": "c",
+            "panel_label_anchor_pt": [
+              69.01278369615564,
+              216.93420000000003
+            ]
+          },
+          {
+            "id": "d",
+            "bbox_pt": [
+              342.5719314497453,
+              65.77200000000005,
+              508.3653543307087,
+              206.388
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 1,
+            "col_stop": 2,
+            "panel_label": "d",
+            "panel_label_anchor_pt": [
+              325.99258916164894,
+              216.93420000000003
+            ]
+          }
+        ],
+        "row_groups": [
+          {
+            "id": "inferred-row-1",
+            "panels": [
+              "a",
+              "b"
+            ]
+          },
+          {
+            "id": "inferred-row-2",
+            "panels": [
+              "c",
+              "d"
+            ]
+          }
+        ],
+        "column_groups": [
+          {
+            "id": "inferred-column-1",
+            "panels": [
+              "a",
+              "c"
+            ]
+          },
+          {
+            "id": "inferred-column-2",
+            "panels": [
+              "b",
+              "d"
+            ]
+          }
+        ],
+        "boundary_groups": [],
+        "exemptions": []
+      },
+      "findings": []
+    },
+    "fonts": [
+      "HIQOUK+ArialMT",
+      "HIQOUK+Arial-BoldMT"
+    ],
+    "page_points": [
+      0.0,
+      0.0,
+      518.7401733398438,
+      453.6000061035156
+    ],
+    "raster_pixels": [
+      4322,
+      3780
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  },
+  "FigS_numerical_limits_v2": {
+    "pdf_sha256": "93516e0e80e941305df6d63398f27fc5d6d0c433bd8240a6b58ad6ac17a543db",
+    "font_audit": {
+      "pdf": "D:\\3OutputFile\\1Research\\Article\\25 Heterogeneity\\analysis\\B_final_comparison_figures_20261101\\refined_v2\\FigS_numerical_limits_v2.pdf",
+      "auditable": true,
+      "minimum_required_pt": 7.0,
+      "minimum_found_pt": 7.2,
+      "text_run_count": 32,
+      "below_minimum_count": 0,
+      "below_minimum": [],
+      "warnings": []
+    },
+    "collision_summary": {
+      "fail": 0,
+      "warn": 0,
+      "contained_fill_overlays": 34,
+      "contained_image_overlays": 0
+    },
+    "panel_alignment": {
+      "schema_version": 1,
+      "applicable": true,
+      "auditable": true,
+      "verdict": "PASS",
+      "backend": "python-matplotlib",
+      "summary": {
+        "fail": 0,
+        "warn": 0,
+        "comparisons": 4,
+        "exemptions": 0
+      },
+      "tolerances": {
+        "alignment_pt": 1.5,
+        "gutter_pt": 1.5
+      },
+      "layout": {
+        "schema_version": 1,
+        "backend": "python-matplotlib",
+        "figure": {
+          "width_pt": 518.740157480315,
+          "height_pt": 460.8
+        },
+        "panels": [
+          {
+            "id": "a",
+            "bbox_pt": [
+              85.59212598425198,
+              281.0880000000001,
+              251.3855488652154,
+              423.93600000000004
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 0,
+            "col_stop": 1,
+            "panel_label": "a",
+            "panel_label_anchor_pt": [
+              69.01278369615564,
+              434.6496
+            ]
+          },
+          {
+            "id": "b",
+            "bbox_pt": [
+              342.5719314497453,
+              281.0880000000001,
+              508.3653543307087,
+              423.93600000000004
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 0,
+            "row_stop": 1,
+            "col_start": 1,
+            "col_stop": 2,
+            "panel_label": "b",
+            "panel_label_anchor_pt": [
+              325.99258916164894,
+              434.6496
+            ]
+          },
+          {
+            "id": "c",
+            "bbox_pt": [
+              85.59212598425198,
+              66.81600000000006,
+              251.3855488652154,
+              209.66400000000004
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 0,
+            "col_stop": 1,
+            "panel_label": "c",
+            "panel_label_anchor_pt": [
+              69.01278369615564,
+              220.37760000000003
+            ]
+          },
+          {
+            "id": "d",
+            "bbox_pt": [
+              342.5719314497453,
+              66.81600000000006,
+              508.3653543307087,
+              209.66400000000004
+            ],
+            "grid_id": "matplotlib-grid-1",
+            "row_start": 1,
+            "row_stop": 2,
+            "col_start": 1,
+            "col_stop": 2,
+            "panel_label": "d",
+            "panel_label_anchor_pt": [
+              325.99258916164894,
+              220.37760000000003
+            ]
+          }
+        ],
+        "row_groups": [
+          {
+            "id": "inferred-row-1",
+            "panels": [
+              "a",
+              "b"
+            ]
+          },
+          {
+            "id": "inferred-row-2",
+            "panels": [
+              "c",
+              "d"
+            ]
+          }
+        ],
+        "column_groups": [
+          {
+            "id": "inferred-column-1",
+            "panels": [
+              "a",
+              "c"
+            ]
+          },
+          {
+            "id": "inferred-column-2",
+            "panels": [
+              "b",
+              "d"
+            ]
+          }
+        ],
+        "boundary_groups": [],
+        "exemptions": []
+      },
+      "findings": []
+    },
+    "fonts": [
+      "HIQOUK+ArialMT",
+      "HIQOUK+Arial-BoldMT"
+    ],
+    "page_points": [
+      0.0,
+      0.0,
+      518.7401733398438,
+      460.79998779296875
+    ],
+    "raster_pixels": [
+      4322,
+      3840
+    ],
+    "dpi": [
+      599.9988,
+      599.9988
+    ]
+  }
+}

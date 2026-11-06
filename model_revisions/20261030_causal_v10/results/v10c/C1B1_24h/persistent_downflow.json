@@ -1,0 +1,17 @@
+{
+  "rule": "first output frame (t>=0.5 h) starting 3 consecutive 10-min frames with max downward interior LS Darcy speed above threshold",
+  "first_time_h": {
+    "F36_all_5e-09": 6.5,
+    "F36_all_1e-08": 6.666666666666667,
+    "F36_all_2e-08": 7.166666666666667,
+    "F36_core_5e-09": 10.0,
+    "F36_core_1e-08": 10.166666666666666,
+    "F36_core_2e-08": 10.5,
+    "W3_all_5e-09": null,
+    "W3_all_1e-08": null,
+    "W3_all_2e-08": null,
+    "W3_core_5e-09": null,
+    "W3_core_1e-08": null,
+    "W3_core_2e-08": null
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "stage": "production_C0B0_24h",
+  "case": "C0B0_24h",
+  "raw_path": "/tmp/zhixin_causal_v10_20261030/runs/v10c/C0B0_24h",
+  "run_manifest": {
+    "case": "C0B0_24h",
+    "tag": "v10c",
+    "start_utc": "2026-10-31T01:48:23.524934+00:00",
+    "binary_sha256": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a",
+    "input_sha256": "9708137c2ea8c6b7aeb568081865b4f3d9da93267a0d67f7810e0607aa657356",
+    "mesh_sha256": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+    "cpu": 4,
+    "nice": 10,
+    "threads": 1,
+    "wall_limit_s": 21600,
+    "raw_path": "/tmp/zhixin_causal_v10_20261030/runs/v10c/C0B0_24h",
+    "resources_at_start": {
+      "mem_available_gib": 17.353622436523438,
+      "scratch_free_gib": 15.305839538574219,
+      "home_free_gib": 2.7495956420898438
+    },
+    "controller_pid": 1200829,
+    "state": "running",
+    "TEnd": 93600.0,
+    "solver_pid": 1437386,
+    "returncode": 0,
+    "end_utc": "2026-10-31T03:01:01.926653+00:00",
+    "wall_s": 4358.39764510002,
+    "peak_rss_MiB": 221.8671875,
+    "cpu_seconds": 4350.785448000002,
+    "scratch_bytes": 703112693
+  },
+  "validation": {
+    "run_status": {
+      "status": "completed",
+      "time_s": 93600,
+      "evaporation_time_h": 24
+    },
+    "max_relative_budget_residuals": {
+      "water_residual_mol": 3.3558953229573645e-13,
+      "salt_residual_mol": 3.467734111925519e-13,
+      "coarse_residual_mol": 6.207078140053937e-13,
+      "fine_residual_mol": 2.3597552702097664e-14,
+      "F36_side_water": 6.266217729570775e-13,
+      "F36_side_salt": 6.209290410619759e-13,
+      "W3_side_water": 3.763417704607723e-14,
+      "W3_side_salt": 2.3966264463067938e-14
+    },
+    "precip_vf_max": 0.0,
+    "S_min": 0.9995192367877395,
+    "C_max_mol_L": 3.0796472396744154,
+    "interface_faces_evaluated": [
+      960.0,
+      960.0
+    ],
+    "max_abs_interface_columns": 0.0,
+    "legacy_vs_band_interface_salt_max_rel": 0.0,
+    "hashes": {
+      "input": "9708137c2ea8c6b7aeb568081865b4f3d9da93267a0d67f7810e0607aa657356",
+      "mesh": "fc30b9525a8dc7daa2b255a5e2f5586be169d201f20506140f61974f6f19d233",
+      "binary": "cb57a84155efcfa9aed4d8aef49f8c72d4039b3c38bb9f32943b5fd354a4ee8a"
+    }
+  },
+  "status": "completed"
+}
