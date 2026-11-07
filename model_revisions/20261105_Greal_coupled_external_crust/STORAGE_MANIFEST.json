@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "delivery": "lightweight_git",
+  "content_file_count_excluding_this_manifest": 118,
+  "content_bytes_excluding_this_manifest": 49129131,
+  "git_branch": "research/greal-coupled-external-crust",
+  "included": [
+    "source and runtime input",
+    "tests and launch/analysis scripts",
+    "compact accepted-step diagnostics",
+    "partial-window reports and figures",
+    "native-face W3 animation data and small media"
+  ],
+  "excluded_patterns": [
+    "deployment/solver*",
+    "deployment/*.tar.gz",
+    "results/**/*.tar.gz",
+    "scripts/__pycache__/",
+    "*.pyc",
+    "*.vtu",
+    "*.pvd"
+  ],
+  "excluded_artifacts": [
+    {
+      "path": "deployment/release_source.tar.gz",
+      "bytes": 49704,
+      "sha256": "8b6f4ac1b33997ad8185f29dc0fb7fe8e2231fd6fee5446e839aafa06d775902"
+    },
+    {
+      "path": "deployment/solver",
+      "bytes": 5092833,
+      "sha256": "01b6ac590a20f6faca99fa4a490d6b23be12155e611270856de1768df24e9f11"
+    },
+    {
+      "path": "deployment/solver_enabled_r01",
+      "bytes": 5092761,
+      "sha256": "f723a998769133f415ce0c5e35adc9606672d3216c5479e6b432b33d44bdb0aa"
+    },
+    {
+      "path": "deployment/solver_frodo",
+      "bytes": 5044544,
+      "sha256": "6c4c6134ce18f7bb47424d07ad7dbba91ee440c9b265a4cd1ff3a7609323bab9"
+    },
+    {
+      "path": "deployment/solver_release",
+      "bytes": 5092761,
+      "sha256": "4f6ef0c672e5e5c04e376c815e0c29f281a41f36359ce0c116de6000bb26df6d"
+    },
+    {
+      "path": "results/partial133/snapshot.tar.gz",
+      "bytes": 5520311,
+      "sha256": "8b2eebe02e7562e7175f93effac6a7ba1a05daeede436effad0ba4963da5312c"
+    }
+  ],
+  "notes": [
+    "Raw full-field VTU/PVD output is not part of this Git delivery.",
+    "Python bytecode cache entries are omitted and not individually listed.",
+    "Recorded executable hashes identify local deployment artifacts; the completed-run executable identity is documented separately in README.md and deployment/frodo_launch.json."
+  ]
+}
+

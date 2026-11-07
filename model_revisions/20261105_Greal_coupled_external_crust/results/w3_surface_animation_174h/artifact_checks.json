@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "visual_review": {
+    "passed": true,
+    "inspected": [
+      "w3_surface_crust_contact_sheet.png",
+      "w3_surface_crust_final_frame.png"
+    ],
+    "checks": [
+      "native W3 half-cylinder footprint is complete",
+      "0 h is visibly salt-free",
+      "first visible deposition occurs at the outer W3 rim near 72 h",
+      "salt-bearing native polygons include top and vertical side faces, with directional side shading that reveals the stepwise geometry",
+      "fixed color scale is consistent across all frames",
+      "titles, axes, colorbar, onset annotation and readout are not clipped or overlapping",
+      "vertical exaggeration and modeled-equivalent interpretation are disclosed"
+    ]
+  },
+  "numerical_review": {
+    "native_top_faces": 384,
+    "source_hourly_frames": 177,
+    "rendered_two_hour_frames": 88,
+    "max_mass_reconstruction_error_kg": 1.2197274440461925e-19,
+    "max_height_reconstruction_error_m": 1.0001765041178778e-16,
+    "first_accepted_solid_evaporation_h": 71.91666666666667,
+    "final_external_mass_mg": 159.64288695250002,
+    "final_max_height_mm": 0.390557461848,
+    "final_detected_area_mm2": 542.4125604174001
+  },
+  "media_review": {
+    "mp4": {
+      "frames": 88,
+      "fps": 8.0,
+      "width_px": 1536,
+      "height_px": 864,
+      "duration_s": 11.0,
+      "sha256": "b6df2f65d5246d6bb8ce6dd092b8065bb133f02c63c85797dd3950b84440acf1"
+    },
+    "gif": {
+      "frames": 88,
+      "width_px": 1088,
+      "height_px": 612,
+      "sha256": "f9e472a77e06390ebff606c1a61e14d0235f3a65aff31bba931e44e7b5abdf74"
+    },
+    "contact_sheet_sha256": "a15d0751810e25204fdd633d9da65d9bfc706842e452396ebfd929beae1f7d99",
+    "final_frame_sha256": "db534f607d65c1d92488cb1bc1415374edc9d9daf3bcf37f21e5e3c751e38335"
+  },
+  "scientific_limit": "The height is reconstructed from modeled equilibrium solid inventory under the external-growth assumption; it is not a measured crystal morphology. No spatial interpolation or smoothing was used."
+}

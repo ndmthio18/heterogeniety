@@ -1,0 +1,528 @@
+{
+  "end_h": 133.08333333333334,
+  "evaporation": [
+    {
+      "case": "Greal-81",
+      "window_end_h": 132.0,
+      "loss_g": 40.02611203608187,
+      "observed_g": 40.22000000000003,
+      "error_g": -0.19388796391815788,
+      "rate_RMSE_g_h": 0.02436531329271113
+    },
+    {
+      "case": "Coupled crust",
+      "window_end_h": 132.0,
+      "loss_g": 39.785563314770215,
+      "observed_g": 40.22000000000003,
+      "error_g": -0.43443668522981227,
+      "rate_RMSE_g_h": 0.023501958932836232
+    }
+  ],
+  "endpoints": {
+    "Greal-81": {
+      "loss_1_end_g": 40.34670346175854,
+      "solid_mg": 123.99208100462509,
+      "Tmin_C": 18.356919881830777,
+      "Tmax_C": 19.739794987923574,
+      "max_water_residual_mol": 1.7207676256125737e-13,
+      "max_salt_residual_mol": 2.3037127760972002e-15,
+      "max_energy_residual_J": 6.025156295663692e-06
+    },
+    "Coupled crust": {
+      "loss_1_end_g": 40.09515399702504,
+      "solid_mg": 73.57505390946565,
+      "Tmin_C": 18.38156628995324,
+      "Tmax_C": 19.746260513910443,
+      "max_water_residual_mol": 1.7234477733829578e-13,
+      "max_salt_residual_mol": 1.5916087892087205e-15,
+      "max_energy_residual_J": 6.025018308264407e-06
+    }
+  },
+  "crust": {
+    "mass_mg": 73.57505390946565,
+    "max_height_mm": 0.2395547250192,
+    "suppression_percent": 7.170415673899488
+  },
+  "MRI": [
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "pre",
+      "n": 12,
+      "RMSE_M": 0.4962696011979983,
+      "bias_M": 0.4523534211293511
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "post",
+      "n": 12,
+      "RMSE_M": 0.3414958670514916,
+      "bias_M": 0.3110409729627108
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "all",
+      "n": 24,
+      "RMSE_M": 0.4259712104629081,
+      "bias_M": 0.38169719704603094
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "pre",
+      "n": 136,
+      "RMSE_M": 0.1519222871506803,
+      "bias_M": 0.050550609375575636
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "post",
+      "n": 136,
+      "RMSE_M": 0.275484456604,
+      "bias_M": -0.15515198833250055
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "all",
+      "n": 272,
+      "RMSE_M": 0.22245456520770138,
+      "bias_M": -0.05230068947846246
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "pre",
+      "n": 12,
+      "RMSE_M": 0.4962696011979983,
+      "bias_M": 0.4523534211293511
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "post",
+      "n": 12,
+      "RMSE_M": 0.3751385146355206,
+      "bias_M": 0.3324137138774365
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "all",
+      "n": 24,
+      "RMSE_M": 0.4398934088140927,
+      "bias_M": 0.39238356750339376
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "pre",
+      "n": 136,
+      "RMSE_M": 0.25145991843246773,
+      "bias_M": 0.013690924404993154
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "post",
+      "n": 136,
+      "RMSE_M": 0.29214113001775693,
+      "bias_M": -0.16521250905429483
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "all",
+      "n": 272,
+      "RMSE_M": 0.27256057164061287,
+      "bias_M": -0.07576079232465083
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "pre",
+      "n": 12,
+      "RMSE_M": 0.8031911654273495,
+      "bias_M": 0.6155970470875312
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "post",
+      "n": 12,
+      "RMSE_M": 1.0425226375416625,
+      "bias_M": -0.1816352463321592
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "all",
+      "n": 24,
+      "RMSE_M": 0.9305830156432494,
+      "bias_M": 0.216980900377686
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "pre",
+      "n": 136,
+      "RMSE_M": 0.3479991679660168,
+      "bias_M": 0.15459437095393333
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "post",
+      "n": 136,
+      "RMSE_M": 0.5263882820922967,
+      "bias_M": 0.49079819930085156
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "all",
+      "n": 272,
+      "RMSE_M": 0.4461995318403636,
+      "bias_M": 0.32269628512739246
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "pre",
+      "n": 12,
+      "RMSE_M": 0.8762756214693528,
+      "bias_M": 0.7206517849284356
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "post",
+      "n": 12,
+      "RMSE_M": 0.5632682096771138,
+      "bias_M": 0.3639076207444121
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "all",
+      "n": 24,
+      "RMSE_M": 0.7365901305388097,
+      "bias_M": 0.5422797028364238
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "pre",
+      "n": 136,
+      "RMSE_M": 0.3479991679660168,
+      "bias_M": 0.15459437095393333
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "post",
+      "n": 136,
+      "RMSE_M": 0.5263882820922967,
+      "bias_M": 0.49079819930085156
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "all",
+      "n": 272,
+      "RMSE_M": 0.4461995318403636,
+      "bias_M": 0.32269628512739246
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "pre",
+      "n": 12,
+      "RMSE_M": 0.49626960119799696,
+      "bias_M": 0.4523534211293497
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "post",
+      "n": 12,
+      "RMSE_M": 0.34378920338398616,
+      "bias_M": 0.3143765924776745
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "all",
+      "n": 24,
+      "RMSE_M": 0.42689257046510826,
+      "bias_M": 0.3833650068035121
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "pre",
+      "n": 136,
+      "RMSE_M": 0.15192228715067876,
+      "bias_M": 0.0505506093755722
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "post",
+      "n": 136,
+      "RMSE_M": 0.2737316512602334,
+      "bias_M": -0.15306294083637448
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "all",
+      "n": 272,
+      "RMSE_M": 0.22137005018153127,
+      "bias_M": -0.051256165730401135
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "pre",
+      "n": 12,
+      "RMSE_M": 0.49626960119799696,
+      "bias_M": 0.4523534211293497
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "post",
+      "n": 12,
+      "RMSE_M": 0.3772346026612506,
+      "bias_M": 0.3357493333924002
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "all",
+      "n": 24,
+      "RMSE_M": 0.44078876035931913,
+      "bias_M": 0.3940513772608749
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "pre",
+      "n": 136,
+      "RMSE_M": 0.2514599184324674,
+      "bias_M": 0.013690924404989717
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "post",
+      "n": 136,
+      "RMSE_M": 0.2904246626178938,
+      "bias_M": -0.1631234615581688
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "all",
+      "n": 272,
+      "RMSE_M": 0.27164183701593225,
+      "bias_M": -0.07471626857658953
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "pre",
+      "n": 12,
+      "RMSE_M": 0.8031911654273612,
+      "bias_M": 0.6155970470875415
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "post",
+      "n": 12,
+      "RMSE_M": 1.0395643158827774,
+      "bias_M": -0.16615572316898056
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "0-3",
+      "window": "all",
+      "n": 24,
+      "RMSE_M": 0.9289268041878729,
+      "bias_M": 0.22472066195928042
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "pre",
+      "n": 136,
+      "RMSE_M": 0.3479991679660227,
+      "bias_M": 0.15459437095393658
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "post",
+      "n": 136,
+      "RMSE_M": 0.5329633625478747,
+      "bias_M": 0.4983938255936219
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_archived_M",
+      "band": "3-37",
+      "window": "all",
+      "n": 272,
+      "RMSE_M": 0.4500851956704316,
+      "bias_M": 0.32649409827377923
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "pre",
+      "n": 12,
+      "RMSE_M": 0.8762756214693658,
+      "bias_M": 0.7206517849284456
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "post",
+      "n": 12,
+      "RMSE_M": 0.5673047142759962,
+      "bias_M": 0.37938714390759065
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "0-3",
+      "window": "all",
+      "n": 24,
+      "RMSE_M": 0.7381373868126763,
+      "bias_M": 0.5500194644180182
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "pre",
+      "n": 136,
+      "RMSE_M": 0.3479991679660227,
+      "bias_M": 0.15459437095393658
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "post",
+      "n": 136,
+      "RMSE_M": 0.5329633625478747,
+      "bias_M": 0.4983938255936219
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "dataset": "MRI_recalibration_M",
+      "band": "3-37",
+      "window": "all",
+      "n": 272,
+      "RMSE_M": 0.4500851956704316,
+      "bias_M": 0.32649409827377923
+    }
+  ]
+}

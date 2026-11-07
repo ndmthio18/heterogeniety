@@ -1,0 +1,14 @@
+{
+  "changes": [
+    [
+      "/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dumux/build-cmake/lib/libdumux_fmt.so",
+      "libdumux_fmt.so"
+    ],
+    [
+      "/temp/zhixin/heterogeneity_performance_v14_20261102/deps/dumux/DUMUX/dumux/build-cmake/lib/libdumux.so",
+      "libdumux.so"
+    ]
+  ],
+  "original_sha256": "99775343b964856a5a3820cf5ed32e5603273783c8e269ffdd628ad5412028ee",
+  "portable_sha256": "4f6ef0c672e5e5c04e376c815e0c29f281a41f36359ce0c116de6000bb26df6d"
+}

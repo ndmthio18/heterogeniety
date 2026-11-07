@@ -1,0 +1,23 @@
+{
+  "source_run": "run",
+  "source_pvd": "Greal81_external_crust.pvd",
+  "source_pvd_sha256": "f3eecdee04cc59c73b6d8ea29761ce13b15437fb51d3763820c324a4c26cc422",
+  "frames": 177,
+  "surface_cells": 384,
+  "evaporation_time_range_h": [
+    -2.0,
+    174.0
+  ],
+  "solid_array": "precipitateVolumeFraction^NaCl",
+  "mapping": "native W3 atmospheric top faces; no spatial interpolation",
+  "height_equation": "solid_vf*cell_volume/top_face_area/(1-crust_porosity)",
+  "crust_porosity": 0.43,
+  "crystal_density_kg_m3": 2165.0,
+  "external_fraction": 1.0,
+  "detection_solid_vf": 1e-12,
+  "files": {
+    "w3_top_geometry.json": "b9835a9bd8972fdeb271086e82eebe0a7a56c195abdec07da60b5d954ab2441a",
+    "w3_surface_crust_hourly.csv": "fe88f4a98d15fcf754dcfea08d5984a73bf3e1085908de719f2b182c59eeaac6",
+    "w3_surface_summary_hourly.csv": "40fbf57469e4b2ad95a455ae57c90ea954fe7a43103b512f56517b7f497b3ce9"
+  }
+}

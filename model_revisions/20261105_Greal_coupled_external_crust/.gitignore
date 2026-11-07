@@ -1,0 +1,7 @@
+scripts/__pycache__/
+*.pyc
+deployment/solver*
+deployment/*.tar.gz
+results/**/*.tar.gz
+*.vtu
+*.pvd

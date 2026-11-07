@@ -1,0 +1,10 @@
+{
+ "remote_csv_sha256_matches": 8,
+ "visual_review": "passed",
+ "reviewed_pngs": ["01_evaporation.png", "02_concentration.png", "03_crust_temperature.png"],
+ "review_note": "Axes, legends, time coverage and overlap checked; third figure titles shortened and re-inspected.",
+ "scientific_status": "Exploratory partial result, not fully qualified production validation",
+ "last_budget_h": 75,
+ "last_compact_profile_h": 75,
+ "full_75h_vtk_available": false
+}

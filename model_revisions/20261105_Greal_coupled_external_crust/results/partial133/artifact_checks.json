@@ -1,0 +1,10 @@
+{
+ "archive_sha256_verified": true,
+ "csv_member_hashes_verified": 7,
+ "accepted_evaporation_time_h": 133.08333333333334,
+ "visual_review": "passed",
+ "reviewed_pngs": ["01_evaporation.png", "02_MRI_profiles.png", "03_concentration_differences.png", "04_crust_temperature.png"],
+ "pdf_pages": 4,
+ "qualification": "Exploratory partial result; not 174 h completion or full numerical qualification",
+ "run_modified": false
+}

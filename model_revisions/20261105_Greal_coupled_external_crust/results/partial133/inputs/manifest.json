@@ -1,0 +1,15 @@
+{
+  "snapshot_utc": "20261106T130840Z",
+  "source": "/temp/zhixin/Greal_external_crust_174h_frodo_20261106/run",
+  "accepted_time_s": 486300.0,
+  "evaporation_h": 133.08333333333334,
+  "sha256": {
+    "material_budgets.csv": "cd8373aa6681e5b07a48bcd509a9b0a03613d94d23294f07637f166aa6d4b870",
+    "mineral_budget.csv": "dfb6050c9736ce0d1e95a0a6ffec61c65b702db00bf07e7b4c4869e5c43e9bd7",
+    "thermal_budget.csv": "44d0b9dd2d8c1a0cc19321a7cc0df7540a611bc8b0b86a8bdcce638a6f6d5840",
+    "depth_profiles_compact.csv": "1438cf0f454a7b2b81a1f3c575563e5a1bba9b4a67ad900ba62e8078ee32a5ee",
+    "film_budget.csv": "44169508617296345de43fd5ebea2bfa6bfc77519ba6289889893c0cf1ce22f5",
+    "crust_budget.csv": "0fcc317ff6593f1df49905ae8a9e204b478e582e28c4fe8fd92fc375fcb8cf64",
+    "budget.csv": "9bdd628e8dbb1feb0a1b1c9b1e76829b79f06d5946a0dba8f0cdd0b785792bc1"
+  }
+}

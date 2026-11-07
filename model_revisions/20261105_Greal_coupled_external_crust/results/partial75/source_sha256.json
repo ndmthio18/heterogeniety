@@ -1,0 +1,18 @@
+{
+  "model_revisions\\20261105_Greal_coupled_external_crust\\results\\partial75\\inputs\\budget.csv": "9cf6907a710d0510097a312388b6ed48aaebadc0f4719720b4ca26a9f9c9a21b",
+  "model_revisions\\20261105_Greal_coupled_external_crust\\results\\partial75\\inputs\\crust_budget.csv": "ca44f2a0ec80fa141aab55f1da27933ce5315bd719b430f6e33f60408b19887d",
+  "model_revisions\\20261105_Greal_coupled_external_crust\\results\\partial75\\inputs\\depth_profiles_compact.csv": "2308f3ed8c82374701bc621b4084f845406126e636ba31275292604cee58929b",
+  "model_revisions\\20261105_Greal_coupled_external_crust\\results\\partial75\\inputs\\film_budget.csv": "ede6a721eea86840ed603e6f1a8fdacd02d29f04b4fb69f91c0af2caed5f3585",
+  "model_revisions\\20261105_Greal_coupled_external_crust\\results\\partial75\\inputs\\material_budgets.csv": "6b72beea111e9185778e7fe4f5facfe6b60ecccb9683e7a074249cfde5ea533e",
+  "model_revisions\\20261105_Greal_coupled_external_crust\\results\\partial75\\inputs\\mineral_budget.csv": "43e8e92594d75f967e338e7795d04ef63d71d5b4dc74365e25269264ea5c4b9e",
+  "model_revisions\\20261105_Greal_coupled_external_crust\\results\\partial75\\inputs\\native_fluxes.csv": "99d3f100eac7f920df9566c81db7d6cf5455de2653a1d21ecf033350d06a3460",
+  "model_revisions\\20261105_Greal_coupled_external_crust\\results\\partial75\\inputs\\thermal_budget.csv": "2afe9653d506d8c44f84559fcec740dac9710360bfb534ae9bc22c55f9729ca5",
+  "model_revisions\\20261104_Greal_experimental_bottom_hpcc\\inputs\\experiment.csv": "a394c000bb77ae585420893dbb2bce34e44e9bd1d248bfa58be5718fd24ce554",
+  "model_revisions\\20261104_Greal_experimental_bottom_hpcc\\inputs\\MRI_profile_pairs_unchanged.csv": "62804ae5ab27b71cce2b2fa57ace68afaa1efe6ebee9a82a4676e141d081b7ed",
+  "model_revisions\\20261104_Greal_experimental_bottom_hpcc\\results\\full174_verified\\Greal-81\\film_budget.csv": "785a49f858a9bb971aa0a68e77b53bf56298ce944576642c2d58fc0744d4b4c0",
+  "model_revisions\\20261104_Greal_experimental_bottom_hpcc\\results\\full174_verified\\Greal-81\\budget.csv": "a2c06c3f1e44976b5bb590e47a85be57fad56a692fa88c40868892706321e573",
+  "model_revisions\\20261104_Greal_experimental_bottom_hpcc\\results\\full174_verified\\Greal-81\\thermal_budget.csv": "40873371f426421a2630d7adb93fa066f85ebcbce35b85b5fe518566d28b8ce2",
+  "model_revisions\\20261104_Greal_experimental_bottom_hpcc\\results\\full174_verified\\Greal-81\\mineral_budget.csv": "b3b42b707af37f4be26435d73791b0c9fe5f40d8742307dd02e0bc2a4ea26cf9",
+  "model_revisions\\20261104_Greal_experimental_bottom_hpcc\\results\\full174_verified\\Greal-81\\depth_profiles_compact.csv": "8e6d9003b5fa539a48a78538f77e27eb7e8c4e6a97e2ee8eb8b45353c7a18f41",
+  "model_revisions\\20261104_Greal_experimental_bottom_hpcc\\results\\full174_verified\\Greal-81\\material_budgets.csv": "39463031d7e195a80da93745775a09dfc7ccf3078cee18ce5b24ad114f3dfe51"
+}

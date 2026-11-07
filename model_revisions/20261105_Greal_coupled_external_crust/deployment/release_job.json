@@ -1,0 +1,9 @@
+{
+  "job_id": "16309385",
+  "status": "submitted",
+  "qualification": "exploratory_user_release_not_gate_qualified",
+  "target_s": 633600,
+  "evaporation_h": 174,
+  "binary_sha256": "4f6ef0c672e5e5c04e376c815e0c29f281a41f36359ce0c116de6000bb26df6d",
+  "input_sha256": "331bf2c4848e105faa9e2e12369390e709b3b9cce1bdbb55f3f96d0067cdf4c2"
+}

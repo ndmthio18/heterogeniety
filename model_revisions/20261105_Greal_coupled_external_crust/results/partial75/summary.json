@@ -1,0 +1,226 @@
+{
+  "evaporation": [
+    {
+      "case": "Greal-81",
+      "last_measured_h": 72.0,
+      "model_loss_g": 22.12231548964713,
+      "measured_loss_g": 23.0,
+      "error_g": -0.8776845103528714,
+      "interval_rate_RMSE_g_h": 0.03112868926007912
+    },
+    {
+      "case": "Coupled crust",
+      "last_measured_h": 72.0,
+      "model_loss_g": 22.122315475292545,
+      "measured_loss_g": 23.0,
+      "error_g": -0.8776845247074547,
+      "interval_rate_RMSE_g_h": 0.031128689232646948
+    }
+  ],
+  "endpoints": {
+    "Greal-81": {
+      "loss_1_75_g": 23.02708744604735,
+      "solid_mg": 0.2455427572094657,
+      "T_min_C": 18.325004887515206,
+      "T_max_C": 19.73363372515206,
+      "max_abs_water_residual_mol": 1.7207676256125737e-13,
+      "max_abs_salt_residual_mol": 1.5890067039947553e-15,
+      "max_abs_energy_residual_J": 6.025012027066623e-06,
+      "coarse_salt_mol_change_0_75": 0.009480208354772101,
+      "fine_salt_mol_change_0_75": 0.013047842845257,
+      "cumulative_interface_adv_mol_change_0_75": 0.005562928461434212,
+      "cumulative_interface_diff_mol_change_0_75": -0.0035259322814986
+    },
+    "Coupled crust": {
+      "loss_1_75_g": 23.027042547659523,
+      "solid_mg": 0.23356593536337347,
+      "T_min_C": 18.325036727306554,
+      "T_max_C": 19.733641004961726,
+      "max_abs_water_residual_mol": 1.7165782684180897e-13,
+      "max_abs_salt_residual_mol": 1.5638532135930916e-15,
+      "max_abs_energy_residual_J": 6.025011884958076e-06,
+      "coarse_salt_mol_change_0_75": 0.009480230047121,
+      "fine_salt_mol_change_0_75": 0.013047777864817,
+      "cumulative_interface_adv_mol_change_0_75": 0.005562884297543212,
+      "cumulative_interface_diff_mol_change_0_75": -0.003525931829887
+    }
+  },
+  "crust": {
+    "last_time_h": 75.0,
+    "external_salt_mg": 0.23356593536337347,
+    "max_height_um": 6.192580776222729,
+    "bearing_area_mm2": 65.94035048212635,
+    "instantaneous_W3_suppression_percent": 0.02782771091589531,
+    "first_detectable_h": 71.91666666666667,
+    "max_deeper_solid_mol": 8.558241391614861e-35
+  },
+  "MRI": [
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "band": "0-3",
+      "dataset": "MRI_archived_M",
+      "n": 12,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.4962696011979983,
+      "bias_M": 0.4523534211293511
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "band": "0-3",
+      "dataset": "MRI_recalibration_M",
+      "n": 12,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.4962696011979983,
+      "bias_M": 0.4523534211293511
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "band": "3-37",
+      "dataset": "MRI_archived_M",
+      "n": 136,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.1519222871506803,
+      "bias_M": 0.050550609375575636
+    },
+    {
+      "case": "Greal-81",
+      "side": "F36",
+      "band": "3-37",
+      "dataset": "MRI_recalibration_M",
+      "n": 136,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.25145991843246773,
+      "bias_M": 0.013690924404993154
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "band": "0-3",
+      "dataset": "MRI_archived_M",
+      "n": 12,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.8031911654273495,
+      "bias_M": 0.6155970470875312
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "band": "0-3",
+      "dataset": "MRI_recalibration_M",
+      "n": 12,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.8762756214693528,
+      "bias_M": 0.7206517849284356
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "band": "3-37",
+      "dataset": "MRI_archived_M",
+      "n": 136,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.3479991679660168,
+      "bias_M": 0.15459437095393333
+    },
+    {
+      "case": "Greal-81",
+      "side": "W3",
+      "band": "3-37",
+      "dataset": "MRI_recalibration_M",
+      "n": 136,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.3479991679660168,
+      "bias_M": 0.15459437095393333
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "band": "0-3",
+      "dataset": "MRI_archived_M",
+      "n": 12,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.49626960119799784,
+      "bias_M": 0.45235342112935095
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "band": "0-3",
+      "dataset": "MRI_recalibration_M",
+      "n": 12,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.49626960119799784,
+      "bias_M": 0.45235342112935095
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "band": "3-37",
+      "dataset": "MRI_archived_M",
+      "n": 136,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.15192228715068,
+      "bias_M": 0.05055060937557516
+    },
+    {
+      "case": "Coupled crust",
+      "side": "F36",
+      "band": "3-37",
+      "dataset": "MRI_recalibration_M",
+      "n": 136,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.25145991843246757,
+      "bias_M": 0.013690924404992673
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "band": "0-3",
+      "dataset": "MRI_archived_M",
+      "n": 12,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.80319116542735,
+      "bias_M": 0.6155970470875315
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "band": "0-3",
+      "dataset": "MRI_recalibration_M",
+      "n": 12,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.8762756214693534,
+      "bias_M": 0.7206517849284358
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "band": "3-37",
+      "dataset": "MRI_archived_M",
+      "n": 136,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.34799916796601704,
+      "bias_M": 0.15459437095393327
+    },
+    {
+      "case": "Coupled crust",
+      "side": "W3",
+      "band": "3-37",
+      "dataset": "MRI_recalibration_M",
+      "n": 136,
+      "last_MRI_h": 60.0,
+      "RMSE_M": 0.34799916796601704,
+      "bias_M": 0.15459437095393327
+    }
+  ],
+  "limitations": [
+    "Exploratory user-released run; full gates not passed.",
+    "HPCC stopped by output file quota; 75 h budgets but no 75 h full VTK.",
+    "No extrapolation; MRI matched exact nominal time/depth, no voxel/32min averaging.",
+    "No added crust thermal resistance.",
+    "Current-state suppression is not coupled versus baseline reservoir-loss reduction."
+  ]
+}

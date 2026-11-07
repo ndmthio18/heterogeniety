@@ -1,0 +1,17 @@
+{
+  "controller_pid": 608263,
+  "started_utc": "2026-11-06T07:45:17.911725+00:00",
+  "hashes": {
+    "solver": "99775343b964856a5a3820cf5ed32e5603273783c8e269ffdd628ad5412028ee",
+    "case.input": "331bf2c4848e105faa9e2e12369390e709b3b9cce1bdbb55f3f96d0067cdf4c2",
+    "filter_6layers.msh": "4a47ac0b67c6bca83b7d1241558346a66d7eb830642b923ee9005f554de86395",
+    "Greal04_port.txt": "d30db051344d4d900820a9834c71425a2910a1111f1b7f6aa0c9a32648bd4d15",
+    "water_flux_zero_storage.txt": "4758eb4bf0356f16d1d10376709fecebb9570c6e211b901a124430af9f2bddbe"
+  },
+  "threads": 8,
+  "cpu_affinity": "0-7",
+  "target_evaporation_h": 174,
+  "pre_h": 2,
+  "qualification": "exploratory_user_release",
+  "restart": "original_initial_conditions"
+}

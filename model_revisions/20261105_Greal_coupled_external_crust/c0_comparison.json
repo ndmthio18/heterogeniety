@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "window": "2h equilibration plus 10min evaporation; pre-precipitation only",
+  "metrics": {
+    "budget.csv": {
+      "rows": 47,
+      "max_scaled_difference": 0.0
+    },
+    "film_budget.csv": {
+      "rows": 47,
+      "max_scaled_difference": 0.0
+    },
+    "mineral_budget.csv": {
+      "rows": 47,
+      "max_scaled_difference": 0.0
+    },
+    "thermal_budget.csv": {
+      "rows": 47,
+      "max_scaled_difference": 0.0
+    },
+    "depth_profiles_compact.csv": {
+      "rows": 3840,
+      "max_scaled_difference": 0.0
+    }
+  }
+}
