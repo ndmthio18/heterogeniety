@@ -1,0 +1,115 @@
+[TimeLoop]
+TEnd = 223200
+DtInitial = 10
+MaxTimeStepSize = 300
+CheckpointOutputInterval = 3600
+
+[Grid]
+File = primary_filter.msh
+
+[Problem]
+Name = S_Kc2_Kf1_D1p33_C0B1
+InletSize = 0.004
+PlexiglassThermalConductivity = 0.184
+PlexiglassThickness = 0.005
+
+[Reservoir]
+Temperature = 293.15
+AtmosphericPressure = 100000
+LevelAboveSandBottom = 0.02
+Molarity = 1.0
+
+[Revision]
+CoarseWaterFluxMultiplier = 1
+SaltDiffusionScale = 1
+PreEquilibrationSeconds = 7200
+PerturbationStd = 1e-05
+RandomSeed = 1
+SupplyMode = DistributedReservoir
+FilterHydraulicResistance = 0
+WaterForcingMode = FilmTransfer
+WaterMassFlux = 0
+WaterForcingFile = water_flux_zero_storage.txt
+StopOnPrecipitation = false
+MaxBudgetRelativeResidual = 1e-6
+MaxEnergyBudgetRelativeResidual = 1e-6
+ActivityWeightedEvaporation = false
+ActivityRelativeVaporPressure = 0
+WaterFluxAreaCorrection = 1
+UnifiedWaterActivity = true
+FilmThickness = 0.010773215792341494
+FilmRH = 0
+EquilibriumPrecipitation = true
+FixedHydraulics = true
+ExplicitFilter = true
+EquivalentInletWidth = 0.00025132741228718343
+InterfaceExchangeEnabled = false
+SalinityBuoyancyScale = 1.0
+CausalSelfTest = false
+
+[SpatialParams]
+Temperature = 293.15
+SplitAxis = 0
+SplitCoordinate = 0.019634954084936207
+CoarsePorosity = 0.40
+FinePorosity = 0.36
+CoarsePermeability = 1.5638371544311862e-11
+FinePermeability = 3.2034098778596945e-14
+SolubilityLimit = 0.26
+CoarsePcGroup = SpatialParams.CoarseMaterial
+FinePcGroup = SpatialParams.FineMaterial
+FilterPorosity = 0.35
+FilterPermeability = 5.30e-12
+FilterPcGroup = SpatialParams.FilterMaterial
+
+[SpatialParams.CoarseMaterial]
+Snr = 0
+Swr = 0.05
+BrooksCoreyPcEntry = 4690
+BrooksCoreyLambda = 5.04
+
+[SpatialParams.FineMaterial]
+Snr = 0
+Swr = 0.22
+BrooksCoreyPcEntry = 11200
+BrooksCoreyLambda = 0.384
+
+[FreeFlow]
+CoarseBoundaryLayerThickness = 0.012642
+FineBoundaryLayerThickness = 0.003019
+RelativeHumidity = 0
+
+[Newton]
+MaxRelativeShift = 1e-9
+EnableAbsoluteResidualCriterion = true
+MaxAbsoluteResidual = 1e-10
+SatisfyResidualAndShiftCriterion = true
+MaxSteps = 20
+MaxTimeStepDivisions = 12
+EnablePartialReassembly = true
+
+[LinearSolver]
+ResidualReduction = 1e-9
+
+[Vtk]
+Precision = Float64
+CoordPrecision = Float64
+AddVelocity = true
+AddProcessRank = false
+
+[Benchmark]
+AmgILU = true
+IterationAwareDt = false
+VtkEvery = 6
+FaceOutputInterval = 3600
+
+[SpatialParams.FilterMaterial]
+Snr = 0
+Swr = 0.05
+BrooksCoreyPcEntry = 4690
+BrooksCoreyLambda = 5.04
+
+[Geometry]
+ExtrusionWidth = 0.050000000000000003
+PrimaryEquivalent = true
+

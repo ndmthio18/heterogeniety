@@ -1,0 +1,30 @@
+{
+  "stage": "M1_reference_only",
+  "submitted_epoch": 1794048754.386295,
+  "jobs": [
+    {
+      "case": "S_Kc1_Kf1_D1_C1B1",
+      "job_id": "16345713"
+    },
+    {
+      "case": "S_Kc1_Kf1_D1_C0B1",
+      "job_id": "16345714"
+    },
+    {
+      "case": "B0_reference_C1B0",
+      "job_id": "16345715"
+    },
+    {
+      "case": "B0_reference_C0B0",
+      "job_id": "16345716"
+    },
+    {
+      "case": "M1_A_C1B1_24h",
+      "job_id": "16345717"
+    },
+    {
+      "case": "M1_A_C0B1_24h",
+      "job_id": "16345718"
+    }
+  ]
+}

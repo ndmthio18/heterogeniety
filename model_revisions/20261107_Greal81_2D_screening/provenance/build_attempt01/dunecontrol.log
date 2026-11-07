@@ -1,0 +1,1434 @@
+----- using default flags $CMAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+--- going to build dune-common dune-uggrid dune-geometry dune-grid dune-localfunctions dune-istl dumux kiemle2025a  ---
+--- calling all for dune-common ---
+--- calling vcsetup for dune-common ---
+--- calling cmake for dune-common ---
+----- using default flags $CMAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+cmake   -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF -DDUNE_OPTS_FILE=/tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts "/tmp/hulm_g81_2d_build_16345621/stack/dune-common"
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /apps/compilers/gcc/v12.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/compilers/gcc/v12.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test cxx_std_flag_17
+-- Performing Test cxx_std_flag_17 - Success
+-- Performing Test compiler_supports_cxx17
+-- Performing Test compiler_supports_cxx17 - Success
+-- Looking for std::experimental::make_array<int,int>
+-- Looking for std::experimental::make_array<int,int> - found
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>>
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>> - found
+-- Looking for std::identity
+-- Looking for std::identity - not found
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA - Failed
+-- Found LATEX: /usr/bin/latex   
+-- Could NOT find LatexMk (missing: LATEXMK_EXECUTABLE) 
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.5") found components: doxygen dot 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
+-- Performing tests for dune-common (from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/modules/DuneCommonMacros.cmake)
+-- Set Minimal Debug Level to 4
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- Could NOT find LAPACK (missing: LAPACK_LIBRARIES) 
+    Reason given by package: LAPACK could not be found because dependency BLAS could not be found.
+
+-- Found GMP: /usr/lib64/libgmpxx.so  
+-- Performing Test QuadMath_COMPILES
+-- Performing Test QuadMath_COMPILES - Success
+-- Found QuadMath: (Supported by compiler)  
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found suitable version "3.1", minimum required is "3.0") 
+-- Found MPI: TRUE (found suitable version "3.1", minimum required is "3.0") found components: C 
+-- Found TBB: using configuration from TBB_DIR=/usr/local/lib/cmake/tbb-2021.8.0 (found version "2021.8.0")
+-- Could NOT find PTScotch (missing: SCOTCH_LIBRARY SCOTCHERR_LIBRARY SCOTCH_INCLUDE_DIR) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) (Required is at least version "4.0")
+-- Could NOT find Vc (missing: Vc_DIR)
+-- Found Python3: /WORK/hulm_work/ys/miniconda3/bin/python3 (found version "3.10.9") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python3: TRUE  
+-- Using existing virtualenv in /WORK/hulm_work/ys/miniconda3
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python: TRUE  
+-- Using scripts from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/scripts for creating doxygen stuff.
+-- using /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/Doxystyle to create doxystyle file
+-- using C macro definitions from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/doxygen-macros for Doxygen
+-- Skipping building CMake API documentation (Sphinx was not found!)
+-- Not adding custom target for config.h generation
+-- The following OPTIONAL packages have been found:
+
+ * LATEX
+ * Doxygen, Class documentation generator, <www.doxygen.org>
+   To generate the class documentation from C++ sources
+ * GMP, GNU multi-precision library, <https://gmplib.org>
+ * QuadMath, GCC Quad-Precision Math Library, <https://gcc.gnu.org/onlinedocs/libquadmath>
+ * Inkscape, converts SVG images, <www.inkscape.org>
+   To generate the documentation with LaTeX
+ * Threads, Multi-threading library
+ * TBB, Intel's Threading Building Blocks, <https://github.com/oneapi-src/oneTBB>
+ * MPI, Message Passing Interface library
+   Parallel programming on multiple processors
+ * Python3
+
+-- The following OPTIONAL packages have not been found:
+
+ * LatexMk
+ * Sphinx, Documentation generator, <www.sphinx-doc.org>
+   To generate the documentation from CMake and Python sources
+ * BLAS, fast linear algebra routines
+ * LAPACK, fast linear algebra routines
+ * PTScotch, Sequential and Parallel Graph Partitioning, <https://gitlab.inria.fr/scotch/scotch>
+ * METIS, Serial Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/metis/overview>
+ * ParMETIS (required version >= 4.0), Parallel Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview>
+ * Vc, C++ Vectorization library, <https://github.com/VcDevel/Vc>
+   For use of SIMD instructions
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DUNE_OPTS_FILE
+
+
+-- Build files have been written to: /tmp/hulm_g81_2d_build_16345621/stack/dune-common/build-cmake
+--- calling make for dune-common ---
+----- using default flags $MAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+build directory: build-cmake
+cmake --build . -- -j8
+[  0%] Building CXX object CMakeFiles/dunecommon.dir/dune/common/debugalign.cc.o
+[ 25%] Building CXX object CMakeFiles/dunecommon.dir/dune/common/debugallocator.cc.o
+[ 50%] Building CXX object CMakeFiles/dunecommon.dir/dune/common/ios_state.cc.o
+[ 50%] Building CXX object CMakeFiles/dunecommon.dir/dune/common/fmatrixev.cc.o
+[ 50%] Building CXX object CMakeFiles/dunecommon.dir/dune/common/parametertree.cc.o
+[ 50%] Building CXX object CMakeFiles/dunecommon.dir/dune/common/parametertreeparser.cc.o
+[ 75%] Building CXX object CMakeFiles/dunecommon.dir/dune/common/path.cc.o
+[ 75%] Building CXX object CMakeFiles/dunecommon.dir/dune/common/exceptions.cc.o
+[ 75%] Building CXX object CMakeFiles/dunecommon.dir/dune/common/simd/test.cc.o
+[ 75%] Building CXX object CMakeFiles/dunecommon.dir/dune/common/stdstreams.cc.o
+[100%] Building CXX object CMakeFiles/dunecommon.dir/dune/common/stdthread.cc.o
+[100%] Linking CXX static library lib/libdunecommon.a
+[100%] Built target dunecommon
+--- dune-common done ---
+--- calling all for dune-uggrid ---
+--- calling vcsetup for dune-uggrid ---
+--- calling cmake for dune-uggrid ---
+----- using default flags $CMAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+cmake   -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF "-Ddune-common_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-common/build-cmake" -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF -DDUNE_OPTS_FILE=/tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts "/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid"
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /apps/compilers/gcc/v12.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/compilers/gcc/v12.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Dependencies for dune-uggrid: dune-common (>= 2.9)
+-- Performing Test cxx_std_flag_17
+-- Performing Test cxx_std_flag_17 - Success
+-- Performing Test compiler_supports_cxx17
+-- Performing Test compiler_supports_cxx17 - Success
+-- Looking for std::experimental::make_array<int,int>
+-- Looking for std::experimental::make_array<int,int> - found
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>>
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>> - found
+-- Looking for std::identity
+-- Looking for std::identity - not found
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA - Failed
+-- Found LATEX: /usr/bin/latex   
+-- Could NOT find LatexMk (missing: LATEXMK_EXECUTABLE) 
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.5") found components: doxygen dot 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
+-- Performing tests for dune-common (from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/modules/DuneCommonMacros.cmake)
+-- Set Minimal Debug Level to 4
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- Could NOT find LAPACK (missing: LAPACK_LIBRARIES) 
+    Reason given by package: LAPACK could not be found because dependency BLAS could not be found.
+
+-- Found GMP: /usr/lib64/libgmpxx.so  
+-- Performing Test QuadMath_COMPILES
+-- Performing Test QuadMath_COMPILES - Success
+-- Found QuadMath: (Supported by compiler)  
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found suitable version "3.1", minimum required is "3.0") 
+-- Found MPI: TRUE (found suitable version "3.1", minimum required is "3.0") found components: C 
+-- Found TBB: using configuration from TBB_DIR=/usr/local/lib/cmake/tbb-2021.8.0 (found version "2021.8.0")
+-- Could NOT find PTScotch (missing: SCOTCH_LIBRARY SCOTCHERR_LIBRARY SCOTCH_INCLUDE_DIR) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) (Required is at least version "4.0")
+-- Could NOT find Vc (missing: Vc_DIR)
+-- Found Python3: /WORK/hulm_work/ys/miniconda3/bin/python3 (found version "3.10.9") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python3: TRUE  
+-- Using existing virtualenv in /WORK/hulm_work/ys/miniconda3
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python: TRUE  
+-- Setting dune-common_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-common
+-- Setting dune-common_LIBRARIES=dunecommon
+-- Performing tests for dune-uggrid (from /tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/cmake/modules/DuneUggridMacros.cmake)
+-- Found MPI_CXX: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1")  
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for time.h
+-- Looking for time.h - found
+-- Adding custom target for config.h generation
+-- The following OPTIONAL packages have been found:
+
+ * LATEX
+ * Doxygen, Class documentation generator, <www.doxygen.org>
+   To generate the class documentation from C++ sources
+ * GMP, GNU multi-precision library, <https://gmplib.org>
+ * QuadMath, GCC Quad-Precision Math Library, <https://gcc.gnu.org/onlinedocs/libquadmath>
+ * Inkscape, converts SVG images, <www.inkscape.org>
+   To generate the documentation with LaTeX
+ * Threads, Multi-threading library
+ * TBB, Intel's Threading Building Blocks, <https://github.com/oneapi-src/oneTBB>
+ * Python3
+ * MPI, Message Passing Interface library
+   Parallel programming on multiple processors
+
+-- The following REQUIRED packages have been found:
+
+ * dune-common
+
+-- The following OPTIONAL packages have not been found:
+
+ * LatexMk
+ * Sphinx, Documentation generator, <www.sphinx-doc.org>
+   To generate the documentation from CMake and Python sources
+ * BLAS, fast linear algebra routines
+ * LAPACK, fast linear algebra routines
+ * PTScotch, Sequential and Parallel Graph Partitioning, <https://gitlab.inria.fr/scotch/scotch>
+ * METIS, Serial Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/metis/overview>
+ * ParMETIS (required version >= 4.0), Parallel Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview>
+ * Vc, C++ Vectorization library, <https://github.com/VcDevel/Vc>
+   For use of SIMD instructions
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DUNE_OPTS_FILE
+
+
+-- Build files have been written to: /tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/build-cmake
+--- calling make for dune-uggrid ---
+----- using default flags $MAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+build directory: build-cmake
+cmake --build . -- -j8
+[  1%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/domain/std_domain.cc.o
+[  2%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/cw.cc.o
+[  3%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/initug.cc.o
+[  5%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/elements.cc.o
+[  4%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/algebra.cc.o
+[  5%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/domain/std_parallel.cc.o
+[  5%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/initug.cc.o
+[  5%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/dlmgr.cc.o
+[  6%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/domain/std_domain.cc.o
+[  7%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/er.cc.o
+[  8%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/domain/std_parallel.cc.o
+[  8%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/algebra.cc.o
+[  9%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/cw.cc.o
+[ 10%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/dlmgr.cc.o
+[ 10%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/evm.cc.o
+[ 11%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/gmcheck.cc.o
+[ 12%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/initgm.cc.o
+[ 12%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/elements.cc.o
+[ 12%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/mgio.cc.o
+[ 13%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/refine.cc.o
+[ 14%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/rm-write2file.cc.o
+[ 15%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/er.cc.o
+[ 16%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/evm.cc.o
+[ 16%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/gmcheck.cc.o
+[ 16%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/rm.cc.o
+/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/gm/er.cc: In function ‘void URule2Mrule(const URULE*, UG::D2::MGIO_RR_RULE*)’:
+/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/gm/er.cc:1663:50: warning: iteration 4 invokes undefined behavior [-Waggressive-loop-optimizations]
+ 1663 |       sonData->corners[k] = ur->sons[j].corners[k];
+      |                             ~~~~~~~~~~~~~~~~~~~~~^
+/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/gm/er.cc:1662:16: note: within this loop
+ 1662 |     for (k=0; k<MGIO_MAX_CORNERS_OF_ELEM; k++)
+/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/gm/er.cc:1665:40: warning: iteration 4 invokes undefined behavior [-Waggressive-loop-optimizations]
+ 1665 |       sonData->nb[k] = ur->sons[j].nb[k];
+      |                        ~~~~~~~~~~~~~~~~^
+/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/gm/er.cc:1664:16: note: within this loop
+ 1664 |     for (k=0; k<MGIO_MAX_SIDES_OF_ELEM; k++)
+[ 17%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/shapes.cc.o
+[ 18%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/initgm.cc.o
+[ 19%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/ugio.cc.o
+[ 20%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/mgio.cc.o
+[ 20%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/refine.cc.o
+[ 20%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/gm/ugm.cc.o
+[ 21%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/analyser/inv.cc.o
+[ 22%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/rm-write2file.cc.o
+[ 23%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/rm.cc.o
+[ 25%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/ctrl/cons.cc.o
+[ 25%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/ctrl/debug.cc.o
+[ 25%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/shapes.cc.o
+[ 26%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/ctrl/stat.cc.o
+[ 27%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/ident/ident.cc.o
+[ 28%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/ugio.cc.o
+[ 28%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/if/ifcheck.cc.o
+[ 29%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/if/ifcmds.cc.o
+[ 30%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/gm/ugm.cc.o
+[ 30%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/analyser/inv.cc.o
+[ 31%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/ctrl/cons.cc.o
+[ 32%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/ctrl/debug.cc.o
+[ 33%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/if/ifcreate.cc.o
+[ 33%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/ctrl/stat.cc.o
+[ 33%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/if/ifobjsc.cc.o
+[ 34%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/if/ifuse.cc.o
+[ 35%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/ident/ident.cc.o
+[ 36%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/if/ifcheck.cc.o
+[ 37%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/join/jcmds.cc.o
+[ 37%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/join/join.cc.o
+[ 38%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/if/ifcreate.cc.o
+[ 38%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/if/ifcmds.cc.o
+[ 39%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/if/ifobjsc.cc.o
+[ 40%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/mgr/attr.cc.o
+[ 40%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/if/ifuse.cc.o
+[ 41%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/join/jcmds.cc.o
+[ 42%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/join/join.cc.o
+[ 43%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/mgr/cplmgr.cc.o
+[ 43%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/mgr/attr.cc.o
+[ 43%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/mgr/objmgr.cc.o
+[ 44%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/mgr/cplmgr.cc.o
+[ 45%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/mgr/prio.cc.o
+[ 46%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/mgr/typemgr.cc.o
+[ 46%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/prio/pcmds.cc.o
+[ 47%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/mgr/objmgr.cc.o
+[ 48%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/xfer/cmdmsg.cc.o
+[ 48%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/mgr/prio.cc.o
+[ 50%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/mgr/typemgr.cc.o
+[ 51%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/xfer/cmds.cc.o
+[ 51%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/xfer/cplmsg.cc.o
+[ 52%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/prio/pcmds.cc.o
+[ 53%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/xfer/ctrl.cc.o
+[ 53%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/xfer/cmdmsg.cc.o
+[ 54%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/xfer/cmds.cc.o
+[ 55%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/xfer/pack.cc.o
+[ 55%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/xfer/supp.cc.o
+[ 56%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/xfer/cplmsg.cc.o
+[ 56%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/xfer/ctrl.cc.o
+[ 57%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/xfer/pack.cc.o
+[ 58%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/xfer/unpack.cc.o
+[ 59%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/xfer/xfer.cc.o
+[ 59%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/ddd/ddd.cc.o
+[ 60%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/xfer/supp.cc.o
+[ 60%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/xfer/unpack.cc.o
+[ 61%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/compat.cc.o
+[ 62%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/xfer/xfer.cc.o
+[ 63%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/debugger.cc.o
+/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/parallel/dddif/compat.cc: In function ‘int* UG::D3::DDD_InfoProcList(DDD_HDR)’:
+/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/parallel/dddif/compat.cc:82:26: warning: ‘int* UG::D3::DDD_InfoProcList(DDD::DDDContext&, DDD_HDR)’ is deprecated: Use `DDD_InfoProcListRange` instead [-Wdeprecated-declarations]
+   82 |   return DDD_InfoProcList(globalDDDContext(), hdr);
+      |          ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/parallel/dddif/parallel.h:47,
+                 from /tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/parallel/dddif/compat.cc:5:
+/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/parallel/ddd/include/ddd.h:409:10: note: declared here
+  409 | int  *   DDD_InfoProcList (DDD::DDDContext& context, DDD_HDR);
+      |          ^~~~~~~~~~~~~~~~
+[ 64%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/ddd/ddd.cc.o
+[ 64%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/compat.cc.o
+[ 65%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/debugger.cc.o
+[ 66%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/gridcons.cc.o
+[ 66%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/gridcons.cc.o
+/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/parallel/dddif/compat.cc: In function ‘int* UG::D2::DDD_InfoProcList(DDD_HDR)’:
+/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/parallel/dddif/compat.cc:82:26: warning: ‘int* UG::D2::DDD_InfoProcList(DDD::DDDContext&, DDD_HDR)’ is deprecated: Use `DDD_InfoProcListRange` instead [-Wdeprecated-declarations]
+   82 |   return DDD_InfoProcList(globalDDDContext(), hdr);
+      |          ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/parallel/dddif/parallel.h:47,
+                 from /tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/parallel/dddif/compat.cc:5:
+/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/dune/uggrid/parallel/ddd/include/ddd.h:409:10: note: declared here
+  409 | int  *   DDD_InfoProcList (DDD::DDDContext& context, DDD_HDR);
+      |          ^~~~~~~~~~~~~~~~
+[ 67%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/handler.cc.o
+[ 67%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/initddd.cc.o
+[ 68%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/identify.cc.o
+[ 69%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/lb.cc.o
+[ 70%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/lbrcb.cc.o
+[ 70%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/memmgr.cc.o
+[ 70%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/handler.cc.o
+[ 71%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/identify.cc.o
+[ 72%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/initddd.cc.o
+[ 72%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/lb.cc.o
+[ 73%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/lbrcb.cc.o
+[ 75%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/memmgr.cc.o
+[ 75%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/overlap.cc.o
+[ 76%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/overlap.cc.o
+[ 77%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/partition.cc.o
+[ 77%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/pgmcheck.cc.o
+[ 78%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/priority.cc.o
+[ 79%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/support.cc.o
+[ 80%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/partition.cc.o
+[ 80%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid3d.dir/parallel/dddif/trans.cc.o
+[ 80%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/pgmcheck.cc.o
+[ 81%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/priority.cc.o
+[ 82%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/support.cc.o
+[ 82%] Building CXX object dune/uggrid/CMakeFiles/duneuggrid2d.dir/parallel/dddif/trans.cc.o
+[ 82%] Built target duneuggrid3d
+[ 82%] Built target duneuggrid2d
+[ 82%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/ugdevices.cc.o
+[ 83%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/low/debug.cc.o
+[ 83%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/low/bio.cc.o
+[ 84%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/low/fifo.cc.o
+[ 85%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/low/fileopen.cc.o
+[ 85%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/low/heaps.cc.o
+[ 86%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/low/initlow.cc.o
+[ 87%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/low/misc.cc.o
+[ 87%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/low/ugenv.cc.o
+[ 88%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/low/ugstruct.cc.o
+[ 89%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/low/ugtimer.cc.o
+[ 89%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/parallel/ddd/basic/io.cc.o
+[ 90%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/parallel/ddd/basic/lowcomm.cc.o
+[ 91%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/parallel/ddd/basic/notify.cc.o
+[ 91%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/parallel/ddd/basic/reduct.cc.o
+[ 92%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/parallel/ddd/basic/topo.cc.o
+[ 93%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/parallel/ddd/dddcontext.cc.o
+[ 93%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/parallel/ppif/ppif.cc.o
+[ 94%] Building CXX object CMakeFiles/duneuggrid.dir/dune/uggrid/parallel/ppif/ppifcontext.cc.o
+[ 95%] Linking CXX static library lib/libduneuggrid.a
+[ 95%] Built target duneuggrid
+[ 96%] Building CXX object dune/uggrid/gm/CMakeFiles/rm3-writeRefRules2file.dir/rm-writeRefRules2file.cc.o
+[ 97%] Building CXX object dune/uggrid/gm/CMakeFiles/rm3-show.dir/rm-show.cc.o
+[ 97%] Building CXX object dune/uggrid/gm/CMakeFiles/rm3-writeRefRules2file.dir/rm-write2file.cc.o
+[ 98%] Linking CXX executable rm3-show
+[ 98%] Built target rm3-show
+[100%] Linking CXX executable rm3-writeRefRules2file
+[100%] Built target rm3-writeRefRules2file
+--- dune-uggrid done ---
+--- calling all for dune-geometry ---
+--- calling vcsetup for dune-geometry ---
+--- calling cmake for dune-geometry ---
+----- using default flags $CMAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+cmake   -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF "-Ddune-common_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-common/build-cmake" -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF -DDUNE_OPTS_FILE=/tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts "/tmp/hulm_g81_2d_build_16345621/stack/dune-geometry"
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /apps/compilers/gcc/v12.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/compilers/gcc/v12.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Dependencies for dune-geometry: dune-common (>= 2.9)
+-- Performing Test cxx_std_flag_17
+-- Performing Test cxx_std_flag_17 - Success
+-- Performing Test compiler_supports_cxx17
+-- Performing Test compiler_supports_cxx17 - Success
+-- Looking for std::experimental::make_array<int,int>
+-- Looking for std::experimental::make_array<int,int> - found
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>>
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>> - found
+-- Looking for std::identity
+-- Looking for std::identity - not found
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA - Failed
+-- Found LATEX: /usr/bin/latex   
+-- Could NOT find LatexMk (missing: LATEXMK_EXECUTABLE) 
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.5") found components: doxygen dot 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
+-- Performing tests for dune-common (from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/modules/DuneCommonMacros.cmake)
+-- Set Minimal Debug Level to 4
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- Could NOT find LAPACK (missing: LAPACK_LIBRARIES) 
+    Reason given by package: LAPACK could not be found because dependency BLAS could not be found.
+
+-- Found GMP: /usr/lib64/libgmpxx.so  
+-- Performing Test QuadMath_COMPILES
+-- Performing Test QuadMath_COMPILES - Success
+-- Found QuadMath: (Supported by compiler)  
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found suitable version "3.1", minimum required is "3.0") 
+-- Found MPI: TRUE (found suitable version "3.1", minimum required is "3.0") found components: C 
+-- Found TBB: using configuration from TBB_DIR=/usr/local/lib/cmake/tbb-2021.8.0 (found version "2021.8.0")
+-- Could NOT find PTScotch (missing: SCOTCH_LIBRARY SCOTCHERR_LIBRARY SCOTCH_INCLUDE_DIR) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) (Required is at least version "4.0")
+-- Could NOT find Vc (missing: Vc_DIR)
+-- Found Python3: /WORK/hulm_work/ys/miniconda3/bin/python3 (found version "3.10.9") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python3: TRUE  
+-- Using existing virtualenv in /WORK/hulm_work/ys/miniconda3
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python: TRUE  
+-- Setting dune-common_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-common
+-- Setting dune-common_LIBRARIES=dunecommon
+-- Using scripts from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/scripts for creating doxygen stuff.
+-- using /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/Doxystyle to create doxystyle file
+-- using C macro definitions from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/doxygen-macros for Doxygen
+-- Adding custom target for config.h generation
+-- The following OPTIONAL packages have been found:
+
+ * LATEX
+ * Doxygen, Class documentation generator, <www.doxygen.org>
+   To generate the class documentation from C++ sources
+ * GMP, GNU multi-precision library, <https://gmplib.org>
+ * QuadMath, GCC Quad-Precision Math Library, <https://gcc.gnu.org/onlinedocs/libquadmath>
+ * Inkscape, converts SVG images, <www.inkscape.org>
+   To generate the documentation with LaTeX
+ * Threads, Multi-threading library
+ * TBB, Intel's Threading Building Blocks, <https://github.com/oneapi-src/oneTBB>
+ * MPI, Message Passing Interface library
+   Parallel programming on multiple processors
+ * Python3
+
+-- The following REQUIRED packages have been found:
+
+ * dune-common
+
+-- The following OPTIONAL packages have not been found:
+
+ * LatexMk
+ * Sphinx, Documentation generator, <www.sphinx-doc.org>
+   To generate the documentation from CMake and Python sources
+ * BLAS, fast linear algebra routines
+ * LAPACK, fast linear algebra routines
+ * PTScotch, Sequential and Parallel Graph Partitioning, <https://gitlab.inria.fr/scotch/scotch>
+ * METIS, Serial Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/metis/overview>
+ * ParMETIS (required version >= 4.0), Parallel Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview>
+ * Vc, C++ Vectorization library, <https://github.com/VcDevel/Vc>
+   For use of SIMD instructions
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DUNE_OPTS_FILE
+
+
+-- Build files have been written to: /tmp/hulm_g81_2d_build_16345621/stack/dune-geometry/build-cmake
+--- calling make for dune-geometry ---
+----- using default flags $MAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+build directory: build-cmake
+cmake --build . -- -j8
+[ 33%] Building CXX object CMakeFiles/dunegeometry.dir/dune/geometry/quadraturerules/quadraturerules.cc.o
+[ 66%] Building CXX object CMakeFiles/dunegeometry.dir/dune/geometry/referenceelementimplementation.cc.o
+[100%] Linking CXX static library lib/libdunegeometry.a
+[100%] Built target dunegeometry
+--- dune-geometry done ---
+--- calling all for dune-grid ---
+--- calling vcsetup for dune-grid ---
+--- calling cmake for dune-grid ---
+----- using default flags $CMAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+cmake   -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF "-Ddune-common_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-common/build-cmake" "-Ddune-geometry_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-geometry/build-cmake" "-Ddune-uggrid_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/build-cmake" -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF -DDUNE_OPTS_FILE=/tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts "/tmp/hulm_g81_2d_build_16345621/stack/dune-grid"
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /apps/compilers/gcc/v12.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/compilers/gcc/v12.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Dependencies for dune-grid: dune-geometry (>= 2.9)
+-- Suggestions for dune-grid: dune-uggrid (>=2.9)
+-- Dependencies for dune-geometry: dune-common (>= 2.9)
+-- Dependencies for dune-uggrid: dune-common (>= 2.9)
+-- Performing Test cxx_std_flag_17
+-- Performing Test cxx_std_flag_17 - Success
+-- Performing Test compiler_supports_cxx17
+-- Performing Test compiler_supports_cxx17 - Success
+-- Looking for std::experimental::make_array<int,int>
+-- Looking for std::experimental::make_array<int,int> - found
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>>
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>> - found
+-- Looking for std::identity
+-- Looking for std::identity - not found
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA - Failed
+-- Found LATEX: /usr/bin/latex   
+-- Could NOT find LatexMk (missing: LATEXMK_EXECUTABLE) 
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.5") found components: doxygen dot 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
+-- Performing tests for dune-common (from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/modules/DuneCommonMacros.cmake)
+-- Set Minimal Debug Level to 4
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- Could NOT find LAPACK (missing: LAPACK_LIBRARIES) 
+    Reason given by package: LAPACK could not be found because dependency BLAS could not be found.
+
+-- Found GMP: /usr/lib64/libgmpxx.so  
+-- Performing Test QuadMath_COMPILES
+-- Performing Test QuadMath_COMPILES - Success
+-- Found QuadMath: (Supported by compiler)  
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found suitable version "3.1", minimum required is "3.0") 
+-- Found MPI: TRUE (found suitable version "3.1", minimum required is "3.0") found components: C 
+-- Found TBB: using configuration from TBB_DIR=/usr/local/lib/cmake/tbb-2021.8.0 (found version "2021.8.0")
+-- Could NOT find PTScotch (missing: SCOTCH_LIBRARY SCOTCHERR_LIBRARY SCOTCH_INCLUDE_DIR) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) (Required is at least version "4.0")
+-- Could NOT find Vc (missing: Vc_DIR)
+-- Found Python3: /WORK/hulm_work/ys/miniconda3/bin/python3 (found version "3.10.9") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python3: TRUE  
+-- Using existing virtualenv in /WORK/hulm_work/ys/miniconda3
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python: TRUE  
+-- Setting dune-common_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-common
+-- Setting dune-common_LIBRARIES=dunecommon
+-- Performing tests for dune-uggrid (from /tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/cmake/modules/DuneUggridMacros.cmake)
+-- Setting dune-uggrid_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid
+-- Setting dune-uggrid_LIBRARIES=duneuggrid
+-- Setting dune-geometry_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-geometry
+-- Setting dune-geometry_LIBRARIES=dunegeometry
+-- Performing tests for dune-grid (from /tmp/hulm_g81_2d_build_16345621/stack/dune-grid/cmake/modules/DuneGridMacros.cmake)
+-- Looking for mkstemp
+-- Looking for mkstemp - found
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) 
+-- Checking for module 'alberta-grid_1d>=3.0'
+--   No package 'alberta-grid_1d' found
+-- Checking for module 'alberta-grid_2d>=3.0'
+--   No package 'alberta-grid_2d' found
+-- Checking for module 'alberta-grid_3d>=3.0'
+--   No package 'alberta-grid_3d' found
+-- Could NOT find Alberta (set PKG_CONFIG_PATH to include the location of the alberta-grid_[n]d.pc files) (missing: ALBERTA_GRID_PREFIX) (Required is at least version "3.0")
+-- Using scripts from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/scripts for creating doxygen stuff.
+-- using /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/Doxystyle to create doxystyle file
+-- using C macro definitions from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/doxygen-macros for Doxygen
+-- Adding custom target for config.h generation
+-- The following OPTIONAL packages have been found:
+
+ * dune-uggrid
+ * LATEX
+ * Doxygen, Class documentation generator, <www.doxygen.org>
+   To generate the class documentation from C++ sources
+ * GMP, GNU multi-precision library, <https://gmplib.org>
+ * QuadMath, GCC Quad-Precision Math Library, <https://gcc.gnu.org/onlinedocs/libquadmath>
+ * Inkscape, converts SVG images, <www.inkscape.org>
+   To generate the documentation with LaTeX
+ * Threads, Multi-threading library
+ * TBB, Intel's Threading Building Blocks, <https://github.com/oneapi-src/oneTBB>
+ * Python3
+ * MPI, Message Passing Interface library
+   Parallel programming on multiple processors
+ * PkgConfig, Unified interface for querying installed libraries
+   To find Dune module dependencies
+
+-- The following REQUIRED packages have been found:
+
+ * dune-common
+ * dune-geometry
+
+-- The following OPTIONAL packages have not been found:
+
+ * LatexMk
+ * Sphinx, Documentation generator, <www.sphinx-doc.org>
+   To generate the documentation from CMake and Python sources
+ * BLAS, fast linear algebra routines
+ * LAPACK, fast linear algebra routines
+ * PTScotch, Sequential and Parallel Graph Partitioning, <https://gitlab.inria.fr/scotch/scotch>
+ * Vc, C++ Vectorization library, <https://github.com/VcDevel/Vc>
+   For use of SIMD instructions
+ * METIS, Serial Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/metis/overview>
+ * ParMETIS, Parallel Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview>
+ * Alberta (required version >= 3.0), An adaptive hierarchical finite element toolbox and grid manager, <https://gitlab.com/alberta-fem/alberta3>
+   Provides the grid manager AlbertaGrid and file reader AlbertaReader
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DUNE_OPTS_FILE
+
+
+-- Build files have been written to: /tmp/hulm_g81_2d_build_16345621/stack/dune-grid/build-cmake
+--- calling make for dune-grid ---
+----- using default flags $MAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+build directory: build-cmake
+cmake --build . -- -j8
+[  5%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/basic.cc.o
+[  5%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/boundarydom.cc.o
+[ 10%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/boundaryseg.cc.o
+[ 15%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/cube.cc.o
+[ 20%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/dim.cc.o
+[ 25%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/gridparameter.cc.o
+[ 25%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/general.cc.o
+[ 30%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/interval.cc.o
+[ 35%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/periodicfacetrans.cc.o
+[ 35%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/projection.cc.o
+[ 40%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/simplex.cc.o
+[ 45%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/simplexgeneration.cc.o
+[ 50%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/blocks/vertex.cc.o
+[ 55%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/dgfparser.cc.o
+[ 55%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/io/file/dgfparser/dgfug.cc.o
+[ 60%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/onedgrid/onedgrid.cc.o
+[ 65%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/onedgrid/onedgridfactory.cc.o
+[ 70%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/onedgrid/nulliteratorfactory.cc.o
+[ 70%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/uggrid/uggridintersections.cc.o
+[ 75%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/uggrid/uggrid.cc.o
+[ 80%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/uggrid/uggridentity.cc.o
+[ 85%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/uggrid/boundaryextractor.cc.o
+[ 85%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/uggrid/uggridindexsets.cc.o
+[ 90%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/uggrid/uggridfactory.cc.o
+[ 95%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/uggrid/uggridgeometry.cc.o
+[100%] Building CXX object CMakeFiles/dunegrid.dir/dune/grid/uggrid/uggridhieriterator.cc.o
+[100%] Linking CXX static library lib/libdunegrid.a
+[100%] Built target dunegrid
+--- dune-grid done ---
+--- calling all for dune-localfunctions ---
+--- calling vcsetup for dune-localfunctions ---
+--- calling cmake for dune-localfunctions ---
+----- using default flags $CMAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+cmake   -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF "-Ddune-common_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-common/build-cmake" "-Ddune-geometry_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-geometry/build-cmake" -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF -DDUNE_OPTS_FILE=/tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts "/tmp/hulm_g81_2d_build_16345621/stack/dune-localfunctions"
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /apps/compilers/gcc/v12.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/compilers/gcc/v12.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Dependencies for dune-localfunctions: dune-geometry (>= 2.9)
+-- Dependencies for dune-geometry: dune-common (>= 2.9)
+-- Performing Test cxx_std_flag_17
+-- Performing Test cxx_std_flag_17 - Success
+-- Performing Test compiler_supports_cxx17
+-- Performing Test compiler_supports_cxx17 - Success
+-- Looking for std::experimental::make_array<int,int>
+-- Looking for std::experimental::make_array<int,int> - found
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>>
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>> - found
+-- Looking for std::identity
+-- Looking for std::identity - not found
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA - Failed
+-- Found LATEX: /usr/bin/latex   
+-- Could NOT find LatexMk (missing: LATEXMK_EXECUTABLE) 
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.5") found components: doxygen dot 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
+-- Performing tests for dune-common (from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/modules/DuneCommonMacros.cmake)
+-- Set Minimal Debug Level to 4
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- Could NOT find LAPACK (missing: LAPACK_LIBRARIES) 
+    Reason given by package: LAPACK could not be found because dependency BLAS could not be found.
+
+-- Found GMP: /usr/lib64/libgmpxx.so  
+-- Performing Test QuadMath_COMPILES
+-- Performing Test QuadMath_COMPILES - Success
+-- Found QuadMath: (Supported by compiler)  
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found suitable version "3.1", minimum required is "3.0") 
+-- Found MPI: TRUE (found suitable version "3.1", minimum required is "3.0") found components: C 
+-- Found TBB: using configuration from TBB_DIR=/usr/local/lib/cmake/tbb-2021.8.0 (found version "2021.8.0")
+-- Could NOT find PTScotch (missing: SCOTCH_LIBRARY SCOTCHERR_LIBRARY SCOTCH_INCLUDE_DIR) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) (Required is at least version "4.0")
+-- Could NOT find Vc (missing: Vc_DIR)
+-- Found Python3: /WORK/hulm_work/ys/miniconda3/bin/python3 (found version "3.10.9") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python3: TRUE  
+-- Using existing virtualenv in /WORK/hulm_work/ys/miniconda3
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python: TRUE  
+-- Setting dune-common_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-common
+-- Setting dune-common_LIBRARIES=dunecommon
+-- Setting dune-geometry_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-geometry
+-- Setting dune-geometry_LIBRARIES=dunegeometry
+-- Using scripts from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/scripts for creating doxygen stuff.
+-- using /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/Doxystyle to create doxystyle file
+-- using C macro definitions from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/doxygen-macros for Doxygen
+-- Adding custom target for config.h generation
+-- The following OPTIONAL packages have been found:
+
+ * LATEX
+ * Doxygen, Class documentation generator, <www.doxygen.org>
+   To generate the class documentation from C++ sources
+ * GMP, GNU multi-precision library, <https://gmplib.org>
+ * QuadMath, GCC Quad-Precision Math Library, <https://gcc.gnu.org/onlinedocs/libquadmath>
+ * Inkscape, converts SVG images, <www.inkscape.org>
+   To generate the documentation with LaTeX
+ * Threads, Multi-threading library
+ * TBB, Intel's Threading Building Blocks, <https://github.com/oneapi-src/oneTBB>
+ * MPI, Message Passing Interface library
+   Parallel programming on multiple processors
+ * Python3
+
+-- The following REQUIRED packages have been found:
+
+ * dune-common
+ * dune-geometry
+
+-- The following OPTIONAL packages have not been found:
+
+ * LatexMk
+ * Sphinx, Documentation generator, <www.sphinx-doc.org>
+   To generate the documentation from CMake and Python sources
+ * BLAS, fast linear algebra routines
+ * LAPACK, fast linear algebra routines
+ * PTScotch, Sequential and Parallel Graph Partitioning, <https://gitlab.inria.fr/scotch/scotch>
+ * METIS, Serial Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/metis/overview>
+ * ParMETIS (required version >= 4.0), Parallel Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview>
+ * Vc, C++ Vectorization library, <https://github.com/VcDevel/Vc>
+   For use of SIMD instructions
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DUNE_OPTS_FILE
+
+
+-- Build files have been written to: /tmp/hulm_g81_2d_build_16345621/stack/dune-localfunctions/build-cmake
+--- calling make for dune-localfunctions ---
+----- using default flags $MAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+build directory: build-cmake
+cmake --build . -- -j8
+--- dune-localfunctions done ---
+--- calling all for dune-istl ---
+--- calling vcsetup for dune-istl ---
+--- calling cmake for dune-istl ---
+----- using default flags $CMAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+cmake   -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF "-Ddune-common_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-common/build-cmake" -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF -DDUNE_OPTS_FILE=/tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts "/tmp/hulm_g81_2d_build_16345621/stack/dune-istl"
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /apps/compilers/gcc/v12.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/compilers/gcc/v12.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Dependencies for dune-istl: dune-common (>= 2.9)
+-- Performing Test cxx_std_flag_17
+-- Performing Test cxx_std_flag_17 - Success
+-- Performing Test compiler_supports_cxx17
+-- Performing Test compiler_supports_cxx17 - Success
+-- Looking for std::experimental::make_array<int,int>
+-- Looking for std::experimental::make_array<int,int> - found
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>>
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>> - found
+-- Looking for std::identity
+-- Looking for std::identity - not found
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA - Failed
+-- Found LATEX: /usr/bin/latex   
+-- Could NOT find LatexMk (missing: LATEXMK_EXECUTABLE) 
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.5") found components: doxygen dot 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
+-- Performing tests for dune-common (from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/modules/DuneCommonMacros.cmake)
+-- Set Minimal Debug Level to 4
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- Could NOT find LAPACK (missing: LAPACK_LIBRARIES) 
+    Reason given by package: LAPACK could not be found because dependency BLAS could not be found.
+
+-- Found GMP: /usr/lib64/libgmpxx.so  
+-- Performing Test QuadMath_COMPILES
+-- Performing Test QuadMath_COMPILES - Success
+-- Found QuadMath: (Supported by compiler)  
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found suitable version "3.1", minimum required is "3.0") 
+-- Found MPI: TRUE (found suitable version "3.1", minimum required is "3.0") found components: C 
+-- Found TBB: using configuration from TBB_DIR=/usr/local/lib/cmake/tbb-2021.8.0 (found version "2021.8.0")
+-- Could NOT find PTScotch (missing: SCOTCH_LIBRARY SCOTCHERR_LIBRARY SCOTCH_INCLUDE_DIR) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) (Required is at least version "4.0")
+-- Could NOT find Vc (missing: Vc_DIR)
+-- Found Python3: /WORK/hulm_work/ys/miniconda3/bin/python3 (found version "3.10.9") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python3: TRUE  
+-- Using existing virtualenv in /WORK/hulm_work/ys/miniconda3
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python: TRUE  
+-- Setting dune-common_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-common
+-- Setting dune-common_LIBRARIES=dunecommon
+-- Performing tests for dune-istl (from /tmp/hulm_g81_2d_build_16345621/stack/dune-istl/cmake/modules/DuneIstlMacros.cmake)
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) 
+-- Could NOT find SuperLU (missing: SUPERLU_LIBRARY SUPERLU_INCLUDE_DIR SLU_UTIL_HEADER BLAS_FOUND) (Required is at least version "5.0")
+-- Could NOT find ARPACK (missing: ARPACK_LIBRARY) 
+-- Could NOT find ARPACKPP (missing: ARPACK_FOUND ARPACKPP_INCLUDE_DIR) 
+-- Could NOT find SuiteSparse (missing: BLAS_FOUND) (found version "7.7.0")
+-- Using scripts from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/scripts for creating doxygen stuff.
+-- using /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/Doxystyle to create doxystyle file
+-- using C macro definitions from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/doxygen-macros for Doxygen
+-- Adding custom target for config.h generation
+-- The following OPTIONAL packages have been found:
+
+ * LATEX
+ * Doxygen, Class documentation generator, <www.doxygen.org>
+   To generate the class documentation from C++ sources
+ * GMP, GNU multi-precision library, <https://gmplib.org>
+ * QuadMath, GCC Quad-Precision Math Library, <https://gcc.gnu.org/onlinedocs/libquadmath>
+ * Inkscape, converts SVG images, <www.inkscape.org>
+   To generate the documentation with LaTeX
+ * TBB, Intel's Threading Building Blocks, <https://github.com/oneapi-src/oneTBB>
+ * Python3
+ * MPI, Message Passing Interface library
+   Parallel programming on multiple processors
+ * Threads, Multi-threading library
+
+-- The following REQUIRED packages have been found:
+
+ * dune-common
+
+-- The following OPTIONAL packages have not been found:
+
+ * LatexMk
+ * Sphinx, Documentation generator, <www.sphinx-doc.org>
+   To generate the documentation from CMake and Python sources
+ * PTScotch, Sequential and Parallel Graph Partitioning, <https://gitlab.inria.fr/scotch/scotch>
+ * Vc, C++ Vectorization library, <https://github.com/VcDevel/Vc>
+   For use of SIMD instructions
+ * METIS, Serial Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/metis/overview>
+ * ParMETIS, Parallel Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview>
+ * SuperLU (required version >= 5.0), Supernodal LU
+   Direct solver for linear system, based on LU decomposition
+ * ARPACK, ARnoldi PACKage
+   Solve large scale eigenvalue problems
+ * ARPACKPP, ARPACK++
+   C++ interface for ARPACK
+ * SuiteSparse, A suite of sparse matrix software, <http://faculty.cse.tamu.edu/davis/suitesparse.html>
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DUNE_OPTS_FILE
+
+
+-- Build files have been written to: /tmp/hulm_g81_2d_build_16345621/stack/dune-istl/build-cmake
+--- calling make for dune-istl ---
+----- using default flags $MAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+build directory: build-cmake
+cmake --build . -- -j8
+--- dune-istl done ---
+--- calling all for dumux ---
+--- calling vcsetup for dumux ---
+--- calling cmake for dumux ---
+----- using default flags $CMAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+cmake   -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF "-Ddune-common_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-common/build-cmake" "-Ddune-geometry_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-geometry/build-cmake" "-Ddune-uggrid_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/build-cmake" "-Ddune-grid_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-grid/build-cmake" "-Ddune-localfunctions_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-localfunctions/build-cmake" "-Ddune-istl_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-istl/build-cmake" -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF -DDUNE_OPTS_FILE=/tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts "/tmp/hulm_g81_2d_build_16345621/stack/dumux"
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /apps/compilers/gcc/v12.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/compilers/gcc/v12.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Dependencies for dumux: dune-common (>=2.9);dune-grid (>=2.9);dune-localfunctions (>=2.9);dune-istl (>=2.9)
+-- Suggestions for dumux: dune-alugrid (>=2.9);dune-foamgrid (>=2.9);dune-uggrid (>=2.9);dune-functions (>=2.9);opm-common;opm-grid;dune-subgrid (>=2.9);dune-spgrid (>=2.9);dune-mmesh (>=1.4)
+-- Dependencies for dune-grid: dune-geometry (>= 2.9)
+-- Suggestions for dune-grid: dune-uggrid (>=2.9)
+-- Dependencies for dune-localfunctions: dune-geometry (>= 2.9)
+-- Dependencies for dune-istl: dune-common (>= 2.9)
+-- Could NOT find dune-alugrid (missing: dune-alugrid_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
+-- Checking for module 'dune-alugrid>=2.9'
+--   No package 'dune-alugrid' found
+-- Could NOT find dune-foamgrid (missing: dune-foamgrid_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'dune-foamgrid>=2.9'
+--   No package 'dune-foamgrid' found
+-- Dependencies for dune-uggrid: dune-common (>= 2.9)
+-- Could NOT find dune-functions (missing: dune-functions_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'dune-functions>=2.9'
+--   No package 'dune-functions' found
+-- Could NOT find opm-common (missing: opm-common_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'opm-common '
+--   No package 'opm-common' found
+-- Could NOT find opm-grid (missing: opm-grid_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'opm-grid '
+--   No package 'opm-grid' found
+-- Could NOT find dune-subgrid (missing: dune-subgrid_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'dune-subgrid>=2.9'
+--   No package 'dune-subgrid' found
+-- Could NOT find dune-spgrid (missing: dune-spgrid_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'dune-spgrid>=2.9'
+--   No package 'dune-spgrid' found
+-- Could NOT find dune-mmesh (missing: dune-mmesh_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'dune-mmesh>=1.4'
+--   No package 'dune-mmesh' found
+-- Dependencies for dune-geometry: dune-common (>= 2.9)
+-- Dependencies for dune-uggrid: dune-common (>= 2.9)
+-- Performing Test cxx_std_flag_17
+-- Performing Test cxx_std_flag_17 - Success
+-- Performing Test compiler_supports_cxx17
+-- Performing Test compiler_supports_cxx17 - Success
+-- Looking for std::experimental::make_array<int,int>
+-- Looking for std::experimental::make_array<int,int> - found
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>>
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>> - found
+-- Looking for std::identity
+-- Looking for std::identity - not found
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA - Failed
+-- Found LATEX: /usr/bin/latex   
+-- Could NOT find LatexMk (missing: LATEXMK_EXECUTABLE) 
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.5") found components: doxygen dot 
+-- Performing tests for dune-common (from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/modules/DuneCommonMacros.cmake)
+-- Set Minimal Debug Level to 4
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- Could NOT find LAPACK (missing: LAPACK_LIBRARIES) 
+    Reason given by package: LAPACK could not be found because dependency BLAS could not be found.
+
+-- Found GMP: /usr/lib64/libgmpxx.so  
+-- Performing Test QuadMath_COMPILES
+-- Performing Test QuadMath_COMPILES - Success
+-- Found QuadMath: (Supported by compiler)  
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found suitable version "3.1", minimum required is "3.0") 
+-- Found MPI: TRUE (found suitable version "3.1", minimum required is "3.0") found components: C 
+-- Found TBB: using configuration from TBB_DIR=/usr/local/lib/cmake/tbb-2021.8.0 (found version "2021.8.0")
+-- Could NOT find PTScotch (missing: SCOTCH_LIBRARY SCOTCHERR_LIBRARY SCOTCH_INCLUDE_DIR) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) (Required is at least version "4.0")
+-- Could NOT find Vc (missing: Vc_DIR)
+-- Found Python3: /WORK/hulm_work/ys/miniconda3/bin/python3 (found version "3.10.9") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python3: TRUE  
+-- Using existing virtualenv in /WORK/hulm_work/ys/miniconda3
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python: TRUE  
+-- Setting dune-common_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-common
+-- Setting dune-common_LIBRARIES=dunecommon
+-- Performing tests for dune-uggrid (from /tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/cmake/modules/DuneUggridMacros.cmake)
+-- Setting dune-uggrid_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid
+-- Setting dune-uggrid_LIBRARIES=duneuggrid
+-- Setting dune-geometry_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-geometry
+-- Setting dune-geometry_LIBRARIES=dunegeometry
+-- Performing tests for dune-istl (from /tmp/hulm_g81_2d_build_16345621/stack/dune-istl/cmake/modules/DuneIstlMacros.cmake)
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) 
+-- Could NOT find SuperLU (missing: SUPERLU_LIBRARY SUPERLU_INCLUDE_DIR SLU_UTIL_HEADER BLAS_FOUND) (Required is at least version "5.0")
+-- Could NOT find ARPACK (missing: ARPACK_LIBRARY) 
+-- Could NOT find ARPACKPP (missing: ARPACK_FOUND ARPACKPP_INCLUDE_DIR) 
+-- Could NOT find SuiteSparse (missing: BLAS_FOUND) (found version "7.7.0")
+-- Setting dune-istl_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-istl
+-- Setting dune-localfunctions_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-localfunctions
+-- Performing tests for dune-grid (from /tmp/hulm_g81_2d_build_16345621/stack/dune-grid/cmake/modules/DuneGridMacros.cmake)
+-- Looking for mkstemp
+-- Looking for mkstemp - found
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) 
+-- Checking for module 'alberta-grid_1d>=3.0'
+--   No package 'alberta-grid_1d' found
+-- Checking for module 'alberta-grid_2d>=3.0'
+--   No package 'alberta-grid_2d' found
+-- Checking for module 'alberta-grid_3d>=3.0'
+--   No package 'alberta-grid_3d' found
+-- Could NOT find Alberta (set PKG_CONFIG_PATH to include the location of the alberta-grid_[n]d.pc files) (missing: ALBERTA_GRID_PREFIX) (Required is at least version "3.0")
+-- Setting dune-grid_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-grid
+-- Setting dune-grid_LIBRARIES=dunegrid
+-- Performing tests for dumux (from /tmp/hulm_g81_2d_build_16345621/stack/dumux/cmake/modules/DumuxMacros.cmake)
+-- Looking for __cpp_lib_format
+-- Looking for __cpp_lib_format - not found
+-- Found TBB: using configuration from TBB_DIR=/usr/local/lib/cmake/tbb-2021.8.0 (found version "2021.8.0")
+-- Looking for std::execution::par_unseq
+-- Looking for std::execution::par_unseq - not found
+-- Dumux multithreading backed: TBB
+-- Using scripts from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/scripts for creating doxygen stuff.
+-- using /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/Doxystyle to create doxystyle file
+-- using C macro definitions from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/doxygen-macros for Doxygen
+-- Adding custom target for config.h generation
+-- The following OPTIONAL packages have been found:
+
+ * dune-uggrid
+ * LATEX
+ * Doxygen, Class documentation generator, <www.doxygen.org>
+   To generate the class documentation from C++ sources
+ * GMP, GNU multi-precision library, <https://gmplib.org>
+ * QuadMath, GCC Quad-Precision Math Library, <https://gcc.gnu.org/onlinedocs/libquadmath>
+ * Inkscape, converts SVG images, <www.inkscape.org>
+   To generate the documentation with LaTeX
+ * Python3
+ * Threads, Multi-threading library
+ * TBB, Intel's Threading Building Blocks, <https://github.com/oneapi-src/oneTBB>
+
+-- The following REQUIRED packages have been found:
+
+ * dune-common
+ * dune-grid
+ * dune-localfunctions
+ * dune-istl
+ * dune-geometry
+
+-- The following OPTIONAL packages have not been found:
+
+ * dune-alugrid
+ * dune-foamgrid
+ * dune-functions
+ * opm-common
+ * opm-grid
+ * dune-subgrid
+ * dune-spgrid
+ * dune-mmesh
+ * LatexMk
+ * Sphinx, Documentation generator, <www.sphinx-doc.org>
+   To generate the documentation from CMake and Python sources
+ * Vc, C++ Vectorization library, <https://github.com/VcDevel/Vc>
+   For use of SIMD instructions
+ * SuperLU (required version >= 5.0), Supernodal LU
+   Direct solver for linear system, based on LU decomposition
+ * ARPACK, ARnoldi PACKage
+   Solve large scale eigenvalue problems
+ * ARPACKPP, ARPACK++
+   C++ interface for ARPACK
+ * SuiteSparse, A suite of sparse matrix software, <http://faculty.cse.tamu.edu/davis/suitesparse.html>
+ * METIS, Serial Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/metis/overview>
+ * ParMETIS, Parallel Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview>
+ * Alberta (required version >= 3.0), An adaptive hierarchical finite element toolbox and grid manager, <https://gitlab.com/alberta-fem/alberta3>
+   Provides the grid manager AlbertaGrid and file reader AlbertaReader
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DUNE_OPTS_FILE
+
+
+-- Build files have been written to: /tmp/hulm_g81_2d_build_16345621/stack/dumux/build-cmake
+--- calling make for dumux ---
+----- using default flags $MAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+build directory: build-cmake
+cmake --build . -- -j8
+Building CXX object CMakeFiles/dumux.dir/lib/libdumux_stub.cc.o
+Building CXX object CMakeFiles/dumux.dir/dumux/common/parameters.cc.o
+Linking CXX static library lib/libdumux.a
+Built target dumux
+Building CXX object CMakeFiles/dumux_fmt.dir/lib/libdumux_fmt_stub.cc.o
+Building CXX object CMakeFiles/dumux_fmt.dir/dumux/io/format/fmt/format.cc.o
+Linking CXX static library lib/libdumux_fmt.a
+Built target dumux_fmt
+--- dumux done ---
+--- calling all for kiemle2025a ---
+--- calling vcsetup for kiemle2025a ---
+--- calling cmake for kiemle2025a ---
+----- using default flags $CMAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+cmake   -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF "-Ddune-common_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-common/build-cmake" "-Ddune-geometry_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-geometry/build-cmake" "-Ddune-uggrid_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/build-cmake" "-Ddune-grid_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-grid/build-cmake" "-Ddune-localfunctions_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-localfunctions/build-cmake" "-Ddune-istl_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dune-istl/build-cmake" "-Ddumux_DIR=/tmp/hulm_g81_2d_build_16345621/stack/dumux/build-cmake" -DCMAKE_C_COMPILER=/apps/compilers/gcc/v12.2.0/bin/gcc -DCMAKE_CXX_COMPILER=/apps/compilers/gcc/v12.2.0/bin/g++ -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -march=x86-64-v3 -DNONISOTHERMAL=1 -DModelP -DREDUCEDOUTPUT=1' -DDUNE_ENABLE_PYTHONBINDINGS=OFF -DDUNE_OPTS_FILE=/tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts "/tmp/hulm_g81_2d_build_16345621/stack/kiemle2025a"
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/compilers/gcc/v12.2.0/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /apps/compilers/gcc/v12.2.0/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Dependencies for kiemle2025a: dune-common;dune-geometry;dune-grid;dune-localfunctions;dune-istl;dumux
+-- Dependencies for dune-geometry: dune-common (>= 2.9)
+-- Dependencies for dune-grid: dune-geometry (>= 2.9)
+-- Suggestions for dune-grid: dune-uggrid (>=2.9)
+-- Dependencies for dune-localfunctions: dune-geometry (>= 2.9)
+-- Dependencies for dune-istl: dune-common (>= 2.9)
+-- Dependencies for dumux: dune-common (>=2.9);dune-grid (>=2.9);dune-localfunctions (>=2.9);dune-istl (>=2.9)
+-- Suggestions for dumux: dune-alugrid (>=2.9);dune-foamgrid (>=2.9);dune-uggrid (>=2.9);dune-functions (>=2.9);opm-common;opm-grid;dune-subgrid (>=2.9);dune-spgrid (>=2.9);dune-mmesh (>=1.4)
+-- Dependencies for dune-grid: dune-geometry (>= 2.9)
+-- Suggestions for dune-grid: dune-uggrid (>=2.9)
+-- Dependencies for dune-localfunctions: dune-geometry (>= 2.9)
+-- Dependencies for dune-istl: dune-common (>= 2.9)
+-- Dependencies for dune-geometry: dune-common (>= 2.9)
+-- Could NOT find dune-alugrid (missing: dune-alugrid_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.27.1") 
+-- Checking for module 'dune-alugrid>=2.9'
+--   No package 'dune-alugrid' found
+-- Could NOT find dune-foamgrid (missing: dune-foamgrid_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'dune-foamgrid>=2.9'
+--   No package 'dune-foamgrid' found
+-- Dependencies for dune-uggrid: dune-common (>= 2.9)
+-- Could NOT find dune-functions (missing: dune-functions_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'dune-functions>=2.9'
+--   No package 'dune-functions' found
+-- Could NOT find opm-common (missing: opm-common_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'opm-common '
+--   No package 'opm-common' found
+-- Could NOT find opm-grid (missing: opm-grid_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'opm-grid '
+--   No package 'opm-grid' found
+-- Could NOT find dune-subgrid (missing: dune-subgrid_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'dune-subgrid>=2.9'
+--   No package 'dune-subgrid' found
+-- Could NOT find dune-spgrid (missing: dune-spgrid_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'dune-spgrid>=2.9'
+--   No package 'dune-spgrid' found
+-- Could NOT find dune-mmesh (missing: dune-mmesh_DIR)
+-- No full CMake package configuration support available. Falling back to pkg-config.
+-- Checking for module 'dune-mmesh>=1.4'
+--   No package 'dune-mmesh' found
+-- Dependencies for dune-geometry: dune-common (>= 2.9)
+-- Dependencies for dune-uggrid: dune-common (>= 2.9)
+-- Performing Test cxx_std_flag_17
+-- Performing Test cxx_std_flag_17 - Success
+-- Performing Test compiler_supports_cxx17
+-- Performing Test compiler_supports_cxx17 - Success
+-- Looking for std::experimental::make_array<int,int>
+-- Looking for std::experimental::make_array<int,int> - found
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>>
+-- Looking for std::move<std::experimental::detected_t<std::decay_t,int>> - found
+-- Looking for std::identity
+-- Looking for std::identity - not found
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA
+-- Performing Test DUNE_HAVE_CXX_UNEVALUATED_CONTEXT_LAMBDA - Failed
+-- Found LATEX: /usr/bin/latex   
+-- Could NOT find LatexMk (missing: LATEXMK_EXECUTABLE) 
+-- Could NOT find Sphinx (missing: SPHINX_EXECUTABLE) 
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.5") found components: doxygen dot 
+-- Performing tests for dune-common (from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/modules/DuneCommonMacros.cmake)
+-- Set Minimal Debug Level to 4
+-- Looking for sgemm_
+-- Looking for sgemm_ - not found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Could NOT find BLAS (missing: BLAS_LIBRARIES) 
+-- Could NOT find LAPACK (missing: LAPACK_LIBRARIES) 
+    Reason given by package: LAPACK could not be found because dependency BLAS could not be found.
+
+-- Found GMP: /usr/lib64/libgmpxx.so  
+-- Performing Test QuadMath_COMPILES
+-- Performing Test QuadMath_COMPILES - Success
+-- Found QuadMath: (Supported by compiler)  
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found suitable version "3.1", minimum required is "3.0") 
+-- Found MPI: TRUE (found suitable version "3.1", minimum required is "3.0") found components: C 
+-- Found TBB: using configuration from TBB_DIR=/usr/local/lib/cmake/tbb-2021.8.0 (found version "2021.8.0")
+-- Could NOT find PTScotch (missing: SCOTCH_LIBRARY SCOTCHERR_LIBRARY SCOTCH_INCLUDE_DIR) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Found MPI_C: /apps/mpi/openmpi-4.1.4.-gcc12/lib/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) (Required is at least version "4.0")
+-- Could NOT find Vc (missing: Vc_DIR)
+-- Found Python3: /WORK/hulm_work/ys/miniconda3/bin/python3 (found version "3.10.9") found components: Interpreter Development Development.Module Development.Embed 
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python3: TRUE  
+-- Using existing virtualenv in /WORK/hulm_work/ys/miniconda3
+-- Found pip_/WORK/hulm_work/ys/miniconda3/bin/python: TRUE  
+-- Setting dune-common_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-common
+-- Setting dune-common_LIBRARIES=dunecommon
+-- Performing tests for dune-uggrid (from /tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid/cmake/modules/DuneUggridMacros.cmake)
+-- Setting dune-uggrid_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-uggrid
+-- Setting dune-uggrid_LIBRARIES=duneuggrid
+-- Setting dune-geometry_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-geometry
+-- Setting dune-geometry_LIBRARIES=dunegeometry
+-- Performing tests for dune-istl (from /tmp/hulm_g81_2d_build_16345621/stack/dune-istl/cmake/modules/DuneIstlMacros.cmake)
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) 
+-- Could NOT find SuperLU (missing: SUPERLU_LIBRARY SUPERLU_INCLUDE_DIR SLU_UTIL_HEADER BLAS_FOUND) (Required is at least version "5.0")
+-- Could NOT find ARPACK (missing: ARPACK_LIBRARY) 
+-- Could NOT find ARPACKPP (missing: ARPACK_FOUND ARPACKPP_INCLUDE_DIR) 
+-- Could NOT find SuiteSparse (missing: BLAS_FOUND) (found version "7.7.0")
+-- Setting dune-istl_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-istl
+-- Setting dune-localfunctions_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-localfunctions
+-- Performing tests for dune-grid (from /tmp/hulm_g81_2d_build_16345621/stack/dune-grid/cmake/modules/DuneGridMacros.cmake)
+-- Looking for mkstemp
+-- Looking for mkstemp - found
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find METIS (missing: METIS_LIBRARY METIS_INCLUDE_DIR METIS_API_VERSION) 
+-- Could NOT find ParMETIS (missing: PARMETIS_LIBRARY PARMETIS_INCLUDE_DIR METIS_FOUND) 
+-- Checking for module 'alberta-grid_1d>=3.0'
+--   No package 'alberta-grid_1d' found
+-- Checking for module 'alberta-grid_2d>=3.0'
+--   No package 'alberta-grid_2d' found
+-- Checking for module 'alberta-grid_3d>=3.0'
+--   No package 'alberta-grid_3d' found
+-- Could NOT find Alberta (set PKG_CONFIG_PATH to include the location of the alberta-grid_[n]d.pc files) (missing: ALBERTA_GRID_PREFIX) (Required is at least version "3.0")
+-- Setting dune-grid_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dune-grid
+-- Setting dune-grid_LIBRARIES=dunegrid
+-- Performing tests for dumux (from /tmp/hulm_g81_2d_build_16345621/stack/dumux/cmake/modules/DumuxMacros.cmake)
+-- Looking for __cpp_lib_format
+-- Looking for __cpp_lib_format - not found
+-- Found TBB: using configuration from TBB_DIR=/usr/local/lib/cmake/tbb-2021.8.0 (found version "2021.8.0")
+-- Looking for std::execution::par_unseq
+-- Looking for std::execution::par_unseq - not found
+-- Dumux multithreading backed: TBB
+-- Setting dumux_INCLUDE_DIRS=/tmp/hulm_g81_2d_build_16345621/stack/dumux
+-- Setting dumux_LIBRARIES=dumux;dumux_fmt
+-- Performing tests for kiemle2025a (from /tmp/hulm_g81_2d_build_16345621/stack/kiemle2025a/cmake/modules/Kiemle2025aMacros.cmake)
+-- Using scripts from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/cmake/scripts for creating doxygen stuff.
+-- using /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/Doxystyle to create doxystyle file
+-- using C macro definitions from /tmp/hulm_g81_2d_build_16345621/stack/dune-common/doc/doxygen/doxygen-macros for Doxygen
+-- Adding custom target for config.h generation
+-- The following OPTIONAL packages have been found:
+
+ * dune-uggrid
+ * LATEX
+ * Doxygen, Class documentation generator, <www.doxygen.org>
+   To generate the class documentation from C++ sources
+ * GMP, GNU multi-precision library, <https://gmplib.org>
+ * QuadMath, GCC Quad-Precision Math Library, <https://gcc.gnu.org/onlinedocs/libquadmath>
+ * Inkscape, converts SVG images, <www.inkscape.org>
+   To generate the documentation with LaTeX
+ * Python3
+ * Threads, Multi-threading library
+ * TBB, Intel's Threading Building Blocks, <https://github.com/oneapi-src/oneTBB>
+
+-- The following REQUIRED packages have been found:
+
+ * dune-common
+ * dune-geometry
+ * dune-grid
+ * dune-localfunctions
+ * dune-istl
+ * dumux
+
+-- The following OPTIONAL packages have not been found:
+
+ * dune-alugrid
+ * dune-foamgrid
+ * dune-functions
+ * opm-common
+ * opm-grid
+ * dune-subgrid
+ * dune-spgrid
+ * dune-mmesh
+ * LatexMk
+ * Sphinx, Documentation generator, <www.sphinx-doc.org>
+   To generate the documentation from CMake and Python sources
+ * Vc, C++ Vectorization library, <https://github.com/VcDevel/Vc>
+   For use of SIMD instructions
+ * SuperLU (required version >= 5.0), Supernodal LU
+   Direct solver for linear system, based on LU decomposition
+ * ARPACK, ARnoldi PACKage
+   Solve large scale eigenvalue problems
+ * ARPACKPP, ARPACK++
+   C++ interface for ARPACK
+ * SuiteSparse, A suite of sparse matrix software, <http://faculty.cse.tamu.edu/davis/suitesparse.html>
+ * METIS, Serial Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/metis/overview>
+ * ParMETIS, Parallel Graph Partitioning, <http://glaros.dtc.umn.edu/gkhome/metis/parmetis/overview>
+ * Alberta (required version >= 3.0), An adaptive hierarchical finite element toolbox and grid manager, <https://gitlab.com/alberta-fem/alberta3>
+   Provides the grid manager AlbertaGrid and file reader AlbertaReader
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    DUNE_OPTS_FILE
+
+
+-- Build files have been written to: /tmp/hulm_g81_2d_build_16345621/stack/kiemle2025a/build-cmake
+--- calling make for kiemle2025a ---
+----- using default flags $MAKE_FLAGS from /tmp/hulm_g81_2d_build_16345621/stack/hpcc.opts -----
+build directory: build-cmake
+cmake --build . -- -j8
+[ 50%] Building CXX object src/CMakeFiles/kiemle2025a.dir/kiemle2025a.cc.o
+[100%] Linking CXX executable kiemle2025a
+[100%] Built target kiemle2025a
+--- kiemle2025a done ---
+--- done ---
+[ 50%] Building CXX object appl/CMakeFiles/test_stability_2pncmin_BC_analysis_tpfa.dir/main.cc.o
+In file included from /tmp/hulm_g81_2d_build_16345621/stack/kiemle2025a/appl/properties.hh:36,
+                 from /tmp/hulm_g81_2d_build_16345621/stack/kiemle2025a/appl/main.cc:10:
+/tmp/hulm_g81_2d_build_16345621/stack/dumux/dumux/porousmediumflow/2pnc/volumevariables.hh:31:10: fatal error: phase_equilibrium.hh: No such file or directory
+   31 | #include "phase_equilibrium.hh"
+      |          ^~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[3]: *** [appl/CMakeFiles/test_stability_2pncmin_BC_analysis_tpfa.dir/main.cc.o] Error 1
+gmake[2]: *** [appl/CMakeFiles/test_stability_2pncmin_BC_analysis_tpfa.dir/all] Error 2
+gmake[1]: *** [appl/CMakeFiles/test_stability_2pncmin_BC_analysis_tpfa.dir/rule] Error 2
+gmake: *** [test_stability_2pncmin_BC_analysis_tpfa] Error 2

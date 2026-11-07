@@ -1,0 +1,118 @@
+{
+  "primary": {
+    "width_m": 0.039269908169872414,
+    "half_width_m": 0.019634954084936207,
+    "extrusion_m": 0.05,
+    "equivalent_inlet_width_m": 0.0002513274122871834,
+    "sand_volume_m3": 7.853981633974484e-05,
+    "top_area_m2": 0.001963495408493621,
+    "direct_interface_area_m2": 0.002
+  },
+  "sensitivity_50mm": {
+    "width_m": 0.05,
+    "extrusion_m": 0.039269908169872414,
+    "equivalent_inlet_width_m": 0.00031999999999999997,
+    "direct_interface_area_m2": 0.0015707963267948967
+  },
+  "meshes": {
+    "primary_sand.msh": {
+      "nodes": 4223,
+      "cells": 4080,
+      "x_cells": 102,
+      "y_cells": 40,
+      "width_m": 0.039269908169872414,
+      "extrusion_m": 0.05,
+      "inlet_width_m": 0.0002513274122871834,
+      "top_area_m2": 0.001963495408493621,
+      "sand_volume_m3": 7.853981633974484e-05,
+      "direct_interface_area_m2": 0.002
+    },
+    "primary_sand_refined.msh": {
+      "nodes": 16443,
+      "cells": 16160,
+      "x_cells": 202,
+      "y_cells": 80,
+      "width_m": 0.039269908169872414,
+      "extrusion_m": 0.05,
+      "inlet_width_m": 0.0002513274122871834,
+      "top_area_m2": 0.001963495408493621,
+      "sand_volume_m3": 7.853981633974484e-05,
+      "direct_interface_area_m2": 0.002
+    },
+    "primary_filter.msh": {
+      "nodes": 4841,
+      "cells": 4692,
+      "x_cells": 102,
+      "y_cells": 46,
+      "width_m": 0.039269908169872414,
+      "extrusion_m": 0.05,
+      "inlet_width_m": 0.0002513274122871834,
+      "top_area_m2": 0.001963495408493621,
+      "sand_volume_m3": 7.853981633974484e-05,
+      "direct_interface_area_m2": 0.002
+    },
+    "primary_filter_refined.msh": {
+      "nodes": 17661,
+      "cells": 17372,
+      "x_cells": 202,
+      "y_cells": 86,
+      "width_m": 0.039269908169872414,
+      "extrusion_m": 0.05,
+      "inlet_width_m": 0.0002513274122871834,
+      "top_area_m2": 0.001963495408493621,
+      "sand_volume_m3": 7.853981633974484e-05,
+      "direct_interface_area_m2": 0.002
+    },
+    "sensitivity50_sand.msh": {
+      "nodes": 4223,
+      "cells": 4080,
+      "x_cells": 102,
+      "y_cells": 40,
+      "width_m": 0.05,
+      "extrusion_m": 0.039269908169872414,
+      "inlet_width_m": 0.00031999999999999997,
+      "top_area_m2": 0.001963495408493621,
+      "sand_volume_m3": 7.853981633974484e-05,
+      "direct_interface_area_m2": 0.0015707963267948967
+    },
+    "sensitivity50_sand_refined.msh": {
+      "nodes": 16443,
+      "cells": 16160,
+      "x_cells": 202,
+      "y_cells": 80,
+      "width_m": 0.05,
+      "extrusion_m": 0.039269908169872414,
+      "inlet_width_m": 0.00031999999999999997,
+      "top_area_m2": 0.001963495408493621,
+      "sand_volume_m3": 7.853981633974484e-05,
+      "direct_interface_area_m2": 0.0015707963267948967
+    },
+    "sensitivity50_filter.msh": {
+      "nodes": 4841,
+      "cells": 4692,
+      "x_cells": 102,
+      "y_cells": 46,
+      "width_m": 0.05,
+      "extrusion_m": 0.039269908169872414,
+      "inlet_width_m": 0.00031999999999999997,
+      "top_area_m2": 0.001963495408493621,
+      "sand_volume_m3": 7.853981633974484e-05,
+      "direct_interface_area_m2": 0.0015707963267948967
+    },
+    "sensitivity50_filter_refined.msh": {
+      "nodes": 17661,
+      "cells": 17372,
+      "x_cells": 202,
+      "y_cells": 86,
+      "width_m": 0.05,
+      "extrusion_m": 0.039269908169872414,
+      "inlet_width_m": 0.00031999999999999997,
+      "top_area_m2": 0.001963495408493621,
+      "sand_volume_m3": 7.853981633974484e-05,
+      "direct_interface_area_m2": 0.0015707963267948967
+    }
+  },
+  "unique_physical_combinations": 15,
+  "unique_B1_cases": 30,
+  "registered_core_cases": 32
+}

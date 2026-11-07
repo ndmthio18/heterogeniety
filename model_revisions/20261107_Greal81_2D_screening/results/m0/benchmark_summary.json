@@ -1,0 +1,39 @@
+{
+  "case": "Configuration B reference, 2 h pre-equilibration plus 4 h evaporation",
+  "endpoint_total_s": 21600.0,
+  "solver_sha256": "9cec97585b65401943263e767bbb92765870eb6aa61946e119171d27ad251ca2",
+  "runs": [
+    {
+      "threads": 1,
+      "job_id": "16345684",
+      "node": "ibc11b11n19",
+      "wall_s": 579.32,
+      "max_rss_kib": 162528,
+      "speedup_vs_1": 1.0,
+      "parallel_efficiency": 1.0
+    },
+    {
+      "threads": 2,
+      "job_id": "16345685",
+      "node": "ibc12b11n03",
+      "wall_s": 444.38,
+      "max_rss_kib": 171100,
+      "speedup_vs_1": 1.3036572302983933,
+      "parallel_efficiency": 0.6518286151491966
+    },
+    {
+      "threads": 4,
+      "job_id": "16345686",
+      "node": "ibc12b11n16",
+      "wall_s": 495.98,
+      "max_rss_kib": 162740,
+      "speedup_vs_1": 1.1680334700996007,
+      "parallel_efficiency": 0.29200836752490017
+    }
+  ],
+  "selection": {
+    "threads_per_case": 1,
+    "max_initial_concurrent_cases": 8,
+    "reason": "Two threads reduced single-case latency but had only 0.652 efficiency; four threads were slower than two. Independent one-thread cases maximize aggregate screening throughput and minimize allocation waste. Node-to-node variability is retained as a limitation."
+  }
+}

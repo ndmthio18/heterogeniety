@@ -1,0 +1,5 @@
+job_id=16345643
+host=ibc11b11n01
+stack_archive_sha256=2a29d942b87c157eb0bd58dd35577c1088932a048411e069837bf36b80cad684
+compiler=g++ (GCC) 12.2.0
+cmake=cmake version 3.25.2
